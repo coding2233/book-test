@@ -2128,6 +2128,305 @@ proxies:
     path: /v2us01
 - alterId: 0
   cipher: auto
+  name: 瑞士 001
+  network: tcp
+  port: 47182
+  server: 94.131.99.8
+  skip-cert-verify: true
+  type: vmess
+  uuid: 81b2b630-8b6a-404f-b996-b12f13db5786
+- alterId: 64
+  cipher: auto
+  name: 美国 051
+  network: ws
+  port: 36000
+  server: 38.173.197.29
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.23602249.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 052
+  network: ws
+  port: 30000
+  server: 148.135.31.52
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.95683672.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 053
+  network: ws
+  port: 37000
+  server: 192.74.239.35
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.70672263.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 054
+  network: ws
+  port: 38000
+  server: 38.14.102.233
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.54699295.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 055
+  network: ws
+  port: 36000
+  server: 38.48.151.202
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.83008320.xyz
+    path: /path/153428133302
+- alterId: 0
+  cipher: auto
+  name: 美国 056
+  network: ws
+  port: 443
+  server: achk.cloudflarest.link
+  tls: true
+  type: vmess
+  uuid: 36146255-3fec-45fe-aa53-e0c63c6c7ee1
+  ws-opts:
+    headers:
+      Host: mg1.t1csyun.shop
+    path: /a3
+- alterId: 0
+  cipher: auto
+  name: 加拿大 058
+  network: ws
+  port: 8080
+  server: www.blueberrywindow.online
+  skip-cert-verify: true
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.blueberrywindow.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 059
+  network: ws
+  port: 8080
+  server: www.crispyrainbow.online
+  skip-cert-verify: true
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.crispyrainbow.online
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 美国 057
+  network: ws
+  port: 443
+  server: lc-kr02-direct01.lc-kr02.lc-node.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ec736482-173e-3eff-9114-b49df8056e7d
+  ws-opts:
+    headers:
+      Host: lc-kr02-direct01.lc-kr02.lc-node.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 058
+  network: ws
+  port: 8443
+  server: cf-az01-81.clashzone.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 430b6895-2e0f-4716-9410-e1339d0f9af6
+  ws-opts:
+    headers:
+      Host: cf-az01-81.clashzone.xyz
+    path: /v2az81
+- alterId: 0
+  cipher: auto
+  name: 加拿大 060
+  network: ws
+  port: 443
+  server: cf-dx-dns.sharecentre.online
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  ws-opts:
+    headers:
+      Host: cf-dx-dns.sharecentre.online
+    path: /shirker
+- alterId: 64
+  cipher: auto
+  name: 美国 059
+  network: ws
+  port: 443
+  server: 148.135.31.174
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.72672771.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 060
+  network: ws
+  port: 38000
+  server: 38.48.166.232
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.87137277.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 061
+  network: ws
+  port: 38001
+  server: 142.4.116.168
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.33586067.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 062
+  network: ws
+  port: 37000
+  server: 38.38.165.106
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.84056064.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 063
+  network: ws
+  port: 38001
+  server: 38.14.107.243
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.23179753.xyz
+    path: /path/153428133302
+- alterId: 0
+  cipher: auto
+  name: 美国 064
+  network: ws
+  port: 21859
+  server: 149.248.3.130
+  skip-cert-verify: true
+  type: vmess
+  uuid: f654c428-dc1d-47b9-b9ba-7c5fac15eeed
+  ws-opts:
+    headers:
+      Host: www.tmall.com
+    path: /live/UKPZrSI3K7dtNJmn
+- alterId: 0
+  cipher: auto
+  name: 美国 065
+  network: ws
+  port: 33441
+  server: 23.27.103.75
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 4a68304e-32e5-46ca-b298-52acb5c54f3b
+  ws-opts:
+    headers:
+      Host: sjc001.sfrae.net
+    path: /negotiate
+- alterId: 0
+  cipher: auto
+  name: 美国 066
+  network: ws
+  port: 33446
+  server: 104.164.191.195
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 4a68304e-32e5-46ca-b298-52acb5c54f3b
+  ws-opts:
+    headers:
+      Host: sjc006.sfrae.net
+    path: /negotiate
+- alterId: 0
+  cipher: auto
+  name: 美国 067
+  network: ws
+  port: 443
+  server: 47.76.92.191
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: a3aeff37-7a5d-4e2b-82fc-8daf44b216c2
+  ws-opts:
+    headers:
+      Host: aliyunhk01.caliburnonline.work
+    path: /oscarspy
+- alterId: 2
+  cipher: auto
+  name: 美国 068
+  network: ws
+  port: 443
+  server: lc-hk01-direct01.lc-hk01.lc-node.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ec736482-173e-3eff-9114-b49df8056e7d
+  ws-opts:
+    headers:
+      Host: lc-hk01-direct01.lc-hk01.lc-node.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: 🇦🇪_AE_阿联酋->🇬🇧_GB_英国
   network: ws
   port: 8880
@@ -2522,6 +2821,28 @@ proxy-groups:
   - 新加坡 001
   - 美国 049
   - 美国 050
+  - 瑞士 001
+  - 美国 051
+  - 美国 052
+  - 美国 053
+  - 美国 054
+  - 美国 055
+  - 美国 056
+  - 加拿大 058
+  - 加拿大 059
+  - 美国 057
+  - 美国 058
+  - 加拿大 060
+  - 美国 059
+  - 美国 060
+  - 美国 061
+  - 美国 062
+  - 美国 063
+  - 美国 064
+  - 美国 065
+  - 美国 066
+  - 美国 067
+  - 美国 068
   - 🇦🇪_AE_阿联酋->🇬🇧_GB_英国
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
@@ -2695,6 +3016,28 @@ proxy-groups:
   - 新加坡 001
   - 美国 049
   - 美国 050
+  - 瑞士 001
+  - 美国 051
+  - 美国 052
+  - 美国 053
+  - 美国 054
+  - 美国 055
+  - 美国 056
+  - 加拿大 058
+  - 加拿大 059
+  - 美国 057
+  - 美国 058
+  - 加拿大 060
+  - 美国 059
+  - 美国 060
+  - 美国 061
+  - 美国 062
+  - 美国 063
+  - 美国 064
+  - 美国 065
+  - 美国 066
+  - 美国 067
+  - 美国 068
   - 🇦🇪_AE_阿联酋->🇬🇧_GB_英国
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
