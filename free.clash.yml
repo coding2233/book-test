@@ -1,0 +1,3615 @@
+allow-lan: true
+external-controller: :9090
+log-level: info
+mode: Rule
+port: 7890
+proxies:
+- alterId: 0
+  cipher: auto
+  name: US_youtube@资源分享师_242
+  network: ws
+  port: 8880
+  server: ns1.v2-vip.fun
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
+  ws-opts:
+    headers:
+      Host: fr7.tehme100.fun
+    path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
+- alterId: 0
+  cipher: auto
+  name: US_youtube@资源分享师_242 2
+  network: ws
+  port: 8880
+  server: ns1.v2-vip.fun
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
+  ws-opts:
+    headers:
+      Host: fr7.tehme100.fun
+    path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
+- alterId: 0
+  cipher: auto
+  name: US_youtube@资源分享师_214
+  network: ws
+  port: 80
+  server: 172.67.120.200
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: lv2.scproxy.top
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: US_youtube@资源分享师_203
+  network: ws
+  port: 80
+  server: 172.64.133.137
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: lv2.scproxy.top
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: US_youtube@资源分享师_334
+  network: ws
+  port: 80
+  server: 172.64.105.249
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: lv2.scproxy.top
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: US_youtube@资源分享师_246
+  network: ws
+  port: 80
+  server: 172.64.133.148
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: lv2.scproxy.top
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: US_youtube@资源分享师_346
+  network: ws
+  port: 80
+  server: 172.67.93.232
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: lv2.scproxy.top
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: US_youtube@资源分享师_188
+  network: ws
+  port: 80
+  server: 172.67.49.8
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: lv2.scproxy.top
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: US_youtube@资源分享师_193
+  network: ws
+  port: 8880
+  server: yd1.992688.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
+  ws-opts:
+    headers:
+      Host: vceu3.vpn66.eu.org
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 001
+  network: ws
+  port: 2082
+  server: 104.18.202.250
+  skip-cert-verify: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
+    path: /nina.bond/linkvws
+- alterId: 0
+  cipher: auto
+  name: 加拿大 002
+  network: ws
+  port: 8080
+  server: www.velvetmountain.shop
+  skip-cert-verify: true
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.velvetmountain.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 003
+  network: ws
+  port: 8080
+  server: www.ywnouvbale.biz
+  skip-cert-verify: true
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.ywnouvbale.biz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 004
+  network: ws
+  port: 2082
+  server: 172.67.130.140
+  skip-cert-verify: true
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      Host: s1c.v2.v001sss.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 005
+  network: ws
+  port: 8080
+  server: 104.21.54.252
+  skip-cert-verify: true
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.velvetmountain.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 006
+  network: ws
+  port: 8080
+  server: 172.67.66.46
+  skip-cert-verify: true
+  type: vmess
+  uuid: aa1dbb68-bfb5-4484-f7e7-7335eac3988c
+  ws-opts:
+    headers:
+      Host: eu2.openxai.link
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 加拿大 007
+  network: ws
+  port: 8080
+  server: 172.67.143.192
+  skip-cert-verify: true
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.velvetmountain.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 008
+  network: ws
+  port: 2052
+  server: onea.flha.ru
+  skip-cert-verify: true
+  type: vmess
+  uuid: 89d8ef31-ade9-4aca-8fbc-1edbba6cda16
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 009
+  network: ws
+  port: 2052
+  server: 172.67.214.33
+  skip-cert-verify: true
+  type: vmess
+  uuid: 89d8ef31-ade9-4aca-8fbc-1edbba6cda16
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 010
+  network: ws
+  port: 2052
+  server: 104.21.23.231
+  skip-cert-verify: true
+  type: vmess
+  uuid: 89d8ef31-ade9-4aca-8fbc-1edbba6cda16
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 011
+  network: ws
+  port: 80
+  server: 104.16.67.38
+  skip-cert-verify: true
+  type: vmess
+  uuid: f8c92b3b-5447-44a5-9e54-23cdc269cb93
+  ws-opts:
+    headers:
+      Host: aq.daozhang.link
+    path: f8c92b3b
+- alterId: 0
+  cipher: auto
+  name: 加拿大 012
+  network: ws
+  port: 8080
+  server: ip1.ag.cn.eu.org
+  skip-cert-verify: true
+  type: vmess
+  uuid: 6c6b7018-654f-42cc-bbbc-2ff6e5be8cd4
+  ws-opts:
+    headers:
+      Host: hkv62.agagag.link
+    path: /masvod/public/2023/08/25/20230825_18a2b496fcf_r1_1200k.mp4
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - internet.life.com.by
+    method: GET
+    path:
+    - /
+  name: 巴西 001
+  network: http
+  port: 3389
+  server: 78.111.102.232
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - internet.life.com.by
+    method: GET
+    path:
+    - /
+  name: 加拿大 013
+  network: http
+  port: 3389
+  server: 134.122.41.160
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - internet.life.com.by
+    method: GET
+  name: 德国 001
+  network: http
+  port: 37153
+  server: 31.172.83.109
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e1d38117-d0c0-4934-b124-2c671836d4ae
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - internet.life.com.by
+    method: GET
+  name: 美国 001
+  network: http
+  port: 3389
+  server: 51.159.155.52
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - internet.life.com.by
+    method: GET
+    path:
+    - /
+  name: 印度 001
+  network: http
+  port: 3389
+  server: 139.59.24.215
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - internet.life.com.by
+    method: GET
+    path:
+    - /
+  name: 哈萨克斯坦 001
+  network: http
+  port: 3389
+  server: 45.82.31.164
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  name: 加拿大 014
+  network: ws
+  port: 443
+  server: zula.ir
+  tls: true
+  type: vmess
+  uuid: 36ae64b0-2fe1-4915-a50e-9108fcf6d84c
+  ws-opts:
+    headers:
+      Host: be3-vmess.sshmax.xyz
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 美国 002
+  network: ws
+  port: 443
+  server: simon.24wk.icu
+  servername: uk.yangjz2023.cloudns.biz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: ac07c39f-db03-40c8-81e8-80318892a0a1
+  ws-opts:
+    headers:
+      Host: uk.yangjz2023.cloudns.biz
+    path: /argox-vm?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 日本 001
+  network: ws
+  port: 3384
+  server: 154.16.248.177
+  servername: cache-hk-2.cn-db.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 414365d6-12fb-3530-8135-ad14b8ad7726
+  ws-opts:
+    headers:
+      Host: cache-hk-2.cn-db.top
+    path: /db00
+- alterId: 0
+  cipher: auto
+  name: 日本 002
+  network: ws
+  port: 3391
+  server: 154.16.248.177
+  servername: data-hk-2.cn-db.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 414365d6-12fb-3530-8135-ad14b8ad7726
+  ws-opts:
+    headers:
+      Host: data-hk-2.cn-db.top
+    path: /db00
+- alterId: 0
+  cipher: auto
+  name: 日本 003
+  network: ws
+  port: 3386
+  server: 154.16.248.177
+  servername: cache-hk-2.cn-db.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 414365d6-12fb-3530-8135-ad14b8ad7726
+  ws-opts:
+    headers:
+      Host: cache-hk-2.cn-db.top
+    path: /db00
+- alterId: 0
+  cipher: auto
+  name: 日本 004
+  network: ws
+  port: 3380
+  server: 154.16.248.177
+  servername: cache-hk-1.cn-db.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 414365d6-12fb-3530-8135-ad14b8ad7726
+  ws-opts:
+    headers:
+      Host: cache-hk-1.cn-db.top
+    path: /db00
+- alterId: 0
+  cipher: auto
+  name: 日本 005
+  network: ws
+  port: 32100
+  server: 154.16.248.177
+  servername: data-hk-3.cn-db.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 414365d6-12fb-3530-8135-ad14b8ad7726
+  ws-opts:
+    headers:
+      Host: data-hk-3.cn-db.top
+    path: /db00
+- alterId: 0
+  cipher: auto
+  name: 日本 006
+  network: ws
+  port: 3382
+  server: 154.16.248.177
+  servername: cache-hk-2.cn-db.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 414365d6-12fb-3530-8135-ad14b8ad7726
+  ws-opts:
+    headers:
+      Host: cache-hk-2.cn-db.top
+    path: /db00
+- alterId: 0
+  cipher: auto
+  name: 日本 007
+  network: ws
+  port: 3389
+  server: 154.16.248.177
+  servername: data-hk-1.cn-db.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 414365d6-12fb-3530-8135-ad14b8ad7726
+  ws-opts:
+    headers:
+      Host: data-hk-1.cn-db.top
+    path: /db00
+- alterId: 0
+  cipher: auto
+  name: 荷兰 001
+  network: ws
+  port: 443
+  server: 188.114.97.53
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 8c929251-406f-4b32-9173-07ccd242cb58
+  ws-opts:
+    headers:
+      Host: fr1-vmess.sshmax.xyz
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 美国 003
+  network: tcp
+  port: 28630
+  server: 147.135.3.3
+  skip-cert-verify: true
+  type: vmess
+  uuid: dc5205dd-c871-4b2a-9d7d-63a50beebf85
+- alterId: 0
+  cipher: auto
+  name: 加拿大 015
+  network: ws
+  port: 2087
+  server: 104.21.7.162
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 520a5f45-d354-42f4-a658-18dbc3754645
+  ws-opts:
+    headers:
+      Host: backend.app-browser.org
+    path: /fws
+- alterId: 0
+  cipher: auto
+  name: 加拿大 016
+  network: ws
+  port: 2083
+  server: 104.21.10.205
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 7453a796-159d-43a9-ddc9-20cead7886a8
+  ws-opts:
+    headers:
+      Host: http.cdn-tgju.org
+    path: /twos
+- alterId: 0
+  cipher: chacha20-poly1305
+  name: 法国 001
+  network: tcp
+  port: 56
+  server: 77.105.166.206
+  skip-cert-verify: true
+  type: vmess
+  uuid: 0da1bda9-718d-479a-a9a0-2a9b8e2589b7
+- alterId: 0
+  cipher: auto
+  name: 美国 004
+  network: ws
+  port: 36801
+  server: 20.255.223.60
+  skip-cert-verify: true
+  type: vmess
+  uuid: c0ad0b4b-5372-3ab8-9d43-5f8022a0f1ec
+  ws-opts:
+    headers:
+      Host: annie50.ceoiii.com
+    path: /hls/cctv5phd.m3u8
+- alterId: 0
+  cipher: auto
+  name: 加拿大 017
+  network: ws
+  port: 2086
+  server: 172.67.229.38
+  skip-cert-verify: true
+  type: vmess
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  ws-opts:
+    headers:
+      Host: ca6.tehme100.fun
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- alterId: 64
+  cipher: auto
+  name: 荷兰 002
+  network: ws
+  port: 41000
+  server: 156.225.67.205
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: d7735058-1dac-4618-99ff-0aa0441ec2d7
+  ws-opts:
+    headers:
+      Host: www.20163322.xyz
+    path: /path/271624282113
+- alterId: 64
+  cipher: auto
+  name: 美国 005
+  network: ws
+  port: 443
+  server: 142.171.61.222
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.49938442.xyz
+    path: /path/271624282113
+- alterId: 0
+  cipher: auto
+  name: 日本 008
+  network: ws
+  port: 33003
+  server: 141.147.180.214
+  skip-cert-verify: true
+  type: vmess
+  uuid: f3f3df6b-2f64-4728-cf2b-dd814a72cdf7
+  ws-opts:
+    headers:
+      Host: jp-tokyo-oracle-dc8895.ip1.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 006
+  network: ws
+  port: 80
+  server: 104.31.16.28
+  skip-cert-verify: true
+  type: vmess
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  ws-opts:
+    headers:
+      Host: ca4.tehme2.fun
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- alterId: 1
+  cipher: auto
+  name: 美国 007
+  network: ws
+  port: 443
+  server: 92.223.30.132
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f132274c-2704-4f7e-89d4-7d4f06eab292
+  ws-opts:
+    headers:
+      Host: gcusfree.galaxycloud.buzz
+    path: /0DGCTPQ
+- alterId: 0
+  cipher: auto
+  name: 美国 008
+  network: ws
+  port: 443
+  server: cf.dalazhi.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 64480f4c-61c2-4d88-89c3-fc0045229bfc
+  ws-opts:
+    headers:
+      Host: cf.dalazhi.eu.org
+    path: /kplxvws
+- alterId: 0
+  cipher: auto
+  name: 德国 003
+  network: ws
+  port: 80
+  server: 80.71.157.105
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b656b441-2cfd-44b8-9b2e-646e9925f8f6
+  ws-opts:
+    headers:
+      Host: نام.کانال.تلگرام.VPNHTTPInjectorfree
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 德国 004
+  network: ws
+  port: 23742
+  server: 194.87.71.23
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e8706bdb-335e-4631-a2af-3052ad93b10d
+  ws-opts:
+    headers:
+      Host: 194.87.71.23
+    path: /wp-admin
+- alterId: 0
+  cipher: auto
+  name: 瑞典 001
+  network: ws
+  port: 80
+  server: 65.20.113.203
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 251780c1-1501-43b3-be2a-d144a20d479a
+  ws-opts:
+    headers:
+      Host: internet.life.com.by
+    path: /Nbs2DSTSkFW6MrrFQHeSDQ7
+- alterId: 0
+  cipher: auto
+  name: 加拿大 018
+  network: ws
+  port: 443
+  server: 104.21.21.35
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 757dc1d3-c0fd-456e-9426-2e9221584d40
+  ws-opts:
+    headers:
+      Host: hu2.xv2ray.net
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 加拿大 019
+  network: ws
+  port: 80
+  server: 104.21.20.19
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4be6650b-41be-4878-a28e-553fc4fb73e8
+  ws-opts:
+    headers:
+      Host: de2.xv2ray.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 009
+  network: ws
+  port: 80
+  server: fastly.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 66ccb11f-75a7-4282-8a60-31fed447401d
+  ws-opts:
+    headers:
+      Host: nmsl.kp
+    path: /aries?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 韩国 001
+  network: ws
+  port: 32454
+  server: 130.162.151.122
+  servername: cache-hk-2.cn-db.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 414365d6-12fb-3530-8135-ad14b8ad7726
+  ws-opts:
+    headers:
+      Host: cache-hk-2.cn-db.top
+    path: /db00
+- alterId: 0
+  cipher: auto
+  name: 韩国 002
+  network: ws
+  port: 52406
+  server: 130.162.151.122
+  servername: data-hk-2.cn-db.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 414365d6-12fb-3530-8135-ad14b8ad7726
+  ws-opts:
+    headers:
+      Host: data-hk-2.cn-db.top
+    path: /db00
+- alterId: 0
+  cipher: auto
+  name: 韩国 003
+  network: ws
+  port: 21205
+  server: 64.110.78.246
+  servername: cache-hk-2.cn-db.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 414365d6-12fb-3530-8135-ad14b8ad7726
+  ws-opts:
+    headers:
+      Host: cache-hk-2.cn-db.top
+    path: /db00
+- alterId: 0
+  cipher: auto
+  name: 韩国 004
+  network: ws
+  port: 25856
+  server: 64.110.65.177
+  servername: cache-hk-1.cn-db.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 414365d6-12fb-3530-8135-ad14b8ad7726
+  ws-opts:
+    headers:
+      Host: cache-hk-1.cn-db.top
+    path: /db00
+- alterId: 0
+  cipher: auto
+  name: 韩国 005
+  network: ws
+  port: 25857
+  server: 64.110.65.177
+  servername: data-hk-3.cn-db.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 414365d6-12fb-3530-8135-ad14b8ad7726
+  ws-opts:
+    headers:
+      Host: data-hk-3.cn-db.top
+    path: /db00
+- alterId: 0
+  cipher: auto
+  name: 韩国 006
+  network: ws
+  port: 32453
+  server: 130.162.151.122
+  servername: cache-hk-2.cn-db.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 414365d6-12fb-3530-8135-ad14b8ad7726
+  ws-opts:
+    headers:
+      Host: cache-hk-2.cn-db.top
+    path: /db00
+- alterId: 0
+  cipher: auto
+  name: 韩国 007
+  network: ws
+  port: 52405
+  server: 130.162.151.122
+  servername: cache-hk-1.cn-db.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 414365d6-12fb-3530-8135-ad14b8ad7726
+  ws-opts:
+    headers:
+      Host: cache-hk-1.cn-db.top
+    path: /db00
+- alterId: 0
+  cipher: auto
+  name: 韩国 008
+  network: ws
+  port: 45703
+  server: 64.110.78.246
+  servername: data-hk-1.cn-db.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 414365d6-12fb-3530-8135-ad14b8ad7726
+  ws-opts:
+    headers:
+      Host: data-hk-1.cn-db.top
+    path: /db00
+- alterId: 0
+  cipher: auto
+  name: 加拿大 020
+  network: ws
+  port: 80
+  server: 2.namesilo123.top
+  skip-cert-verify: true
+  type: vmess
+  uuid: 4d68da82-e8d0-4eaa-aec9-0df4a23e1a04
+  ws-opts:
+    headers:
+      Host: freezhang.sanfen002.top
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 加拿大 021
+  network: ws
+  port: 8880
+  server: 27.namesilo123.top
+  skip-cert-verify: true
+  type: vmess
+  uuid: 4d68da82-e8d0-4eaa-aec9-0df4a23e1a04
+  ws-opts:
+    headers:
+      Host: freezhang.sanfen002.top
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 加拿大 022
+  network: ws
+  port: 2082
+  server: 15.namesilo123.top
+  skip-cert-verify: true
+  type: vmess
+  uuid: 4d68da82-e8d0-4eaa-aec9-0df4a23e1a04
+  ws-opts:
+    headers:
+      Host: freezhang.sanfen002.top
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 加拿大 023
+  network: ws
+  port: 8880
+  server: 11.namesilo123.top
+  skip-cert-verify: true
+  type: vmess
+  uuid: 4d68da82-e8d0-4eaa-aec9-0df4a23e1a04
+  ws-opts:
+    headers:
+      Host: freezhang.sanfen002.top
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 美国 010
+  network: ws
+  port: 80
+  server: 1.namesilo123.top
+  skip-cert-verify: true
+  type: vmess
+  uuid: 4d68da82-e8d0-4eaa-aec9-0df4a23e1a04
+  ws-opts:
+    headers:
+      Host: de.sanfen002.top
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 加拿大 024
+  network: ws
+  port: 80
+  server: 4.namesilo123.top
+  skip-cert-verify: true
+  type: vmess
+  uuid: 4d68da82-e8d0-4eaa-aec9-0df4a23e1a04
+  ws-opts:
+    headers:
+      Host: de.sanfen002.top
+    path: /?ed=2048
+- alterId: 64
+  cipher: auto
+  name: 美国 011
+  network: ws
+  port: 38000
+  server: 38.165.72.138
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.22103619.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 012
+  network: ws
+  port: 37000
+  server: 198.2.222.125
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.54790250.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 013
+  network: ws
+  port: 38000
+  server: 192.74.237.57
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.51291807.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 014
+  network: ws
+  port: 37000
+  server: 38.14.100.221
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.33799494.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 015
+  network: ws
+  port: 37000
+  server: 198.2.203.118
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.43537463.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 016
+  network: ws
+  port: 30000
+  server: 69.80.226.232
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.88202213.xyz
+    path: /path/153428133302
+- alterId: 0
+  cipher: auto
+  name: 加拿大 025
+  network: ws
+  port: 80
+  server: 104.21.221.207
+  skip-cert-verify: true
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 加拿大 026
+  network: ws
+  port: 80
+  server: 104.21.221.252
+  skip-cert-verify: true
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 加拿大 027
+  network: ws
+  port: 80
+  server: 104.21.221.215
+  skip-cert-verify: true
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 加拿大 028
+  network: ws
+  port: 80
+  server: 104.21.221.235
+  skip-cert-verify: true
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 加拿大 029
+  network: ws
+  port: 80
+  server: 104.21.221.247
+  skip-cert-verify: true
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 加拿大 030
+  network: ws
+  port: 80
+  server: 104.21.221.244
+  skip-cert-verify: true
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 加拿大 031
+  network: ws
+  port: 2087
+  server: backend.app-browser.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 520a5f45-d354-42f4-a658-18dbc3754645
+  ws-opts:
+    headers:
+      Host: backend.app-browser.org
+    path: /fws
+- alterId: 0
+  cipher: auto
+  name: 加拿大 032
+  network: ws
+  port: 80
+  server: 104.21.221.200
+  skip-cert-verify: true
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 加拿大 033
+  network: ws
+  port: 80
+  server: 104.21.221.16
+  skip-cert-verify: true
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 加拿大 034
+  network: ws
+  port: 80
+  server: 104.21.221.7
+  skip-cert-verify: true
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 加拿大 035
+  network: ws
+  port: 80
+  server: 104.21.221.133
+  skip-cert-verify: true
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 加拿大 036
+  network: ws
+  port: 80
+  server: 104.21.221.189
+  skip-cert-verify: true
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 加拿大 037
+  network: ws
+  port: 80
+  server: 104.21.221.219
+  skip-cert-verify: true
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 加拿大 038
+  network: ws
+  port: 80
+  server: 104.21.221.169
+  skip-cert-verify: true
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 加拿大 039
+  network: ws
+  port: 80
+  server: 104.21.221.137
+  skip-cert-verify: true
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 加拿大 040
+  network: ws
+  port: 2087
+  server: 172.67.136.244
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 520a5f45-d354-42f4-a658-18dbc3754645
+  ws-opts:
+    headers:
+      Host: backend.app-browser.org
+    path: /fws
+- alterId: 0
+  cipher: auto
+  name: 荷兰 003
+  network: ws
+  port: 80
+  server: 188.114.96.113
+  skip-cert-verify: true
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt4.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 041
+  network: ws
+  port: 80
+  server: 104.21.221.95
+  skip-cert-verify: true
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 加拿大 042
+  network: ws
+  port: 80
+  server: 104.21.221.135
+  skip-cert-verify: true
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 加拿大 043
+  network: ws
+  port: 80
+  server: 104.21.221.197
+  skip-cert-verify: true
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 加拿大 044
+  network: ws
+  port: 80
+  server: 104.21.221.185
+  skip-cert-verify: true
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 美国 017
+  network: ws
+  port: 36801
+  server: 4.144.45.208
+  skip-cert-verify: true
+  type: vmess
+  uuid: c0ad0b4b-5372-3ab8-9d43-5f8022a0f1ec
+  ws-opts:
+    headers:
+      Host: annie50.ceoiii.com
+    path: /hls/cctv5phd.m3u8
+- alterId: 0
+  cipher: auto
+  name: 美国 018
+  network: ws
+  port: 36801
+  server: 4.144.47.92
+  skip-cert-verify: true
+  type: vmess
+  uuid: c0ad0b4b-5372-3ab8-9d43-5f8022a0f1ec
+  ws-opts:
+    headers:
+      Host: annie50.ceoiii.com
+    path: /hls/cctv5phd.m3u8
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: fY8WXbLpF7tOInMZQZNim
+  name: 加拿大 045
+  network: grpc
+  port: 443
+  server: clean2.freelines.net
+  servername: rsfrndc.cpionline.co
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 01a7ed92-3ff7-4872-84a8-fcb4757783c7
+- alterId: 0
+  cipher: auto
+  name: 韩国 009
+  network: ws
+  port: 21203
+  server: 64.110.78.246
+  servername: data-hk-3.cn-db.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 414365d6-12fb-3530-8135-ad14b8ad7726
+  ws-opts:
+    headers:
+      Host: data-hk-3.cn-db.top
+    path: /db00
+- alterId: 64
+  cipher: auto
+  name: 美国 019
+  network: ws
+  port: 37000
+  server: 198.2.215.156
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.88016387.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 020
+  network: ws
+  port: 38000
+  server: 38.48.166.231
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.87137277.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 021
+  network: ws
+  port: 37000
+  server: 38.174.164.91
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.50979398.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 022
+  network: ws
+  port: 36000
+  server: 38.14.121.172
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.19414772.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 023
+  network: ws
+  port: 38000
+  server: 142.4.104.170
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.87140386.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 024
+  network: ws
+  port: 38000
+  server: 38.11.217.201
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.72649000.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 025
+  network: ws
+  port: 37000
+  server: 38.14.124.113
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.39179186.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 加拿大 046
+  network: ws
+  port: 37001
+  server: 74.48.156.203
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.60493269.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 荷兰 004
+  network: ws
+  port: 41000
+  server: 156.249.18.100
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: b8df3ef1-887f-4ee4-855f-4f80416c2464
+  ws-opts:
+    headers:
+      Host: www.39803953.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 026
+  network: ws
+  port: 38000
+  server: 142.0.131.149
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.72594139.xyz
+    path: /path/153428133302
+- alterId: 0
+  cipher: auto
+  name: 加拿大 047
+  network: ws
+  port: 2082
+  server: 172.67.177.106
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4d68da82-e8d0-4eaa-aec9-0df4a23e1a04
+  ws-opts:
+    headers:
+      Host: freezhang.sanfen002.top
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 韩国 010
+  network: ws
+  port: 52407
+  server: 130.162.151.122
+  servername: cache-hk-1.cn-db.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 414365d6-12fb-3530-8135-ad14b8ad7726
+  ws-opts:
+    headers:
+      Host: cache-hk-1.cn-db.top
+    path: /db00
+- alterId: 0
+  cipher: auto
+  name: 加拿大 048
+  network: ws
+  port: 2052
+  server: cdncdncdncdn.784654.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: 7e2360be-da12-469a-b403-c0a376b2965e
+  ws-opts:
+    headers:
+      Host: ca-cfcdn.aikunapp.com
+    path: /index?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 加拿大 049
+  network: ws
+  port: 2095
+  server: 104.26.5.57
+  skip-cert-verify: true
+  type: vmess
+  uuid: 6658a3a6-225a-4d33-a5d2-82cfde565b4e
+  ws-opts:
+    headers:
+      Host: ssrsub.v03.ssrsub.com
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: 加拿大 050
+  network: ws
+  port: 2096
+  server: access.cdn-tgju.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 0dd7dd81-5cd2-430e-86d3-bba4f0075cd1
+  ws-opts:
+    headers:
+      Host: access.cdn-tgju.org
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 027
+  network: ws
+  port: 443
+  server: 141.101.115.120
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  ws-opts:
+    headers:
+      Host: clash6.ssr-free.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 加拿大 051
+  network: ws
+  port: 2052
+  server: 104.21.33.130
+  skip-cert-verify: true
+  type: vmess
+  uuid: 544f2e93-51b0-4d47-fd72-e7d858021bbd
+  ws-opts:
+    headers:
+      Host: family.mgtajhiz.ir
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 荷兰 005
+  network: ws
+  port: 41001
+  server: 156.225.67.250
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 3fd637ad-46fe-4f85-a6e8-86b00bca1122
+  ws-opts:
+    headers:
+      Host: www.74636847.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 028
+  network: ws
+  port: 38000
+  server: 198.2.196.228
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.12630069.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 荷兰 006
+  network: ws
+  port: 41000
+  server: 156.249.18.101
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: b8df3ef1-887f-4ee4-855f-4f80416c2464
+  ws-opts:
+    headers:
+      Host: www.39803953.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 029
+  network: ws
+  port: 36000
+  server: 38.14.100.180
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.80150658.xyz
+    path: /path/153428133302
+- alterId: 0
+  cipher: auto
+  name: 加拿大 052
+  network: ws
+  port: 80
+  server: 104.21.221.203
+  skip-cert-verify: true
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 美国 030
+  network: ws
+  port: 8080
+  server: 162.159.137.249
+  skip-cert-verify: true
+  type: vmess
+  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
+  ws-opts:
+    headers:
+      Host: nest-emily-healing-h.trycloudflare.com
+    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
+- alterId: 0
+  cipher: auto
+  name: 加拿大 053
+  network: ws
+  port: 2052
+  server: 104.19.70.19
+  skip-cert-verify: true
+  type: vmess
+  uuid: 8e0fc6e0-1313-4767-b51c-5506680d534e
+  ws-opts:
+    headers:
+      Host: tw1bQiWSE4x.fzbqfrse.xyz
+    path: /video/GQ2qE5Us9g
+- alterId: 0
+  cipher: auto
+  name: 澳大利亚 001
+  network: ws
+  port: 443
+  server: v2.kdanmmgmasz.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ae0b2b4a-47ac-4d72-b03c-524f959d5a1a
+  ws-opts:
+    headers:
+      Host: v2.kdanmmgmasz.xyz
+    path: /zksna
+- alterId: 0
+  cipher: auto
+  name: 美国 031
+  network: ws
+  port: 443
+  server: suzhihan.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 0b873cff-11ab-4716-c41a-04f886135091
+  ws-opts:
+    headers:
+      Host: suzhihan.eu.org
+    path: /roewesu
+- alterId: 0
+  cipher: auto
+  name: 美国 032
+  network: ws
+  port: 443
+  server: 141.101.115.2
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: a5ba8b2b-8fc5-4521-a35e-9281be61c1c3
+  ws-opts:
+    headers:
+      Host: lg1.zhujicn2.com
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 美国 033
+  network: ws
+  port: 443
+  server: dm-us03-direct14.dm-us03.lc-node.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 8d5c6f38-c0bf-3006-9f3f-f89ba16a6ce4
+  ws-opts:
+    headers:
+      Host: dm-us03-direct14.dm-us03.lc-node.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 034
+  network: ws
+  port: 443
+  server: 141.101.114.102
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  ws-opts:
+    headers:
+      Host: clash6.ssr-free.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 美国 035
+  network: ws
+  port: 443
+  server: 141.101.114.133
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
+  ws-opts:
+    headers:
+      Host: lg1.cfcdn1.xyz
+    path: /ray
+- alterId: 0
+  cipher: auto
+  name: 美国 036
+  network: ws
+  port: 443
+  server: cf-lt-dns.sharecentre.online
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  ws-opts:
+    headers:
+      Host: cf-lt-dns.sharecentre.online
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 加拿大 054
+  network: ws
+  port: 443
+  server: 162.159.130.234
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: octavi.cfd
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 荷兰 007
+  network: tcp
+  port: 2024
+  server: 85.133.241.48
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 73e9281e-c040-40d1-8dae-e1c33bfa3ea7
+  ws-headers:
+    Host: 85.133.241.48
+- alterId: 0
+  cipher: auto
+  name: 美国 037
+  network: ws
+  port: 8080
+  server: 162.159.1.33
+  tls: false
+  type: vmess
+  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
+  ws-opts:
+    headers:
+      Host: pcs-referenced-camera-concerns.trycloudflare.com
+    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: lRkGCkYS9X5GFzoZoavn2kmJ
+  name: 加拿大 055
+  network: grpc
+  port: 443
+  server: nodejs.org
+  servername: hdfy6c1.freeairlaines.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 4804f14b-c1f8-452d-a6ec-eff1490aeac9
+- alterId: 0
+  cipher: auto
+  name: 美国 038
+  network: ws
+  port: 8080
+  server: 93.179.96.25
+  skip-cert-verify: true
+  type: vmess
+  uuid: d4b09307-38b0-49c0-85f3-be03b9539c0f
+  ws-opts:
+    headers:
+      Host: github.com
+    path: /heartbeat
+- alterId: 64
+  cipher: auto
+  name: 美国 039
+  network: ws
+  port: 37000
+  server: 38.14.120.238
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.65825524.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 040
+  network: ws
+  port: 36000
+  server: 38.14.121.173
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.19414772.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 加拿大 056
+  network: ws
+  port: 37001
+  server: 74.48.156.204
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.60493269.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 041
+  network: ws
+  port: 38001
+  server: 38.14.107.242
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.23179753.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 042
+  network: ws
+  port: 37000
+  server: 38.38.148.242
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.88186618.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 043
+  network: ws
+  port: 37000
+  server: 38.48.191.115
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.96128725.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 044
+  network: ws
+  port: 38000
+  server: 38.165.72.139
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.22103619.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 045
+  network: ws
+  port: 36000
+  server: 38.11.218.171
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.63181393.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 046
+  network: ws
+  port: 38000
+  server: 38.173.196.15
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.47643999.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 047
+  network: ws
+  port: 37000
+  server: 38.38.153.205
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.78310250.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 048
+  network: ws
+  port: 38001
+  server: 142.4.98.4
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.77755604.xyz
+    path: /path/153428133302
+- alterId: 0
+  cipher: auto
+  name: 加拿大 057
+  network: ws
+  port: 443
+  server: www.qdjljy.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: da8954a5-9c03-4fe5-be6a-d90f3f01b881
+  ws-opts:
+    headers:
+      Host: h161-fr2.kxnn.eu.org
+    path: /D26xvdqUdCpvvPTz4R
+- alterId: 0
+  cipher: auto
+  name: 新加坡 001
+  network: ws
+  port: 80
+  server: sg2.safepn.net
+  skip-cert-verify: true
+  type: vmess
+  uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
+  ws-opts:
+    headers:
+      Host: sg2.safepn.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 049
+  network: ws
+  port: 2053
+  server: namer-us-sea-01-edgecast.qdns.live
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 94898122-6f57-3272-8ccf-87ab366b29ed
+  ws-opts:
+    headers:
+      Host: namer-us-sea-01-edgecast.qdns.live
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 050
+  network: ws
+  port: 8443
+  server: cf-us01-90.clashzone.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 430b6895-2e0f-4716-9410-e1339d0f9af6
+  ws-opts:
+    headers:
+      Host: cf-us01-90.clashzone.xyz
+    path: /v2us01
+- alterId: 0
+  cipher: auto
+  name: 🇦🇪_AE_阿联酋->🇬🇧_GB_英国
+  network: ws
+  port: 8880
+  server: 94.140.0.110
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  ws-opts:
+    headers:
+      host: food.zhaal.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
+  network: ws
+  port: 8080
+  server: yh2.freeh1.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
+  ws-opts:
+    headers:
+      host: nest-emily-healing-h.trycloudflare.com
+    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
+  network: ws
+  port: 8080
+  server: fbi.gov
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+  ws-opts:
+    headers:
+      host: bibliographic-sword-sequence-advertisers.trycloudflare.com
+    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_1
+  network: ws
+  port: 8080
+  server: 162.159.134.23
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9b196b50-37f2-4f4b-b175-06273adc6207
+  ws-opts:
+    headers:
+      host: championship-bidding-oxygen-brochure.trycloudflare.com
+    path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
+  network: ws
+  port: 8080
+  server: yh3.freeh1.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a
+  ws-opts:
+    headers:
+      host: larger-marketing-amounts-skin.trycloudflare.com
+    path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇫🇷_FR_法国
+  network: ws
+  port: 2082
+  server: s1c.v2.v001sss.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      host: s1c.v2.v001sss.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
+  network: ws
+  port: 8080
+  server: 162.159.1.33
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
+  ws-opts:
+    headers:
+      host: pcs-referenced-camera-concerns.trycloudflare.com
+    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦_CA_加拿大
+  network: http
+  port: 3389
+  server: 134.122.41.160
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  name: 🇱🇺_LU_卢森堡
+  network: http
+  port: 3389
+  server: 45.82.31.164
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷_FR_法国
+  network: http
+  port: 3389
+  server: 51.159.155.52
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_2
+  network: ws
+  port: 80
+  server: 2.namesilo123.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 4d68da82-e8d0-4eaa-aec9-0df4a23e1a04
+  ws-opts:
+    headers:
+      host: freezhang.sanfen002.top
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_3
+  network: ws
+  port: 8880
+  server: 27.namesilo123.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 4d68da82-e8d0-4eaa-aec9-0df4a23e1a04
+  ws-opts:
+    headers:
+      host: freezhang.sanfen002.top
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_4
+  network: ws
+  port: 2082
+  server: 15.namesilo123.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 4d68da82-e8d0-4eaa-aec9-0df4a23e1a04
+  ws-opts:
+    headers:
+      host: freezhang.sanfen002.top
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_6
+  network: ws
+  port: 2082
+  server: 172.67.177.106
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 4d68da82-e8d0-4eaa-aec9-0df4a23e1a04
+  ws-opts:
+    headers:
+      host: freezhang.sanfen002.top
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇩🇪_DE_德国
+  network: ws
+  port: 80
+  server: 104.21.20.19
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 4be6650b-41be-4878-a28e-553fc4fb73e8
+  ws-opts:
+    headers:
+      host: de2.xv2ray.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_5
+  network: ws
+  port: 8080
+  server: 162.159.137.249
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
+  ws-opts:
+    headers:
+      host: nest-emily-healing-h.trycloudflare.com
+    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪_DE_德国_1
+  network: ws
+  port: 80
+  server: 80.71.157.105
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b656b441-2cfd-44b8-9b2e-646e9925f8f6
+  ws-opts:
+    headers:
+      host: نام.کانال.تلگرام.VPNHTTPInjectorfree
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪_DE_德国_2
+  network: ws
+  port: 80
+  server: cloudflare.cfgo.cc
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 22a13aa2-4854-44cb-e090-ec71ab84b1ff
+  ws-opts:
+    headers:
+      host: wap.hostmjj.com
+    path: /
+proxy-groups:
+- name: 🔰 节点选择
+  proxies:
+  - ♻️ 自动选择
+  - 🎯 全球直连
+  - US_youtube@资源分享师_242
+  - US_youtube@资源分享师_242 2
+  - US_youtube@资源分享师_214
+  - US_youtube@资源分享师_203
+  - US_youtube@资源分享师_334
+  - US_youtube@资源分享师_246
+  - US_youtube@资源分享师_346
+  - US_youtube@资源分享师_188
+  - US_youtube@资源分享师_193
+  - 加拿大 001
+  - 加拿大 002
+  - 加拿大 003
+  - 加拿大 004
+  - 加拿大 005
+  - 加拿大 006
+  - 加拿大 007
+  - 加拿大 008
+  - 加拿大 009
+  - 加拿大 010
+  - 加拿大 011
+  - 加拿大 012
+  - 巴西 001
+  - 加拿大 013
+  - 德国 001
+  - 美国 001
+  - 印度 001
+  - 哈萨克斯坦 001
+  - 加拿大 014
+  - 美国 002
+  - 日本 001
+  - 日本 002
+  - 日本 003
+  - 日本 004
+  - 日本 005
+  - 日本 006
+  - 日本 007
+  - 荷兰 001
+  - 美国 003
+  - 加拿大 015
+  - 加拿大 016
+  - 法国 001
+  - 美国 004
+  - 加拿大 017
+  - 荷兰 002
+  - 美国 005
+  - 日本 008
+  - 美国 006
+  - 美国 007
+  - 美国 008
+  - 德国 003
+  - 德国 004
+  - 瑞典 001
+  - 加拿大 018
+  - 加拿大 019
+  - 美国 009
+  - 韩国 001
+  - 韩国 002
+  - 韩国 003
+  - 韩国 004
+  - 韩国 005
+  - 韩国 006
+  - 韩国 007
+  - 韩国 008
+  - 加拿大 020
+  - 加拿大 021
+  - 加拿大 022
+  - 加拿大 023
+  - 美国 010
+  - 加拿大 024
+  - 美国 011
+  - 美国 012
+  - 美国 013
+  - 美国 014
+  - 美国 015
+  - 美国 016
+  - 加拿大 025
+  - 加拿大 026
+  - 加拿大 027
+  - 加拿大 028
+  - 加拿大 029
+  - 加拿大 030
+  - 加拿大 031
+  - 加拿大 032
+  - 加拿大 033
+  - 加拿大 034
+  - 加拿大 035
+  - 加拿大 036
+  - 加拿大 037
+  - 加拿大 038
+  - 加拿大 039
+  - 加拿大 040
+  - 荷兰 003
+  - 加拿大 041
+  - 加拿大 042
+  - 加拿大 043
+  - 加拿大 044
+  - 美国 017
+  - 美国 018
+  - 加拿大 045
+  - 韩国 009
+  - 美国 019
+  - 美国 020
+  - 美国 021
+  - 美国 022
+  - 美国 023
+  - 美国 024
+  - 美国 025
+  - 加拿大 046
+  - 荷兰 004
+  - 美国 026
+  - 加拿大 047
+  - 韩国 010
+  - 加拿大 048
+  - 加拿大 049
+  - 加拿大 050
+  - 美国 027
+  - 加拿大 051
+  - 荷兰 005
+  - 美国 028
+  - 荷兰 006
+  - 美国 029
+  - 加拿大 052
+  - 美国 030
+  - 加拿大 053
+  - 澳大利亚 001
+  - 美国 031
+  - 美国 032
+  - 美国 033
+  - 美国 034
+  - 美国 035
+  - 美国 036
+  - 加拿大 054
+  - 荷兰 007
+  - 美国 037
+  - 加拿大 055
+  - 美国 038
+  - 美国 039
+  - 美国 040
+  - 加拿大 056
+  - 美国 041
+  - 美国 042
+  - 美国 043
+  - 美国 044
+  - 美国 045
+  - 美国 046
+  - 美国 047
+  - 美国 048
+  - 加拿大 057
+  - 新加坡 001
+  - 美国 049
+  - 美国 050
+  - 🇦🇪_AE_阿联酋->🇬🇧_GB_英国
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
+  - 🇺🇸_US_美国_1
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
+  - 🇺🇸_US_美国->🇫🇷_FR_法国
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
+  - 🇨🇦_CA_加拿大
+  - 🇱🇺_LU_卢森堡
+  - 🇫🇷_FR_法国
+  - 🇺🇸_US_美国_2
+  - 🇺🇸_US_美国_3
+  - 🇺🇸_US_美国_4
+  - 🇺🇸_US_美国_6
+  - 🇺🇸_US_美国->🇩🇪_DE_德国
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_5
+  - 🇩🇪_DE_德国_1
+  - 🇩🇪_DE_德国_2
+  type: select
+- interval: 300
+  name: ♻️ 自动选择
+  proxies:
+  - US_youtube@资源分享师_242
+  - US_youtube@资源分享师_242 2
+  - US_youtube@资源分享师_214
+  - US_youtube@资源分享师_203
+  - US_youtube@资源分享师_334
+  - US_youtube@资源分享师_246
+  - US_youtube@资源分享师_346
+  - US_youtube@资源分享师_188
+  - US_youtube@资源分享师_193
+  - 加拿大 001
+  - 加拿大 002
+  - 加拿大 003
+  - 加拿大 004
+  - 加拿大 005
+  - 加拿大 006
+  - 加拿大 007
+  - 加拿大 008
+  - 加拿大 009
+  - 加拿大 010
+  - 加拿大 011
+  - 加拿大 012
+  - 巴西 001
+  - 加拿大 013
+  - 德国 001
+  - 美国 001
+  - 印度 001
+  - 哈萨克斯坦 001
+  - 加拿大 014
+  - 美国 002
+  - 日本 001
+  - 日本 002
+  - 日本 003
+  - 日本 004
+  - 日本 005
+  - 日本 006
+  - 日本 007
+  - 荷兰 001
+  - 美国 003
+  - 加拿大 015
+  - 加拿大 016
+  - 法国 001
+  - 美国 004
+  - 加拿大 017
+  - 荷兰 002
+  - 美国 005
+  - 日本 008
+  - 美国 006
+  - 美国 007
+  - 美国 008
+  - 德国 003
+  - 德国 004
+  - 瑞典 001
+  - 加拿大 018
+  - 加拿大 019
+  - 美国 009
+  - 韩国 001
+  - 韩国 002
+  - 韩国 003
+  - 韩国 004
+  - 韩国 005
+  - 韩国 006
+  - 韩国 007
+  - 韩国 008
+  - 加拿大 020
+  - 加拿大 021
+  - 加拿大 022
+  - 加拿大 023
+  - 美国 010
+  - 加拿大 024
+  - 美国 011
+  - 美国 012
+  - 美国 013
+  - 美国 014
+  - 美国 015
+  - 美国 016
+  - 加拿大 025
+  - 加拿大 026
+  - 加拿大 027
+  - 加拿大 028
+  - 加拿大 029
+  - 加拿大 030
+  - 加拿大 031
+  - 加拿大 032
+  - 加拿大 033
+  - 加拿大 034
+  - 加拿大 035
+  - 加拿大 036
+  - 加拿大 037
+  - 加拿大 038
+  - 加拿大 039
+  - 加拿大 040
+  - 荷兰 003
+  - 加拿大 041
+  - 加拿大 042
+  - 加拿大 043
+  - 加拿大 044
+  - 美国 017
+  - 美国 018
+  - 加拿大 045
+  - 韩国 009
+  - 美国 019
+  - 美国 020
+  - 美国 021
+  - 美国 022
+  - 美国 023
+  - 美国 024
+  - 美国 025
+  - 加拿大 046
+  - 荷兰 004
+  - 美国 026
+  - 加拿大 047
+  - 韩国 010
+  - 加拿大 048
+  - 加拿大 049
+  - 加拿大 050
+  - 美国 027
+  - 加拿大 051
+  - 荷兰 005
+  - 美国 028
+  - 荷兰 006
+  - 美国 029
+  - 加拿大 052
+  - 美国 030
+  - 加拿大 053
+  - 澳大利亚 001
+  - 美国 031
+  - 美国 032
+  - 美国 033
+  - 美国 034
+  - 美国 035
+  - 美国 036
+  - 加拿大 054
+  - 荷兰 007
+  - 美国 037
+  - 加拿大 055
+  - 美国 038
+  - 美国 039
+  - 美国 040
+  - 加拿大 056
+  - 美国 041
+  - 美国 042
+  - 美国 043
+  - 美国 044
+  - 美国 045
+  - 美国 046
+  - 美国 047
+  - 美国 048
+  - 加拿大 057
+  - 新加坡 001
+  - 美国 049
+  - 美国 050
+  - 🇦🇪_AE_阿联酋->🇬🇧_GB_英国
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
+  - 🇺🇸_US_美国_1
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
+  - 🇺🇸_US_美国->🇫🇷_FR_法国
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
+  - 🇨🇦_CA_加拿大
+  - 🇱🇺_LU_卢森堡
+  - 🇫🇷_FR_法国
+  - 🇺🇸_US_美国_2
+  - 🇺🇸_US_美国_3
+  - 🇺🇸_US_美国_4
+  - 🇺🇸_US_美国_6
+  - 🇺🇸_US_美国->🇩🇪_DE_德国
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_5
+  - 🇩🇪_DE_德国_1
+  - 🇩🇪_DE_德国_2
+  type: url-test
+  url: http://www.google.com/generate_204
+- name: 🎯 全球直连
+  proxies:
+  - DIRECT
+  type: select
+- name: 🛑 全球拦截
+  proxies:
+  - REJECT
+  - DIRECT
+  type: select
+- name: 🐟 漏网之鱼
+  proxies:
+  - 🎯 全球直连
+  - 🔰 节点选择
+  type: select
+- name: 🖥️ Github
+  proxies:
+  - 🎯 全球直连
+  - 🔰 节点选择
+  type: select
+- name: 🌐 Steam
+  proxies:
+  - 🎯 全球直连
+  - 🔰 节点选择
+  type: select
+- name: 🌉 Bridge
+  proxies:
+  - 🔰 节点选择
+  - 🎯 全球直连
+  type: select
+rules:
+- DOMAIN-SUFFIX,local,🎯 全球直连
+- IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
+- IP-CIDR,10.0.0.0/8,🎯 全球直连,no-resolve
+- IP-CIDR,172.16.0.0/12,🎯 全球直连,no-resolve
+- IP-CIDR,127.0.0.0/8,🎯 全球直连,no-resolve
+- IP-CIDR,100.64.0.0/10,🎯 全球直连,no-resolve
+- IP-CIDR6,::1/128,🎯 全球直连,no-resolve
+- IP-CIDR6,fc00::/7,🎯 全球直连,no-resolve
+- IP-CIDR6,fe80::/10,🎯 全球直连,no-resolve
+- IP-CIDR6,fd00::/8,🎯 全球直连,no-resolve
+- PROCESS-NAME,natmap,DIRECT
+- DOMAIN-SUFFIX,jtvnw.net,🔰 节点选择
+- DOMAIN-SUFFIX,ttvnw.net,🔰 节点选择
+- DOMAIN-SUFFIX,twitch.tv,🔰 节点选择
+- DOMAIN-SUFFIX,twitchcdn.net,🔰 节点选择
+- DOMAIN-SUFFIX,deezer.com,🔰 节点选择
+- DOMAIN-SUFFIX,dzcdn.net,🔰 节点选择
+- DOMAIN-SUFFIX,joox.com,🔰 节点选择
+- DOMAIN-KEYWORD,jooxweb-api,🔰 节点选择
+- DOMAIN-SUFFIX,kkbox.com,🔰 节点选择
+- DOMAIN-SUFFIX,kkbox.com.tw,🔰 节点选择
+- DOMAIN-SUFFIX,kfs.io,🔰 节点选择
+- DOMAIN-SUFFIX,pandora.com,🔰 节点选择
+- DOMAIN-SUFFIX,p-cdn.us,🔰 节点选择
+- DOMAIN-SUFFIX,sndcdn.com,🔰 节点选择
+- DOMAIN-SUFFIX,soundcloud.com,🔰 节点选择
+- DOMAIN-SUFFIX,pscdn.co,🔰 节点选择
+- DOMAIN-SUFFIX,scdn.co,🔰 节点选择
+- DOMAIN-SUFFIX,spotify.com,🔰 节点选择
+- DOMAIN-SUFFIX,spoti.fi,🔰 节点选择
+- DOMAIN-KEYWORD,spotify.com,🔰 节点选择
+- DOMAIN-KEYWORD,-spotify-com,🔰 节点选择
+- DOMAIN-SUFFIX,tidal.com,🔰 节点选择
+- DOMAIN-SUFFIX,himalaya.com,🔰 节点选择
+- DOMAIN-SUFFIX,overcast.fm,🔰 节点选择
+- DOMAIN-SUFFIX,abema.io,🔰 节点选择
+- DOMAIN-SUFFIX,abema.tv,🔰 节点选择
+- DOMAIN-SUFFIX,ameba.jp,🔰 节点选择
+- DOMAIN-SUFFIX,hayabusa.io,🔰 节点选择
+- DOMAIN-KEYWORD,abematv.akamaized.net,🔰 节点选择
+- DOMAIN-SUFFIX,c4assets.com,🔰 节点选择
+- DOMAIN-SUFFIX,channel4.com,🔰 节点选择
+- DOMAIN-SUFFIX,aiv-cdn.net,🔰 节点选择
+- DOMAIN-SUFFIX,aiv-delivery.net,🔰 节点选择
+- DOMAIN-SUFFIX,amazonvideo.com,🔰 节点选择
+- DOMAIN-SUFFIX,primevideo.com,🔰 节点选择
+- DOMAIN-SUFFIX,media-amazon.com,🔰 节点选择
+- DOMAIN,atv-ps.amazon.com,🔰 节点选择
+- DOMAIN,fls-na.amazon.com,🔰 节点选择
+- DOMAIN,avodmp4s3ww-a.akamaihd.net,🔰 节点选择
+- DOMAIN,d25xi40x97liuc.cloudfront.net,🔰 节点选择
+- DOMAIN,dmqdd6hw24ucf.cloudfront.net,🔰 节点选择
+- DOMAIN,dmqdd6hw24ucf.cloudfront.net,🔰 节点选择
+- DOMAIN,d22qjgkvxw22r6.cloudfront.net,🔰 节点选择
+- DOMAIN,d1v5ir2lpwr8os.cloudfront.net,🔰 节点选择
+- DOMAIN,d27xxe7juh1us6.cloudfront.net,🔰 节点选择
+- DOMAIN-KEYWORD,avoddashs,🔰 节点选择
+- DOMAIN-SUFFIX,bahamut.com.tw,🔰 节点选择
+- DOMAIN-SUFFIX,gamer.com.tw,🔰 节点选择
+- DOMAIN,gamer-cds.cdn.hinet.net,🔰 节点选择
+- DOMAIN,gamer2-cds.cdn.hinet.net,🔰 节点选择
+- DOMAIN-SUFFIX,bbc.co.uk,🔰 节点选择
+- DOMAIN-SUFFIX,bbci.co.uk,🔰 节点选择
+- DOMAIN-KEYWORD,bbcfmt,🔰 节点选择
+- DOMAIN-KEYWORD,uk-live,🔰 节点选择
+- DOMAIN-SUFFIX,biliintl.com,🔰 节点选择
+- DOMAIN,apm-misaka.biliapi.net,🔰 节点选择
+- DOMAIN,p.bstarstatic.com,🔰 节点选择
+- DOMAIN,p-bstarstatic.akamaized.net,🔰 节点选择
+- DOMAIN,upos-bstar-mirrorakam.akamaized.net,🔰 节点选择
+- DOMAIN,upos-bstar1-mirrorakam.akamaized.net,🔰 节点选择
+- DOMAIN-SUFFIX,dazn.com,🔰 节点选择
+- DOMAIN-SUFFIX,dazn-api.com,🔰 节点选择
+- DOMAIN-SUFFIX,dazndn.com,🔰 节点选择
+- DOMAIN-SUFFIX,indazn.com,🔰 节点选择
+- DOMAIN,d151l6v8er5bdm.cloudfront.net,🔰 节点选择
+- DOMAIN-KEYWORD,voddazn,🔰 节点选择
+- DOMAIN-SUFFIX,disco-api.com,🔰 节点选择
+- DOMAIN-SUFFIX,discoveryplus.co.uk,🔰 节点选择
+- DOMAIN-SUFFIX,discoveryplus.com,🔰 节点选择
+- DOMAIN-SUFFIX,discoveryplus.in,🔰 节点选择
+- DOMAIN-SUFFIX,dnitv.com,🔰 节点选择
+- DOMAIN-SUFFIX,bamgrid.com,🔰 节点选择
+- DOMAIN-SUFFIX,disneyplus.com,🔰 节点选择
+- DOMAIN-SUFFIX,disney-plus.net,🔰 节点选择
+- DOMAIN-SUFFIX,disneystreaming.com,🔰 节点选择
+- DOMAIN-SUFFIX,dssott.com,🔰 节点选择
+- DOMAIN,cdn.registerdisney.go.com,🔰 节点选择
+- DOMAIN-SUFFIX,dmm.co.jp,🔰 节点选择
+- DOMAIN-SUFFIX,dmm.com,🔰 节点选择
+- DOMAIN-SUFFIX,dmm-extension.com,🔰 节点选择
+- DOMAIN-SUFFIX,encoretvb.com,🔰 节点选择
+- DOMAIN,edge.api.brightcove.com,🔰 节点选择
+- DOMAIN,bcbolt446c5271-a.akamaihd.net,🔰 节点选择
+- DOMAIN-SUFFIX,hbo.com,🔰 节点选择
+- DOMAIN-SUFFIX,hbogo.com,🔰 节点选择
+- DOMAIN-SUFFIX,hbonow.com,🔰 节点选择
+- DOMAIN-SUFFIX,hbomax.com,🔰 节点选择
+- DOMAIN-SUFFIX,hbomaxcdn.com,🔰 节点选择
+- DOMAIN-SUFFIX,hbogoasia.com,🔰 节点选择
+- DOMAIN-SUFFIX,hbogoasia.hk,🔰 节点选择
+- DOMAIN-KEYWORD,.hbogoasia.,🔰 节点选择
+- DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🔰 节点选择
+- DOMAIN,bcbolthboa-a.akamaihd.net,🔰 节点选择
+- DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,🔰 节点选择
+- DOMAIN,dai3fd1oh325y.cloudfront.net,🔰 节点选择
+- DOMAIN,hboasia1-i.akamaihd.net,🔰 节点选择
+- DOMAIN,hboasia2-i.akamaihd.net,🔰 节点选择
+- DOMAIN,hboasia3-i.akamaihd.net,🔰 节点选择
+- DOMAIN,hboasia4-i.akamaihd.net,🔰 节点选择
+- DOMAIN,hboasia5-i.akamaihd.net,🔰 节点选择
+- DOMAIN,hboasialive.akamaized.net,🔰 节点选择
+- DOMAIN,hbogoprod-vod.akamaized.net,🔰 节点选择
+- DOMAIN,hbolb.onwardsmg.com,🔰 节点选择
+- DOMAIN,hbounify-prod.evergent.com,🔰 节点选择
+- DOMAIN,players.brightcove.net,🔰 节点选择
+- DOMAIN,s3-ap-southeast-1.amazonaws.com,🔰 节点选择
+- DOMAIN-SUFFIX,5itv.tv,🔰 节点选择
+- DOMAIN-SUFFIX,ocnttv.com,🔰 节点选择
+- DOMAIN-SUFFIX,hulu.com,🔰 节点选择
+- DOMAIN-SUFFIX,huluim.com,🔰 节点选择
+- DOMAIN-SUFFIX,hulustream.com,🔰 节点选择
+- DOMAIN-SUFFIX,happyon.jp,🔰 节点选择
+- DOMAIN-SUFFIX,hjholdings.jp,🔰 节点选择
+- DOMAIN-SUFFIX,hulu.jp,🔰 节点选择
+- DOMAIN-SUFFIX,itv.com,🔰 节点选择
+- DOMAIN-SUFFIX,itvstatic.com,🔰 节点选择
+- DOMAIN,itvpnpmobile-a.akamaihd.net,🔰 节点选择
+- DOMAIN-SUFFIX,iq.com,🔰 节点选择
+- DOMAIN,intl.iqiyi.com,🔰 节点选择
+- DOMAIN,intl-rcd.iqiyi.com,🔰 节点选择
+- DOMAIN,intl-subscription.iqiyi.com,🔰 节点选择
+- IP-CIDR,23.53.32.88/32,🔰 节点选择,no-resolve
+- IP-CIDR,23.211.15.99/32,🔰 节点选择,no-resolve
+- IP-CIDR,103.5.34.153/32,🔰 节点选择,no-resolve
+- IP-CIDR,104.109.129.153/32,🔰 节点选择,no-resolve
+- IP-CIDR,110.238.107.47/32,🔰 节点选择,no-resolve
+- IP-CIDR,118.26.32.178/32,🔰 节点选择,no-resolve
+- IP-CIDR,203.74.95.131/32,🔰 节点选择,no-resolve
+- IP-CIDR,203.74.95.139/32,🔰 节点选择,no-resolve
+- IP-CIDR,203.74.95.153/32,🔰 节点选择,no-resolve
+- IP-CIDR,203.211.4.169/32,🔰 节点选择,no-resolve
+- IP-CIDR,203.211.4.193/32,🔰 节点选择,no-resolve
+- IP-CIDR,210.71.227.200/32,🔰 节点选择,no-resolve
+- IP-CIDR,210.71.227.202/32,🔰 节点选择,no-resolve
+- IP-CIDR,210.201.32.8/32,🔰 节点选择,no-resolve
+- IP-CIDR,210.201.32.11/32,🔰 节点选择,no-resolve
+- DOMAIN-SUFFIX,kktv.com.tw,🔰 节点选择
+- DOMAIN-SUFFIX,kktv.me,🔰 节点选择
+- DOMAIN,kktv-theater.kk.stream,🔰 节点选择
+- DOMAIN-SUFFIX,linetv.tw,🔰 节点选择
+- DOMAIN,d3c7rimkq79yfu.cloudfront.net,🔰 节点选择
+- DOMAIN-SUFFIX,litv.tv,🔰 节点选择
+- DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,🔰 节点选择
+- DOMAIN-SUFFIX,api.mgtv.com,🔰 节点选择
+- DOMAIN,mobileso.bz.mgtv.com,🔰 节点选择
+- DOMAIN-SUFFIX,channel5.com,🔰 节点选择
+- DOMAIN-SUFFIX,my5.tv,🔰 节点选择
+- DOMAIN,d349g9zuie06uo.cloudfront.net,🔰 节点选择
+- DOMAIN-SUFFIX,mytvsuper.com,🔰 节点选择
+- DOMAIN-SUFFIX,tvb.com,🔰 节点选择
+- DOMAIN-SUFFIX,naver.com,🔰 节点选择
+- DOMAIN-SUFFIX,smartmediarep.com,🔰 节点选择
+- DOMAIN-SUFFIX,netflix.com,🔰 节点选择
+- DOMAIN-SUFFIX,netflix.net,🔰 节点选择
+- DOMAIN-SUFFIX,nflxext.com,🔰 节点选择
+- DOMAIN-SUFFIX,nflximg.com,🔰 节点选择
+- DOMAIN-SUFFIX,nflximg.net,🔰 节点选择
+- DOMAIN-SUFFIX,nflxso.net,🔰 节点选择
+- DOMAIN-SUFFIX,nflxvideo.net,🔰 节点选择
+- DOMAIN-SUFFIX,netflixdnstest0.com,🔰 节点选择
+- DOMAIN-SUFFIX,netflixdnstest1.com,🔰 节点选择
+- DOMAIN-SUFFIX,netflixdnstest2.com,🔰 节点选择
+- DOMAIN-SUFFIX,netflixdnstest3.com,🔰 节点选择
+- DOMAIN-SUFFIX,netflixdnstest4.com,🔰 节点选择
+- DOMAIN-SUFFIX,netflixdnstest5.com,🔰 节点选择
+- DOMAIN-SUFFIX,netflixdnstest6.com,🔰 节点选择
+- DOMAIN-SUFFIX,netflixdnstest7.com,🔰 节点选择
+- DOMAIN-SUFFIX,netflixdnstest8.com,🔰 节点选择
+- DOMAIN-SUFFIX,netflixdnstest9.com,🔰 节点选择
+- DOMAIN-KEYWORD,dualstack.apiproxy-,🔰 节点选择
+- DOMAIN-KEYWORD,dualstack.ichnaea-web-,🔰 节点选择
+- IP-CIDR,23.246.0.0/18,🔰 节点选择,no-resolve
+- IP-CIDR,37.77.184.0/21,🔰 节点选择,no-resolve
+- IP-CIDR,45.57.0.0/17,🔰 节点选择,no-resolve
+- IP-CIDR,64.120.128.0/17,🔰 节点选择,no-resolve
+- IP-CIDR,66.197.128.0/17,🔰 节点选择,no-resolve
+- IP-CIDR,108.175.32.0/20,🔰 节点选择,no-resolve
+- IP-CIDR,192.173.64.0/18,🔰 节点选择,no-resolve
+- IP-CIDR,198.38.96.0/19,🔰 节点选择,no-resolve
+- IP-CIDR,198.45.48.0/20,🔰 节点选择,no-resolve
+- IP-CIDR,34.210.42.111/32,🔰 节点选择,no-resolve
+- IP-CIDR,52.89.124.203/32,🔰 节点选择,no-resolve
+- IP-CIDR,54.148.37.5/32,🔰 节点选择,no-resolve
+- DOMAIN-SUFFIX,dmc.nico,🔰 节点选择
+- DOMAIN-SUFFIX,nicovideo.jp,🔰 节点选择
+- DOMAIN-SUFFIX,nimg.jp,🔰 节点选择
+- DOMAIN-SUFFIX,nowe.com,🔰 节点选择
+- DOMAIN-SUFFIX,nowestatic.com,🔰 节点选择
+- DOMAIN-SUFFIX,cbsi.com,🔰 节点选择
+- DOMAIN-SUFFIX,cbsaavideo.com,🔰 节点选择
+- DOMAIN-SUFFIX,cbsivideo.com,🔰 节点选择
+- DOMAIN-SUFFIX,paramountplus.com,🔰 节点选择
+- DOMAIN-SUFFIX,pplusstatic.com,🔰 节点选择
+- DOMAIN,cbsi.live.ott.irdeto.com,🔰 节点选择
+- DOMAIN,cbsplaylistserver.aws.syncbak.com,🔰 节点选择
+- DOMAIN,cbsservice.aws.syncbak.com,🔰 节点选择
+- DOMAIN,link.theplatform.com,🔰 节点选择
+- DOMAIN-SUFFIX,pbs.org,🔰 节点选择
+- DOMAIN-SUFFIX,peacocktv.com,🔰 节点选择
+- DOMAIN-SUFFIX,phncdn.com,🔰 节点选择
+- DOMAIN-SUFFIX,phprcdn.com,🔰 节点选择
+- DOMAIN-SUFFIX,pornhub.com,🔰 节点选择
+- DOMAIN-SUFFIX,pornhubpremium.com,🔰 节点选择
+- DOMAIN-SUFFIX,skyking.com.tw,🔰 节点选择
+- DOMAIN,hamifans.emome.net,🔰 节点选择
+- DOMAIN-SUFFIX,byteoversea.com,🔰 节点选择
+- DOMAIN-SUFFIX,ibytedtos.com,🔰 节点选择
+- DOMAIN-SUFFIX,muscdn.com,🔰 节点选择
+- DOMAIN-SUFFIX,musical.ly,🔰 节点选择
+- DOMAIN-SUFFIX,tiktok.com,🔰 节点选择
+- DOMAIN-SUFFIX,tik-tokapi.com,🔰 节点选择
+- DOMAIN-SUFFIX,tiktokcdn.com,🔰 节点选择
+- DOMAIN-SUFFIX,tiktokv.com,🔰 节点选择
+- DOMAIN-KEYWORD,-tiktokcdn-com,🔰 节点选择
+- DOMAIN-SUFFIX,tver.jp,🔰 节点选择
+- DOMAIN,edge.api.brightcove.com,🔰 节点选择
+- DOMAIN-SUFFIX,viu.com,🔰 节点选择
+- DOMAIN-SUFFIX,viu.tv,🔰 节点选择
+- DOMAIN,api.viu.now.com,🔰 节点选择
+- DOMAIN,d1k2us671qcoau.cloudfront.net,🔰 节点选择
+- DOMAIN,d2anahhhmp1ffz.cloudfront.net,🔰 节点选择
+- DOMAIN,dfp6rglgjqszk.cloudfront.net,🔰 节点选择
+- DOMAIN-SUFFIX,wetv.vip,🔰 节点选择
+- DOMAIN-SUFFIX,wetvinfo.com,🔰 节点选择
+- IP-CIDR,150.109.28.51/32,🔰 节点选择,no-resolve
+- DOMAIN-SUFFIX,googlevideo.com,🔰 节点选择
+- DOMAIN-SUFFIX,youtube.com,🔰 节点选择
+- DOMAIN-SUFFIX,ytimg.com,🔰 节点选择
+- DOMAIN,youtubei.googleapis.com,🔰 节点选择
+- DOMAIN-SUFFIX,amazon.co.jp,🔰 节点选择
+- DOMAIN,d3c33hcgiwev3.cloudfront.net,🔰 节点选择
+- DOMAIN,payments-jp.amazon.com,🔰 节点选择
+- DOMAIN,s3-ap-northeast-1.amazonaws.com,🔰 节点选择
+- DOMAIN,s3-ap-southeast-2.amazonaws.com,🔰 节点选择
+- DOMAIN,a248.e.akamai.net,🔰 节点选择
+- DOMAIN,a771.dscq.akamai.net,🔰 节点选择
+- DOMAIN-SUFFIX,clubhouseapi.com,🔰 节点选择
+- DOMAIN-SUFFIX,joinclubhouse.com,🔰 节点选择
+- DOMAIN,clubhouse.pubnubapi.com,🔰 节点选择
+- DOMAIN-SUFFIX,aex.com,🔰 节点选择
+- DOMAIN-SUFFIX,bibox.com,🔰 节点选择
+- DOMAIN-SUFFIX,binance.cc,🔰 节点选择
+- DOMAIN-SUFFIX,binance.com,🔰 节点选择
+- DOMAIN-SUFFIX,binance.us,🔰 节点选择
+- DOMAIN-SUFFIX,bitcointalk.org,🔰 节点选择
+- DOMAIN-SUFFIX,bitfinex.com,🔰 节点选择
+- DOMAIN-SUFFIX,bithumb.com,🔰 节点选择
+- DOMAIN-SUFFIX,bitmex.com,🔰 节点选择
+- DOMAIN-SUFFIX,bitstamp.net,🔰 节点选择
+- DOMAIN-SUFFIX,bittrex.com,🔰 节点选择
+- DOMAIN-SUFFIX,bybit.com,🔰 节点选择
+- DOMAIN-SUFFIX,coinbase.com,🔰 节点选择
+- DOMAIN-SUFFIX,coincheck.com,🔰 节点选择
+- DOMAIN-SUFFIX,coingecko.com,🔰 节点选择
+- DOMAIN-SUFFIX,coinmarketcap.com,🔰 节点选择
+- DOMAIN-SUFFIX,coinone.co.kr,🔰 节点选择
+- DOMAIN-SUFFIX,ftx.com,🔰 节点选择
+- DOMAIN-SUFFIX,gate.io,🔰 节点选择
+- DOMAIN-SUFFIX,gemini.com,🔰 节点选择
+- DOMAIN-SUFFIX,huobi.com,🔰 节点选择
+- DOMAIN-SUFFIX,korbit.co.kr,🔰 节点选择
+- DOMAIN-SUFFIX,kraken.com,🔰 节点选择
+- DOMAIN-SUFFIX,kucoin.com,🔰 节点选择
+- DOMAIN-SUFFIX,liquid.com,🔰 节点选择
+- DOMAIN-SUFFIX,okex.com,🔰 节点选择
+- DOMAIN-SUFFIX,poloniex.com,🔰 节点选择
+- DOMAIN-SUFFIX,uniswap.org,🔰 节点选择
+- DOMAIN-SUFFIX,zb.com,🔰 节点选择
+- DOMAIN-SUFFIX,discord.com,🔰 节点选择
+- DOMAIN-SUFFIX,discordapp.com,🔰 节点选择
+- DOMAIN-SUFFIX,discordapp.net,🔰 节点选择
+- DOMAIN-SUFFIX,dropbox.com,🔰 节点选择
+- DOMAIN-SUFFIX,dropboxapi.com,🔰 节点选择
+- DOMAIN-SUFFIX,dropboxusercontent.com,🔰 节点选择
+- DOMAIN-SUFFIX,cdninstagram.com,🔰 节点选择
+- DOMAIN-SUFFIX,facebook.com,🔰 节点选择
+- DOMAIN-SUFFIX,facebook.net,🔰 节点选择
+- DOMAIN-SUFFIX,fb.com,🔰 节点选择
+- DOMAIN-SUFFIX,fb.me,🔰 节点选择
+- DOMAIN-SUFFIX,fbaddins.com,🔰 节点选择
+- DOMAIN-SUFFIX,fbcdn.net,🔰 节点选择
+- DOMAIN-SUFFIX,fbsbx.com,🔰 节点选择
+- DOMAIN-SUFFIX,fbworkmail.com,🔰 节点选择
+- DOMAIN-SUFFIX,instagram.com,🔰 节点选择
+- DOMAIN-SUFFIX,m.me,🔰 节点选择
+- DOMAIN-SUFFIX,messenger.com,🔰 节点选择
+- DOMAIN-SUFFIX,oculus.com,🔰 节点选择
+- DOMAIN-SUFFIX,oculuscdn.com,🔰 节点选择
+- DOMAIN-SUFFIX,rocksdb.org,🔰 节点选择
+- DOMAIN-SUFFIX,whatsapp.com,🔰 节点选择
+- DOMAIN-SUFFIX,whatsapp.net,🔰 节点选择
+- DOMAIN-SUFFIX,appspot.com,🔰 节点选择
+- DOMAIN-SUFFIX,blogger.com,🔰 节点选择
+- DOMAIN-SUFFIX,getoutline.org,🔰 节点选择
+- DOMAIN-SUFFIX,gvt0.com,🔰 节点选择
+- DOMAIN-SUFFIX,gvt1.com,🔰 节点选择
+- DOMAIN-SUFFIX,gvt3.com,🔰 节点选择
+- DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🔰 节点选择
+- DOMAIN-SUFFIX,ytimg.com,🔰 节点选择
+- DOMAIN-KEYWORD,google,🔰 节点选择
+- DOMAIN-KEYWORD,.blogspot.,🔰 节点选择
+- DOMAIN-SUFFIX,line.me,🔰 节点选择
+- DOMAIN-SUFFIX,line-apps.com,🔰 节点选择
+- DOMAIN-SUFFIX,line-scdn.net,🔰 节点选择
+- DOMAIN-SUFFIX,naver.jp,🔰 节点选择
+- IP-CIDR,103.2.30.0/23,🔰 节点选择,no-resolve
+- IP-CIDR,125.209.208.0/20,🔰 节点选择,no-resolve
+- IP-CIDR,147.92.128.0/17,🔰 节点选择,no-resolve
+- IP-CIDR,203.104.144.0/21,🔰 节点选择,no-resolve
+- DOMAIN-SUFFIX,aka.ms,🔰 节点选择
+- DOMAIN-SUFFIX,streaming.mediaservices.windows.net,🔰 节点选择
+- DOMAIN,assets1.xboxlive.com,🔰 节点选择
+- DOMAIN,assets2.xboxlive.com,🔰 节点选择
+- DOMAIN,az416426.vo.msecnd.net,🔰 节点选择
+- DOMAIN,az668014.vo.msecnd.net,🔰 节点选择
+- DOMAIN-SUFFIX,nyt.com,🔰 节点选择
+- DOMAIN-SUFFIX,nytchina.com,🔰 节点选择
+- DOMAIN-SUFFIX,nytcn.me,🔰 节点选择
+- DOMAIN-SUFFIX,nytco.com,🔰 节点选择
+- DOMAIN-SUFFIX,nytimes.com,🔰 节点选择
+- DOMAIN-SUFFIX,nytimg.com,🔰 节点选择
+- DOMAIN-SUFFIX,nytlog.com,🔰 节点选择
+- DOMAIN-SUFFIX,nytstyle.com,🔰 节点选择
+- DOMAIN-SUFFIX,pinterest.at,🔰 节点选择
+- DOMAIN-SUFFIX,pinterest.ca,🔰 节点选择
+- DOMAIN-SUFFIX,pinterest.co.uk,🔰 节点选择
+- DOMAIN-SUFFIX,pinterest.com,🔰 节点选择
+- DOMAIN-SUFFIX,pinterest.de,🔰 节点选择
+- DOMAIN-SUFFIX,pinterest.fr,🔰 节点选择
+- DOMAIN-SUFFIX,pinterest.jp,🔰 节点选择
+- DOMAIN-SUFFIX,pinterest.se,🔰 节点选择
+- DOMAIN-SUFFIX,pixiv.net,🔰 节点选择
+- DOMAIN-SUFFIX,pixiv.org,🔰 节点选择
+- DOMAIN-SUFFIX,pximg.net,🔰 节点选择
+- DOMAIN-SUFFIX,redd.it,🔰 节点选择
+- DOMAIN-SUFFIX,reddit.com,🔰 节点选择
+- DOMAIN-SUFFIX,redditmedia.com,🔰 节点选择
+- DOMAIN-SUFFIX,telegra.ph,🔰 节点选择
+- DOMAIN-SUFFIX,telegram.org,🔰 节点选择
+- IP-CIDR,91.108.4.0/22,🔰 节点选择,no-resolve
+- IP-CIDR,91.108.8.0/22,🔰 节点选择,no-resolve
+- IP-CIDR,91.108.12.0/22,🔰 节点选择,no-resolve
+- IP-CIDR,91.108.16.0/22,🔰 节点选择,no-resolve
+- IP-CIDR,91.108.20.0/22,🔰 节点选择,no-resolve
+- IP-CIDR,91.108.56.0/22,🔰 节点选择,no-resolve
+- IP-CIDR,91.105.192.0/23,🔰 节点选择,no-resolve
+- IP-CIDR,149.154.160.0/20,🔰 节点选择,no-resolve
+- IP-CIDR,185.76.151.0/24,🔰 节点选择,no-resolve
+- IP-CIDR6,2001:b28:f23d::/48,🔰 节点选择,no-resolve
+- IP-CIDR6,2001:b28:f23f::/48,🔰 节点选择,no-resolve
+- IP-CIDR6,2001:67c:4e8::/48,🔰 节点选择,no-resolve
+- IP-CIDR6,2001:b28:f23c::/48,🔰 节点选择,no-resolve
+- IP-CIDR6,2a0a:f280::/32,🔰 节点选择,no-resolve
+- DOMAIN-SUFFIX,pscp.tv,🔰 节点选择
+- DOMAIN-SUFFIX,periscope.tv,🔰 节点选择
+- DOMAIN-SUFFIX,t.co,🔰 节点选择
+- DOMAIN-SUFFIX,twimg.co,🔰 节点选择
+- DOMAIN-SUFFIX,twimg.com,🔰 节点选择
+- DOMAIN-SUFFIX,twitpic.com,🔰 节点选择
+- DOMAIN-SUFFIX,twitter.com,🔰 节点选择
+- DOMAIN-SUFFIX,vine.co,🔰 节点选择
+- DOMAIN-SUFFIX,wikileaks.org,🔰 节点选择
+- DOMAIN-SUFFIX,wikimapia.org,🔰 节点选择
+- DOMAIN-SUFFIX,wikimedia.org,🔰 节点选择
+- DOMAIN-SUFFIX,wikinews.org,🔰 节点选择
+- DOMAIN-SUFFIX,wikipedia.org,🔰 节点选择
+- DOMAIN-SUFFIX,wikiquote.org,🔰 节点选择
+- DOMAIN-SUFFIX,4shared.com,🔰 节点选择
+- DOMAIN-SUFFIX,9cache.com,🔰 节点选择
+- DOMAIN-SUFFIX,9gag.com,🔰 节点选择
+- DOMAIN-SUFFIX,abc.com,🔰 节点选择
+- DOMAIN-SUFFIX,abc.net.au,🔰 节点选择
+- DOMAIN-SUFFIX,abebooks.com,🔰 节点选择
+- DOMAIN-SUFFIX,ao3.org,🔰 节点选择
+- DOMAIN-SUFFIX,apigee.com,🔰 节点选择
+- DOMAIN-SUFFIX,apkcombo.com,🔰 节点选择
+- DOMAIN-SUFFIX,apk-dl.com,🔰 节点选择
+- DOMAIN-SUFFIX,apkfind.com,🔰 节点选择
+- DOMAIN-SUFFIX,apkmirror.com,🔰 节点选择
+- DOMAIN-SUFFIX,apkmonk.com,🔰 节点选择
+- DOMAIN-SUFFIX,apkpure.com,🔰 节点选择
+- DOMAIN-SUFFIX,aptoide.com,🔰 节点选择
+- DOMAIN-SUFFIX,archive.is,🔰 节点选择
+- DOMAIN-SUFFIX,archive.org,🔰 节点选择
+- DOMAIN-SUFFIX,archiveofourown.com,🔰 节点选择
+- DOMAIN-SUFFIX,archiveofourown.org,🔰 节点选择
+- DOMAIN-SUFFIX,arte.tv,🔰 节点选择
+- DOMAIN-SUFFIX,artstation.com,🔰 节点选择
+- DOMAIN-SUFFIX,arukas.io,🔰 节点选择
+- DOMAIN-SUFFIX,ask.com,🔰 节点选择
+- DOMAIN-SUFFIX,avg.com,🔰 节点选择
+- DOMAIN-SUFFIX,avgle.com,🔰 节点选择
+- DOMAIN-SUFFIX,badoo.com,🔰 节点选择
+- DOMAIN-SUFFIX,bandcamp.com,🔰 节点选择
+- DOMAIN-SUFFIX,bandwagonhost.com,🔰 节点选择
+- DOMAIN-SUFFIX,bangkokpost.com,🔰 节点选择
+- DOMAIN-SUFFIX,bbc.com,🔰 节点选择
+- DOMAIN-SUFFIX,behance.net,🔰 节点选择
+- DOMAIN-SUFFIX,biggo.com.tw,🔰 节点选择
+- DOMAIN-SUFFIX,bit.ly,🔰 节点选择
+- DOMAIN-SUFFIX,bloglovin.com,🔰 节点选择
+- DOMAIN-SUFFIX,bloomberg.cn,🔰 节点选择
+- DOMAIN-SUFFIX,bloomberg.com,🔰 节点选择
+- DOMAIN-SUFFIX,blubrry.com,🔰 节点选择
+- DOMAIN-SUFFIX,book.com.tw,🔰 节点选择
+- DOMAIN-SUFFIX,booklive.jp,🔰 节点选择
+- DOMAIN-SUFFIX,books.com.tw,🔰 节点选择
+- DOMAIN-SUFFIX,boslife.net,🔰 节点选择
+- DOMAIN-SUFFIX,box.com,🔰 节点选择
+- DOMAIN-SUFFIX,brave.com,🔰 节点选择
+- DOMAIN-SUFFIX,businessinsider.com,🔰 节点选择
+- DOMAIN-SUFFIX,buzzfeed.com,🔰 节点选择
+- DOMAIN-SUFFIX,bwh1.net,🔰 节点选择
+- DOMAIN-SUFFIX,castbox.fm,🔰 节点选择
+- DOMAIN-SUFFIX,cbc.ca,🔰 节点选择
+- DOMAIN-SUFFIX,cdw.com,🔰 节点选择
+- DOMAIN-SUFFIX,change.org,🔰 节点选择
+- DOMAIN-SUFFIX,channelnewsasia.com,🔰 节点选择
+- DOMAIN-SUFFIX,ck101.com,🔰 节点选择
+- DOMAIN-SUFFIX,clarionproject.org,🔰 节点选择
+- DOMAIN-SUFFIX,cloudcone.com,🔰 节点选择
+- DOMAIN-SUFFIX,clyp.it,🔰 节点选择
+- DOMAIN-SUFFIX,cna.com.tw,🔰 节点选择
+- DOMAIN-SUFFIX,comparitech.com,🔰 节点选择
+- DOMAIN-SUFFIX,conoha.jp,🔰 节点选择
+- DOMAIN-SUFFIX,crucial.com,🔰 节点选择
+- DOMAIN-SUFFIX,cts.com.tw,🔰 节点选择
+- DOMAIN-SUFFIX,cw.com.tw,🔰 节点选择
+- DOMAIN-SUFFIX,cyberctm.com,🔰 节点选择
+- DOMAIN-SUFFIX,cyclingnews.com,🔰 节点选择
+- DOMAIN-SUFFIX,dailymotion.com,🔰 节点选择
+- DOMAIN-SUFFIX,dailyview.tw,🔰 节点选择
+- DOMAIN-SUFFIX,dandanzan.com,🔰 节点选择
+- DOMAIN-SUFFIX,daum.net,🔰 节点选择
+- DOMAIN-SUFFIX,daumcdn.net,🔰 节点选择
+- DOMAIN-SUFFIX,dcard.tw,🔰 节点选择
+- DOMAIN-SUFFIX,deadline.com,🔰 节点选择
+- DOMAIN-SUFFIX,deepdiscount.com,🔰 节点选择
+- DOMAIN-SUFFIX,depositphotos.com,🔰 节点选择
+- DOMAIN-SUFFIX,deviantart.com,🔰 节点选择
+- DOMAIN-SUFFIX,disconnect.me,🔰 节点选择
+- DOMAIN-SUFFIX,disqus.com,🔰 节点选择
+- DOMAIN-SUFFIX,dlercloud.com,🔰 节点选择
+- DOMAIN-SUFFIX,dmhy.org,🔰 节点选择
+- DOMAIN-SUFFIX,dns2go.com,🔰 节点选择
+- DOMAIN-SUFFIX,dowjones.com,🔰 节点选择
+- DOMAIN-SUFFIX,duckduckgo.com,🔰 节点选择
+- DOMAIN-SUFFIX,duyaoss.com,🔰 节点选择
+- DOMAIN-SUFFIX,dw.com,🔰 节点选择
+- DOMAIN-SUFFIX,dynu.com,🔰 节点选择
+- DOMAIN-SUFFIX,earthcam.com,🔰 节点选择
+- DOMAIN-SUFFIX,ebookservice.tw,🔰 节点选择
+- DOMAIN-SUFFIX,economist.com,🔰 节点选择
+- DOMAIN-SUFFIX,edgecastcdn.net,🔰 节点选择
+- DOMAIN-SUFFIX,edx-cdn.org,🔰 节点选择
+- DOMAIN-SUFFIX,elpais.com,🔰 节点选择
+- DOMAIN-SUFFIX,enanyang.my,🔰 节点选择
+- DOMAIN-SUFFIX,encyclopedia.com,🔰 节点选择
+- DOMAIN-SUFFIX,esoir.be,🔰 节点选择
+- DOMAIN-SUFFIX,etherscan.io,🔰 节点选择
+- DOMAIN-SUFFIX,euronews.com,🔰 节点选择
+- DOMAIN-SUFFIX,evozi.com,🔰 节点选择
+- DOMAIN-SUFFIX,exblog.jp,🔰 节点选择
+- DOMAIN-SUFFIX,feeder.co,🔰 节点选择
+- DOMAIN-SUFFIX,feedly.com,🔰 节点选择
+- DOMAIN-SUFFIX,feedx.net,🔰 节点选择
+- DOMAIN-SUFFIX,firech.at,🔰 节点选择
+- DOMAIN-SUFFIX,flickr.com,🔰 节点选择
+- DOMAIN-SUFFIX,flipboard.com,🔰 节点选择
+- DOMAIN-SUFFIX,flitto.com,🔰 节点选择
+- DOMAIN-SUFFIX,foreignpolicy.com,🔰 节点选择
+- DOMAIN-SUFFIX,fortawesome.com,🔰 节点选择
+- DOMAIN-SUFFIX,friday.tw,🔰 节点选择
+- DOMAIN-SUFFIX,ft.com,🔰 节点选择
+- DOMAIN-SUFFIX,ftchinese.com,🔰 节点选择
+- DOMAIN-SUFFIX,ftimg.net,🔰 节点选择
+- DOMAIN-SUFFIX,genius.com,🔰 节点选择
+- DOMAIN-SUFFIX,getlantern.org,🔰 节点选择
+- DOMAIN-SUFFIX,getsync.com,🔰 节点选择
+- DOMAIN-SUFFIX,globalvoices.org,🔰 节点选择
+- DOMAIN-SUFFIX,goo.ne.jp,🔰 节点选择
+- DOMAIN-SUFFIX,goodreads.com,🔰 节点选择
+- DOMAIN-SUFFIX,gov.tw,🔰 节点选择
+- DOMAIN-SUFFIX,gravatar.com,🔰 节点选择
+- DOMAIN-SUFFIX,greatfire.org,🔰 节点选择
+- DOMAIN-SUFFIX,gumroad.com,🔰 节点选择
+- DOMAIN-SUFFIX,heroku.com,🔰 节点选择
+- DOMAIN-SUFFIX,hightail.com,🔰 节点选择
+- DOMAIN-SUFFIX,hk01.com,🔰 节点选择
+- DOMAIN-SUFFIX,hkbf.org,🔰 节点选择
+- DOMAIN-SUFFIX,hkbookcity.com,🔰 节点选择
+- DOMAIN-SUFFIX,hkej.com,🔰 节点选择
+- DOMAIN-SUFFIX,hket.com,🔰 节点选择
+- DOMAIN-SUFFIX,hootsuite.com,🔰 节点选择
+- DOMAIN-SUFFIX,hudson.org,🔰 节点选择
+- DOMAIN-SUFFIX,huffpost.com,🔰 节点选择
+- DOMAIN-SUFFIX,hyread.com.tw,🔰 节点选择
+- DOMAIN-SUFFIX,ibtimes.com,🔰 节点选择
+- DOMAIN-SUFFIX,i-cable.com,🔰 节点选择
+- DOMAIN-SUFFIX,icij.org,🔰 节点选择
+- DOMAIN-SUFFIX,icoco.com,🔰 节点选择
+- DOMAIN-SUFFIX,independent.co.uk,🔰 节点选择
+- DOMAIN-SUFFIX,initiummall.com,🔰 节点选择
+- DOMAIN-SUFFIX,inoreader.com,🔰 节点选择
+- DOMAIN-SUFFIX,insecam.org,🔰 节点选择
+- DOMAIN-SUFFIX,ipfs.io,🔰 节点选择
+- DOMAIN-SUFFIX,issuu.com,🔰 节点选择
+- DOMAIN-SUFFIX,istockphoto.com,🔰 节点选择
+- DOMAIN-SUFFIX,japantimes.co.jp,🔰 节点选择
+- DOMAIN-SUFFIX,jiji.com,🔰 节点选择
+- DOMAIN-SUFFIX,jinx.com,🔰 节点选择
+- DOMAIN-SUFFIX,jkforum.net,🔰 节点选择
+- DOMAIN-SUFFIX,joinmastodon.org,🔰 节点选择
+- DOMAIN-SUFFIX,justmysocks.net,🔰 节点选择
+- DOMAIN-SUFFIX,justpaste.it,🔰 节点选择
+- DOMAIN-SUFFIX,kadokawa.co.jp,🔰 节点选择
+- DOMAIN-SUFFIX,kakao.com,🔰 节点选择
+- DOMAIN-SUFFIX,kakaocorp.com,🔰 节点选择
+- DOMAIN-SUFFIX,kik.com,🔰 节点选择
+- DOMAIN-SUFFIX,kingkong.com.tw,🔰 节点选择
+- DOMAIN-SUFFIX,knowyourmeme.com,🔰 节点选择
+- DOMAIN-SUFFIX,kobo.com,🔰 节点选择
+- DOMAIN-SUFFIX,kobobooks.com,🔰 节点选择
+- DOMAIN-SUFFIX,kodingen.com,🔰 节点选择
+- DOMAIN-SUFFIX,lemonde.fr,🔰 节点选择
+- DOMAIN-SUFFIX,lepoint.fr,🔰 节点选择
+- DOMAIN-SUFFIX,lihkg.com,🔰 节点选择
+- DOMAIN-SUFFIX,limbopro.xyz,🔰 节点选择
+- DOMAIN-SUFFIX,listennotes.com,🔰 节点选择
+- DOMAIN-SUFFIX,livestream.com,🔰 节点选择
+- DOMAIN-SUFFIX,logimg.jp,🔰 节点选择
+- DOMAIN-SUFFIX,logmein.com,🔰 节点选择
+- DOMAIN-SUFFIX,mail.ru,🔰 节点选择
+- DOMAIN-SUFFIX,mailchimp.com,🔰 节点选择
+- DOMAIN-SUFFIX,marc.info,🔰 节点选择
+- DOMAIN-SUFFIX,matters.news,🔰 节点选择
+- DOMAIN-SUFFIX,maying.co,🔰 节点选择
+- DOMAIN-SUFFIX,medibang.com,🔰 节点选择
+- DOMAIN-SUFFIX,medium.com,🔰 节点选择
+- DOMAIN-SUFFIX,mega.nz,🔰 节点选择
+- DOMAIN-SUFFIX,mergersandinquisitions.com,🔰 节点选择
+- DOMAIN-SUFFIX,mingpao.com,🔰 节点选择
+- DOMAIN-SUFFIX,mixi.jp,🔰 节点选择
+- DOMAIN-SUFFIX,mixlr.com,🔰 节点选择
+- DOMAIN-SUFFIX,mobile01.com,🔰 节点选择
+- DOMAIN-SUFFIX,mubi.com,🔰 节点选择
+- DOMAIN-SUFFIX,myspace.com,🔰 节点选择
+- DOMAIN-SUFFIX,myspacecdn.com,🔰 节点选择
+- DOMAIN-SUFFIX,nanyang.com,🔰 节点选择
+- DOMAIN-SUFFIX,nationalinterest.org,🔰 节点选择
+- DOMAIN-SUFFIX,naver.com,🔰 节点选择
+- DOMAIN-SUFFIX,nbcnews.com,🔰 节点选择
+- DOMAIN-SUFFIX,ndr.de,🔰 节点选择
+- DOMAIN-SUFFIX,neowin.net,🔰 节点选择
+- DOMAIN-SUFFIX,newstapa.org,🔰 节点选择
+- DOMAIN-SUFFIX,nexitally.com,🔰 节点选择
+- DOMAIN-SUFFIX,nhk.or.jp,🔰 节点选择
+- DOMAIN-SUFFIX,nii.ac.jp,🔰 节点选择
+- DOMAIN-SUFFIX,nikkei.com,🔰 节点选择
+- DOMAIN-SUFFIX,nitter.net,🔰 节点选择
+- DOMAIN-SUFFIX,nofile.io,🔰 节点选择
+- DOMAIN-SUFFIX,notion.so,🔰 节点选择
+- DOMAIN-SUFFIX,now.com,🔰 节点选择
+- DOMAIN-SUFFIX,nrk.no,🔰 节点选择
+- DOMAIN-SUFFIX,nuget.org,🔰 节点选择
+- DOMAIN-SUFFIX,nyaa.si,🔰 节点选择
+- DOMAIN-SUFFIX,ok.ru,🔰 节点选择
+- DOMAIN-SUFFIX,on.cc,🔰 节点选择
+- DOMAIN-SUFFIX,orientaldaily.com.my,🔰 节点选择
+- DOMAIN-SUFFIX,overcast.fm,🔰 节点选择
+- DOMAIN-SUFFIX,paltalk.com,🔰 节点选择
+- DOMAIN-SUFFIX,parsevideo.com,🔰 节点选择
+- DOMAIN-SUFFIX,pawoo.net,🔰 节点选择
+- DOMAIN-SUFFIX,pbxes.com,🔰 节点选择
+- DOMAIN-SUFFIX,pcdvd.com.tw,🔰 节点选择
+- DOMAIN-SUFFIX,pchome.com.tw,🔰 节点选择
+- DOMAIN-SUFFIX,pcloud.com,🔰 节点选择
+- DOMAIN-SUFFIX,peing.net,🔰 节点选择
+- DOMAIN-SUFFIX,picacomic.com,🔰 节点选择
+- DOMAIN-SUFFIX,pinimg.com,🔰 节点选择
+- DOMAIN-SUFFIX,player.fm,🔰 节点选择
+- DOMAIN-SUFFIX,plurk.com,🔰 节点选择
+- DOMAIN-SUFFIX,po18.tw,🔰 节点选择
+- DOMAIN-SUFFIX,potato.im,🔰 节点选择
+- DOMAIN-SUFFIX,potatso.com,🔰 节点选择
+- DOMAIN-SUFFIX,prism-break.org,🔰 节点选择
+- DOMAIN-SUFFIX,proxifier.com,🔰 节点选择
+- DOMAIN-SUFFIX,pt.im,🔰 节点选择
+- DOMAIN-SUFFIX,pts.org.tw,🔰 节点选择
+- DOMAIN-SUFFIX,pubu.com.tw,🔰 节点选择
+- DOMAIN-SUFFIX,pubu.tw,🔰 节点选择
+- DOMAIN-SUFFIX,pureapk.com,🔰 节点选择
+- DOMAIN-SUFFIX,quora.com,🔰 节点选择
+- DOMAIN-SUFFIX,quoracdn.net,🔰 节点选择
+- DOMAIN-SUFFIX,qz.com,🔰 节点选择
+- DOMAIN-SUFFIX,radio.garden,🔰 节点选择
+- DOMAIN-SUFFIX,rakuten.co.jp,🔰 节点选择
+- DOMAIN-SUFFIX,rarbgprx.org,🔰 节点选择
+- DOMAIN-SUFFIX,reabble.com,🔰 节点选择
+- DOMAIN-SUFFIX,readingtimes.com.tw,🔰 节点选择
+- DOMAIN-SUFFIX,readmoo.com,🔰 节点选择
+- DOMAIN-SUFFIX,redbubble.com,🔰 节点选择
+- DOMAIN-SUFFIX,resilio.com,🔰 节点选择
+- DOMAIN-SUFFIX,reuters.com,🔰 节点选择
+- DOMAIN-SUFFIX,reutersmedia.net,🔰 节点选择
+- DOMAIN-SUFFIX,rfi.fr,🔰 节点选择
+- DOMAIN-SUFFIX,roadshow.hk,🔰 节点选择
+- DOMAIN-SUFFIX,rsshub.app,🔰 节点选择
+- DOMAIN-SUFFIX,scmp.com,🔰 节点选择
+- DOMAIN-SUFFIX,scribd.com,🔰 节点选择
+- DOMAIN-SUFFIX,seatguru.com,🔰 节点选择
+- DOMAIN-SUFFIX,shadowsocks.org,🔰 节点选择
+- DOMAIN-SUFFIX,shindanmaker.com,🔰 节点选择
+- DOMAIN-SUFFIX,shopee.tw,🔰 节点选择
+- DOMAIN-SUFFIX,signal.org,🔰 节点选择
+- DOMAIN-SUFFIX,sina.com.hk,🔰 节点选择
+- DOMAIN-SUFFIX,slideshare.net,🔰 节点选择
+- DOMAIN-SUFFIX,softfamous.com,🔰 节点选择
+- DOMAIN-SUFFIX,spiegel.de,🔰 节点选择
+- DOMAIN-SUFFIX,startpage.com,🔰 节点选择
+- DOMAIN-SUFFIX,steamcommunity.com,🔰 节点选择
+- DOMAIN-SUFFIX,steemit.com,🔰 节点选择
+- DOMAIN-SUFFIX,steemitwallet.com,🔰 节点选择
+- DOMAIN-SUFFIX,straitstimes.com,🔰 节点选择
+- DOMAIN-SUFFIX,streamable.com,🔰 节点选择
+- DOMAIN-SUFFIX,streema.com,🔰 节点选择
+- DOMAIN-SUFFIX,substack.com,🔰 节点选择
+- DOMAIN-SUFFIX,substack.com,🔰 节点选择
+- DOMAIN-SUFFIX,t66y.com,🔰 节点选择
+- DOMAIN-SUFFIX,tapatalk.com,🔰 节点选择
+- DOMAIN-SUFFIX,teco-hk.org,🔰 节点选择
+- DOMAIN-SUFFIX,teco-mo.org,🔰 节点选择
+- DOMAIN-SUFFIX,teddysun.com,🔰 节点选择
+- DOMAIN-SUFFIX,textnow.me,🔰 节点选择
+- DOMAIN-SUFFIX,theguardian.com,🔰 节点选择
+- DOMAIN-SUFFIX,theinitium.com,🔰 节点选择
+- DOMAIN-SUFFIX,themoviedb.org,🔰 节点选择
+- DOMAIN-SUFFIX,thetvdb.com,🔰 节点选择
+- DOMAIN-SUFFIX,time.com,🔰 节点选择
+- DOMAIN-SUFFIX,tineye.com,🔰 节点选择
+- DOMAIN-SUFFIX,tiny.cc,🔰 节点选择
+- DOMAIN-SUFFIX,tinyurl.com,🔰 节点选择
+- DOMAIN-SUFFIX,torproject.org,🔰 节点选择
+- DOMAIN-SUFFIX,tradingview.com,🔰 节点选择
+- DOMAIN-SUFFIX,tumblr.com,🔰 节点选择
+- DOMAIN-SUFFIX,turbobit.net,🔰 节点选择
+- DOMAIN-SUFFIX,tutanota.com,🔰 节点选择
+- DOMAIN-SUFFIX,tvboxnow.com,🔰 节点选择
+- DOMAIN-SUFFIX,udn.com,🔰 节点选择
+- DOMAIN-SUFFIX,unseen.is,🔰 节点选择
+- DOMAIN-SUFFIX,upmedia.mg,🔰 节点选择
+- DOMAIN-SUFFIX,uptodown.com,🔰 节点选择
+- DOMAIN-SUFFIX,urbandictionary.com,🔰 节点选择
+- DOMAIN-SUFFIX,ustream.tv,🔰 节点选择
+- DOMAIN-SUFFIX,uwants.com,🔰 节点选择
+- DOMAIN-SUFFIX,v2fly.org,🔰 节点选择
+- DOMAIN-SUFFIX,v2ray.com,🔰 节点选择
+- DOMAIN-SUFFIX,viber.com,🔰 节点选择
+- DOMAIN-SUFFIX,videopress.com,🔰 节点选择
+- DOMAIN-SUFFIX,vimeo.com,🔰 节点选择
+- DOMAIN-SUFFIX,voachinese.com,🔰 节点选择
+- DOMAIN-SUFFIX,voanews.com,🔰 节点选择
+- DOMAIN-SUFFIX,voxer.com,🔰 节点选择
+- DOMAIN-SUFFIX,vzw.com,🔰 节点选择
+- DOMAIN-SUFFIX,w3schools.com,🔰 节点选择
+- DOMAIN-SUFFIX,washingtonpost.com,🔰 节点选择
+- DOMAIN-SUFFIX,wattpad.com,🔰 节点选择
+- DOMAIN-SUFFIX,whoer.net,🔰 节点选择
+- DOMAIN-SUFFIX,wikiwand.com,🔰 节点选择
+- DOMAIN-SUFFIX,winudf.com,🔰 节点选择
+- DOMAIN-SUFFIX,wire.com,🔰 节点选择
+- DOMAIN-SUFFIX,wn.com,🔰 节点选择
+- DOMAIN-SUFFIX,wordpress.com,🔰 节点选择
+- DOMAIN-SUFFIX,worldcat.org,🔰 节点选择
+- DOMAIN-SUFFIX,wsj.com,🔰 节点选择
+- DOMAIN-SUFFIX,wsj.net,🔰 节点选择
+- DOMAIN-SUFFIX,xhamster.com,🔰 节点选择
+- DOMAIN-SUFFIX,xn--90wwvt03e.com,🔰 节点选择
+- DOMAIN-SUFFIX,xn--i2ru8q2qg.com,🔰 节点选择
+- DOMAIN-SUFFIX,xnxx.com,🔰 节点选择
+- DOMAIN-SUFFIX,xvideos.com,🔰 节点选择
+- DOMAIN-SUFFIX,yadi.sk,🔰 节点选择
+- DOMAIN-SUFFIX,yahoo.com,🔰 节点选择
+- DOMAIN-SUFFIX,yandex.ru,🔰 节点选择
+- DOMAIN-SUFFIX,ycombinator.com,🔰 节点选择
+- DOMAIN-SUFFIX,yesasia.com,🔰 节点选择
+- DOMAIN-SUFFIX,yes-news.com,🔰 节点选择
+- DOMAIN-SUFFIX,yomiuri.co.jp,🔰 节点选择
+- DOMAIN-SUFFIX,you-get.org,🔰 节点选择
+- DOMAIN-SUFFIX,zaobao.com,🔰 节点选择
+- DOMAIN-SUFFIX,zello.com,🔰 节点选择
+- DOMAIN-SUFFIX,zeronet.io,🔰 节点选择
+- DOMAIN-SUFFIX,z-lib.org,🔰 节点选择
+- DOMAIN-SUFFIX,zoom.us,🔰 节点选择
+- DOMAIN,cc.tvbs.com.tw,🔰 节点选择
+- DOMAIN,ocsp.int-x3.letsencrypt.org,🔰 节点选择
+- DOMAIN,us.weibo.com,🔰 节点选择
+- DOMAIN-SUFFIX,edu,🔰 节点选择
+- DOMAIN-SUFFIX,gov,🔰 节点选择
+- DOMAIN-SUFFIX,mil,🔰 节点选择
+- DOMAIN-SUFFIX,abc.xyz,🔰 节点选择
+- DOMAIN-SUFFIX,advertisercommunity.com,🔰 节点选择
+- DOMAIN-SUFFIX,ampproject.org,🔰 节点选择
+- DOMAIN-SUFFIX,android.com,🔰 节点选择
+- DOMAIN-SUFFIX,androidify.com,🔰 节点选择
+- DOMAIN-SUFFIX,autodraw.com,🔰 节点选择
+- DOMAIN-SUFFIX,capitalg.com,🔰 节点选择
+- DOMAIN-SUFFIX,certificate-transparency.org,🔰 节点选择
+- DOMAIN-SUFFIX,chrome.com,🔰 节点选择
+- DOMAIN-SUFFIX,chromeexperiments.com,🔰 节点选择
+- DOMAIN-SUFFIX,chromestatus.com,🔰 节点选择
+- DOMAIN-SUFFIX,chromium.org,🔰 节点选择
+- DOMAIN-SUFFIX,creativelab5.com,🔰 节点选择
+- DOMAIN-SUFFIX,debug.com,🔰 节点选择
+- DOMAIN-SUFFIX,deepmind.com,🔰 节点选择
+- DOMAIN-SUFFIX,dialogflow.com,🔰 节点选择
+- DOMAIN-SUFFIX,firebaseio.com,🔰 节点选择
+- DOMAIN-SUFFIX,getmdl.io,🔰 节点选择
+- DOMAIN-SUFFIX,ggpht.com,🔰 节点选择
+- DOMAIN-SUFFIX,gmail.com,🔰 节点选择
+- DOMAIN-SUFFIX,gmodules.com,🔰 节点选择
+- DOMAIN-SUFFIX,godoc.org,🔰 节点选择
+- DOMAIN-SUFFIX,gstatic.com,🔰 节点选择
+- DOMAIN-SUFFIX,gv.com,🔰 节点选择
+- DOMAIN-SUFFIX,gwtproject.org,🔰 节点选择
+- DOMAIN-SUFFIX,itasoftware.com,🔰 节点选择
+- DOMAIN-SUFFIX,madewithcode.com,🔰 节点选择
+- DOMAIN-SUFFIX,material.io,🔰 节点选择
+- DOMAIN-SUFFIX,page.link,🔰 节点选择
+- DOMAIN-SUFFIX,polymer-project.org,🔰 节点选择
+- DOMAIN-SUFFIX,recaptcha.net,🔰 节点选择
+- DOMAIN-SUFFIX,shattered.io,🔰 节点选择
+- DOMAIN-SUFFIX,synergyse.com,🔰 节点选择
+- DOMAIN-SUFFIX,telephony.goog,🔰 节点选择
+- DOMAIN-SUFFIX,tensorflow.org,🔰 节点选择
+- DOMAIN-SUFFIX,tfhub.dev,🔰 节点选择
+- DOMAIN-SUFFIX,tiltbrush.com,🔰 节点选择
+- DOMAIN-SUFFIX,waveprotocol.org,🔰 节点选择
+- DOMAIN-SUFFIX,waymo.com,🔰 节点选择
+- DOMAIN-SUFFIX,webmproject.org,🔰 节点选择
+- DOMAIN-SUFFIX,webrtc.org,🔰 节点选择
+- DOMAIN-SUFFIX,whatbrowser.org,🔰 节点选择
+- DOMAIN-SUFFIX,widevine.com,🔰 节点选择
+- DOMAIN-SUFFIX,x.company,🔰 节点选择
+- DOMAIN-SUFFIX,youtu.be,🔰 节点选择
+- DOMAIN-SUFFIX,yt.be,🔰 节点选择
+- DOMAIN-SUFFIX,ytimg.com,🔰 节点选择
+- DOMAIN-SUFFIX,t.me,🔰 节点选择
+- DOMAIN-SUFFIX,tdesktop.com,🔰 节点选择
+- DOMAIN-SUFFIX,telegram.me,🔰 节点选择
+- DOMAIN-SUFFIX,telesco.pe,🔰 节点选择
+- DOMAIN-KEYWORD,.facebook.,🔰 节点选择
+- DOMAIN-SUFFIX,facebookmail.com,🔰 节点选择
+- DOMAIN-SUFFIX,noxinfluencer.com,🔰 节点选择
+- DOMAIN-SUFFIX,smartmailcloud.com,🔰 节点选择
+- DOMAIN-SUFFIX,weebly.com,🔰 节点选择
+- DOMAIN-SUFFIX,twitter.jp,🔰 节点选择
+- DOMAIN-SUFFIX,appsto.re,🔰 节点选择
+- DOMAIN,gateway.icloud.com,🔰 节点选择
+- DOMAIN-SUFFIX,go.dev,🔰 节点选择
+- DOMAIN-SUFFIX,golang.org,🔰 节点选择
+- DOMAIN-SUFFIX,aicoin.com,🔰 节点选择
+- DOMAIN-SUFFIX,aimoon.com,🔰 节点选择
+- DOMAIN-SUFFIX,cccat.io,🔰 节点选择
+- DOMAIN-SUFFIX,dubox.com,🔰 节点选择
+- DOMAIN-SUFFIX,duboxcdn.com,🔰 节点选择
+- DOMAIN-SUFFIX,ifixit.com,🔰 节点选择
+- DOMAIN-SUFFIX,linkedin.com,🔰 节点选择
+- DOMAIN-SUFFIX,mangakakalot.com,🔰 节点选择
+- DOMAIN-SUFFIX,shopeemobile.com,🔰 节点选择
+- DOMAIN-SUFFIX,sushi.com,🔰 节点选择
+- DOMAIN,cacerts.digicert.com,🔰 节点选择
+- DOMAIN,crl3.digicert.com,🔰 节点选择
+- DOMAIN,crl4.digicert.com,🔰 节点选择
+- DOMAIN,ocsp.digicert.com,🔰 节点选择
+- DOMAIN-SUFFIX,inkbunny.net,🔰 节点选择
+- DOMAIN-SUFFIX,metapix.net,🔰 节点选择
+- DOMAIN-SUFFIX,s3.amazonaws.com,🔰 节点选择
+- DOMAIN-SUFFIX,zaobao.com.sg,🔰 节点选择
+- DOMAIN,international-gfe.download.nvidia.com,🔰 节点选择
+- DOMAIN-SUFFIX,hub.docker.com,🔰 节点选择
+- DOMAIN-SUFFIX,godaddy.com,🔰 节点选择
+- DOMAIN-SUFFIX,civitai.com,🔰 节点选择
+- DOMAIN-SUFFIX,unity.com,🔰 节点选择
+- DOMAIN-SUFFIX,unity3d.com,🔰 节点选择
+- DOMAIN-SUFFIX,f-droid.org,🔰 节点选择
+- DOMAIN-KEYWORD,mastodon,🔰 节点选择
+- DOMAIN-KEYWORD,discord,🔰 节点选择
+- DOMAIN-SUFFIX,coze.com,🔰 节点选择
+- DOMAIN-SUFFIX,github.com,🖥️ Github
+- DOMAIN-SUFFIX,api.github.com,🖥️ Github
+- DOMAIN-SUFFIX,github.io,🖥️ Github
+- DOMAIN-SUFFIX,githubstatus.com,🖥️ Github
+- DOMAIN-SUFFIX,gist.github.com,🖥️ Github
+- DOMAIN-SUFFIX,githubapp.com,🖥️ Github
+- DOMAIN-SUFFIX,githubassets.com,🖥️ Github
+- DOMAIN-SUFFIX,githubusercontent.com,🖥️ Github
+- DOMAIN-SUFFIX,v2ex.com,🖥️ Github
+- DOMAIN-SUFFIX,imgur.com,🖥️ Github
+- DOMAIN-SUFFIX,fastly.net,🖥️ Github
+- DOMAIN-SUFFIX,onedrive.live.com,🖥️ Github
+- DOMAIN-SUFFIX,foursquare.com,🌐 Steam
+- DOMAIN-SUFFIX,steampowered.com,🌐 Steam
+- DOMAIN-SUFFIX,steamserver.net,🌐 Steam
+- DOMAIN-SUFFIX,dl.steam.clngaa.com,🌐 Steam
+- DOMAIN-SUFFIX,steamstatic.com,🌐 Steam
+- DOMAIN-SUFFIX,rf4game.ru,🌐 Steam
+- DOMAIN-SUFFIX,stun.antisip.com,🌉 Bridge
+- DOMAIN-SUFFIX,stun.bluesip.net,🌉 Bridge
+- DOMAIN-SUFFIX,stun.dus.net,🌉 Bridge
+- DOMAIN-SUFFIX,stun.epygi.com,🌉 Bridge
+- DOMAIN-SUFFIX,stun.sonetel.com,🌉 Bridge
+- DOMAIN-SUFFIX,stun.uls.co.za,🌉 Bridge
+- DOMAIN-SUFFIX,stun.voipgate.com,🌉 Bridge
+- DOMAIN-SUFFIX,stun.antisip.com,🌉 Bridge
+- DOMAIN-SUFFIX,stun.bluesip.net,🌉 Bridge
+- DOMAIN-SUFFIX,stun.dus.net,🌉 Bridge
+- DOMAIN-SUFFIX,stun.epygi.com,🌉 Bridge
+- DOMAIN-SUFFIX,stun.sonetel.net,🌉 Bridge
+- DOMAIN-SUFFIX,stun.uls.co.za,🌉 Bridge
+- DOMAIN-SUFFIX,stun.voipgate.com,🌉 Bridge
+- IP-CIDR,209.148.46.65/24,🌉 Bridge,no-resolve
+- IP-CIDR,51.222.13.177/24,🌉 Bridge,no-resolve
+- IP-CIDR,193.11.166.194/24,🌉 Bridge,no-resolve
+- IP-CIDR,45.145.95.6/24,🌉 Bridge,no-resolve
+- IP-CIDR,85.31.186.26/24,🌉 Bridge,no-resolve
+- IP-CIDR,85.31.186.98/24,🌉 Bridge,no-resolve
+- IP-CIDR,193.11.166.194/24,🌉 Bridge,no-resolve
+- IP-CIDR,192.95.36.142/24,🌉 Bridge,no-resolve
+- IP-CIDR,146.57.248.225/24,🌉 Bridge,no-resolve
+- IP-CIDR,37.218.245.14/24,🌉 Bridge,no-resolve
+- IP-CIDR,193.11.166.194/24,🌉 Bridge,no-resolve
+- DOMAIN-SUFFIX,meek.azureedge.net,🌉 Bridge
+- DOMAIN-SUFFIX,ajax.aspnetcdn.com,🌉 Bridge
+- GEOIP,CN,🎯 全球直连
+- MATCH,🐟 漏网之鱼
+socks-port: 7891
+dns:
+  ipv6: true
+  enable: true
+  default-nameserver:
+  - 223.5.5.5
+  - 8.8.8.8
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  use-hosts: true
+  nameserver:
+  - 223.5.5.5
+  - 8.8.8.8
+  - https://dns.google/dns-query
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+    - 240.0.0.0/4
+    domain:
+    - 223.5.5.5
