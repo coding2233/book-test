@@ -1244,31 +1244,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇬🇧_GB_英国
-  network: ws
-  port: 2086
-  server: mizban.arzonhost.ir
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7
-  ws-opts:
-    headers:
-      host: mizban.arzonhost.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇱🇺_LU_卢森堡_1
-  network: http
-  port: 3389
-  server: 45.82.31.164
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  name: 🇦🇪_AE_阿联酋->🇫🇷_FR_法国
+  name: 🇦🇪_AE_阿联酋->🇬🇧_GB_英国
   network: ws
   port: 8880
   server: 94.140.0.110
@@ -1282,37 +1258,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇨🇦_CA_加拿大
-  network: http
-  port: 3389
-  server: 134.122.41.160
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_1
-  network: ws
-  port: 8443
-  server: v014.583181.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 6bcb91d7-3d6b-40ad-93f4-b326d0ed20a4
-  ws-opts:
-    headers:
-      host: v014.583181.xyz
-    path: /
-- cipher: aes-256-cfb
-  name: 🇺🇸_US_美国_2
-  password: amazonskr05
-  port: 443
-  server: 54.186.125.168
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇱🇺_LU_卢森堡_2
+  name: 🇱🇺_LU_卢森堡
   network: http
   port: 3389
   server: 78.111.102.232
@@ -1322,85 +1268,88 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_3
+  name: 🇺🇸_US_美国_1
   network: ws
   port: 80
-  server: 172.67.116.48
+  server: russia.com
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 22a13aa2-4854-44cb-e090-ec71ab84b1ff
+  uuid: bd8c41a8-7598-4c28-9965-522545e14892
   ws-opts:
     headers:
-      host: wap.hostmjj.com
+      host: ssrsub.v03.ssrsub.com
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇬🇧_GB_英国_1
+  network: ws
+  port: 8880
+  server: cdn.vds-server.ir
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  ws-opts:
+    headers:
+      host: cdn.vds-server.ir
     path: /
-- cipher: aes-256-cfb
-  name: 🇺🇸_US_美国_4
-  password: amazonskr05
-  port: 443
-  server: 54.245.36.10
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇺🇸_US_美国_5
-  password: amazonskr05
-  port: 443
-  server: 35.86.136.148
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 🇩🇪_DE_德国
+  name: 🇺🇸_US_美国->🇬🇧_GB_英国_2
   network: ws
-  port: 80
-  server: 5.181.23.58
-  servername: internet.life.com.by
+  port: 2086
+  server: mizban.arzonhost.ir
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 6eff4314-ad4c-4ebc-b1d0-d3b79656f43d
-  ws-opts:
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_7
-  network: ws
-  port: 443
-  server: channel.hopev2ray.link
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9aaceca0-bc5b-49e6-a83f-088e14d94434
+  uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7
   ws-opts:
     headers:
-      host: no1-vmess.sshmax.xyz
-    path: /vmess
+      host: mizban.arzonhost.ir
+    path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_8
+  name: 🇸🇬_SG_新加坡->🇫🇷_FR_法国
   network: ws
-  port: 8080
-  server: 162.159.130.208
+  port: 2082
+  server: 8.222.174.108
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 55021a7c-bd6c-418e-be95-ceac8ba27b45
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
   ws-opts:
     headers:
-      host: widescreen-instruction-breakdown-postage.trycloudflare.com
-    path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
+      host: s1c.v2.v001sss.xyz
+    path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_9
+  name: 🇺🇸_US_美国_2
   network: ws
-  port: 8443
-  server: 104.21.68.203
-  servername: v014.583181.xyz
+  port: 443
+  server: 505.outline-vpn.cloud
+  servername: kellie.makeup
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 6bcb91d7-3d6b-40ad-93f4-b326d0ed20a4
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      host: v014.583181.xyz
+      host: kellie.makeup
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇫🇷_FR_法国_3
+  network: ws
+  port: 2082
+  server: s1c.v2.v001sss.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      host: s1c.v2.v001sss.xyz
     path: /
 proxy-groups:
 - name: 🔰 节点选择
@@ -1499,20 +1448,14 @@ proxy-groups:
   - 加拿大 047
   - 🇺🇸_US_美国->🇫🇷_FR_法国_1
   - 🇺🇸_US_美国->🇫🇷_FR_法国_2
-  - 🇺🇸_US_美国->🇬🇧_GB_英国
-  - 🇱🇺_LU_卢森堡_1
-  - 🇦🇪_AE_阿联酋->🇫🇷_FR_法国
-  - 🇨🇦_CA_加拿大
+  - 🇦🇪_AE_阿联酋->🇬🇧_GB_英国
+  - 🇱🇺_LU_卢森堡
   - 🇺🇸_US_美国_1
+  - 🇺🇸_US_美国->🇬🇧_GB_英国_1
+  - 🇺🇸_US_美国->🇬🇧_GB_英国_2
+  - 🇸🇬_SG_新加坡->🇫🇷_FR_法国
   - 🇺🇸_US_美国_2
-  - 🇱🇺_LU_卢森堡_2
-  - 🇺🇸_US_美国_3
-  - 🇺🇸_US_美国_4
-  - 🇺🇸_US_美国_5
-  - 🇩🇪_DE_德国
-  - 🇺🇸_US_美国_7
-  - 🇺🇸_US_美国_8
-  - 🇺🇸_US_美国_9
+  - 🇺🇸_US_美国->🇫🇷_FR_法国_3
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -1609,20 +1552,14 @@ proxy-groups:
   - 加拿大 047
   - 🇺🇸_US_美国->🇫🇷_FR_法国_1
   - 🇺🇸_US_美国->🇫🇷_FR_法国_2
-  - 🇺🇸_US_美国->🇬🇧_GB_英国
-  - 🇱🇺_LU_卢森堡_1
-  - 🇦🇪_AE_阿联酋->🇫🇷_FR_法国
-  - 🇨🇦_CA_加拿大
+  - 🇦🇪_AE_阿联酋->🇬🇧_GB_英国
+  - 🇱🇺_LU_卢森堡
   - 🇺🇸_US_美国_1
+  - 🇺🇸_US_美国->🇬🇧_GB_英国_1
+  - 🇺🇸_US_美国->🇬🇧_GB_英国_2
+  - 🇸🇬_SG_新加坡->🇫🇷_FR_法国
   - 🇺🇸_US_美国_2
-  - 🇱🇺_LU_卢森堡_2
-  - 🇺🇸_US_美国_3
-  - 🇺🇸_US_美国_4
-  - 🇺🇸_US_美国_5
-  - 🇩🇪_DE_德国
-  - 🇺🇸_US_美国_7
-  - 🇺🇸_US_美国_8
-  - 🇺🇸_US_美国_9
+  - 🇺🇸_US_美国->🇫🇷_FR_法国_3
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
