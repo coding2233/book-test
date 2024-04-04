@@ -671,6 +671,901 @@ proxies:
     path: /db00
 - alterId: 0
   cipher: auto
+  name: 韩国 001
+  network: ws
+  port: 8002
+  server: 185.214.103.249
+  servername: cache-hk-2.cn-db.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4f574408-dfef-338a-a7d9-f7d1e70ff8d9
+  ws-opts:
+    headers:
+      Host: cache-hk-2.cn-db.top
+    path: /db00
+- alterId: 0
+  cipher: auto
+  name: 加拿大 027
+  network: ws
+  port: 2053
+  server: 104.19.12.10
+  servername: data-hk-3.cn-db.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 4f574408-dfef-338a-a7d9-f7d1e70ff8d9
+  ws-opts:
+    headers:
+      Host: data-hk-3.cn-db.top
+    path: /db00
+- alterId: 0
+  cipher: auto
+  name: 加拿大 028
+  network: ws
+  port: 2083
+  server: 104.19.128.83
+  servername: cache-hk-2.cn-db.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 4f574408-dfef-338a-a7d9-f7d1e70ff8d9
+  ws-opts:
+    headers:
+      Host: cache-hk-2.cn-db.top
+    path: /db00
+- alterId: 0
+  cipher: auto
+  name: 加拿大 029
+  network: ws
+  port: 443
+  server: 104.18.58.193
+  servername: cache-hk-1.cn-db.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 4f574408-dfef-338a-a7d9-f7d1e70ff8d9
+  ws-opts:
+    headers:
+      Host: cache-hk-1.cn-db.top
+    path: /db00
+- alterId: 0
+  cipher: auto
+  name: 加拿大 030
+  network: ws
+  port: 2053
+  server: 104.19.48.109
+  servername: data-hk-1.cn-db.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 4f574408-dfef-338a-a7d9-f7d1e70ff8d9
+  ws-opts:
+    headers:
+      Host: data-hk-1.cn-db.top
+    path: /db00
+- alterId: 0
+  cipher: auto
+  name: 加拿大 031
+  network: ws
+  port: 2053
+  server: 104.18.145.78
+  servername: data-hk-3.cn-db.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 4f574408-dfef-338a-a7d9-f7d1e70ff8d9
+  ws-opts:
+    headers:
+      Host: data-hk-3.cn-db.top
+    path: /db00
+- alterId: 0
+  cipher: auto
+  name: 加拿大 032
+  network: ws
+  port: 2083
+  server: 104.19.89.236
+  servername: cache-hk-2.cn-db.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 4f574408-dfef-338a-a7d9-f7d1e70ff8d9
+  ws-opts:
+    headers:
+      Host: cache-hk-2.cn-db.top
+    path: /db00
+- alterId: 0
+  cipher: auto
+  name: 加拿大 033
+  network: ws
+  port: 2053
+  server: 104.19.85.73
+  servername: cache-hk-1.cn-db.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 4f574408-dfef-338a-a7d9-f7d1e70ff8d9
+  ws-opts:
+    headers:
+      Host: cache-hk-1.cn-db.top
+    path: /db00
+- alterId: 0
+  cipher: auto
+  name: 加拿大 034
+  network: ws
+  port: 2053
+  server: 104.18.87.8
+  servername: data-hk-1.cn-db.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 4f574408-dfef-338a-a7d9-f7d1e70ff8d9
+  ws-opts:
+    headers:
+      Host: data-hk-1.cn-db.top
+    path: /db00
+- alterId: 0
+  cipher: auto
+  name: 加拿大 035
+  network: ws
+  port: 8080
+  server: 162.159.0.33
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+  ws-opts:
+    headers:
+      Host: bibliographic-sword-sequence-advertisers.trycloudflare.com
+    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+- alterId: 0
+  cipher: auto
+  name: 加拿大 036
+  network: ws
+  port: 80
+  server: 104.21.94.251
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c7421a39-020d-4a01-97ed-9eacbce0a7ca
+  ws-opts:
+    headers:
+      Host: de2.xv2ray.net
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: 美国 009
+  network: ws
+  port: 8080
+  server: 173.245.59.100
+  servername: pcs-referenced-camera-concerns.trycloudflare.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
+  ws-opts:
+    headers:
+      HOST: pcs-referenced-camera-concerns.trycloudflare.com
+    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
+- alterId: 0
+  cipher: auto
+  name: 加拿大 037
+  network: ws
+  port: 80
+  server: 104.22.28.102
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
+  ws-opts:
+    headers:
+      Host: pcs-referenced-camera-concerns.trycloudflare.com
+    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
+- alterId: 0
+  cipher: auto
+  name: 加拿大 038
+  network: ws
+  port: 443
+  server: www.jeguue.com
+  servername: mikasa.yaemiko.cloudns.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: www.jeguue.com
+    path: /vip2323.cfd/linkvws
+- alterId: 0
+  cipher: auto
+  name: 加拿大 039
+  network: ws
+  port: 80
+  server: 3.namesilo123.top
+  servername: de.sanfen002.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4d68da82-e8d0-4eaa-aec9-0df4a23e1a04
+  ws-opts:
+    headers:
+      Host: 3.namesilo123.top
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 加拿大 040
+  network: ws
+  port: 443
+  server: www.teletrans.ro
+  servername: mikasa.yaemiko.cloudns.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: www.teletrans.ro
+    path: /obdii.cfd/linkws
+- alterId: 0
+  cipher: auto
+  name: 加拿大 041
+  network: ws
+  port: 80
+  server: achk.cloudflarest.link
+  servername: fr.grpc.gay
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 41631bd2-4463-48a0-ab4c-15dcba237a90
+  ws-opts:
+    headers:
+      Host: achk.cloudflarest.link
+    path: /rongseven?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 加拿大 042
+  network: ws
+  port: 80
+  server: cf-003-ipv4.xiaoxiaobujidao.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7c525a1d-d8fd-331b-b53f-69f06252ed10
+  ws-opts:
+    headers:
+      Host: tk-000.xiaoxiaobujidao.xyz
+    path: /xiaodao?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 加拿大 043
+  network: ws
+  port: 443
+  server: jp4.pay.edu.kg
+  servername: jp4.pay.edu.kg
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 84661f9d-9ed9-490f-8611-055603a194bf
+  ws-opts:
+    headers:
+      Host: jp4.pay.edu.kg
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 韩国 002
+  network: ws
+  port: 80
+  server: kr02.thomasinaglorious.online
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e5e3c2c8-0bf2-4a77-867a-bf16fa815e5a
+  ws-opts:
+    headers:
+      Host: kr02.thomasinaglorious.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 韩国 003
+  network: ws
+  port: 80
+  server: kr04.willfree.online
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b66b735e-2eae-436e-be59-ad1e3a559d28
+  ws-opts:
+    headers:
+      Host: kr04.willfree.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 044
+  network: ws
+  port: 443
+  server: www.bajavegas6d.info
+  servername: nezuko.yaemiko.cloudns.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: www.bajavegas6d.info
+    path: /linkvws/meroiy.icu
+- alterId: 0
+  cipher: auto
+  name: 加拿大 045
+  network: ws
+  port: 2053
+  server: 104.17.147.118
+  servername: data-hk-2.cn-db.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 4f574408-dfef-338a-a7d9-f7d1e70ff8d9
+  ws-opts:
+    headers:
+      Host: data-hk-2.cn-db.top
+    path: /db00
+- alterId: 0
+  cipher: auto
+  name: 加拿大 046
+  network: ws
+  port: 2083
+  server: 104.17.126.222
+  servername: cache-hk-2.cn-db.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 4f574408-dfef-338a-a7d9-f7d1e70ff8d9
+  ws-opts:
+    headers:
+      Host: cache-hk-2.cn-db.top
+    path: /db00
+- alterId: 0
+  cipher: auto
+  name: 加拿大 047
+  network: ws
+  port: 2053
+  server: 104.18.74.164
+  servername: cache-hk-1.cn-db.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 4f574408-dfef-338a-a7d9-f7d1e70ff8d9
+  ws-opts:
+    headers:
+      Host: cache-hk-1.cn-db.top
+    path: /db00
+- alterId: 0
+  cipher: auto
+  name: 加拿大 048
+  network: ws
+  port: 2083
+  server: 104.17.211.30
+  servername: data-hk-1.cn-db.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 4f574408-dfef-338a-a7d9-f7d1e70ff8d9
+  ws-opts:
+    headers:
+      Host: data-hk-1.cn-db.top
+    path: /db00
+- alterId: 0
+  cipher: auto
+  name: 加拿大 049
+  network: ws
+  port: 2096
+  server: speed.cloudflare.com
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: worker-divine-hat-02d6.savofir317.workers.dev
+    path: /nina.bond/linkvws
+- alterId: 0
+  cipher: auto
+  name: 加拿大 050
+  network: ws
+  port: 2053
+  server: speed.cloudflare.com
+  tls: true
+  type: vmess
+  uuid: 3adf4dae-9ace-4ce8-abe2-8455191e6045
+  ws-opts:
+    headers:
+      Host: v2ray.ibgfw.top
+    path: /vVNUJOgb/
+- alterId: 0
+  cipher: auto
+  name: 加拿大 051
+  network: ws
+  port: 2095
+  server: speed.cloudflare.com
+  tls: false
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: freevpn878.hamidimorteza680.workers.dev
+    path: /vip2323.cfd/linkvws
+- alterId: 0
+  cipher: auto
+  name: 加拿大 052
+  network: ws
+  port: 2087
+  server: speed.cloudflare.com
+  tls: true
+  type: vmess
+  uuid: 13fc87d3-43c6-4cc1-9ab9-523d9707a113
+  ws-opts:
+    headers:
+      Host: api.cdn-tgju.org
+    path: /ows
+- alterId: 0
+  cipher: auto
+  name: 加拿大 053
+  network: ws
+  port: 8880
+  server: speed.cloudflare.com
+  tls: false
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: nd-truth-210a8hwjhs.bonar11011.workers.dev
+    path: /nina.bond/linkvws
+- alterId: 0
+  cipher: auto
+  name: 加拿大 054
+  network: ws
+  port: 2083
+  server: speed.cloudflare.com
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: free.fnet00.workers.dev
+    path: /janett.click/linkvws
+- alterId: 1
+  cipher: auto
+  name: 美国 010
+  network: ws
+  port: 443
+  server: 66.228.37.43
+  tls: true
+  type: vmess
+  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
+  ws-opts:
+    headers:
+      Host: hms02.fxiaomi.sbs
+    path: /link
+- alterId: 0
+  cipher: auto
+  name: 美国 011
+  network: ws
+  port: 443
+  server: 97.107.141.118
+  tls: true
+  type: vmess
+  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
+  ws-opts:
+    headers:
+      Host: glweidf.sbs
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 加拿大 055
+  network: ws
+  port: 443
+  server: 162.159.192.83
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: nina.bond
+    path: /linkvws
+- alterId: 1
+  cipher: auto
+  name: 日本 003
+  network: tcp
+  port: 28786
+  server: 13.115.208.96
+  servername: 7oi23-g04.jp06-7c5a-vm0.entry.fr0307a.art
+  tls: true
+  type: vmess
+  uuid: e147ce52-2598-31b0-950d-6b12c306b360
+- alterId: 0
+  cipher: auto
+  name: 日本 004
+  network: ws
+  port: 8080
+  server: kkyx.yydsii.com
+  servername: kkyx.yydsii.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 056
+  network: ws
+  port: 443
+  server: myrna.fun
+  servername: myrna.fun
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: myrna.fun
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 加拿大 057
+  network: ws
+  port: 80
+  server: digitalocean.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 002cdc9f-63ae-4b3f-8720-3b3f760b487d
+  ws-opts:
+    headers:
+      Host: digitalocean.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 058
+  network: ws
+  port: 443
+  server: maviss.cfd
+  servername: maviss.cfd
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: maviss.cfd
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 加拿大 059
+  network: ws
+  port: 8080
+  server: hk6.ddwdadk.xyz
+  servername: cdn.ddwdadk.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a0fd3429-e62a-499f-a6ba-b026be770222
+  ws-opts:
+    headers:
+      Host: hk6.ddwdadk.xyz
+    path: /xx
+- alterId: 0
+  cipher: auto
+  name: 加拿大 060
+  network: ws
+  port: 443
+  server: maureen.autos
+  servername: maureen.autos
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: maureen.autos
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 加拿大 061
+  network: ws
+  port: 443
+  server: maxin.beauty
+  servername: maxin.beauty
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: maxin.beauty
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 加拿大 062
+  network: ws
+  port: 8443
+  server: wuxiantest.buzz
+  servername: wuxiantest.buzz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 794c13ec-a9b2-45c7-d6d1-e5a7a9c262f8
+  ws-opts:
+    headers:
+      Host: wuxiantest.buzz
+    path: /794c13ec-a9b2-45c7-d6d1-e5a7a9c262f8
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  delay: 1176
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 063
+  network: ws
+  port: 443
+  server: 104.21.25.78
+  servername: dk2-vmess.sshmax.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 1cbb309d-cf3f-464d-a61d-ebaa91983f24
+  ws-opts:
+    headers:
+      HOST: dk2-vmess.sshmax.xyz
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  country: 🇷🇺RU
+  delay: 505
+  h2-opts: {}
+  http-opts: {}
+  name: 俄罗斯 003
+  network: tcp
+  port: 43253
+  server: 185.22.154.94
+  skip-cert-verify: true
+  type: vmess
+  uuid: 126149d9-bd8b-4a63-aa2e-1d5050aaa628
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  delay: 1676
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 064
+  network: ws
+  port: 80
+  server: 104.21.71.88
+  servername: de1e-haha.v2freevpn.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
+  ws-opts:
+    headers:
+      HOST: de1e-haha.v2freevpn.com
+    path: /v1893298323Py
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 1317
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 065
+  network: ws
+  port: 80
+  server: channel.hopev2ray.link
+  servername: de1.xv2ray.net
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2e706ebb-a78f-4444-b95b-dd905df075d7
+  ws-opts:
+    headers:
+      HOST: de1.xv2ray.net
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  delay: 1494
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 066
+  network: ws
+  port: 443
+  server: 104.21.94.251
+  servername: de2.xv2ray.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: c7421a39-020d-4a01-97ed-9eacbce0a7ca
+  ws-opts:
+    headers:
+      HOST: de2.xv2ray.net
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 1865
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 067
+  network: ws
+  port: 8080
+  server: 172.67.126.173
+  servername: eu3.openxai.link
+  skip-cert-verify: true
+  type: vmess
+  uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce
+  ws-opts:
+    headers:
+      HOST: eu3.openxai.link
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 1093
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 068
+  network: ws
+  port: 80
+  server: 172.67.142.41
+  servername: it1.xv2ray.net
+  skip-cert-verify: true
+  type: vmess
+  uuid: 820f69e2-c230-49ac-8cf8-ba421a34cb0b
+  ws-opts:
+    headers:
+      HOST: it1.xv2ray.net
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 749
+  h2-opts: {}
+  http-opts: {}
+  name: 美国 012
+  network: ws
+  port: 80
+  server: 104.248.176.16
+  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  skip-cert-verify: true
+  type: vmess
+  uuid: 1cfaad16-d2ba-4c49-af07-d7b9f11f43d0
+  ws-opts:
+    headers:
+      HOST: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+    path: /xn--mes53ddysu0o3gl
+- alterId: 0
+  cipher: auto
+  delay: 2855
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 069
+  network: ws
+  port: 2053
+  server: qin17.rong1104.uk
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f674964e-7c38-41ac-9f06-3e7aedc51e30
+  ws-opts:
+    headers:
+      Host: qin17.rong1104.uk
+    path: /qin17
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  delay: 1315
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 070
+  network: ws
+  port: 443
+  server: tel.hopev2ray.link
+  servername: uk1-vmess.sshmax.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 4648aa26-1100-4a52-8a23-04ab7e2439f8
+  ws-opts:
+    headers:
+      HOST: uk1-vmess.sshmax.xyz
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 1090
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 071
+  network: ws
+  port: 80
+  server: 172.67.161.65
+  servername: nl1.xv2ray.net
+  skip-cert-verify: true
+  type: vmess
+  uuid: 3ae5e25b-8331-4288-9018-5fc6b34069dd
+  ws-opts:
+    headers:
+      HOST: nl1.xv2ray.net
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 1004
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 072
+  network: ws
+  port: 80
+  server: 172.67.146.69
+  servername: hu2.xv2ray.net
+  skip-cert-verify: true
+  type: vmess
+  uuid: 17ae8dc2-042a-4132-b494-b2f71be0abcc
+  ws-opts:
+    headers:
+      HOST: hu2.xv2ray.net
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 2444
+  h2-opts: {}
+  http-opts: {}
+  name: 美国 013
+  network: ws
+  port: 80
+  server: ch.hopev2ray.link
+  servername: nl1.xv2ray.net
+  skip-cert-verify: true
+  type: vmess
+  uuid: 200ea676-464d-4ccf-bb5b-c50fd216c61b
+  ws-opts:
+    headers:
+      HOST: nl1.xv2ray.net
+    path: /vmess
+- alterId: 0
+  cipher: auto
   name: 🇺🇸_US_美国->🇫🇷_FR_法国_1
   network: ws
   port: 2086
@@ -683,23 +1578,15 @@ proxies:
     headers:
       host: admin.arzonhost.ir
     path: /
+- cipher: aes-256-gcm
+  name: 🇺🇸_US_美国_1
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 167.88.61.235
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 🇦🇪_AE_阿联酋->🇬🇧_GB_英国
-  network: ws
-  port: 8880
-  server: 94.140.0.110
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
-  ws-opts:
-    headers:
-      host: food.zhaal.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇬🇧_GB_英国_1
+  name: 🇺🇸_US_美国->🇬🇧_GB_英国
   network: ws
   port: 2086
   server: mizban.arzonhost.ir
@@ -710,20 +1597,6 @@ proxies:
   ws-opts:
     headers:
       host: mizban.arzonhost.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇹🇷_TR_土耳其_1
-  network: ws
-  port: 2095
-  server: tu.mahilu.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      host: tu.mahilu.site
     path: /
 - alterId: 0
   cipher: auto
@@ -739,23 +1612,67 @@ proxies:
     headers:
       host: admin.arzonhost.ir
     path: /
+- cipher: aes-256-gcm
+  name: 🇺🇸_US_美国_2
+  password: e4FCWrgpkji3QY
+  port: 9101
+  server: 167.88.61.159
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_1
-  network: ws
-  port: 8080
-  server: 173.245.58.100
+  name: 🇱🇺_LU_卢森堡
+  network: http
+  port: 3389
+  server: 78.111.102.232
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 9b196b50-37f2-4f4b-b175-06273adc6207
-  ws-opts:
-    headers:
-      host: technological-mel-fill-decide.trycloudflare.com
-    path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇬🇧_GB_英国_2
+  name: 🇦🇪_AE_阿联酋
+  network: ws
+  port: 8880
+  server: 94.140.0.110
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  ws-opts:
+    headers:
+      host: food.zhaal.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_3
+  network: ws
+  port: 8080
+  server: yh3.freeh1.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a
+  ws-opts:
+    headers:
+      host: larger-marketing-amounts-skin.trycloudflare.com
+    path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇫🇷_FR_法国_3
+  network: ws
+  port: 2086
+  server: 172.67.223.242
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
+  ws-opts:
+    headers:
+      host: admin.arzonhost.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_5
   network: ws
   port: 8880
   server: cdn.vds-server.ir
@@ -769,94 +1686,56 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇹🇷_TR_土耳其_2
-  network: ws
-  port: 2052
-  server: 172.67.152.170
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      host: mahilu.site
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_2
-  network: ws
-  port: 2052
-  server: mahilu.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      host: mahilu.site
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_3
-  network: ws
-  port: 8080
-  server: yh1.dtku41.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
-  ws-opts:
-    headers:
-      host: uh-lawyers-instruments-kernel.trycloudflare.com
-    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦_CA_加拿大->🇺🇸_US_美国_2
-  network: ws
-  port: 8080
-  server: 23.227.38.23
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
-  ws-opts:
-    headers:
-      host: uh-lawyers-instruments-kernel.trycloudflare.com
-    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_5
-  network: ws
-  port: 80
-  server: 172.67.116.48
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 22a13aa2-4854-44cb-e090-ec71ab84b1ff
-  ws-opts:
-    headers:
-      host: wap.hostmjj.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: 🇺🇸_US_美国_6
   network: ws
-  port: 443
-  server: cold-dawn-9246.fly.dev
+  port: 8080
+  server: 162.159.137.249
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vmess
-  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
+  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
   ws-opts:
     headers:
-      host: cold-dawn-9246.fly.dev
-    path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
-- cipher: aes-256-gcm
-  name: 🇺🇸_US_美国_7
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 169.197.142.216
-  type: ss
+      host: nest-emily-healing-h.trycloudflare.com
+    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_8
+  network: ws
+  port: 8080
+  server: 162.159.7.226
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9b196b50-37f2-4f4b-b175-06273adc6207
+  ws-opts:
+    headers:
+      host: technological-mel-fill-decide.trycloudflare.com
+    path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_9
+  network: ws
+  port: 2082
+  server: cfcdn1.sanfencdn9.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 203cea12-57fe-49c6-9e5b-906d2260ef12
+  ws-opts:
+    headers:
+      host: us4Bb5oSgJA.fzbqfrse.xyz
+    path: /video/CuTy87zAzV/
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_10
+  network: tcp
+  port: 47918
+  server: 207.148.10.248
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 232aeb1e-7d67-4a91-9379-4da1f4917691
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
@@ -905,20 +1784,77 @@ proxy-groups:
   - 加拿大 024
   - 加拿大 025
   - 加拿大 026
+  - 韩国 001
+  - 加拿大 027
+  - 加拿大 028
+  - 加拿大 029
+  - 加拿大 030
+  - 加拿大 031
+  - 加拿大 032
+  - 加拿大 033
+  - 加拿大 034
+  - 加拿大 035
+  - 加拿大 036
+  - 美国 009
+  - 加拿大 037
+  - 加拿大 038
+  - 加拿大 039
+  - 加拿大 040
+  - 加拿大 041
+  - 加拿大 042
+  - 加拿大 043
+  - 韩国 002
+  - 韩国 003
+  - 加拿大 044
+  - 加拿大 045
+  - 加拿大 046
+  - 加拿大 047
+  - 加拿大 048
+  - 加拿大 049
+  - 加拿大 050
+  - 加拿大 051
+  - 加拿大 052
+  - 加拿大 053
+  - 加拿大 054
+  - 美国 010
+  - 美国 011
+  - 加拿大 055
+  - 日本 003
+  - 日本 004
+  - 加拿大 056
+  - 加拿大 057
+  - 加拿大 058
+  - 加拿大 059
+  - 加拿大 060
+  - 加拿大 061
+  - 加拿大 062
+  - 加拿大 063
+  - 俄罗斯 003
+  - 加拿大 064
+  - 加拿大 065
+  - 加拿大 066
+  - 加拿大 067
+  - 加拿大 068
+  - 美国 012
+  - 加拿大 069
+  - 加拿大 070
+  - 加拿大 071
+  - 加拿大 072
+  - 美国 013
   - 🇺🇸_US_美国->🇫🇷_FR_法国_1
-  - 🇦🇪_AE_阿联酋->🇬🇧_GB_英国
-  - 🇺🇸_US_美国->🇬🇧_GB_英国_1
-  - 🇺🇸_US_美国->🇹🇷_TR_土耳其_1
-  - 🇺🇸_US_美国->🇫🇷_FR_法国_2
   - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国->🇬🇧_GB_英国_2
-  - 🇺🇸_US_美国->🇹🇷_TR_土耳其_2
+  - 🇺🇸_US_美国->🇬🇧_GB_英国
+  - 🇺🇸_US_美国->🇫🇷_FR_法国_2
   - 🇺🇸_US_美国_2
+  - 🇱🇺_LU_卢森堡
+  - 🇦🇪_AE_阿联酋
   - 🇺🇸_US_美国_3
-  - 🇨🇦_CA_加拿大->🇺🇸_US_美国_2
+  - 🇺🇸_US_美国->🇫🇷_FR_法国_3
   - 🇺🇸_US_美国_5
   - 🇺🇸_US_美国_6
-  - 🇺🇸_US_美国_7
+  - 🇺🇸_US_美国_8
+  - 🇺🇸_US_美国_9
+  - 🇺🇸_US_美国_10
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -966,20 +1902,77 @@ proxy-groups:
   - 加拿大 024
   - 加拿大 025
   - 加拿大 026
+  - 韩国 001
+  - 加拿大 027
+  - 加拿大 028
+  - 加拿大 029
+  - 加拿大 030
+  - 加拿大 031
+  - 加拿大 032
+  - 加拿大 033
+  - 加拿大 034
+  - 加拿大 035
+  - 加拿大 036
+  - 美国 009
+  - 加拿大 037
+  - 加拿大 038
+  - 加拿大 039
+  - 加拿大 040
+  - 加拿大 041
+  - 加拿大 042
+  - 加拿大 043
+  - 韩国 002
+  - 韩国 003
+  - 加拿大 044
+  - 加拿大 045
+  - 加拿大 046
+  - 加拿大 047
+  - 加拿大 048
+  - 加拿大 049
+  - 加拿大 050
+  - 加拿大 051
+  - 加拿大 052
+  - 加拿大 053
+  - 加拿大 054
+  - 美国 010
+  - 美国 011
+  - 加拿大 055
+  - 日本 003
+  - 日本 004
+  - 加拿大 056
+  - 加拿大 057
+  - 加拿大 058
+  - 加拿大 059
+  - 加拿大 060
+  - 加拿大 061
+  - 加拿大 062
+  - 加拿大 063
+  - 俄罗斯 003
+  - 加拿大 064
+  - 加拿大 065
+  - 加拿大 066
+  - 加拿大 067
+  - 加拿大 068
+  - 美国 012
+  - 加拿大 069
+  - 加拿大 070
+  - 加拿大 071
+  - 加拿大 072
+  - 美国 013
   - 🇺🇸_US_美国->🇫🇷_FR_法国_1
-  - 🇦🇪_AE_阿联酋->🇬🇧_GB_英国
-  - 🇺🇸_US_美国->🇬🇧_GB_英国_1
-  - 🇺🇸_US_美国->🇹🇷_TR_土耳其_1
-  - 🇺🇸_US_美国->🇫🇷_FR_法国_2
   - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国->🇬🇧_GB_英国_2
-  - 🇺🇸_US_美国->🇹🇷_TR_土耳其_2
+  - 🇺🇸_US_美国->🇬🇧_GB_英国
+  - 🇺🇸_US_美国->🇫🇷_FR_法国_2
   - 🇺🇸_US_美国_2
+  - 🇱🇺_LU_卢森堡
+  - 🇦🇪_AE_阿联酋
   - 🇺🇸_US_美国_3
-  - 🇨🇦_CA_加拿大->🇺🇸_US_美国_2
+  - 🇺🇸_US_美国->🇫🇷_FR_法国_3
   - 🇺🇸_US_美国_5
   - 🇺🇸_US_美国_6
-  - 🇺🇸_US_美国_7
+  - 🇺🇸_US_美国_8
+  - 🇺🇸_US_美国_9
+  - 🇺🇸_US_美国_10
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
