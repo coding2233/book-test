@@ -1569,7 +1569,7 @@ proxies:
   name: 🇺🇸_US_美国->🇫🇷_FR_法国_1
   network: ws
   port: 2086
-  server: 172.67.223.242
+  server: 104.21.4.14
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -1594,7 +1594,34 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇬🇧_GB_英国
+  name: 🇺🇸_US_美国->🇫🇷_FR_法国_3
+  network: ws
+  port: 2086
+  server: 172.67.223.242
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
+  ws-opts:
+    headers:
+      host: admin.arzonhost.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_1
+  network: ws
+  port: 2053
+  server: qin15.rong1104.uk
+  servername: qin15.rong1104.uk
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 869caccc-12af-4276-f458-366fa256f8a0
+  ws-opts:
+    path: /qin15
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇬🇧_GB_英国_1
   network: ws
   port: 2086
   server: mizban.arzonhost.ir
@@ -1608,37 +1635,45 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇫🇷_FR_法国_3
+  name: 🇺🇸_US_美国_2
   network: ws
-  port: 2086
-  server: 104.21.4.14
+  port: 8080
+  server: yh3.freeh1.xyz
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
+  uuid: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a
   ws-opts:
     headers:
-      host: admin.arzonhost.ir
-    path: /
-- cipher: aes-256-cfb
-  name: 🇺🇸_US_美国_2
-  password: amazonskr05
-  port: 443
-  server: 34.221.163.96
-  type: ss
+      host: larger-marketing-amounts-skin.trycloudflare.com
+    path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇹🇷_TR_土耳其
+  name: 🇺🇸_US_美国->🇬🇧_GB_英国_2
   network: ws
-  port: 2095
-  server: tu.mahilu.site
+  port: 8880
+  server: cdn.vds-server.ir
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
   ws-opts:
     headers:
-      host: tu.mahilu.site
+      host: cdn.vds-server.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇫🇷_FR_法国_4
+  network: ws
+  port: 2082
+  server: s1c.v2.v001sss.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      host: s1c.v2.v001sss.xyz
     path: /
 - alterId: 0
   cipher: auto
@@ -1656,21 +1691,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇩🇪_DE_德国
-  network: ws
-  port: 80
-  server: 104.21.94.251
+  name: 🇱🇺_LU_卢森堡
+  network: http
+  port: 3389
+  server: 78.111.102.232
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: c7421a39-020d-4a01-97ed-9eacbce0a7ca
-  ws-opts:
-    headers:
-      host: de2.xv2ray.net
-    path: /vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_3
+  name: 🇺🇸_US_美国_4
   network: ws
   port: 80
   server: 172.67.116.48
@@ -1684,28 +1715,74 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_4
+  name: 🇺🇸_US_美国->🇹🇷_TR_土耳其
   network: ws
-  port: 8080
-  server: yh3.freeh1.xyz
+  port: 2095
+  server: tu.mahilu.site
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
   ws-opts:
     headers:
-      host: larger-marketing-amounts-skin.trycloudflare.com
-    path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
+      host: tu.mahilu.site
+    path: /
 - alterId: 0
   cipher: auto
-  name: 🇱🇺_LU_卢森堡
-  network: http
-  port: 3389
-  server: 78.111.102.232
+  name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
+  network: ws
+  port: 80
+  server: 172.64.141.219
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+  uuid: 1cfaad16-d2ba-4c49-af07-d7b9f11f43d0
+  ws-opts:
+    headers:
+      host: ru327.xn--mes53ddysu0o3gl.top
+    path: /xn--mes53ddysu0o3gl
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大
+  network: ws
+  port: 8080
+  server: yh2.freeh1.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
+  ws-opts:
+    headers:
+      host: pcs-referenced-camera-concerns.trycloudflare.com
+    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇫🇷_FR_法国_5
+  network: ws
+  port: 2082
+  server: 104.21.8.157
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      host: s1c.v2.v001sss.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦_CA_加拿大
+  network: ws
+  port: 8080
+  server: 23.227.38.23
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
+  ws-opts:
+    headers:
+      host: uh-lawyers-instruments-kernel.trycloudflare.com
+    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_5
@@ -1827,15 +1904,20 @@ proxy-groups:
   - 美国 013
   - 🇺🇸_US_美国->🇫🇷_FR_法国_1
   - 🇺🇸_US_美国->🇫🇷_FR_法国_2
-  - 🇺🇸_US_美国->🇬🇧_GB_英国
   - 🇺🇸_US_美国->🇫🇷_FR_法国_3
+  - 🇺🇸_US_美国_1
+  - 🇺🇸_US_美国->🇬🇧_GB_英国_1
   - 🇺🇸_US_美国_2
-  - 🇺🇸_US_美国->🇹🇷_TR_土耳其
+  - 🇺🇸_US_美国->🇬🇧_GB_英国_2
+  - 🇺🇸_US_美国->🇫🇷_FR_法国_4
   - 🇦🇪_AE_阿联酋->🇬🇧_GB_英国
-  - 🇺🇸_US_美国->🇩🇪_DE_德国
-  - 🇺🇸_US_美国_3
-  - 🇺🇸_US_美国_4
   - 🇱🇺_LU_卢森堡
+  - 🇺🇸_US_美国_4
+  - 🇺🇸_US_美国->🇹🇷_TR_土耳其
+  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大
+  - 🇺🇸_US_美国->🇫🇷_FR_法国_5
+  - 🇨🇦_CA_加拿大
   - 🇺🇸_US_美国_5
   type: select
 - interval: 300
@@ -1943,15 +2025,20 @@ proxy-groups:
   - 美国 013
   - 🇺🇸_US_美国->🇫🇷_FR_法国_1
   - 🇺🇸_US_美国->🇫🇷_FR_法国_2
-  - 🇺🇸_US_美国->🇬🇧_GB_英国
   - 🇺🇸_US_美国->🇫🇷_FR_法国_3
+  - 🇺🇸_US_美国_1
+  - 🇺🇸_US_美国->🇬🇧_GB_英国_1
   - 🇺🇸_US_美国_2
-  - 🇺🇸_US_美国->🇹🇷_TR_土耳其
+  - 🇺🇸_US_美国->🇬🇧_GB_英国_2
+  - 🇺🇸_US_美国->🇫🇷_FR_法国_4
   - 🇦🇪_AE_阿联酋->🇬🇧_GB_英国
-  - 🇺🇸_US_美国->🇩🇪_DE_德国
-  - 🇺🇸_US_美国_3
-  - 🇺🇸_US_美国_4
   - 🇱🇺_LU_卢森堡
+  - 🇺🇸_US_美国_4
+  - 🇺🇸_US_美国->🇹🇷_TR_土耳其
+  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大
+  - 🇺🇸_US_美国->🇫🇷_FR_法国_5
+  - 🇨🇦_CA_加拿大
   - 🇺🇸_US_美国_5
   type: url-test
   url: http://www.google.com/generate_204
