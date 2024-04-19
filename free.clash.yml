@@ -1825,20 +1825,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇫🇷_FR_法国_2
-  network: ws
-  port: 2086
-  server: 104.21.4.14
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
-  ws-opts:
-    headers:
-      host: admin.arzonhost.ir
-    path: /
-- alterId: 0
-  cipher: auto
   name: 🇳🇱_NL_荷兰->🇫🇷_FR_法国
   network: ws
   port: 2086
@@ -1851,39 +1837,19 @@ proxies:
     headers:
       host: admin.arzonhost.ir
     path: /
-- cipher: aes-256-cfb
-  name: 🇺🇸_US_美国_1
-  password: amazonskr05
-  port: 443
-  server: 35.91.225.232
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇹🇷_TR_土耳其
+  name: 🇺🇸_US_美国->🇫🇷_FR_法国_2
   network: ws
-  port: 2095
-  server: tu.mahilu.site
+  port: 2086
+  server: admin.arzonhost.ir
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
   ws-opts:
     headers:
-      host: tu.mahilu.site
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇦🇪_AE_阿联酋
-  network: ws
-  port: 8880
-  server: 94.140.0.110
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
-  ws-opts:
-    headers:
-      host: food.zhaal.ir
+      host: admin.arzonhost.ir
     path: /
 - alterId: 0
   cipher: auto
@@ -1901,38 +1867,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇬🇧_GB_英国_2
-  network: ws
-  port: 8880
-  server: cdn.vds-server.ir
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
-  ws-opts:
-    headers:
-      host: cdn.vds-server.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
-  network: ws
-  port: 8080
-  server: 104.19.58.60
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
-  ws-opts:
-    headers:
-      host: concentrations-taxi-about-recognised.trycloudflare.com
-    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
-- alterId: 0
-  cipher: auto
   name: 🇺🇸_US_美国->🇫🇷_FR_法国_3
   network: ws
   port: 2086
-  server: admin.arzonhost.ir
+  server: 104.21.4.14
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -1941,82 +1879,58 @@ proxies:
     headers:
       host: admin.arzonhost.ir
     path: /
-- cipher: aes-256-cfb
-  name: 🇺🇸_US_美国_3
-  password: amazonskr05
+- alterId: 0
+  cipher: auto
+  name: 🇦🇪_AE_阿联酋->🇬🇧_GB_英国
+  network: ws
+  port: 8880
+  server: 94.140.0.110
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  ws-opts:
+    headers:
+      host: food.zhaal.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦_CA_加拿大_1
+  network: ws
   port: 443
-  server: 54.71.116.112
-  type: ss
+  server: 158.51.123.111
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
+  name: 🇨🇦_CA_加拿大_2
   network: ws
-  port: 8080
-  server: 104.17.17.103
+  port: 443
+  server: 23.162.200.227
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇬🇧_GB_英国_2
+  network: ws
+  port: 8880
+  server: 172.67.188.156
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
   ws-opts:
     headers:
-      host: booty-pensions-scheduling-blogging.trycloudflare.com
-    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_4
-  network: ws
-  port: 8080
-  server: 104.20.26.40
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a
-  ws-opts:
-    headers:
-      host: fantastic-doe-bids-ended.trycloudflare.com
-    path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
-  network: ws
-  port: 8080
-  server: yh7.dtku41.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
-  ws-opts:
-    headers:
-      host: booty-pensions-scheduling-blogging.trycloudflare.com
-    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
-  network: ws
-  port: 8080
-  server: yh4.dtku41.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
-  ws-opts:
-    headers:
-      host: booty-pensions-scheduling-blogging.trycloudflare.com
-    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_5
-  network: ws
-  port: 8080
-  server: yh5.dtku41.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a
-  ws-opts:
-    headers:
-      host: fantastic-doe-bids-ended.trycloudflare.com
-    path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
+      host: cdn.vds-server.ir
+    path: /
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国->🇬🇧_GB_英国_3
@@ -2033,17 +1947,59 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_5
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   network: ws
-  port: 80
-  server: us219.netfilx.live
+  port: 8080
+  server: 104.20.26.40
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 1e65ec6d-9a42-4cd0-8c51-63030970134f
+  uuid: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a
   ws-opts:
     headers:
-      host: us219.netfilx.live
+      host: fantastic-doe-bids-ended.trycloudflare.com
+    path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇹🇷_TR_土耳其
+  network: ws
+  port: 2095
+  server: tu.mahilu.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      host: tu.mahilu.site
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
+  network: ws
+  port: 8080
+  server: 104.19.58.60
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
+  ws-opts:
+    headers:
+      host: concentrations-taxi-about-recognised.trycloudflare.com
+    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇬🇧_GB_英国_4
+  network: ws
+  port: 8880
+  server: cdn.vds-server.ir
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  ws-opts:
+    headers:
+      host: cdn.vds-server.ir
     path: /
 proxy-groups:
 - name: 🔰 节点选择
@@ -2158,23 +2114,19 @@ proxy-groups:
   - 美国 013
   - 美国 014
   - 🇺🇸_US_美国->🇫🇷_FR_法国_1
-  - 🇺🇸_US_美国->🇫🇷_FR_法国_2
   - 🇳🇱_NL_荷兰->🇫🇷_FR_法国
-  - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国->🇹🇷_TR_土耳其
-  - 🇦🇪_AE_阿联酋
+  - 🇺🇸_US_美国->🇫🇷_FR_法国_2
   - 🇺🇸_US_美国->🇬🇧_GB_英国_1
-  - 🇺🇸_US_美国->🇬🇧_GB_英国_2
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国->🇫🇷_FR_法国_3
-  - 🇺🇸_US_美国_3
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
-  - 🇺🇸_US_美国_4
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_5
+  - 🇦🇪_AE_阿联酋->🇬🇧_GB_英国
+  - 🇨🇦_CA_加拿大_1
+  - 🇨🇦_CA_加拿大_2
+  - 🇺🇸_US_美国->🇬🇧_GB_英国_2
   - 🇺🇸_US_美国->🇬🇧_GB_英国_3
-  - 🇺🇸_US_美国_5
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
+  - 🇺🇸_US_美国->🇹🇷_TR_土耳其
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
+  - 🇺🇸_US_美国->🇬🇧_GB_英国_4
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -2287,23 +2239,19 @@ proxy-groups:
   - 美国 013
   - 美国 014
   - 🇺🇸_US_美国->🇫🇷_FR_法国_1
-  - 🇺🇸_US_美国->🇫🇷_FR_法国_2
   - 🇳🇱_NL_荷兰->🇫🇷_FR_法国
-  - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国->🇹🇷_TR_土耳其
-  - 🇦🇪_AE_阿联酋
+  - 🇺🇸_US_美国->🇫🇷_FR_法国_2
   - 🇺🇸_US_美国->🇬🇧_GB_英国_1
-  - 🇺🇸_US_美国->🇬🇧_GB_英国_2
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国->🇫🇷_FR_法国_3
-  - 🇺🇸_US_美国_3
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
-  - 🇺🇸_US_美国_4
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_5
+  - 🇦🇪_AE_阿联酋->🇬🇧_GB_英国
+  - 🇨🇦_CA_加拿大_1
+  - 🇨🇦_CA_加拿大_2
+  - 🇺🇸_US_美国->🇬🇧_GB_英国_2
   - 🇺🇸_US_美国->🇬🇧_GB_英国_3
-  - 🇺🇸_US_美国_5
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
+  - 🇺🇸_US_美国->🇹🇷_TR_土耳其
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
+  - 🇺🇸_US_美国->🇬🇧_GB_英国_4
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
