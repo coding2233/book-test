@@ -3544,143 +3544,277 @@ proxies:
     headers:
       Host: kr01.iepl1.me
     path: /CAT
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
-  network: ws
-  port: 2095
-  server: 172.67.214.33
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      host: fcdn.flha.ru
-    path: /
-- alterId: 0
-  cipher: auto
+- cipher: aes-256-gcm
   name: 🇺🇸_US_美国_1
-  network: ws
-  port: 2095
-  server: fcdn.flha.ru
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      host: fcdn.flha.ru
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇫🇷_FR_法国
-  network: ws
-  port: 2082
-  server: 104.21.8.157
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts:
-    headers:
-      host: s1c.v2.v001sss.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇱🇺_LU_卢森堡
-  network: http
-  port: 3389
-  server: 45.82.31.164
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_2
-  network: ws
-  port: 2052
-  server: cfcdn1.sanfencdn9.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
-  ws-opts:
-    headers:
-      host: helanv6cf.inekokkk.top
-    path: /
-- alterId: 0
-  cipher: auto
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 38.110.1.51
+  type: ss
+- cipher: aes-256-gcm
   name: 🇺🇸_US_美国_3
-  network: ws
-  port: 2052
-  server: 104.18.19.191
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
-  ws-opts:
-    headers:
-      host: helanv6cf.inekokkk.top
-    path: /
-- alterId: 0
-  cipher: auto
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 23.154.136.37
+  type: ss
+- cipher: aes-256-gcm
   name: 🇺🇸_US_美国_4
-  network: ws
-  port: 2052
-  server: 104.18.36.119
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
-  ws-opts:
-    headers:
-      host: helanv6cf.inekokkk.top
-    path: /
-- alterId: 0
-  cipher: auto
+  password: e4FCWrgpkji3QY
+  port: 9101
+  server: 23.154.136.149
+  type: ss
+- cipher: aes-256-gcm
   name: 🇺🇸_US_美国_5
-  network: ws
-  port: 2052
-  server: 104.19.250.15
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
-  ws-opts:
-    headers:
-      host: helanv6cf.inekokkk.top
-    path: /
-- alterId: 0
-  cipher: auto
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 23.154.136.103
+  type: ss
+- cipher: aes-256-gcm
   name: 🇺🇸_US_美国_6
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 23.154.136.149
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸_US_美国_7
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 23.154.136.176
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸_US_美国_8
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 23.154.136.213
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸_US_美国_9
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 23.154.136.37
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸_US_美国_10
+  password: e4FCWrgpkji3QY
+  port: 9102
+  server: 23.154.136.149
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸_US_美国_11
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 23.154.136.103
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸_US_美国_12
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 23.154.136.103
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸_US_美国_13
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 23.154.136.149
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸_US_美国_14
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 23.154.136.218
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬_SG_新加坡->🇯🇵_JP_日本
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (tg@ripaojiedian)c27821f:16708
+    mode: tls
+  port: 2377
+  server: 0bee9ed.s1.gladns.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸_US_美国_15
+  password: rhnAUMfOWIgjT917yYCG7u
+  port: 443
+  server: 89.117.109.97
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇨🇾_CY_塞浦路斯->🇨🇦_CA_加拿大
   network: ws
-  port: 2095
-  server: 104.21.23.231
+  port: 8080
+  server: yh9.dtku41.xyz
+  servername: hang-broke-john-neither.trycloudflare.com
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
   ws-opts:
     headers:
-      host: fcdn.flha.ru
-    path: /
+      host: hang-broke-john-neither.trycloudflare.com
+    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  name: 🇨🇦_CA_加拿大
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大
+  network: ws
+  port: 8080
+  server: yh1.dtku41.xyz
+  servername: hang-broke-john-neither.trycloudflare.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+  ws-opts:
+    headers:
+      host: hang-broke-john-neither.trycloudflare.com
+    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+- alterId: 0
+  cipher: auto
+  name: 🇳🇱_NL_荷兰_1
+  network: ws
+  port: 8443
+  server: 188.114.96.65
+  servername: 1-aitemsset-m8.module-soft.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 2b6ff9f6-00b6-4bc7-e16f-a7f1f4d43e4c
+  ws-opts:
+    headers:
+      host: ktokr.module-soft.com
+    path: /build
+- alterId: 0
+  cipher: auto
+  name: 🇳🇱_NL_荷兰_2
+  network: ws
+  port: 8443
+  server: 188.114.98.224
+  servername: 6-xusersget-j0.module-soft.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 2b6ff9f6-00b6-4bc7-e16f-a7f1f4d43e4c
+  ws-opts:
+    headers:
+      host: ktokr.module-soft.com
+    path: /build
+- cipher: aes-256-gcm
+  name: 🇺🇸_US_美国_16
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 23.154.136.218
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸_US_美国_17
+  password: KixLvKzwjekG00rm
+  port: 8000
+  server: 23.154.136.218
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸_US_美国_18
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 23.154.136.218
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸_US_美国_19
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 23.154.136.218
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸_US_美国_20
+  password: Y6R9pAtvxxzmGC
+  port: 5000
+  server: 23.154.136.218
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸_US_美国_21
+  password: XKFKl2rULjIp74
+  port: 8009
+  server: 23.154.136.218
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸_US_美国_22
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 23.154.136.218
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸_US_美国_23
+  password: lGqs95QkFHo2NV
+  port: 5498
+  server: 23.154.136.218
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸_US_美国_24
+  password: e4FCWrgpkji3QY
+  port: 9101
+  server: 23.154.136.218
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸_US_美国_25
+  password: pKEW8JPByTVTLtM
+  port: 4444
+  server: 23.154.136.218
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_26
   network: ws
   port: 443
-  server: 158.51.123.111
+  server: 69.50.93.90
   skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     path: /linkvws
+- cipher: aes-256-gcm
+  name: 🇨🇦_CA_加拿大_1
+  password: KixLvKzwjekG00rm
+  port: 8000
+  server: 23.162.200.181
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦_CA_加拿大_2
+  password: Y6R9pAtvxxzmGC
+  port: 9090
+  server: 23.162.200.181
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦_CA_加拿大_3
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 23.162.200.181
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦_CA_加拿大_4
+  password: Y6R9pAtvxxzmGC
+  port: 3306
+  server: 23.162.200.181
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦_CA_加拿大_5
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 23.162.200.181
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦_CA_加拿大_6
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 23.162.200.181
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦_CA_加拿大_7
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 23.162.200.181
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_8
+  name: 🇺🇸_US_美国->🇫🇷_FR_法国_1
   network: ws
   port: 2082
   server: 172.67.130.140
@@ -3694,7 +3828,27 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
+  name: 🇺🇸_US_美国->🇫🇷_FR_法国_2
+  network: ws
+  port: 2082
+  server: 104.21.8.157
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      host: s1c.v2.v001sss.xyz
+    path: /
+- cipher: aes-128-cfb
+  name: 🇺🇸_US_美国_27
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.163
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_28
   network: ws
   port: 8080
   server: yh7.dtku41.xyz
@@ -3708,36 +3862,32 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
+  name: 🇺🇸_US_美国_29
   network: ws
   port: 8080
-  server: yh4.dtku41.xyz
+  server: yh5.dtku41.xyz
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
+  uuid: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a
   ws-opts:
     headers:
-      host: booty-pensions-scheduling-blogging.trycloudflare.com
-    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
-- cipher: aes-128-cfb
-  name: 🇺🇸_US_美国_9
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
-  type: ss
+      host: fantastic-doe-bids-ended.trycloudflare.com
+    path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_10
+  name: 🇺🇸_US_美国_30
   network: ws
-  port: 443
-  server: cold-dawn-9246.fly.dev
+  port: 8080
+  server: 104.19.58.60
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vmess
-  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
+  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
   ws-opts:
-    path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
+    headers:
+      host: concentrations-taxi-about-recognised.trycloudflare.com
+    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
@@ -3984,21 +4134,49 @@ proxy-groups:
   - 美国 069
   - 美国 070
   - 加拿大 139
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国->🇫🇷_FR_法国
-  - 🇱🇺_LU_卢森堡
-  - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国_3
   - 🇺🇸_US_美国_4
   - 🇺🇸_US_美国_5
   - 🇺🇸_US_美国_6
-  - 🇨🇦_CA_加拿大
+  - 🇺🇸_US_美国_7
   - 🇺🇸_US_美国_8
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
   - 🇺🇸_US_美国_9
   - 🇺🇸_US_美国_10
+  - 🇺🇸_US_美国_11
+  - 🇺🇸_US_美国_12
+  - 🇺🇸_US_美国_13
+  - 🇺🇸_US_美国_14
+  - 🇸🇬_SG_新加坡->🇯🇵_JP_日本
+  - 🇺🇸_US_美国_15
+  - 🇨🇾_CY_塞浦路斯->🇨🇦_CA_加拿大
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大
+  - 🇳🇱_NL_荷兰_1
+  - 🇳🇱_NL_荷兰_2
+  - 🇺🇸_US_美国_16
+  - 🇺🇸_US_美国_17
+  - 🇺🇸_US_美国_18
+  - 🇺🇸_US_美国_19
+  - 🇺🇸_US_美国_20
+  - 🇺🇸_US_美国_21
+  - 🇺🇸_US_美国_22
+  - 🇺🇸_US_美国_23
+  - 🇺🇸_US_美国_24
+  - 🇺🇸_US_美国_25
+  - 🇺🇸_US_美国_26
+  - 🇨🇦_CA_加拿大_1
+  - 🇨🇦_CA_加拿大_2
+  - 🇨🇦_CA_加拿大_3
+  - 🇨🇦_CA_加拿大_4
+  - 🇨🇦_CA_加拿大_5
+  - 🇨🇦_CA_加拿大_6
+  - 🇨🇦_CA_加拿大_7
+  - 🇺🇸_US_美国->🇫🇷_FR_法国_1
+  - 🇺🇸_US_美国->🇫🇷_FR_法国_2
+  - 🇺🇸_US_美国_27
+  - 🇺🇸_US_美国_28
+  - 🇺🇸_US_美国_29
+  - 🇺🇸_US_美国_30
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -4244,21 +4422,49 @@ proxy-groups:
   - 美国 069
   - 美国 070
   - 加拿大 139
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国->🇫🇷_FR_法国
-  - 🇱🇺_LU_卢森堡
-  - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国_3
   - 🇺🇸_US_美国_4
   - 🇺🇸_US_美国_5
   - 🇺🇸_US_美国_6
-  - 🇨🇦_CA_加拿大
+  - 🇺🇸_US_美国_7
   - 🇺🇸_US_美国_8
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
   - 🇺🇸_US_美国_9
   - 🇺🇸_US_美国_10
+  - 🇺🇸_US_美国_11
+  - 🇺🇸_US_美国_12
+  - 🇺🇸_US_美国_13
+  - 🇺🇸_US_美国_14
+  - 🇸🇬_SG_新加坡->🇯🇵_JP_日本
+  - 🇺🇸_US_美国_15
+  - 🇨🇾_CY_塞浦路斯->🇨🇦_CA_加拿大
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大
+  - 🇳🇱_NL_荷兰_1
+  - 🇳🇱_NL_荷兰_2
+  - 🇺🇸_US_美国_16
+  - 🇺🇸_US_美国_17
+  - 🇺🇸_US_美国_18
+  - 🇺🇸_US_美国_19
+  - 🇺🇸_US_美国_20
+  - 🇺🇸_US_美国_21
+  - 🇺🇸_US_美国_22
+  - 🇺🇸_US_美国_23
+  - 🇺🇸_US_美国_24
+  - 🇺🇸_US_美国_25
+  - 🇺🇸_US_美国_26
+  - 🇨🇦_CA_加拿大_1
+  - 🇨🇦_CA_加拿大_2
+  - 🇨🇦_CA_加拿大_3
+  - 🇨🇦_CA_加拿大_4
+  - 🇨🇦_CA_加拿大_5
+  - 🇨🇦_CA_加拿大_6
+  - 🇨🇦_CA_加拿大_7
+  - 🇺🇸_US_美国->🇫🇷_FR_法国_1
+  - 🇺🇸_US_美国->🇫🇷_FR_法国_2
+  - 🇺🇸_US_美国_27
+  - 🇺🇸_US_美国_28
+  - 🇺🇸_US_美国_29
+  - 🇺🇸_US_美国_30
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
