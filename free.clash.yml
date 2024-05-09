@@ -2389,40 +2389,6 @@ proxies:
     path: /dabai.in4318220
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_1
-  network: ws
-  port: 2052
-  server: 104.17.229.133
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 07a902d1-7c2d-47de-f2c5-c2236fc7cd46
-  ws-opts:
-    headers:
-      host: usxm.inekokkk.top
-    path: /
-- cipher: aes-128-cfb
-  name: 🇺🇸_US_美国_2
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_3
-  network: ws
-  port: 2052
-  server: 104.19.138.73
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 3fdef482-3fba-47f9-af67-b3f5bf93ec4c
-  ws-opts:
-    headers:
-      host: tw1bQiWSE4x.fzbqfrse.xyz
-    path: /video/GQ2qE5Us9g
-- alterId: 0
-  cipher: auto
   name: 🇱🇺_LU_卢森堡
   network: http
   port: 3389
@@ -2431,32 +2397,12 @@ proxies:
   tls: false
   type: vmess
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- cipher: aes-128-cfb
-  name: 🇺🇸_US_美国_4
-  password: shadowsocks
-  port: 443
-  server: 212.102.47.198
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_5
-  network: ws
-  port: 2052
-  server: cfcdn1.sanfencdn9.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 07a902d1-7c2d-47de-f2c5-c2236fc7cd46
-  ws-opts:
-    headers:
-      host: usxm.inekokkk.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇫🇷_FR_法国
+  name: 🇺🇸_US_美国->🇫🇷_FR_法国_1
   network: ws
   port: 2082
-  server: s1c.v2.v001sss.xyz
+  server: 104.21.8.157
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -2465,24 +2411,12 @@ proxies:
     headers:
       host: s1c.v2.v001sss.xyz
     path: /
-- cipher: aes-256-gcm
-  name: 🇨🇦_CA_加拿大
-  password: pKEW8JPByTVTLtM
-  port: 443
-  server: 23.162.200.213
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸_US_美国_6
-  password: pKEW8JPByTVTLtM
-  port: 4444
-  server: 38.114.114.143
-  type: ss
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国->🇩🇪_DE_德国_1
   network: ws
   port: 2052
-  server: 104.18.19.191
+  server: 104.19.250.15
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -2493,10 +2427,24 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 🇺🇸_US_美国_1
+  network: ws
+  port: 2082
+  server: 172.67.130.140
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      host: s1c.v2.v001sss.xyz
+    path: /
+- alterId: 0
+  cipher: auto
   name: 🇺🇸_US_美国->🇩🇪_DE_德国_2
   network: ws
   port: 2052
-  server: 104.19.250.15
+  server: 104.18.19.191
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -2519,6 +2467,46 @@ proxies:
     headers:
       host: helanv6cf.inekokkk.top
     path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇩🇪_DE_德国_4
+  network: ws
+  port: 2052
+  server: cfcdn1.sanfencdn9.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+  ws-opts:
+    headers:
+      host: helanv6cf.inekokkk.top
+    path: /
+- cipher: aes-256-cfb
+  name: 🇺🇸_US_美国_2
+  password: amazonskr05
+  port: 443
+  server: 18.237.252.9
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇫🇷_FR_法国_2
+  network: ws
+  port: 2082
+  server: s1c.v2.v001sss.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      host: s1c.v2.v001sss.xyz
+    path: /
+- cipher: aes-128-cfb
+  name: 🇺🇸_US_美国_3
+  password: shadowsocks
+  port: 443
+  server: 212.102.47.198
+  type: ss
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
@@ -2688,18 +2676,16 @@ proxy-groups:
   - 加拿大 129
   - 加拿大 130
   - 加拿大 131
-  - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国_2
-  - 🇺🇸_US_美国_3
   - 🇱🇺_LU_卢森堡
-  - 🇺🇸_US_美国_4
-  - 🇺🇸_US_美国_5
-  - 🇺🇸_US_美国->🇫🇷_FR_法国
-  - 🇨🇦_CA_加拿大
-  - 🇺🇸_US_美国_6
+  - 🇺🇸_US_美国->🇫🇷_FR_法国_1
   - 🇺🇸_US_美国->🇩🇪_DE_德国_1
+  - 🇺🇸_US_美国_1
   - 🇺🇸_US_美国->🇩🇪_DE_德国_2
   - 🇺🇸_US_美国->🇩🇪_DE_德国_3
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_4
+  - 🇺🇸_US_美国_2
+  - 🇺🇸_US_美国->🇫🇷_FR_法国_2
+  - 🇺🇸_US_美国_3
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -2868,18 +2854,16 @@ proxy-groups:
   - 加拿大 129
   - 加拿大 130
   - 加拿大 131
-  - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国_2
-  - 🇺🇸_US_美国_3
   - 🇱🇺_LU_卢森堡
-  - 🇺🇸_US_美国_4
-  - 🇺🇸_US_美国_5
-  - 🇺🇸_US_美国->🇫🇷_FR_法国
-  - 🇨🇦_CA_加拿大
-  - 🇺🇸_US_美国_6
+  - 🇺🇸_US_美国->🇫🇷_FR_法国_1
   - 🇺🇸_US_美国->🇩🇪_DE_德国_1
+  - 🇺🇸_US_美国_1
   - 🇺🇸_US_美国->🇩🇪_DE_德国_2
   - 🇺🇸_US_美国->🇩🇪_DE_德国_3
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_4
+  - 🇺🇸_US_美国_2
+  - 🇺🇸_US_美国->🇫🇷_FR_法国_2
+  - 🇺🇸_US_美国_3
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
