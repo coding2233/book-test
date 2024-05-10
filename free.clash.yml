@@ -2233,28 +2233,18 @@ proxies:
     path: /aries?ed=2048
 - alterId: 0
   cipher: auto
-  name: 🇱🇺_LU_卢森堡
-  network: http
-  port: 3389
-  server: 45.82.31.164
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇫🇷_FR_法国_1
+  name: 🇺🇸_US_美国_1
   network: ws
-  port: 2082
-  server: 104.21.8.157
+  port: 2052
+  server: cfcdn1.sanfencdn9.com
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  uuid: 2eec45db-dfcd-43d6-8514-b141aff651be
   ws-opts:
     headers:
-      host: s1c.v2.v001sss.xyz
-    path: /
+      host: tw1bQiWSE4x.fzbqfrse.xyz
+    path: /video/GQ2qE5Us9g
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国->🇩🇪_DE_德国_1
@@ -2268,20 +2258,6 @@ proxies:
   ws-opts:
     headers:
       host: helanv6cf.inekokkk.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_1
-  network: ws
-  port: 2082
-  server: 172.67.130.140
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts:
-    headers:
-      host: s1c.v2.v001sss.xyz
     path: /
 - alterId: 0
   cipher: auto
@@ -2313,43 +2289,59 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇩🇪_DE_德国_4
-  network: ws
-  port: 2052
-  server: cfcdn1.sanfencdn9.com
+  name: 🇱🇺_LU_卢森堡
+  network: http
+  port: 3389
+  server: 45.82.31.164
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
-  ws-opts:
-    headers:
-      host: helanv6cf.inekokkk.top
-    path: /
-- cipher: aes-256-cfb
-  name: 🇺🇸_US_美国_2
-  password: amazonskr05
-  port: 443
-  server: 18.237.252.9
-  type: ss
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇫🇷_FR_法国_2
+  name: 🇺🇸_US_美国_2
   network: ws
-  port: 2082
-  server: s1c.v2.v001sss.xyz
+  port: 2052
+  server: 104.18.242.177
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  uuid: 2eec45db-dfcd-43d6-8514-b141aff651be
   ws-opts:
     headers:
-      host: s1c.v2.v001sss.xyz
-    path: /
+      host: tw1bQiWSE4x.fzbqfrse.xyz
+    path: /video/GQ2qE5Us9g
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪_DE_德国
+  password: b4JbN1PzQa3eyV1UWcAInY
+  port: 443
+  server: 5.78.92.197
+  type: ss
 - cipher: aes-128-cfb
   name: 🇺🇸_US_美国_3
   password: shadowsocks
   port: 443
   server: 212.102.47.198
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_4
+  network: ws
+  port: 8880
+  server: cfcdn1.sanfencdn9.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2eec45db-dfcd-43d6-8514-b141aff651be
+  ws-opts:
+    headers:
+      host: us6gzxQRrE4.fzbqfrse.xyz
+    path: /video/bYdJ7Vc2We
+- cipher: aes-128-cfb
+  name: 🇺🇸_US_美国_5
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.163
   type: ss
 proxy-groups:
 - name: 🔰 节点选择
@@ -2507,16 +2499,16 @@ proxy-groups:
   - 加拿大 131
   - 法国 002
   - 加拿大 132
-  - 🇱🇺_LU_卢森堡
-  - 🇺🇸_US_美国->🇫🇷_FR_法国_1
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
   - 🇺🇸_US_美国_1
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
   - 🇺🇸_US_美国->🇩🇪_DE_德国_2
   - 🇺🇸_US_美国->🇩🇪_DE_德国_3
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_4
+  - 🇱🇺_LU_卢森堡
   - 🇺🇸_US_美国_2
-  - 🇺🇸_US_美国->🇫🇷_FR_法国_2
+  - 🇩🇪_DE_德国
   - 🇺🇸_US_美国_3
+  - 🇺🇸_US_美国_4
+  - 🇺🇸_US_美国_5
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -2672,16 +2664,16 @@ proxy-groups:
   - 加拿大 131
   - 法国 002
   - 加拿大 132
-  - 🇱🇺_LU_卢森堡
-  - 🇺🇸_US_美国->🇫🇷_FR_法国_1
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
   - 🇺🇸_US_美国_1
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
   - 🇺🇸_US_美国->🇩🇪_DE_德国_2
   - 🇺🇸_US_美国->🇩🇪_DE_德国_3
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_4
+  - 🇱🇺_LU_卢森堡
   - 🇺🇸_US_美国_2
-  - 🇺🇸_US_美国->🇫🇷_FR_法国_2
+  - 🇩🇪_DE_德国
   - 🇺🇸_US_美国_3
+  - 🇺🇸_US_美国_4
+  - 🇺🇸_US_美国_5
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
