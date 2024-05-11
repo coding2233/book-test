@@ -2962,20 +2962,6 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_1
-  network: ws
-  port: 2052
-  server: cfcdn1.sanfencdn9.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2eec45db-dfcd-43d6-8514-b141aff651be
-  ws-opts:
-    headers:
-      host: tw1bQiWSE4x.fzbqfrse.xyz
-    path: /video/GQ2qE5Us9g
-- alterId: 0
-  cipher: auto
   name: 🇺🇸_US_美国->🇩🇪_DE_德国_1
   network: ws
   port: 2052
@@ -3028,23 +3014,35 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_2
+  name: 🇺🇸_US_美国_1
   network: ws
-  port: 2052
-  server: 104.18.242.177
+  port: 8880
+  server: cdn.bethebest.eu.org
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 2eec45db-dfcd-43d6-8514-b141aff651be
+  uuid: 86a0a07a-d0ed-480a-aa2a-f1a96592747e
   ws-opts:
     headers:
-      host: tw1bQiWSE4x.fzbqfrse.xyz
-    path: /video/GQ2qE5Us9g
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪_DE_德国
-  password: b4JbN1PzQa3eyV1UWcAInY
+      host: us.bethebest.eu.org
+    path: /
+- cipher: aes-256-cfb
+  name: 🇩🇪_DE_德国_1
+  password: rpgbNnU9rDDU4aWZ
+  port: 9094
+  server: 80.92.204.106
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇺🇸_US_美国_2
+  password: amazonskr05
   port: 443
-  server: 5.78.92.197
+  server: 52.88.161.5
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇩🇪_DE_德国_2
+  password: VP8ZPxQpJtZRCjfZ
+  port: 9080
+  server: 80.92.204.106
   type: ss
 - cipher: aes-128-cfb
   name: 🇺🇸_US_美国_3
@@ -3052,25 +3050,17 @@ proxies:
   port: 443
   server: 212.102.47.198
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_4
-  network: ws
-  port: 8880
-  server: cfcdn1.sanfencdn9.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2eec45db-dfcd-43d6-8514-b141aff651be
-  ws-opts:
-    headers:
-      host: us6gzxQRrE4.fzbqfrse.xyz
-    path: /video/bYdJ7Vc2We
 - cipher: aes-128-cfb
-  name: 🇺🇸_US_美国_5
+  name: 🇺🇸_US_美国_4
   password: shadowsocks
   port: 443
   server: 156.146.38.163
+  type: ss
+- cipher: aes-128-cfb
+  name: 🇳🇱_NL_荷兰
+  password: shadowsocks
+  port: 443
+  server: 109.201.152.181
   type: ss
 proxy-groups:
 - name: 🔰 节点选择
@@ -3273,16 +3263,17 @@ proxy-groups:
   - 加拿大 160
   - 加拿大 161
   - 荷兰 003
-  - 🇺🇸_US_美国_1
   - 🇺🇸_US_美国->🇩🇪_DE_德国_1
   - 🇺🇸_US_美国->🇩🇪_DE_德国_2
   - 🇺🇸_US_美国->🇩🇪_DE_德国_3
   - 🇱🇺_LU_卢森堡
+  - 🇺🇸_US_美国_1
+  - 🇩🇪_DE_德国_1
   - 🇺🇸_US_美国_2
-  - 🇩🇪_DE_德国
+  - 🇩🇪_DE_德国_2
   - 🇺🇸_US_美国_3
   - 🇺🇸_US_美国_4
-  - 🇺🇸_US_美国_5
+  - 🇳🇱_NL_荷兰
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -3483,16 +3474,17 @@ proxy-groups:
   - 加拿大 160
   - 加拿大 161
   - 荷兰 003
-  - 🇺🇸_US_美国_1
   - 🇺🇸_US_美国->🇩🇪_DE_德国_1
   - 🇺🇸_US_美国->🇩🇪_DE_德国_2
   - 🇺🇸_US_美国->🇩🇪_DE_德国_3
   - 🇱🇺_LU_卢森堡
+  - 🇺🇸_US_美国_1
+  - 🇩🇪_DE_德国_1
   - 🇺🇸_US_美国_2
-  - 🇩🇪_DE_德国
+  - 🇩🇪_DE_德国_2
   - 🇺🇸_US_美国_3
   - 🇺🇸_US_美国_4
-  - 🇺🇸_US_美国_5
+  - 🇳🇱_NL_荷兰
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
@@ -4326,6 +4318,7 @@ rules:
 - DOMAIN-KEYWORD,mastodon,🔰 节点选择
 - DOMAIN-KEYWORD,discord,🔰 节点选择
 - DOMAIN-SUFFIX,coze.com,🔰 节点选择
+- DOMAIN-SUFFIX,surfcloud.buzz,🔰 节点选择
 - DOMAIN-SUFFIX,github.com,🖥️ Github
 - DOMAIN-SUFFIX,api.github.com,🖥️ Github
 - DOMAIN-SUFFIX,github.io,🖥️ Github
