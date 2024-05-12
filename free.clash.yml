@@ -6,139 +6,29 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
-  name: US_youtube@资源分享师_242
+  name: vps6.laiting.xyz-vmss-ws-tls
   network: ws
-  port: 8880
-  server: ns1.v2-vip.fun
+  port: 443
+  server: vps6.laiting.xyz
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
   udp: true
-  uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
+  uuid: 9c055802-e235-4b27-96a2-895298e89851
   ws-opts:
     headers:
-      Host: fr7.tehme100.fun
-    path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
+      Host: vps6.laiting.xyz
+    path: /rayawesomepath
 - alterId: 0
   cipher: auto
-  name: US_youtube@资源分享师_242 2
-  network: ws
-  port: 8880
-  server: ns1.v2-vip.fun
+  name: vps6.laiting.xyz-vmss-tcp
+  port: 16823
+  server: vps6.laiting.xyz
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
-  ws-opts:
-    headers:
-      Host: fr7.tehme100.fun
-    path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
-- alterId: 0
-  cipher: auto
-  name: US_youtube@资源分享师_214
-  network: ws
-  port: 80
-  server: 172.67.120.200
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: lv2.scproxy.top
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  name: US_youtube@资源分享师_203
-  network: ws
-  port: 80
-  server: 172.64.133.137
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: lv2.scproxy.top
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  name: US_youtube@资源分享师_334
-  network: ws
-  port: 80
-  server: 172.64.105.249
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: lv2.scproxy.top
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  name: US_youtube@资源分享师_246
-  network: ws
-  port: 80
-  server: 172.64.133.148
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: lv2.scproxy.top
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  name: US_youtube@资源分享师_346
-  network: ws
-  port: 80
-  server: 172.67.93.232
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: lv2.scproxy.top
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  name: US_youtube@资源分享师_188
-  network: ws
-  port: 80
-  server: 172.67.49.8
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: lv2.scproxy.top
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  name: US_youtube@资源分享师_193
-  network: ws
-  port: 8880
-  server: yd1.992688.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
-  ws-opts:
-    headers:
-      Host: vceu3.vpn66.eu.org
-    path: /
+  uuid: 7056cc99-9df7-4c89-b2da-9bea4d5b1db6
 - alterId: 0
   cipher: auto
   country: 🇻🇳VN
@@ -3523,15 +3413,9 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
-  - US_youtube@资源分享师_242
-  - US_youtube@资源分享师_242 2
-  - US_youtube@资源分享师_214
-  - US_youtube@资源分享师_203
-  - US_youtube@资源分享师_334
-  - US_youtube@资源分享师_246
-  - US_youtube@资源分享师_346
-  - US_youtube@资源分享师_188
-  - US_youtube@资源分享师_193
+  - 🚒 vps6.laiting.xyz
+  - vps6.laiting.xyz-vmss-ws-tls
+  - vps6.laiting.xyz-vmss-tcp
   - 越南 001
   - 加拿大 001
   - 加拿大 002
@@ -3763,15 +3647,8 @@ proxy-groups:
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - US_youtube@资源分享师_242
-  - US_youtube@资源分享师_242 2
-  - US_youtube@资源分享师_214
-  - US_youtube@资源分享师_203
-  - US_youtube@资源分享师_334
-  - US_youtube@资源分享师_246
-  - US_youtube@资源分享师_346
-  - US_youtube@资源分享师_188
-  - US_youtube@资源分享师_193
+  - vps6.laiting.xyz-vmss-ws-tls
+  - vps6.laiting.xyz-vmss-tcp
   - 越南 001
   - 加拿大 001
   - 加拿大 002
@@ -4010,25 +3887,35 @@ proxy-groups:
   - REJECT
   - DIRECT
   type: select
+- name: 🚒 vps6.laiting.xyz
+  proxies:
+  - vps6.laiting.xyz-vmss-ws-tls
+  - vps6.laiting.xyz-vmss-kcp
+  - vps6.laiting.xyz-vmss-tcp
+  type: select
 - name: 🐟 漏网之鱼
   proxies:
   - 🎯 全球直连
   - 🔰 节点选择
+  - 🚒 vps6.laiting.xyz
   type: select
 - name: 🖥️ Github
   proxies:
   - 🎯 全球直连
   - 🔰 节点选择
+  - 🚒 vps6.laiting.xyz
   type: select
 - name: 🌐 Steam
   proxies:
   - 🎯 全球直连
   - 🔰 节点选择
+  - 🚒 vps6.laiting.xyz
   type: select
 - name: 🌉 Bridge
   proxies:
   - 🔰 节点选择
   - 🎯 全球直连
+  - 🚒 vps6.laiting.xyz
   type: select
 rules:
 - DOMAIN-SUFFIX,local,🎯 全球直连
