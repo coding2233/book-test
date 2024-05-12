@@ -3414,8 +3414,6 @@ proxy-groups:
   - ♻️ 自动选择
   - 🎯 全球直连
   - 🚒 vps6.laiting.xyz
-  - vps6.laiting.xyz-vmss-ws-tls
-  - vps6.laiting.xyz-vmss-tcp
   - 越南 001
   - 加拿大 001
   - 加拿大 002
@@ -3647,8 +3645,6 @@ proxy-groups:
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - vps6.laiting.xyz-vmss-ws-tls
-  - vps6.laiting.xyz-vmss-tcp
   - 越南 001
   - 加拿大 001
   - 加拿大 002
@@ -3890,7 +3886,6 @@ proxy-groups:
 - name: 🚒 vps6.laiting.xyz
   proxies:
   - vps6.laiting.xyz-vmss-ws-tls
-  - vps6.laiting.xyz-vmss-kcp
   - vps6.laiting.xyz-vmss-tcp
   type: select
 - name: 🐟 漏网之鱼
