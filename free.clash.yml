@@ -3268,6 +3268,144 @@ proxies:
     path: /cctv13.m3u8
 - alterId: 0
   cipher: auto
+  name: 加拿大 187
+  network: ws
+  port: 2052
+  server: 162.159.49.42
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c5da6e6b-7918-4d29-a05c-450f4eeecb19
+  ws-opts:
+    headers:
+      host: tw1bQiWSE4x.fzbqfrse.xyz
+    path: /video/GQ2qE5Us9g
+- alterId: 0
+  cipher: auto
+  name: 加拿大 188
+  network: ws
+  port: 2082
+  server: 172.67.31.207
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7648993c-806d-318b-b187-d80139f15fe0
+  ws-opts:
+    headers:
+      Host: 100-100-17-392.cn-db.top
+    path: /dabai.in172.67.31.207
+- alterId: 0
+  cipher: auto
+  name: 加拿大 189
+  network: ws
+  port: 8880
+  server: 104.20.29.196
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7648993c-806d-318b-b187-d80139f15fe0
+  ws-opts:
+    headers:
+      Host: 100-100-17-473.cn-db.top
+    path: /dabai.in104.20.29.196
+- alterId: 0
+  cipher: auto
+  name: 加拿大 190
+  network: ws
+  port: 2095
+  server: 104.24.27.225
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7648993c-806d-318b-b187-d80139f15fe0
+  ws-opts:
+    headers:
+      Host: 100-100-17-19.cn-db.top
+    path: /dabai.in104.24.27.225
+- alterId: 0
+  cipher: auto
+  name: 德国 004
+  network: ws
+  port: 2096
+  server: 172.64.31.18
+  servername: 100-100-17-244.db-link02.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 7648993c-806d-318b-b187-d80139f15fe0
+  ws-opts:
+    headers:
+      Host: 100-100-17-244.db-link02.top
+    path: /dabai.in172.64.31.18
+- alterId: 0
+  cipher: auto
+  name: 美国 024
+  network: ws
+  port: 2087
+  server: 104.24.209.175
+  servername: 100-100-17-500.cn-db.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 7648993c-806d-318b-b187-d80139f15fe0
+  ws-opts:
+    headers:
+      Host: 100-100-17-500.cn-db.top
+    path: /dabai.in104.24.209.175
+- alterId: 0
+  cipher: auto
+  name: 加拿大 191
+  network: ws
+  port: 2096
+  server: 172.67.49.93
+  servername: 100-100-17-416.cn-db.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 7648993c-806d-318b-b187-d80139f15fe0
+  ws-opts:
+    headers:
+      Host: 100-100-17-416.cn-db.top
+    path: /dabai.in172.67.49.93
+- alterId: 0
+  cipher: auto
+  name: 加拿大 192
+  network: ws
+  port: 80
+  server: 104.24.246.1
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7648993c-806d-318b-b187-d80139f15fe0
+  ws-opts:
+    headers:
+      Host: 100-100-17-252.db-link01.top
+    path: /dabai.in104.24.246.1
+- alterId: 0
+  cipher: auto
+  name: 加拿大 193
+  network: ws
+  port: 2053
+  server: 104.25.217.113
+  servername: 100-100-17-424.db-link02.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 7648993c-806d-318b-b187-d80139f15fe0
+  ws-opts:
+    headers:
+      Host: 100-100-17-424.db-link02.top
+    path: /dabai.in104.25.217.113
+- alterId: 0
+  cipher: auto
   name: 🇺🇸_US_美国->🇩🇪_DE_德国_1
   network: ws
   port: 2052
@@ -3626,6 +3764,15 @@ proxy-groups:
   - 加拿大 183
   - 加拿大 184
   - 加拿大 185
+  - 加拿大 187
+  - 加拿大 188
+  - 加拿大 189
+  - 加拿大 190
+  - 德国 004
+  - 美国 024
+  - 加拿大 191
+  - 加拿大 192
+  - 加拿大 193
   - 🇺🇸_US_美国->🇩🇪_DE_德国_1
   - 🇺🇸_US_美国->🇩🇪_DE_德国_2
   - 🇺🇸_US_美国->🇩🇪_DE_德国_3
@@ -3860,6 +4007,15 @@ proxy-groups:
   - 加拿大 183
   - 加拿大 184
   - 加拿大 185
+  - 加拿大 187
+  - 加拿大 188
+  - 加拿大 189
+  - 加拿大 190
+  - 德国 004
+  - 美国 024
+  - 加拿大 191
+  - 加拿大 192
+  - 加拿大 193
   - 🇺🇸_US_美国->🇩🇪_DE_德国_1
   - 🇺🇸_US_美国->🇩🇪_DE_德国_2
   - 🇺🇸_US_美国->🇩🇪_DE_德国_3
