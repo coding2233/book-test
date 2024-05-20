@@ -1152,6 +1152,300 @@ proxies:
     headers:
       Host: hk.pddf.buzz
     path: /pdd
+- alterId: 64
+  cipher: auto
+  name: 日本 001
+  network: ws
+  port: 443
+  server: 134.122.135.59
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.44317374.xyz
+    path: /path/182320181512
+- alterId: 0
+  cipher: auto
+  name: 加拿大 056
+  network: ws
+  port: 443
+  server: 172.67.102.140
+  servername: 100-100-17-133.db-link02.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: e6933218-ad65-3943-9afd-0d78638a61dd
+  ws-opts:
+    headers:
+      Host: 100-100-17-133.db-link02.top
+    path: /dabai.in172.67.102.140
+- alterId: 0
+  cipher: auto
+  name: 加拿大 057
+  network: ws
+  port: 80
+  server: 172.67.45.50
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e6933218-ad65-3943-9afd-0d78638a61dd
+  ws-opts:
+    headers:
+      Host: 100-100-17-124.cn-db.top
+    path: /dabai.in172.67.45.50
+- alterId: 0
+  cipher: auto
+  name: 加拿大 058
+  network: ws
+  port: 443
+  server: 104.24.153.111
+  servername: 100-100-17-373.db-link02.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: e6933218-ad65-3943-9afd-0d78638a61dd
+  ws-opts:
+    headers:
+      Host: 100-100-17-373.db-link02.top
+    path: /dabai.in104.24.153.111
+- alterId: 0
+  cipher: auto
+  name: 加拿大 059
+  network: ws
+  port: 2053
+  server: 104.18.214.235
+  servername: 100-100-17-165.db-link02.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: e6933218-ad65-3943-9afd-0d78638a61dd
+  ws-opts:
+    headers:
+      Host: 100-100-17-165.db-link02.top
+    path: /dabai.in104.18.214.235
+- alterId: 0
+  cipher: auto
+  name: 加拿大 060
+  network: ws
+  port: 2052
+  server: 172.67.109.155
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e6933218-ad65-3943-9afd-0d78638a61dd
+  ws-opts:
+    headers:
+      Host: 100-100-17-487.cn-db.top
+    path: /dabai.in172.67.109.155
+- alterId: 0
+  cipher: auto
+  name: 加拿大 061
+  network: ws
+  port: 2086
+  server: 172.67.31.236
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e6933218-ad65-3943-9afd-0d78638a61dd
+  ws-opts:
+    headers:
+      Host: 100-100-17-173.cn-db.top
+    path: /dabai.in172.67.31.236
+- alterId: 0
+  cipher: auto
+  name: 加拿大 062
+  network: ws
+  port: 8880
+  server: 104.18.100.32
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e6933218-ad65-3943-9afd-0d78638a61dd
+  ws-opts:
+    headers:
+      Host: 100-100-17-370.cn-db.top
+    path: /dabai.in104.18.100.32
+- alterId: 0
+  cipher: auto
+  name: 加拿大 063
+  network: ws
+  port: 2052
+  server: 104.21.193.42
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e6933218-ad65-3943-9afd-0d78638a61dd
+  ws-opts:
+    headers:
+      Host: 100-100-17-336.db-link01.top
+    path: /dabai.in104.21.193.42
+- alterId: 0
+  cipher: auto
+  name: 英国 002
+  network: tcp
+  port: 44562
+  server: 109.74.197.173
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: bf6235e5-ee42-4bbc-b9c2-1ec2fabf0160
+- alterId: 0
+  cipher: auto
+  name: 日本 002
+  network: ws
+  port: 80
+  server: 18.181.190.41
+  skip-cert-verify: true
+  type: vmess
+  uuid: e7c26c01-186a-479e-9218-4952353d97f1
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 065
+  network: ws
+  port: 2086
+  server: 104.20.17.203
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e6933218-ad65-3943-9afd-0d78638a61dd
+  ws-opts:
+    headers:
+      Host: 100-100-17-54.db-link01.top
+    path: /dabai.in104.20.17.203
+- alterId: 0
+  cipher: auto
+  name: 加拿大 066
+  network: ws
+  port: 2052
+  server: 104.24.30.52
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e6933218-ad65-3943-9afd-0d78638a61dd
+  ws-opts:
+    headers:
+      Host: 100-100-17-126.db-link02.top
+    path: /dabai.in104.24.30.52
+- alterId: 0
+  cipher: auto
+  name: 加拿大 067
+  network: ws
+  port: 80
+  server: 104.20.215.180
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e6933218-ad65-3943-9afd-0d78638a61dd
+  ws-opts:
+    headers:
+      Host: 100-100-17-125.db-link01.top
+    path: /dabai.in104.20.215.180
+- alterId: 0
+  cipher: auto
+  name: 加拿大 068
+  network: ws
+  port: 443
+  server: 104.25.120.186
+  servername: 100-100-17-346.db-link02.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: e6933218-ad65-3943-9afd-0d78638a61dd
+  ws-opts:
+    headers:
+      Host: 100-100-17-346.db-link02.top
+    path: /dabai.in104.25.120.186
+- alterId: 0
+  cipher: auto
+  name: 加拿大 069
+  network: ws
+  port: 2082
+  server: 104.17.60.157
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e6933218-ad65-3943-9afd-0d78638a61dd
+  ws-opts:
+    headers:
+      Host: 100-100-17-386.db-link01.top
+    path: /dabai.in104.17.60.157
+- alterId: 0
+  cipher: auto
+  name: 美国 012
+  network: ws
+  port: 2082
+  server: 104.20.96.183
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e6933218-ad65-3943-9afd-0d78638a61dd
+  ws-opts:
+    headers:
+      Host: 100-100-17-319.db-link02.top
+    path: /dabai.in104.20.96.183
+- alterId: 0
+  cipher: auto
+  name: 加拿大 070
+  network: ws
+  port: 2053
+  server: 104.18.165.221
+  servername: 100-100-17-444.db-link02.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: e6933218-ad65-3943-9afd-0d78638a61dd
+  ws-opts:
+    headers:
+      Host: 100-100-17-444.db-link02.top
+    path: /dabai.in104.18.165.221
+- alterId: 0
+  cipher: auto
+  name: 加拿大 071
+  network: ws
+  port: 2096
+  server: 104.24.197.20
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 5dc153a1-67e5-44a7-9684-4a41ef180c9d
+  ws-opts:
+    headers:
+      host: dl2.exoshop.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇮🇳_IN_印度
+  network: ws
+  port: 2052
+  server: hk.wish.ml
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
+  ws-opts:
+    headers:
+      host: in3.wish.ml
+    path: /
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国->🇩🇪_DE_德国_1
@@ -1171,6 +1465,86 @@ proxies:
   name: 🇺🇸_US_美国->🇩🇪_DE_德国_2
   network: ws
   port: 2052
+  server: 104.19.250.15
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+  ws-opts:
+    headers:
+      host: helanv6cf.inekokkk.top
+    path: /
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_1
+  password: g5MeD6Ft3CWlJId
+  port: 5004
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_2
+  password: pKEW8JPByTVTLtM
+  port: 4444
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_3
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_4
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_5
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_6
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_7
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_8
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_9
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_10
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇺🇸_US_美国_3
+  password: amazonskr05
+  port: 443
+  server: 52.88.161.5
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇩🇪_DE_德国_3
+  network: ws
+  port: 2052
   server: 104.18.19.191
   skip-cert-verify: true
   tls: false
@@ -1182,42 +1556,114 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇩🇪_DE_德国_3
-  network: ws
-  port: 2052
-  server: 104.19.250.15
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
-  ws-opts:
-    headers:
-      host: helanv6cf.inekokkk.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇩🇪_DE_德国_4
-  network: ws
-  port: 2052
-  server: cfcdn1.sanfencdn9.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
-  ws-opts:
-    headers:
-      host: helanv6cf.inekokkk.top
-    path: /
-- alterId: 0
-  cipher: auto
   name: 🇷🇺_RU_俄罗斯联邦
-  network: tcp
-  port: 33879
-  server: 46.17.45.13
+  network: ws
+  port: 12910
+  server: 45.136.245.240
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-opts:
+    path: /
+- cipher: aes-256-cfb
+  name: 🇩🇪_DE_德国
+  password: rpgbNnU9rDDU4aWZ
+  port: 9094
+  server: 80.92.204.106
+  type: ss
+- cipher: aes-128-cfb
+  name: 🇺🇸_US_美国_4
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.163
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_5
+  network: ws
+  port: 8880
+  server: russia.com
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 3d453a46-b501-4882-8cd0-3c3e0698f90f
+  uuid: 64a57b5f-45e0-40c3-8316-97d0ff53fd96
+  ws-opts:
+    headers:
+      host: sssub.v2.001.ssrsub.com
+    path: /api/v3/download.getFile
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_11
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_12
+  password: e4FCWrgpkji3QY
+  port: 9101
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_13
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_14
+  password: KixLvKzwjekG00rm
+  port: 8000
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_15
+  password: Y6R9pAtvxxzmGC
+  port: 3306
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_16
+  password: Y6R9pAtvxxzmGC
+  port: 5000
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_17
+  password: e4FCWrgpkji3QY
+  port: 9102
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_18
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_19
+  password: KixLvKzwjekG00rm
+  port: 5500
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_20
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_21
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇺🇸_US_美国_6
+  password: amazonskr05
+  port: 443
+  server: 35.91.178.223
+  type: ss
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
@@ -1300,11 +1746,56 @@ proxy-groups:
   - 加拿大 054
   - 土耳其 002
   - 美国 010
+  - 日本 001
+  - 加拿大 056
+  - 加拿大 057
+  - 加拿大 058
+  - 加拿大 059
+  - 加拿大 060
+  - 加拿大 061
+  - 加拿大 062
+  - 加拿大 063
+  - 英国 002
+  - 日本 002
+  - 加拿大 065
+  - 加拿大 066
+  - 加拿大 067
+  - 加拿大 068
+  - 加拿大 069
+  - 美国 012
+  - 加拿大 070
+  - 加拿大 071
+  - 🇺🇸_US_美国->🇮🇳_IN_印度
   - 🇺🇸_US_美国->🇩🇪_DE_德国_1
   - 🇺🇸_US_美国->🇩🇪_DE_德国_2
+  - 🇵🇱_PL_波兰_1
+  - 🇵🇱_PL_波兰_2
+  - 🇵🇱_PL_波兰_3
+  - 🇵🇱_PL_波兰_4
+  - 🇵🇱_PL_波兰_5
+  - 🇵🇱_PL_波兰_6
+  - 🇵🇱_PL_波兰_7
+  - 🇵🇱_PL_波兰_8
+  - 🇵🇱_PL_波兰_9
+  - 🇵🇱_PL_波兰_10
+  - 🇺🇸_US_美国_3
   - 🇺🇸_US_美国->🇩🇪_DE_德国_3
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_4
   - 🇷🇺_RU_俄罗斯联邦
+  - 🇩🇪_DE_德国
+  - 🇺🇸_US_美国_4
+  - 🇺🇸_US_美国_5
+  - 🇵🇱_PL_波兰_11
+  - 🇵🇱_PL_波兰_12
+  - 🇵🇱_PL_波兰_13
+  - 🇵🇱_PL_波兰_14
+  - 🇵🇱_PL_波兰_15
+  - 🇵🇱_PL_波兰_16
+  - 🇵🇱_PL_波兰_17
+  - 🇵🇱_PL_波兰_18
+  - 🇵🇱_PL_波兰_19
+  - 🇵🇱_PL_波兰_20
+  - 🇵🇱_PL_波兰_21
+  - 🇺🇸_US_美国_6
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -1385,11 +1876,56 @@ proxy-groups:
   - 加拿大 054
   - 土耳其 002
   - 美国 010
+  - 日本 001
+  - 加拿大 056
+  - 加拿大 057
+  - 加拿大 058
+  - 加拿大 059
+  - 加拿大 060
+  - 加拿大 061
+  - 加拿大 062
+  - 加拿大 063
+  - 英国 002
+  - 日本 002
+  - 加拿大 065
+  - 加拿大 066
+  - 加拿大 067
+  - 加拿大 068
+  - 加拿大 069
+  - 美国 012
+  - 加拿大 070
+  - 加拿大 071
+  - 🇺🇸_US_美国->🇮🇳_IN_印度
   - 🇺🇸_US_美国->🇩🇪_DE_德国_1
   - 🇺🇸_US_美国->🇩🇪_DE_德国_2
+  - 🇵🇱_PL_波兰_1
+  - 🇵🇱_PL_波兰_2
+  - 🇵🇱_PL_波兰_3
+  - 🇵🇱_PL_波兰_4
+  - 🇵🇱_PL_波兰_5
+  - 🇵🇱_PL_波兰_6
+  - 🇵🇱_PL_波兰_7
+  - 🇵🇱_PL_波兰_8
+  - 🇵🇱_PL_波兰_9
+  - 🇵🇱_PL_波兰_10
+  - 🇺🇸_US_美国_3
   - 🇺🇸_US_美国->🇩🇪_DE_德国_3
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_4
   - 🇷🇺_RU_俄罗斯联邦
+  - 🇩🇪_DE_德国
+  - 🇺🇸_US_美国_4
+  - 🇺🇸_US_美国_5
+  - 🇵🇱_PL_波兰_11
+  - 🇵🇱_PL_波兰_12
+  - 🇵🇱_PL_波兰_13
+  - 🇵🇱_PL_波兰_14
+  - 🇵🇱_PL_波兰_15
+  - 🇵🇱_PL_波兰_16
+  - 🇵🇱_PL_波兰_17
+  - 🇵🇱_PL_波兰_18
+  - 🇵🇱_PL_波兰_19
+  - 🇵🇱_PL_波兰_20
+  - 🇵🇱_PL_波兰_21
+  - 🇺🇸_US_美国_6
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
