@@ -1443,39 +1443,19 @@ proxies:
     headers:
       host: in3.wish.ml
     path: /
-- cipher: aes-128-cfb
-  name: 🇺🇸_US_美国_3
-  password: shadowsocks
-  port: 443
-  server: 212.102.47.198
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_4
+  name: 🇺🇸_US_美国->🇫🇷_FR_法国_1
   network: ws
-  port: 8880
-  server: russia.com
+  port: 2082
+  server: 172.67.130.140
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 64a57b5f-45e0-40c3-8316-97d0ff53fd96
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
   ws-opts:
     headers:
-      host: sssub.v2.001.ssrsub.com
-    path: /api/v3/download.getFile
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_5
-  network: ws
-  port: 80
-  server: 172.67.204.84
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 753d0d83-3f5b-4821-860e-082f0b3db609
-  ws-opts:
-    headers:
-      host: no1-vmess.sshmax.xyz
+      host: s1c.v2.v001sss.xyz
     path: /
 - alterId: 0
   cipher: auto
@@ -1491,9 +1471,79 @@ proxies:
     headers:
       host: in3.wish.ml
     path: /
+- cipher: aes-128-gcm
+  name: 🇬🇧_GB_英国_1
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.80
+  type: ss
 - alterId: 0
   cipher: auto
+  name: 🇺🇸_US_美国_3
+  network: ws
+  port: 2095
+  server: cfcdn1.sanfencdn9.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 1564cf5b-48c2-46f9-a59c-0234e936f237
+  ws-opts:
+    headers:
+      host: us82pRzxDMb.fzbqfrse.xyz
+    path: /video/qYZue4zaWS
+- cipher: aes-128-cfb
+  name: 🇺🇸_US_美国_4
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.163
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇬🇧_GB_英国_2
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.193
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇬🇧_GB_英国_3
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.197
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸_US_美国_5
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 38.114.114.207
+  type: ss
+- cipher: aes-256-gcm
   name: 🇺🇸_US_美国_6
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 38.114.114.207
+  type: ss
+- cipher: aes-128-cfb
+  name: 🇺🇸_US_美国_7
+  password: shadowsocks
+  port: 443
+  server: 212.102.47.198
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_8
+  network: ws
+  port: 80
+  server: 172.67.204.84
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 753d0d83-3f5b-4821-860e-082f0b3db609
+  ws-opts:
+    headers:
+      host: no1-vmess.sshmax.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_9
   network: ws
   port: 2095
   server: russia.com
@@ -1505,33 +1555,79 @@ proxies:
     headers:
       host: sssub.v2.001.ssrsub.com
     path: /api/v3/download.getFile
-- cipher: aes-256-cfb
-  name: 🇩🇪_DE_德国
-  password: rpgbNnU9rDDU4aWZ
-  port: 9094
-  server: 80.92.204.106
-  type: ss
-- cipher: aes-128-cfb
-  name: 🇺🇸_US_美国_7
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_10
+  network: ws
+  port: 8880
+  server: russia.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 64a57b5f-45e0-40c3-8316-97d0ff53fd96
+  ws-opts:
+    headers:
+      host: sssub.v2.001.ssrsub.com
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇫🇷_FR_法国_2
+  network: ws
+  port: 2082
+  server: 104.21.8.157
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      host: s1c.v2.v001sss.xyz
+    path: /
+- cipher: aes-256-gcm
+  name: 🇷🇺_RU_俄罗斯联邦_1
+  password: oU863Ak7YF0zFM1c4oPVpI
+  port: 35961
+  server: 5.182.87.210
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇧🇩_BD_孟加拉国
-  password: oxp4Xr64OKpXV127Zwtzl14P8L8PovqbFGPHbnbhRf7CxCSW1E
-  port: 8881
-  server: 103.106.2.90
+  name: 🇺🇸_US_美国_11
+  password: g13S7doXar0A
+  port: 443
+  server: 205.134.180.137
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸_US_美国_12
+  password: ZmRiM
+  port: 8388
+  server: 95.164.47.219
   type: ss
 - cipher: aes-256-cfb
-  name: 🇺🇸_US_美国_8
+  name: 🇺🇸_US_美国_13
   password: amazonskr05
   port: 443
   server: 52.88.161.5
   type: ss
+- cipher: aes-256-cfb
+  name: 🇩🇪_DE_德国_1
+  password: rpgbNnU9rDDU4aWZ
+  port: 9094
+  server: 80.92.204.106
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇩🇪_DE_德国_2
+  password: a3GFYt36Sm82Vys9
+  port: 9000
+  server: 80.92.204.106
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇩🇪_DE_德国_3
+  password: M3t2ZEQcMGRWBjRa
+  port: 9011
+  server: 80.92.204.106
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 🇷🇺_RU_俄罗斯联邦
+  name: 🇷🇺_RU_俄罗斯联邦_2
   network: tcp
   port: 56508
   server: 45.147.200.170
@@ -1539,6 +1635,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 892027cd-2cb5-40ca-9dbb-80191e28239c
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦_CA_加拿大_2
+  network: ws
+  port: 443
+  server: ca-full.privateip.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 04672bf7-9d44-4edf-9222-dfbfb8f74a1f
+  ws-opts:
+    headers:
+      host: ca-full.privateip.net
+    path: /RACEVPN
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
@@ -1651,16 +1761,29 @@ proxy-groups:
   - 加拿大 027
   - 加拿大 028
   - 🇺🇸_US_美国->🇮🇳_IN_印度_1
+  - 🇺🇸_US_美国->🇫🇷_FR_法国_1
+  - 🇺🇸_US_美国->🇮🇳_IN_印度_2
+  - 🇬🇧_GB_英国_1
   - 🇺🇸_US_美国_3
   - 🇺🇸_US_美国_4
+  - 🇬🇧_GB_英国_2
+  - 🇬🇧_GB_英国_3
   - 🇺🇸_US_美国_5
-  - 🇺🇸_US_美国->🇮🇳_IN_印度_2
   - 🇺🇸_US_美国_6
-  - 🇩🇪_DE_德国
   - 🇺🇸_US_美国_7
-  - 🇧🇩_BD_孟加拉国
   - 🇺🇸_US_美国_8
-  - 🇷🇺_RU_俄罗斯联邦
+  - 🇺🇸_US_美国_9
+  - 🇺🇸_US_美国_10
+  - 🇺🇸_US_美国->🇫🇷_FR_法国_2
+  - 🇷🇺_RU_俄罗斯联邦_1
+  - 🇺🇸_US_美国_11
+  - 🇺🇸_US_美国_12
+  - 🇺🇸_US_美国_13
+  - 🇩🇪_DE_德国_1
+  - 🇩🇪_DE_德国_2
+  - 🇩🇪_DE_德国_3
+  - 🇷🇺_RU_俄罗斯联邦_2
+  - 🇨🇦_CA_加拿大_2
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -1771,16 +1894,29 @@ proxy-groups:
   - 加拿大 027
   - 加拿大 028
   - 🇺🇸_US_美国->🇮🇳_IN_印度_1
+  - 🇺🇸_US_美国->🇫🇷_FR_法国_1
+  - 🇺🇸_US_美国->🇮🇳_IN_印度_2
+  - 🇬🇧_GB_英国_1
   - 🇺🇸_US_美国_3
   - 🇺🇸_US_美国_4
+  - 🇬🇧_GB_英国_2
+  - 🇬🇧_GB_英国_3
   - 🇺🇸_US_美国_5
-  - 🇺🇸_US_美国->🇮🇳_IN_印度_2
   - 🇺🇸_US_美国_6
-  - 🇩🇪_DE_德国
   - 🇺🇸_US_美国_7
-  - 🇧🇩_BD_孟加拉国
   - 🇺🇸_US_美国_8
-  - 🇷🇺_RU_俄罗斯联邦
+  - 🇺🇸_US_美国_9
+  - 🇺🇸_US_美国_10
+  - 🇺🇸_US_美国->🇫🇷_FR_法国_2
+  - 🇷🇺_RU_俄罗斯联邦_1
+  - 🇺🇸_US_美国_11
+  - 🇺🇸_US_美国_12
+  - 🇺🇸_US_美国_13
+  - 🇩🇪_DE_德国_1
+  - 🇩🇪_DE_德国_2
+  - 🇩🇪_DE_德国_3
+  - 🇷🇺_RU_俄罗斯联邦_2
+  - 🇨🇦_CA_加拿大_2
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
