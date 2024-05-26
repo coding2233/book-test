@@ -1431,6 +1431,491 @@ proxies:
     path: /dabai.in104.20.52.157
 - alterId: 0
   cipher: auto
+  delay: 1018
+  name: 加拿大 029
+  network: ws
+  port: 80
+  server: 104.16.45.79
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: jp.xlb8.eu.org
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  delay: 882
+  h2-opts: {}
+  http-opts: {}
+  name: 日本 007
+  network: tcp
+  port: 39777
+  server: 210.230.206.18
+  skip-cert-verify: true
+  type: vmess
+  uuid: fc78cd01-99ac-a085-cb84-69a60920129d
+- alterId: 0
+  cipher: auto
+  delay: 1131
+  name: 美国 019
+  network: ws
+  port: 80
+  server: 172.64.104.182
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: f0f067fe-8e6d-4d95-816b-601038fd5876
+  ws-opts:
+    headers:
+      Host: fr.grpc.gay
+    path: /rongseven?ed=2048
+- alterId: 0
+  cipher: auto
+  delay: 1472
+  name: 加拿大 030
+  network: ws
+  port: 2095
+  server: cfcdn1.sanfencdn9.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 1564cf5b-48c2-46f9-a59c-0234e936f237
+  ws-opts:
+    headers:
+      host: us82pRzxDMb.fzbqfrse.xyz
+    path: /video/qYZue4zaWS
+- alterId: 0
+  cipher: auto
+  delay: 1455
+  h2-opts: {}
+  http-opts: {}
+  name: 美国 020
+  network: ws
+  port: 2052
+  server: 162.159.255.60
+  servername: tw1bQiWSE4x.fzbqfrse.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: 1564cf5b-48c2-46f9-a59c-0234e936f237
+  ws-opts:
+    headers:
+      HOST: tw1bQiWSE4x.fzbqfrse.xyz
+    path: /video/GQ2qE5Us9g
+- alterId: 0
+  cipher: auto
+  delay: 1344
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 031
+  network: ws
+  port: 2052
+  server: 162.159.10.229
+  servername: tw1bQiWSE4x.fzbqfrse.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: 1564cf5b-48c2-46f9-a59c-0234e936f237
+  ws-opts:
+    headers:
+      HOST: tw1bQiWSE4x.fzbqfrse.xyz
+    path: /video/GQ2qE5Us9g
+- name: 韩国 007
+  network: ws
+  port: 38832
+  server: 220.94.94.109
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      host: cfed.tgzdyz2.top
+    path: tg
+- name: 新加坡 008
+  network: ws
+  port: 26306
+  server: 43.153.208.195
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      host: cfed.tgzdyz2.top
+    path: tg
+- name: 美国 021
+  network: ws
+  port: 2096
+  server: www.baipiao.eu.org
+  servername: jp336.ylks01.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: jp336.ylks01.eu.org
+    path: /blue
+- name: 加拿大 032
+  network: ws
+  port: 443
+  server: cnv6.xxxxxxxx.tk
+  servername: kk336.ylks.link
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: kk336.ylks.link
+    path: /blue
+- name: 美国 022
+  network: ws
+  port: 2053
+  server: www.baipiao.eu.org
+  servername: jp336.ylks01.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: jp336.ylks01.eu.org
+    path: /blue
+- name: 美国 023
+  network: ws
+  port: 8443
+  server: 45.205.0.5
+  servername: jd.wxgqlfx.top
+  tls: true
+  type: vless
+  uuid: 38a2070d-a256-48f3-891b-c9b68b01c8f7
+  ws-opts:
+    headers:
+      host: jd.wxgqlfx.top
+    path: Twitter苏小柠
+- alterId: 0
+  cipher: auto
+  name: 加拿大 033
+  network: ws
+  port: 2083
+  server: 172.67.63.230
+  servername: 100-100-17-395.db-link02.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: d930577a-2543-3f74-bd62-fda462fc8c18
+  ws-opts:
+    headers:
+      Host: 100-100-17-395.db-link02.top
+    path: /dabai.in172.67.63.230
+- alterId: 0
+  cipher: auto
+  name: 加拿大 034
+  network: ws
+  port: 8080
+  server: 172.67.119.157
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d930577a-2543-3f74-bd62-fda462fc8c18
+  ws-opts:
+    headers:
+      Host: 100-100-17-199.db-link01.top
+    path: /dabai.in172.67.119.157
+- alterId: 0
+  cipher: auto
+  name: 加拿大 035
+  network: ws
+  port: 8080
+  server: 104.16.118.191
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d930577a-2543-3f74-bd62-fda462fc8c18
+  ws-opts:
+    headers:
+      Host: 100-100-17-150.cn-db.top
+    path: /dabai.in104.16.118.191
+- alterId: 0
+  cipher: auto
+  name: 加拿大 036
+  network: ws
+  port: 443
+  server: 104.16.85.113
+  servername: 100-100-17-197.db-link01.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: d930577a-2543-3f74-bd62-fda462fc8c18
+  ws-opts:
+    headers:
+      Host: 100-100-17-197.db-link01.top
+    path: /dabai.in104.16.85.113
+- alterId: 0
+  cipher: auto
+  name: 加拿大 037
+  network: ws
+  port: 2086
+  server: 104.18.227.4
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d930577a-2543-3f74-bd62-fda462fc8c18
+  ws-opts:
+    headers:
+      Host: 100-100-17-425.db-link02.top
+    path: /dabai.in104.18.227.4
+- alterId: 0
+  cipher: auto
+  name: 加拿大 038
+  network: ws
+  port: 80
+  server: 172.64.37.151
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d930577a-2543-3f74-bd62-fda462fc8c18
+  ws-opts:
+    headers:
+      Host: 100-100-17-451.db-link01.top
+    path: /dabai.in172.64.37.151
+- alterId: 0
+  cipher: auto
+  name: 加拿大 039
+  network: ws
+  port: 443
+  server: 104.17.236.172
+  servername: 100-100-17-17.db-link01.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: d930577a-2543-3f74-bd62-fda462fc8c18
+  ws-opts:
+    headers:
+      Host: 100-100-17-17.db-link01.top
+    path: /dabai.in104.17.236.172
+- alterId: 0
+  cipher: auto
+  name: 加拿大 040
+  network: ws
+  port: 2053
+  server: 104.19.247.28
+  servername: 100-100-17-197.cn-db.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: d930577a-2543-3f74-bd62-fda462fc8c18
+  ws-opts:
+    headers:
+      Host: 100-100-17-197.cn-db.top
+    path: /dabai.in104.19.247.28
+- alterId: 0
+  cipher: auto
+  name: 加拿大 041
+  network: ws
+  port: 2052
+  server: 104.25.39.95
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d930577a-2543-3f74-bd62-fda462fc8c18
+  ws-opts:
+    headers:
+      Host: 100-100-17-174.db-link01.top
+    path: /dabai.in104.25.39.95
+- name: 西班牙 002
+  network: ws
+  port: 2053
+  server: 185.18.250.185
+  servername: jd.wxgqlfx.top
+  tls: true
+  type: vless
+  uuid: 38a2070d-a256-48f3-891b-c9b68b01c8f7
+  ws-opts:
+    headers:
+      host: jd.wxgqlfx.top
+    path: Twitter苏小柠
+- name: 美国 024
+  network: ws
+  port: 443
+  server: 167.68.11.71
+  servername: tg.dns68.cloudns.nz
+  tls: true
+  type: vless
+  uuid: d7dd3a35-b68b-4992-b319-a85b8a1fc8e5
+  ws-opts:
+    headers:
+      host: tg.dns68.cloudns.nz
+    path: Twitter苏小柠
+- alterId: 0
+  cipher: auto
+  name: 加拿大 042
+  network: ws
+  port: 80
+  server: mm3.shabijichang.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      host: mm3.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 043
+  network: ws
+  port: 80
+  server: 104.21.58.106
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d930577a-2543-3f74-bd62-fda462fc8c18
+  ws-opts:
+    headers:
+      Host: 100-100-17-377.db-link01.top
+    path: /dabai.in104.21.58.106
+- alterId: 0
+  cipher: auto
+  name: 加拿大 044
+  network: ws
+  port: 2053
+  server: 104.20.188.246
+  servername: 100-100-17-251.db-link02.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: d930577a-2543-3f74-bd62-fda462fc8c18
+  ws-opts:
+    headers:
+      Host: 100-100-17-251.db-link02.top
+    path: /dabai.in104.20.188.246
+- alterId: 0
+  cipher: auto
+  name: 美国 025
+  network: ws
+  port: 2082
+  server: 104.24.78.114
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d930577a-2543-3f74-bd62-fda462fc8c18
+  ws-opts:
+    headers:
+      Host: 100-100-17-434.db-link01.top
+    path: /dabai.in104.24.78.114
+- alterId: 0
+  cipher: auto
+  name: 加拿大 045
+  network: ws
+  port: 2096
+  server: 172.64.47.178
+  servername: 100-100-17-127.db-link02.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: d930577a-2543-3f74-bd62-fda462fc8c18
+  ws-opts:
+    headers:
+      Host: 100-100-17-127.db-link02.top
+    path: /dabai.in172.64.47.178
+- alterId: 0
+  cipher: auto
+  name: 加拿大 046
+  network: ws
+  port: 2096
+  server: 172.67.8.57
+  servername: 100-100-17-251.db-link01.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: d930577a-2543-3f74-bd62-fda462fc8c18
+  ws-opts:
+    headers:
+      Host: 100-100-17-251.db-link01.top
+    path: /dabai.in172.67.8.57
+- alterId: 0
+  cipher: auto
+  name: 加拿大 047
+  network: ws
+  port: 8080
+  server: 104.24.211.85
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d930577a-2543-3f74-bd62-fda462fc8c18
+  ws-opts:
+    headers:
+      Host: 100-100-17-353.db-link01.top
+    path: /dabai.in104.24.211.85
+- alterId: 0
+  cipher: auto
+  name: 加拿大 048
+  network: ws
+  port: 2083
+  server: 172.67.110.32
+  servername: 100-100-17-309.cn-db.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: d930577a-2543-3f74-bd62-fda462fc8c18
+  ws-opts:
+    headers:
+      Host: 100-100-17-309.cn-db.top
+    path: /dabai.in172.67.110.32
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_1
+  password: pKEW8JPByTVTLtM
+  port: 4444
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_2
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-128-cfb
+  name: 🇺🇸_US_美国_1
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.163
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_3
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_4
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_5
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 51.77.53.200
+  type: ss
+- alterId: 0
+  cipher: auto
   name: 🇺🇸_US_美国->🇮🇳_IN_印度_1
   network: ws
   port: 2052
@@ -1443,6 +1928,90 @@ proxies:
     headers:
       host: in3.wish.ml
     path: /
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_6
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_7
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_8
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_9
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_10
+  password: g5MeD6Ft3CWlJId
+  port: 5004
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_11
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_12
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 51.77.53.200
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇷🇺_RU_俄罗斯联邦
+  network: ws
+  port: 12910
+  server: 45.136.245.240
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_2
+  network: ws
+  port: 443
+  server: 23.154.136.2
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦_CA_加拿大
+  network: ws
+  port: 443
+  server: 158.51.121.36
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
+- cipher: aes-128-gcm
+  name: 🇬🇧_GB_英国_1
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.197
+  type: ss
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国->🇫🇷_FR_法国_1
@@ -1471,32 +2040,20 @@ proxies:
     headers:
       host: in3.wish.ml
     path: /
-- cipher: aes-128-gcm
-  name: 🇬🇧_GB_英国_1
-  password: shadowsocks
-  port: 443
-  server: 212.102.53.80
-  type: ss
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_3
   network: ws
-  port: 2095
-  server: cfcdn1.sanfencdn9.com
+  port: 2082
+  server: s1c.v2.v001sss.xyz
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 1564cf5b-48c2-46f9-a59c-0234e936f237
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
   ws-opts:
     headers:
-      host: us82pRzxDMb.fzbqfrse.xyz
-    path: /video/qYZue4zaWS
-- cipher: aes-128-cfb
-  name: 🇺🇸_US_美国_4
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.163
-  type: ss
+      host: s1c.v2.v001sss.xyz
+    path: /
 - cipher: aes-128-gcm
   name: 🇬🇧_GB_英国_2
   password: shadowsocks
@@ -1507,40 +2064,46 @@ proxies:
   name: 🇬🇧_GB_英国_3
   password: shadowsocks
   port: 443
-  server: 212.102.53.197
+  server: 212.102.53.80
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸_US_美国_4
+  password: rhnAUMfOWIgjT917yYCG7u
+  port: 443
+  server: 89.117.109.97
   type: ss
 - cipher: aes-256-gcm
   name: 🇺🇸_US_美国_5
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 38.114.114.207
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸_US_美国_6
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 38.114.114.207
   type: ss
-- cipher: aes-128-cfb
+- cipher: aes-256-gcm
+  name: 🇺🇸_US_美国_6
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 38.114.114.207
+  type: ss
+- cipher: aes-256-cfb
   name: 🇺🇸_US_美国_7
-  password: shadowsocks
+  password: amazonskr05
   port: 443
-  server: 212.102.47.198
+  server: 52.88.161.5
   type: ss
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_8
   network: ws
-  port: 80
-  server: 172.67.204.84
+  port: 8880
+  server: russia.com
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 753d0d83-3f5b-4821-860e-082f0b3db609
+  uuid: 64a57b5f-45e0-40c3-8316-97d0ff53fd96
   ws-opts:
     headers:
-      host: no1-vmess.sshmax.xyz
-    path: /
+      host: sssub.v2.001.ssrsub.com
+    path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_9
@@ -1555,20 +2118,12 @@ proxies:
     headers:
       host: sssub.v2.001.ssrsub.com
     path: /api/v3/download.getFile
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_10
-  network: ws
-  port: 8880
-  server: russia.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 64a57b5f-45e0-40c3-8316-97d0ff53fd96
-  ws-opts:
-    headers:
-      host: sssub.v2.001.ssrsub.com
-    path: /api/v3/download.getFile
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_13
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 51.77.53.200
+  type: ss
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国->🇫🇷_FR_法国_2
@@ -1583,72 +2138,6 @@ proxies:
     headers:
       host: s1c.v2.v001sss.xyz
     path: /
-- cipher: aes-256-gcm
-  name: 🇷🇺_RU_俄罗斯联邦_1
-  password: oU863Ak7YF0zFM1c4oPVpI
-  port: 35961
-  server: 5.182.87.210
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸_US_美国_11
-  password: g13S7doXar0A
-  port: 443
-  server: 205.134.180.137
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸_US_美国_12
-  password: ZmRiM
-  port: 8388
-  server: 95.164.47.219
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇺🇸_US_美国_13
-  password: amazonskr05
-  port: 443
-  server: 52.88.161.5
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇩🇪_DE_德国_1
-  password: rpgbNnU9rDDU4aWZ
-  port: 9094
-  server: 80.92.204.106
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇩🇪_DE_德国_2
-  password: a3GFYt36Sm82Vys9
-  port: 9000
-  server: 80.92.204.106
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇩🇪_DE_德国_3
-  password: M3t2ZEQcMGRWBjRa
-  port: 9011
-  server: 80.92.204.106
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇷🇺_RU_俄罗斯联邦_2
-  network: tcp
-  port: 56508
-  server: 45.147.200.170
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 892027cd-2cb5-40ca-9dbb-80191e28239c
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦_CA_加拿大_2
-  network: ws
-  port: 443
-  server: ca-full.privateip.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 04672bf7-9d44-4edf-9222-dfbfb8f74a1f
-  ws-opts:
-    headers:
-      host: ca-full.privateip.net
-    path: /RACEVPN
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
@@ -1760,30 +2249,68 @@ proxy-groups:
   - 加拿大 026
   - 加拿大 027
   - 加拿大 028
+  - 加拿大 029
+  - 日本 007
+  - 美国 019
+  - 加拿大 030
+  - 美国 020
+  - 加拿大 031
+  - 韩国 007
+  - 新加坡 008
+  - 美国 021
+  - 加拿大 032
+  - 美国 022
+  - 美国 023
+  - 加拿大 033
+  - 加拿大 034
+  - 加拿大 035
+  - 加拿大 036
+  - 加拿大 037
+  - 加拿大 038
+  - 加拿大 039
+  - 加拿大 040
+  - 加拿大 041
+  - 西班牙 002
+  - 美国 024
+  - 加拿大 042
+  - 加拿大 043
+  - 加拿大 044
+  - 美国 025
+  - 加拿大 045
+  - 加拿大 046
+  - 加拿大 047
+  - 加拿大 048
+  - 🇵🇱_PL_波兰_1
+  - 🇵🇱_PL_波兰_2
+  - 🇺🇸_US_美国_1
+  - 🇵🇱_PL_波兰_3
+  - 🇵🇱_PL_波兰_4
+  - 🇵🇱_PL_波兰_5
   - 🇺🇸_US_美国->🇮🇳_IN_印度_1
+  - 🇵🇱_PL_波兰_6
+  - 🇵🇱_PL_波兰_7
+  - 🇵🇱_PL_波兰_8
+  - 🇵🇱_PL_波兰_9
+  - 🇵🇱_PL_波兰_10
+  - 🇵🇱_PL_波兰_11
+  - 🇵🇱_PL_波兰_12
+  - 🇷🇺_RU_俄罗斯联邦
+  - 🇺🇸_US_美国_2
+  - 🇨🇦_CA_加拿大
+  - 🇬🇧_GB_英国_1
   - 🇺🇸_US_美国->🇫🇷_FR_法国_1
   - 🇺🇸_US_美国->🇮🇳_IN_印度_2
-  - 🇬🇧_GB_英国_1
   - 🇺🇸_US_美国_3
-  - 🇺🇸_US_美国_4
   - 🇬🇧_GB_英国_2
   - 🇬🇧_GB_英国_3
+  - 🇺🇸_US_美国_4
   - 🇺🇸_US_美国_5
   - 🇺🇸_US_美国_6
   - 🇺🇸_US_美国_7
   - 🇺🇸_US_美国_8
   - 🇺🇸_US_美国_9
-  - 🇺🇸_US_美国_10
+  - 🇵🇱_PL_波兰_13
   - 🇺🇸_US_美国->🇫🇷_FR_法国_2
-  - 🇷🇺_RU_俄罗斯联邦_1
-  - 🇺🇸_US_美国_11
-  - 🇺🇸_US_美国_12
-  - 🇺🇸_US_美国_13
-  - 🇩🇪_DE_德国_1
-  - 🇩🇪_DE_德国_2
-  - 🇩🇪_DE_德国_3
-  - 🇷🇺_RU_俄罗斯联邦_2
-  - 🇨🇦_CA_加拿大_2
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -1893,30 +2420,68 @@ proxy-groups:
   - 加拿大 026
   - 加拿大 027
   - 加拿大 028
+  - 加拿大 029
+  - 日本 007
+  - 美国 019
+  - 加拿大 030
+  - 美国 020
+  - 加拿大 031
+  - 韩国 007
+  - 新加坡 008
+  - 美国 021
+  - 加拿大 032
+  - 美国 022
+  - 美国 023
+  - 加拿大 033
+  - 加拿大 034
+  - 加拿大 035
+  - 加拿大 036
+  - 加拿大 037
+  - 加拿大 038
+  - 加拿大 039
+  - 加拿大 040
+  - 加拿大 041
+  - 西班牙 002
+  - 美国 024
+  - 加拿大 042
+  - 加拿大 043
+  - 加拿大 044
+  - 美国 025
+  - 加拿大 045
+  - 加拿大 046
+  - 加拿大 047
+  - 加拿大 048
+  - 🇵🇱_PL_波兰_1
+  - 🇵🇱_PL_波兰_2
+  - 🇺🇸_US_美国_1
+  - 🇵🇱_PL_波兰_3
+  - 🇵🇱_PL_波兰_4
+  - 🇵🇱_PL_波兰_5
   - 🇺🇸_US_美国->🇮🇳_IN_印度_1
+  - 🇵🇱_PL_波兰_6
+  - 🇵🇱_PL_波兰_7
+  - 🇵🇱_PL_波兰_8
+  - 🇵🇱_PL_波兰_9
+  - 🇵🇱_PL_波兰_10
+  - 🇵🇱_PL_波兰_11
+  - 🇵🇱_PL_波兰_12
+  - 🇷🇺_RU_俄罗斯联邦
+  - 🇺🇸_US_美国_2
+  - 🇨🇦_CA_加拿大
+  - 🇬🇧_GB_英国_1
   - 🇺🇸_US_美国->🇫🇷_FR_法国_1
   - 🇺🇸_US_美国->🇮🇳_IN_印度_2
-  - 🇬🇧_GB_英国_1
   - 🇺🇸_US_美国_3
-  - 🇺🇸_US_美国_4
   - 🇬🇧_GB_英国_2
   - 🇬🇧_GB_英国_3
+  - 🇺🇸_US_美国_4
   - 🇺🇸_US_美国_5
   - 🇺🇸_US_美国_6
   - 🇺🇸_US_美国_7
   - 🇺🇸_US_美国_8
   - 🇺🇸_US_美国_9
-  - 🇺🇸_US_美国_10
+  - 🇵🇱_PL_波兰_13
   - 🇺🇸_US_美国->🇫🇷_FR_法国_2
-  - 🇷🇺_RU_俄罗斯联邦_1
-  - 🇺🇸_US_美国_11
-  - 🇺🇸_US_美国_12
-  - 🇺🇸_US_美国_13
-  - 🇩🇪_DE_德国_1
-  - 🇩🇪_DE_德国_2
-  - 🇩🇪_DE_德国_3
-  - 🇷🇺_RU_俄罗斯联邦_2
-  - 🇨🇦_CA_加拿大_2
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
