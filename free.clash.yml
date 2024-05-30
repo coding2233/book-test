@@ -1270,9 +1270,26 @@ proxies:
     headers:
       host: zdy222.kpcloud.eu.org
     path: /blue
-- name: 加拿大 040
+- alterId: 0
+  cipher: auto
+  delay: 1992
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 046
   network: ws
-  port: 2086
+  port: 8080
+  server: 104.16.67.38
+  servername: 8bsibsh8wbbwihfhjskbbng-shape-3.mewivot154.workers.dev
+  skip-cert-verify: true
+  type: vmess
+  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
+  ws-opts:
+    headers:
+      HOST: 8bsibsh8wbbwihfhjskbbng-shape-3.mewivot154.workers.dev
+    path: /hms02.fxiaomi.sbs/link
+- name: 加拿大 047
+  network: ws
+  port: 2082
   server: kk222.ylks.link
   servername: kk222.ylks.link
   tls: false
@@ -1282,22 +1299,10 @@ proxies:
     headers:
       host: kk222.ylks.link
     path: /youtube-由零開始
-- name: 加拿大 041
+- name: 美国 019
   network: ws
-  port: 2095
-  server: kk222.ylks.link
-  servername: kk222.ylks.link
-  tls: false
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      host: kk222.ylks.link
-    path: /youtube-由零開始
-- name: 加拿大 043
-  network: ws
-  port: 2053
-  server: www.gov.ua
+  port: 2096
+  server: www.baipiao.eu.org
   servername: jp222.ylks01.eu.org
   tls: true
   type: vless
@@ -1798,9 +1803,9 @@ proxy-groups:
   - 加拿大 039
   - 韩国 002
   - 美国 018
-  - 加拿大 040
-  - 加拿大 041
-  - 加拿大 043
+  - 加拿大 046
+  - 加拿大 047
+  - 美国 019
   - 🇺🇸_US_美国_1
   - 🇸🇪_SE_瑞典
   - 🇺🇸_US_美国->🇩🇪_DE_德国_1
@@ -1938,9 +1943,9 @@ proxy-groups:
   - 加拿大 039
   - 韩国 002
   - 美国 018
-  - 加拿大 040
-  - 加拿大 041
-  - 加拿大 043
+  - 加拿大 046
+  - 加拿大 047
+  - 美国 019
   - 🇺🇸_US_美国_1
   - 🇸🇪_SE_瑞典
   - 🇺🇸_US_美国->🇩🇪_DE_德国_1
