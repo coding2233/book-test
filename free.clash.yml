@@ -1492,6 +1492,301 @@ proxies:
     path: /dabai.in104.25.8.78
 - alterId: 0
   cipher: auto
+  name: 加拿大 055
+  network: ws
+  port: 2052
+  server: 104.16.38.71
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
+  ws-opts:
+    headers:
+      host: us6_0.wish.ml
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 056
+  network: ws
+  port: 2052
+  server: 104.16.155.190
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ef6de0e7-9cc5-36a4-8574-b82f7aaa14e1
+  ws-opts:
+    headers:
+      Host: 100-100-17-340.cn-db.top
+    path: /dabai.in104.16.155.190
+- alterId: 0
+  cipher: auto
+  name: 加拿大 057
+  network: ws
+  port: 2052
+  server: 104.18.72.118
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ef6de0e7-9cc5-36a4-8574-b82f7aaa14e1
+  ws-opts:
+    headers:
+      Host: 100-100-17-121.cn-db.top
+    path: /dabai.in104.18.72.118
+- alterId: 0
+  cipher: auto
+  name: 加拿大 058
+  network: ws
+  port: 80
+  server: 104.20.87.106
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ef6de0e7-9cc5-36a4-8574-b82f7aaa14e1
+  ws-opts:
+    headers:
+      Host: 100-100-17-13.cn-db.top
+    path: /dabai.in104.20.87.106
+- alterId: 0
+  cipher: auto
+  name: 美国 021
+  network: ws
+  port: 8080
+  server: 104.24.65.189
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ef6de0e7-9cc5-36a4-8574-b82f7aaa14e1
+  ws-opts:
+    headers:
+      Host: 100-100-17-253.cn-db.top
+    path: /dabai.in104.24.65.189
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: dabai
+  name: 加拿大 059
+  network: grpc
+  port: 2096
+  server: 172.67.123.252
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: ef6de0e7-9cc5-36a4-8574-b82f7aaa14e1
+- alterId: 0
+  cipher: auto
+  name: 加拿大 060
+  network: ws
+  port: 2086
+  server: 104.24.74.199
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ef6de0e7-9cc5-36a4-8574-b82f7aaa14e1
+  ws-opts:
+    headers:
+      Host: 100-100-17-420.db-link02.top
+    path: /dabai.in104.24.74.199
+- client-fingerprint: random
+  name: 韩国 004
+  network: ws
+  port: 27516
+  server: 218.39.191.120
+  servername: 8582b6f2-7192-4da8-a4cb-c480b71e6c58.e8e54e0f-6317-448a-9999-95f6e16f7117.ooguy.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  ws-opts:
+    headers:
+      Host: 8582b6f2-7192-4da8-a4cb-c480b71e6c58.e8e54e0f-6317-448a-9999-95f6e16f7117.ooguy.com
+    path: /edgetunnel.2424014450.workers.dev/?proxyip=proxyip.kr.fxxk.dedyn.io
+- client-fingerprint: random
+  name: 韩国 005
+  network: ws
+  port: 17084
+  server: 116.125.118.149
+  servername: a17cabb5-3f13-4056-b0ce-476143491d4b.blackbeautifulman.cloudns.org
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  ws-opts:
+    headers:
+      Host: a17cabb5-3f13-4056-b0ce-476143491d4b.blackbeautifulman.cloudns.org
+    path: /edgetunnel.2424014450.workers.dev/?proxyip=proxyip.kr.fxxk.dedyn.io
+- client-fingerprint: chrome
+  name: 美国 022
+  network: ws
+  port: 2052
+  server: 130.250.137.244
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  ws-opts:
+    headers:
+      Host: edgetunnel.2424014450.workers.dev
+    path: /?proxyip=proxyip.us.fxxk.dedyn.io
+- client-fingerprint: chrome
+  name: 美国 023
+  network: ws
+  port: 2082
+  server: 130.250.137.22
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  ws-opts:
+    headers:
+      Host: edgetunnel.2424014450.workers.dev
+    path: /?proxyip=proxyip.us.fxxk.dedyn.io
+- client-fingerprint: chrome
+  name: 美国 024
+  network: ws
+  port: 2082
+  server: 130.250.137.128
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  ws-opts:
+    headers:
+      Host: edgetunnel.2424014450.workers.dev
+    path: /?proxyip=proxyip.us.fxxk.dedyn.io
+- client-fingerprint: random
+  name: 韩国 006
+  network: ws
+  port: 50037
+  server: 210.178.50.247
+  servername: 5ae52850-e7f0-481c-8cff-6c1ed17fd9f1.91f1a2e9-9f15-4330-996f-0b6bc7c8fa5b.theworkpc.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  ws-opts:
+    headers:
+      Host: 5ae52850-e7f0-481c-8cff-6c1ed17fd9f1.91f1a2e9-9f15-4330-996f-0b6bc7c8fa5b.theworkpc.com
+    path: /edgetunnel.2424014450.workers.dev/?proxyip=proxyip.kr.fxxk.dedyn.io
+- client-fingerprint: chrome
+  name: 美国 025
+  network: ws
+  port: 2052
+  server: 130.250.137.185
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  ws-opts:
+    headers:
+      Host: edgetunnel.2424014450.workers.dev
+    path: /?proxyip=proxyip.us.fxxk.dedyn.io
+- client-fingerprint: chrome
+  name: 美国 026
+  network: ws
+  port: 2082
+  server: 130.250.137.222
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  ws-opts:
+    headers:
+      Host: edgetunnel.2424014450.workers.dev
+    path: /?proxyip=proxyip.us.fxxk.dedyn.io
+- client-fingerprint: chrome
+  name: 美国 027
+  network: ws
+  port: 2082
+  server: 130.250.137.190
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  ws-opts:
+    headers:
+      Host: edgetunnel.2424014450.workers.dev
+    path: /?proxyip=proxyip.us.fxxk.dedyn.io
+- name: 法国 003
+  network: tcp
+  port: 80
+  server: 45.152.112.197
+  tls: false
+  type: vless
+  uuid: 78dcde94-5b99-4dc0-a0a7-43c92df4f76b
+- client-fingerprint: random
+  name: 美国 028
+  network: ws
+  port: 10287
+  server: 23.94.25.245
+  servername: e8b99cbe-9ebd-4a20-a497-38f4b29f2c98.83b11782-ecae-411f-90c3-2a01bb33260a.gleeze.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  ws-opts:
+    headers:
+      Host: e8b99cbe-9ebd-4a20-a497-38f4b29f2c98.83b11782-ecae-411f-90c3-2a01bb33260a.gleeze.com
+    path: /edgetunnel.2424014450.workers.dev/?proxyip=proxyip.us.fxxk.dedyn.io
+- client-fingerprint: random
+  name: 美国 029
+  network: ws
+  port: 443
+  server: cf.090227.xyz
+  servername: e8b99cbe-9ebd-4a20-a497-38f4b29f2c98.83b11782-ecae-411f-90c3-2a01bb33260a.gleeze.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  ws-opts:
+    headers:
+      Host: e8b99cbe-9ebd-4a20-a497-38f4b29f2c98.83b11782-ecae-411f-90c3-2a01bb33260a.gleeze.com
+    path: /edgetunnel.2424014450.workers.dev/?proxyip=proxyip.us.fxxk.dedyn.io
+- client-fingerprint: random
+  name: 美国 030
+  network: ws
+  port: 12417
+  server: 104.168.94.121
+  servername: e8b99cbe-9ebd-4a20-a497-38f4b29f2c98.83b11782-ecae-411f-90c3-2a01bb33260a.gleeze.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  ws-opts:
+    headers:
+      Host: e8b99cbe-9ebd-4a20-a497-38f4b29f2c98.83b11782-ecae-411f-90c3-2a01bb33260a.gleeze.com
+    path: /edgetunnel.2424014450.workers.dev/proxyIP=proxyip.us.fxxk.dedyn.io
+- alterId: 0
+  cipher: auto
   name: 🇺🇸_US_美国->🇮🇳_IN_印度
   network: ws
   port: 2052
@@ -1868,6 +2163,26 @@ proxy-groups:
   - 加拿大 052
   - 加拿大 053
   - 加拿大 054
+  - 加拿大 055
+  - 加拿大 056
+  - 加拿大 057
+  - 加拿大 058
+  - 美国 021
+  - 加拿大 059
+  - 加拿大 060
+  - 韩国 004
+  - 韩国 005
+  - 美国 022
+  - 美国 023
+  - 美国 024
+  - 韩国 006
+  - 美国 025
+  - 美国 026
+  - 美国 027
+  - 法国 003
+  - 美国 028
+  - 美国 029
+  - 美国 030
   - 🇺🇸_US_美国->🇮🇳_IN_印度
   - 🇺🇸_US_美国_1
   - 🇵🇱_PL_波兰_1
@@ -2021,6 +2336,26 @@ proxy-groups:
   - 加拿大 052
   - 加拿大 053
   - 加拿大 054
+  - 加拿大 055
+  - 加拿大 056
+  - 加拿大 057
+  - 加拿大 058
+  - 美国 021
+  - 加拿大 059
+  - 加拿大 060
+  - 韩国 004
+  - 韩国 005
+  - 美国 022
+  - 美国 023
+  - 美国 024
+  - 韩国 006
+  - 美国 025
+  - 美国 026
+  - 美国 027
+  - 法国 003
+  - 美国 028
+  - 美国 029
+  - 美国 030
   - 🇺🇸_US_美国->🇮🇳_IN_印度
   - 🇺🇸_US_美国_1
   - 🇵🇱_PL_波兰_1
