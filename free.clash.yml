@@ -254,19 +254,6 @@ proxies:
     path: /?ed=2048
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 挪威 001
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 185.125.171.13
-  servername: partner.g2.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: a09373e2-e120-457d-9ec9-ea7fe8bedb52
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
   name: 加拿大 004
   network: tcp
   port: 443
@@ -1787,6 +1774,795 @@ proxies:
     path: /edgetunnel.2424014450.workers.dev/proxyIP=proxyip.us.fxxk.dedyn.io
 - alterId: 0
   cipher: auto
+  delay: 2830
+  h2-opts: {}
+  http-opts: {}
+  name: 美国 031
+  network: ws
+  port: 80
+  server: 104.26.0.129
+  servername: hinet.alipay.ovh
+  skip-cert-verify: true
+  type: vmess
+  uuid: 9133af1b-72e3-40b2-c811-45acaabd0ff0
+  ws-opts:
+    headers:
+      HOST: hinet.alipay.ovh
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  delay: 1730
+  h2-opts: {}
+  http-opts: {}
+  name: 乌克兰 001
+  network: tcp
+  port: 51596
+  server: 141.105.130.195
+  skip-cert-verify: true
+  type: vmess
+  uuid: 6e7173e9-6397-410a-aa84-a17a0b4adbd3
+- alterId: 0
+  cipher: auto
+  delay: 1497
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 061
+  network: ws
+  port: 80
+  server: yx.99294837.xyz
+  servername: ru.xlb8.eu.org
+  skip-cert-verify: true
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      HOST: ru.xlb8.eu.org
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  delay: 436
+  h2-opts: {}
+  http-opts: {}
+  name: 俄罗斯 006
+  network: tcp
+  port: 35972
+  server: 45.147.200.170
+  skip-cert-verify: true
+  type: vmess
+  uuid: 6a2afda8-8798-434c-8964-1deb4e7655a5
+- client-fingerprint: chrome
+  delay: 1020
+  name: 加拿大 062
+  network: ws
+  port: 80
+  server: 104.16.61.8
+  type: vless
+  uuid: 378ac207-38d3-4401-ba96-3a7931968bc5
+  ws-opts:
+    headers:
+      host: ca.vpnbase.net
+    path: /http
+- alterId: 0
+  cipher: auto
+  delay: 1482
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 063
+  network: ws
+  port: 2052
+  server: 104.26.15.85
+  servername: Asdfghjkl10.unique69.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 5f12b2e0-11b0-4b1e-863c-164e4606028c
+  ws-opts:
+    headers:
+      HOST: Asdfghjkl10.unique69.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 1607
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 064
+  network: ws
+  port: 2052
+  server: 104.18.202.232
+  servername: Asdfghjkl10.unique69.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 5f12b2e0-11b0-4b1e-863c-164e4606028c
+  ws-opts:
+    headers:
+      HOST: Asdfghjkl10.unique69.com
+    path: /
+- client-fingerprint: chrome
+  delay: 2401
+  name: 美国 032
+  network: ws
+  port: 443
+  server: 104.21.69.204
+  servername: drug195.nimserver.top
+  tls: true
+  type: vless
+  uuid: 1d86846c-5a27-43c8-8981-57bb75c82195
+  ws-opts:
+    headers:
+      host: drug195.nimserver.top
+    path: /paradise
+- client-fingerprint: chrome
+  delay: 1694
+  name: 加拿大 065
+  network: ws
+  port: 2083
+  server: 104.16.60.8
+  servername: cpanel3.sassanidempire.com
+  tls: true
+  type: vless
+  uuid: c46a54bf-b220-4c22-cd6e-fb1fcabda0af
+  ws-opts:
+    headers:
+      host: cpanel3.sassanidempire.com
+    path: /ws
+- alterId: 0
+  cipher: auto
+  delay: 2513
+  h2-opts: {}
+  http-opts: {}
+  name: 德国 011
+  network: ws
+  port: 45103
+  server: de-frankfurt-oracle-b26cf5.ip1.shop
+  servername: oracle-de-02.t3csyun.buzz
+  skip-cert-verify: true
+  type: vmess
+  uuid: 6d3404ef-27c6-48de-a83a-8ac6488760b4
+  ws-opts:
+    headers:
+      HOST: oracle-de-02.t3csyun.buzz
+    path: /de2
+- delay: 890
+  name: 美国 033
+  network: ws
+  port: 8080
+  server: 47.236.165.25
+  servername: hk111.ylks.link
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: hk111.ylks.link
+    path: /freecodes
+- alterId: 0
+  cipher: auto
+  delay: 1452
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 066
+  network: ws
+  port: 2052
+  server: 104.16.60.8
+  servername: late-wave-1d0a.lesijo3430.workers.dev
+  skip-cert-verify: true
+  type: vmess
+  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+  ws-opts:
+    headers:
+      HOST: late-wave-1d0a.lesijo3430.workers.dev
+    path: /ivideos.sbs/linkws
+- client-fingerprint: chrome
+  delay: 1928
+  name: 加拿大 067
+  network: ws
+  port: 443
+  server: 104.26.11.137
+  servername: st-pl-1.brocdn.com
+  tls: true
+  type: vless
+  uuid: f4397322-d5fa-11ee-aaa8-00505603e70d
+  ws-opts:
+    headers:
+      host: st-pl-1.brocdn.com
+    path: /websocket
+- client-fingerprint: chrome
+  delay: 1534
+  name: 美国 034
+  network: ws
+  port: 443
+  server: 172.66.213.38
+  servername: pls.v50m.eu.org
+  tls: true
+  type: vless
+  uuid: 8685c59b-a192-49e7-aedc-0019c576d766
+  ws-opts:
+    headers:
+      host: pls.v50m.eu.org
+    path: /?ed=2560
+- client-fingerprint: randomized
+  delay: 1045
+  name: 加拿大 068
+  network: ws
+  port: 443
+  server: 104.19.132.75
+  servername: mmdv2.pages.dev
+  tls: true
+  type: vless
+  uuid: d9eb0df3-3190-4447-86b6-656fe5ff1119
+  ws-opts:
+    headers:
+      host: mmdv2.pages.dev
+    path: /?ed=2048
+- client-fingerprint: chrome
+  delay: 863
+  name: 美国 035
+  network: ws
+  port: 443
+  server: 162.159.252.236
+  servername: mmdv2.pages.dev
+  tls: true
+  type: vless
+  uuid: d9eb0df3-3190-4447-86b6-656fe5ff1119
+  ws-opts:
+    headers:
+      host: mmdv2.pages.dev
+    path: /?ed=2048
+- client-fingerprint: chrome
+  delay: 766
+  name: 加拿大 069
+  network: ws
+  port: 443
+  server: 104.18.120.65
+  servername: mmdv2.pages.dev
+  tls: true
+  type: vless
+  uuid: d9eb0df3-3190-4447-86b6-656fe5ff1119
+  ws-opts:
+    headers:
+      host: mmdv2.pages.dev
+    path: /?ed=2048
+- client-fingerprint: randomized
+  delay: 1255
+  name: 加拿大 070
+  network: ws
+  port: 443
+  server: 104.18.27.8
+  servername: mmdv2.pages.dev
+  tls: true
+  type: vless
+  uuid: d9eb0df3-3190-4447-86b6-656fe5ff1119
+  ws-opts:
+    headers:
+      host: mmdv2.pages.dev
+    path: /?ed=2048
+- client-fingerprint: randomized
+  delay: 1239
+  name: 加拿大 071
+  network: ws
+  port: 443
+  server: 104.19.135.172
+  servername: mmdv2.pages.dev
+  tls: true
+  type: vless
+  uuid: d9eb0df3-3190-4447-86b6-656fe5ff1119
+  ws-opts:
+    headers:
+      host: mmdv2.pages.dev
+    path: TELEGRAM-MARAMBASHI/?ed=2048
+- client-fingerprint: randomized
+  delay: 1242
+  name: 加拿大 072
+  network: ws
+  port: 443
+  server: 104.19.132.147
+  servername: mmdv2.pages.dev
+  tls: true
+  type: vless
+  uuid: d9eb0df3-3190-4447-86b6-656fe5ff1119
+  ws-opts:
+    headers:
+      host: mmdv2.pages.dev
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  delay: 880
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 073
+  network: ws
+  port: 80
+  server: 104.18.84.104
+  servername: rn1.hostmjj.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 211d8a34-9c48-4435-b4bf-343ae1cbda0e
+  ws-opts:
+    headers:
+      HOST: rn1.hostmjj.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 2020
+  h2-opts: {}
+  http-opts: {}
+  name: 美国 036
+  network: ws
+  port: 80
+  server: cf3.ftclashcloud.site
+  servername: mhyusa01.ftclashcloud.online
+  skip-cert-verify: true
+  type: vmess
+  uuid: 14391250-ec2a-4f8c-992a-9a0d6a30bb6f
+  ws-opts:
+    headers:
+      HOST: mhyusa01.ftclashcloud.online
+    path: /ws?ed=2560
+- alterId: 0
+  cipher: auto
+  delay: 2395
+  h2-opts: {}
+  http-opts: {}
+  name: 美国 037
+  network: ws
+  port: 80
+  server: cf4.ftclashcloud.site
+  servername: mhyusa01.ftclashcloud.online
+  skip-cert-verify: true
+  type: vmess
+  uuid: 14391250-ec2a-4f8c-992a-9a0d6a30bb6f
+  ws-opts:
+    headers:
+      HOST: mhyusa01.ftclashcloud.online
+    path: /ws?ed=2560
+- alterId: 64
+  cipher: auto
+  delay: 1681
+  h2-opts: {}
+  http-opts: {}
+  name: 美国 038
+  network: ws
+  port: 443
+  server: 23.225.41.69
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      host: www.11615746.xyz
+    path: /path/341901080027
+- alterId: 64
+  cipher: auto
+  delay: 928
+  h2-opts: {}
+  http-opts: {}
+  name: 美国 039
+  network: ws
+  port: 30003
+  server: 74.48.6.214
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      host: www.75487294.xyz
+    path: /path/341901080027
+- alterId: 64
+  cipher: auto
+  delay: 2225
+  h2-opts: {}
+  http-opts: {}
+  name: 美国 040
+  network: ws
+  port: 443
+  server: 170.178.190.140
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      host: www.94054702.xyz
+    path: /path/341901080027
+- alterId: 64
+  cipher: auto
+  delay: 1118
+  h2-opts: {}
+  http-opts: {}
+  name: 美国 041
+  network: ws
+  port: 443
+  server: 107.167.21.154
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: fabb30e8-3a2c-4149-9651-2758f7712481
+  ws-opts:
+    headers:
+      host: www.58528190.xyz
+    path: /path/341901080027
+- client-fingerprint: chrome
+  delay: 1022
+  name: 加拿大 074
+  network: ws
+  port: 2096
+  server: www.speedtest.net
+  servername: vpNeRor.SAjadHADadi.WEbsiTe
+  tls: true
+  type: vless
+  uuid: b41e1631-ceb3-47c9-ba87-c65a46f2f5a8
+  ws-opts:
+    headers:
+      host: VPnerOr.sajAdHaDaDI.WEbSITe
+    path: /eOwMtmADY6cWup8R?ed=2560
+- client-fingerprint: randomized
+  delay: 1284
+  name: 加拿大 075
+  network: ws
+  port: 443
+  server: 104.19.7.174
+  servername: mmdv2.pages.dev
+  tls: true
+  type: vless
+  uuid: d9eb0df3-3190-4447-86b6-656fe5ff1119
+  ws-opts:
+    headers:
+      host: mmdv2.pages.dev
+    path: /?ed=2048
+- client-fingerprint: randomized
+  delay: 1178
+  name: 加拿大 076
+  network: ws
+  port: 443
+  server: 104.19.179.196
+  servername: mmdv2.pages.dev
+  tls: true
+  type: vless
+  uuid: d9eb0df3-3190-4447-86b6-656fe5ff1119
+  ws-opts:
+    headers:
+      host: mmdv2.pages.dev
+    path: /?ed=2048
+- client-fingerprint: chrome
+  delay: 2771
+  name: 加拿大 077
+  network: ws
+  port: 443
+  server: 172.66.47.161
+  servername: B458Ab02.CAA-CHANeL-Worker-pAGE-freE-jHUIHnujhPhJKl-nihGkjN.pagES.dev
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      host: B458ab02.caa-chaNel-woRKeR-pAge-fREe-jhuiHnujhphJkl-nIhgkJn.PageS.DEv
+    path: /
+- client-fingerprint: chrome
+  delay: 1062
+  name: 英国 006
+  network: ws
+  port: 443
+  server: 164.38.155.63
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      host: cfed.tgzdyz2.top
+    path: tg
+- client-fingerprint: randomized
+  delay: 1177
+  name: 加拿大 078
+  network: ws
+  port: 443
+  server: 172.66.47.126
+  servername: 00e463Dc.beSTVPn-4xi.PAgES.dEv
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      host: 00e463Dc.beSTVPn-4xi.PAgES.dEv
+    path: /yuYg5UJoovohFscY?ed=2560
+- client-fingerprint: chrome
+  delay: 1091
+  name: 加拿大 079
+  network: ws
+  port: 443
+  server: 104.18.180.218
+  servername: toujiediansigema.5112233.xyz
+  tls: true
+  type: vless
+  uuid: e4e7b149-8bd8-4266-8cbb-0987604dbc87
+  ws-opts:
+    headers:
+      host: toujiediansigema.5112233.xyz
+    path: /TG
+- client-fingerprint: randomized
+  delay: 1002
+  name: 美国 042
+  network: ws
+  port: 443
+  server: 172.64.111.69
+  servername: mmdv2.pages.dev
+  tls: true
+  type: vless
+  uuid: d9eb0df3-3190-4447-86b6-656fe5ff1119
+  ws-opts:
+    headers:
+      host: mmdv2.pages.dev
+    path: /?ed=2048
+- client-fingerprint: random
+  delay: 896
+  name: 加拿大 080
+  network: ws
+  port: 443
+  server: 172.66.45.32
+  servername: t-netplus-4vx.pages.dev
+  tls: true
+  type: vless
+  uuid: a8a09765-7681-47ba-9ea0-e0ae79d51088
+  ws-opts:
+    headers:
+      host: t-netplus-4vx.pages.dev
+    path: /?ed=2048
+- client-fingerprint: randomized
+  delay: 1224
+  name: 加拿大 081
+  network: ws
+  port: 443
+  server: 104.19.36.210
+  servername: mmdv2.pages.dev
+  tls: true
+  type: vless
+  uuid: d9eb0df3-3190-4447-86b6-656fe5ff1119
+  ws-opts:
+    headers:
+      host: mmdv2.pages.dev
+    path: /?ed=2048
+- client-fingerprint: chrome
+  delay: 1868
+  name: 加拿大 082
+  network: ws
+  port: 443
+  server: 104.16.16.241
+  servername: mmdv2.pages.dev
+  tls: true
+  type: vless
+  uuid: d9eb0df3-3190-4447-86b6-656fe5ff1119
+  ws-opts:
+    headers:
+      host: mmdv2.pages.dev
+    path: /
+- client-fingerprint: chrome
+  delay: 895
+  name: 加拿大 083
+  network: ws
+  port: 8443
+  server: 172.66.45.31
+  servername: pardazeshvpn-tg56.pages.dev
+  tls: true
+  type: vless
+  uuid: 1de40725-3e6b-42b1-9e3e-330c852d049e
+  ws-opts:
+    headers:
+      host: pardazeshvpn-tg56.pages.dev
+    path: '/Telegram:'
+- client-fingerprint: chrome
+  delay: 1398
+  name: 加拿大 084
+  network: ws
+  port: 443
+  server: 104.19.116.131
+  servername: mmdv2.pages.dev
+  tls: true
+  type: vless
+  uuid: d9eb0df3-3190-4447-86b6-656fe5ff1119
+  ws-opts:
+    headers:
+      host: mmdv2.pages.dev
+    path: /
+- client-fingerprint: randomized
+  delay: 1409
+  name: 美国 043
+  network: ws
+  port: 443
+  server: 172.66.44.123
+  servername: pardazeshvpn-tg87.pages.dev
+  tls: true
+  type: vless
+  uuid: 22cecc0f-4ad2-4cc0-80e7-e5d6fb375803
+  ws-opts:
+    headers:
+      host: pardazeshvpn-tg87.pages.dev
+    path: '/Telegram:'
+- client-fingerprint: randomized
+  delay: 2068
+  name: 加拿大 085
+  network: ws
+  port: 443
+  server: 104.16.80.131
+  servername: mmdv2.pages.dev
+  tls: true
+  type: vless
+  uuid: d9eb0df3-3190-4447-86b6-656fe5ff1119
+  ws-opts:
+    headers:
+      host: mmdv2.pages.dev
+    path: /?ed=2048
+- client-fingerprint: firefox
+  delay: 1157
+  name: 美国 044
+  network: ws
+  port: 443
+  server: 172.67.183.26
+  servername: marly.toptechnonews.com
+  tls: true
+  type: vless
+  uuid: 43e00e4c-2316-4dc9-8262-cef31886dc56
+  ws-opts:
+    headers:
+      host: marly.toptechnonews.com
+    path: /nimws
+- client-fingerprint: chrome
+  delay: 1240
+  name: 加拿大 086
+  network: ws
+  port: 443
+  server: 188.114.97.146
+  servername: 4b097C46.griZzlYvPN.PAgES.deV
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      host: 4b097C46.griZzlYvPN.PAgES.deV
+    path: /
+- client-fingerprint: firefox
+  delay: 1384
+  name: 荷兰 006
+  network: ws
+  port: 443
+  server: 188.114.98.224
+  servername: bpb-worker-panel-h5f.pages.dev
+  tls: true
+  type: vless
+  uuid: 17a7bf97-fef5-4101-a5c5-7c730fabeeee
+  ws-opts:
+    headers:
+      host: bpb-worker-panel-h5f.pages.dev
+    path: TELEGRAM-MARAMBASHI/?ed=2048
+- client-fingerprint: chrome
+  delay: 1454
+  name: 加拿大 087
+  network: ws
+  port: 443
+  server: 104.21.16.33
+  servername: kingofIRAn.PaGEs.deV
+  tls: true
+  type: vless
+  uuid: 1a94747b-8901-4812-ba23-7eb44cc1162f
+  ws-opts:
+    headers:
+      host: kiNGoFIRaN.paGeS.deV
+    path: /
+- client-fingerprint: chrome
+  delay: 1046
+  name: 加拿大 088
+  network: ws
+  port: 443
+  server: 172.67.128.158
+  servername: who-cares.BacheBiaPain.IR
+  tls: true
+  type: vless
+  uuid: 0905460d-6edc-4a82-8ec8-6b76090b41c8
+  ws-opts:
+    headers:
+      host: who-cares.BacheBiaPain.IR
+    path: /TELEGRAM-MARAMBASHI/?ed=2048
+- client-fingerprint: chrome
+  delay: 1091
+  name: 加拿大 089
+  network: ws
+  port: 443
+  server: 104.21.2.27
+  servername: who-cares.BacheBiaPain.IR
+  tls: true
+  type: vless
+  uuid: 0905460d-6edc-4a82-8ec8-6b76090b41c8
+  ws-opts:
+    headers:
+      host: who-cares.BacheBiaPain.IR
+    path: /TELEGRAM-MARAMBASHI/?ed=2048
+- name: 韩国 007
+  network: ws
+  port: 27644
+  server: 152.70.244.254
+  servername: a.ssll.gay
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /
+- name: 阿联酋 002
+  network: ws
+  port: 80
+  server: 94.140.0.0
+  servername: a.ssll.gay
+  tls: false
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: Twitterfreecodes
+- alterId: 0
+  cipher: auto
+  name: 加拿大 090
+  network: ws
+  port: 80
+  server: 172.67.166.192
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cd1db809-2de0-409c-aef5-861e95eff53e
+  ws-opts:
+    headers:
+      host: ua1-vmess.sshmax.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 加拿大 091
+  network: ws
+  port: 80
+  server: 172.67.71.160
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 47ce7333-79e4-4958-90f8-913a0ce8f8c1
+  ws-opts:
+    headers:
+      Host: dl3.127.0.0.1.arsha疯狂麦克斯传奇.angels蓝色.bursting.suonycars.buzz.
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 加拿大 092
+  network: ws
+  port: 443
+  server: crackthecode.ftp.sh
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
+  ws-opts:
+    headers:
+      Host: vcp3.dehel15354.woRKErS.Dev
+    path: /gwdef.sbs:443/linkws
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 加拿大 093
+  network: ws
+  port: 80
+  server: 104.18.14.19
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 4e63f0da-80ff-4b1e-8f68-80158ad0ff2a
+  ws-opts:
+    headers:
+      Host: thus-appliance-passenger-shoes.trycloudflare.com
+    path: 4e63f0da
+- alterId: 0
+  cipher: auto
   name: 🇺🇸_US_美国->🇮🇳_IN_印度
   network: ws
   port: 2052
@@ -2071,7 +2847,6 @@ proxy-groups:
   - 塞浦路斯 001
   - 德国 007
   - 加拿大 003
-  - 挪威 001
   - 加拿大 004
   - 日本 001
   - 荷兰 002
@@ -2183,6 +2958,60 @@ proxy-groups:
   - 美国 028
   - 美国 029
   - 美国 030
+  - 美国 031
+  - 乌克兰 001
+  - 加拿大 061
+  - 俄罗斯 006
+  - 加拿大 062
+  - 加拿大 063
+  - 加拿大 064
+  - 美国 032
+  - 加拿大 065
+  - 德国 011
+  - 美国 033
+  - 加拿大 066
+  - 加拿大 067
+  - 美国 034
+  - 加拿大 068
+  - 美国 035
+  - 加拿大 069
+  - 加拿大 070
+  - 加拿大 071
+  - 加拿大 072
+  - 加拿大 073
+  - 美国 036
+  - 美国 037
+  - 美国 038
+  - 美国 039
+  - 美国 040
+  - 美国 041
+  - 加拿大 074
+  - 加拿大 075
+  - 加拿大 076
+  - 加拿大 077
+  - 英国 006
+  - 加拿大 078
+  - 加拿大 079
+  - 美国 042
+  - 加拿大 080
+  - 加拿大 081
+  - 加拿大 082
+  - 加拿大 083
+  - 加拿大 084
+  - 美国 043
+  - 加拿大 085
+  - 美国 044
+  - 加拿大 086
+  - 荷兰 006
+  - 加拿大 087
+  - 加拿大 088
+  - 加拿大 089
+  - 韩国 007
+  - 阿联酋 002
+  - 加拿大 090
+  - 加拿大 091
+  - 加拿大 092
+  - 加拿大 093
   - 🇺🇸_US_美国->🇮🇳_IN_印度
   - 🇺🇸_US_美国_1
   - 🇵🇱_PL_波兰_1
@@ -2244,7 +3073,6 @@ proxy-groups:
   - 塞浦路斯 001
   - 德国 007
   - 加拿大 003
-  - 挪威 001
   - 加拿大 004
   - 日本 001
   - 荷兰 002
@@ -2356,6 +3184,60 @@ proxy-groups:
   - 美国 028
   - 美国 029
   - 美国 030
+  - 美国 031
+  - 乌克兰 001
+  - 加拿大 061
+  - 俄罗斯 006
+  - 加拿大 062
+  - 加拿大 063
+  - 加拿大 064
+  - 美国 032
+  - 加拿大 065
+  - 德国 011
+  - 美国 033
+  - 加拿大 066
+  - 加拿大 067
+  - 美国 034
+  - 加拿大 068
+  - 美国 035
+  - 加拿大 069
+  - 加拿大 070
+  - 加拿大 071
+  - 加拿大 072
+  - 加拿大 073
+  - 美国 036
+  - 美国 037
+  - 美国 038
+  - 美国 039
+  - 美国 040
+  - 美国 041
+  - 加拿大 074
+  - 加拿大 075
+  - 加拿大 076
+  - 加拿大 077
+  - 英国 006
+  - 加拿大 078
+  - 加拿大 079
+  - 美国 042
+  - 加拿大 080
+  - 加拿大 081
+  - 加拿大 082
+  - 加拿大 083
+  - 加拿大 084
+  - 美国 043
+  - 加拿大 085
+  - 美国 044
+  - 加拿大 086
+  - 荷兰 006
+  - 加拿大 087
+  - 加拿大 088
+  - 加拿大 089
+  - 韩国 007
+  - 阿联酋 002
+  - 加拿大 090
+  - 加拿大 091
+  - 加拿大 092
+  - 加拿大 093
   - 🇺🇸_US_美国->🇮🇳_IN_印度
   - 🇺🇸_US_美国_1
   - 🇵🇱_PL_波兰_1
