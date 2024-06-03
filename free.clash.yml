@@ -458,7 +458,7 @@ proxies:
     path: /dabai.in104.20.87.106
 - alterId: 0
   cipher: auto
-  name: 美国 009
+  name: 美国 008
   network: ws
   port: 8080
   server: 104.24.65.189
@@ -542,7 +542,7 @@ proxies:
   delay: 2020
   h2-opts: {}
   http-opts: {}
-  name: 美国 020
+  name: 美国 019
   network: ws
   port: 80
   server: cf3.ftclashcloud.site
@@ -559,7 +559,7 @@ proxies:
   delay: 2395
   h2-opts: {}
   http-opts: {}
-  name: 美国 021
+  name: 美国 020
   network: ws
   port: 80
   server: cf4.ftclashcloud.site
@@ -576,7 +576,7 @@ proxies:
   delay: 1681
   h2-opts: {}
   http-opts: {}
-  name: 美国 022
+  name: 美国 021
   network: ws
   port: 443
   server: 23.225.41.69
@@ -620,7 +620,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 美国 036
+  name: 美国 035
   network: ws
   port: 2082
   server: zula.ir
@@ -708,6 +708,42 @@ proxies:
     headers:
       Host: oiictw.yydsii.com
     path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - varzesh3.com
+    method: GET
+    path:
+    - /
+  name: 伊朗 001
+  network: http
+  port: 26989
+  server: 94.182.138.101
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7a3aa70d-726c-4ba4-ed5c-9dff5b7d61c5
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - store.steampowered.com
+    method: GET
+    path:
+    - /
+  name: 新加坡 008
+  network: http
+  port: 54185
+  server: 152.42.208.82
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ed5efa57-2ab8-4323-8ba4-7f383ae24ba1
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_1
@@ -919,22 +955,24 @@ proxy-groups:
   - 加拿大 032
   - 加拿大 033
   - 加拿大 034
-  - 美国 009
+  - 美国 008
   - 加拿大 035
   - 加拿大 037
   - 德国 002
   - 加拿大 039
+  - 美国 019
   - 美国 020
   - 美国 021
-  - 美国 022
   - 加拿大 059
   - 加拿大 062
-  - 美国 036
+  - 美国 035
   - 加拿大 068
   - 加拿大 070
   - 加拿大 071
   - 加拿大 072
   - 加拿大 073
+  - 伊朗 001
+  - 新加坡 008
   - 🇺🇸_US_美国_1
   - 🇺🇸_US_美国->🇮🇳_IN_印度_1
   - 🇺🇸_US_美国_2
@@ -979,22 +1017,24 @@ proxy-groups:
   - 加拿大 032
   - 加拿大 033
   - 加拿大 034
-  - 美国 009
+  - 美国 008
   - 加拿大 035
   - 加拿大 037
   - 德国 002
   - 加拿大 039
+  - 美国 019
   - 美国 020
   - 美国 021
-  - 美国 022
   - 加拿大 059
   - 加拿大 062
-  - 美国 036
+  - 美国 035
   - 加拿大 068
   - 加拿大 070
   - 加拿大 071
   - 加拿大 072
   - 加拿大 073
+  - 伊朗 001
+  - 新加坡 008
   - 🇺🇸_US_美国_1
   - 🇺🇸_US_美国->🇮🇳_IN_印度_1
   - 🇺🇸_US_美国_2
