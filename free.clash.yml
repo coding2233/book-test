@@ -746,6 +746,280 @@ proxies:
     path: /hms02.fxiaomi.sbs/link
 - alterId: 0
   cipher: auto
+  name: 加拿大 093
+  network: ws
+  port: 2052
+  server: web.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a1ec3211-b1ff-4e53-a729-e5b7b55567eb
+  ws-opts:
+    headers:
+      Host: aliyun_hk1.cn2.free.hr
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 1214
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 094
+  network: ws
+  port: 2052
+  server: 162.159.143.17
+  type: vmess
+  uuid: 958aff36-100b-4fa3-8a47-e8709a270f60
+  ws-opts:
+    headers:
+      Host: sjyhkap.mmaccc.top
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  delay: 1137
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 095
+  network: ws
+  port: 2082
+  server: 162.159.143.17
+  type: vmess
+  uuid: 958aff36-100b-4fa3-8a47-e8709a270f60
+  ws-opts:
+    headers:
+      Host: sjyhk.mmaccc.top
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  delay: 1655
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 096
+  network: ws
+  port: 2095
+  server: 104.18.202.232
+  servername: Asdfghjkl10.unique69.com.
+  skip-cert-verify: true
+  type: vmess
+  uuid: edf2bc84-8723-4c98-82d3-52a3a59875a4
+  ws-opts:
+    headers:
+      HOST: Asdfghjkl10.unique69.com.
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 1375
+  h2-opts: {}
+  http-opts: {}
+  name: 瑞典 001
+  network: ws
+  port: 8880
+  server: 185.146.173.63
+  servername: ipbx.secretshop.tech
+  skip-cert-verify: true
+  type: vmess
+  uuid: 5b301c44-452c-42ec-af88-6ef9323e7a95
+  ws-opts:
+    headers:
+      HOST: ipbx.secretshop.tech
+    path: /shop
+- alterId: 0
+  cipher: auto
+  delay: 1852
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 097
+  network: ws
+  port: 2086
+  server: 162.159.143.17
+  type: vmess
+  uuid: 958aff36-100b-4fa3-8a47-e8709a270f60
+  ws-opts:
+    headers:
+      Host: akjp1um.mmaccc.top
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  delay: 903
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 098
+  network: ws
+  port: 80
+  server: fbi.gov
+  servername: usvmqlsgf1ljbtzjun8.lovemianfei.store
+  skip-cert-verify: true
+  type: vmess
+  uuid: eb5a9fa3-ceaf-475b-8d7b-9476b4a0ca92
+  ws-opts:
+    headers:
+      HOST: usvmqlsgf1ljbtzjun8.lovemianfei.store
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 1385
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 099
+  network: ws
+  port: 2095
+  server: 104.25.84.14
+  servername: 100-100-17-276.cn-db.top
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2be5f070-1c5e-359f-a6e6-f2499bfc6c54
+  ws-opts:
+    headers:
+      HOST: 100-100-17-276.cn-db.top
+    path: /dabai.in104.25.84.14
+- alterId: 0
+  cipher: auto
+  delay: 998
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 100
+  network: ws
+  port: 2052
+  server: 104.16.213.71
+  servername: 100-100-17-158.db-link01.top
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2be5f070-1c5e-359f-a6e6-f2499bfc6c54
+  ws-opts:
+    headers:
+      HOST: 100-100-17-158.db-link01.top
+    path: /dabai.in104.16.213.71
+- alterId: 0
+  cipher: auto
+  delay: 2031
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 101
+  network: ws
+  port: 2095
+  server: 104.25.82.84
+  servername: 100-100-17-193.db-link02.top
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2be5f070-1c5e-359f-a6e6-f2499bfc6c54
+  ws-opts:
+    headers:
+      HOST: 100-100-17-193.db-link02.top
+    path: /dabai.in104.25.82.84
+- alterId: 0
+  cipher: auto
+  delay: 929
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 102
+  network: ws
+  port: 8080
+  server: 23.227.39.11
+  servername: dongtaiwang15.dtku47.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
+  ws-opts:
+    headers:
+      HOST: dongtaiwang15.dtku47.xyz
+    path: /1IKYjV0r/
+- alterId: 0
+  cipher: auto
+  delay: 1015
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 103
+  network: ws
+  port: 8080
+  server: 104.19.38.48
+  servername: dual-nothing-prep-exit.trycloudflare.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+  ws-opts:
+    headers:
+      HOST: dual-nothing-prep-exit.trycloudflare.com
+    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+- alterId: 0
+  cipher: auto
+  delay: 778
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 104
+  network: ws
+  port: 2052
+  server: pt2.xyyjc.top
+  servername: ptdny.xyyjc.top
+  skip-cert-verify: true
+  type: vmess
+  uuid: 1d95edba-c8c7-4f0e-be25-5503fa31b509
+  ws-opts:
+    headers:
+      HOST: ptdny.xyyjc.top
+    path: /?ed=2048
+- alterId: 64
+  cipher: auto
+  delay: 1960
+  h2-opts: {}
+  http-opts: {}
+  name: 美国 077
+  network: ws
+  port: 38001
+  server: 38.33.34.17
+  servername: www.78274451.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: b65da4af-a12a-4a59-9316-4549e12ba62c
+  ws-opts:
+    headers:
+      HOST: www.78274451.xyz
+    path: /path/150907203104
+- alterId: 0
+  cipher: auto
+  delay: 1804
+  h2-opts: {}
+  http-opts: {}
+  name: 英国 004
+  network: ws
+  port: 56148
+  server: 46.226.163.143
+  servername: its-github.com-so.ir-whereareyoumylady.xn--9iqtb0z3kmg58ejur6wfbwf9muugk7rck30b0frbqkvk2bye0bm1a.arvancloud.online.
+  skip-cert-verify: true
+  type: vmess
+  uuid: 368c014e-761c-4e0b-85cd-b680f2b10a6d
+  ws-opts:
+    headers:
+      HOST: its-github.com-so.ir-whereareyoumylady.xn--9iqtb0z3kmg58ejur6wfbwf9muugk7rck30b0frbqkvk2bye0bm1a.arvancloud.online.
+    path: /telegram-
+- alterId: 0
+  cipher: auto
+  delay: 608
+  h2-opts: {}
+  http-opts: {}
+  name: 荷兰 011
+  network: tcp
+  port: 59622
+  server: 194.26.232.172
+  skip-cert-verify: true
+  type: vmess
+  uuid: 6dcdd314-2997-48a1-b4cc-f3d281482dae
+- alterId: 0
+  cipher: auto
+  name: 加拿大 105
+  network: ws
+  port: 2052
+  server: 172.67.159.232
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 8c8dabbc-93a6-44ad-b878-0d980fa249d1
+  ws-opts:
+    headers:
+      host: ca-cfcdn.aikunapp.com
+    path: /index?ed=2048
+- alterId: 0
+  cipher: auto
   name: 🇷🇺_RU_俄罗斯联邦_1
   network: ws
   port: 54321
@@ -1068,6 +1342,23 @@ proxy-groups:
   - 新加坡 008
   - 智利 001
   - 加拿大 085
+  - 加拿大 093
+  - 加拿大 094
+  - 加拿大 095
+  - 加拿大 096
+  - 瑞典 001
+  - 加拿大 097
+  - 加拿大 098
+  - 加拿大 099
+  - 加拿大 100
+  - 加拿大 101
+  - 加拿大 102
+  - 加拿大 103
+  - 加拿大 104
+  - 美国 077
+  - 英国 004
+  - 荷兰 011
+  - 加拿大 105
   - 🇷🇺_RU_俄罗斯联邦_1
   - 🇷🇺_RU_俄罗斯联邦_2
   - 🇷🇺_RU_俄罗斯联邦_3
@@ -1149,6 +1440,23 @@ proxy-groups:
   - 新加坡 008
   - 智利 001
   - 加拿大 085
+  - 加拿大 093
+  - 加拿大 094
+  - 加拿大 095
+  - 加拿大 096
+  - 瑞典 001
+  - 加拿大 097
+  - 加拿大 098
+  - 加拿大 099
+  - 加拿大 100
+  - 加拿大 101
+  - 加拿大 102
+  - 加拿大 103
+  - 加拿大 104
+  - 美国 077
+  - 英国 004
+  - 荷兰 011
+  - 加拿大 105
   - 🇷🇺_RU_俄罗斯联邦_1
   - 🇷🇺_RU_俄罗斯联邦_2
   - 🇷🇺_RU_俄罗斯联邦_3
