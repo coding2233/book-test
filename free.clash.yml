@@ -589,7 +589,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 加拿大 061
+  name: 加拿大 060
   network: ws
   port: 8080
   server: 104.18.202.232
@@ -603,7 +603,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 美国 035
+  name: 美国 034
   network: ws
   port: 2082
   server: zula.ir
@@ -618,7 +618,7 @@ proxies:
     path: /dashboard?ed=2048
 - alterId: 0
   cipher: auto
-  name: 加拿大 063
+  name: 加拿大 062
   network: ws
   port: 8080
   server: 104.19.47.226
@@ -633,7 +633,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 加拿大 064
+  name: 加拿大 063
   network: ws
   port: 80
   server: 104.18.14.19
@@ -648,7 +648,7 @@ proxies:
     path: 4e63f0da
 - alterId: 0
   cipher: auto
-  name: 加拿大 065
+  name: 加拿大 064
   network: ws
   port: 8080
   server: 104.19.47.188
@@ -663,7 +663,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 加拿大 066
+  name: 加拿大 065
   network: ws
   port: 8080
   server: 104.19.47.150
@@ -699,7 +699,7 @@ proxies:
   delay: 1802
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 069
+  name: 加拿大 068
   network: ws
   port: 8080
   server: 104.16.67.38
@@ -713,7 +713,7 @@ proxies:
     path: /hms02.fxiaomi.sbs/link
 - alterId: 0
   cipher: auto
-  name: 加拿大 072
+  name: 加拿大 070
   network: ws
   port: 2052
   server: web.com
@@ -731,7 +731,7 @@ proxies:
   delay: 1137
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 073
+  name: 加拿大 071
   network: ws
   port: 2082
   server: 162.159.143.17
@@ -746,7 +746,7 @@ proxies:
   delay: 1655
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 074
+  name: 加拿大 072
   network: ws
   port: 2095
   server: 104.18.202.232
@@ -780,7 +780,7 @@ proxies:
   delay: 1852
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 075
+  name: 加拿大 073
   network: ws
   port: 2086
   server: 162.159.143.17
@@ -795,7 +795,7 @@ proxies:
   delay: 903
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 076
+  name: 加拿大 074
   network: ws
   port: 80
   server: fbi.gov
@@ -812,7 +812,7 @@ proxies:
   delay: 1385
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 077
+  name: 加拿大 075
   network: ws
   port: 2095
   server: 104.25.84.14
@@ -829,7 +829,7 @@ proxies:
   delay: 998
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 078
+  name: 加拿大 076
   network: ws
   port: 2052
   server: 104.16.213.71
@@ -846,7 +846,7 @@ proxies:
   delay: 2031
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 079
+  name: 加拿大 077
   network: ws
   port: 2095
   server: 104.25.82.84
@@ -863,7 +863,7 @@ proxies:
   delay: 1960
   h2-opts: {}
   http-opts: {}
-  name: 美国 063
+  name: 美国 062
   network: ws
   port: 38001
   server: 38.33.34.17
@@ -907,7 +907,7 @@ proxies:
     path: /namedfhgxfgdh
 - alterId: 0
   cipher: auto
-  name: 加拿大 082
+  name: 加拿大 080
   network: ws
   port: 8080
   server: 104.19.47.178
@@ -920,6 +920,92 @@ proxies:
     headers:
       Host: oiictw.yydsii.com
     path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  delay: 1208
+  h2-opts: {}
+  http-opts: {}
+  name: 瑞典 002
+  network: ws
+  port: 80
+  server: 185.146.173.158
+  servername: 2.V2ray.debian.org.fxp.debian.org.speedtest.net.らわなさらわ.iroralph.monster.
+  skip-cert-verify: true
+  type: vmess
+  uuid: 9fcf9f03-2e6c-40bd-808e-acd4a3e0a757
+  ws-opts:
+    headers:
+      HOST: 2.V2ray.debian.org.fxp.debian.org.speedtest.net.らわなさらわ.iroralph.monster.
+    path: /telegram-MinoVpnCh,telegram-MinoVpnCh,telegram-MinoVpnCh,telegram-MinoVpnCh,telegram-MinoVpnCh,telegram-MinoVpnCh,telegram-MinoVpnCh,telegram-MinoVpnCh,telegram-MinoVpnCh,telegram-MinoVpnCh,telegram-MinoVpnCh,telegram-MinoVpnCh?ed=2048
+- alterId: 0
+  cipher: auto
+  delay: 969
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 090
+  network: ws
+  port: 80
+  server: 162.159.152.215
+  servername: rn2.hostmjj.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 5820093a-bb7d-4e15-8575-1a529f2d8282
+  ws-opts:
+    headers:
+      HOST: rn2.hostmjj.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 1006
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 091
+  network: ws
+  port: 80
+  server: 162.159.134.190
+  servername: rn2.hostmjj.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 5820093a-bb7d-4e15-8575-1a529f2d8282
+  ws-opts:
+    headers:
+      HOST: rn2.hostmjj.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 933
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 092
+  network: ws
+  port: 80
+  server: 162.159.136.196
+  servername: rn2.hostmjj.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 5820093a-bb7d-4e15-8575-1a529f2d8282
+  ws-opts:
+    headers:
+      HOST: rn2.hostmjj.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 1668
+  h2-opts: {}
+  http-opts: {}
+  name: 英国 009
+  network: ws
+  port: 443
+  server: 149.7.16.174
+  servername: 149.7.16.174
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      HOST: 149.7.16.174
+    path: /linkvws
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国->🇧🇷_BR_巴西
@@ -1292,27 +1378,32 @@ proxy-groups:
   - 美国 020
   - 美国 021
   - 加拿大 058
-  - 加拿大 061
-  - 美国 035
+  - 加拿大 060
+  - 美国 034
+  - 加拿大 062
   - 加拿大 063
   - 加拿大 064
   - 加拿大 065
-  - 加拿大 066
   - 智利 001
-  - 加拿大 069
+  - 加拿大 068
+  - 加拿大 070
+  - 加拿大 071
   - 加拿大 072
+  - 瑞典 001
   - 加拿大 073
   - 加拿大 074
-  - 瑞典 001
   - 加拿大 075
   - 加拿大 076
   - 加拿大 077
-  - 加拿大 078
-  - 加拿大 079
-  - 美国 063
+  - 美国 062
   - 荷兰 007
   - 韩国 018
-  - 加拿大 082
+  - 加拿大 080
+  - 瑞典 002
+  - 加拿大 090
+  - 加拿大 091
+  - 加拿大 092
+  - 英国 009
   - 🇺🇸_US_美国->🇧🇷_BR_巴西
   - 🇺🇸_US_美国->🇩🇪_DE_德国_1
   - 🇨🇦_CA_加拿大
@@ -1394,27 +1485,32 @@ proxy-groups:
   - 美国 020
   - 美国 021
   - 加拿大 058
-  - 加拿大 061
-  - 美国 035
+  - 加拿大 060
+  - 美国 034
+  - 加拿大 062
   - 加拿大 063
   - 加拿大 064
   - 加拿大 065
-  - 加拿大 066
   - 智利 001
-  - 加拿大 069
+  - 加拿大 068
+  - 加拿大 070
+  - 加拿大 071
   - 加拿大 072
+  - 瑞典 001
   - 加拿大 073
   - 加拿大 074
-  - 瑞典 001
   - 加拿大 075
   - 加拿大 076
   - 加拿大 077
-  - 加拿大 078
-  - 加拿大 079
-  - 美国 063
+  - 美国 062
   - 荷兰 007
   - 韩国 018
-  - 加拿大 082
+  - 加拿大 080
+  - 瑞典 002
+  - 加拿大 090
+  - 加拿大 091
+  - 加拿大 092
+  - 英国 009
   - 🇺🇸_US_美国->🇧🇷_BR_巴西
   - 🇺🇸_US_美国->🇩🇪_DE_德国_1
   - 🇨🇦_CA_加拿大
