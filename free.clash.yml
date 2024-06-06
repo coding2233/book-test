@@ -942,7 +942,7 @@ proxies:
   delay: 969
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 090
+  name: 加拿大 088
   network: ws
   port: 80
   server: 162.159.152.215
@@ -959,7 +959,7 @@ proxies:
   delay: 1006
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 091
+  name: 加拿大 089
   network: ws
   port: 80
   server: 162.159.134.190
@@ -976,7 +976,7 @@ proxies:
   delay: 933
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 092
+  name: 加拿大 090
   network: ws
   port: 80
   server: 162.159.136.196
@@ -1006,6 +1006,21 @@ proxies:
     headers:
       HOST: 149.7.16.174
     path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 加拿大 094
+  network: ws
+  port: 2052
+  server: 172.67.144.201
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1d95edba-c8c7-4f0e-be25-5503fa31b509
+  ws-opts:
+    headers:
+      Host: ptdny.xyyjc.top
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国->🇧🇷_BR_巴西
@@ -1400,10 +1415,11 @@ proxy-groups:
   - 韩国 018
   - 加拿大 080
   - 瑞典 002
+  - 加拿大 088
+  - 加拿大 089
   - 加拿大 090
-  - 加拿大 091
-  - 加拿大 092
   - 英国 009
+  - 加拿大 094
   - 🇺🇸_US_美国->🇧🇷_BR_巴西
   - 🇺🇸_US_美国->🇩🇪_DE_德国_1
   - 🇨🇦_CA_加拿大
@@ -1507,10 +1523,11 @@ proxy-groups:
   - 韩国 018
   - 加拿大 080
   - 瑞典 002
+  - 加拿大 088
+  - 加拿大 089
   - 加拿大 090
-  - 加拿大 091
-  - 加拿大 092
   - 英国 009
+  - 加拿大 094
   - 🇺🇸_US_美国->🇧🇷_BR_巴西
   - 🇺🇸_US_美国->🇩🇪_DE_德国_1
   - 🇨🇦_CA_加拿大
