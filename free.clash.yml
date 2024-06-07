@@ -44,25 +44,8 @@ proxies:
   uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
 - alterId: 0
   cipher: auto
-  delay: 2045
-  h2-opts: {}
-  http-opts: {}
-  name: 加拿大 006
-  network: ws
-  port: 2052
-  server: 104.18.95.213
-  servername: in4.wish.ml
-  skip-cert-verify: true
-  type: vmess
-  uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
-  ws-opts:
-    headers:
-      HOST: in4.wish.ml
-    path: /
-- alterId: 0
-  cipher: auto
   delay: 1373
-  name: 加拿大 007
+  name: 加拿大 006
   network: ws
   port: 2052
   server: 104.18.203.232
@@ -79,7 +62,7 @@ proxies:
   delay: 2834
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 008
+  name: 加拿大 007
   network: ws
   port: 2052
   server: yx1.gyyun.top
@@ -96,7 +79,7 @@ proxies:
   delay: 1213
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 009
+  name: 加拿大 008
   network: ws
   port: 2052
   server: yx3.gyyun.top
@@ -113,7 +96,7 @@ proxies:
   delay: 932
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 010
+  name: 加拿大 009
   network: ws
   port: 8080
   server: 104.16.61.8
@@ -130,7 +113,7 @@ proxies:
   delay: 1417
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 011
+  name: 加拿大 010
   network: ws
   port: 8080
   server: 104.16.60.8
@@ -147,7 +130,7 @@ proxies:
   delay: 1408
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 012
+  name: 加拿大 011
   network: ws
   port: 80
   server: 104.22.30.97
@@ -161,24 +144,7 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  delay: 2045
-  h2-opts: {}
-  http-opts: {}
   name: 加拿大 013
-  network: ws
-  port: 2052
-  server: 104.17.24.108
-  servername: in4.wish.ml
-  skip-cert-verify: true
-  type: vmess
-  uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
-  ws-opts:
-    headers:
-      HOST: in4.wish.ml
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 015
   network: ws
   port: 2082
   server: 104.16.61.8
@@ -192,25 +158,10 @@ proxies:
     path: /obdii.cfd/linkws
 - alterId: 0
   cipher: auto
-  delay: 1564
-  h2-opts: {}
-  http-opts: {}
-  name: 加拿大 016
-  network: ws
-  port: 2052
-  server: 104.19.54.147
-  type: vmess
-  uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
-  ws-opts:
-    headers:
-      Host: hk2.wish.ml
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
   delay: 2299
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 017
+  name: 加拿大 014
   network: ws
   port: 80
   server: speed.cloudflare.com
@@ -227,7 +178,7 @@ proxies:
   delay: 1317
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 018
+  name: 加拿大 015
   network: ws
   port: 2082
   server: 104.16.67.38
@@ -244,7 +195,7 @@ proxies:
   delay: 1242
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 019
+  name: 加拿大 016
   network: ws
   port: 2086
   server: 104.16.67.38
@@ -261,7 +212,7 @@ proxies:
   delay: 1501
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 020
+  name: 加拿大 017
   network: ws
   port: 2052
   server: 104.16.124.132
@@ -275,7 +226,7 @@ proxies:
     path: /video/GQ2qE5Us9g
 - alterId: 0
   cipher: auto
-  name: 加拿大 024
+  name: 加拿大 021
   network: ws
   port: 80
   server: 104.16.10.98
@@ -290,7 +241,7 @@ proxies:
     path: /dabai.in104.16.10.98
 - alterId: 0
   cipher: auto
-  name: 加拿大 025
+  name: 加拿大 022
   network: ws
   port: 2052
   server: 104.24.17.16
@@ -305,7 +256,7 @@ proxies:
     path: /dabai.in104.24.17.16
 - alterId: 0
   cipher: auto
-  name: 加拿大 026
+  name: 加拿大 023
   network: ws
   port: 8880
   server: 104.19.105.54
@@ -320,7 +271,7 @@ proxies:
     path: /dabai.in104.19.105.54
 - alterId: 0
   cipher: auto
-  name: 加拿大 027
+  name: 加拿大 024
   network: ws
   port: 2082
   server: 104.25.8.78
@@ -335,7 +286,7 @@ proxies:
     path: /dabai.in104.25.8.78
 - alterId: 0
   cipher: auto
-  name: 加拿大 028
+  name: 加拿大 025
   network: ws
   port: 2052
   server: 104.16.155.190
@@ -350,7 +301,7 @@ proxies:
     path: /dabai.in104.16.155.190
 - alterId: 0
   cipher: auto
-  name: 加拿大 029
+  name: 加拿大 026
   network: ws
   port: 2052
   server: 104.18.72.118
@@ -365,7 +316,7 @@ proxies:
     path: /dabai.in104.18.72.118
 - alterId: 0
   cipher: auto
-  name: 加拿大 030
+  name: 加拿大 027
   network: ws
   port: 80
   server: 104.20.87.106
@@ -380,7 +331,7 @@ proxies:
     path: /dabai.in104.20.87.106
 - alterId: 0
   cipher: auto
-  name: 美国 008
+  name: 美国 007
   network: ws
   port: 8080
   server: 104.24.65.189
@@ -395,7 +346,7 @@ proxies:
     path: /dabai.in104.24.65.189
 - alterId: 0
   cipher: auto
-  name: 加拿大 031
+  name: 加拿大 028
   network: ws
   port: 2086
   server: 104.24.74.199
@@ -413,7 +364,7 @@ proxies:
   delay: 1607
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 033
+  name: 加拿大 030
   network: ws
   port: 2052
   server: 104.18.202.232
@@ -430,7 +381,7 @@ proxies:
   delay: 1452
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 035
+  name: 加拿大 032
   network: ws
   port: 2052
   server: 104.16.60.8
@@ -445,7 +396,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 加拿大 042
+  name: 加拿大 039
   network: ws
   port: 80
   server: 172.67.71.160
@@ -460,7 +411,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 加拿大 043
+  name: 加拿大 040
   network: ws
   port: 8080
   server: 104.18.202.232
@@ -474,7 +425,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大 045
+  name: 加拿大 042
   network: ws
   port: 2082
   server: zula.ir
@@ -489,7 +440,7 @@ proxies:
     path: /dashboard?ed=2048
 - alterId: 0
   cipher: auto
-  name: 加拿大 046
+  name: 加拿大 043
   network: ws
   port: 8080
   server: 104.19.47.226
@@ -504,7 +455,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 加拿大 047
+  name: 加拿大 044
   network: ws
   port: 80
   server: 104.18.14.19
@@ -519,7 +470,7 @@ proxies:
     path: 4e63f0da
 - alterId: 0
   cipher: auto
-  name: 加拿大 048
+  name: 加拿大 045
   network: ws
   port: 8080
   server: 104.19.47.188
@@ -534,7 +485,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 加拿大 049
+  name: 加拿大 046
   network: ws
   port: 8080
   server: 104.19.47.150
@@ -567,7 +518,7 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: 加拿大 053
+  name: 加拿大 050
   network: ws
   port: 2052
   server: web.com
@@ -585,7 +536,7 @@ proxies:
   delay: 1137
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 054
+  name: 加拿大 051
   network: ws
   port: 2082
   server: 162.159.143.17
@@ -600,7 +551,7 @@ proxies:
   delay: 1655
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 055
+  name: 加拿大 052
   network: ws
   port: 2095
   server: 104.18.202.232
@@ -634,7 +585,7 @@ proxies:
   delay: 903
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 056
+  name: 加拿大 053
   network: ws
   port: 80
   server: fbi.gov
@@ -651,7 +602,7 @@ proxies:
   delay: 1385
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 057
+  name: 加拿大 054
   network: ws
   port: 2095
   server: 104.25.84.14
@@ -668,7 +619,7 @@ proxies:
   delay: 998
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 058
+  name: 加拿大 055
   network: ws
   port: 2052
   server: 104.16.213.71
@@ -685,7 +636,7 @@ proxies:
   delay: 2031
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 059
+  name: 加拿大 056
   network: ws
   port: 2095
   server: 104.25.82.84
@@ -702,7 +653,7 @@ proxies:
   delay: 1960
   h2-opts: {}
   http-opts: {}
-  name: 美国 055
+  name: 美国 048
   network: ws
   port: 38001
   server: 38.33.34.17
@@ -720,7 +671,7 @@ proxies:
   delay: 608
   h2-opts: {}
   http-opts: {}
-  name: 荷兰 005
+  name: 荷兰 004
   network: tcp
   port: 59622
   server: 194.26.232.172
@@ -732,7 +683,7 @@ proxies:
   delay: 969
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 061
+  name: 加拿大 058
   network: ws
   port: 80
   server: 162.159.152.215
@@ -749,7 +700,7 @@ proxies:
   delay: 1006
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 062
+  name: 加拿大 059
   network: ws
   port: 80
   server: 162.159.134.190
@@ -766,7 +717,7 @@ proxies:
   delay: 933
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 063
+  name: 加拿大 060
   network: ws
   port: 80
   server: 162.159.136.196
@@ -798,7 +749,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 加拿大 068
+  name: 加拿大 064
   network: ws
   port: 2052
   server: 172.67.144.2
@@ -813,22 +764,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 加拿大 069
-  network: ws
-  port: 2052
-  server: 104.17.17.60
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 912e72b1-91c9-42b1-b16f-c4a823171388
-  ws-opts:
-    headers:
-      Host: sjyhkap.mmaccc.top
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 加拿大 070
+  name: 加拿大 065
   network: ws
   port: 2095
   server: 104.16.60.8
@@ -843,108 +779,7 @@ proxies:
     path: /obdii.cfd/linkws
 - alterId: 0
   cipher: auto
-  name: 加拿大 071
-  network: ws
-  port: 2095
-  server: 104.26.5.57
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 4b05abf5-c68d-4ffc-915f-add2f3786dca
-  ws-opts:
-    headers:
-      host: sssub.v2.001.ssrsub.com
-    path: /api/v3/download.getFile
-- alterId: 0
-  cipher: auto
-  name: 美国 063
-  network: ws
-  port: 8080
-  server: yh1.dtku41.xyz
-  tls: false
-  type: vmess
-  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
-  ws-opts:
-    headers:
-      Host: uh-lawyers-instruments-kernel.trycloudflare.com
-    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
-- alterId: 0
-  cipher: auto
-  name: 加拿大 072
-  network: ws
-  port: 8080
-  server: yh2.dtku41.xyz
-  tls: false
-  type: vmess
-  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
-  ws-opts:
-    headers:
-      Host: per-essex-patterns-bowling.trycloudflare.com
-    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 加拿大 073
-  network: ws
-  port: 2082
-  server: 104.19.47.172
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: b389350b-4d26-496b-9c77-c4a16592fb7d
-  ws-opts:
-    headers:
-      Host: xjp.chaozhijc.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 加拿大 074
-  network: ws
-  port: 2053
-  server: speed.renwox.xyz
-  servername: asxgek.renwox.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 918dbe24-9db1-4d34-8c0e-e1ba8d2e2b5c
-  ws-opts:
-    headers:
-      Host: asxgek.renwox.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 075
-  network: ws
-  port: 2095
-  server: zula.ir
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: edf2bc84-8723-4c98-82d3-52a3a59875a4
-  ws-opts:
-    headers:
-      host: Asdfghjkl10.unique69.com.
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 076
-  network: ws
-  port: 2095
-  server: Www.speedtest.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: edf2bc84-8723-4c98-82d3-52a3a59875a4
-  ws-opts:
-    headers:
-      host: Asdfghjkl10.unique69.com.
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 077
+  name: 加拿大 066
   network: ws
   port: 2095
   server: 104.16.67.38
@@ -959,29 +794,7 @@ proxies:
     path: /glweidf.sbs/linkws
 - alterId: 0
   cipher: auto
-  grpc-opts:
-    grpc-service-name: /
-  name: 加拿大 079
-  network: grpc
-  port: 2087
-  server: 172.64.32.154
-  servername: /
-  tls: true
-  type: vmess
-  uuid: 2a3263e2-891c-4446-b474-a8c63acb6e25
-- alterId: 1
-  cipher: auto
-  name: 日本 008
-  network: tcp
-  port: 28788
-  server: qzmdu-g06.jp06-7c5a-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: c63472a3-b844-305f-9892-fe6bed02ffc7
-- alterId: 0
-  cipher: auto
-  name: 加拿大 080
+  name: 加拿大 068
   network: ws
   port: 2052
   server: 104.17.16.37
@@ -996,7 +809,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 加拿大 081
+  name: 加拿大 069
   network: ws
   port: 443
   server: npmjs.com
@@ -1015,7 +828,7 @@ proxies:
   delay: 1578
   h2-opts: {}
   http-opts: {}
-  name: 荷兰 007
+  name: 荷兰 006
   network: ws
   port: 443
   server: 188.114.96.3
@@ -1033,7 +846,7 @@ proxies:
   delay: 2071
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 082
+  name: 加拿大 070
   network: ws
   port: 8080
   server: 104.16.67.38
@@ -1050,7 +863,7 @@ proxies:
   delay: 1063
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 083
+  name: 加拿大 071
   network: ws
   port: 80
   server: 162.159.137.115
@@ -1067,7 +880,7 @@ proxies:
   delay: 2468
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 084
+  name: 加拿大 072
   network: ws
   port: 8080
   server: yx.99294837.xyz
@@ -1084,7 +897,7 @@ proxies:
   delay: 1267
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 085
+  name: 加拿大 073
   network: ws
   port: 2086
   server: 104.24.79.182
@@ -1118,7 +931,7 @@ proxies:
   delay: 1297
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 086
+  name: 加拿大 074
   network: ws
   port: 80
   server: 104.24.201.59
@@ -1135,7 +948,7 @@ proxies:
   delay: 1348
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 087
+  name: 加拿大 075
   network: ws
   port: 80
   server: 104.25.198.194
@@ -1152,7 +965,7 @@ proxies:
   delay: 1395
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 088
+  name: 加拿大 076
   network: ws
   port: 8880
   server: 104.24.184.144
@@ -1169,7 +982,7 @@ proxies:
   delay: 954
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 089
+  name: 加拿大 077
   network: ws
   port: 2095
   server: 104.16.210.120
@@ -1183,11 +996,178 @@ proxies:
     path: /dabai.in104.16.210.120
 - alterId: 0
   cipher: auto
+  name: 加拿大 078
+  network: ws
+  port: 8880
+  server: 104.21.82.183
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  ws-opts:
+    headers:
+      Host: server26.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 079
+  network: ws
+  port: 2082
+  server: chaoji2.chaozhijc.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0ff2af1f-4993-41a8-849f-0161cf33bce2
+  ws-opts:
+    headers:
+      Host: dny.chaozhijc.xyz
+    path: /
+- alterId: 64
+  cipher: auto
+  delay: 2724
+  h2-opts: {}
+  http-opts: {}
+  name: 美国 057
+  network: ws
+  port: 38004
+  server: 38.174.128.210
+  servername: www.83492436.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      HOST: www.83492436.xyz
+    path: /path/340434130032
+- alterId: 1
+  cipher: auto
+  name: 日本 009
+  network: tcp
+  port: 21583
+  server: 0sc4v-g03.jp03-7d22-vm0.entry.fr0307a.art
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: d8ffec7e-bdbc-3df9-9dea-0f44eba73ce0
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_1
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_2
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_3
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_4
+  password: KixLvKzwjekG00rm
+  port: 5500
+  server: 51.77.53.200
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_1
+  network: ws
+  port: 2095
+  server: 104.26.5.57
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 4b05abf5-c68d-4ffc-915f-add2f3786dca
+  ws-opts:
+    headers:
+      host: sssub.v2.001.ssrsub.com
+    path: /api/v3/download.getFile
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_5
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 51.77.53.200
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_2
+  network: http
+  port: 3389
+  server: 64.176.15.74
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_6
+  password: XKFKl2rULjIp74
+  port: 8009
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_7
+  password: Y6R9pAtvxxzmGC
+  port: 5000
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_8
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_9
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_10
+  password: pKEW8JPByTVTLtM
+  port: 4444
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_11
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_12
+  password: e4FCWrgpkji3QY
+  port: 9101
+  server: 51.77.53.200
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_3
+  network: ws
+  port: 8080
+  server: russia.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 4b05abf5-c68d-4ffc-915f-add2f3786dca
+  ws-opts:
+    headers:
+      host: sssub.v2.001.ssrsub.com
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
   name: 🇫🇮_FI_芬兰->🇩🇪_DE_德国
   network: ws
   port: 80
   server: 135.181.109.197
-  servername: google.com
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -1195,137 +1175,79 @@ proxies:
   ws-opts:
     path: /ZXzpLGLXPrYffqWUhE
 - cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_1
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇺🇸_US_美国_1
-  password: Yc2CtrIz8L
-  port: 30129
-  server: 216.246.66.180
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_2
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_3
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_4
-  password: kDWvXYZoTBcGkC4
-  port: 8881
-  server: 51.77.53.200
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_2
-  network: ws
-  port: 80
-  server: cf2.ftclashcloud.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 348d6595-93e9-4bd6-b9d4-88ab54b37d5e
-  ws-opts:
-    headers:
-      host: mhyusa01.ftclashcloud.online
-    path: /ws?ed=2560
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_5
-  password: KixLvKzwjekG00rm
-  port: 5500
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-128-cfb
-  name: 🇺🇸_US_美国_3
-  password: shadowsocks
-  port: 443
-  server: 184.170.241.194
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_6
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_7
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇬🇧_GB_英国_1
-  password: shadowsocks
-  port: 443
-  server: 212.102.53.195
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_8
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_9
+  name: 🇵🇱_PL_波兰_13
   password: g5MeD6Ft3CWlJId
   port: 5004
   server: 51.77.53.200
   type: ss
-- cipher: aes-128-gcm
-  name: 🇬🇧_GB_英国_2
-  password: shadowsocks
-  port: 443
-  server: 212.102.53.193
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_14
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 51.77.53.200
   type: ss
 - cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_10
+  name: 🇵🇱_PL_波兰_15
   password: PCnnH6SQSnfoS27
   port: 8091
   server: 51.77.53.200
   type: ss
 - cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_11
+  name: 🇵🇱_PL_波兰_16
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_17
+  password: KixLvKzwjekG00rm
+  port: 8000
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_18
+  password: e4FCWrgpkji3QY
+  port: 9102
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_19
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_20
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_21
+  password: Y6R9pAtvxxzmGC
+  port: 3306
+  server: 51.77.53.200
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇷_IR_伊朗
+  password: saSZ8ITija0kTURaEpki2TYz+BlKaUun2R3TrvMkzbY=
+  port: 1080
+  server: 91.107.201.212
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_22
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_23
   password: kDWvXYZoTBcGkC4
   port: 8882
   server: 51.77.53.200
   type: ss
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_12
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 51.77.53.200
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸_US_美国_4
-  password: H5S0hvcxRi#YLmgU
-  port: 1230
-  server: 38.107.226.146
-  type: ss
 - alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇫🇷_FR_法国
-  network: ws
-  port: 2082
-  server: 104.21.8.157
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts:
-    headers:
-      host: s1c.v2.v001sss.xyz
-    path: /
-- alterId: 0
-  cipher: auto
+  cipher: none
   name: 🇳🇱_NL_荷兰->🇬🇮_GI_直布罗陀
   network: ws
   port: 80
@@ -1337,80 +1259,18 @@ proxies:
   ws-opts:
     headers:
       host: De1.vmess.site.
-    path: /
+    path: /vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE
 - cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_13
+  name: 🇺🇸_US_美国_6
   password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 51.77.53.200
+  port: 5601
+  server: 23.157.40.119
   type: ss
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_14
-  password: Y6R9pAtvxxzmGC
-  port: 3306
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_15
-  password: e4FCWrgpkji3QY
-  port: 9102
-  server: 51.77.53.200
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_5
-  network: ws
-  port: 2052
-  server: www.speedtest.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9e5f73da-a0f4-4a6c-87d8-7426527518c3
-  ws-opts:
-    headers:
-      host: 2d.irvn.debian.6.6.1b71.8.fxp.debian.org.speedtest.net.列列男事的事列上赛男.filter-nakon-madarj.cyou.
-    path: /@irvpnn,@irvpnn,@irvpnn,@irvpnn?ed=80
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_16
-  password: zDNVedRFPQexG9v
-  port: 6379
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_17
-  password: Y6R9pAtvxxzmGC
-  port: 5000
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_18
-  password: FoOiGlkAA9yPEGP
-  port: 7307
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_19
-  password: e4FCWrgpkji3QY
-  port: 9101
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_20
-  password: XKFKl2rULjIp74
-  port: 8009
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_21
-  password: KixLvKzwjekG00rm
-  port: 8000
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_22
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 51.77.53.200
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸_US_美国_7
+  password: fLAIbz76BnOmJ6HNuK2qvm
+  port: 80
+  server: 172.233.51.128
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇺🇸_US_美国_8
@@ -1418,66 +1278,40 @@ proxies:
   port: 443
   server: 205.134.180.139
   type: ss
-- cipher: aes-256-gcm
+- cipher: aes-128-cfb
   name: 🇺🇸_US_美国_9
-  password: Y6R9pAtvxxzmGC
-  port: 5601
-  server: 23.157.40.119
+  password: shadowsocks
+  port: 443
+  server: 184.170.241.194
   type: ss
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_23
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 51.77.53.200
+- cipher: aes-128-gcm
+  name: 🇬🇧_GB_英国_3
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.197
   type: ss
 - cipher: aes-256-gcm
   name: 🇵🇱_PL_波兰_24
-  password: Y6R9pAtvxxzmGC
-  port: 8888
+  password: KixLvKzwjekG00rm
+  port: 8080
   server: 51.77.53.200
   type: ss
 - cipher: aes-256-gcm
   name: 🇵🇱_PL_波兰_25
-  password: XKFKl2rULjIp74
-  port: 8008
+  password: cdBIDV42DCwnfIN
+  port: 8119
   server: 51.77.53.200
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪_DE_德国
-  password: VdOOvTaY02wdR77FoI5pB6
-  port: 29682
-  server: 146.19.233.101
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇸🇪_SE_瑞典
-  network: ws
-  port: 80
-  server: www.speedtest.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 31488365-7b6a-434a-8b7b-8f35012c6a22
-  ws-opts:
-    headers:
-      host: Se2.vmess.site.
-    path: /vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE
 - cipher: aes-256-gcm
   name: 🇵🇱_PL_波兰_26
-  password: pKEW8JPByTVTLtM
-  port: 4444
+  password: FoOiGlkAA9yPEGP
+  port: 7306
   server: 51.77.53.200
   type: ss
 - cipher: aes-256-gcm
   name: 🇵🇱_PL_波兰_27
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_28
-  password: RexnBgU7EV5ADxG
-  port: 7002
+  password: cdBIDV42DCwnfIN
+  port: 8118
   server: 51.77.53.200
   type: ss
 proxy-groups:
@@ -1493,114 +1327,101 @@ proxy-groups:
   - 加拿大 009
   - 加拿大 010
   - 加拿大 011
-  - 加拿大 012
   - 加拿大 013
+  - 加拿大 014
   - 加拿大 015
   - 加拿大 016
   - 加拿大 017
-  - 加拿大 018
-  - 加拿大 019
-  - 加拿大 020
+  - 加拿大 021
+  - 加拿大 022
+  - 加拿大 023
   - 加拿大 024
   - 加拿大 025
   - 加拿大 026
   - 加拿大 027
+  - 美国 007
   - 加拿大 028
-  - 加拿大 029
   - 加拿大 030
-  - 美国 008
-  - 加拿大 031
-  - 加拿大 033
-  - 加拿大 035
+  - 加拿大 032
+  - 加拿大 039
+  - 加拿大 040
   - 加拿大 042
   - 加拿大 043
+  - 加拿大 044
   - 加拿大 045
   - 加拿大 046
-  - 加拿大 047
-  - 加拿大 048
-  - 加拿大 049
   - 智利 001
+  - 加拿大 050
+  - 加拿大 051
+  - 加拿大 052
+  - 瑞典 001
   - 加拿大 053
   - 加拿大 054
   - 加拿大 055
-  - 瑞典 001
   - 加拿大 056
-  - 加拿大 057
+  - 美国 048
+  - 荷兰 004
   - 加拿大 058
   - 加拿大 059
-  - 美国 055
-  - 荷兰 005
-  - 加拿大 061
-  - 加拿大 062
-  - 加拿大 063
+  - 加拿大 060
   - 英国 004
+  - 加拿大 064
+  - 加拿大 065
+  - 加拿大 066
   - 加拿大 068
   - 加拿大 069
+  - 荷兰 006
   - 加拿大 070
   - 加拿大 071
-  - 美国 063
   - 加拿大 072
   - 加拿大 073
+  - 德国 008
   - 加拿大 074
   - 加拿大 075
   - 加拿大 076
   - 加拿大 077
+  - 加拿大 078
   - 加拿大 079
-  - 日本 008
-  - 加拿大 080
-  - 加拿大 081
-  - 荷兰 007
-  - 加拿大 082
-  - 加拿大 083
-  - 加拿大 084
-  - 加拿大 085
-  - 德国 008
-  - 加拿大 086
-  - 加拿大 087
-  - 加拿大 088
-  - 加拿大 089
-  - 🇫🇮_FI_芬兰->🇩🇪_DE_德国
+  - 美国 057
+  - 日本 009
   - 🇵🇱_PL_波兰_1
-  - 🇺🇸_US_美国_1
   - 🇵🇱_PL_波兰_2
   - 🇵🇱_PL_波兰_3
   - 🇵🇱_PL_波兰_4
-  - 🇺🇸_US_美国_2
+  - 🇺🇸_US_美国_1
   - 🇵🇱_PL_波兰_5
-  - 🇺🇸_US_美国_3
+  - 🇺🇸_US_美国_2
   - 🇵🇱_PL_波兰_6
   - 🇵🇱_PL_波兰_7
-  - 🇬🇧_GB_英国_1
   - 🇵🇱_PL_波兰_8
   - 🇵🇱_PL_波兰_9
-  - 🇬🇧_GB_英国_2
   - 🇵🇱_PL_波兰_10
   - 🇵🇱_PL_波兰_11
   - 🇵🇱_PL_波兰_12
-  - 🇺🇸_US_美国_4
-  - 🇺🇸_US_美国->🇫🇷_FR_法国
-  - 🇳🇱_NL_荷兰->🇬🇮_GI_直布罗陀
+  - 🇺🇸_US_美国_3
+  - 🇫🇮_FI_芬兰->🇩🇪_DE_德国
   - 🇵🇱_PL_波兰_13
   - 🇵🇱_PL_波兰_14
   - 🇵🇱_PL_波兰_15
-  - 🇺🇸_US_美国_5
   - 🇵🇱_PL_波兰_16
   - 🇵🇱_PL_波兰_17
   - 🇵🇱_PL_波兰_18
   - 🇵🇱_PL_波兰_19
   - 🇵🇱_PL_波兰_20
   - 🇵🇱_PL_波兰_21
+  - 🇮🇷_IR_伊朗
   - 🇵🇱_PL_波兰_22
+  - 🇵🇱_PL_波兰_23
+  - 🇳🇱_NL_荷兰->🇬🇮_GI_直布罗陀
+  - 🇺🇸_US_美国_6
+  - 🇺🇸_US_美国_7
   - 🇺🇸_US_美国_8
   - 🇺🇸_US_美国_9
-  - 🇵🇱_PL_波兰_23
+  - 🇬🇧_GB_英国_3
   - 🇵🇱_PL_波兰_24
   - 🇵🇱_PL_波兰_25
-  - 🇩🇪_DE_德国
-  - 🇺🇸_US_美国->🇸🇪_SE_瑞典
   - 🇵🇱_PL_波兰_26
   - 🇵🇱_PL_波兰_27
-  - 🇵🇱_PL_波兰_28
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -1612,114 +1433,101 @@ proxy-groups:
   - 加拿大 009
   - 加拿大 010
   - 加拿大 011
-  - 加拿大 012
   - 加拿大 013
+  - 加拿大 014
   - 加拿大 015
   - 加拿大 016
   - 加拿大 017
-  - 加拿大 018
-  - 加拿大 019
-  - 加拿大 020
+  - 加拿大 021
+  - 加拿大 022
+  - 加拿大 023
   - 加拿大 024
   - 加拿大 025
   - 加拿大 026
   - 加拿大 027
+  - 美国 007
   - 加拿大 028
-  - 加拿大 029
   - 加拿大 030
-  - 美国 008
-  - 加拿大 031
-  - 加拿大 033
-  - 加拿大 035
+  - 加拿大 032
+  - 加拿大 039
+  - 加拿大 040
   - 加拿大 042
   - 加拿大 043
+  - 加拿大 044
   - 加拿大 045
   - 加拿大 046
-  - 加拿大 047
-  - 加拿大 048
-  - 加拿大 049
   - 智利 001
+  - 加拿大 050
+  - 加拿大 051
+  - 加拿大 052
+  - 瑞典 001
   - 加拿大 053
   - 加拿大 054
   - 加拿大 055
-  - 瑞典 001
   - 加拿大 056
-  - 加拿大 057
+  - 美国 048
+  - 荷兰 004
   - 加拿大 058
   - 加拿大 059
-  - 美国 055
-  - 荷兰 005
-  - 加拿大 061
-  - 加拿大 062
-  - 加拿大 063
+  - 加拿大 060
   - 英国 004
+  - 加拿大 064
+  - 加拿大 065
+  - 加拿大 066
   - 加拿大 068
   - 加拿大 069
+  - 荷兰 006
   - 加拿大 070
   - 加拿大 071
-  - 美国 063
   - 加拿大 072
   - 加拿大 073
+  - 德国 008
   - 加拿大 074
   - 加拿大 075
   - 加拿大 076
   - 加拿大 077
+  - 加拿大 078
   - 加拿大 079
-  - 日本 008
-  - 加拿大 080
-  - 加拿大 081
-  - 荷兰 007
-  - 加拿大 082
-  - 加拿大 083
-  - 加拿大 084
-  - 加拿大 085
-  - 德国 008
-  - 加拿大 086
-  - 加拿大 087
-  - 加拿大 088
-  - 加拿大 089
-  - 🇫🇮_FI_芬兰->🇩🇪_DE_德国
+  - 美国 057
+  - 日本 009
   - 🇵🇱_PL_波兰_1
-  - 🇺🇸_US_美国_1
   - 🇵🇱_PL_波兰_2
   - 🇵🇱_PL_波兰_3
   - 🇵🇱_PL_波兰_4
-  - 🇺🇸_US_美国_2
+  - 🇺🇸_US_美国_1
   - 🇵🇱_PL_波兰_5
-  - 🇺🇸_US_美国_3
+  - 🇺🇸_US_美国_2
   - 🇵🇱_PL_波兰_6
   - 🇵🇱_PL_波兰_7
-  - 🇬🇧_GB_英国_1
   - 🇵🇱_PL_波兰_8
   - 🇵🇱_PL_波兰_9
-  - 🇬🇧_GB_英国_2
   - 🇵🇱_PL_波兰_10
   - 🇵🇱_PL_波兰_11
   - 🇵🇱_PL_波兰_12
-  - 🇺🇸_US_美国_4
-  - 🇺🇸_US_美国->🇫🇷_FR_法国
-  - 🇳🇱_NL_荷兰->🇬🇮_GI_直布罗陀
+  - 🇺🇸_US_美国_3
+  - 🇫🇮_FI_芬兰->🇩🇪_DE_德国
   - 🇵🇱_PL_波兰_13
   - 🇵🇱_PL_波兰_14
   - 🇵🇱_PL_波兰_15
-  - 🇺🇸_US_美国_5
   - 🇵🇱_PL_波兰_16
   - 🇵🇱_PL_波兰_17
   - 🇵🇱_PL_波兰_18
   - 🇵🇱_PL_波兰_19
   - 🇵🇱_PL_波兰_20
   - 🇵🇱_PL_波兰_21
+  - 🇮🇷_IR_伊朗
   - 🇵🇱_PL_波兰_22
+  - 🇵🇱_PL_波兰_23
+  - 🇳🇱_NL_荷兰->🇬🇮_GI_直布罗陀
+  - 🇺🇸_US_美国_6
+  - 🇺🇸_US_美国_7
   - 🇺🇸_US_美国_8
   - 🇺🇸_US_美国_9
-  - 🇵🇱_PL_波兰_23
+  - 🇬🇧_GB_英国_3
   - 🇵🇱_PL_波兰_24
   - 🇵🇱_PL_波兰_25
-  - 🇩🇪_DE_德国
-  - 🇺🇸_US_美国->🇸🇪_SE_瑞典
   - 🇵🇱_PL_波兰_26
   - 🇵🇱_PL_波兰_27
-  - 🇵🇱_PL_波兰_28
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
