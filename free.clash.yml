@@ -2012,21 +2012,6 @@ proxies:
     path: /fdsffgfdgdfgdf
 - alterId: 0
   cipher: auto
-  name: 德国 014
-  network: ws
-  port: 80
-  server: de04.patrioticprincess.online
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 878596e1-ebfe-47e7-9e65-53e28ceffb6f
-  ws-opts:
-    headers:
-      Host: de04.patrioticprincess.online
-    path: /
-- alterId: 0
-  cipher: auto
   name: 加拿大 188
   network: ws
   port: 8080
@@ -2139,22 +2124,34 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - alterId: 64
   cipher: auto
-  delay: 1175
-  h2-opts: {}
-  http-opts: {}
-  name: 美国 075
+  name: 瑞典 003
   network: ws
-  port: 38004
-  server: 38.33.54.13
-  servername: www.25534476.xyz
+  port: 31000
+  server: 37.120.209.124
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 2a23dbd5-09cf-4aa8-a835-3230728c4973
+  udp: true
+  uuid: dc0cf22d-e35c-4b77-8924-977f6844909b
   ws-opts:
     headers:
-      HOST: www.25534476.xyz
-    path: /path/340434130032
+      Host: www.87867255.xyz
+    path: /path/191019072927
+- alterId: 0
+  cipher: auto
+  name: 加拿大 197
+  network: ws
+  port: 8880
+  server: server31.beheshtbaneh.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  ws-opts:
+    headers:
+      Host: server31.beheshtbaneh.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_1
@@ -2414,7 +2411,6 @@ proxy-groups:
   - 加拿大 185
   - 加拿大 186
   - 新加坡 014
-  - 德国 014
   - 加拿大 188
   - 加拿大 190
   - 加拿大 192
@@ -2422,7 +2418,8 @@ proxy-groups:
   - 加拿大 194
   - 加拿大 195
   - 加拿大 196
-  - 美国 075
+  - 瑞典 003
+  - 加拿大 197
   - 🇺🇸_US_美国_1
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国_3
@@ -2571,7 +2568,6 @@ proxy-groups:
   - 加拿大 185
   - 加拿大 186
   - 新加坡 014
-  - 德国 014
   - 加拿大 188
   - 加拿大 190
   - 加拿大 192
@@ -2579,7 +2575,8 @@ proxy-groups:
   - 加拿大 194
   - 加拿大 195
   - 加拿大 196
-  - 美国 075
+  - 瑞典 003
+  - 加拿大 197
   - 🇺🇸_US_美国_1
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国_3
