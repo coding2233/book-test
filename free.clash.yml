@@ -1912,18 +1912,6 @@ proxies:
     path: /iphone
 - alterId: 0
   cipher: auto
-  delay: 867
-  h2-opts: {}
-  http-opts: {}
-  name: 土耳其 001
-  network: tcp
-  port: 80
-  server: 85.117.236.74
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2b7ce1d2-0372-4104-aa06-f7d999f26e1d
-- alterId: 0
-  cipher: auto
   delay: 1771
   name: 加拿大 182
   network: ws
@@ -2010,7 +1998,7 @@ proxies:
   delay: 1327
   h2-opts: {}
   http-opts: {}
-  name: 新加坡 015
+  name: 新加坡 014
   network: ws
   port: 2096
   server: 47.236.237.90
@@ -2022,6 +2010,151 @@ proxies:
     headers:
       host: sg.baijia.cfd
     path: /fdsffgfdgdfgdf
+- alterId: 0
+  cipher: auto
+  name: 德国 014
+  network: ws
+  port: 80
+  server: de04.patrioticprincess.online
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 878596e1-ebfe-47e7-9e65-53e28ceffb6f
+  ws-opts:
+    headers:
+      Host: de04.patrioticprincess.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 188
+  network: ws
+  port: 8080
+  server: 104.19.47.207
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 加拿大 190
+  network: ws
+  port: 2052
+  server: 104.16.55.139
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: bf475e6c-a607-415e-a7f7-45c889320633
+  ws-opts:
+    headers:
+      Host: wtywwcrzjp5.yofnhkfc.xyz
+    path: /video/9TfVEyku
+- alterId: 0
+  cipher: auto
+  delay: 1478
+  name: 加拿大 192
+  network: ws
+  port: 8080
+  server: 104.26.9.22
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+  ws-opts:
+    headers:
+      Host: dual-nothing-prep-exit.trycloudflare.com
+    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+- alterId: 0
+  cipher: auto
+  delay: 813
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 193
+  network: ws
+  port: 8080
+  server: 104.19.38.28
+  servername: dual-nothing-prep-exit.trycloudflare.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+  ws-opts:
+    headers:
+      HOST: dual-nothing-prep-exit.trycloudflare.com
+    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+- alterId: 0
+  cipher: auto
+  delay: 971
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 194
+  network: ws
+  port: 8880
+  server: 104.19.21.24
+  servername: funk-england-indirect-gospel.trycloudflare.com
+  type: vmess
+  udp: true
+  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
+  ws-opts:
+    headers:
+      Host: funk-england-indirect-gospel.trycloudflare.com
+    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
+- alterId: 0
+  cipher: auto
+  delay: 1997
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 195
+  network: ws
+  port: 8443
+  server: 104.26.9.12
+  servername: funk-england-indirect-gospel.trycloudflare.com
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
+  ws-opts:
+    headers:
+      Host: funk-england-indirect-gospel.trycloudflare.com
+    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
+- alterId: 0
+  cipher: auto
+  delay: 921
+  name: 加拿大 196
+  network: ws
+  port: 8880
+  server: 104.19.38.28
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
+  ws-opts:
+    headers:
+      Host: funk-england-indirect-gospel.trycloudflare.com
+    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
+- alterId: 64
+  cipher: auto
+  delay: 1175
+  h2-opts: {}
+  http-opts: {}
+  name: 美国 075
+  network: ws
+  port: 38004
+  server: 38.33.54.13
+  servername: www.25534476.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 2a23dbd5-09cf-4aa8-a835-3230728c4973
+  ws-opts:
+    headers:
+      HOST: www.25534476.xyz
+    path: /path/340434130032
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_1
@@ -2275,13 +2408,21 @@ proxy-groups:
   - 加拿大 181
   - 俄罗斯 006
   - 俄罗斯 007
-  - 土耳其 001
   - 加拿大 182
   - 加拿大 183
   - 加拿大 184
   - 加拿大 185
   - 加拿大 186
-  - 新加坡 015
+  - 新加坡 014
+  - 德国 014
+  - 加拿大 188
+  - 加拿大 190
+  - 加拿大 192
+  - 加拿大 193
+  - 加拿大 194
+  - 加拿大 195
+  - 加拿大 196
+  - 美国 075
   - 🇺🇸_US_美国_1
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国_3
@@ -2424,13 +2565,21 @@ proxy-groups:
   - 加拿大 181
   - 俄罗斯 006
   - 俄罗斯 007
-  - 土耳其 001
   - 加拿大 182
   - 加拿大 183
   - 加拿大 184
   - 加拿大 185
   - 加拿大 186
-  - 新加坡 015
+  - 新加坡 014
+  - 德国 014
+  - 加拿大 188
+  - 加拿大 190
+  - 加拿大 192
+  - 加拿大 193
+  - 加拿大 194
+  - 加拿大 195
+  - 加拿大 196
+  - 美国 075
   - 🇺🇸_US_美国_1
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国_3
