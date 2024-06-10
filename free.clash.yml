@@ -2137,9 +2137,55 @@ proxies:
     headers:
       Host: server31.beheshtbaneh.com
     path: /
+- alterId: 2
+  cipher: auto
+  name: 加拿大 200
+  network: ws
+  port: 80
+  server: free.qdns.live
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ad6afad6-5659-3f25-9477-029735d5401c
+  ws-opts:
+    headers:
+      Host: free-us.qdns.live
+    path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
+  name: 加拿大 201
+  network: ws
+  port: 8080
+  server: 172.67.199.115
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇷🇺_RU_俄罗斯联邦
+  network: tcp
+  port: 55983
+  server: 46.17.41.197
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 034449ce-f7ad-4a51-8044-d677e80b2613
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_1
+  password: pKEW8JPByTVTLtM
+  port: 4444
+  server: 51.77.53.200
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_2
   network: ws
   port: 8880
   server: 104.19.38.28
@@ -2152,159 +2198,54 @@ proxies:
       host: funk-england-indirect-gospel.trycloudflare.com
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_1
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
   name: 🇵🇱_PL_波兰_2
-  password: g5MeD6Ft3CWlJId
-  port: 5004
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_3
-  password: FoOiGlkAA9yPEGP
-  port: 7307
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_4
-  password: e4FCWrgpkji3QY
-  port: 9101
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_5
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_6
   password: PCnnH6SQSnfoS27
   port: 8091
   server: 51.77.53.200
   type: ss
+- alterId: 64
+  cipher: auto
+  name: 🇳🇴_NO_挪威
+  network: ws
+  port: 443
+  server: 46.29.219.44
+  servername: www.19935376.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    path: /path/191019072927
 - cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_7
-  password: KixLvKzwjekG00rm
-  port: 5500
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_8
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_9
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_10
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_11
+  name: 🇵🇱_PL_波兰_3
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 51.77.53.200
   type: ss
 - cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_12
-  password: zDNVedRFPQexG9v
-  port: 6379
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_13
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_14
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_15
+  name: 🇵🇱_PL_波兰_4
   password: RexnBgU7EV5ADxG
   port: 7002
   server: 51.77.53.200
   type: ss
 - cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_16
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_17
-  password: pKEW8JPByTVTLtM
-  port: 4444
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_18
-  password: Y6R9pAtvxxzmGC
-  port: 3306
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-128-cfb
-  name: 🇺🇸_US_美国_2
-  password: shadowsocks
-  port: 443
-  server: 184.170.241.194
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸_US_美国_3
+  name: 🇵🇱_PL_波兰_5
   password: g5MeD6Ft3CWlJId
   port: 5004
-  server: 38.114.114.207
+  server: 51.77.53.200
   type: ss
 - cipher: aes-256-gcm
-  name: 🇺🇸_US_美国_4
-  password: pKEW8JPByTVTLtM
-  port: 4444
-  server: 38.114.114.207
+  name: 🇵🇱_PL_波兰_6
+  password: KixLvKzwjekG00rm
+  port: 5500
+  server: 51.77.53.200
   type: ss
 - cipher: aes-256-gcm
-  name: 🇺🇸_US_美国_5
+  name: 🇵🇱_PL_波兰_7
   password: TEzjfAYq2IjtuoS
   port: 6679
-  server: 69.50.93.111
+  server: 51.77.53.200
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸_US_美国_6
-  password: 6zR3sBYJKITEneGjgvi7Vl
-  port: 443
-  server: 23.26.133.154
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸_US_美国_7
-  password: pKEW8JPByTVTLtM
-  port: 443
-  server: 38.114.114.207
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_8
-  network: http
-  port: 3389
-  server: 64.176.15.74
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国->🇵🇹_PT_葡萄牙
@@ -2319,9 +2260,41 @@ proxies:
     headers:
       host: dl3.mrarsha.邁達安.iron.鐵面具.dog垃圾場狗.巴黎之下.suonycars.buzz.
     path: /etc
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_8
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-128-cfb
+  name: 🇺🇸_US_美国_4
+  password: shadowsocks
+  port: 443
+  server: 184.170.241.194
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸_US_美国_5
+  password: fLAIbz76BnOmJ6HNuK2qvm
+  port: 80
+  server: 172.233.51.128
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
+  name: 🇺🇸_US_美国_6
+  network: ws
+  port: 2095
+  server: russia.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 4b05abf5-c68d-4ffc-915f-add2f3786dca
+  ws-opts:
+    headers:
+      host: sssub.v2.001.ssrsub.com
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   network: ws
   port: 8080
   server: 172.64.97.235
@@ -2335,7 +2308,7 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
   network: ws
   port: 8080
   server: 104.26.9.22
@@ -2349,18 +2322,34 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  name: 🇷🇺_RU_俄罗斯联邦_1
-  network: ws
-  port: 54321
-  server: 46.17.41.161
+  name: 🇺🇸_US_美国_7
+  network: http
+  port: 3389
+  server: 64.176.15.74
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 38a7f467-f1c8-4392-a6e9-0ed23e93775c
-  ws-opts:
-    path: /iphone
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_9
+  password: e4FCWrgpkji3QY
+  port: 9102
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_10
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_11
+  password: Y6R9pAtvxxzmGC
+  port: 3306
+  server: 51.77.53.200
+  type: ss
 - alterId: 0
-  cipher: none
+  cipher: auto
   name: 🇺🇸_US_美国_9
   network: ws
   port: 80
@@ -2373,96 +2362,106 @@ proxies:
     headers:
       host: De2.vmess.site.
     path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_10
-  network: ws
-  port: 2095
-  server: russia.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 4b05abf5-c68d-4ffc-915f-add2f3786dca
-  ws-opts:
-    headers:
-      host: sssub.v2.001.ssrsub.com
-    path: /api/v3/download.getFile
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_12
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇩🇪_DE_德国_1
+  password: BNmAXXxAHYpTRdzu
+  port: 9020
+  server: 80.92.204.106
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇩🇪_DE_德国_2
+  password: ZpNDDKRu9MagNvaf
+  port: 9015
+  server: 80.92.204.106
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_13
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_14
+  password: XKFKl2rULjIp74
+  port: 8009
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_15
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_16
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_17
+  password: Y6R9pAtvxxzmGC
+  port: 5000
+  server: 51.77.53.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇱_PL_波兰_18
+  password: e4FCWrgpkji3QY
+  port: 9101
+  server: 51.77.53.200
+  type: ss
 - cipher: aes-256-gcm
   name: 🇵🇱_PL_波兰_19
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 51.77.53.200
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧_GB_英国
-  password: aXuV8k5a4NFmkphgr5NTlL
-  port: 52338
-  server: 89.185.84.185
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_20
-  password: e4FCWrgpkji3QY
-  port: 9102
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_21
   password: Y6R9pAtvxxzmGC
   port: 3389
   server: 51.77.53.200
   type: ss
 - cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_22
-  password: XKFKl2rULjIp74
-  port: 8009
+  name: 🇵🇱_PL_波兰_20
+  password: kDWvXYZoTBcGkC4
+  port: 8882
   server: 51.77.53.200
   type: ss
 - alterId: 0
   cipher: auto
-  name: 🇷🇺_RU_俄罗斯联邦_2
-  network: ws
-  port: 54321
-  server: eedp257bubu2wefy2.lovebaipiao.net
-  servername: eedp257bubu2wefy2.lovebaipiao.net
+  name: 🇮🇷_IR_伊朗
+  network: tcp
+  port: 1000
+  server: 188.212.96.59
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: ae840eaa-21a3-462c-8dc8-f5eded625799
-  ws-opts:
-    path: /iphone
+  uuid: 7926eb47-8a42-45f8-abb4-cc4d756bf4c0
 - alterId: 0
   cipher: auto
-  name: 🇷🇺_RU_俄罗斯联邦_3
-  network: ws
-  port: 54321
-  server: eedp257bubu2wefy.lovebaipiao.net
+  name: 🇷🇺_RU_俄罗斯联邦->🇳🇱_NL_荷兰
+  network: tcp
+  port: 12307
+  server: 5.182.86.28
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 38a7f467-f1c8-4392-a6e9-0ed23e93775c
-  ws-opts:
-    path: /iphone
+  uuid: 9ad4e318-03fc-4e3b-e0ab-d86d2017de71
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇩🇪_DE_德国_2
+  name: 🇺🇸_US_美国->🇫🇷_FR_法国
   network: ws
-  port: 443
-  server: cdnjs.com
-  servername: hdfy1c3.iraniancpi.uk
+  port: 2082
+  server: 104.21.8.157
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vmess
-  uuid: 6b880b07-e952-4c0b-b4a3-6c9ac4cf9d3f
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
   ws-opts:
     headers:
-      host: hdfy1c3.iraniancpi.uk
-    path: /QvtvPdDXXIlSdZMqnuxG
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_23
-  password: Y6R9pAtvxxzmGC
-  port: 5000
-  server: 51.77.53.200
-  type: ss
+      host: s1c.v2.v001sss.xyz
+    path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
@@ -2605,47 +2604,44 @@ proxy-groups:
   - 加拿大 195
   - 瑞典 003
   - 加拿大 196
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
+  - 加拿大 200
+  - 加拿大 201
+  - 🇷🇺_RU_俄罗斯联邦
   - 🇵🇱_PL_波兰_1
+  - 🇺🇸_US_美国_2
   - 🇵🇱_PL_波兰_2
+  - 🇳🇴_NO_挪威
   - 🇵🇱_PL_波兰_3
   - 🇵🇱_PL_波兰_4
   - 🇵🇱_PL_波兰_5
   - 🇵🇱_PL_波兰_6
   - 🇵🇱_PL_波兰_7
+  - 🇺🇸_US_美国->🇵🇹_PT_葡萄牙
   - 🇵🇱_PL_波兰_8
+  - 🇺🇸_US_美国_4
+  - 🇺🇸_US_美国_5
+  - 🇺🇸_US_美国_6
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
+  - 🇺🇸_US_美国_7
   - 🇵🇱_PL_波兰_9
   - 🇵🇱_PL_波兰_10
   - 🇵🇱_PL_波兰_11
+  - 🇺🇸_US_美国_9
   - 🇵🇱_PL_波兰_12
+  - 🇩🇪_DE_德国_1
+  - 🇩🇪_DE_德国_2
   - 🇵🇱_PL_波兰_13
   - 🇵🇱_PL_波兰_14
   - 🇵🇱_PL_波兰_15
   - 🇵🇱_PL_波兰_16
   - 🇵🇱_PL_波兰_17
   - 🇵🇱_PL_波兰_18
-  - 🇺🇸_US_美国_2
-  - 🇺🇸_US_美国_3
-  - 🇺🇸_US_美国_4
-  - 🇺🇸_US_美国_5
-  - 🇺🇸_US_美国_6
-  - 🇺🇸_US_美国_7
-  - 🇺🇸_US_美国_8
-  - 🇺🇸_US_美国->🇵🇹_PT_葡萄牙
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
-  - 🇷🇺_RU_俄罗斯联邦_1
-  - 🇺🇸_US_美国_9
-  - 🇺🇸_US_美国_10
   - 🇵🇱_PL_波兰_19
-  - 🇬🇧_GB_英国
   - 🇵🇱_PL_波兰_20
-  - 🇵🇱_PL_波兰_21
-  - 🇵🇱_PL_波兰_22
-  - 🇷🇺_RU_俄罗斯联邦_2
-  - 🇷🇺_RU_俄罗斯联邦_3
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2
-  - 🇵🇱_PL_波兰_23
+  - 🇮🇷_IR_伊朗
+  - 🇷🇺_RU_俄罗斯联邦->🇳🇱_NL_荷兰
+  - 🇺🇸_US_美国->🇫🇷_FR_法国
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -2786,47 +2782,44 @@ proxy-groups:
   - 加拿大 195
   - 瑞典 003
   - 加拿大 196
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
+  - 加拿大 200
+  - 加拿大 201
+  - 🇷🇺_RU_俄罗斯联邦
   - 🇵🇱_PL_波兰_1
+  - 🇺🇸_US_美国_2
   - 🇵🇱_PL_波兰_2
+  - 🇳🇴_NO_挪威
   - 🇵🇱_PL_波兰_3
   - 🇵🇱_PL_波兰_4
   - 🇵🇱_PL_波兰_5
   - 🇵🇱_PL_波兰_6
   - 🇵🇱_PL_波兰_7
+  - 🇺🇸_US_美国->🇵🇹_PT_葡萄牙
   - 🇵🇱_PL_波兰_8
+  - 🇺🇸_US_美国_4
+  - 🇺🇸_US_美国_5
+  - 🇺🇸_US_美国_6
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
+  - 🇺🇸_US_美国_7
   - 🇵🇱_PL_波兰_9
   - 🇵🇱_PL_波兰_10
   - 🇵🇱_PL_波兰_11
+  - 🇺🇸_US_美国_9
   - 🇵🇱_PL_波兰_12
+  - 🇩🇪_DE_德国_1
+  - 🇩🇪_DE_德国_2
   - 🇵🇱_PL_波兰_13
   - 🇵🇱_PL_波兰_14
   - 🇵🇱_PL_波兰_15
   - 🇵🇱_PL_波兰_16
   - 🇵🇱_PL_波兰_17
   - 🇵🇱_PL_波兰_18
-  - 🇺🇸_US_美国_2
-  - 🇺🇸_US_美国_3
-  - 🇺🇸_US_美国_4
-  - 🇺🇸_US_美国_5
-  - 🇺🇸_US_美国_6
-  - 🇺🇸_US_美国_7
-  - 🇺🇸_US_美国_8
-  - 🇺🇸_US_美国->🇵🇹_PT_葡萄牙
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
-  - 🇷🇺_RU_俄罗斯联邦_1
-  - 🇺🇸_US_美国_9
-  - 🇺🇸_US_美国_10
   - 🇵🇱_PL_波兰_19
-  - 🇬🇧_GB_英国
   - 🇵🇱_PL_波兰_20
-  - 🇵🇱_PL_波兰_21
-  - 🇵🇱_PL_波兰_22
-  - 🇷🇺_RU_俄罗斯联邦_2
-  - 🇷🇺_RU_俄罗斯联邦_3
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2
-  - 🇵🇱_PL_波兰_23
+  - 🇮🇷_IR_伊朗
+  - 🇷🇺_RU_俄罗斯联邦->🇳🇱_NL_荷兰
+  - 🇺🇸_US_美国->🇫🇷_FR_法国
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
