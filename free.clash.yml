@@ -210,7 +210,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 加拿大 022
+  name: 加拿大 021
   network: ws
   port: 80
   server: 172.67.71.160
@@ -225,7 +225,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 加拿大 023
+  name: 加拿大 022
   network: ws
   port: 8080
   server: 104.18.202.232
@@ -260,7 +260,7 @@ proxies:
   delay: 1655
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 024
+  name: 加拿大 023
   network: ws
   port: 2095
   server: 104.18.202.232
@@ -294,7 +294,7 @@ proxies:
   delay: 1385
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 025
+  name: 加拿大 024
   network: ws
   port: 2095
   server: 104.25.84.14
@@ -311,7 +311,7 @@ proxies:
   delay: 998
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 026
+  name: 加拿大 025
   network: ws
   port: 2052
   server: 104.16.213.71
@@ -328,7 +328,7 @@ proxies:
   delay: 2031
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 027
+  name: 加拿大 026
   network: ws
   port: 2095
   server: 104.25.82.84
@@ -345,7 +345,7 @@ proxies:
   delay: 969
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 028
+  name: 加拿大 027
   network: ws
   port: 80
   server: 162.159.152.215
@@ -362,7 +362,7 @@ proxies:
   delay: 1006
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 029
+  name: 加拿大 028
   network: ws
   port: 80
   server: 162.159.134.190
@@ -379,7 +379,7 @@ proxies:
   delay: 933
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 030
+  name: 加拿大 029
   network: ws
   port: 80
   server: 162.159.136.196
@@ -411,7 +411,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 加拿大 034
+  name: 加拿大 033
   network: ws
   port: 2052
   server: 172.67.144.2
@@ -426,7 +426,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 加拿大 035
+  name: 加拿大 034
   network: ws
   port: 2095
   server: 104.16.60.8
@@ -441,7 +441,7 @@ proxies:
     path: /obdii.cfd/linkws
 - alterId: 0
   cipher: auto
-  name: 加拿大 036
+  name: 加拿大 035
   network: ws
   port: 2095
   server: 104.16.67.38
@@ -456,7 +456,7 @@ proxies:
     path: /glweidf.sbs/linkws
 - alterId: 0
   cipher: auto
-  name: 加拿大 038
+  name: 加拿大 037
   network: ws
   port: 2052
   server: 104.17.16.37
@@ -492,7 +492,7 @@ proxies:
   delay: 2071
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 039
+  name: 加拿大 038
   network: ws
   port: 8080
   server: 104.16.67.38
@@ -509,7 +509,7 @@ proxies:
   delay: 1063
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 040
+  name: 加拿大 039
   network: ws
   port: 80
   server: 162.159.137.115
@@ -526,7 +526,7 @@ proxies:
   delay: 1267
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 041
+  name: 加拿大 040
   network: ws
   port: 2086
   server: 104.24.79.182
@@ -560,7 +560,7 @@ proxies:
   delay: 1297
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 042
+  name: 加拿大 041
   network: ws
   port: 80
   server: 104.24.201.59
@@ -577,7 +577,7 @@ proxies:
   delay: 1348
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 043
+  name: 加拿大 042
   network: ws
   port: 80
   server: 104.25.198.194
@@ -594,7 +594,7 @@ proxies:
   delay: 1395
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 044
+  name: 加拿大 043
   network: ws
   port: 8880
   server: 104.24.184.144
@@ -611,7 +611,7 @@ proxies:
   delay: 954
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 045
+  name: 加拿大 044
   network: ws
   port: 2095
   server: 104.16.210.120
@@ -625,7 +625,7 @@ proxies:
     path: /dabai.in104.16.210.120
 - alterId: 0
   cipher: auto
-  name: 加拿大 046
+  name: 加拿大 045
   network: ws
   port: 8080
   server: 104.19.47.153
@@ -640,7 +640,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 加拿大 047
+  name: 加拿大 046
   network: ws
   port: 8080
   server: 104.19.47.238
@@ -655,7 +655,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 加拿大 048
+  name: 加拿大 047
   network: ws
   port: 2052
   server: yx1.gyyun.top
@@ -674,7 +674,7 @@ proxies:
   delay: 1343
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 050
+  name: 加拿大 049
   network: ws
   port: 2086
   server: 104.16.68.38
@@ -689,7 +689,7 @@ proxies:
 - alterId: 0
   cipher: auto
   delay: 1771
-  name: 加拿大 056
+  name: 加拿大 055
   network: ws
   port: 2082
   server: www.speedtest.net
@@ -723,7 +723,7 @@ proxies:
   delay: 971
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 057
+  name: 加拿大 056
   network: ws
   port: 8880
   server: 104.19.21.24
@@ -738,7 +738,7 @@ proxies:
 - alterId: 0
   cipher: auto
   delay: 921
-  name: 加拿大 058
+  name: 加拿大 057
   network: ws
   port: 8880
   server: 104.19.38.28
@@ -755,7 +755,7 @@ proxies:
   delay: 1732
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 060
+  name: 加拿大 059
   network: ws
   port: 8080
   server: 104.19.47.180
@@ -772,7 +772,7 @@ proxies:
   delay: 2117
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 061
+  name: 加拿大 060
   network: ws
   port: 80
   server: 104.19.33.249
@@ -786,23 +786,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 加拿大 064
-  network: ws
-  port: 80
-  server: 104.18.14.19
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 4e63f0da-80ff-4b1e-8f68-80158ad0ff2a
-  ws-opts:
-    headers:
-      Host: thus-appliance-passenger-shoes.trycloudflare.com
-    path: 4e63f0da
-- alterId: 0
-  cipher: auto
-  name: 美国 050
+  name: 美国 048
   network: ws
   port: 8080
   server: 148.135.40.190
@@ -815,6 +799,66 @@ proxies:
     headers:
       Host: 148.135.40.190
     path: /index?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 西班牙 002
+  network: ws
+  port: 443
+  server: es-full.privateip.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 94d17cfe-3697-4a9c-afd9-dfb9137c5a3f
+  ws-opts:
+    headers:
+      Host: es-full.privateip.net
+    path: /RACEVPN
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  delay: 1798
+  name: 加拿大 067
+  network: ws
+  port: 8080
+  server: cfcdn1.sanfencdn9.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: a91c3fbf-0a68-474b-ac24-bf801db981f6
+  ws-opts:
+    headers:
+      Host: us5PhAx6xsj.fzbqfrse.xyz
+    path: /video/f8ZKTGaGoC/
+- alterId: 0
+  cipher: auto
+  name: 加拿大 069
+  network: ws
+  port: 2095
+  server: russia.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 64a57b5f-45e0-40c3-8316-97d0ff53fd96
+  ws-opts:
+    headers:
+      host: sssub.v2.001.ssrsub.com
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: 加拿大 070
+  network: ws
+  port: 8880
+  server: russia.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 64a57b5f-45e0-40c3-8316-97d0ff53fd96
+  ws-opts:
+    headers:
+      host: sssub.v2.001.ssrsub.com
+    path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_1
@@ -1147,43 +1191,46 @@ proxy-groups:
   - 加拿大 014
   - 加拿大 015
   - 加拿大 017
+  - 加拿大 021
   - 加拿大 022
-  - 加拿大 023
   - 智利 001
-  - 加拿大 024
+  - 加拿大 023
   - 瑞典 001
+  - 加拿大 024
   - 加拿大 025
   - 加拿大 026
   - 加拿大 027
   - 加拿大 028
   - 加拿大 029
-  - 加拿大 030
   - 英国 004
+  - 加拿大 033
   - 加拿大 034
   - 加拿大 035
-  - 加拿大 036
-  - 加拿大 038
+  - 加拿大 037
   - 荷兰 005
+  - 加拿大 038
   - 加拿大 039
   - 加拿大 040
-  - 加拿大 041
   - 德国 007
+  - 加拿大 041
   - 加拿大 042
   - 加拿大 043
   - 加拿大 044
   - 加拿大 045
   - 加拿大 046
   - 加拿大 047
-  - 加拿大 048
-  - 加拿大 050
-  - 加拿大 056
+  - 加拿大 049
+  - 加拿大 055
   - 新加坡 006
+  - 加拿大 056
   - 加拿大 057
-  - 加拿大 058
+  - 加拿大 059
   - 加拿大 060
-  - 加拿大 061
-  - 加拿大 064
-  - 美国 050
+  - 美国 048
+  - 西班牙 002
+  - 加拿大 067
+  - 加拿大 069
+  - 加拿大 070
   - 🇺🇸_US_美国_1
   - 🇵🇱_PL_波兰_1
   - 🇬🇧_GB_英国
@@ -1241,43 +1288,46 @@ proxy-groups:
   - 加拿大 014
   - 加拿大 015
   - 加拿大 017
+  - 加拿大 021
   - 加拿大 022
-  - 加拿大 023
   - 智利 001
-  - 加拿大 024
+  - 加拿大 023
   - 瑞典 001
+  - 加拿大 024
   - 加拿大 025
   - 加拿大 026
   - 加拿大 027
   - 加拿大 028
   - 加拿大 029
-  - 加拿大 030
   - 英国 004
+  - 加拿大 033
   - 加拿大 034
   - 加拿大 035
-  - 加拿大 036
-  - 加拿大 038
+  - 加拿大 037
   - 荷兰 005
+  - 加拿大 038
   - 加拿大 039
   - 加拿大 040
-  - 加拿大 041
   - 德国 007
+  - 加拿大 041
   - 加拿大 042
   - 加拿大 043
   - 加拿大 044
   - 加拿大 045
   - 加拿大 046
   - 加拿大 047
-  - 加拿大 048
-  - 加拿大 050
-  - 加拿大 056
+  - 加拿大 049
+  - 加拿大 055
   - 新加坡 006
+  - 加拿大 056
   - 加拿大 057
-  - 加拿大 058
+  - 加拿大 059
   - 加拿大 060
-  - 加拿大 061
-  - 加拿大 064
-  - 美国 050
+  - 美国 048
+  - 西班牙 002
+  - 加拿大 067
+  - 加拿大 069
+  - 加拿大 070
   - 🇺🇸_US_美国_1
   - 🇵🇱_PL_波兰_1
   - 🇬🇧_GB_英国
