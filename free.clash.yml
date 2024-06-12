@@ -291,61 +291,10 @@ proxies:
     path: /shop
 - alterId: 0
   cipher: auto
-  delay: 1385
-  h2-opts: {}
-  http-opts: {}
-  name: 加拿大 024
-  network: ws
-  port: 2095
-  server: 104.25.84.14
-  servername: 100-100-17-276.cn-db.top
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2be5f070-1c5e-359f-a6e6-f2499bfc6c54
-  ws-opts:
-    headers:
-      HOST: 100-100-17-276.cn-db.top
-    path: /dabai.in104.25.84.14
-- alterId: 0
-  cipher: auto
-  delay: 998
-  h2-opts: {}
-  http-opts: {}
-  name: 加拿大 025
-  network: ws
-  port: 2052
-  server: 104.16.213.71
-  servername: 100-100-17-158.db-link01.top
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2be5f070-1c5e-359f-a6e6-f2499bfc6c54
-  ws-opts:
-    headers:
-      HOST: 100-100-17-158.db-link01.top
-    path: /dabai.in104.16.213.71
-- alterId: 0
-  cipher: auto
-  delay: 2031
-  h2-opts: {}
-  http-opts: {}
-  name: 加拿大 026
-  network: ws
-  port: 2095
-  server: 104.25.82.84
-  servername: 100-100-17-193.db-link02.top
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2be5f070-1c5e-359f-a6e6-f2499bfc6c54
-  ws-opts:
-    headers:
-      HOST: 100-100-17-193.db-link02.top
-    path: /dabai.in104.25.82.84
-- alterId: 0
-  cipher: auto
   delay: 969
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 027
+  name: 加拿大 024
   network: ws
   port: 80
   server: 162.159.152.215
@@ -362,7 +311,7 @@ proxies:
   delay: 1006
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 028
+  name: 加拿大 025
   network: ws
   port: 80
   server: 162.159.134.190
@@ -376,42 +325,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  delay: 933
-  h2-opts: {}
-  http-opts: {}
   name: 加拿大 029
-  network: ws
-  port: 80
-  server: 162.159.136.196
-  servername: rn2.hostmjj.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 5820093a-bb7d-4e15-8575-1a529f2d8282
-  ws-opts:
-    headers:
-      HOST: rn2.hostmjj.com
-    path: /
-- alterId: 0
-  cipher: auto
-  delay: 1668
-  h2-opts: {}
-  http-opts: {}
-  name: 英国 004
-  network: ws
-  port: 443
-  server: 149.7.16.174
-  servername: 149.7.16.174
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      HOST: 149.7.16.174
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 加拿大 033
   network: ws
   port: 2052
   server: 172.67.144.2
@@ -426,7 +340,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 加拿大 034
+  name: 加拿大 030
   network: ws
   port: 2095
   server: 104.16.60.8
@@ -441,7 +355,7 @@ proxies:
     path: /obdii.cfd/linkws
 - alterId: 0
   cipher: auto
-  name: 加拿大 035
+  name: 加拿大 031
   network: ws
   port: 2095
   server: 104.16.67.38
@@ -456,7 +370,7 @@ proxies:
     path: /glweidf.sbs/linkws
 - alterId: 0
   cipher: auto
-  name: 加拿大 037
+  name: 加拿大 033
   network: ws
   port: 2052
   server: 104.17.16.37
@@ -492,7 +406,7 @@ proxies:
   delay: 2071
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 038
+  name: 加拿大 034
   network: ws
   port: 8080
   server: 104.16.67.38
@@ -509,7 +423,7 @@ proxies:
   delay: 1063
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 039
+  name: 加拿大 035
   network: ws
   port: 80
   server: 162.159.137.115
@@ -526,7 +440,7 @@ proxies:
   delay: 1267
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 040
+  name: 加拿大 036
   network: ws
   port: 2086
   server: 104.24.79.182
@@ -560,7 +474,7 @@ proxies:
   delay: 1297
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 041
+  name: 加拿大 037
   network: ws
   port: 80
   server: 104.24.201.59
@@ -577,7 +491,7 @@ proxies:
   delay: 1348
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 042
+  name: 加拿大 038
   network: ws
   port: 80
   server: 104.25.198.194
@@ -594,7 +508,7 @@ proxies:
   delay: 1395
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 043
+  name: 加拿大 039
   network: ws
   port: 8880
   server: 104.24.184.144
@@ -611,7 +525,7 @@ proxies:
   delay: 954
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 044
+  name: 加拿大 040
   network: ws
   port: 2095
   server: 104.16.210.120
@@ -625,7 +539,7 @@ proxies:
     path: /dabai.in104.16.210.120
 - alterId: 0
   cipher: auto
-  name: 加拿大 045
+  name: 加拿大 041
   network: ws
   port: 8080
   server: 104.19.47.153
@@ -640,7 +554,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 加拿大 046
+  name: 加拿大 042
   network: ws
   port: 8080
   server: 104.19.47.238
@@ -655,7 +569,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 加拿大 047
+  name: 加拿大 043
   network: ws
   port: 2052
   server: yx1.gyyun.top
@@ -674,7 +588,7 @@ proxies:
   delay: 1343
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 049
+  name: 加拿大 045
   network: ws
   port: 2086
   server: 104.16.68.38
@@ -689,7 +603,7 @@ proxies:
 - alterId: 0
   cipher: auto
   delay: 1771
-  name: 加拿大 055
+  name: 加拿大 051
   network: ws
   port: 2082
   server: www.speedtest.net
@@ -723,7 +637,7 @@ proxies:
   delay: 971
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 056
+  name: 加拿大 052
   network: ws
   port: 8880
   server: 104.19.21.24
@@ -738,7 +652,7 @@ proxies:
 - alterId: 0
   cipher: auto
   delay: 921
-  name: 加拿大 057
+  name: 加拿大 053
   network: ws
   port: 8880
   server: 104.19.38.28
@@ -755,7 +669,7 @@ proxies:
   delay: 1732
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 059
+  name: 加拿大 055
   network: ws
   port: 8080
   server: 104.19.47.180
@@ -772,7 +686,7 @@ proxies:
   delay: 2117
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 060
+  name: 加拿大 056
   network: ws
   port: 80
   server: 104.19.33.249
@@ -786,22 +700,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 美国 048
-  network: ws
-  port: 8080
-  server: 148.135.40.190
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f9808413-8b12-42ea-86ff-a0af6727a0e8
-  ws-opts:
-    headers:
-      Host: 148.135.40.190
-    path: /index?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 西班牙 002
+  name: 西班牙 001
   network: ws
   port: 443
   server: es-full.privateip.net
@@ -817,52 +716,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  delay: 1798
-  name: 加拿大 067
-  network: ws
-  port: 8080
-  server: cfcdn1.sanfencdn9.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: a91c3fbf-0a68-474b-ac24-bf801db981f6
-  ws-opts:
-    headers:
-      Host: us5PhAx6xsj.fzbqfrse.xyz
-    path: /video/f8ZKTGaGoC/
-- alterId: 0
-  cipher: auto
-  name: 加拿大 069
-  network: ws
-  port: 2095
-  server: russia.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 64a57b5f-45e0-40c3-8316-97d0ff53fd96
-  ws-opts:
-    headers:
-      host: sssub.v2.001.ssrsub.com
-    path: /api/v3/download.getFile
-- alterId: 0
-  cipher: auto
-  name: 加拿大 070
-  network: ws
-  port: 8880
-  server: russia.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 64a57b5f-45e0-40c3-8316-97d0ff53fd96
-  ws-opts:
-    headers:
-      host: sssub.v2.001.ssrsub.com
-    path: /api/v3/download.getFile
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 加拿大 071
+  name: 加拿大 060
   network: ws
   port: 80
   server: 104.18.14.19
@@ -875,42 +729,33 @@ proxies:
     headers:
       Host: thus-appliance-passenger-shoes.trycloudflare.com
     path: 4e63f0da
-- alterId: 32
+- alterId: 0
   cipher: auto
-  name: 美国 063
+  name: 韩国 026
   network: tcp
-  port: 443
-  server: 51.81.223.29
+  port: 41001
+  server: bgroup.node2.v.nodelist-gfwairport2.top
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
+  uuid: 2155145a-b1b5-443a-8977-670f6bd10f02
   ws-headers:
-    Host: 51.81.223.29
-- alterId: 32
+    Host: bgroup.node2.v.nodelist-gfwairport2.top
+- alterId: 0
   cipher: auto
-  name: 美国 064
-  network: tcp
-  port: 443
-  server: 51.81.223.19
+  name: 加拿大 065
+  network: ws
+  port: 80
+  server: 188.114.97.3
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
-  ws-headers:
-    Host: 51.81.223.19
-- alterId: 32
-  cipher: auto
-  name: 美国 065
-  network: tcp
-  port: 443
-  server: 51.81.223.0
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
-  ws-headers:
-    Host: 51.81.223.0
+  udp: true
+  uuid: e0e2e209-6626-484b-8895-39202961ce90
+  ws-opts:
+    headers:
+      Host: Fr2.vmess.site.
+    path: /vmess
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国->🇩🇪_DE_德国_2
@@ -1167,43 +1012,33 @@ proxy-groups:
   - 瑞典 001
   - 加拿大 024
   - 加拿大 025
-  - 加拿大 026
-  - 加拿大 027
-  - 加拿大 028
   - 加拿大 029
-  - 英国 004
+  - 加拿大 030
+  - 加拿大 031
   - 加拿大 033
+  - 荷兰 005
   - 加拿大 034
   - 加拿大 035
+  - 加拿大 036
+  - 德国 007
   - 加拿大 037
-  - 荷兰 005
   - 加拿大 038
   - 加拿大 039
   - 加拿大 040
-  - 德国 007
   - 加拿大 041
   - 加拿大 042
   - 加拿大 043
-  - 加拿大 044
   - 加拿大 045
-  - 加拿大 046
-  - 加拿大 047
-  - 加拿大 049
-  - 加拿大 055
+  - 加拿大 051
   - 新加坡 006
+  - 加拿大 052
+  - 加拿大 053
+  - 加拿大 055
   - 加拿大 056
-  - 加拿大 057
-  - 加拿大 059
+  - 西班牙 001
   - 加拿大 060
-  - 美国 048
-  - 西班牙 002
-  - 加拿大 067
-  - 加拿大 069
-  - 加拿大 070
-  - 加拿大 071
-  - 美国 063
-  - 美国 064
-  - 美国 065
+  - 韩国 026
+  - 加拿大 065
   - 🇺🇸_US_美国->🇩🇪_DE_德国_2
   - 🇵🇱_PL_波兰_1
   - 🇵🇱_PL_波兰_2
@@ -1254,43 +1089,33 @@ proxy-groups:
   - 瑞典 001
   - 加拿大 024
   - 加拿大 025
-  - 加拿大 026
-  - 加拿大 027
-  - 加拿大 028
   - 加拿大 029
-  - 英国 004
+  - 加拿大 030
+  - 加拿大 031
   - 加拿大 033
+  - 荷兰 005
   - 加拿大 034
   - 加拿大 035
+  - 加拿大 036
+  - 德国 007
   - 加拿大 037
-  - 荷兰 005
   - 加拿大 038
   - 加拿大 039
   - 加拿大 040
-  - 德国 007
   - 加拿大 041
   - 加拿大 042
   - 加拿大 043
-  - 加拿大 044
   - 加拿大 045
-  - 加拿大 046
-  - 加拿大 047
-  - 加拿大 049
-  - 加拿大 055
+  - 加拿大 051
   - 新加坡 006
+  - 加拿大 052
+  - 加拿大 053
+  - 加拿大 055
   - 加拿大 056
-  - 加拿大 057
-  - 加拿大 059
+  - 西班牙 001
   - 加拿大 060
-  - 美国 048
-  - 西班牙 002
-  - 加拿大 067
-  - 加拿大 069
-  - 加拿大 070
-  - 加拿大 071
-  - 美国 063
-  - 美国 064
-  - 美国 065
+  - 韩国 026
+  - 加拿大 065
   - 🇺🇸_US_美国->🇩🇪_DE_德国_2
   - 🇵🇱_PL_波兰_1
   - 🇵🇱_PL_波兰_2
