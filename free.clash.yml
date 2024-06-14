@@ -1347,42 +1347,6 @@ proxies:
     headers:
       host: Uk2.vmess.site.
     path: /vmess @hopev2ray
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇦_CA_加拿大_1
-  password: qkotZ0f94vUH38YhrXGkUd
-  port: 443
-  server: ca.yangon.club
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇺🇸_US_美国_3
-  password: amazonskr05
-  port: 443
-  server: 54.218.48.199
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇬🇧_GB_英国_1
-  password: shadowsocks
-  port: 443
-  server: 212.102.53.80
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_1
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_2
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-128-cfb
-  name: 🇺🇸_US_美国_4
-  password: shadowsocks
-  port: 443
-  server: 184.170.241.194
-  type: ss
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
@@ -1397,12 +1361,6 @@ proxies:
     headers:
       host: funk-england-indirect-gospel.trycloudflare.com
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_3
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 51.77.53.200
-  type: ss
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_5
@@ -1427,30 +1385,6 @@ proxies:
     headers:
       host: dual-nothing-prep-exit.trycloudflare.com
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_4
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_5
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_6
-  password: Y6R9pAtvxxzmGC
-  port: 3306
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_7
-  password: KixLvKzwjekG00rm
-  port: 8000
-  server: 51.77.53.200
-  type: ss
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_6
@@ -1465,30 +1399,6 @@ proxies:
     headers:
       host: sssub.v2.001.ssrsub.com
     path: /api/v3/download.getFile
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_8
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_9
-  password: Y6R9pAtvxxzmGC
-  port: 5601
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_10
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇬🇧_GB_英国_2
-  password: shadowsocks
-  port: 443
-  server: 212.102.53.196
-  type: ss
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_7
@@ -1503,72 +1413,6 @@ proxies:
     headers:
       host: sssub.v2.001.ssrsub.com
     path: /api/v3/download.getFile
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_11
-  password: zDNVedRFPQexG9v
-  port: 6379
-  server: 51.77.53.200
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸_US_美国_8
-  password: zGLrOR92Jh0mhaqrpZBcKU
-  port: 80
-  server: 172.232.37.114
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_12
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_13
-  password: e4FCWrgpkji3QY
-  port: 9102
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_14
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_15
-  password: e4FCWrgpkji3QY
-  port: 9101
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_16
-  password: kDWvXYZoTBcGkC4
-  port: 8881
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_17
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_18
-  password: FoOiGlkAA9yPEGP
-  port: 7307
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_19
-  password: Y6R9pAtvxxzmGC
-  port: 5000
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_20
-  password: pKEW8JPByTVTLtM
-  port: 4444
-  server: 51.77.53.200
-  type: ss
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国->🇦🇹_AT_奥地利
@@ -1583,30 +1427,6 @@ proxies:
     headers:
       host: gulasch.online
     path: /
-- cipher: 2022-blake3-chacha20-poly1305
-  name: 🇦🇱_AL_阿尔巴尼亚
-  password: 7/bb9x3TJQ4Y5SRA/Al3OdwxIk4uf3Jg8N9wDQg+Uto=
-  port: 11223
-  server: 109.104.152.186
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇦_CA_加拿大_2
-  password: qkotZ0f94vUH38YhrXGkUd
-  port: 443
-  server: 162.221.207.62
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇬🇧_GB_英国_3
-  password: shadowsocks
-  port: 443
-  server: 212.102.53.194
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_21
-  password: KixLvKzwjekG00rm
-  port: 5500
-  server: 51.77.53.200
-  type: ss
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
@@ -1695,42 +1515,12 @@ proxy-groups:
   - 🇺🇸_US_美国->🇩🇪_DE_德国_3
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国->🇬🇧_GB_英国
-  - 🇨🇦_CA_加拿大_1
-  - 🇺🇸_US_美国_3
-  - 🇬🇧_GB_英国_1
-  - 🇵🇱_PL_波兰_1
-  - 🇵🇱_PL_波兰_2
-  - 🇺🇸_US_美国_4
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
-  - 🇵🇱_PL_波兰_3
   - 🇺🇸_US_美国_5
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
-  - 🇵🇱_PL_波兰_4
-  - 🇵🇱_PL_波兰_5
-  - 🇵🇱_PL_波兰_6
-  - 🇵🇱_PL_波兰_7
   - 🇺🇸_US_美国_6
-  - 🇵🇱_PL_波兰_8
-  - 🇵🇱_PL_波兰_9
-  - 🇵🇱_PL_波兰_10
-  - 🇬🇧_GB_英国_2
   - 🇺🇸_US_美国_7
-  - 🇵🇱_PL_波兰_11
-  - 🇺🇸_US_美国_8
-  - 🇵🇱_PL_波兰_12
-  - 🇵🇱_PL_波兰_13
-  - 🇵🇱_PL_波兰_14
-  - 🇵🇱_PL_波兰_15
-  - 🇵🇱_PL_波兰_16
-  - 🇵🇱_PL_波兰_17
-  - 🇵🇱_PL_波兰_18
-  - 🇵🇱_PL_波兰_19
-  - 🇵🇱_PL_波兰_20
   - 🇺🇸_US_美国->🇦🇹_AT_奥地利
-  - 🇦🇱_AL_阿尔巴尼亚
-  - 🇨🇦_CA_加拿大_2
-  - 🇬🇧_GB_英国_3
-  - 🇵🇱_PL_波兰_21
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -1817,42 +1607,12 @@ proxy-groups:
   - 🇺🇸_US_美国->🇩🇪_DE_德国_3
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国->🇬🇧_GB_英国
-  - 🇨🇦_CA_加拿大_1
-  - 🇺🇸_US_美国_3
-  - 🇬🇧_GB_英国_1
-  - 🇵🇱_PL_波兰_1
-  - 🇵🇱_PL_波兰_2
-  - 🇺🇸_US_美国_4
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
-  - 🇵🇱_PL_波兰_3
   - 🇺🇸_US_美国_5
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
-  - 🇵🇱_PL_波兰_4
-  - 🇵🇱_PL_波兰_5
-  - 🇵🇱_PL_波兰_6
-  - 🇵🇱_PL_波兰_7
   - 🇺🇸_US_美国_6
-  - 🇵🇱_PL_波兰_8
-  - 🇵🇱_PL_波兰_9
-  - 🇵🇱_PL_波兰_10
-  - 🇬🇧_GB_英国_2
   - 🇺🇸_US_美国_7
-  - 🇵🇱_PL_波兰_11
-  - 🇺🇸_US_美国_8
-  - 🇵🇱_PL_波兰_12
-  - 🇵🇱_PL_波兰_13
-  - 🇵🇱_PL_波兰_14
-  - 🇵🇱_PL_波兰_15
-  - 🇵🇱_PL_波兰_16
-  - 🇵🇱_PL_波兰_17
-  - 🇵🇱_PL_波兰_18
-  - 🇵🇱_PL_波兰_19
-  - 🇵🇱_PL_波兰_20
   - 🇺🇸_US_美国->🇦🇹_AT_奥地利
-  - 🇦🇱_AL_阿尔巴尼亚
-  - 🇨🇦_CA_加拿大_2
-  - 🇬🇧_GB_英国_3
-  - 🇵🇱_PL_波兰_21
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
