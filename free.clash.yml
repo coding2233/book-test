@@ -2687,7 +2687,7 @@ rules:
 - DOMAIN,international-gfe.download.nvidia.com,🔰 节点选择
 - DOMAIN-SUFFIX,docker.com,🔰 节点选择
 - DOMAIN-SUFFIX,docker.io,🔰 节点选择
-- DOMAIN-SUFFIX,godaddy.com,🔰 节点选择
+- DOMAIN-KEYWORD,godaddy,🔰 节点选择
 - DOMAIN-SUFFIX,civitai.com,🔰 节点选择
 - DOMAIN-SUFFIX,huggingface.co,🔰 节点选择
 - DOMAIN-SUFFIX,unity.com,🔰 节点选择
