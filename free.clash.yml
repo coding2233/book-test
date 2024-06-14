@@ -2510,10 +2510,11 @@ dns:
   ipv6: true
   enable: true
   default-nameserver:
-  - tls://db1fed.dns.nextdns.io
-  - https://dns.nextdns.io/db1fed
+  - 45.90.28.156
+  - 45.90.30.156
   - 223.5.5.5
   - 8.8.8.8
+  - 114.114.114.114
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   use-hosts: true
