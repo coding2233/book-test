@@ -291,27 +291,10 @@ proxies:
     path: /azumase.ren
 - alterId: 0
   cipher: auto
-  delay: 2071
-  h2-opts: {}
-  http-opts: {}
-  name: 加拿大 030
-  network: ws
-  port: 8080
-  server: 104.16.67.38
-  servername: 8bsibsh8wbbwihfhjskbbng-shape-3.mewivot154.workers.dev
-  skip-cert-verify: true
-  type: vmess
-  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
-  ws-opts:
-    headers:
-      Host: 8bsibsh8wbbwihfhjskbbng-shape-3.mewivot154.workers.dev
-    path: /hms02.fxiaomi.sbs/link
-- alterId: 0
-  cipher: auto
   delay: 1267
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 031
+  name: 加拿大 030
   network: ws
   port: 2086
   server: 104.24.79.182
@@ -328,7 +311,7 @@ proxies:
   delay: 1297
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 032
+  name: 加拿大 031
   network: ws
   port: 80
   server: 104.24.201.59
@@ -345,7 +328,7 @@ proxies:
   delay: 1348
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 033
+  name: 加拿大 032
   network: ws
   port: 80
   server: 104.25.198.194
@@ -362,7 +345,7 @@ proxies:
   delay: 1395
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 034
+  name: 加拿大 033
   network: ws
   port: 8880
   server: 104.24.184.144
@@ -376,7 +359,7 @@ proxies:
     path: /dabai.in104.24.184.144
 - alterId: 0
   cipher: auto
-  name: 加拿大 035
+  name: 加拿大 034
   network: ws
   port: 8080
   server: 104.19.47.153
@@ -392,7 +375,7 @@ proxies:
 - alterId: 0
   cipher: auto
   delay: 1771
-  name: 加拿大 042
+  name: 加拿大 041
   network: ws
   port: 2082
   server: www.speedtest.net
@@ -409,7 +392,7 @@ proxies:
   delay: 971
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 043
+  name: 加拿大 042
   network: ws
   port: 8880
   server: 104.19.21.24
@@ -424,7 +407,7 @@ proxies:
 - alterId: 0
   cipher: auto
   delay: 921
-  name: 加拿大 044
+  name: 加拿大 043
   network: ws
   port: 8880
   server: 104.19.38.28
@@ -441,7 +424,7 @@ proxies:
   delay: 1732
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 045
+  name: 加拿大 044
   network: ws
   port: 8080
   server: 104.19.47.180
@@ -456,7 +439,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 加拿大 049
+  name: 加拿大 048
   network: ws
   port: 80
   server: 104.18.14.19
@@ -471,7 +454,7 @@ proxies:
     path: 4e63f0da
 - alterId: 0
   cipher: auto
-  name: 加拿大 052
+  name: 加拿大 051
   network: ws
   port: 8080
   server: 104.19.44.182
@@ -489,7 +472,7 @@ proxies:
   delay: 1649
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 053
+  name: 加拿大 052
   network: ws
   port: 2095
   server: 104.26.5.32
@@ -523,7 +506,7 @@ proxies:
   delay: 1503
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 054
+  name: 加拿大 053
   network: ws
   port: 2052
   server: 162.159.130.109
@@ -538,7 +521,7 @@ proxies:
   delay: 1445
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 055
+  name: 加拿大 054
   network: ws
   port: 2052
   server: 104.19.35.74
@@ -553,7 +536,7 @@ proxies:
   delay: 2103
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 056
+  name: 加拿大 055
   network: ws
   port: 2052
   server: 104.16.68.38
@@ -570,7 +553,7 @@ proxies:
   delay: 2892
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 057
+  name: 加拿大 056
   network: ws
   port: 2086
   server: sx3.suixincloud.top
@@ -587,7 +570,7 @@ proxies:
   delay: 918
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 058
+  name: 加拿大 057
   network: ws
   port: 8080
   server: 104.19.42.49
@@ -602,7 +585,7 @@ proxies:
   delay: 1065
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 059
+  name: 加拿大 058
   network: ws
   port: 8080
   server: 104.17.221.34
@@ -635,7 +618,7 @@ proxies:
   delay: 1631
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 060
+  name: 加拿大 059
   network: ws
   port: 8080
   server: 104.19.44.174
@@ -652,7 +635,7 @@ proxies:
   delay: 1052
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 061
+  name: 加拿大 060
   network: ws
   port: 8080
   server: 104.19.47.132
@@ -669,7 +652,7 @@ proxies:
   delay: 1143
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 062
+  name: 加拿大 061
   network: ws
   port: 8080
   server: 104.18.189.19
@@ -686,7 +669,7 @@ proxies:
   delay: 2999
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 063
+  name: 加拿大 062
   network: ws
   port: 8080
   server: 172.67.185.218
@@ -703,7 +686,7 @@ proxies:
   delay: 1931
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 064
+  name: 加拿大 063
   network: ws
   port: 8080
   server: 172.67.199.221
@@ -720,7 +703,7 @@ proxies:
   delay: 1322
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 065
+  name: 加拿大 064
   network: ws
   port: 8080
   server: 104.19.47.126
@@ -737,7 +720,7 @@ proxies:
   delay: 1828
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 066
+  name: 加拿大 065
   network: ws
   port: 8080
   server: 104.19.47.155
@@ -754,7 +737,7 @@ proxies:
   delay: 1274
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 067
+  name: 加拿大 066
   network: ws
   port: 8080
   server: 104.19.47.18
@@ -771,7 +754,7 @@ proxies:
   delay: 2394
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 068
+  name: 加拿大 067
   network: ws
   port: 8080
   server: 104.19.47.129
@@ -788,7 +771,7 @@ proxies:
   delay: 2439
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 069
+  name: 加拿大 068
   network: ws
   port: 8080
   server: 104.19.47.142
@@ -805,7 +788,7 @@ proxies:
   delay: 1703
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 070
+  name: 加拿大 069
   network: ws
   port: 8080
   server: 104.19.47.4
@@ -822,7 +805,7 @@ proxies:
   delay: 2106
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 071
+  name: 加拿大 070
   network: ws
   port: 8080
   server: 104.19.47.223
@@ -836,7 +819,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 加拿大 072
+  name: 加拿大 071
   network: ws
   port: 8080
   server: 172.67.199.143
@@ -851,7 +834,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大 074
+  name: 加拿大 073
   network: ws
   port: 8080
   server: 172.67.185.242
@@ -869,7 +852,7 @@ proxies:
   delay: 1167
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 075
+  name: 加拿大 074
   network: ws
   port: 80
   server: 104.19.42.49
@@ -884,7 +867,7 @@ proxies:
   delay: 1056
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 076
+  name: 加拿大 075
   network: ws
   port: 80
   server: 104.19.37.138
@@ -901,7 +884,7 @@ proxies:
   delay: 1984
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 077
+  name: 加拿大 076
   network: ws
   port: 2082
   server: 172.67.204.84
@@ -918,7 +901,7 @@ proxies:
   delay: 1985
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 078
+  name: 加拿大 077
   network: ws
   port: 2086
   server: sx2.suixincloud.top
@@ -935,7 +918,7 @@ proxies:
   delay: 1835
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 079
+  name: 加拿大 078
   network: ws
   port: 2086
   server: sx1.suixincloud.top
@@ -966,7 +949,7 @@ proxies:
     path: /ws?ed=2560
 - alterId: 0
   cipher: auto
-  name: 加拿大 080
+  name: 加拿大 079
   network: ws
   port: 2052
   server: yx1.gyyun.top
@@ -985,7 +968,7 @@ proxies:
   delay: 2192
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 081
+  name: 加拿大 080
   network: ws
   port: 2052
   server: 1yvip1.xyyjc.top
@@ -999,7 +982,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 加拿大 082
+  name: 加拿大 081
   network: ws
   port: 80
   server: 172.67.204.84
@@ -1031,7 +1014,7 @@ proxies:
   delay: 1639
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 084
+  name: 加拿大 083
   network: ws
   port: 2082
   server: 104.21.69.44
@@ -1060,7 +1043,7 @@ proxies:
     path: /iphone
 - alterId: 0
   cipher: auto
-  name: 加拿大 089
+  name: 加拿大 087
   network: ws
   port: 8080
   server: yx.99294837.xyz
@@ -1076,7 +1059,7 @@ proxies:
     path: /?ed=2560
 - alterId: 0
   cipher: auto
-  name: 加拿大 091
+  name: 加拿大 089
   network: ws
   port: 2095
   server: 104.26.4.57
@@ -1104,7 +1087,7 @@ proxies:
     path: /sssddd
 - alterId: 0
   cipher: auto
-  name: 加拿大 092
+  name: 加拿大 090
   network: ws
   port: 2095
   server: 104.26.14.85
@@ -1119,7 +1102,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大 093
+  name: 加拿大 091
   network: ws
   port: 2082
   server: 104.21.45.127
@@ -1134,7 +1117,7 @@ proxies:
     path: /db00104.21.45.127
 - alterId: 0
   cipher: auto
-  name: 加拿大 094
+  name: 加拿大 092
   network: ws
   port: 2052
   server: 104.24.173.131
@@ -1149,7 +1132,7 @@ proxies:
     path: /dabai.in104.24.173.131
 - alterId: 0
   cipher: auto
-  name: 加拿大 095
+  name: 加拿大 093
   network: ws
   port: 2052
   server: 104.24.230.193
@@ -1164,7 +1147,7 @@ proxies:
     path: /dabai.in104.24.230.193
 - alterId: 0
   cipher: auto
-  name: 加拿大 096
+  name: 加拿大 094
   network: ws
   port: 2082
   server: 104.16.7.66
@@ -1179,7 +1162,7 @@ proxies:
     path: /dabai.in104.16.7.66
 - alterId: 0
   cipher: auto
-  name: 加拿大 097
+  name: 加拿大 095
   network: ws
   port: 2086
   server: 104.25.253.23
@@ -1196,7 +1179,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: dabai
-  name: 加拿大 098
+  name: 加拿大 096
   network: grpc
   port: 2096
   server: 104.17.32.84
@@ -1209,7 +1192,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: dabai
-  name: 加拿大 099
+  name: 加拿大 097
   network: grpc
   port: 2096
   server: 104.20.173.230
@@ -1222,7 +1205,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: dabai
-  name: 加拿大 100
+  name: 加拿大 098
   network: grpc
   port: 2096
   server: 104.21.5.91
@@ -1233,7 +1216,7 @@ proxies:
   uuid: 13932f17-6d18-3254-8c8f-9de140c5a64c
 - alterId: 0
   cipher: auto
-  name: 加拿大 101
+  name: 加拿大 099
   network: ws
   port: 2082
   server: 104.21.223.185
@@ -1248,7 +1231,7 @@ proxies:
     path: /dabai.in104.21.223.185
 - alterId: 0
   cipher: auto
-  name: 加拿大 102
+  name: 加拿大 100
   network: ws
   port: 2052
   server: 198.41.221.0
@@ -1276,6 +1259,117 @@ proxies:
     headers:
       Host: www.69163438.xyz
     path: /path/191019072927
+- alterId: 0
+  cipher: auto
+  name: 加拿大 102
+  network: ws
+  port: 80
+  server: 104.17.147.22
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1e99893d-8046-4825-9d28-f6de91147337
+  ws-opts:
+    headers:
+      Host: De2.vmess.site.
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国 008
+  network: tcp
+  port: 2095
+  server: 128.140.127.204
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: a7edced4-d006-460e-9f79-4ae8b64ae177
+  ws-headers:
+    Host: mark.miracletaxbits.top.
+- alterId: 0
+  cipher: auto
+  name: 加拿大 105
+  network: ws
+  port: 8080
+  server: 104.24.8.187
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 13932f17-6d18-3254-8c8f-9de140c5a64c
+  ws-opts:
+    headers:
+      Host: 100-100-17-492.db-link01.top
+    path: /db00104.24.8.187
+- alterId: 0
+  cipher: auto
+  name: 加拿大 106
+  network: ws
+  port: 8080
+  server: 104.24.217.58
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 13932f17-6d18-3254-8c8f-9de140c5a64c
+  ws-opts:
+    headers:
+      Host: 100-100-17-309.cn-db.top
+    path: /dabai.in104.24.217.58
+- alterId: 0
+  cipher: auto
+  name: 加拿大 107
+  network: ws
+  port: 2052
+  server: 104.24.205.129
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 13932f17-6d18-3254-8c8f-9de140c5a64c
+  ws-opts:
+    headers:
+      Host: 100-100-17-133.db-link02.top
+    path: /dabai.in104.24.205.129
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: dabai
+  name: 加拿大 108
+  network: grpc
+  port: 443
+  server: 172.64.36.181
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 13932f17-6d18-3254-8c8f-9de140c5a64c
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: dabai
+  name: 加拿大 109
+  network: grpc
+  port: 443
+  server: 104.18.74.164
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 13932f17-6d18-3254-8c8f-9de140c5a64c
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: dabai
+  name: 加拿大 110
+  network: grpc
+  port: 2096
+  server: 104.20.73.251
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 13932f17-6d18-3254-8c8f-9de140c5a64c
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国->🇨🇦_CA_加拿大
@@ -1373,22 +1467,22 @@ proxy-groups:
   - 加拿大 032
   - 加拿大 033
   - 加拿大 034
-  - 加拿大 035
+  - 加拿大 041
   - 加拿大 042
   - 加拿大 043
   - 加拿大 044
-  - 加拿大 045
-  - 加拿大 049
+  - 加拿大 048
+  - 加拿大 051
   - 加拿大 052
-  - 加拿大 053
   - 美国 037
+  - 加拿大 053
   - 加拿大 054
   - 加拿大 055
   - 加拿大 056
   - 加拿大 057
   - 加拿大 058
-  - 加拿大 059
   - 美国 038
+  - 加拿大 059
   - 加拿大 060
   - 加拿大 061
   - 加拿大 062
@@ -1401,23 +1495,24 @@ proxy-groups:
   - 加拿大 069
   - 加拿大 070
   - 加拿大 071
-  - 加拿大 072
+  - 加拿大 073
   - 加拿大 074
   - 加拿大 075
   - 加拿大 076
   - 加拿大 077
   - 加拿大 078
-  - 加拿大 079
   - 美国 040
+  - 加拿大 079
   - 加拿大 080
   - 加拿大 081
-  - 加拿大 082
   - 荷兰 009
-  - 加拿大 084
+  - 加拿大 083
   - 俄罗斯 004
+  - 加拿大 087
   - 加拿大 089
-  - 加拿大 091
   - 英国 006
+  - 加拿大 090
+  - 加拿大 091
   - 加拿大 092
   - 加拿大 093
   - 加拿大 094
@@ -1427,9 +1522,15 @@ proxy-groups:
   - 加拿大 098
   - 加拿大 099
   - 加拿大 100
-  - 加拿大 101
-  - 加拿大 102
   - 美国 045
+  - 加拿大 102
+  - 德国 008
+  - 加拿大 105
+  - 加拿大 106
+  - 加拿大 107
+  - 加拿大 108
+  - 加拿大 109
+  - 加拿大 110
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国->🇦🇹_AT_奥地利
@@ -1460,22 +1561,22 @@ proxy-groups:
   - 加拿大 032
   - 加拿大 033
   - 加拿大 034
-  - 加拿大 035
+  - 加拿大 041
   - 加拿大 042
   - 加拿大 043
   - 加拿大 044
-  - 加拿大 045
-  - 加拿大 049
+  - 加拿大 048
+  - 加拿大 051
   - 加拿大 052
-  - 加拿大 053
   - 美国 037
+  - 加拿大 053
   - 加拿大 054
   - 加拿大 055
   - 加拿大 056
   - 加拿大 057
   - 加拿大 058
-  - 加拿大 059
   - 美国 038
+  - 加拿大 059
   - 加拿大 060
   - 加拿大 061
   - 加拿大 062
@@ -1488,23 +1589,24 @@ proxy-groups:
   - 加拿大 069
   - 加拿大 070
   - 加拿大 071
-  - 加拿大 072
+  - 加拿大 073
   - 加拿大 074
   - 加拿大 075
   - 加拿大 076
   - 加拿大 077
   - 加拿大 078
-  - 加拿大 079
   - 美国 040
+  - 加拿大 079
   - 加拿大 080
   - 加拿大 081
-  - 加拿大 082
   - 荷兰 009
-  - 加拿大 084
+  - 加拿大 083
   - 俄罗斯 004
+  - 加拿大 087
   - 加拿大 089
-  - 加拿大 091
   - 英国 006
+  - 加拿大 090
+  - 加拿大 091
   - 加拿大 092
   - 加拿大 093
   - 加拿大 094
@@ -1514,9 +1616,15 @@ proxy-groups:
   - 加拿大 098
   - 加拿大 099
   - 加拿大 100
-  - 加拿大 101
-  - 加拿大 102
   - 美国 045
+  - 加拿大 102
+  - 德国 008
+  - 加拿大 105
+  - 加拿大 106
+  - 加拿大 107
+  - 加拿大 108
+  - 加拿大 109
+  - 加拿大 110
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国->🇦🇹_AT_奥地利
