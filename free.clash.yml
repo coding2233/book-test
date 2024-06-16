@@ -489,7 +489,7 @@ proxies:
   delay: 1862
   h2-opts: {}
   http-opts: {}
-  name: 美国 037
+  name: 美国 036
   network: ws
   port: 2095
   server: 172.64.150.8
@@ -600,7 +600,7 @@ proxies:
   delay: 1480
   h2-opts: {}
   http-opts: {}
-  name: 美国 038
+  name: 美国 037
   network: ws
   port: 37004
   server: 38.38.169.231
@@ -935,7 +935,7 @@ proxies:
   delay: 1140
   h2-opts: {}
   http-opts: {}
-  name: 美国 040
+  name: 美国 038
   network: ws
   port: 80
   server: cf1.ftclashcloud.site
@@ -1231,7 +1231,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 美国 045
+  name: 美国 043
   network: ws
   port: 49998
   server: 107.148.243.147
@@ -1444,7 +1444,7 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 美国 047
+  name: 美国 045
   network: ws
   port: 49995
   server: 104.233.243.80
@@ -1534,7 +1534,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: dabai
-  name: 美国 048
+  name: 美国 046
   network: grpc
   port: 2053
   server: 104.24.244.76
@@ -1588,21 +1588,6 @@ proxies:
     headers:
       Host: division-rachel-sic-mileage.trycloudflare.com
     path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm
-- alterId: 64
-  cipher: auto
-  name: 美国 063
-  network: ws
-  port: 38001
-  server: 38.33.34.20
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: b65da4af-a12a-4a59-9316-4549e12ba62c
-  ws-opts:
-    headers:
-      Host: www.78274451.xyz
-    path: /path/191019072927
 - alterId: 0
   cipher: auto
   name: 加拿大 133
@@ -1617,6 +1602,228 @@ proxies:
     headers:
       Host: division-rachel-sic-mileage.trycloudflare.com
     path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm
+- alterId: 0
+  cipher: auto
+  name: 加拿大 134
+  network: ws
+  port: 8080
+  server: 172.67.172.96
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 2010
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 135
+  network: ws
+  port: 443
+  server: cos-cdn-b.alicdn.win
+  servername: aliyun-cos-cdn-hkb.52edu.men
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f50d4527-7eb1-454d-a81d-9a6e20b4efd3
+  ws-opts:
+    headers:
+      Host: aliyun-cos-cdn-hkb.52edu.men
+    path: /api/v1/serve
+- alterId: 0
+  cipher: auto
+  delay: 1811
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 136
+  network: ws
+  port: 443
+  server: cos-cdn-a.alicdn.win
+  servername: aliyun-cos-cdn-hka.52edu.men
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f50d4527-7eb1-454d-a81d-9a6e20b4efd3
+  ws-opts:
+    headers:
+      Host: aliyun-cos-cdn-hka.52edu.men
+    path: /api/v1/serve
+- alterId: 0
+  cipher: auto
+  delay: 2225
+  h2-opts: {}
+  http-opts: {}
+  name: 德国 014
+  network: ws
+  port: 45107
+  server: de-frankfurt-oracle-b26cf5.ip1.shop
+  servername: oracle-de-02.t3csyun.buzz
+  skip-cert-verify: true
+  type: vmess
+  uuid: 3c2dc232-01f8-4abe-8f1a-e4cb87fb7d84
+  ws-opts:
+    headers:
+      Host: oracle-de-02.t3csyun.buzz
+    path: /de2
+- alterId: 0
+  cipher: auto
+  delay: 2843
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 137
+  network: ws
+  port: 443
+  server: cos-cdn-f.alicdn.win
+  servername: aliyun-cos-cdn-sgc.52edu.men
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f50d4527-7eb1-454d-a81d-9a6e20b4efd3
+  ws-opts:
+    headers:
+      Host: aliyun-cos-cdn-sgc.52edu.men
+    path: /api/v1/serve
+- alterId: 0
+  cipher: auto
+  delay: 1044
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 139
+  network: ws
+  port: 2086
+  server: 162.159.136.33
+  servername: ip002.dtku47.xyz
+  type: vmess
+  udp: true
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  ws-opts:
+    headers:
+      Host: ip002.dtku47.xyz
+    path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
+- alterId: 0
+  cipher: auto
+  delay: 950
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 140
+  network: ws
+  port: 8080
+  server: 162.159.128.118
+  servername: ip001.dtku47.xyz
+  type: vmess
+  udp: true
+  uuid: ffaba3ee-4070-4590-9959-d863f9a4c6de
+  ws-opts:
+    headers:
+      Host: ip001.dtku47.xyz
+    path: /9aqOiXD2/
+- alterId: 0
+  cipher: auto
+  delay: 978
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 141
+  network: ws
+  port: 2095
+  server: 162.159.129.111
+  servername: ip5.dtku47.xyz
+  type: vmess
+  udp: true
+  uuid: e9555d84-a146-4e36-9c23-eac28387be48
+  ws-opts:
+    headers:
+      Host: ip5.dtku47.xyz
+    path: /WNh8bXQv/
+- alterId: 0
+  cipher: auto
+  delay: 1053
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 142
+  network: ws
+  port: 2095
+  server: 104.19.38.88
+  servername: ip5.dtku47.xyz
+  type: vmess
+  udp: true
+  uuid: e9555d84-a146-4e36-9c23-eac28387be48
+  ws-opts:
+    headers:
+      Host: ip5.dtku47.xyz
+    path: /WNh8bXQv/
+- alterId: 0
+  cipher: auto
+  delay: 1028
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 143
+  network: ws
+  port: 2095
+  server: 172.64.144.66
+  servername: ip5.dtku47.xyz
+  type: vmess
+  udp: true
+  uuid: e9555d84-a146-4e36-9c23-eac28387be48
+  ws-opts:
+    headers:
+      Host: ip5.dtku47.xyz
+    path: /WNh8bXQv/
+- alterId: 0
+  cipher: auto
+  delay: 758
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 144
+  network: ws
+  port: 2086
+  server: 104.19.51.232
+  servername: ip002.dtku47.xyz
+  type: vmess
+  udp: true
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  ws-opts:
+    headers:
+      Host: ip002.dtku47.xyz
+    path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
+- alterId: 0
+  cipher: auto
+  delay: 1083
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 145
+  network: ws
+  port: 2095
+  server: 162.159.136.208
+  servername: ip5.dtku47.xyz
+  type: vmess
+  udp: true
+  uuid: e9555d84-a146-4e36-9c23-eac28387be48
+  ws-opts:
+    headers:
+      Host: ip5.dtku47.xyz
+    path: /WNh8bXQv/
+- alterId: 0
+  cipher: auto
+  delay: 813
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 146
+  network: ws
+  port: 2086
+  server: 104.19.38.62
+  servername: ip002.dtku47.xyz
+  type: vmess
+  udp: true
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  ws-opts:
+    headers:
+      Host: ip002.dtku47.xyz
+    path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_2
@@ -1791,14 +1998,14 @@ proxy-groups:
   - 加拿大 048
   - 加拿大 051
   - 加拿大 052
-  - 美国 037
+  - 美国 036
   - 加拿大 053
   - 加拿大 054
   - 加拿大 055
   - 加拿大 056
   - 加拿大 057
   - 加拿大 058
-  - 美国 038
+  - 美国 037
   - 加拿大 059
   - 加拿大 060
   - 加拿大 061
@@ -1818,7 +2025,7 @@ proxy-groups:
   - 加拿大 076
   - 加拿大 077
   - 加拿大 078
-  - 美国 040
+  - 美国 038
   - 加拿大 079
   - 加拿大 080
   - 加拿大 081
@@ -1838,7 +2045,7 @@ proxy-groups:
   - 加拿大 096
   - 加拿大 097
   - 加拿大 098
-  - 美国 045
+  - 美国 043
   - 加拿大 100
   - 加拿大 102
   - 加拿大 103
@@ -1852,18 +2059,30 @@ proxy-groups:
   - 加拿大 113
   - 加拿大 114
   - 加拿大 115
-  - 美国 047
+  - 美国 045
   - 加拿大 116
   - 加拿大 117
   - 加拿大 118
   - 加拿大 119
   - 加拿大 120
-  - 美国 048
+  - 美国 046
   - 加拿大 121
   - 加拿大 122
   - 加拿大 123
-  - 美国 063
   - 加拿大 133
+  - 加拿大 134
+  - 加拿大 135
+  - 加拿大 136
+  - 德国 014
+  - 加拿大 137
+  - 加拿大 139
+  - 加拿大 140
+  - 加拿大 141
+  - 加拿大 142
+  - 加拿大 143
+  - 加拿大 144
+  - 加拿大 145
+  - 加拿大 146
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国->🇦🇹_AT_奥地利
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
@@ -1906,14 +2125,14 @@ proxy-groups:
   - 加拿大 048
   - 加拿大 051
   - 加拿大 052
-  - 美国 037
+  - 美国 036
   - 加拿大 053
   - 加拿大 054
   - 加拿大 055
   - 加拿大 056
   - 加拿大 057
   - 加拿大 058
-  - 美国 038
+  - 美国 037
   - 加拿大 059
   - 加拿大 060
   - 加拿大 061
@@ -1933,7 +2152,7 @@ proxy-groups:
   - 加拿大 076
   - 加拿大 077
   - 加拿大 078
-  - 美国 040
+  - 美国 038
   - 加拿大 079
   - 加拿大 080
   - 加拿大 081
@@ -1953,7 +2172,7 @@ proxy-groups:
   - 加拿大 096
   - 加拿大 097
   - 加拿大 098
-  - 美国 045
+  - 美国 043
   - 加拿大 100
   - 加拿大 102
   - 加拿大 103
@@ -1967,18 +2186,30 @@ proxy-groups:
   - 加拿大 113
   - 加拿大 114
   - 加拿大 115
-  - 美国 047
+  - 美国 045
   - 加拿大 116
   - 加拿大 117
   - 加拿大 118
   - 加拿大 119
   - 加拿大 120
-  - 美国 048
+  - 美国 046
   - 加拿大 121
   - 加拿大 122
   - 加拿大 123
-  - 美国 063
   - 加拿大 133
+  - 加拿大 134
+  - 加拿大 135
+  - 加拿大 136
+  - 德国 014
+  - 加拿大 137
+  - 加拿大 139
+  - 加拿大 140
+  - 加拿大 141
+  - 加拿大 142
+  - 加拿大 143
+  - 加拿大 144
+  - 加拿大 145
+  - 加拿大 146
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国->🇦🇹_AT_奥地利
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
