@@ -1575,7 +1575,37 @@ proxies:
     path: /dabai.in104.17.58.86
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大
+  name: 加拿大 123
+  network: ws
+  port: 8080
+  server: 172.67.172.88
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 124
+  network: ws
+  port: 8880
+  server: 104.19.38.112
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
+  ws-opts:
+    headers:
+      Host: division-rachel-sic-mileage.trycloudflare.com
+    path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_2
   network: ws
   port: 8080
   server: 104.26.9.22
@@ -1587,20 +1617,6 @@ proxies:
     headers:
       host: dual-nothing-prep-exit.trycloudflare.com
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_2
-  network: ws
-  port: 80
-  server: www.speedtest.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 1e99893d-8046-4825-9d28-f6de91147337
-  ws-opts:
-    headers:
-      host: De2.vmess.site.
-    path: /
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国->🇦🇹_AT_奥地利
@@ -1617,32 +1633,116 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
+  network: ws
+  port: 8880
+  server: 104.19.38.112
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
+  ws-opts:
+    headers:
+      host: division-rachel-sic-mileage.trycloudflare.com
+    path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm
+- alterId: 64
+  cipher: auto
+  name: 🇺🇸_US_美国_5
+  network: ws
+  port: 443
+  server: 107.167.20.184
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      host: www.15314695.xyz
+    path: /path/191019072927
+- alterId: 0
+  cipher: auto
   name: 🇺🇸_US_美国_6
   network: ws
-  port: 8080
+  port: 80
+  server: www.speedtest.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 1e99893d-8046-4825-9d28-f6de91147337
+  ws-opts:
+    headers:
+      host: De2.vmess.site.
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇫🇷_FR_法国
+  network: ws
+  port: 2082
+  server: 104.21.8.157
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      host: s1c.v2.v001sss.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇬🇧_GB_英国
+  network: ws
+  port: 80
+  server: zula.ir
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: da62a137-3611-4dd7-8523-b5266afe6fe5
+  ws-opts:
+    headers:
+      host: Uk2.vmess.site.
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_7
+  network: ws
+  port: 8880
+  server: cfcdn1.sanfencdn9.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e62d9d73-9a0e-4d7a-8eba-8a9666c9bcbe
+  ws-opts:
+    headers:
+      host: us6gzxQRrE4.fzbqfrse.xyz
+    path: /video/bYdJ7Vc2We
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_8
+  network: ws
+  port: 80
   server: russia.com
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 4b05abf5-c68d-4ffc-915f-add2f3786dca
+  uuid: 56c6ef30-a930-4bcb-a159-85d9838fadae
   ws-opts:
     headers:
       host: sssub.v2.001.ssrsub.com
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_7
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
   network: ws
-  port: 2095
-  server: russia.com
+  port: 8880
+  server: 162.159.136.23
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 4b05abf5-c68d-4ffc-915f-add2f3786dca
+  uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
   ws-opts:
     headers:
-      host: sssub.v2.001.ssrsub.com
-    path: /api/v3/download.getFile
+      host: division-rachel-sic-mileage.trycloudflare.com
+    path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
@@ -1747,11 +1847,18 @@ proxy-groups:
   - 加拿大 121
   - 美国 048
   - 加拿大 122
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大
+  - 加拿大 123
+  - 加拿大 124
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国->🇦🇹_AT_奥地利
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
+  - 🇺🇸_US_美国_5
   - 🇺🇸_US_美国_6
+  - 🇺🇸_US_美国->🇫🇷_FR_法国
+  - 🇺🇸_US_美国->🇬🇧_GB_英国
   - 🇺🇸_US_美国_7
+  - 🇺🇸_US_美国_8
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -1854,11 +1961,18 @@ proxy-groups:
   - 加拿大 121
   - 美国 048
   - 加拿大 122
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大
+  - 加拿大 123
+  - 加拿大 124
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国->🇦🇹_AT_奥地利
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
+  - 🇺🇸_US_美国_5
   - 🇺🇸_US_美国_6
+  - 🇺🇸_US_美国->🇫🇷_FR_法国
+  - 🇺🇸_US_美国->🇬🇧_GB_英国
   - 🇺🇸_US_美国_7
+  - 🇺🇸_US_美国_8
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
