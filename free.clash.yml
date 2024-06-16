@@ -996,7 +996,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 荷兰 009
+  name: 荷兰 008
   network: ws
   port: 8880
   server: 188.114.96.3
@@ -1089,21 +1089,6 @@ proxies:
   cipher: auto
   name: 加拿大 089
   network: ws
-  port: 2095
-  server: 104.26.14.85
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3e540874-0730-452a-8b2e-e719b5d34470
-  ws-opts:
-    headers:
-      Host: Yakuza.unique69.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 090
-  network: ws
   port: 2082
   server: 104.21.45.127
   skip-cert-verify: true
@@ -1117,7 +1102,7 @@ proxies:
     path: /db00104.21.45.127
 - alterId: 0
   cipher: auto
-  name: 加拿大 091
+  name: 加拿大 090
   network: ws
   port: 2052
   server: 104.24.173.131
@@ -1132,7 +1117,7 @@ proxies:
     path: /dabai.in104.24.173.131
 - alterId: 0
   cipher: auto
-  name: 加拿大 092
+  name: 加拿大 091
   network: ws
   port: 2052
   server: 104.24.230.193
@@ -1147,7 +1132,7 @@ proxies:
     path: /dabai.in104.24.230.193
 - alterId: 0
   cipher: auto
-  name: 加拿大 093
+  name: 加拿大 092
   network: ws
   port: 2082
   server: 104.16.7.66
@@ -1162,7 +1147,7 @@ proxies:
     path: /dabai.in104.16.7.66
 - alterId: 0
   cipher: auto
-  name: 加拿大 094
+  name: 加拿大 093
   network: ws
   port: 2086
   server: 104.25.253.23
@@ -1179,7 +1164,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: dabai
-  name: 加拿大 095
+  name: 加拿大 094
   network: grpc
   port: 2096
   server: 104.17.32.84
@@ -1192,7 +1177,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: dabai
-  name: 加拿大 096
+  name: 加拿大 095
   network: grpc
   port: 2096
   server: 104.20.173.230
@@ -1205,7 +1190,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: dabai
-  name: 加拿大 097
+  name: 加拿大 096
   network: grpc
   port: 2096
   server: 104.21.5.91
@@ -1216,7 +1201,7 @@ proxies:
   uuid: 13932f17-6d18-3254-8c8f-9de140c5a64c
 - alterId: 0
   cipher: auto
-  name: 加拿大 098
+  name: 加拿大 097
   network: ws
   port: 2082
   server: 104.21.223.185
@@ -1231,7 +1216,7 @@ proxies:
     path: /dabai.in104.21.223.185
 - alterId: 0
   cipher: auto
-  name: 加拿大 099
+  name: 加拿大 098
   network: ws
   port: 2052
   server: 198.41.221.0
@@ -1261,7 +1246,7 @@ proxies:
     path: /path/191019072927
 - alterId: 0
   cipher: auto
-  name: 加拿大 101
+  name: 加拿大 100
   network: ws
   port: 80
   server: 104.17.147.22
@@ -1276,7 +1261,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大 103
+  name: 加拿大 102
   network: ws
   port: 8080
   server: 104.24.8.187
@@ -1291,7 +1276,7 @@ proxies:
     path: /db00104.24.8.187
 - alterId: 0
   cipher: auto
-  name: 加拿大 104
+  name: 加拿大 103
   network: ws
   port: 8080
   server: 104.24.217.58
@@ -1306,7 +1291,7 @@ proxies:
     path: /dabai.in104.24.217.58
 - alterId: 0
   cipher: auto
-  name: 加拿大 105
+  name: 加拿大 104
   network: ws
   port: 2052
   server: 104.24.205.129
@@ -1323,7 +1308,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: dabai
-  name: 加拿大 106
+  name: 加拿大 105
   network: grpc
   port: 443
   server: 172.64.36.181
@@ -1336,7 +1321,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: dabai
-  name: 加拿大 107
+  name: 加拿大 106
   network: grpc
   port: 443
   server: 104.18.74.164
@@ -1349,7 +1334,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: dabai
-  name: 加拿大 108
+  name: 加拿大 107
   network: grpc
   port: 2096
   server: 104.20.73.251
@@ -1363,7 +1348,7 @@ proxies:
   delay: 1339
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 111
+  name: 加拿大 110
   network: ws
   port: 2052
   server: 104.16.61.8
@@ -1380,7 +1365,7 @@ proxies:
   delay: 805
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 112
+  name: 加拿大 111
   network: ws
   port: 8880
   server: 104.16.61.8
@@ -1397,7 +1382,7 @@ proxies:
   delay: 2959
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 113
+  name: 加拿大 112
   network: ws
   port: 2082
   server: zula.ir
@@ -1414,7 +1399,7 @@ proxies:
   delay: 1086
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 114
+  name: 加拿大 113
   network: ws
   port: 8080
   server: 104.16.67.38
@@ -1428,7 +1413,7 @@ proxies:
     path: /linde06.indiavideo.sbs/linkws
 - alterId: 0
   cipher: auto
-  name: 加拿大 115
+  name: 加拿大 114
   network: ws
   port: 2082
   server: s1c.v2.v001sss.xyz
@@ -1443,7 +1428,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 加拿大 116
+  name: 加拿大 115
   network: ws
   port: 80
   server: 104.16.67.38
@@ -1474,7 +1459,7 @@ proxies:
     path: /path/191019072927
 - alterId: 0
   cipher: auto
-  name: 加拿大 117
+  name: 加拿大 116
   network: ws
   port: 8080
   server: 172.64.46.66
@@ -1489,7 +1474,7 @@ proxies:
     path: /dabai.in172.64.46.66
 - alterId: 0
   cipher: auto
-  name: 加拿大 118
+  name: 加拿大 117
   network: ws
   port: 8880
   server: 104.19.208.44
@@ -1504,7 +1489,7 @@ proxies:
     path: /dabai.in104.19.208.44
 - alterId: 0
   cipher: auto
-  name: 加拿大 119
+  name: 加拿大 118
   network: ws
   port: 2086
   server: 104.17.35.227
@@ -1519,7 +1504,7 @@ proxies:
     path: /dabai.in104.17.35.227
 - alterId: 0
   cipher: auto
-  name: 加拿大 120
+  name: 加拿大 119
   network: ws
   port: 2095
   server: 104.17.101.73
@@ -1536,7 +1521,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: dabai
-  name: 加拿大 121
+  name: 加拿大 120
   network: grpc
   port: 2053
   server: 104.20.241.19
@@ -1560,7 +1545,7 @@ proxies:
   uuid: 13932f17-6d18-3254-8c8f-9de140c5a64c
 - alterId: 0
   cipher: auto
-  name: 加拿大 122
+  name: 加拿大 121
   network: ws
   port: 80
   server: 104.17.58.86
@@ -1575,7 +1560,7 @@ proxies:
     path: /dabai.in104.17.58.86
 - alterId: 0
   cipher: auto
-  name: 加拿大 123
+  name: 加拿大 122
   network: ws
   port: 8080
   server: 172.67.172.88
@@ -1590,7 +1575,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大 124
+  name: 加拿大 123
   network: ws
   port: 8880
   server: 104.19.38.112
@@ -1598,6 +1583,35 @@ proxies:
   tls: false
   type: vmess
   udp: true
+  uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
+  ws-opts:
+    headers:
+      Host: division-rachel-sic-mileage.trycloudflare.com
+    path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm
+- alterId: 64
+  cipher: auto
+  name: 美国 063
+  network: ws
+  port: 38001
+  server: 38.33.34.20
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: b65da4af-a12a-4a59-9316-4549e12ba62c
+  ws-opts:
+    headers:
+      Host: www.78274451.xyz
+    path: /path/191019072927
+- alterId: 0
+  cipher: auto
+  name: 加拿大 133
+  network: ws
+  port: 8880
+  server: 162.159.136.23
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
   ws-opts:
     headers:
@@ -1808,7 +1822,7 @@ proxy-groups:
   - 加拿大 079
   - 加拿大 080
   - 加拿大 081
-  - 荷兰 009
+  - 荷兰 008
   - 加拿大 083
   - 俄罗斯 004
   - 加拿大 086
@@ -1824,31 +1838,32 @@ proxy-groups:
   - 加拿大 096
   - 加拿大 097
   - 加拿大 098
-  - 加拿大 099
   - 美国 045
-  - 加拿大 101
+  - 加拿大 100
+  - 加拿大 102
   - 加拿大 103
   - 加拿大 104
   - 加拿大 105
   - 加拿大 106
   - 加拿大 107
-  - 加拿大 108
+  - 加拿大 110
   - 加拿大 111
   - 加拿大 112
   - 加拿大 113
   - 加拿大 114
   - 加拿大 115
-  - 加拿大 116
   - 美国 047
+  - 加拿大 116
   - 加拿大 117
   - 加拿大 118
   - 加拿大 119
   - 加拿大 120
-  - 加拿大 121
   - 美国 048
+  - 加拿大 121
   - 加拿大 122
   - 加拿大 123
-  - 加拿大 124
+  - 美国 063
+  - 加拿大 133
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国->🇦🇹_AT_奥地利
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
@@ -1922,7 +1937,7 @@ proxy-groups:
   - 加拿大 079
   - 加拿大 080
   - 加拿大 081
-  - 荷兰 009
+  - 荷兰 008
   - 加拿大 083
   - 俄罗斯 004
   - 加拿大 086
@@ -1938,31 +1953,32 @@ proxy-groups:
   - 加拿大 096
   - 加拿大 097
   - 加拿大 098
-  - 加拿大 099
   - 美国 045
-  - 加拿大 101
+  - 加拿大 100
+  - 加拿大 102
   - 加拿大 103
   - 加拿大 104
   - 加拿大 105
   - 加拿大 106
   - 加拿大 107
-  - 加拿大 108
+  - 加拿大 110
   - 加拿大 111
   - 加拿大 112
   - 加拿大 113
   - 加拿大 114
   - 加拿大 115
-  - 加拿大 116
   - 美国 047
+  - 加拿大 116
   - 加拿大 117
   - 加拿大 118
   - 加拿大 119
   - 加拿大 120
-  - 加拿大 121
   - 美国 048
+  - 加拿大 121
   - 加拿大 122
   - 加拿大 123
-  - 加拿大 124
+  - 美国 063
+  - 加拿大 133
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国->🇦🇹_AT_奥地利
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
