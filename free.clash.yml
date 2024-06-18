@@ -1291,19 +1291,6 @@ proxies:
     headers:
       Host: riben.mojc.xyz
     path: /?ed=2048
-- alterId: 64
-  cipher: auto
-  name: 英国 004
-  network: ws
-  port: 30000
-  server: 83.142.225.59
-  tls: true
-  type: vmess
-  uuid: 5267ca71-97e6-44c8-8fb5-9fe4afe0954e
-  ws-opts:
-    headers:
-      Host: www.41825759.xyz
-    path: /path/292806223002
 - alterId: 0
   cipher: auto
   name: 加拿大 107
@@ -1347,6 +1334,38 @@ proxies:
     headers:
       Host: riben.mojc.xyz
     path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 韩国 023
+  network: ws
+  port: 25363
+  server: kr-seoul-oracle-4fccf5.ip1.shop
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f62c5668-ef76-47fd-8f91-86eed7ccd81b
+  ws-opts:
+    headers:
+      Host: kr-seoul-oracle-4fccf5.ip1.shop
+    path: /gd3245vd2S32cr
+- alterId: 0
+  cipher: auto
+  delay: 1092
+  h2-opts: {}
+  http-opts: {}
+  name: 新加坡 006
+  network: ws
+  port: 2096
+  server: 47.236.237.90
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f62c5668-ef76-47fd-8f91-86eed7ccd81b
+  ws-opts:
+    headers:
+      Host: sg.baijia.cfd
+    path: /fdsffgfdgdfgdf
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_1
@@ -1515,10 +1534,11 @@ proxy-groups:
   - 加拿大 102
   - 加拿大 105
   - 加拿大 106
-  - 英国 004
   - 加拿大 107
   - 加拿大 108
   - 加拿大 109
+  - 韩国 023
+  - 新加坡 006
   - 🇺🇸_US_美国_1
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国_3
@@ -1607,10 +1627,11 @@ proxy-groups:
   - 加拿大 102
   - 加拿大 105
   - 加拿大 106
-  - 英国 004
   - 加拿大 107
   - 加拿大 108
   - 加拿大 109
+  - 韩国 023
+  - 新加坡 006
   - 🇺🇸_US_美国_1
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国_3
