@@ -427,7 +427,7 @@ proxies:
   delay: 1862
   h2-opts: {}
   http-opts: {}
-  name: 美国 015
+  name: 美国 014
   network: ws
   port: 2095
   server: 172.64.150.8
@@ -883,7 +883,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: dabai
-  name: 加拿大 062
+  name: 加拿大 061
   network: grpc
   port: 443
   server: 104.18.74.164
@@ -897,7 +897,7 @@ proxies:
   delay: 1339
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 064
+  name: 加拿大 063
   network: ws
   port: 2052
   server: 104.16.61.8
@@ -914,7 +914,7 @@ proxies:
   delay: 805
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 065
+  name: 加拿大 064
   network: ws
   port: 8880
   server: 104.16.61.8
@@ -931,7 +931,7 @@ proxies:
   delay: 1086
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 066
+  name: 加拿大 065
   network: ws
   port: 8080
   server: 104.16.67.38
@@ -945,7 +945,7 @@ proxies:
     path: /linde06.indiavideo.sbs/linkws
 - alterId: 0
   cipher: auto
-  name: 加拿大 067
+  name: 加拿大 066
   network: ws
   port: 2082
   server: s1c.v2.v001sss.xyz
@@ -960,7 +960,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 加拿大 068
+  name: 加拿大 067
   network: ws
   port: 80
   server: 104.16.67.38
@@ -975,7 +975,7 @@ proxies:
     path: /v118-fccxmxm35
 - alterId: 0
   cipher: auto
-  name: 加拿大 069
+  name: 加拿大 068
   network: ws
   port: 8080
   server: 172.67.172.88
@@ -993,7 +993,7 @@ proxies:
   delay: 1044
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 073
+  name: 加拿大 072
   network: ws
   port: 2086
   server: 162.159.136.33
@@ -1010,7 +1010,7 @@ proxies:
   delay: 950
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 074
+  name: 加拿大 073
   network: ws
   port: 8080
   server: 162.159.128.118
@@ -1027,7 +1027,7 @@ proxies:
   delay: 978
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 075
+  name: 加拿大 074
   network: ws
   port: 2095
   server: 162.159.129.111
@@ -1044,7 +1044,7 @@ proxies:
   delay: 1053
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 076
+  name: 加拿大 075
   network: ws
   port: 2095
   server: 104.19.38.88
@@ -1061,7 +1061,7 @@ proxies:
   delay: 1028
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 077
+  name: 加拿大 076
   network: ws
   port: 2095
   server: 172.64.144.66
@@ -1078,7 +1078,7 @@ proxies:
   delay: 758
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 078
+  name: 加拿大 077
   network: ws
   port: 2086
   server: 104.19.51.232
@@ -1095,7 +1095,7 @@ proxies:
   delay: 1083
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 079
+  name: 加拿大 078
   network: ws
   port: 2095
   server: 162.159.136.208
@@ -1112,7 +1112,7 @@ proxies:
   delay: 813
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 080
+  name: 加拿大 079
   network: ws
   port: 2086
   server: 104.19.38.62
@@ -1126,7 +1126,7 @@ proxies:
     path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
 - alterId: 0
   cipher: auto
-  name: 加拿大 090
+  name: 加拿大 089
   network: ws
   port: 8080
   server: 172.67.199.69
@@ -1141,7 +1141,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大 091
+  name: 加拿大 090
   network: ws
   port: 2082
   server: 104.21.8.157
@@ -1156,7 +1156,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大 096
+  name: 加拿大 094
   network: ws
   port: 2082
   server: 104.21.69.44
@@ -1172,7 +1172,7 @@ proxies:
     path: /dashboard?ed=2048
 - alterId: 0
   cipher: auto
-  name: 加拿大 097
+  name: 加拿大 095
   network: ws
   port: 2082
   server: zula.ir
@@ -1188,7 +1188,7 @@ proxies:
     path: /dashboard?ed=2048
 - alterId: 0
   cipher: auto
-  name: 加拿大 098
+  name: 加拿大 096
   network: ws
   port: 2052
   server: p2.v2raybrasil.cloud
@@ -1206,7 +1206,7 @@ proxies:
   delay: 1116
   h2-opts: {}
   http-opts: {}
-  name: 加拿大 099
+  name: 加拿大 097
   network: ws
   port: 2086
   server: fbi.gov
@@ -1220,34 +1220,133 @@ proxies:
     path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
 - alterId: 0
   cipher: auto
-  name: 新加坡 006
+  name: 加拿大 100
   network: ws
   port: 80
-  server: sg02.rosemarytrustworthy.icu
+  server: speed.cloudflare.com
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 4022f6b4-ab73-4147-9a00-ff0b4c4a09cb
+  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
   ws-opts:
     headers:
-      Host: sg02.rosemarytrustworthy.icu
+      Host: range-shape-b3fuegu.bananok182.workers.dev
+    path: /hms02.fxiaomi.sbs/link
+- alterId: 0
+  cipher: auto
+  name: 加拿大 101
+  network: ws
+  port: 2082
+  server: 104.16.60.8
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  ws-opts:
+    headers:
+      Host: worker-noisy-paper-fa00.hetoj18200.workers.dev
+    path: /afrhms16v.bestxray.buzz/linkws
+- alterId: 0
+  cipher: auto
+  name: 加拿大 102
+  network: ws
+  port: 8080
+  server: 104.16.61.8
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
+  ws-opts:
+    headers:
+      Host: hyfhhg.jadovah977.workers.dev
+    path: /jahfkjha.cfd/linkws
+- alterId: 0
+  cipher: auto
+  name: 加拿大 105
+  network: ws
+  port: 2086
+  server: 104.16.61.8
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+  ws-opts:
+    headers:
+      Host: ury-unit-c030ehei8.poget71138.workers.dev
+    path: /ivideos.sbs/linkws
+- alterId: 0
+  cipher: auto
+  name: 加拿大 106
+  network: ws
+  port: 8880
+  server: baobaojichang.bbjc.xyz
+  tls: false
+  type: vmess
+  uuid: 9ec32656-553f-46c1-82bf-1404c37766ec
+  ws-opts:
+    headers:
+      Host: riben.mojc.xyz
+    path: /?ed=2048
+- alterId: 64
+  cipher: auto
+  name: 英国 004
+  network: ws
+  port: 30000
+  server: 83.142.225.59
+  tls: true
+  type: vmess
+  uuid: 5267ca71-97e6-44c8-8fb5-9fe4afe0954e
+  ws-opts:
+    headers:
+      Host: www.41825759.xyz
+    path: /path/292806223002
+- alterId: 0
+  cipher: auto
+  name: 加拿大 107
+  network: ws
+  port: 2052
+  server: baobaojichang.bbjc.xyz
+  tls: false
+  type: vmess
+  uuid: 94282f95-994a-441e-93b5-68d2c9f866ba
+  ws-opts:
+    headers:
+      Host: hanguo.mojc.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 加拿大 108
+  network: ws
+  port: 80
+  server: 104.17.148.22
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1e99893d-8046-4825-9d28-f6de91147337
+  ws-opts:
+    headers:
+      Host: De2.vmess.site.
     path: /
 - alterId: 0
   cipher: auto
-  name: 美国 038
+  name: 加拿大 109
   network: ws
-  port: 80
-  server: us02.rosemarytrustworthy.icu
+  port: 8080
+  server: baobaojichang.bbjc.xyz
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 4022f6b4-ab73-4147-9a00-ff0b4c4a09cb
+  uuid: 9ec32656-553f-46c1-82bf-1404c37766ec
   ws-opts:
     headers:
-      Host: us02.rosemarytrustworthy.icu
-    path: /
+      Host: riben.mojc.xyz
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_1
@@ -1362,7 +1461,7 @@ proxy-groups:
   - 加拿大 030
   - 加拿大 031
   - 加拿大 032
-  - 美国 015
+  - 美国 014
   - 加拿大 033
   - 加拿大 034
   - 加拿大 035
@@ -1390,13 +1489,14 @@ proxy-groups:
   - 加拿大 058
   - 俄罗斯 002
   - 加拿大 060
-  - 加拿大 062
+  - 加拿大 061
+  - 加拿大 063
   - 加拿大 064
   - 加拿大 065
   - 加拿大 066
   - 加拿大 067
   - 加拿大 068
-  - 加拿大 069
+  - 加拿大 072
   - 加拿大 073
   - 加拿大 074
   - 加拿大 075
@@ -1404,15 +1504,21 @@ proxy-groups:
   - 加拿大 077
   - 加拿大 078
   - 加拿大 079
-  - 加拿大 080
+  - 加拿大 089
   - 加拿大 090
-  - 加拿大 091
+  - 加拿大 094
+  - 加拿大 095
   - 加拿大 096
   - 加拿大 097
-  - 加拿大 098
-  - 加拿大 099
-  - 新加坡 006
-  - 美国 038
+  - 加拿大 100
+  - 加拿大 101
+  - 加拿大 102
+  - 加拿大 105
+  - 加拿大 106
+  - 英国 004
+  - 加拿大 107
+  - 加拿大 108
+  - 加拿大 109
   - 🇺🇸_US_美国_1
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国_3
@@ -1447,7 +1553,7 @@ proxy-groups:
   - 加拿大 030
   - 加拿大 031
   - 加拿大 032
-  - 美国 015
+  - 美国 014
   - 加拿大 033
   - 加拿大 034
   - 加拿大 035
@@ -1475,13 +1581,14 @@ proxy-groups:
   - 加拿大 058
   - 俄罗斯 002
   - 加拿大 060
-  - 加拿大 062
+  - 加拿大 061
+  - 加拿大 063
   - 加拿大 064
   - 加拿大 065
   - 加拿大 066
   - 加拿大 067
   - 加拿大 068
-  - 加拿大 069
+  - 加拿大 072
   - 加拿大 073
   - 加拿大 074
   - 加拿大 075
@@ -1489,15 +1596,21 @@ proxy-groups:
   - 加拿大 077
   - 加拿大 078
   - 加拿大 079
-  - 加拿大 080
+  - 加拿大 089
   - 加拿大 090
-  - 加拿大 091
+  - 加拿大 094
+  - 加拿大 095
   - 加拿大 096
   - 加拿大 097
-  - 加拿大 098
-  - 加拿大 099
-  - 新加坡 006
-  - 美国 038
+  - 加拿大 100
+  - 加拿大 101
+  - 加拿大 102
+  - 加拿大 105
+  - 加拿大 106
+  - 英国 004
+  - 加拿大 107
+  - 加拿大 108
+  - 加拿大 109
   - 🇺🇸_US_美国_1
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国_3
