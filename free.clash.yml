@@ -1368,6 +1368,39 @@ proxies:
     path: /fdsffgfdgdfgdf
 - alterId: 0
   cipher: auto
+  name: 加拿大 117
+  network: ws
+  port: 2086
+  server: 104.16.148.244
+  servername: ip002.dtku47.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  ws-opts:
+    headers:
+      Host: ip002.dtku47.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 859
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 118
+  network: ws
+  port: 8880
+  server: 23.227.38.3
+  servername: remaining-criminal-douglas-idol.trycloudflare.com
+  type: vmess
+  udp: true
+  uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
+  ws-opts:
+    headers:
+      Host: remaining-criminal-douglas-idol.trycloudflare.com
+    path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm
+- alterId: 0
+  cipher: auto
   name: 🇺🇸_US_美国_1
   network: ws
   port: 2086
@@ -1396,35 +1429,17 @@ proxies:
     path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
 - alterId: 0
   cipher: auto
+  name: 🇷🇺_RU_俄罗斯联邦
+  network: tcp
+  port: 59985
+  server: 89.169.53.36
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d572d74e-427b-4525-9d0d-88608d1a4f19
+- alterId: 0
+  cipher: auto
   name: 🇺🇸_US_美国_3
-  network: ws
-  port: 80
-  server: russia.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 56c6ef30-a930-4bcb-a159-85d9838fadae
-  ws-opts:
-    headers:
-      host: sssub.v2.001.ssrsub.com
-    path: /api/v3/download.getFile
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_4
-  network: ws
-  port: 8880
-  server: russia.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 56c6ef30-a930-4bcb-a159-85d9838fadae
-  ws-opts:
-    headers:
-      host: sssub.v2.001.ssrsub.com
-    path: /api/v3/download.getFile
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大
   network: ws
   port: 8080
   server: 172.64.97.235
@@ -1438,7 +1453,50 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
+  name: 🇺🇸_US_美国_4
+  network: ws
+  port: 2086
+  server: fbi.gov
+  servername: ip002.dtku47.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  ws-opts:
+    headers:
+      host: ip002.dtku47.xyz
+    path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
+- alterId: 0
+  cipher: auto
   name: 🇺🇸_US_美国_5
+  network: ws
+  port: 80
+  server: russia.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 56c6ef30-a930-4bcb-a159-85d9838fadae
+  ws-opts:
+    headers:
+      host: sssub.v2.001.ssrsub.com
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_6
+  network: ws
+  port: 8880
+  server: russia.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 56c6ef30-a930-4bcb-a159-85d9838fadae
+  ws-opts:
+    headers:
+      host: sssub.v2.001.ssrsub.com
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_9
   network: ws
   port: 80
   server: www.speedtest.net
@@ -1449,6 +1507,48 @@ proxies:
   ws-opts:
     headers:
       host: De2.vmess.site.
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇫🇷_FR_法国_1
+  network: ws
+  port: 2082
+  server: s1c.v2.v001sss.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      host: s1c.v2.v001sss.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇫🇷_FR_法国_2
+  network: ws
+  port: 2082
+  server: 172.67.130.140
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      host: s1c.v2.v001sss.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇫🇷_FR_法国_3
+  network: ws
+  port: 2082
+  server: 104.21.8.157
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      host: s1c.v2.v001sss.xyz
     path: /
 proxy-groups:
 - name: 🔰 节点选择
@@ -1539,12 +1639,19 @@ proxy-groups:
   - 加拿大 109
   - 韩国 023
   - 新加坡 006
+  - 加拿大 117
+  - 加拿大 118
   - 🇺🇸_US_美国_1
   - 🇺🇸_US_美国_2
+  - 🇷🇺_RU_俄罗斯联邦
   - 🇺🇸_US_美国_3
   - 🇺🇸_US_美国_4
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大
   - 🇺🇸_US_美国_5
+  - 🇺🇸_US_美国_6
+  - 🇺🇸_US_美国_9
+  - 🇺🇸_US_美国->🇫🇷_FR_法国_1
+  - 🇺🇸_US_美国->🇫🇷_FR_法国_2
+  - 🇺🇸_US_美国->🇫🇷_FR_法国_3
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -1632,12 +1739,19 @@ proxy-groups:
   - 加拿大 109
   - 韩国 023
   - 新加坡 006
+  - 加拿大 117
+  - 加拿大 118
   - 🇺🇸_US_美国_1
   - 🇺🇸_US_美国_2
+  - 🇷🇺_RU_俄罗斯联邦
   - 🇺🇸_US_美国_3
   - 🇺🇸_US_美国_4
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大
   - 🇺🇸_US_美国_5
+  - 🇺🇸_US_美国_6
+  - 🇺🇸_US_美国_9
+  - 🇺🇸_US_美国->🇫🇷_FR_法国_1
+  - 🇺🇸_US_美国->🇫🇷_FR_法国_2
+  - 🇺🇸_US_美国->🇫🇷_FR_法国_3
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
