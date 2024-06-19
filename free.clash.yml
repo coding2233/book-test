@@ -1430,6 +1430,23 @@ proxies:
   uuid: 2a3263e2-891c-4446-b474-a8c63acb6e25
 - alterId: 0
   cipher: auto
+  delay: 319
+  h2-opts: {}
+  http-opts: {}
+  name: 新加坡 007
+  network: ws
+  port: 443
+  server: 13.250.99.41
+  servername: sg03.poke-mon.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: 04a4d837-8d5d-4560-b909-6c6852ad9525
+  ws-opts:
+    headers:
+      Host: sg03.poke-mon.xyz
+    path: /52pokemon?ed=2560
+- alterId: 0
+  cipher: auto
   name: 🇺🇸_US_美国_1
   network: ws
   port: 2086
@@ -1672,6 +1689,7 @@ proxy-groups:
   - 加拿大 118
   - 加拿大 119
   - 加拿大 120
+  - 新加坡 007
   - 🇺🇸_US_美国_1
   - 🇺🇸_US_美国_2
   - 🇷🇺_RU_俄罗斯联邦
@@ -1774,6 +1792,7 @@ proxy-groups:
   - 加拿大 118
   - 加拿大 119
   - 加拿大 120
+  - 新加坡 007
   - 🇺🇸_US_美国_1
   - 🇺🇸_US_美国_2
   - 🇷🇺_RU_俄罗斯联邦
