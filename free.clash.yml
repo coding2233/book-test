@@ -1401,6 +1401,35 @@ proxies:
     path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm
 - alterId: 0
   cipher: auto
+  name: 加拿大 119
+  network: ws
+  port: 8080
+  server: 104.19.47.0
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: /
+  name: 加拿大 120
+  network: grpc
+  port: 2087
+  server: elma.ns.cloudflare.com
+  servername: elma.ns.cloudflare.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 2a3263e2-891c-4446-b474-a8c63acb6e25
+- alterId: 0
+  cipher: auto
   name: 🇺🇸_US_美国_1
   network: ws
   port: 2086
@@ -1641,6 +1670,8 @@ proxy-groups:
   - 新加坡 006
   - 加拿大 117
   - 加拿大 118
+  - 加拿大 119
+  - 加拿大 120
   - 🇺🇸_US_美国_1
   - 🇺🇸_US_美国_2
   - 🇷🇺_RU_俄罗斯联邦
@@ -1741,6 +1772,8 @@ proxy-groups:
   - 新加坡 006
   - 加拿大 117
   - 加拿大 118
+  - 加拿大 119
+  - 加拿大 120
   - 🇺🇸_US_美国_1
   - 🇺🇸_US_美国_2
   - 🇷🇺_RU_俄罗斯联邦
