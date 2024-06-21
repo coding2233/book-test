@@ -631,22 +631,6 @@ proxies:
     path: /linde06.indiavideo.sbs/linkws
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 加拿大 051
-  network: ws
-  port: 80
-  server: 104.16.67.38
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
-  ws-opts:
-    headers:
-      Host: us3e-mmnnfr9dop0.v2freevpn.com
-    path: /v118-fccxmxm35
-- alterId: 0
-  cipher: auto
   name: 加拿大 052
   network: ws
   port: 8080
@@ -1699,6 +1683,34 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 加拿大 051
+  network: ws
+  port: 8443
+  server: 104.16.60.8
+  servername: subhk.osafari599.workers.dev
+  tls: true
+  type: vmess
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  ws-opts:
+    headers:
+      Host: subhk.osafari599.workers.dev
+    path: /linde06.indiavideo.sbs/linkws
+- alterId: 0
+  cipher: auto
+  name: 荷兰 013
+  network: ws
+  port: 443
+  server: 188.114.97.1
+  servername: linde06.indiavideo.sbs
+  tls: true
+  type: vmess
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  ws-opts:
+    headers:
+      Host: linde06.indiavideo.sbs
+    path: /linkws
+- alterId: 0
+  cipher: auto
   name: 🇺🇸_US_美国_1
   network: ws
   port: 2086
@@ -1952,7 +1964,6 @@ proxy-groups:
   - 加拿大 048
   - 加拿大 049
   - 加拿大 050
-  - 加拿大 051
   - 加拿大 052
   - 加拿大 056
   - 加拿大 057
@@ -2026,6 +2037,8 @@ proxy-groups:
   - 加拿大 167
   - 阿联酋 001
   - 加拿大 173
+  - 加拿大 051
+  - 荷兰 013
   - 🇺🇸_US_美国_1
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国_3
@@ -2082,7 +2095,6 @@ proxy-groups:
   - 加拿大 048
   - 加拿大 049
   - 加拿大 050
-  - 加拿大 051
   - 加拿大 052
   - 加拿大 056
   - 加拿大 057
@@ -2156,6 +2168,8 @@ proxy-groups:
   - 加拿大 167
   - 阿联酋 001
   - 加拿大 173
+  - 加拿大 051
+  - 荷兰 013
   - 🇺🇸_US_美国_1
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国_3
