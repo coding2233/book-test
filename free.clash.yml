@@ -46,23 +46,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  delay: 1213
-  h2-opts: {}
-  http-opts: {}
-  name: 加拿大 003
-  network: ws
-  port: 2052
-  server: yx3.gyyun.top
-  servername: lrb1.gyyun.top
-  skip-cert-verify: true
-  type: vmess
-  uuid: 92956f18-b72f-474e-9ed4-233a637ca657
-  ws-opts:
-    headers:
-      Host: lrb1.gyyun.top
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
   delay: 1417
   h2-opts: {}
   http-opts: {}
@@ -1068,20 +1051,6 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: 瑞典 002
-  network: ws
-  port: 443
-  server: Back.MsV2ray.online
-  servername: jahfkjha.cfd
-  tls: true
-  type: vmess
-  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
-  ws-opts:
-    headers:
-      Host: jahfkjha.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
   name: 美国 019
   network: ws
   port: 80
@@ -1596,6 +1565,140 @@ proxies:
     path: /other
 - alterId: 0
   cipher: auto
+  name: 加拿大 003
+  network: ws
+  port: 8080
+  server: baobaojichang.bbjc.xyz
+  tls: false
+  type: vmess
+  uuid: 5ad59c1e-617c-407b-ad62-1bd16f6c20d4
+  ws-opts:
+    headers:
+      Host: riben.mojc.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 加拿大 162
+  network: ws
+  port: 2095
+  server: 104.26.5.32
+  servername: ybr.redbullplus.xyz
+  tls: false
+  type: vmess
+  uuid: a5dc7082-3433-48ad-9216-ddc9768e5160
+  ws-opts:
+    headers:
+      Host: ybr.redbullplus.xyz
+    path: /DDD
+- alterId: 0
+  cipher: auto
+  name: 加拿大 163
+  network: ws
+  port: 80
+  server: 104.23.97.11
+  tls: false
+  type: vmess
+  uuid: 0880c19f-f253-4298-8573-42fb83bf3006
+  ws-opts:
+    headers:
+      Host: dl3.hезнакомцыглава1.劊子手.wick3d邪惡的小字母.suonycars.buzz.
+    path: /other
+- alterId: 0
+  cipher: auto
+  name: 加拿大 164
+  network: ws
+  port: 80
+  server: 104.25.77.191
+  tls: false
+  type: vmess
+  uuid: 0880c19f-f253-4298-8573-42fb83bf3006
+  ws-opts:
+    headers:
+      Host: dl3.hезнакомцыглава1.劊子手.wick3d邪惡的小字母.suonycars.buzz.
+    path: /other
+- alterId: 0
+  cipher: auto
+  name: 加拿大 165
+  network: ws
+  port: 443
+  server: 104.17.213.57
+  servername: xmivideo.cfd
+  tls: true
+  type: vmess
+  uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e
+  ws-opts:
+    headers:
+      Host: xmivideo.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  delay: 439
+  h2-opts: {}
+  http-opts: {}
+  name: 新加坡 003
+  network: ws
+  port: 443
+  server: sg03.poke-mon.xyz
+  servername: sg03.poke-mon.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: 03bfcbaa-2cb5-42dc-9d8c-7a70dfffb451
+  ws-opts:
+    headers:
+      Host: sg03.poke-mon.xyz
+    path: /52pokemon?ed=2560
+- alterId: 0
+  cipher: auto
+  delay: 1272
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 167
+  network: ws
+  port: 80
+  server: 162.159.136.98
+  servername: ccs2.hostmjj.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: f1b6bc05-40dd-4180-ca18-b05288fd33bb
+  ws-opts:
+    headers:
+      Host: ccs2.hostmjj.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 1336
+  h2-opts: {}
+  http-opts: {}
+  name: 阿联酋 001
+  network: ws
+  port: 80
+  server: 151.101.142.20
+  servername: pardazeshvpn.tg2.ir
+  skip-cert-verify: true
+  type: vmess
+  uuid: a2690f22-1598-42cd-9273-40f6ca6fb825
+  ws-opts:
+    headers:
+      Host: pardazeshvpn.tg2.ir
+    path: '/Telegram:'
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 加拿大 173
+  network: ws
+  port: 80
+  server: www.speedtest.net
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 1e99893d-8046-4825-9d28-f6de91147337
+  ws-opts:
+    headers:
+      Host: De2.vmess.site.
+    path: /
+- alterId: 0
+  cipher: auto
   name: 🇺🇸_US_美国_1
   network: ws
   port: 2086
@@ -1653,44 +1756,7 @@ proxies:
     path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
 - alterId: 0
   cipher: auto
-  name: 🇫🇮_FI_芬兰
-  network: ws
-  port: 2053
-  server: tu.miraclestory.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d862cdd6-3dd6-4adc-83ca-99bf0ce86bee
-  ws-opts:
-    headers:
-      host: divar.ir
-    path: /@V2RayyNGvpn
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大
-  network: ws
-  port: 8080
-  server: 172.64.97.235
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
-  ws-opts:
-    headers:
-      host: luther-soon-uploaded-anxiety.trycloudflare.com
-    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦_CA_加拿大
-  port: 17163
-  server: 108.181.200.220
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d54814a1-7a93-45f8-9117-db317a25d100
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_12
+  name: 🇺🇸_US_美国_5
   network: ws
   port: 2086
   server: 104.16.149.244
@@ -1704,35 +1770,21 @@ proxies:
     path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_13
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   network: ws
-  port: 2082
-  server: 104.21.8.157
+  port: 8080
+  server: 172.64.97.235
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
   ws-opts:
     headers:
-      host: s1c.v2.v001sss.xyz
-    path: /
+      host: luther-soon-uploaded-anxiety.trycloudflare.com
+    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇫🇷_FR_法国_1
-  network: ws
-  port: 2082
-  server: 172.67.130.140
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts:
-    headers:
-      host: s1c.v2.v001sss.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_19
+  name: 🇺🇸_US_美国_6
   network: ws
   port: 8880
   server: russia.com
@@ -1746,7 +1798,21 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇫🇷_FR_法国_2
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
+  network: ws
+  port: 8880
+  server: 104.19.38.112
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
+  ws-opts:
+    headers:
+      host: remaining-criminal-douglas-idol.trycloudflare.com
+    path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇫🇷_FR_法国_1
   network: ws
   port: 2082
   server: s1c.v2.v001sss.xyz
@@ -1760,35 +1826,63 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_20
+  name: 🇺🇸_US_美国->🇫🇷_FR_法国_2
   network: ws
-  port: 80
-  server: cf3.ftclashcloud.site
+  port: 2082
+  server: 172.67.130.140
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 67d2d4b7-a38e-4beb-8caf-ce50ff92420a
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
   ws-opts:
     headers:
-      host: mhyusa01.ftclashcloud.online
-    path: /ws?ed=2560
+      host: s1c.v2.v001sss.xyz
+    path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_21
+  name: 🇺🇸_US_美国->🇩🇪_DE_德国_1
   network: ws
   port: 80
-  server: cf4.ftclashcloud.site
+  server: 104.25.77.191
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 67d2d4b7-a38e-4beb-8caf-ce50ff92420a
+  uuid: 0880c19f-f253-4298-8573-42fb83bf3006
   ws-opts:
     headers:
-      host: mhyusa01.ftclashcloud.online
-    path: /ws?ed=2560
+      host: dl3.hезнакомцыглава1.劊子手.wick3d邪惡的小字母.suonycars.buzz.
+    path: /other
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_22
+  name: 🇺🇸_US_美国->🇩🇪_DE_德国_2
+  network: ws
+  port: 80
+  server: 104.23.97.11
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 0880c19f-f253-4298-8573-42fb83bf3006
+  ws-opts:
+    headers:
+      host: dl3.hезнакомцыглава1.劊子手.wick3d邪惡的小字母.suonycars.buzz.
+    path: /other
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇫🇷_FR_法国_3
+  network: ws
+  port: 2082
+  server: 104.21.8.157
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      host: s1c.v2.v001sss.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_14
   network: ws
   port: 80
   server: russia.com
@@ -1800,6 +1894,21 @@ proxies:
     headers:
       host: sssub.v2.001.ssrsub.com
     path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦_CA_加拿大_2
+  network: ws
+  port: 8880
+  server: 23.227.38.3
+  servername: remaining-criminal-douglas-idol.trycloudflare.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
+  ws-opts:
+    headers:
+      host: remaining-criminal-douglas-idol.trycloudflare.com
+    path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
@@ -1807,7 +1916,6 @@ proxy-groups:
   - 🎯 全球直连
   - 🚒 vps6.laiting.xyz
   - 加拿大 002
-  - 加拿大 003
   - 加拿大 004
   - 加拿大 005
   - 加拿大 006
@@ -1873,7 +1981,6 @@ proxy-groups:
   - 荷兰 005
   - 加拿大 097
   - 加拿大 098
-  - 瑞典 002
   - 美国 019
   - 加拿大 099
   - 加拿大 100
@@ -1910,27 +2017,35 @@ proxy-groups:
   - 加拿大 134
   - 加拿大 151
   - 加拿大 155
+  - 加拿大 003
+  - 加拿大 162
+  - 加拿大 163
+  - 加拿大 164
+  - 加拿大 165
+  - 新加坡 003
+  - 加拿大 167
+  - 阿联酋 001
+  - 加拿大 173
   - 🇺🇸_US_美国_1
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国_3
   - 🇺🇸_US_美国_4
-  - 🇫🇮_FI_芬兰
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大
-  - 🇨🇦_CA_加拿大
-  - 🇺🇸_US_美国_12
-  - 🇺🇸_US_美国_13
+  - 🇺🇸_US_美国_5
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
+  - 🇺🇸_US_美国_6
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
   - 🇺🇸_US_美国->🇫🇷_FR_法国_1
-  - 🇺🇸_US_美国_19
   - 🇺🇸_US_美国->🇫🇷_FR_法国_2
-  - 🇺🇸_US_美国_20
-  - 🇺🇸_US_美国_21
-  - 🇺🇸_US_美国_22
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_2
+  - 🇺🇸_US_美国->🇫🇷_FR_法国_3
+  - 🇺🇸_US_美国_14
+  - 🇨🇦_CA_加拿大_2
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
   - 加拿大 002
-  - 加拿大 003
   - 加拿大 004
   - 加拿大 005
   - 加拿大 006
@@ -1996,7 +2111,6 @@ proxy-groups:
   - 荷兰 005
   - 加拿大 097
   - 加拿大 098
-  - 瑞典 002
   - 美国 019
   - 加拿大 099
   - 加拿大 100
@@ -2033,21 +2147,30 @@ proxy-groups:
   - 加拿大 134
   - 加拿大 151
   - 加拿大 155
+  - 加拿大 003
+  - 加拿大 162
+  - 加拿大 163
+  - 加拿大 164
+  - 加拿大 165
+  - 新加坡 003
+  - 加拿大 167
+  - 阿联酋 001
+  - 加拿大 173
   - 🇺🇸_US_美国_1
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国_3
   - 🇺🇸_US_美国_4
-  - 🇫🇮_FI_芬兰
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大
-  - 🇨🇦_CA_加拿大
-  - 🇺🇸_US_美国_12
-  - 🇺🇸_US_美国_13
+  - 🇺🇸_US_美国_5
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
+  - 🇺🇸_US_美国_6
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
   - 🇺🇸_US_美国->🇫🇷_FR_法国_1
-  - 🇺🇸_US_美国_19
   - 🇺🇸_US_美国->🇫🇷_FR_法国_2
-  - 🇺🇸_US_美国_20
-  - 🇺🇸_US_美国_21
-  - 🇺🇸_US_美国_22
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_2
+  - 🇺🇸_US_美国->🇫🇷_FR_法国_3
+  - 🇺🇸_US_美国_14
+  - 🇨🇦_CA_加拿大_2
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
