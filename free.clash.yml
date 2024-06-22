@@ -1755,6 +1755,105 @@ proxies:
     path: /afrhms16v.bestxray.buzz/linkws
 - alterId: 0
   cipher: auto
+  name: 哈萨克斯坦 003
+  network: tcp
+  port: 2083
+  server: kz-v2ray.ipracevpn.com
+  tls: true
+  type: vmess
+  uuid: f2623be1-b7b9-41d6-a3df-34c5338e3748
+- alterId: 0
+  cipher: auto
+  name: 加拿大 081
+  network: ws
+  port: 2052
+  server: yx3.gyyun.top
+  tls: false
+  type: vmess
+  uuid: 9d4d2803-cbf8-4c49-afeb-3ce17ae0007a
+  ws-opts:
+    headers:
+      Host: lrb1.gyyun.top
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 加拿大 131
+  network: ws
+  port: 2052
+  server: yx1.gyyun.top
+  tls: false
+  type: vmess
+  uuid: 9d4d2803-cbf8-4c49-afeb-3ce17ae0007a
+  ws-opts:
+    headers:
+      Host: lrb1.gyyun.top
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 加拿大 140
+  network: ws
+  port: 80
+  server: baobaojichang.bbjc.xyz
+  tls: false
+  type: vmess
+  uuid: c3572b9c-db66-4656-91b2-853750a422ef
+  ws-opts:
+    headers:
+      Host: xianggang.mojc.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 加拿大 186
+  network: ws
+  port: 2052
+  server: yx2.gyyun.top
+  tls: false
+  type: vmess
+  uuid: 9d4d2803-cbf8-4c49-afeb-3ce17ae0007a
+  ws-opts:
+    headers:
+      Host: lrb1.gyyun.top
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: /
+  name: 美国 036
+  network: grpc
+  port: 2087
+  server: 173.245.58.154
+  servername: /
+  tls: true
+  type: vmess
+  uuid: 2a3263e2-891c-4446-b474-a8c63acb6e25
+- alterId: 0
+  cipher: auto
+  name: 加拿大 193
+  network: ws
+  port: 2052
+  server: 104.18.25.92
+  tls: false
+  type: vmess
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  ws-opts:
+    headers:
+      Host: mysan2.jaquay22.workers.dev
+    path: /afrhms16v.bestxray.buzz/linkws
+- alterId: 0
+  cipher: auto
+  name: 加拿大 195
+  network: ws
+  port: 2082
+  server: 104.16.61.8
+  tls: false
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: y-old-mode-9c0diab.wiriy73548.workers.dev
+    path: /obdii.cfd/linkws
+- alterId: 0
+  cipher: auto
   name: 🇺🇸_US_美国_1
   network: ws
   port: 2086
@@ -2023,6 +2122,14 @@ proxy-groups:
   - 美国 056
   - 伊朗 002
   - 保加利亚 001
+  - 哈萨克斯坦 003
+  - 加拿大 081
+  - 加拿大 131
+  - 加拿大 140
+  - 加拿大 186
+  - 美国 036
+  - 加拿大 193
+  - 加拿大 195
   - 🇺🇸_US_美国_1
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国_3
@@ -2154,6 +2261,14 @@ proxy-groups:
   - 美国 056
   - 伊朗 002
   - 保加利亚 001
+  - 哈萨克斯坦 003
+  - 加拿大 081
+  - 加拿大 131
+  - 加拿大 140
+  - 加拿大 186
+  - 美国 036
+  - 加拿大 193
+  - 加拿大 195
   - 🇺🇸_US_美国_1
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国_3
