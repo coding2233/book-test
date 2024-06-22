@@ -567,19 +567,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  grpc-opts:
-    grpc-service-name: dabai
-  name: 加拿大 047
-  network: grpc
-  port: 443
-  server: 104.18.74.164
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 13932f17-6d18-3254-8c8f-9de140c5a64c
-- alterId: 0
-  cipher: auto
   delay: 1339
   h2-opts: {}
   http-opts: {}
@@ -1711,6 +1698,63 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
+  name: 美国 055
+  network: tcp
+  port: 41001
+  server: bgroup.node3.v.nodelist-gfwairport2.top
+  tls: false
+  type: vmess
+  uuid: 2155145a-b1b5-443a-8977-670f6bd10f02
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: ''
+  name: 加拿大 047
+  network: grpc
+  port: 2087
+  server: 108.162.192.154
+  servername: 1fdSNA119228928OpS2smTaB228aAsDDsd1ea114928249159.zigolao-leon-04.net
+  tls: true
+  type: vmess
+  uuid: 2a3263e2-891c-4446-b474-a8c63acb6e25
+- alterId: 0
+  cipher: auto
+  name: 美国 056
+  network: ws
+  port: 2052
+  server: 172.64.150.8
+  tls: false
+  type: vmess
+  uuid: 60bcbd52-0c88-4da3-aee2-cc1f9d5ca224
+  ws-opts:
+    headers:
+      Host: ybr.redbullplus.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 伊朗 002
+  network: tcp
+  port: 2966
+  server: 95.38.248.217
+  tls: false
+  type: vmess
+  uuid: e80a8064-740e-4b90-8423-ce82a725e53c
+- alterId: 0
+  cipher: auto
+  name: 保加利亚 001
+  network: ws
+  port: 443
+  server: 147.78.140.68
+  servername: 6c47-butterfly-6c47.yexoji3749.workers.dev
+  tls: true
+  type: vmess
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  ws-opts:
+    headers:
+      Host: 6c47-butterfly-6c47.yexoji3749.workers.dev
+    path: /afrhms16v.bestxray.buzz/linkws
+- alterId: 0
+  cipher: auto
   name: 🇺🇸_US_美国_1
   network: ws
   port: 2086
@@ -1782,145 +1826,81 @@ proxies:
     path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
+  name: 🇨🇦_CA_加拿大_1
   network: ws
-  port: 8080
-  server: 172.64.97.235
+  port: 2086
+  server: 23.227.38.5
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
   ws-opts:
     headers:
-      host: luther-soon-uploaded-anxiety.trycloudflare.com
-    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+      host: ip002.freegradely.xyz
+    path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_6
   network: ws
-  port: 8880
-  server: russia.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 56c6ef30-a930-4bcb-a159-85d9838fadae
-  ws-opts:
-    headers:
-      host: sssub.v2.001.ssrsub.com
-    path: /api/v3/download.getFile
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
-  network: ws
-  port: 8880
-  server: 104.19.38.112
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
-  ws-opts:
-    headers:
-      host: remaining-criminal-douglas-idol.trycloudflare.com
-    path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇫🇷_FR_法国_1
-  network: ws
-  port: 2082
-  server: s1c.v2.v001sss.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts:
-    headers:
-      host: s1c.v2.v001sss.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇫🇷_FR_法国_2
-  network: ws
-  port: 2082
-  server: 172.67.130.140
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts:
-    headers:
-      host: s1c.v2.v001sss.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇩🇪_DE_德国_1
-  network: ws
   port: 80
-  server: 104.25.77.191
+  server: 162.159.136.98
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 0880c19f-f253-4298-8573-42fb83bf3006
+  uuid: f1b6bc05-40dd-4180-ca18-b05288fd33bb
   ws-opts:
     headers:
-      host: dl3.hезнакомцыглава1.劊子手.wick3d邪惡的小字母.suonycars.buzz.
-    path: /other
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇩🇪_DE_德国_2
-  network: ws
-  port: 80
-  server: 104.23.97.11
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 0880c19f-f253-4298-8573-42fb83bf3006
-  ws-opts:
-    headers:
-      host: dl3.hезнакомцыглава1.劊子手.wick3d邪惡的小字母.suonycars.buzz.
-    path: /other
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇫🇷_FR_法国_3
-  network: ws
-  port: 2082
-  server: 104.21.8.157
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts:
-    headers:
-      host: s1c.v2.v001sss.xyz
+      host: ccs2.hostmjj.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_14
-  network: ws
-  port: 80
-  server: russia.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 56c6ef30-a930-4bcb-a159-85d9838fadae
-  ws-opts:
-    headers:
-      host: sssub.v2.001.ssrsub.com
-    path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
   name: 🇨🇦_CA_加拿大_2
   network: ws
-  port: 8880
-  server: 23.227.38.3
-  servername: remaining-criminal-douglas-idol.trycloudflare.com
+  port: 2086
+  server: 23.227.38.6
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
   ws-opts:
     headers:
-      host: remaining-criminal-douglas-idol.trycloudflare.com
-    path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm
+      host: ip002.freegradely.xyz
+    path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
+- alterId: 64
+  cipher: auto
+  name: 🇺🇸_US_美国_7
+  network: ws
+  port: 443
+  server: 107.167.20.189
+  servername: www.15314695.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    path: /path/191019072927
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦_CA_加拿大_3
+  network: ws
+  port: 443
+  server: 23.162.200.227
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_8
+  network: tcp
+  port: 2083
+  server: kz-v2ray.ipracevpn.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f2623be1-b7b9-41d6-a3df-34c5338e3748
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
@@ -1960,7 +1940,6 @@ proxy-groups:
   - 加拿大 043
   - 加拿大 045
   - 加拿大 046
-  - 加拿大 047
   - 加拿大 048
   - 加拿大 049
   - 加拿大 050
@@ -2039,21 +2018,22 @@ proxy-groups:
   - 加拿大 173
   - 加拿大 051
   - 荷兰 013
+  - 美国 055
+  - 加拿大 047
+  - 美国 056
+  - 伊朗 002
+  - 保加利亚 001
   - 🇺🇸_US_美国_1
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国_3
   - 🇺🇸_US_美国_4
   - 🇺🇸_US_美国_5
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
+  - 🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国_6
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
-  - 🇺🇸_US_美国->🇫🇷_FR_法国_1
-  - 🇺🇸_US_美国->🇫🇷_FR_法国_2
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2
-  - 🇺🇸_US_美国->🇫🇷_FR_法国_3
-  - 🇺🇸_US_美国_14
   - 🇨🇦_CA_加拿大_2
+  - 🇺🇸_US_美国_7
+  - 🇨🇦_CA_加拿大_3
+  - 🇺🇸_US_美国_8
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -2091,7 +2071,6 @@ proxy-groups:
   - 加拿大 043
   - 加拿大 045
   - 加拿大 046
-  - 加拿大 047
   - 加拿大 048
   - 加拿大 049
   - 加拿大 050
@@ -2170,21 +2149,22 @@ proxy-groups:
   - 加拿大 173
   - 加拿大 051
   - 荷兰 013
+  - 美国 055
+  - 加拿大 047
+  - 美国 056
+  - 伊朗 002
+  - 保加利亚 001
   - 🇺🇸_US_美国_1
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国_3
   - 🇺🇸_US_美国_4
   - 🇺🇸_US_美国_5
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
+  - 🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国_6
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
-  - 🇺🇸_US_美国->🇫🇷_FR_法国_1
-  - 🇺🇸_US_美国->🇫🇷_FR_法国_2
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2
-  - 🇺🇸_US_美国->🇫🇷_FR_法国_3
-  - 🇺🇸_US_美国_14
   - 🇨🇦_CA_加拿大_2
+  - 🇺🇸_US_美国_7
+  - 🇨🇦_CA_加拿大_3
+  - 🇺🇸_US_美国_8
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
