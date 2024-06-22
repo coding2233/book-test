@@ -2193,6 +2193,11 @@ proxy-groups:
   - 🔰 节点选择
   - 🚒 vps6.laiting.xyz
   type: select
+- name: 🤡 Unity
+  proxies:
+  - 🔰 节点选择
+  - 🎯 全球直连
+  type: select
 - name: 🌐 Steam
   proxies:
   - 🎯 全球直连
@@ -3002,8 +3007,6 @@ rules:
 - DOMAIN-KEYWORD,godaddy,🔰 节点选择
 - DOMAIN-SUFFIX,civitai.com,🔰 节点选择
 - DOMAIN-SUFFIX,huggingface.co,🔰 节点选择
-- DOMAIN-SUFFIX,unity.com,🔰 节点选择
-- DOMAIN-SUFFIX,unity3d.com,🔰 节点选择
 - DOMAIN-SUFFIX,f-droid.org,🔰 节点选择
 - DOMAIN-KEYWORD,mastodon,🔰 节点选择
 - DOMAIN-KEYWORD,discord,🔰 节点选择
@@ -3028,6 +3031,8 @@ rules:
 - DOMAIN-SUFFIX,dl.steam.clngaa.com,🌐 Steam
 - DOMAIN-SUFFIX,steamstatic.com,🌐 Steam
 - DOMAIN-SUFFIX,rf4game.ru,🌐 Steam
+- DOMAIN-SUFFIX,unity.com,🤡 Unity
+- DOMAIN-SUFFIX,unity3d.com,🤡 Unity
 - DOMAIN-SUFFIX,stun.antisip.com,🌉 Bridge
 - DOMAIN-SUFFIX,stun.bluesip.net,🌉 Bridge
 - DOMAIN-SUFFIX,stun.dus.net,🌉 Bridge
@@ -3062,8 +3067,6 @@ dns:
   ipv6: true
   enable: true
   default-nameserver:
-  - 45.90.28.156
-  - 45.90.30.156
   - 223.5.5.5
   - 8.8.8.8
   - 114.114.114.114
@@ -3071,8 +3074,6 @@ dns:
   fake-ip-range: 198.18.0.1/16
   use-hosts: true
   nameserver:
-  - tls://db1fed.dns.nextdns.io
-  - https://dns.nextdns.io/db1fed
   - 223.5.5.5
   - 8.8.8.8
   - https://dns.google/dns-query
