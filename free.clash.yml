@@ -1439,20 +1439,6 @@ proxies:
     path: /V2ray.SeyyedMT
 - alterId: 0
   cipher: auto
-  name: 加拿大 124
-  network: ws
-  port: 2095
-  server: 104.26.14.85
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 3e540874-0730-452a-8b2e-e719b5d34470
-  ws-opts:
-    headers:
-      Host: Yakuza.unique69.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: 瑞典 004
   network: ws
   port: 2052
@@ -1854,92 +1840,387 @@ proxies:
     path: /obdii.cfd/linkws
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_1
+  name: 美国 058
+  network: ws
+  port: 8080
+  server: 162.159.1.33
+  tls: false
+  type: vmess
+  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
+  ws-opts:
+    headers:
+      Host: pcs-referenced-camera-concerns.trycloudflare.com
+    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
+- alterId: 0
+  cipher: auto
+  name: 美国 059
+  network: ws
+  port: 2052
+  server: 172.67.152.170
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: mahilu.site
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 196
+  network: ws
+  port: 2052
+  server: 104.21.82.39
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: mahilu.site
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 197
   network: ws
   port: 2086
-  server: 104.16.148.244
-  servername: ip002.dtku47.xyz
+  server: cfcdn1.sanfencdn9.com
+  tls: false
+  type: vmess
+  uuid: 3f09c198-da80-44ce-a72b-40bc600b2321
+  ws-opts:
+    headers:
+      Host: us77SmSk86j.fzbqfrse.xyz
+    path: /video/Z7qdcrAGRw
+- alterId: 0
+  cipher: auto
+  name: 加拿大 198
+  network: ws
+  port: 8080
+  server: 162.159.5.6
+  tls: false
+  type: vmess
+  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
+  ws-opts:
+    headers:
+      Host: pcs-referenced-camera-concerns.trycloudflare.com
+    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
+- alterId: 0
+  cipher: auto
+  name: 美国 060
+  network: ws
+  port: 80
+  server: 172.67.116.48
+  tls: false
+  type: vmess
+  uuid: 22a13aa2-4854-44cb-e090-ec71ab84b1ff
+  ws-opts:
+    headers:
+      Host: wap.hostmjj.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 199
+  network: ws
+  port: 2082
+  server: 172.67.130.140
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      Host: s1c.v2.v001sss.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 200
+  network: ws
+  port: 80
+  server: 104.21.234.52
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 日本 002
+  network: tcp
+  port: 23234
+  server: jp6.mmmmmmmmmm.cfd
+  tls: false
+  type: vmess
+  uuid: 8391af38-2bc3-4514-ad16-44b5fcc5cbcf
+- alterId: 0
+  cipher: auto
+  name: 加拿大 201
+  network: ws
+  port: 80
+  server: ld2.shabijichang.com
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  udp: true
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      host: ip002.dtku47.xyz
-    path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
+      Host: ld2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 202
+  network: ws
+  port: 80
+  server: mm2.shabijichang.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: mm2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 203
+  network: ws
+  port: 80
+  server: wnd2.shabijichang.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: wnd2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 204
+  network: ws
+  port: 80
+  server: wnd3.shabijichang.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: wnd3.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 124
+  network: tcp
+  port: 22324
+  server: 23.162.200.182
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  delay: 2342
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 205
+  network: ws
+  port: 2082
+  server: baobaojichang.bbjc.xyz
+  servername: xianggang.mojc.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: 4bd22b62-c5fa-4871-8b11-f92fe1636c6d
+  ws-opts:
+    headers:
+      Host: xianggang.mojc.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  delay: 1800
+  h2-opts: {}
+  http-opts: {}
+  name: 美国 061
+  network: ws
+  port: 2052
+  server: 206.238.236.36
+  servername: mysan2.jaquay22.workers.dev
+  skip-cert-verify: true
+  type: vmess
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  ws-opts:
+    headers:
+      Host: mysan2.jaquay22.workers.dev
+    path: /afrhms16v.bestxray.buzz/linkws
+- alterId: 0
+  cipher: auto
+  delay: 1532
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 206
+  network: ws
+  port: 8880
+  server: 104.16.60.8
+  servername: square-snowflake-486a.beshir-beisel.workers.dev
+  skip-cert-verify: true
+  type: vmess
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  ws-opts:
+    headers:
+      Host: square-snowflake-486a.beshir-beisel.workers.dev
+    path: /linde06.indiavideo.sbs/linkws
+- alterId: 0
+  cipher: auto
+  delay: 1210
+  name: 加拿大 207
+  network: ws
+  port: 443
+  server: hdfy1sub1.achaemenidempireofpersia.uk
+  servername: hdfy1sub1.achaemenidempireofpersia.uk
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 6b880b07-e952-4c0b-b4a3-6c9ac4cf9d3f
+  ws-opts:
+    headers:
+      Host: hdfy1sub1.achaemenidempireofpersia.uk
+    path: /QvtvPdDXXIlSdZMqnuxG
+- alterId: 0
+  cipher: auto
+  delay: 480
+  h2-opts: {}
+  http-opts: {}
+  name: 新加坡 008
+  network: ws
+  port: 80
+  server: 213.35.113.150
+  servername: dl.kgvn.garenanow.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: eaf5e01b-f27d-44cf-94ae-87196143eef9
+  ws-opts:
+    headers:
+      Host: dl.kgvn.garenanow.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 1595
+  h2-opts: {}
+  http-opts: {}
+  name: 日本 008
+  network: ws
+  port: 445
+  server: jp1.connectnaif.xyz
+  servername: aa.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 1890567b-123f-4496-9151-e98bfa90811f
+  ws-opts:
+    headers:
+      Host: aa.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 1256
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 209
+  network: ws
+  port: 2086
+  server: 104.16.60.8
+  servername: y-old-mode-9c0diab.wiriy73548.workers.dev
+  skip-cert-verify: true
+  type: vmess
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  ws-opts:
+    headers:
+      Host: y-old-mode-9c0diab.wiriy73548.workers.dev
+    path: /afrhms16v.bestxray.buzz/linkws
+- alterId: 0
+  cipher: auto
+  delay: 1280
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 210
+  network: ws
+  port: 2095
+  server: 104.24.151.82
+  servername: 100-100-17-467.db-link01.top
+  skip-cert-verify: true
+  type: vmess
+  uuid: f7380049-b904-3bde-af0d-ba2c1940674a
+  ws-opts:
+    headers:
+      Host: 100-100-17-467.db-link01.top
+    path: /dabai.in104.24.151.82
+- alterId: 0
+  cipher: auto
+  delay: 724
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 211
+  network: ws
+  port: 2052
+  server: 104.21.237.114
+  servername: 100-100-17-422.db-link02.top
+  skip-cert-verify: true
+  type: vmess
+  uuid: f7380049-b904-3bde-af0d-ba2c1940674a
+  ws-opts:
+    headers:
+      Host: 100-100-17-422.db-link02.top
+    path: /dabai.in104.21.237.114
+- alterId: 0
+  cipher: auto
+  delay: 966
+  h2-opts: {}
+  http-opts: {}
+  name: 加拿大 212
+  network: ws
+  port: 80
+  server: 104.19.38.10
+  servername: doctor-granny-openings-br.trycloudflare.com
+  type: vmess
+  udp: true
+  uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
+  ws-opts:
+    headers:
+      Host: doctor-granny-openings-br.trycloudflare.com
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_1
+  network: ws
+  port: 8080
+  server: russia.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
+  ws-opts:
+    headers:
+      host: sssub.v2.001.ssrsub.com
+    path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_2
   network: ws
-  port: 2086
-  server: 104.19.38.62
+  port: 2095
+  server: russia.com
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts:
     headers:
-      host: ip002.dtku47.xyz
-    path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
+      host: sssub.v2.001.ssrsub.com
+    path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_3
-  network: ws
-  port: 2086
-  server: 104.19.51.232
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-  ws-opts:
-    headers:
-      host: ip002.dtku47.xyz
-    path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_4
-  network: ws
-  port: 2086
-  server: fbi.gov
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-  ws-opts:
-    headers:
-      host: ip002.dtku47.xyz
-    path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_5
-  network: ws
-  port: 2086
-  server: 104.16.149.244
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-  ws-opts:
-    headers:
-      host: ip002.dtku47.xyz
-    path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦_CA_加拿大_1
-  network: ws
-  port: 2086
-  server: 23.227.38.5
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-  ws-opts:
-    headers:
-      host: ip002.freegradely.xyz
-    path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_6
   network: ws
   port: 80
   server: 162.159.136.98
@@ -1953,34 +2234,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇨🇦_CA_加拿大_2
-  network: ws
-  port: 2086
-  server: 23.227.38.6
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-  ws-opts:
-    headers:
-      host: ip002.freegradely.xyz
-    path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
-- alterId: 64
-  cipher: auto
-  name: 🇺🇸_US_美国_7
-  network: ws
-  port: 443
-  server: 107.167.20.189
-  servername: www.15314695.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    path: /path/191019072927
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦_CA_加拿大_3
+  name: 🇨🇦_CA_加拿大
   network: ws
   port: 443
   server: 23.162.200.227
@@ -1992,14 +2246,43 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_8
+  name: 🇺🇸_US_美国->🇫🇷_FR_法国
+  network: ws
+  port: 2082
+  server: 104.21.8.157
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      host: s1c.v2.v001sss.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇩🇪_DE_德国
+  network: ws
+  port: 443
+  server: hdfy1sub1.achaemenidempireofpersia.uk
+  servername: hdfy1sub1.achaemenidempireofpersia.uk
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 6b880b07-e952-4c0b-b4a3-6c9ac4cf9d3f
+  ws-opts:
+    headers:
+      host: hdfy1sub1.achaemenidempireofpersia.uk
+    path: /QvtvPdDXXIlSdZMqnuxG
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_5
   network: tcp
   port: 2083
   server: kz-v2ray.ipracevpn.com
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: f2623be1-b7b9-41d6-a3df-34c5338e3748
+  uuid: 4f97bdbc-eaeb-4bf9-ad7f-faad44c6f6bb
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
@@ -2099,7 +2382,6 @@ proxy-groups:
   - 加拿大 122
   - 加拿大 123
   - 瑞典 003
-  - 加拿大 124
   - 瑞典 004
   - 加拿大 125
   - 加拿大 126
@@ -2130,17 +2412,37 @@ proxy-groups:
   - 美国 036
   - 加拿大 193
   - 加拿大 195
+  - 美国 058
+  - 美国 059
+  - 加拿大 196
+  - 加拿大 197
+  - 加拿大 198
+  - 美国 060
+  - 加拿大 199
+  - 加拿大 200
+  - 日本 002
+  - 加拿大 201
+  - 加拿大 202
+  - 加拿大 203
+  - 加拿大 204
+  - 加拿大 124
+  - 加拿大 205
+  - 美国 061
+  - 加拿大 206
+  - 加拿大 207
+  - 新加坡 008
+  - 日本 008
+  - 加拿大 209
+  - 加拿大 210
+  - 加拿大 211
+  - 加拿大 212
   - 🇺🇸_US_美国_1
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国_3
-  - 🇺🇸_US_美国_4
+  - 🇨🇦_CA_加拿大
+  - 🇺🇸_US_美国->🇫🇷_FR_法国
+  - 🇺🇸_US_美国->🇩🇪_DE_德国
   - 🇺🇸_US_美国_5
-  - 🇨🇦_CA_加拿大_1
-  - 🇺🇸_US_美国_6
-  - 🇨🇦_CA_加拿大_2
-  - 🇺🇸_US_美国_7
-  - 🇨🇦_CA_加拿大_3
-  - 🇺🇸_US_美国_8
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -2238,7 +2540,6 @@ proxy-groups:
   - 加拿大 122
   - 加拿大 123
   - 瑞典 003
-  - 加拿大 124
   - 瑞典 004
   - 加拿大 125
   - 加拿大 126
@@ -2269,17 +2570,37 @@ proxy-groups:
   - 美国 036
   - 加拿大 193
   - 加拿大 195
+  - 美国 058
+  - 美国 059
+  - 加拿大 196
+  - 加拿大 197
+  - 加拿大 198
+  - 美国 060
+  - 加拿大 199
+  - 加拿大 200
+  - 日本 002
+  - 加拿大 201
+  - 加拿大 202
+  - 加拿大 203
+  - 加拿大 204
+  - 加拿大 124
+  - 加拿大 205
+  - 美国 061
+  - 加拿大 206
+  - 加拿大 207
+  - 新加坡 008
+  - 日本 008
+  - 加拿大 209
+  - 加拿大 210
+  - 加拿大 211
+  - 加拿大 212
   - 🇺🇸_US_美国_1
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国_3
-  - 🇺🇸_US_美国_4
+  - 🇨🇦_CA_加拿大
+  - 🇺🇸_US_美国->🇫🇷_FR_法国
+  - 🇺🇸_US_美国->🇩🇪_DE_德国
   - 🇺🇸_US_美国_5
-  - 🇨🇦_CA_加拿大_1
-  - 🇺🇸_US_美国_6
-  - 🇨🇦_CA_加拿大_2
-  - 🇺🇸_US_美国_7
-  - 🇨🇦_CA_加拿大_3
-  - 🇺🇸_US_美国_8
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
