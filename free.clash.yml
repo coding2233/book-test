@@ -2013,15 +2013,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大 124
-  network: tcp
-  port: 22324
-  server: 23.162.200.182
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
   delay: 2342
   h2-opts: {}
   http-opts: {}
@@ -2190,6 +2181,130 @@ proxies:
     headers:
       Host: doctor-granny-openings-br.trycloudflare.com
     path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 加拿大 124
+  network: ws
+  port: 2052
+  server: cfcdn1.sanfencdn9.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: fec25e7b-3e30-4702-9b93-62ed3849a9d7
+  ws-opts:
+    headers:
+      Host: us1cPZiz8nb.fzbqfrse.xyz
+    path: /video/6VBhAkCtV4/
+- alterId: 0
+  cipher: auto
+  name: 乌克兰 002
+  network: tcp
+  port: 55471
+  server: 141.105.130.9
+  tls: false
+  type: vmess
+  uuid: 714d36ca-09ce-4182-8756-e0bf7a85158e
+- alterId: 0
+  cipher: auto
+  name: 加拿大 229
+  network: ws
+  port: 8080
+  server: cfd.ipa.monster
+  tls: false
+  type: vmess
+  uuid: 107187d8-9214-41dd-b48c-60bf9fb676d3
+  ws-opts:
+    headers:
+      Host: ruishi.a1t.top
+    path: /itdog?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 加拿大 230
+  network: ws
+  port: 80
+  server: 104.16.45.17
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: akhk.xlb8.eu.org
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 加拿大 231
+  network: ws
+  port: 443
+  server: sareikela.com
+  servername: sareikela.com
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: sareikela.com
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 乌克兰 003
+  network: tcp
+  port: 55017
+  server: 91.231.182.227
+  tls: false
+  type: vmess
+  uuid: 95f43390-8e05-40a6-9ef8-d9219f823584
+- alterId: 0
+  cipher: auto
+  name: 加拿大 232
+  network: ws
+  port: 443
+  server: 104.17.197.31
+  servername: quiet-moon-132a.xetag42714.workers.dev
+  tls: true
+  type: vmess
+  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+  ws-opts:
+    headers:
+      Host: quiet-moon-132a.xetag42714.workers.dev
+    path: /ivideos.sbs/linkws
+- alterId: 0
+  cipher: auto
+  delay: 1484
+  h2-opts: {}
+  http-opts: {}
+  name: 德国 009
+  network: ws
+  port: 443
+  server: 92.223.124.27
+  servername: sanapardaz.onthewifi.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 3e57354f-ff12-4536-81f9-c6155ef18b69
+  ws-opts:
+    headers:
+      Host: sanapardaz.onthewifi.com
+    path: /
+- alterId: 64
+  cipher: auto
+  delay: 2887
+  h2-opts: {}
+  http-opts: {}
+  name: 法国 011
+  network: ws
+  port: 30000
+  server: 54.38.220.102
+  servername: www.95485710.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: a4af3ddf-90c0-4b58-bf40-98566c3b376c
+  ws-opts:
+    headers:
+      Host: www.95485710.xyz
+    path: /path/340434130032
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_1
@@ -2425,7 +2540,6 @@ proxy-groups:
   - 加拿大 202
   - 加拿大 203
   - 加拿大 204
-  - 加拿大 124
   - 加拿大 205
   - 美国 061
   - 加拿大 206
@@ -2436,6 +2550,15 @@ proxy-groups:
   - 加拿大 210
   - 加拿大 211
   - 加拿大 212
+  - 加拿大 124
+  - 乌克兰 002
+  - 加拿大 229
+  - 加拿大 230
+  - 加拿大 231
+  - 乌克兰 003
+  - 加拿大 232
+  - 德国 009
+  - 法国 011
   - 🇺🇸_US_美国_1
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国_3
@@ -2583,7 +2706,6 @@ proxy-groups:
   - 加拿大 202
   - 加拿大 203
   - 加拿大 204
-  - 加拿大 124
   - 加拿大 205
   - 美国 061
   - 加拿大 206
@@ -2594,6 +2716,15 @@ proxy-groups:
   - 加拿大 210
   - 加拿大 211
   - 加拿大 212
+  - 加拿大 124
+  - 乌克兰 002
+  - 加拿大 229
+  - 加拿大 230
+  - 加拿大 231
+  - 乌克兰 003
+  - 加拿大 232
+  - 德国 009
+  - 法国 011
   - 🇺🇸_US_美国_1
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国_3
