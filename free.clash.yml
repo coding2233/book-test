@@ -46,21 +46,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  delay: 1417
-  name: 加拿大 004
-  network: ws
-  port: 8080
-  server: 104.16.60.8
-  servername: hyfhhg.jadovah977.workers.dev
-  skip-cert-verify: true
-  type: vmess
-  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
-  ws-opts:
-    headers:
-      Host: hyfhhg.jadovah977.workers.dev
-    path: /jahfkjha.cfd/linkws
-- alterId: 0
-  cipher: auto
   delay: 1317
   name: 加拿大 005
   network: ws
@@ -197,21 +182,6 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - alterId: 0
   cipher: auto
-  delay: 1732
-  name: 加拿大 023
-  network: ws
-  port: 8080
-  server: 104.19.47.180
-  servername: oiictw.yydsii.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
   name: 加拿大 025
   network: ws
   port: 8080
@@ -242,146 +212,11 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  delay: 1052
-  name: 加拿大 031
-  network: ws
-  port: 8080
-  server: 104.19.47.132
-  servername: oiictw.yydsii.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  delay: 1143
-  name: 加拿大 032
-  network: ws
-  port: 8080
-  server: 104.18.189.19
-  servername: oiictw.yydsii.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /
-- alterId: 0
-  cipher: auto
-  delay: 2999
-  name: 加拿大 033
-  network: ws
-  port: 8080
-  server: 172.67.185.218
-  servername: oiictw.yydsii.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /
-- alterId: 0
-  cipher: auto
-  delay: 1931
-  name: 加拿大 034
-  network: ws
-  port: 8080
-  server: 172.67.199.221
-  servername: oiictw.yydsii.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /
-- alterId: 0
-  cipher: auto
-  delay: 1322
-  name: 加拿大 035
-  network: ws
-  port: 8080
-  server: 104.19.47.126
-  servername: oiictw.yydsii.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  delay: 1828
-  name: 加拿大 036
-  network: ws
-  port: 8080
-  server: 104.19.47.155
-  servername: oiictw.yydsii.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  delay: 1274
-  name: 加拿大 037
-  network: ws
-  port: 8080
-  server: 104.19.47.18
-  servername: oiictw.yydsii.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
   delay: 2394
   name: 加拿大 038
   network: ws
   port: 8080
   server: 104.19.47.129
-  servername: oiictw.yydsii.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  delay: 2439
-  name: 加拿大 039
-  network: ws
-  port: 8080
-  server: 104.19.47.142
-  servername: oiictw.yydsii.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  delay: 1703
-  name: 加拿大 040
-  network: ws
-  port: 8080
-  server: 104.19.47.4
   servername: oiictw.yydsii.com
   skip-cert-verify: true
   type: vmess
@@ -418,21 +253,6 @@ proxies:
     headers:
       Host: hkv6.xlb8.eu.org
     path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  delay: 1056
-  name: 加拿大 043
-  network: ws
-  port: 80
-  server: 104.19.37.138
-  servername: akjp.xlb8.eu.org
-  skip-cert-verify: true
-  type: vmess
-  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
-  ws-opts:
-    headers:
-      Host: akjp.xlb8.eu.org
-    path: /?ed=2048
 - alterId: 0
   cipher: auto
   delay: 1339
@@ -510,21 +330,6 @@ proxies:
     path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
 - alterId: 0
   cipher: auto
-  name: 加拿大 065
-  network: ws
-  port: 8080
-  server: 172.67.199.69
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: 加拿大 066
   network: ws
   port: 2082
@@ -538,22 +343,6 @@ proxies:
     headers:
       Host: s1c.v2.v001sss.xyz
     path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 069
-  network: ws
-  port: 2082
-  server: 104.21.69.44
-  servername: V2ray-Vip-Ritl.xn--85-pv2cl2k5x3fipr.org.Cd3.boutiquemad.ir.
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d2c7b321-5e48-4d28-80e2-f64c6ddfad96
-  ws-opts:
-    headers:
-      Host: V2ray-Vip-Ritl.xn--85-pv2cl2k5x3fipr.org.Cd3.boutiquemad.ir.
-    path: /dashboard?ed=2048
 - alterId: 0
   cipher: auto
   name: 加拿大 070
@@ -693,20 +482,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 巴西 1
-  network: ws
-  port: 443
-  server: 188.114.97.7
-  servername: linde06.indiavideo.sbs
-  tls: true
-  type: vmess
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    headers:
-      Host: linde06.indiavideo.sbs
-    path: /linkws
-- alterId: 0
-  cipher: auto
   delay: 1449
   name: 加拿大 103
   network: ws
@@ -829,15 +604,6 @@ proxies:
     path: /linde06.indiavideo.sbs/linkws
 - alterId: 0
   cipher: auto
-  name: 哈萨克斯坦 003
-  network: tcp
-  port: 2083
-  server: kz-v2ray.ipracevpn.com
-  tls: true
-  type: vmess
-  uuid: f2623be1-b7b9-41d6-a3df-34c5338e3748
-- alterId: 0
-  cipher: auto
   name: 加拿大 081
   network: ws
   port: 2052
@@ -914,36 +680,6 @@ proxies:
     headers:
       Host: us77SmSk86j.fzbqfrse.xyz
     path: /video/Z7qdcrAGRw
-- alterId: 0
-  cipher: auto
-  name: 加拿大 201
-  network: ws
-  port: 80
-  server: ld2.shabijichang.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: ld2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 204
-  network: ws
-  port: 80
-  server: wnd3.shabijichang.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: wnd3.shabijichang.com
-    path: /
 - alterId: 0
   cipher: auto
   delay: 2342
@@ -1230,149 +966,6 @@ proxies:
     headers:
       Host: 6ba6-sound-6ba6.siliy37818.workers.dev
     path: /obdii.cfd/linkws
-- alterId: 0
-  cipher: auto
-  name: 加拿大 012
-  network: ws
-  port: 8080
-  server: 104.19.47.190
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 加拿大 026
-  network: ws
-  port: 443
-  server: 172.67.161.77
-  servername: linde06.indiavideo.sbs
-  tls: true
-  type: vmess
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    headers:
-      Host: linde06.indiavideo.sbs
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 加拿大 027
-  network: ws
-  port: 8080
-  server: 104.19.47.158
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 美国 001
-  network: tcp
-  port: 19943
-  server: 193.43.94.156
-  tls: false
-  type: vmess
-  uuid: 1e0c8a91-4bb3-46e4-9793-6f49ee15d10d
-- alterId: 0
-  cipher: auto
-  name: 加拿大 028
-  network: ws
-  port: 8080
-  server: 104.19.47.12
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 加拿大 029
-  network: ws
-  port: 8080
-  server: 104.19.47.237
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 加拿大 044
-  network: ws
-  port: 8080
-  server: 104.19.47.130
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 加拿大 045
-  network: ws
-  port: 8080
-  server: 104.19.47.254
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 加拿大 046
-  network: ws
-  port: 8080
-  server: 104.19.47.182
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 加拿大 047
-  network: ws
-  port: 8080
-  server: 104.19.47.58
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  delay: 2235
-  name: 加拿大 058
-  network: ws
-  port: 8443
-  server: test.showmeyour.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 9aed75c8-ab10-4e39-86f8-6aeb0ce9fc3f
-  ws-opts:
-    headers:
-      Host: test.showmeyour.top
-    path: /ee080c86/
 - alterId: 0
   cipher: auto
   name: 加拿大 052
@@ -1674,6 +1267,85 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
+  name: 加拿大 004
+  network: ws
+  port: 80
+  server: 104.20.247.40
+  tls: false
+  type: vmess
+  uuid: 078c86a6-8dde-4dcc-a08e-378990a8b3b2
+  ws-opts:
+    headers:
+      Host: 127.0.0.1.furiosacага0безумномmaксефуриосе.反了.馬哈拉吉.mойочень.suonycars.buzz.
+    path: /RACEVPN
+- alterId: 0
+  cipher: auto
+  name: 加拿大 012
+  network: ws
+  port: 80
+  server: 104.17.171.58
+  tls: false
+  type: vmess
+  uuid: 078c86a6-8dde-4dcc-a08e-378990a8b3b2
+  ws-opts:
+    headers:
+      Host: 127.0.0.1.furiosacага0безумномmaксефуриосе.反了.馬哈拉吉.mойочень.suonycars.buzz.
+    path: /RACEVPN
+- alterId: 0
+  cipher: auto
+  name: 加拿大 023
+  network: ws
+  port: 80
+  server: 104.25.226.50
+  tls: false
+  type: vmess
+  uuid: 078c86a6-8dde-4dcc-a08e-378990a8b3b2
+  ws-opts:
+    headers:
+      Host: 127.0.0.1.furiosacага0безумномmaксефуриосе.反了.馬哈拉吉.mойочень.suonycars.buzz.
+    path: /RACEVPN
+- alterId: 0
+  cipher: auto
+  name: 加拿大 026
+  network: ws
+  port: 80
+  server: 104.25.242.64
+  tls: false
+  type: vmess
+  uuid: 078c86a6-8dde-4dcc-a08e-378990a8b3b2
+  ws-opts:
+    headers:
+      Host: 127.0.0.1.furiosacага0безумномmaксефуриосе.反了.馬哈拉吉.mойочень.suonycars.buzz.
+    path: /RACEVPN
+- alterId: 0
+  cipher: auto
+  name: 加拿大 027
+  network: ws
+  port: 80
+  server: 104.17.184.120
+  tls: false
+  type: vmess
+  uuid: 078c86a6-8dde-4dcc-a08e-378990a8b3b2
+  ws-opts:
+    headers:
+      Host: 127.0.0.1.furiosacага0безумномmaксефуриосе.反了.馬哈拉吉.mойочень.suonycars.buzz.
+    path: /RACEVPN
+- alterId: 0
+  cipher: auto
+  name: 加拿大 028
+  network: ws
+  port: 443
+  server: tgju.org
+  servername: connect.sleepingjempa.ir
+  tls: true
+  type: vmess
+  uuid: 6ff9afb4-e8e6-4b82-aa4c-7e14f972e39a
+  ws-opts:
+    headers:
+      Host: connect.sleepingjempa.ir
+    path: /10001
+- alterId: 0
+  cipher: auto
   name: 🇺🇸_US_美国_4
   network: ws
   port: 80
@@ -1838,7 +1510,6 @@ proxy-groups:
   - 🎯 全球直连
   - 🚒 vps6.laiting.xyz
   - 加拿大 002
-  - 加拿大 004
   - 加拿大 005
   - 加拿大 006
   - 加拿大 008
@@ -1848,30 +1519,17 @@ proxy-groups:
   - 加拿大 020
   - 加拿大 021
   - 加拿大 022
-  - 加拿大 023
   - 加拿大 025
   - 加拿大 030
-  - 加拿大 031
-  - 加拿大 032
-  - 加拿大 033
-  - 加拿大 034
-  - 加拿大 035
-  - 加拿大 036
-  - 加拿大 037
   - 加拿大 038
-  - 加拿大 039
-  - 加拿大 040
   - 加拿大 041
   - 加拿大 042
-  - 加拿大 043
   - 加拿大 048
   - 加拿大 049
   - 加拿大 050
   - 加拿大 056
   - 加拿大 057
-  - 加拿大 065
   - 加拿大 066
-  - 加拿大 069
   - 加拿大 070
   - 加拿大 071
   - 加拿大 072
@@ -1881,7 +1539,6 @@ proxy-groups:
   - 加拿大 078
   - 新加坡 002
   - 加拿大 084
-  - 巴西 1
   - 加拿大 103
   - 美国 024
   - 加拿大 119
@@ -1891,15 +1548,12 @@ proxy-groups:
   - 加拿大 003
   - 加拿大 162
   - 加拿大 051
-  - 哈萨克斯坦 003
   - 加拿大 081
   - 加拿大 131
   - 加拿大 140
   - 加拿大 186
   - 加拿大 195
   - 加拿大 197
-  - 加拿大 201
-  - 加拿大 204
   - 加拿大 205
   - 新加坡 008
   - 加拿大 211
@@ -1919,17 +1573,6 @@ proxy-groups:
   - 加拿大 278
   - 加拿大 281
   - 加拿大 010
-  - 加拿大 012
-  - 加拿大 026
-  - 加拿大 027
-  - 美国 001
-  - 加拿大 028
-  - 加拿大 029
-  - 加拿大 044
-  - 加拿大 045
-  - 加拿大 046
-  - 加拿大 047
-  - 加拿大 058
   - 加拿大 052
   - 加拿大 099
   - 加拿大 100
@@ -1953,6 +1596,12 @@ proxy-groups:
   - 加拿大 120
   - 加拿大 121
   - 加拿大 122
+  - 加拿大 004
+  - 加拿大 012
+  - 加拿大 023
+  - 加拿大 026
+  - 加拿大 027
+  - 加拿大 028
   - 🇺🇸_US_美国_4
   - 🇺🇸_US_美国_6
   - 🇺🇸_US_美国_7
@@ -1970,7 +1619,6 @@ proxy-groups:
   name: ♻️ 自动选择
   proxies:
   - 加拿大 002
-  - 加拿大 004
   - 加拿大 005
   - 加拿大 006
   - 加拿大 008
@@ -1980,30 +1628,17 @@ proxy-groups:
   - 加拿大 020
   - 加拿大 021
   - 加拿大 022
-  - 加拿大 023
   - 加拿大 025
   - 加拿大 030
-  - 加拿大 031
-  - 加拿大 032
-  - 加拿大 033
-  - 加拿大 034
-  - 加拿大 035
-  - 加拿大 036
-  - 加拿大 037
   - 加拿大 038
-  - 加拿大 039
-  - 加拿大 040
   - 加拿大 041
   - 加拿大 042
-  - 加拿大 043
   - 加拿大 048
   - 加拿大 049
   - 加拿大 050
   - 加拿大 056
   - 加拿大 057
-  - 加拿大 065
   - 加拿大 066
-  - 加拿大 069
   - 加拿大 070
   - 加拿大 071
   - 加拿大 072
@@ -2013,7 +1648,6 @@ proxy-groups:
   - 加拿大 078
   - 新加坡 002
   - 加拿大 084
-  - 巴西 1
   - 加拿大 103
   - 美国 024
   - 加拿大 119
@@ -2023,15 +1657,12 @@ proxy-groups:
   - 加拿大 003
   - 加拿大 162
   - 加拿大 051
-  - 哈萨克斯坦 003
   - 加拿大 081
   - 加拿大 131
   - 加拿大 140
   - 加拿大 186
   - 加拿大 195
   - 加拿大 197
-  - 加拿大 201
-  - 加拿大 204
   - 加拿大 205
   - 新加坡 008
   - 加拿大 211
@@ -2051,17 +1682,6 @@ proxy-groups:
   - 加拿大 278
   - 加拿大 281
   - 加拿大 010
-  - 加拿大 012
-  - 加拿大 026
-  - 加拿大 027
-  - 美国 001
-  - 加拿大 028
-  - 加拿大 029
-  - 加拿大 044
-  - 加拿大 045
-  - 加拿大 046
-  - 加拿大 047
-  - 加拿大 058
   - 加拿大 052
   - 加拿大 099
   - 加拿大 100
@@ -2085,6 +1705,12 @@ proxy-groups:
   - 加拿大 120
   - 加拿大 121
   - 加拿大 122
+  - 加拿大 004
+  - 加拿大 012
+  - 加拿大 023
+  - 加拿大 026
+  - 加拿大 027
+  - 加拿大 028
   - 🇺🇸_US_美国_4
   - 🇺🇸_US_美国_6
   - 🇺🇸_US_美国_7
