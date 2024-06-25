@@ -46,21 +46,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  delay: 1317
-  name: 加拿大 005
-  network: ws
-  port: 2082
-  server: 104.16.67.38
-  servername: late-wave-1d0a.lesijo3430.workers.dev
-  skip-cert-verify: true
-  type: vmess
-  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
-  ws-opts:
-    headers:
-      Host: late-wave-1d0a.lesijo3430.workers.dev
-    path: /ivideos.sbs/linkws
-- alterId: 0
-  cipher: auto
   delay: 1242
   name: 加拿大 006
   network: ws
@@ -135,21 +120,6 @@ proxies:
     headers:
       Host: oiictw.yydsii.com
     path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  delay: 1771
-  name: 加拿大 020
-  network: ws
-  port: 2082
-  server: www.speedtest.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 412fc228-92ae-4dd8-bdc9-1fcc66c15c7a
-  ws-opts:
-    headers:
-      Host: 2.irvn.debian.6.i.6.6.fxp.debian.org.speedtest.net.列列男事的事列上赛男.ghormehsabzi.cyou.
-    path: /
 - alterId: 0
   cipher: auto
   delay: 971
@@ -1316,20 +1286,6 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: 加拿大 028
-  network: ws
-  port: 443
-  server: tgju.org
-  servername: connect.sleepingjempa.ir
-  tls: true
-  type: vmess
-  uuid: 6ff9afb4-e8e6-4b82-aa4c-7e14f972e39a
-  ws-opts:
-    headers:
-      Host: connect.sleepingjempa.ir
-    path: /10001
-- alterId: 0
-  cipher: auto
   name: 哈萨克斯坦 002
   network: tcp
   port: 2083
@@ -1337,20 +1293,6 @@ proxies:
   tls: true
   type: vmess
   uuid: 4f97bdbc-eaeb-4bf9-ad7f-faad44c6f6bb
-- alterId: 0
-  cipher: auto
-  name: 加拿大 029
-  network: ws
-  port: 443
-  server: 172.67.170.11
-  servername: linde06.indiavideo.sbs
-  tls: true
-  type: vmess
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    headers:
-      Host: linde06.indiavideo.sbs
-    path: /linkws
 - alterId: 0
   cipher: auto
   name: 俄罗斯 003
@@ -1377,6 +1319,43 @@ proxies:
     headers:
       Host: 127.0.0.1.furiosacага0безумномmaксефуриосе.反了.馬哈拉吉.mойочень.suonycars.buzz.
     path: /RACEVPN
+- alterId: 0
+  cipher: auto
+  name: 哈萨克斯坦 003
+  network: tcp
+  port: 2083
+  server: 95.164.114.42
+  servername: kz-v2ray.ipracevpn.com
+  tls: true
+  type: vmess
+  uuid: 4f97bdbc-eaeb-4bf9-ad7f-faad44c6f6bb
+- alterId: 0
+  cipher: auto
+  name: 美国 001
+  network: ws
+  port: 443
+  server: 173.245.58.5
+  servername: worker-bitter-math-2af8.waxoha3621.workers.dev
+  tls: true
+  type: vmess
+  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
+  ws-opts:
+    headers:
+      Host: worker-bitter-math-2af8.waxoha3621.workers.dev
+    path: /glweidf.sbs/linkws
+- alterId: 0
+  cipher: auto
+  name: 加拿大 005
+  network: ws
+  port: 2052
+  server: 104.19.42.187
+  tls: false
+  type: vmess
+  uuid: 424b3be8-0825-4746-92ab-a94be932ee84
+  ws-opts:
+    headers:
+      Host: ca-cdncdn.syjd.xyz
+    path: /index?ed=2048
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
@@ -1436,13 +1415,11 @@ proxy-groups:
   - 🎯 全球直连
   - 🚒 vps6.laiting.xyz
   - 加拿大 002
-  - 加拿大 005
   - 加拿大 006
   - 加拿大 008
   - 加拿大 009
   - 加拿大 011
   - 加拿大 014
-  - 加拿大 020
   - 加拿大 021
   - 加拿大 022
   - 加拿大 025
@@ -1526,11 +1503,12 @@ proxy-groups:
   - 加拿大 023
   - 加拿大 026
   - 加拿大 027
-  - 加拿大 028
   - 哈萨克斯坦 002
-  - 加拿大 029
   - 俄罗斯 003
   - 加拿大 031
+  - 哈萨克斯坦 003
+  - 美国 001
+  - 加拿大 005
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇷🇺_RU_俄罗斯
   - 🇺🇸_US_美国->🇫🇷_FR_法国_1
@@ -1542,13 +1520,11 @@ proxy-groups:
   name: ♻️ 自动选择
   proxies:
   - 加拿大 002
-  - 加拿大 005
   - 加拿大 006
   - 加拿大 008
   - 加拿大 009
   - 加拿大 011
   - 加拿大 014
-  - 加拿大 020
   - 加拿大 021
   - 加拿大 022
   - 加拿大 025
@@ -1632,11 +1608,12 @@ proxy-groups:
   - 加拿大 023
   - 加拿大 026
   - 加拿大 027
-  - 加拿大 028
   - 哈萨克斯坦 002
-  - 加拿大 029
   - 俄罗斯 003
   - 加拿大 031
+  - 哈萨克斯坦 003
+  - 美国 001
+  - 加拿大 005
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇷🇺_RU_俄罗斯
   - 🇺🇸_US_美国->🇫🇷_FR_法国_1
