@@ -345,22 +345,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大 070
-  network: ws
-  port: 2082
-  server: zula.ir
-  servername: V2ray-Vip-Ritl.xn--85-pv2cl2k5x3fipr.org.Cd3.boutiquemad.ir.
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d2c7b321-5e48-4d28-80e2-f64c6ddfad96
-  ws-opts:
-    headers:
-      Host: V2ray-Vip-Ritl.xn--85-pv2cl2k5x3fipr.org.Cd3.boutiquemad.ir.
-    path: /dashboard?ed=2048
-- alterId: 0
-  cipher: auto
   name: 加拿大 071
   network: ws
   port: 2052
@@ -1346,163 +1330,105 @@ proxies:
     path: /10001
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_4
-  network: ws
-  port: 80
-  server: 162.159.136.98
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f1b6bc05-40dd-4180-ca18-b05288fd33bb
-  ws-opts:
-    headers:
-      host: ccs2.hostmjj.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_6
-  network: ws
-  port: 8080
-  server: russia.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
-  ws-opts:
-    headers:
-      host: sssub.v2.001.ssrsub.com
-    path: /api/v3/download.getFile
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_7
-  network: ws
-  port: 2095
-  server: russia.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
-  ws-opts:
-    headers:
-      host: sssub.v2.001.ssrsub.com
-    path: /api/v3/download.getFile
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_8
+  name: 哈萨克斯坦 002
   network: tcp
   port: 2083
   server: kz-v2ray.ipracevpn.com
-  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 4f97bdbc-eaeb-4bf9-ad7f-faad44c6f6bb
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_9
+  name: 加拿大 029
   network: ws
-  port: 2095
-  server: 104.26.4.57
-  skip-cert-verify: true
-  tls: false
+  port: 443
+  server: 172.67.170.11
+  servername: linde06.indiavideo.sbs
+  tls: true
   type: vmess
-  uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
   ws-opts:
     headers:
-      host: sssub.v2.001.ssrsub.com
-    path: /api/v3/download.getFile
+      Host: linde06.indiavideo.sbs
+    path: /linkws
 - alterId: 0
   cipher: auto
-  name: 🇮🇷_IR_伊朗->🇩🇪_DE_德国
-  network: tcp
-  port: 36078
-  server: 31.40.4.240
-  skip-cert-verify: true
+  name: 俄罗斯 003
+  network: ws
+  port: 54321
+  server: 46.29.166.162
   tls: false
   type: vmess
-  uuid: 6d1baeb4-7bc0-43a8-d48d-79394b3bed1e
+  uuid: a889551b-4fc5-4216-9164-e0aeda64ffe8
+  ws-opts:
+    headers:
+      Host: www.apple.com
+    path: /iphone
+- alterId: 0
+  cipher: auto
+  name: 加拿大 031
+  network: ws
+  port: 80
+  server: 104.20.103.155
+  tls: false
+  type: vmess
+  uuid: 078c86a6-8dde-4dcc-a08e-378990a8b3b2
+  ws-opts:
+    headers:
+      Host: 127.0.0.1.furiosacага0безумномmaксефуриосе.反了.馬哈拉吉.mойочень.suonycars.buzz.
+    path: /RACEVPN
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
+  network: ws
+  port: 2086
+  server: 104.19.42.49
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+- alterId: 0
+  cipher: auto
+  fingerprint: ''
+  name: 🇷🇺_RU_俄罗斯
+  network: ws
+  port: 54321
+  server: 46.29.166.162
+  sni: ''
+  type: vmess
+  uuid: a889551b-4fc5-4216-9164-e0aeda64ffe8
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国->🇫🇷_FR_法国_1
   network: ws
   port: 2082
   server: 104.21.8.157
-  skip-cert-verify: true
-  tls: false
+  sni: ''
   type: vmess
   uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts:
-    headers:
-      host: s1c.v2.v001sss.xyz
-    path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_16
+  name: 🇺🇸_US_美国_1
   network: ws
-  port: 2052
-  server: cfcdn1.sanfencdn9.com
-  skip-cert-verify: true
-  tls: false
+  port: 8080
+  server: 104.19.42.49
+  sni: ''
   type: vmess
-  uuid: fec25e7b-3e30-4702-9b93-62ed3849a9d7
-  ws-opts:
-    headers:
-      host: us1cPZiz8nb.fzbqfrse.xyz
-    path: /video/6VBhAkCtV4/
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
 - alterId: 0
   cipher: auto
-  name: 🇨🇦_CA_加拿大_10
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
   network: ws
-  port: 443
-  server: 23.162.200.227
-  skip-cert-verify: true
-  tls: true
+  port: 2086
+  server: 104.19.57.4
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇫🇷_FR_法国_2
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
   network: ws
-  port: 2082
-  server: 172.67.130.140
-  skip-cert-verify: true
-  tls: false
+  port: 2086
+  server: 104.20.17.186
   type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts:
-    headers:
-      host: s1c.v2.v001sss.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_17
-  network: ws
-  port: 443
-  server: cold-dawn-9246.fly.dev
-  servername: cold-dawn-9246.fly.dev
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
-  ws-opts:
-    headers:
-      host: cold-dawn-9246.fly.dev
-    path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大
-  network: ws
-  port: 80
-  server: 104.19.38.10
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
-  ws-opts:
-    headers:
-      host: doctor-granny-openings-br.trycloudflare.com
-    path: github.com/Alvin9999
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
@@ -1530,7 +1456,6 @@ proxy-groups:
   - 加拿大 056
   - 加拿大 057
   - 加拿大 066
-  - 加拿大 070
   - 加拿大 071
   - 加拿大 072
   - 加拿大 074
@@ -1602,18 +1527,16 @@ proxy-groups:
   - 加拿大 026
   - 加拿大 027
   - 加拿大 028
-  - 🇺🇸_US_美国_4
-  - 🇺🇸_US_美国_6
-  - 🇺🇸_US_美国_7
-  - 🇺🇸_US_美国_8
-  - 🇺🇸_US_美国_9
-  - 🇮🇷_IR_伊朗->🇩🇪_DE_德国
+  - 哈萨克斯坦 002
+  - 加拿大 029
+  - 俄罗斯 003
+  - 加拿大 031
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
+  - 🇷🇺_RU_俄罗斯
   - 🇺🇸_US_美国->🇫🇷_FR_法国_1
-  - 🇺🇸_US_美国_16
-  - 🇨🇦_CA_加拿大_10
-  - 🇺🇸_US_美国->🇫🇷_FR_法国_2
-  - 🇺🇸_US_美国_17
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大
+  - 🇺🇸_US_美国_1
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -1639,7 +1562,6 @@ proxy-groups:
   - 加拿大 056
   - 加拿大 057
   - 加拿大 066
-  - 加拿大 070
   - 加拿大 071
   - 加拿大 072
   - 加拿大 074
@@ -1711,18 +1633,16 @@ proxy-groups:
   - 加拿大 026
   - 加拿大 027
   - 加拿大 028
-  - 🇺🇸_US_美国_4
-  - 🇺🇸_US_美国_6
-  - 🇺🇸_US_美国_7
-  - 🇺🇸_US_美国_8
-  - 🇺🇸_US_美国_9
-  - 🇮🇷_IR_伊朗->🇩🇪_DE_德国
+  - 哈萨克斯坦 002
+  - 加拿大 029
+  - 俄罗斯 003
+  - 加拿大 031
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
+  - 🇷🇺_RU_俄罗斯
   - 🇺🇸_US_美国->🇫🇷_FR_法国_1
-  - 🇺🇸_US_美国_16
-  - 🇨🇦_CA_加拿大_10
-  - 🇺🇸_US_美国->🇫🇷_FR_法国_2
-  - 🇺🇸_US_美国_17
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大
+  - 🇺🇸_US_美国_1
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
