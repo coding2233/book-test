@@ -1464,32 +1464,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大 098
-  network: ws
-  port: 2082
-  server: c1.v2raybrasil.cloud
-  tls: false
-  type: vmess
-  uuid: fbac5c1a-9190-4c48-af29-f8f3c47cb90c
-  ws-opts:
-    headers:
-      Host: ybr.redbullplus.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 099
-  network: ws
-  port: 2052
-  server: 104.18.57.121
-  tls: false
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      Host: cdn1.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
   name: 加拿大 100
   network: ws
   port: 8080
@@ -1503,13 +1477,176 @@ proxies:
     path: /cctv13/hd.m3u8
 - alterId: 0
   cipher: auto
+  name: 加拿大 098
+  network: ws
+  port: 80
+  server: 104.19.33.164
+  tls: false
+  type: vmess
+  uuid: 596cf967-3824-4a7c-a008-d65b5f9b5382
+  ws-opts:
+    headers:
+      Host: m2-sg3.m2network.icu
+    path: /ws?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 加拿大 099
+  network: ws
+  port: 80
+  server: 104.19.33.42
+  tls: false
+  type: vmess
+  uuid: 596cf967-3824-4a7c-a008-d65b5f9b5382
+  ws-opts:
+    headers:
+      Host: m2-sg3.m2network.icu
+    path: /ws?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 加拿大 101
+  network: ws
+  port: 2052
+  server: 104.19.76.230
+  tls: false
+  type: vmess
+  uuid: d013dc38-8c27-4312-9041-ab18f4f03431
+  ws-opts:
+    headers:
+      Host: jpcdn.vbdf.lol
+    path: /?ed=1024
+- alterId: 0
+  cipher: auto
+  name: 加拿大 102
+  network: ws
+  port: 8880
+  server: tr-01.snangua.com
+  tls: false
+  type: vmess
+  uuid: f31d915f-b91a-48a1-8ee6-ff454e59da49
+  ws-opts:
+    headers:
+      Host: tr-01.snangua.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 104
+  network: ws
+  port: 443
+  server: 23.162.200.227
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 23.162.200.227
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 加拿大 105
+  network: ws
+  port: 80
+  server: 104.17.199.24
+  tls: false
+  type: vmess
+  uuid: 078c86a6-8dde-4dcc-a08e-378990a8b3b2
+  ws-opts:
+    headers:
+      Host: 127.0.0.1.furiosacага0безумномmaксефуриосе.反了.馬哈拉吉.mойочень.suonycars.buzz.
+    path: /RACEVPN
+- alterId: 0
+  cipher: auto
+  name: 加拿大 106
+  network: ws
+  port: 8080
+  server: acjp2.cloudflarest.link
+  tls: false
+  type: vmess
+  uuid: f990bb63-8fb3-43d0-b89f-61fe8713a461
+  ws-opts:
+    headers:
+      Host: helan.jidexufei.top
+    path: /cctv13/hd.m3u8
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_1
+  network: ws
+  port: 80
+  server: 104.20.247.40
+  sni: ''
+  type: vmess
+  uuid: 078c86a6-8dde-4dcc-a08e-378990a8b3b2
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇪🇸_ES_西班牙
+  network: ws
+  port: 80
+  server: 104.17.184.120
+  sni: ''
+  type: vmess
+  uuid: 078c86a6-8dde-4dcc-a08e-378990a8b3b2
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_2
+  network: ws
+  port: 8080
+  server: 104.19.42.49
+  sni: ''
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+- alterId: 0
+  cipher: auto
   name: 🇺🇸_US_美国_3
+  network: ws
+  port: 2086
+  server: 104.19.46.233
+  sni: ''
+  type: vmess
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
+  network: ws
+  port: 2086
+  server: 104.19.123.11
+  sni: ip11.freegradely.xyz
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_4
+  network: ws
+  port: 80
+  server: 104.19.38.10
+  sni: ''
+  type: vmess
+  uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_5
   network: ws
   port: 80
   server: 162.159.136.98
   sni: ''
   type: vmess
   uuid: f1b6bc05-40dd-4180-ca18-b05288fd33bb
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
+  network: ws
+  port: 2086
+  server: 104.20.17.186
+  sni: ip11.freegradely.xyz
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
+  network: ws
+  port: 2086
+  server: 104.18.57.111
+  sni: ''
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
@@ -1620,10 +1757,23 @@ proxy-groups:
   - 加拿大 092
   - 加拿大 097
   - 美国 001
+  - 加拿大 100
   - 加拿大 098
   - 加拿大 099
-  - 加拿大 100
+  - 加拿大 101
+  - 加拿大 102
+  - 加拿大 104
+  - 加拿大 105
+  - 加拿大 106
+  - 🇺🇸_US_美国_1
+  - 🇺🇸_US_美国->🇪🇸_ES_西班牙
+  - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国_3
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
+  - 🇺🇸_US_美国_4
+  - 🇺🇸_US_美国_5
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -1732,10 +1882,23 @@ proxy-groups:
   - 加拿大 092
   - 加拿大 097
   - 美国 001
+  - 加拿大 100
   - 加拿大 098
   - 加拿大 099
-  - 加拿大 100
+  - 加拿大 101
+  - 加拿大 102
+  - 加拿大 104
+  - 加拿大 105
+  - 加拿大 106
+  - 🇺🇸_US_美国_1
+  - 🇺🇸_US_美国->🇪🇸_ES_西班牙
+  - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国_3
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
+  - 🇺🇸_US_美国_4
+  - 🇺🇸_US_美国_5
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
