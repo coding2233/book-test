@@ -1568,7 +1568,42 @@ proxies:
     path: /cctv13/hd.m3u8
 - alterId: 0
   cipher: auto
+  name: 加拿大 107
+  network: ws
+  port: 2086
+  server: 104.19.32.226
+  tls: false
+  type: vmess
+  uuid: d013dc38-8c27-4312-9041-ab18f4f03431
+  ws-opts:
+    headers:
+      Host: xbycdn.vbdf.lol
+    path: /?ed=1024
+- alterId: 0
+  cipher: auto
+  name: 加拿大 108
+  network: ws
+  port: 2086
+  server: 104.18.186.43
+  tls: false
+  type: vmess
+  uuid: d013dc38-8c27-4312-9041-ab18f4f03431
+  ws-opts:
+    headers:
+      Host: mgcdn.vbdf.lol
+    path: /?ed=1024
+- alterId: 0
+  cipher: auto
   name: 🇺🇸_US_美国_1
+  network: ws
+  port: 8080
+  server: russia.com
+  sni: ''
+  type: vmess
+  uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇪🇸_ES_西班牙
   network: ws
   port: 80
   server: 104.20.247.40
@@ -1577,61 +1612,16 @@ proxies:
   uuid: 078c86a6-8dde-4dcc-a08e-378990a8b3b2
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇪🇸_ES_西班牙
-  network: ws
-  port: 80
-  server: 104.17.184.120
-  sni: ''
-  type: vmess
-  uuid: 078c86a6-8dde-4dcc-a08e-378990a8b3b2
-- alterId: 0
-  cipher: auto
   name: 🇺🇸_US_美国_2
   network: ws
-  port: 8080
-  server: 104.19.42.49
+  port: 80
+  server: 104.19.35.227
   sni: ''
   type: vmess
-  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_3
-  network: ws
-  port: 2086
-  server: 104.19.46.233
-  sni: ''
-  type: vmess
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  uuid: b720e0b2-aa39-4633-90d8-489ed91038b0
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
-  network: ws
-  port: 2086
-  server: 104.19.123.11
-  sni: ip11.freegradely.xyz
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_4
-  network: ws
-  port: 80
-  server: 104.19.38.10
-  sni: ''
-  type: vmess
-  uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_5
-  network: ws
-  port: 80
-  server: 162.159.136.98
-  sni: ''
-  type: vmess
-  uuid: f1b6bc05-40dd-4180-ca18-b05288fd33bb
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
   network: ws
   port: 2086
   server: 104.20.17.186
@@ -1640,13 +1630,40 @@ proxies:
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
   network: ws
   port: 2086
-  server: 104.18.57.111
+  server: 104.19.21.63
   sni: ''
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
+  network: ws
+  port: 2052
+  server: 104.18.57.121
+  sni: ''
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇫🇷_FR_法国
+  network: ws
+  port: 2082
+  server: s1c.v2.v001sss.xyz
+  sni: ''
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_3
+  network: ws
+  port: 80
+  server: 162.159.136.98
+  sni: ''
+  type: vmess
+  uuid: f1b6bc05-40dd-4180-ca18-b05288fd33bb
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
@@ -1765,15 +1782,16 @@ proxy-groups:
   - 加拿大 104
   - 加拿大 105
   - 加拿大 106
+  - 加拿大 107
+  - 加拿大 108
   - 🇺🇸_US_美国_1
   - 🇺🇸_US_美国->🇪🇸_ES_西班牙
   - 🇺🇸_US_美国_2
-  - 🇺🇸_US_美国_3
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
-  - 🇺🇸_US_美国_4
-  - 🇺🇸_US_美国_5
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
+  - 🇺🇸_US_美国->🇫🇷_FR_法国
+  - 🇺🇸_US_美国_3
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -1890,15 +1908,16 @@ proxy-groups:
   - 加拿大 104
   - 加拿大 105
   - 加拿大 106
+  - 加拿大 107
+  - 加拿大 108
   - 🇺🇸_US_美国_1
   - 🇺🇸_US_美国->🇪🇸_ES_西班牙
   - 🇺🇸_US_美国_2
-  - 🇺🇸_US_美国_3
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
-  - 🇺🇸_US_美国_4
-  - 🇺🇸_US_美国_5
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
+  - 🇺🇸_US_美国->🇫🇷_FR_法国
+  - 🇺🇸_US_美国_3
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
