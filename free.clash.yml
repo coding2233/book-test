@@ -958,7 +958,41 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 🇺🇸_US_美国->🇺🇦_UA_乌克兰
+  network: ws
+  port: 80
+  server: 172.67.143.52
+  type: vmess
+  uuid: 43ac3b21-2e9b-4a7c-aef6-2e4b8f73ce2f
+- alterId: 0
+  cipher: auto
   name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
+  network: ws
+  port: 2086
+  server: 104.19.123.11
+  sni: ''
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_2
+  network: ws
+  port: 80
+  server: 172.67.150.57
+  type: vmess
+  uuid: 5ea4a644-07e9-4ad0-860d-50bd9b6e7f94
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
+  network: ws
+  port: 2052
+  server: 104.19.46.103
+  sni: ''
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
   network: ws
   port: 2052
   server: 104.19.58.175
@@ -967,15 +1001,16 @@ proxies:
   uuid: d6b6d982-d52f-465a-b988-85670b23f64a
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇫🇷_FR_法国
+  name: 🇺🇸_US_美国_4
   network: ws
   port: 2082
-  server: 104.21.8.157
+  server: www.speedtest.net
+  sni: ''
   type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  uuid: 460258a8-89fc-4853-9d29-083bf285070f
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_5
   network: ws
   port: 2052
   server: 104.19.21.73
@@ -983,27 +1018,11 @@ proxies:
   uuid: d6b6d982-d52f-465a-b988-85670b23f64a
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_3
-  network: ws
-  port: 80
-  server: 104.16.53.5
-  type: vmess
-  uuid: 5ea4a644-07e9-4ad0-860d-50bd9b6e7f94
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
-  network: ws
-  port: 2052
-  server: 104.19.21.240
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_6
   network: ws
   port: 2086
-  server: 104.19.21.63
-  sni: ''
+  server: 104.18.57.111
+  sni: ip11.freegradely.xyz
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
 proxy-groups:
@@ -1079,12 +1098,14 @@ proxy-groups:
   - 加拿大 030
   - 加拿大 031
   - 加拿大 032
+  - 🇺🇸_US_美国->🇺🇦_UA_乌克兰
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
-  - 🇺🇸_US_美国->🇫🇷_FR_法国
+  - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
-  - 🇺🇸_US_美国_3
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
+  - 🇺🇸_US_美国_4
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_5
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_6
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -1156,12 +1177,14 @@ proxy-groups:
   - 加拿大 030
   - 加拿大 031
   - 加拿大 032
+  - 🇺🇸_US_美国->🇺🇦_UA_乌克兰
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
-  - 🇺🇸_US_美国->🇫🇷_FR_法国
+  - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
-  - 🇺🇸_US_美国_3
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
+  - 🇺🇸_US_美国_4
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_5
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_6
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
