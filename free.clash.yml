@@ -604,16 +604,6 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 哈萨克斯坦 002
-  network: tcp
-  port: 2083
-  server: kz-v2ray.ipracevpn.com
-  servername: kz-v2ray.ipracevpn.com
-  tls: true
-  type: vmess
-  uuid: d19b7c3b-d183-4bd8-9917-fec99ed81698
-- alterId: 0
-  cipher: auto
   name: 加拿大 014
   network: ws
   port: 2095
@@ -757,22 +747,6 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 加拿大 040
-  network: ws
-  port: 2052
-  server: cfcdn2.sanfencdn9.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: d22e082c-3742-421f-aabd-2511eec9148c
-  ws-opts:
-    headers:
-      Host: zifstzamhk1.yofnhkfc.xyz
-    path: /video/VuDFdktz
-- alterId: 0
-  cipher: auto
   name: 加拿大 041
   network: ws
   port: 2086
@@ -840,34 +814,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大 004
-  network: ws
-  port: 8443
-  server: 104.19.47.222
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 39135a39-e6ca-43df-a360-d859eea58d86
-  ws-opts:
-    headers:
-      Host: hk01.linkitnow.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 005
-  network: ws
-  port: 8443
-  server: 104.19.47.118
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 39135a39-e6ca-43df-a360-d859eea58d86
-  ws-opts:
-    headers:
-      Host: hk01.linkitnow.net
-    path: /
-- alterId: 0
-  cipher: auto
   name: 加拿大 011
   network: ws
   port: 8443
@@ -896,269 +842,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大 025
-  network: ws
-  port: 8443
-  server: 104.19.47.195
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 39135a39-e6ca-43df-a360-d859eea58d86
-  ws-opts:
-    headers:
-      Host: hk01.linkitnow.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 028
-  network: ws
-  port: 8443
-  server: 104.19.45.18
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 39135a39-e6ca-43df-a360-d859eea58d86
-  ws-opts:
-    headers:
-      Host: hk01.leleles.us
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 029
-  network: ws
-  port: 8443
-  server: 104.19.45.72
-  servername: RELAY-104.19.45.72-0143 | 35.118MB
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 39135a39-e6ca-43df-a360-d859eea58d86
-  ws-opts:
-    headers:
-      Host: hk01.leleles.us
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 030
-  network: ws
-  port: 8443
-  server: 104.19.48.35
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 39135a39-e6ca-43df-a360-d859eea58d86
-  ws-opts:
-    headers:
-      Host: hk01.linkitnow.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 034
-  network: ws
-  port: 8443
-  server: 104.19.47.177
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 39135a39-e6ca-43df-a360-d859eea58d86
-  ws-opts:
-    headers:
-      Host: hk01.linkitnow.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 036
-  network: ws
-  port: 8443
-  server: 104.19.47.200
-  servername: RELAY-104.19.47.200-0145 | 41.375MB
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 39135a39-e6ca-43df-a360-d859eea58d86
-  ws-opts:
-    headers:
-      Host: hk01.linkitnow.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 043
-  network: ws
-  port: 8443
-  server: 104.19.45.11
-  servername: hk01.leleles.us
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 39135a39-e6ca-43df-a360-d859eea58d86
-  ws-opts:
-    headers:
-      Host: hk01.leleles.us
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 046
-  network: ws
-  port: 8443
-  server: 104.19.47.204
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 39135a39-e6ca-43df-a360-d859eea58d86
-  ws-opts:
-    headers:
-      Host: hk01.linkitnow.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 047
-  network: ws
-  port: 8443
-  server: 104.19.47.23
-  servername: hk01.linkitnow.net
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 39135a39-e6ca-43df-a360-d859eea58d86
-  ws-opts:
-    headers:
-      Host: hk01.linkitnow.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 048
-  network: ws
-  port: 8443
-  server: 104.19.48.40
-  servername: hk01.linkitnow.net
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 39135a39-e6ca-43df-a360-d859eea58d86
-  ws-opts:
-    headers:
-      Host: hk01.linkitnow.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 052
-  network: ws
-  port: 8443
-  server: 104.19.45.4
-  servername: RELAY-104.19.45.4-0205 | 41.681MB
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 39135a39-e6ca-43df-a360-d859eea58d86
-  ws-opts:
-    headers:
-      Host: hk01.leleles.us
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 053
-  network: ws
-  port: 8443
-  server: 104.19.48.23
-  servername: hk01.linkitnow.net
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 39135a39-e6ca-43df-a360-d859eea58d86
-  ws-opts:
-    headers:
-      Host: hk01.linkitnow.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 055
-  network: ws
-  port: 8443
-  server: 104.19.46.239
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 39135a39-e6ca-43df-a360-d859eea58d86
-  ws-opts:
-    headers:
-      Host: hk01.leleles.us
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 056
-  network: ws
-  port: 8443
-  server: 104.19.47.179
-  servername: hk01.linkitnow.net
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 39135a39-e6ca-43df-a360-d859eea58d86
-  ws-opts:
-    headers:
-      Host: hk01.linkitnow.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 057
-  network: ws
-  port: 2086
-  server: 104.19.47.122
-  servername: ip1.1457230.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip1.1457230.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 058
-  network: ws
-  port: 8443
-  server: 104.19.46.251
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 39135a39-e6ca-43df-a360-d859eea58d86
-  ws-opts:
-    headers:
-      Host: hk01.leleles.us
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 059
-  network: ws
-  port: 8443
-  server: 104.19.47.18
-  servername: hk01.linkitnow.net
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 39135a39-e6ca-43df-a360-d859eea58d86
-  ws-opts:
-    headers:
-      Host: hk01.linkitnow.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 060
-  network: ws
-  port: 2052
-  server: 104.19.59.99
-  servername: cdn2.freegradely.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      Host: cdn2.freegradely.xyz
-    path: /
-- alterId: 0
-  cipher: auto
   name: 加拿大 061
   network: ws
   port: 2086
@@ -1174,80 +857,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大 062
-  network: ws
-  port: 2052
-  server: 104.19.38.22
-  servername: cdn2.freegradely.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      Host: cdn2.freegradely.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 美国 002
-  network: ws
-  port: 2052
-  server: 172.64.175.223
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      Host: cdn2.freegradely.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 064
-  network: ws
-  port: 2086
-  server: 104.26.0.56
-  servername: ip14.freegradely.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip14.freegradely.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 065
-  network: ws
-  port: 2052
-  server: 104.20.25.166
-  servername: cdn2.freegradely.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      Host: cdn2.freegradely.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 美国 003
-  network: ws
-  port: 2052
-  server: 104.19.123.31
-  servername: cdn2.freegradely.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      Host: cdn2.freegradely.xyz
-    path: /
-- alterId: 0
-  cipher: auto
   name: 加拿大 066
   network: ws
   port: 2086
@@ -1259,36 +868,6 @@ proxies:
   ws-opts:
     headers:
       Host: ip1.1457230.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 067
-  network: ws
-  port: 2052
-  server: 104.17.106.171
-  servername: cdn2.freegradely.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      Host: cdn2.freegradely.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 069
-  network: ws
-  port: 2052
-  server: 104.19.47.75
-  servername: cdn2.freegradely.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      Host: cdn2.freegradely.xyz
     path: /
 - alterId: 0
   cipher: auto
@@ -1320,21 +899,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 美国 004
-  network: ws
-  port: 2052
-  server: 172.64.99.32
-  servername: cdn2.freegradely.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      Host: cdn2.freegradely.xyz
-    path: /
-- alterId: 0
-  cipher: auto
   name: 加拿大 075
   network: ws
   port: 2086
@@ -1349,17 +913,259 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 美国 005
+  name: 加拿大 004
+  network: ws
+  port: 443
+  server: 104.21.24.170
+  servername: denc36.xtooltech.cfd
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: b321fd5d-e6ec-4293-a644-164e3885f52e
+  ws-opts:
+    headers:
+      Host: adenc36v.xtooltech.cfd
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 005
+  network: ws
+  port: 8443
+  server: 104.19.48.45
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 39135a39-e6ca-43df-a360-d859eea58d86
+  ws-opts:
+    headers:
+      Host: hk01.linkitnow.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 025
+  network: ws
+  port: 8443
+  server: 104.19.48.53
+  servername: hk01.linkitnow.net
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 39135a39-e6ca-43df-a360-d859eea58d86
+  ws-opts:
+    headers:
+      Host: hk01.linkitnow.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 028
+  network: ws
+  port: 8443
+  server: 104.19.47.3
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 39135a39-e6ca-43df-a360-d859eea58d86
+  ws-opts:
+    headers:
+      Host: hk01.linkitnow.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 029
+  network: ws
+  port: 8443
+  server: 104.19.45.68
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 39135a39-e6ca-43df-a360-d859eea58d86
+  ws-opts:
+    headers:
+      Host: hk01.leleles.us
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 030
+  network: ws
+  port: 8443
+  server: 104.19.48.47
+  servername: hk01.linkitnow.net
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 39135a39-e6ca-43df-a360-d859eea58d86
+  ws-opts:
+    headers:
+      Host: hk01.linkitnow.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 034
+  network: ws
+  port: 8443
+  server: 104.19.47.208
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 39135a39-e6ca-43df-a360-d859eea58d86
+  ws-opts:
+    headers:
+      Host: hk01.linkitnow.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 036
+  network: ws
+  port: 2086
+  server: 104.19.47.88
+  servername: ip1.1457230.xyz
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip1.1457230.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 040
+  network: ws
+  port: 80
+  server: 104.25.176.31
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 5ea4a644-07e9-4ad0-860d-50bd9b6e7f94
+  ws-opts:
+    headers:
+      Host: dl2.升級.3скалация.mальчикицапля.男孩與蒼鷺.wonkacapitano.buzz.
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 043
+  network: ws
+  port: 2086
+  server: 104.19.47.77
+  servername: ip1.1457230.xyz
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip1.1457230.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 046
+  network: ws
+  port: 80
+  server: 198.41.192.162
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 7496e6b1-7eee-49c5-9f74-56428d3b44d4
+  ws-opts:
+    headers:
+      Host: dl3.守望者.hаблюдатели.watchers.aгентразведки.偵察探員.wonkacapitano.buzz.
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 047
+  network: ws
+  port: 2086
+  server: 104.19.47.36
+  servername: ip1.1457230.xyz
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip1.1457230.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 048
+  network: ws
+  port: 2086
+  server: 104.19.47.79
+  servername: ip1.1457230.xyz
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip1.1457230.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 052
+  network: ws
+  port: 80
+  server: 104.25.228.174
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 5ea4a644-07e9-4ad0-860d-50bd9b6e7f94
+  ws-opts:
+    headers:
+      Host: dl2.升級.3скалация.mальчикицапля.男孩與蒼鷺.wonkacapitano.buzz.
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 053
   network: ws
   port: 2052
-  server: 172.64.198.229
-  servername: cdn2.freegradely.xyz
+  server: 104.19.42.79
+  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: d6b6d982-d52f-465a-b988-85670b23f64a
   ws-opts:
     headers:
       Host: cdn2.freegradely.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 054
+  network: ws
+  port: 2052
+  server: 104.16.38.71
+  tls: false
+  type: vmess
+  uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
+  ws-opts:
+    headers:
+      Host: us6_0.wish.ml
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 055
+  network: ws
+  port: 2052
+  server: 104.17.156.224
+  tls: false
+  type: vmess
+  uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
+  ws-opts:
+    headers:
+      Host: in4.wish.ml
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 056
+  network: ws
+  port: 2086
+  server: 104.19.47.45
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip14.freegradely.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1459,7 +1265,6 @@ proxy-groups:
   - 加拿大 027
   - 俄罗斯 003
   - 加拿大 012
-  - 哈萨克斯坦 002
   - 加拿大 014
   - 加拿大 019
   - 加拿大 020
@@ -1471,48 +1276,36 @@ proxy-groups:
   - 加拿大 037
   - 加拿大 038
   - 加拿大 039
-  - 加拿大 040
   - 加拿大 041
   - 加拿大 044
   - 加拿大 049
   - 加拿大 001
   - 加拿大 023
-  - 加拿大 004
-  - 加拿大 005
   - 加拿大 011
   - 加拿大 016
+  - 加拿大 061
+  - 加拿大 066
+  - 加拿大 070
+  - 加拿大 071
+  - 加拿大 075
+  - 加拿大 004
+  - 加拿大 005
   - 加拿大 025
   - 加拿大 028
   - 加拿大 029
   - 加拿大 030
   - 加拿大 034
   - 加拿大 036
+  - 加拿大 040
   - 加拿大 043
   - 加拿大 046
   - 加拿大 047
   - 加拿大 048
   - 加拿大 052
   - 加拿大 053
+  - 加拿大 054
   - 加拿大 055
   - 加拿大 056
-  - 加拿大 057
-  - 加拿大 058
-  - 加拿大 059
-  - 加拿大 060
-  - 加拿大 061
-  - 加拿大 062
-  - 美国 002
-  - 加拿大 064
-  - 加拿大 065
-  - 美国 003
-  - 加拿大 066
-  - 加拿大 067
-  - 加拿大 069
-  - 加拿大 070
-  - 加拿大 071
-  - 美国 004
-  - 加拿大 075
-  - 美国 005
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
@@ -1564,7 +1357,6 @@ proxy-groups:
   - 加拿大 027
   - 俄罗斯 003
   - 加拿大 012
-  - 哈萨克斯坦 002
   - 加拿大 014
   - 加拿大 019
   - 加拿大 020
@@ -1576,48 +1368,36 @@ proxy-groups:
   - 加拿大 037
   - 加拿大 038
   - 加拿大 039
-  - 加拿大 040
   - 加拿大 041
   - 加拿大 044
   - 加拿大 049
   - 加拿大 001
   - 加拿大 023
-  - 加拿大 004
-  - 加拿大 005
   - 加拿大 011
   - 加拿大 016
+  - 加拿大 061
+  - 加拿大 066
+  - 加拿大 070
+  - 加拿大 071
+  - 加拿大 075
+  - 加拿大 004
+  - 加拿大 005
   - 加拿大 025
   - 加拿大 028
   - 加拿大 029
   - 加拿大 030
   - 加拿大 034
   - 加拿大 036
+  - 加拿大 040
   - 加拿大 043
   - 加拿大 046
   - 加拿大 047
   - 加拿大 048
   - 加拿大 052
   - 加拿大 053
+  - 加拿大 054
   - 加拿大 055
   - 加拿大 056
-  - 加拿大 057
-  - 加拿大 058
-  - 加拿大 059
-  - 加拿大 060
-  - 加拿大 061
-  - 加拿大 062
-  - 美国 002
-  - 加拿大 064
-  - 加拿大 065
-  - 美国 003
-  - 加拿大 066
-  - 加拿大 067
-  - 加拿大 069
-  - 加拿大 070
-  - 加拿大 071
-  - 美国 004
-  - 加拿大 075
-  - 美国 005
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
