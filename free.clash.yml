@@ -2472,6 +2472,7 @@ rules:
 - DOMAIN-SUFFIX,coze.com,🔰 节点选择
 - DOMAIN-SUFFIX,surfcloud.buzz,🔰 节点选择
 - DOMAIN-SUFFIX,riotgames.com,🔰 节点选择
+- DOMAIN-SUFFIX,groq.com,🔰 节点选择
 - DOMAIN-SUFFIX,github.com,🖥️ Github
 - DOMAIN-SUFFIX,api.github.com,🖥️ Github
 - DOMAIN-SUFFIX,github.io,🖥️ Github
