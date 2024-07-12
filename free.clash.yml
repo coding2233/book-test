@@ -687,20 +687,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 美国 002
-  network: ws
-  port: 2052
-  server: 172.64.175.213
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      Host: cdn1.freegradely.xyz
-    path: /
-- alterId: 0
-  cipher: auto
   name: 加拿大 005
   network: ws
   port: 2052
@@ -794,20 +780,6 @@ proxies:
   ws-opts:
     headers:
       Host: hk01.leleles.us
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 057
-  network: ws
-  port: 2052
-  server: 104.19.55.49
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      Host: cdn1.freegradely.xyz
     path: /
 - alterId: 0
   cipher: auto
@@ -1876,21 +1848,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 美国 057
-  network: ws
-  port: 443
-  server: tilebani.com
-  servername: tilebani.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: tilebani.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: 美国 058
   network: ws
   port: 8080
@@ -1902,19 +1859,6 @@ proxies:
     headers:
       Host: oiictw.yydsii.com
     path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 美国 059
-  network: ws
-  port: 2086
-  server: 104.19.32.88
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip5-4.freegradely.xyz
-    path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: 美国 060
@@ -2021,11 +1965,303 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  delay: 904
-  name: 美国 066
+  name: 美国 002
+  network: ws
+  port: 80
+  server: 104.20.30.14
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 43ac3b21-2e9b-4a7c-aef6-2e4b8f73ce2f
+  ws-opts:
+    headers:
+      Host: 127.0.0.1.kleksacademy.克萊克斯學院.aкадемияkлекс.警笛.wonkacapitano.buzz.
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 057
+  network: ws
+  port: 2052
+  server: 104.20.25.146
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      Host: cdn1.freegradely.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 060
+  network: ws
+  port: 80
+  server: zula.ir
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 62aa5f80-0328-4004-a375-7f5a59df4022
+  ws-opts:
+    headers:
+      Host: rubika.ir.google.com.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.apV2rayaspeedtest.netrat.com.eu.com.sde100.ir.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.xn--g28h.dns-dynamic.net.
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 057
+  network: ws
+  port: 80
+  server: 172.67.143.52
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 43ac3b21-2e9b-4a7c-aef6-2e4b8f73ce2f
+  ws-opts:
+    headers:
+      Host: 127.0.0.1.kleksacademy.克萊克斯學院.aкадемияkлекс.警笛.wonkacapitano.buzz.
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 059
+  network: ws
+  port: 80
+  server: 104.20.239.88
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 9ac947aa-de86-41c3-9a60-4c061c7c95f0
+  ws-opts:
+    headers:
+      Host: dl3.plot.cценарий.劇情голов0рез.fir3brand.煽動者追逐雷恩.погонезаpейн.wonkacapitano.buzz.
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 064
   network: ws
   port: 2086
-  server: 172.64.166.22
+  server: 104.19.55.49
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 065
+  network: ws
+  port: 443
+  server: 104.16.67.38
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
+  ws-opts:
+    headers:
+      Host: us3e-mmnnfr9dop0.v2freevpn.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 066
+  network: ws
+  port: 8080
+  server: 104.19.47.50
+  tls: false
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 加拿大 066
+  network: ws
+  port: 2095
+  server: 104.19.45.80
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 068
+  network: ws
+  port: 2095
+  server: 104.19.45.70
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 068
+  network: ws
+  port: 8080
+  server: 172.67.169.189
+  tls: false
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 071
+  network: ws
+  port: 8080
+  server: 104.19.47.199
+  tls: false
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 加拿大 072
+  network: ws
+  port: 8080
+  server: 104.19.47.91
+  tls: false
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 美国 069
+  network: ws
+  port: 8080
+  server: 172.67.172.219
+  tls: false
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 070
+  network: ws
+  port: 8080
+  server: 104.19.47.218
+  tls: false
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 加拿大 076
+  network: ws
+  port: 2095
+  server: 104.19.45.253
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 079
+  network: ws
+  port: 2095
+  server: 104.19.45.13
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 071
+  network: ws
+  port: 2095
+  server: 104.19.45.226
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 072
+  network: ws
+  port: 8080
+  server: 104.19.47.250
+  tls: false
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 日本 002
+  network: ws
+  port: 8080
+  server: kkyx.yydsii.com
+  tls: false
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 074
+  network: ws
+  port: 8080
+  server: 172.67.185.187
+  tls: false
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 083
+  network: ws
+  port: 2095
+  server: 104.19.45.48
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 084
+  network: ws
+  port: 2086
+  server: 104.19.47.36
   tls: false
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
@@ -2033,6 +2269,107 @@ proxies:
     headers:
       Host: ip2.1457230.xyz
     path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 美国 075
+  network: ws
+  port: 8080
+  server: 172.67.172.120
+  tls: false
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 086
+  network: ws
+  port: 2095
+  server: 104.19.45.88
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 088
+  network: ws
+  port: 2095
+  server: 104.19.45.202
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 076
+  network: ws
+  port: 8080
+  server: 172.67.172.67
+  tls: false
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 077
+  network: ws
+  port: 2096
+  server: 172.67.204.84
+  servername: kingo.hightechservice.ir
+  tls: true
+  type: vmess
+  uuid: b17fd137-b80e-4eda-b7d5-28bd89c735ea
+  ws-opts:
+    headers:
+      Host: kingo.hightechservice.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 078
+  network: ws
+  port: 443
+  server: 104.21.42.39
+  tls: true
+  type: vmess
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  ws-opts:
+    headers:
+      Host: nezuko.raidenshogun.cloudns.org
+    path: /linkws/afrhms16v.bestxray.buzz
+- alterId: 0
+  cipher: auto
+  name: 美国 079
+  network: tcp
+  port: 13736
+  server: 45.147.77.110
+  tls: false
+  type: vmess
+  uuid: 5b24cb20-908c-435e-cb83-815950bea779
+- alterId: 0
+  cipher: auto
+  name: 越南 001
+  network: ws
+  port: 80
+  server: 103.75.187.178
+  tls: false
+  type: vmess
+  uuid: 9c1d4b35-955b-4b90-da34-d7db18b7f6d6
+  ws-opts:
+    headers:
+      Host: 103.75.187.178
+    path: /
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
@@ -2137,7 +2474,6 @@ proxy-groups:
   - 加拿大 100
   - 加拿大 102
   - 加拿大 105
-  - 美国 002
   - 加拿大 005
   - 加拿大 051
   - 美国 003
@@ -2145,7 +2481,6 @@ proxy-groups:
   - 加拿大 077
   - 加拿大 020
   - 加拿大 054
-  - 加拿大 057
   - 加拿大 058
   - 加拿大 062
   - 英国 002
@@ -2226,9 +2561,7 @@ proxy-groups:
   - 美国 056
   - 美国 021
   - 加拿大 007
-  - 美国 057
   - 美国 058
-  - 美国 059
   - 美国 060
   - 美国 061
   - 俄罗斯 010
@@ -2237,7 +2570,37 @@ proxy-groups:
   - 加拿大 011
   - 加拿大 059
   - 美国 064
+  - 美国 002
+  - 加拿大 057
+  - 加拿大 060
+  - 美国 057
+  - 美国 059
+  - 加拿大 064
+  - 加拿大 065
   - 美国 066
+  - 加拿大 066
+  - 加拿大 068
+  - 美国 068
+  - 加拿大 071
+  - 加拿大 072
+  - 美国 069
+  - 美国 070
+  - 加拿大 076
+  - 加拿大 079
+  - 美国 071
+  - 美国 072
+  - 日本 002
+  - 美国 074
+  - 加拿大 083
+  - 加拿大 084
+  - 美国 075
+  - 加拿大 086
+  - 加拿大 088
+  - 美国 076
+  - 美国 077
+  - 美国 078
+  - 美国 079
+  - 越南 001
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
@@ -2295,7 +2658,6 @@ proxy-groups:
   - 加拿大 100
   - 加拿大 102
   - 加拿大 105
-  - 美国 002
   - 加拿大 005
   - 加拿大 051
   - 美国 003
@@ -2303,7 +2665,6 @@ proxy-groups:
   - 加拿大 077
   - 加拿大 020
   - 加拿大 054
-  - 加拿大 057
   - 加拿大 058
   - 加拿大 062
   - 英国 002
@@ -2384,9 +2745,7 @@ proxy-groups:
   - 美国 056
   - 美国 021
   - 加拿大 007
-  - 美国 057
   - 美国 058
-  - 美国 059
   - 美国 060
   - 美国 061
   - 俄罗斯 010
@@ -2395,7 +2754,37 @@ proxy-groups:
   - 加拿大 011
   - 加拿大 059
   - 美国 064
+  - 美国 002
+  - 加拿大 057
+  - 加拿大 060
+  - 美国 057
+  - 美国 059
+  - 加拿大 064
+  - 加拿大 065
   - 美国 066
+  - 加拿大 066
+  - 加拿大 068
+  - 美国 068
+  - 加拿大 071
+  - 加拿大 072
+  - 美国 069
+  - 美国 070
+  - 加拿大 076
+  - 加拿大 079
+  - 美国 071
+  - 美国 072
+  - 日本 002
+  - 美国 074
+  - 加拿大 083
+  - 加拿大 084
+  - 美国 075
+  - 加拿大 086
+  - 加拿大 088
+  - 美国 076
+  - 美国 077
+  - 美国 078
+  - 美国 079
+  - 越南 001
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
