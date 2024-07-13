@@ -1022,20 +1022,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大 009
-  network: ws
-  port: 2052
-  server: 104.19.32.226
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      Host: cdn2.freegradely.xyz
-    path: /
-- alterId: 0
-  cipher: auto
   name: 美国 002
   network: ws
   port: 443
@@ -1048,6 +1034,49 @@ proxies:
   ws-opts:
     headers:
       Host: nezuko.raidenshogun.cloudns.org
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 003
+  network: ws
+  port: 443
+  server: 172.67.192.57
+  servername: max.mankadmu.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: max.mankadmu.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 013
+  network: ws
+  port: 2052
+  server: 172.64.175.213
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      Host: cdn1.freegradely.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 009
+  network: ws
+  port: 2052
+  server: 104.19.32.226
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      Host: cdn3.freegradely.xyz
     path: /
 - alterId: 0
   cipher: auto
@@ -1178,8 +1207,10 @@ proxy-groups:
   - 加拿大 002
   - 加拿大 007
   - 加拿大 008
-  - 加拿大 009
   - 美国 002
+  - 美国 003
+  - 美国 013
+  - 加拿大 009
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
@@ -1262,8 +1293,10 @@ proxy-groups:
   - 加拿大 002
   - 加拿大 007
   - 加拿大 008
-  - 加拿大 009
   - 美国 002
+  - 美国 003
+  - 美国 013
+  - 加拿大 009
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
