@@ -119,19 +119,6 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 加拿大 131
-  network: ws
-  port: 2052
-  server: yx1.gyyun.top
-  tls: false
-  type: vmess
-  uuid: 9d4d2803-cbf8-4c49-afeb-3ce17ae0007a
-  ws-opts:
-    headers:
-      Host: lrb1.gyyun.top
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
   delay: 1225
   name: 加拿大 264
   network: ws
@@ -1125,7 +1112,6 @@ proxy-groups:
   - 加拿大 050
   - 加拿大 119
   - 加拿大 081
-  - 加拿大 131
   - 加拿大 264
   - 加拿大 265
   - 美国 082
@@ -1210,7 +1196,6 @@ proxy-groups:
   - 加拿大 050
   - 加拿大 119
   - 加拿大 081
-  - 加拿大 131
   - 加拿大 264
   - 加拿大 265
   - 美国 082
