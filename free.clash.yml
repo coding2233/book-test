@@ -773,19 +773,6 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 加拿大 115
-  network: ws
-  port: 8080
-  server: 104.19.47.136
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
   name: 美国 009
   network: ws
   port: 2086
@@ -1039,6 +1026,49 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 加拿大 011
+  network: ws
+  port: 443
+  server: 172.67.198.187
+  servername: xmivideo.cfd
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e
+  ws-opts:
+    headers:
+      Host: xmivideo.cfd
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 008
+  network: ws
+  port: 2082
+  server: hcaptcha.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: e7f05a4a-0032-325b-b421-a1c25b428ce0
+  ws-opts:
+    headers:
+      Host: BAIUS2.ssl12.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 014
+  network: ws
+  port: 80
+  server: hcaptcha.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: e7f05a4a-0032-325b-b421-a1c25b428ce0
+  ws-opts:
+    headers:
+      Host: BAIUS1.ssl12.xyz
+    path: /
+- alterId: 0
+  cipher: auto
   name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   network: ws
   port: 2086
@@ -1148,7 +1178,6 @@ proxy-groups:
   - 加拿大 110
   - 加拿大 111
   - 美国 006
-  - 加拿大 115
   - 美国 009
   - 美国 010
   - 加拿大 117
@@ -1167,6 +1196,9 @@ proxy-groups:
   - 美国 003
   - 美国 013
   - 加拿大 009
+  - 加拿大 011
+  - 美国 008
+  - 美国 014
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
@@ -1231,7 +1263,6 @@ proxy-groups:
   - 加拿大 110
   - 加拿大 111
   - 美国 006
-  - 加拿大 115
   - 美国 009
   - 美国 010
   - 加拿大 117
@@ -1250,6 +1281,9 @@ proxy-groups:
   - 美国 003
   - 美国 013
   - 加拿大 009
+  - 加拿大 011
+  - 美国 008
+  - 美国 014
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
