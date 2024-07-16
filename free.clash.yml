@@ -232,19 +232,6 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 加拿大 031
-  network: ws
-  port: 2052
-  server: 104.19.46.103
-  tls: false
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      Host: cdn1.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
   name: 加拿大 032
   network: ws
   port: 2086
@@ -477,20 +464,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大 102
-  network: ws
-  port: 80
-  server: 172.67.171.56
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 27d46493-8693-4dc0-af97-0776591ad1a7
-  ws-opts:
-    headers:
-      Host: De2.vmess.site.
-    path: /
-- alterId: 0
-  cipher: auto
   name: 加拿大 105
   network: ws
   port: 2052
@@ -614,19 +587,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大 078
-  network: ws
-  port: 8080
-  server: 104.19.47.39
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
   name: 加拿大 080
   network: ws
   port: 2086
@@ -652,19 +612,6 @@ proxies:
     headers:
       Host: oiictw.yydsii.com
     path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 加拿大 087
-  network: ws
-  port: 8080
-  server: 172.67.169.212
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /
 - alterId: 0
   cipher: auto
   name: 美国 005
@@ -771,19 +718,6 @@ proxies:
     headers:
       Host: ip2.1457230.xyz
     path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 加拿大 117
-  network: ws
-  port: 8080
-  server: 104.19.47.214
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: 美国 012
@@ -911,20 +845,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大 009
-  network: ws
-  port: 2052
-  server: 104.19.32.226
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      Host: cdn3.freegradely.xyz
-    path: /
-- alterId: 0
-  cipher: auto
   name: 美国 014
   network: ws
   port: 80
@@ -939,35 +859,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 美国 002
-  network: ws
-  port: 443
-  server: 104.21.82.17
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
-  ws-opts:
-    headers:
-      Host: gwdef.sbs
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 004
-  network: ws
-  port: 2086
-  server: 104.16.148.244
-  servername: ip006.freegradely.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-  ws-opts:
-    headers:
-      Host: ip006.freegradely.xyz
-    path: /
-- alterId: 0
-  cipher: auto
   name: 加拿大 008
   network: ws
   port: 2052
@@ -979,20 +870,6 @@ proxies:
   ws-opts:
     headers:
       Host: cdn1.freegradely.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 美国 003
-  network: ws
-  port: 2095
-  server: 172.66.47.86
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: sany0116.donovan-a79.workers.dev
     path: /
 - alterId: 0
   cipher: auto
@@ -1065,7 +942,6 @@ proxy-groups:
   - 加拿大 012
   - 加拿大 019
   - 加拿大 026
-  - 加拿大 031
   - 加拿大 032
   - 加拿大 033
   - 加拿大 035
@@ -1083,7 +959,6 @@ proxy-groups:
   - 加拿大 094
   - 加拿大 099
   - 加拿大 100
-  - 加拿大 102
   - 加拿大 105
   - 加拿大 005
   - 加拿大 051
@@ -1093,10 +968,8 @@ proxy-groups:
   - 英国 002
   - 英国 003
   - 加拿大 067
-  - 加拿大 078
   - 加拿大 080
   - 加拿大 085
-  - 加拿大 087
   - 美国 005
   - 加拿大 104
   - 加拿大 107
@@ -1105,7 +978,6 @@ proxy-groups:
   - 美国 006
   - 美国 009
   - 美国 010
-  - 加拿大 117
   - 美国 012
   - 加拿大 092
   - 加拿大 106
@@ -1115,12 +987,8 @@ proxy-groups:
   - 加拿大 002
   - 加拿大 007
   - 美国 013
-  - 加拿大 009
   - 美国 014
-  - 美国 002
-  - 加拿大 004
   - 加拿大 008
-  - 美国 003
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
@@ -1145,7 +1013,6 @@ proxy-groups:
   - 加拿大 012
   - 加拿大 019
   - 加拿大 026
-  - 加拿大 031
   - 加拿大 032
   - 加拿大 033
   - 加拿大 035
@@ -1163,7 +1030,6 @@ proxy-groups:
   - 加拿大 094
   - 加拿大 099
   - 加拿大 100
-  - 加拿大 102
   - 加拿大 105
   - 加拿大 005
   - 加拿大 051
@@ -1173,10 +1039,8 @@ proxy-groups:
   - 英国 002
   - 英国 003
   - 加拿大 067
-  - 加拿大 078
   - 加拿大 080
   - 加拿大 085
-  - 加拿大 087
   - 美国 005
   - 加拿大 104
   - 加拿大 107
@@ -1185,7 +1049,6 @@ proxy-groups:
   - 美国 006
   - 美国 009
   - 美国 010
-  - 加拿大 117
   - 美国 012
   - 加拿大 092
   - 加拿大 106
@@ -1195,12 +1058,8 @@ proxy-groups:
   - 加拿大 002
   - 加拿大 007
   - 美国 013
-  - 加拿大 009
   - 美国 014
-  - 美国 002
-  - 加拿大 004
   - 加拿大 008
-  - 美国 003
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
