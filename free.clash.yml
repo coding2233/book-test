@@ -349,20 +349,6 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 加拿大 001
-  network: ws
-  port: 2052
-  server: 104.19.55.79
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      Host: cdn2.freegradely.xyz
-    path: /
-- alterId: 0
-  cipher: auto
   name: 加拿大 061
   network: ws
   port: 2086
@@ -1088,7 +1074,6 @@ proxy-groups:
   - 加拿大 041
   - 加拿大 044
   - 加拿大 049
-  - 加拿大 001
   - 加拿大 061
   - 加拿大 070
   - 加拿大 075
@@ -1169,7 +1154,6 @@ proxy-groups:
   - 加拿大 041
   - 加拿大 044
   - 加拿大 049
-  - 加拿大 001
   - 加拿大 061
   - 加拿大 070
   - 加拿大 075
