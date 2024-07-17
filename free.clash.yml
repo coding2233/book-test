@@ -873,6 +873,34 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 加拿大 001
+  network: ws
+  port: 2052
+  server: 104.19.55.79
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      Host: cdn3.freegradely.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 004
+  network: ws
+  port: 2052
+  server: 104.20.25.146
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      Host: cdn1.freegradely.xyz
+    path: /
+- alterId: 0
+  cipher: auto
   name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   network: ws
   port: 2086
@@ -989,6 +1017,8 @@ proxy-groups:
   - 美国 013
   - 美国 014
   - 加拿大 008
+  - 加拿大 001
+  - 加拿大 004
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
@@ -1060,6 +1090,8 @@ proxy-groups:
   - 美国 013
   - 美国 014
   - 加拿大 008
+  - 加拿大 001
+  - 加拿大 004
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
