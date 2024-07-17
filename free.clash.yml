@@ -31,21 +31,6 @@ proxies:
   uuid: 7056cc99-9df7-4c89-b2da-9bea4d5b1db6
 - alterId: 0
   cipher: auto
-  delay: 1242
-  name: 加拿大 006
-  network: ws
-  port: 2086
-  server: 104.16.67.38
-  servername: snowy-river-f497.turkeys-radford.workers.dev
-  skip-cert-verify: true
-  type: vmess
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    headers:
-      Host: snowy-river-f497.turkeys-radford.workers.dev
-    path: /linde06.indiavideo.sbs/linkws
-- alterId: 0
-  cipher: auto
   delay: 971
   name: 加拿大 021
   network: ws
@@ -492,20 +477,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大 051
-  network: ws
-  port: 2052
-  server: 104.19.123.11
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      Host: cdn1.freegradely.xyz
-    path: /
-- alterId: 0
-  cipher: auto
   name: 加拿大 069
   network: ws
   port: 2086
@@ -845,20 +816,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 美国 014
-  network: ws
-  port: 80
-  server: hcaptcha.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: e7f05a4a-0032-325b-b421-a1c25b428ce0
-  ws-opts:
-    headers:
-      Host: BAIUS1.ssl12.xyz
-    path: /
-- alterId: 0
-  cipher: auto
   name: 加拿大 008
   network: ws
   port: 2052
@@ -898,6 +855,35 @@ proxies:
   ws-opts:
     headers:
       Host: cdn1.freegradely.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 006
+  network: ws
+  port: 2082
+  server: 104.16.61.8
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: y-old-mode-9c0diab.wiriy73548.workers.dev
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 009
+  network: ws
+  port: 2086
+  server: 104.16.67.38
+  servername: snowy-river-f497.turkeys-radford.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  ws-opts:
+    headers:
+      Host: snowy-river-f497.turkeys-radford.workers.dev
     path: /
 - alterId: 0
   cipher: auto
@@ -956,7 +942,6 @@ proxy-groups:
   - ♻️ 自动选择
   - 🎯 全球直连
   - 🚒 vps6.laiting.xyz
-  - 加拿大 006
   - 加拿大 021
   - 加拿大 022
   - 加拿大 050
@@ -989,7 +974,6 @@ proxy-groups:
   - 加拿大 100
   - 加拿大 105
   - 加拿大 005
-  - 加拿大 051
   - 加拿大 069
   - 加拿大 020
   - 加拿大 058
@@ -1015,10 +999,11 @@ proxy-groups:
   - 加拿大 002
   - 加拿大 007
   - 美国 013
-  - 美国 014
   - 加拿大 008
   - 加拿大 001
   - 加拿大 004
+  - 加拿大 006
+  - 加拿大 009
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
@@ -1029,7 +1014,6 @@ proxy-groups:
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 加拿大 006
   - 加拿大 021
   - 加拿大 022
   - 加拿大 050
@@ -1062,7 +1046,6 @@ proxy-groups:
   - 加拿大 100
   - 加拿大 105
   - 加拿大 005
-  - 加拿大 051
   - 加拿大 069
   - 加拿大 020
   - 加拿大 058
@@ -1088,10 +1071,11 @@ proxy-groups:
   - 加拿大 002
   - 加拿大 007
   - 美国 013
-  - 美国 014
   - 加拿大 008
   - 加拿大 001
   - 加拿大 004
+  - 加拿大 006
+  - 加拿大 009
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
