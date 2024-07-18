@@ -1100,6 +1100,62 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 美国 013
+  network: ws
+  port: 80
+  server: 03.bitaiyun.tech
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 25f51701-74e5-49b9-a7a9-9c0826dca6c5
+  ws-opts:
+    headers:
+      Host: 04.bitaiyun.tech
+    path: /aghagh
+- alterId: 0
+  cipher: auto
+  name: 美国 024
+  network: ws
+  port: 80
+  server: jp687744a.ludou.us.kg
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7514131f-37af-4826-a3aa-8920dd98a371
+  ws-opts:
+    headers:
+      Host: cmi-665441.ludounow.tech
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 美国 025
+  network: ws
+  port: 80
+  server: usga1.ludou.us.kg
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 26aed259-cadc-47e5-8645-5ad859eee699
+  ws-opts:
+    headers:
+      Host: usga.ludou.us.kg
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 美国 026
+  network: ws
+  port: 80
+  server: a3.ludou.us.kg
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 8490225a-eee4-4b08-983c-2a6726e263d6
+  ws-opts:
+    headers:
+      Host: b3.ludou.us.kg
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
   name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   network: ws
   port: 2086
@@ -1232,6 +1288,10 @@ proxy-groups:
   - 美国 022
   - 美国 023
   - 加拿大 016
+  - 美国 013
+  - 美国 024
+  - 美国 025
+  - 美国 026
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
@@ -1319,6 +1379,10 @@ proxy-groups:
   - 美国 022
   - 美国 023
   - 加拿大 016
+  - 美国 013
+  - 美国 024
+  - 美国 025
+  - 美国 026
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
