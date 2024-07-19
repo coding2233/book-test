@@ -306,21 +306,6 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 加拿大 061
-  network: ws
-  port: 2086
-  server: 104.19.45.17
-  servername: ip1.1457230.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip1.1457230.xyz
-    path: /
-- alterId: 0
-  cipher: auto
   name: 加拿大 070
   network: ws
   port: 2086
@@ -686,20 +671,6 @@ proxies:
   ws-opts:
     headers:
       Host: hk01.linkitnow.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 106
-  network: ws
-  port: 2052
-  server: 104.26.7.132
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      Host: cdn1.freegradely.xyz
     path: /
 - alterId: 0
   cipher: auto
@@ -1214,6 +1185,202 @@ proxies:
     path: /31k64xkea01x
 - alterId: 0
   cipher: auto
+  name: 加拿大 018
+  network: ws
+  port: 80
+  server: m2-fl1.m2network.icu
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ef05c5a5-ee19-4fec-acfa-4b0d691f80f8
+  ws-opts:
+    headers:
+      Host: m2-fl1.m2network.icu
+    path: /ws?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 加拿大 022
+  network: ws
+  port: 80
+  server: m2-ca1.m2network.icu
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 27682278-393e-4a80-8ad0-bf08bbc27833
+  ws-opts:
+    headers:
+      Host: m2-ca1.m2network.icu
+    path: /ws?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 加拿大 023
+  network: ws
+  port: 80
+  server: m2-lv1.m2network.icu
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c186d80d-ba97-4622-9e09-128d7065f020
+  ws-opts:
+    headers:
+      Host: m2-lv1.m2network.icu
+    path: /ws?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 加拿大 025
+  network: ws
+  port: 80
+  server: a6.ludou.us.kg
+  tls: false
+  type: vmess
+  udp: true
+  uuid: dcce2089-334a-41d3-b117-99075aa65774
+  ws-opts:
+    headers:
+      Host: b6.ludou.us.kg
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 加拿大 027
+  network: ws
+  port: 80
+  server: m2-es1.m2network.icu
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c186d80d-ba97-4622-9e09-128d7065f020
+  ws-opts:
+    headers:
+      Host: m2-es1.m2network.icu
+    path: /ws?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 加拿大 028
+  network: ws
+  port: 80
+  server: 1111.bitaiyun.tech
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c9604ca0-f1f5-4066-8ab1-ee2dbaf6d83a
+  ws-opts:
+    headers:
+      Host: 1321.bitaiyun.tech
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 加拿大 029
+  network: ws
+  port: 80
+  server: 01.bitaiyun.tech
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c9604ca0-f1f5-4066-8ab1-ee2dbaf6d83a
+  ws-opts:
+    headers:
+      Host: 02.bitaiyun.tech
+    path: /vccmn
+- alterId: 0
+  cipher: auto
+  name: 加拿大 030
+  network: ws
+  port: 80
+  server: a1.ludou.us.kg
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c98e0da1-eeb0-449b-b173-5afc0d2d74de
+  ws-opts:
+    headers:
+      Host: b1.ludou.us.kg
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 加拿大 031
+  network: ws
+  port: 80
+  server: m2-pt1.m2network.icu
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1bec7ea7-7ad3-422a-8035-e0499fde6790
+  ws-opts:
+    headers:
+      Host: m2-pt1.m2network.icu
+    path: /ws?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 加拿大 034
+  network: ws
+  port: 80
+  server: m2-us3.m2network.icu
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 27682278-393e-4a80-8ad0-bf08bbc27833
+  ws-opts:
+    headers:
+      Host: m2-us3.m2network.icu
+    path: /ws?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 加拿大 036
+  network: ws
+  port: 80
+  server: sg0214551.ludou.us.kg
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c9604ca0-f1f5-4066-8ab1-ee2dbaf6d83a
+  ws-opts:
+    headers:
+      Host: sg002afa.ludou.us.kg
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 加拿大 038
+  network: ws
+  port: 80
+  server: a4.ludou.us.kg
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0eeb9661-a7dc-4c94-abed-911107fef6b0
+  ws-opts:
+    headers:
+      Host: b4.ludou.us.kg
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 加拿大 040
+  network: ws
+  port: 80
+  server: m2-it1.m2network.icu
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ef05c5a5-ee19-4fec-acfa-4b0d691f80f8
+  ws-opts:
+    headers:
+      Host: m2-it1.m2network.icu
+    path: /ws?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 加拿大 042
+  network: ws
+  port: 80
+  server: usll1.ludou.us.kg
+  tls: false
+  type: vmess
+  udp: true
+  uuid: dcce2089-334a-41d3-b117-99075aa65774
+  ws-opts:
+    headers:
+      Host: usll.ludou.us.kg
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
   name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   network: ws
   port: 2086
@@ -1289,7 +1456,6 @@ proxy-groups:
   - 加拿大 041
   - 加拿大 044
   - 加拿大 049
-  - 加拿大 061
   - 加拿大 070
   - 加拿大 075
   - 加拿大 043
@@ -1317,7 +1483,6 @@ proxy-groups:
   - 美国 010
   - 美国 012
   - 加拿大 092
-  - 加拿大 106
   - 加拿大 010
   - 加拿大 002
   - 加拿大 007
@@ -1354,6 +1519,20 @@ proxy-groups:
   - 美国 029
   - 广东省 001
   - 广东省 002
+  - 加拿大 018
+  - 加拿大 022
+  - 加拿大 023
+  - 加拿大 025
+  - 加拿大 027
+  - 加拿大 028
+  - 加拿大 029
+  - 加拿大 030
+  - 加拿大 031
+  - 加拿大 034
+  - 加拿大 036
+  - 加拿大 038
+  - 加拿大 040
+  - 加拿大 042
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
@@ -1384,7 +1563,6 @@ proxy-groups:
   - 加拿大 041
   - 加拿大 044
   - 加拿大 049
-  - 加拿大 061
   - 加拿大 070
   - 加拿大 075
   - 加拿大 043
@@ -1412,7 +1590,6 @@ proxy-groups:
   - 美国 010
   - 美国 012
   - 加拿大 092
-  - 加拿大 106
   - 加拿大 010
   - 加拿大 002
   - 加拿大 007
@@ -1449,6 +1626,20 @@ proxy-groups:
   - 美国 029
   - 广东省 001
   - 广东省 002
+  - 加拿大 018
+  - 加拿大 022
+  - 加拿大 023
+  - 加拿大 025
+  - 加拿大 027
+  - 加拿大 028
+  - 加拿大 029
+  - 加拿大 030
+  - 加拿大 031
+  - 加拿大 034
+  - 加拿大 036
+  - 加拿大 038
+  - 加拿大 040
+  - 加拿大 042
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
