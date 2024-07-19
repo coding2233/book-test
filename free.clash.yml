@@ -703,20 +703,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大 121
-  network: ws
-  port: 8443
-  server: 104.19.45.17
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 39135a39-e6ca-43df-a360-d859eea58d86
-  ws-opts:
-    headers:
-      Host: hk01.leleles.us
-    path: /
-- alterId: 0
-  cipher: auto
   name: 加拿大 010
   network: ws
   port: 2052
@@ -1156,6 +1142,78 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
+  name: 美国 027
+  network: ws
+  port: 8880
+  server: 999.bitaiyun.tech
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c98e0da1-eeb0-449b-b173-5afc0d2d74de
+  ws-opts:
+    headers:
+      Host: 877.bitaiyun.tech
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 美国 028
+  network: ws
+  port: 80
+  server: sg1.ludou.us.kg
+  tls: false
+  type: vmess
+  udp: true
+  uuid: dcce2089-334a-41d3-b117-99075aa65774
+  ws-opts:
+    headers:
+      Host: sg.ludou.us.kg
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 美国 029
+  network: ws
+  port: 80
+  server: m2-by1.m2network.icu
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 27682278-393e-4a80-8ad0-bf08bbc27833
+  ws-opts:
+    headers:
+      Host: m2-by1.m2network.icu
+    path: /ws?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 广东省 001
+  network: ws
+  port: 30006
+  server: gzo2.runjustfast.com
+  servername: us1.runjustfast.com
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 3eeda9c3-f765-478b-9f97-ca9beec55afa
+  ws-opts:
+    headers:
+      Host: us1.runjustfast.com
+    path: /4su6gxksa11c
+- alterId: 0
+  cipher: auto
+  name: 广东省 002
+  network: ws
+  port: 30004
+  server: nco.runjustfast.com
+  servername: hk1.runjustfast.com
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 5f3bf422-a064-4e5a-ac63-f59ad9cf28c4
+  ws-opts:
+    headers:
+      Host: hk1.runjustfast.com
+    path: /31k64xkea01x
+- alterId: 0
+  cipher: auto
   name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   network: ws
   port: 2086
@@ -1260,7 +1318,6 @@ proxy-groups:
   - 美国 012
   - 加拿大 092
   - 加拿大 106
-  - 加拿大 121
   - 加拿大 010
   - 加拿大 002
   - 加拿大 007
@@ -1292,6 +1349,11 @@ proxy-groups:
   - 美国 024
   - 美国 025
   - 美国 026
+  - 美国 027
+  - 美国 028
+  - 美国 029
+  - 广东省 001
+  - 广东省 002
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
@@ -1351,7 +1413,6 @@ proxy-groups:
   - 美国 012
   - 加拿大 092
   - 加拿大 106
-  - 加拿大 121
   - 加拿大 010
   - 加拿大 002
   - 加拿大 007
@@ -1383,6 +1444,11 @@ proxy-groups:
   - 美国 024
   - 美国 025
   - 美国 026
+  - 美国 027
+  - 美国 028
+  - 美国 029
+  - 广东省 001
+  - 广东省 002
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
