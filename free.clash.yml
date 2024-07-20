@@ -1605,20 +1605,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大 063
-  network: ws
-  port: 2052
-  server: 104.19.47.65
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      Host: cdn1.freegradely.xyz
-    path: /
-- alterId: 0
-  cipher: auto
   name: 美国 031
   network: ws
   port: 2052
@@ -1644,20 +1630,6 @@ proxies:
   ws-opts:
     headers:
       Host: oiictw.yydsii.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 065
-  network: ws
-  port: 2052
-  server: 104.19.21.71
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      Host: cdn1.freegradely.xyz
     path: /
 - alterId: 0
   cipher: auto
@@ -1714,6 +1686,351 @@ proxies:
   ws-opts:
     headers:
       Host: ip2.1457230.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 广东省 003
+  network: ws
+  port: 30004
+  server: gzo2.runjustfast.com
+  servername: hk1.runjustfast.com
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 95605cfa-36b9-4536-943f-30aaede9d676
+  ws-opts:
+    headers:
+      Host: hk1.runjustfast.com
+    path: /31k64xkea01x
+- alterId: 0
+  cipher: auto
+  name: 广东省 004
+  network: ws
+  port: 30006
+  server: nco.runjustfast.com
+  servername: us1.runjustfast.com
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 95605cfa-36b9-4536-943f-30aaede9d676
+  ws-opts:
+    headers:
+      Host: us1.runjustfast.com
+    path: /4su6gxksa11c
+- alterId: 0
+  cipher: auto
+  name: 广东省 005
+  network: ws
+  port: 30005
+  server: nco.runjustfast.com
+  servername: uk1.runjustfast.com
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 95605cfa-36b9-4536-943f-30aaede9d676
+  ws-opts:
+    headers:
+      Host: uk1.runjustfast.com
+    path: /3su6gxkea11c
+- alterId: 0
+  cipher: auto
+  name: 广东省 006
+  network: ws
+  port: 30001
+  server: gzo2.runjustfast.com
+  servername: jp1.runjustfast.com
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 95605cfa-36b9-4536-943f-30aaede9d676
+  ws-opts:
+    headers:
+      Host: jp1.runjustfast.com
+    path: /21a64xdea04c
+- alterId: 0
+  cipher: auto
+  name: 广东省 007
+  network: ws
+  port: 30002
+  server: nco.runjustfast.com
+  servername: sg1.runjustfast.com
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 95605cfa-36b9-4536-943f-30aaede9d676
+  ws-opts:
+    headers:
+      Host: sg1.runjustfast.com
+    path: /2sa6gxdea14c
+- alterId: 0
+  cipher: auto
+  name: 广东省 008
+  network: ws
+  port: 30005
+  server: gzo2.runjustfast.com
+  servername: uk1.runjustfast.com
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 95605cfa-36b9-4536-943f-30aaede9d676
+  ws-opts:
+    headers:
+      Host: uk1.runjustfast.com
+    path: /3su6gxkea11c
+- alterId: 0
+  cipher: auto
+  name: 广东省 009
+  network: ws
+  port: 30002
+  server: gzo2.runjustfast.com
+  servername: sg1.runjustfast.com
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 95605cfa-36b9-4536-943f-30aaede9d676
+  ws-opts:
+    headers:
+      Host: sg1.runjustfast.com
+    path: /2sa6gxdea14c
+- alterId: 0
+  cipher: auto
+  name: 广东省 010
+  network: ws
+  port: 30003
+  server: nco.runjustfast.com
+  servername: tw1.runjustfast.com
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 95605cfa-36b9-4536-943f-30aaede9d676
+  ws-opts:
+    headers:
+      Host: tw1.runjustfast.com
+    path: /t1a64wdea01c
+- alterId: 0
+  cipher: auto
+  name: 广东省 011
+  network: ws
+  port: 30001
+  server: nco.runjustfast.com
+  servername: jp1.runjustfast.com
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 95605cfa-36b9-4536-943f-30aaede9d676
+  ws-opts:
+    headers:
+      Host: jp1.runjustfast.com
+    path: /21a64xdea04c
+- alterId: 0
+  cipher: auto
+  name: 广东省 012
+  network: ws
+  port: 30003
+  server: gzo2.runjustfast.com
+  servername: tw1.runjustfast.com
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 95605cfa-36b9-4536-943f-30aaede9d676
+  ws-opts:
+    headers:
+      Host: tw1.runjustfast.com
+    path: /t1a64wdea01c
+- alterId: 0
+  cipher: auto
+  name: 美国 034
+  network: ws
+  port: 2086
+  server: 172.64.233.7
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 063
+  network: ws
+  port: 2086
+  server: 104.19.45.17
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip13.freegradely.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 035
+  network: ws
+  port: 2086
+  server: 172.64.233.37
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 065
+  network: ws
+  port: 2052
+  server: mahilu.site
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: mahilu.site
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 071
+  network: ws
+  port: 8880
+  server: russia.com
+  tls: false
+  type: vmess
+  uuid: 6658a3a6-225a-4d33-a5d2-82cfde565b4e
+  ws-opts:
+    headers:
+      Host: ssrsub.v03.ssrsub.com
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: 加拿大 072
+  network: ws
+  port: 8880
+  server: 104.21.82.183
+  tls: false
+  type: vmess
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  ws-opts:
+    headers:
+      Host: server26.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 卢森堡 001
+  network: ws
+  port: 443
+  server: 202.78.162.5
+  tls: true
+  type: vmess
+  uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
+  ws-opts:
+    headers:
+      Host: sahand.serveminecraft.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 073
+  network: ws
+  port: 8080
+  server: www.darkroom.lol
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.darkroom.lol
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 074
+  network: ws
+  port: 8880
+  server: server31.beheshtbaneh.com
+  tls: false
+  type: vmess
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  ws-opts:
+    headers:
+      Host: server31.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 日本 001
+  network: tcp
+  port: 10417
+  server: 45.159.50.96
+  tls: false
+  type: vmess
+  uuid: 712fa20b-7d84-4383-87e2-b5f2c57aa045
+- alterId: 64
+  cipher: auto
+  delay: 846
+  name: 美国 036
+  network: ws
+  port: 38003
+  server: 38.14.107.233
+  servername: www.23179753.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.23179753.xyz
+    path: /path/340434130032
+- alterId: 0
+  cipher: auto
+  delay: 2062
+  name: 德国 001
+  network: tcp
+  port: 22324
+  server: 23.158.56.49
+  skip-cert-verify: true
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  delay: 2146
+  name: 德国 002
+  network: tcp
+  port: 22324
+  server: 23.157.88.35
+  skip-cert-verify: true
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  delay: 942
+  name: 美国 040
+  network: ws
+  port: 18184
+  server: bgrjkcxf.cnmnmsl.top
+  servername: www.nmslcnm.cn
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 7d039b88-bf42-4fdd-9c05-3656a1dbf729
+  ws-opts:
+    headers:
+      Host: www.nmslcnm.cn
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 1321
+  name: 加拿大 114
+  network: ws
+  port: 2095
+  server: 104.19.45.243
+  type: vmess
+  udp: true
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
     path: /
 - alterId: 0
   cipher: auto
@@ -1885,14 +2202,37 @@ proxy-groups:
   - 法国 001
   - 美国 030
   - 加拿大 062
-  - 加拿大 063
   - 美国 031
   - 加拿大 064
-  - 加拿大 065
   - 美国 032
   - 加拿大 066
   - 加拿大 068
   - 美国 033
+  - 广东省 003
+  - 广东省 004
+  - 广东省 005
+  - 广东省 006
+  - 广东省 007
+  - 广东省 008
+  - 广东省 009
+  - 广东省 010
+  - 广东省 011
+  - 广东省 012
+  - 美国 034
+  - 加拿大 063
+  - 美国 035
+  - 加拿大 065
+  - 加拿大 071
+  - 加拿大 072
+  - 卢森堡 001
+  - 加拿大 073
+  - 加拿大 074
+  - 日本 001
+  - 美国 036
+  - 德国 001
+  - 德国 002
+  - 美国 040
+  - 加拿大 114
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
@@ -2016,14 +2356,37 @@ proxy-groups:
   - 法国 001
   - 美国 030
   - 加拿大 062
-  - 加拿大 063
   - 美国 031
   - 加拿大 064
-  - 加拿大 065
   - 美国 032
   - 加拿大 066
   - 加拿大 068
   - 美国 033
+  - 广东省 003
+  - 广东省 004
+  - 广东省 005
+  - 广东省 006
+  - 广东省 007
+  - 广东省 008
+  - 广东省 009
+  - 广东省 010
+  - 广东省 011
+  - 广东省 012
+  - 美国 034
+  - 加拿大 063
+  - 美国 035
+  - 加拿大 065
+  - 加拿大 071
+  - 加拿大 072
+  - 卢森堡 001
+  - 加拿大 073
+  - 加拿大 074
+  - 日本 001
+  - 美国 036
+  - 德国 001
+  - 德国 002
+  - 美国 040
+  - 加拿大 114
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
