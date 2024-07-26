@@ -411,20 +411,6 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 加拿大 133
-  network: ws
-  port: 2086
-  server: www.visa.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip1.1789034.xyz
-    path: /
-- alterId: 0
-  cipher: auto
   name: 加拿大 135
   network: ws
   port: 2095
@@ -1594,6 +1580,93 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
+  name: 加拿大 073
+  network: ws
+  port: 2086
+  server: 104.19.51.232
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  ws-opts:
+    headers:
+      Host: ip005.dtku47.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 091
+  network: ws
+  port: 2086
+  server: 104.19.38.62
+  servername: ip005.dtku47.xyz
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  ws-opts:
+    headers:
+      Host: ip005.dtku47.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 092
+  network: ws
+  port: 2082
+  server: 104.21.8.157
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      Host: s1c.v2.v001sss.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 030
+  network: ws
+  port: 2052
+  server: 172.64.99.22
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      Host: cdn1.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 加拿大 099
+  network: ws
+  port: 8080
+  server: 104.19.47.18
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 加拿大 133
+  network: ws
+  port: 8080
+  server: 104.19.47.45
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
   name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   network: ws
   port: 2086
@@ -1677,7 +1750,6 @@ proxy-groups:
   - 德国 001
   - 德国 002
   - 加拿大 121
-  - 加拿大 133
   - 加拿大 135
   - 加拿大 138
   - 加拿大 140
@@ -1759,6 +1831,12 @@ proxy-groups:
   - 美国 017
   - 加拿大 156
   - 加拿大 157
+  - 加拿大 073
+  - 加拿大 091
+  - 加拿大 092
+  - 美国 030
+  - 加拿大 099
+  - 加拿大 133
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
@@ -1797,7 +1875,6 @@ proxy-groups:
   - 德国 001
   - 德国 002
   - 加拿大 121
-  - 加拿大 133
   - 加拿大 135
   - 加拿大 138
   - 加拿大 140
@@ -1879,6 +1956,12 @@ proxy-groups:
   - 美国 017
   - 加拿大 156
   - 加拿大 157
+  - 加拿大 073
+  - 加拿大 091
+  - 加拿大 092
+  - 美国 030
+  - 加拿大 099
+  - 加拿大 133
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
