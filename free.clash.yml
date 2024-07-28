@@ -356,20 +356,6 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  delay: 1135
-  name: 加拿大 031
-  network: ws
-  port: 2052
-  server: 104.19.38.12
-  tls: false
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      Host: cdn1.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
   delay: 1409
   name: 加拿大 034
   network: ws
@@ -771,36 +757,6 @@ proxies:
   server: 104.19.58.175
   tls: false
   type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      Host: cdn1.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  delay: 819
-  name: 美国 017
-  network: ws
-  port: 2052
-  server: 172.64.175.88
-  servername: cdn1.freegradely.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      Host: cdn1.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 美国 030
-  network: ws
-  port: 2052
-  server: 172.64.99.22
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
   uuid: d6b6d982-d52f-465a-b988-85670b23f64a
   ws-opts:
     headers:
@@ -1223,20 +1179,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 美国 007
-  network: ws
-  port: 2052
-  server: 172.64.175.98
-  servername: cdn3.freegradely.xyz
-  tls: false
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      Host: cdn3.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
   name: 加拿大 083
   network: ws
   port: 2052
@@ -1249,6 +1191,36 @@ proxies:
     headers:
       Host: cdn3.freegradely.xyz
     path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 美国 021
+  network: ws
+  port: 2052
+  server: 172.64.175.88
+  servername: cdn1.freegradely.xyz
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      Host: cdn1.freegradely.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 031
+  network: ws
+  port: 2095
+  server: www.parsvds.ir
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ed645f72-4b02-4ea4-8147-59aba9542d3a
+  ws-opts:
+    headers:
+      Host: WwW.speedtest.net.kkkkklllkokoWkfwofkfKfekojg.IR.mralpha-vpn.COm
+    path: /Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit?ed=1035
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
@@ -1330,7 +1302,6 @@ proxy-groups:
   - 加拿大 001
   - 美国 015
   - 加拿大 027
-  - 加拿大 031
   - 加拿大 034
   - 加拿大 030
   - 加拿大 038
@@ -1359,8 +1330,6 @@ proxy-groups:
   - 加拿大 110
   - 加拿大 116
   - 加拿大 154
-  - 美国 017
-  - 美国 030
   - 加拿大 022
   - 加拿大 028
   - 加拿大 029
@@ -1389,8 +1358,9 @@ proxy-groups:
   - 加拿大 008
   - 加拿大 025
   - 加拿大 056
-  - 美国 007
   - 加拿大 083
+  - 美国 021
+  - 加拿大 031
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
@@ -1425,7 +1395,6 @@ proxy-groups:
   - 加拿大 001
   - 美国 015
   - 加拿大 027
-  - 加拿大 031
   - 加拿大 034
   - 加拿大 030
   - 加拿大 038
@@ -1454,8 +1423,6 @@ proxy-groups:
   - 加拿大 110
   - 加拿大 116
   - 加拿大 154
-  - 美国 017
-  - 美国 030
   - 加拿大 022
   - 加拿大 028
   - 加拿大 029
@@ -1484,8 +1451,9 @@ proxy-groups:
   - 加拿大 008
   - 加拿大 025
   - 加拿大 056
-  - 美国 007
   - 加拿大 083
+  - 美国 021
+  - 加拿大 031
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
