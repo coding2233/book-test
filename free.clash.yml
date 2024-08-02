@@ -663,22 +663,6 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  delay: 1930
-  name: 加拿大 041
-  network: ws
-  port: 443
-  server: nmsl.rnmcnm.com
-  servername: nmsl.rnmcnm.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 089e06da-2b50-46a3-9f57-6d05f4e68a28
-  ws-opts:
-    headers:
-      Host: nmsl.rnmcnm.com
-    path: /
-- alterId: 0
-  cipher: auto
   delay: 1197
   name: 加拿大 048
   network: ws
@@ -1154,6 +1138,88 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 加拿大 031
+  network: ws
+  port: 2095
+  server: 104.19.45.83
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 阿联酋 001
+  network: ws
+  port: 8880
+  server: 94.140.0.110
+  tls: false
+  type: vmess
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  ws-opts:
+    headers:
+      Host: food.zhaal.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 036
+  network: ws
+  port: 8080
+  server: 23.227.38.23
+  tls: false
+  type: vmess
+  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
+  ws-opts:
+    headers:
+      Host: uh-lawyers-instruments-kernel.trycloudflare.com
+    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
+- alterId: 0
+  cipher: auto
+  name: 加拿大 041
+  network: ws
+  port: 2052
+  server: 104.19.38.18
+  servername: cdn3.freegradely.xyz
+  tls: false
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      Host: cdn3.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 加拿大 053
+  network: ws
+  port: 2052
+  server: 104.19.21.81
+  servername: cdn3.freegradely.xyz
+  tls: false
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      Host: cdn3.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 加拿大 066
+  network: ws
+  port: 2052
+  server: 104.19.32.226
+  servername: cdn3.freegradely.xyz
+  tls: false
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      Host: cdn3.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
   name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   network: ws
   port: 2086
@@ -1253,7 +1319,6 @@ proxy-groups:
   - 加拿大 020
   - 加拿大 024
   - 加拿大 040
-  - 加拿大 041
   - 加拿大 048
   - 加拿大 049
   - 加拿大 034
@@ -1286,6 +1351,12 @@ proxy-groups:
   - 加拿大 022
   - 加拿大 006
   - 加拿大 030
+  - 加拿大 031
+  - 阿联酋 001
+  - 加拿大 036
+  - 加拿大 041
+  - 加拿大 053
+  - 加拿大 066
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
@@ -1340,7 +1411,6 @@ proxy-groups:
   - 加拿大 020
   - 加拿大 024
   - 加拿大 040
-  - 加拿大 041
   - 加拿大 048
   - 加拿大 049
   - 加拿大 034
@@ -1373,6 +1443,12 @@ proxy-groups:
   - 加拿大 022
   - 加拿大 006
   - 加拿大 030
+  - 加拿大 031
+  - 阿联酋 001
+  - 加拿大 036
+  - 加拿大 041
+  - 加拿大 053
+  - 加拿大 066
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
