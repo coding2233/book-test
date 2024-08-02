@@ -1106,26 +1106,65 @@ proxies:
     headers:
       Host: agzbjszujp4.yofnhkfc.xyz
     path: /video/ibCT6z55
-- alpn:
-  - h2
-  - http/1.1
-  alterId: 0
+- alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  delay: 1336
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: Freevpnhomes
-  name: 瑞典 001
-  network: grpc
-  port: 2096
-  server: 147.45.76.116
-  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-  skip-cert-verify: true
+  name: 加拿大 022
+  network: ws
+  port: 443
+  server: pandor.boats
+  servername: aveiror.com
+  skip-cert-verify: false
   tls: true
   type: vmess
-  udp: true
-  uuid: ec2176f9-8281-4527-a959-7a0a63f14532
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: aveiror.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 031
+  network: ws
+  port: 80
+  server: www.parspack.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: fd43c7a9-19f7-4c3a-88e2-eaac77e08d42
+  ws-opts:
+    headers:
+      Host: Www.speEdtest.net.WP.zUla.Ir.Debian.oRG.iSVpHp.iR.
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 1464
+  name: 加拿大 074
+  network: ws
+  port: 80
+  server: 162.159.136.98
+  servername: rn2.hostmjj.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 5820093a-bb7d-4e15-8575-1a529f2d8282
+  ws-opts:
+    headers:
+      Host: rn2.hostmjj.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 2787
+  name: 加拿大 075
+  network: ws
+  port: 2095
+  server: 104.19.45.3
+  servername: onea.flha.ru
+  skip-cert-verify: true
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国->🇨🇦_CA_加拿大
@@ -1498,7 +1537,10 @@ proxy-groups:
   - 加拿大 053
   - 加拿大 066
   - 加拿大 007
-  - 瑞典 001
+  - 加拿大 022
+  - 加拿大 031
+  - 加拿大 074
+  - 加拿大 075
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
@@ -1598,7 +1640,10 @@ proxy-groups:
   - 加拿大 053
   - 加拿大 066
   - 加拿大 007
-  - 瑞典 001
+  - 加拿大 022
+  - 加拿大 031
+  - 加拿大 074
+  - 加拿大 075
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
