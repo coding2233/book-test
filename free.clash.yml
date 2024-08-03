@@ -457,21 +457,6 @@ proxies:
     path: /hms02.fxiaomi.sbs/link
 - alterId: 0
   cipher: auto
-  delay: 1158
-  name: 加拿大 085
-  network: ws
-  port: 2086
-  server: 104.19.38.88
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip5-4.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
   name: 加拿大 086
   network: ws
   port: 2052
@@ -500,36 +485,6 @@ proxies:
     headers:
       Host: cdn1.freegradely.xyz
     path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  delay: 1612
-  name: 加拿大 011
-  network: ws
-  port: 2082
-  server: 104.16.61.8
-  servername: worker-lingering-fog-c021.gesofog870.workers.dev
-  skip-cert-verify: true
-  type: vmess
-  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
-  ws-opts:
-    headers:
-      Host: worker-lingering-fog-c021.gesofog870.workers.dev
-    path: /glweidf.sbs/linkws
-- alterId: 0
-  cipher: auto
-  name: 加拿大 015
-  network: ws
-  port: 2095
-  server: 104.19.45.108
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: onea.flha.ru
-    path: /
 - alterId: 0
   cipher: auto
   name: 加拿大 020
@@ -577,20 +532,6 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  delay: 1373
-  name: 加拿大 049
-  network: ws
-  port: 2052
-  server: 104.19.32.216
-  tls: false
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      Host: cdn1.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
   name: 加拿大 034
   network: ws
   port: 2095
@@ -634,21 +575,6 @@ proxies:
     headers:
       Host: ip13.freegradely.xyz
     path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 加拿大 055
-  network: ws
-  port: 2086
-  server: 104.19.38.12
-  servername: ip2.1457230.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip2.1457230.xyz
-    path: /
 - alterId: 0
   cipher: auto
   name: 加拿大 057
@@ -1137,39 +1063,6 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 丹麦 001
-  network: ws
-  port: 443
-  server: dk1.connecton.surf
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: a808defb-a600-4abc-a489-f3f500c3b901
-  ws-opts:
-    headers:
-      Host: dk1.connecton.surf
-    path: vmess
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - telewebion.com
-    method: GET
-    path:
-    - /
-  name: 伊朗 001
-  network: http
-  port: 45042
-  server: 78.39.51.238
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a658ac7c-1bfa-4e06-ae3b-df27d7a62bdb
-- alterId: 0
-  cipher: auto
   name: 加拿大 056
   network: ws
   port: 2095
@@ -1183,21 +1076,6 @@ proxies:
     headers:
       Host: onea.flha.ru
     path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 059
-  network: ws
-  port: 2086
-  server: www.visa.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip1.1789034.xyz
-    path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: 加拿大 061
@@ -1288,6 +1166,241 @@ proxies:
     headers:
       Host: onea.flha.ru
     path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 015
+  network: ws
+  port: 8880
+  server: 104.16.67.38
+  servername: 7hss-butterfly-d4c3.fijetem432.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: a1655f51-1e20-4a92-8a11-b7ca30a7a353
+  ws-opts:
+    headers:
+      Host: 7hss-butterfly-d4c3.fijetem432.workers.dev
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 049
+  network: ws
+  port: 80
+  server: 104.21.70.145
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 5662718f-e3e6-4a96-ca43-2394219cfb47
+  ws-opts:
+    headers:
+      Host: jp.rnmcnm.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 059
+  network: ws
+  port: 2052
+  server: cfcdn2.sanfencdn9.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 1dbf5c96-31cb-4fd7-8f63-ba8d2bdace34
+  ws-opts:
+    headers:
+      Host: jpafzyhfsg3.yofnhkfc.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 082
+  network: ws
+  port: 80
+  server: 162.159.136.106
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 5820093a-bb7d-4e15-8575-1a529f2d8282
+  ws-opts:
+    headers:
+      Host: rn2.hostmjj.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 083
+  network: ws
+  port: 2052
+  server: kt01.898965.xyz
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 1b7eac5b-476b-4433-bb43-720e659e01ae
+  ws-opts:
+    headers:
+      Host: kt01.898965.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 084
+  network: ws
+  port: 2086
+  server: fbi.gov
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip1.1789034.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 090
+  network: ws
+  port: 2086
+  server: 104.19.42.49
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip14.freegradely.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 新加坡 008
+  network: ws
+  port: 15638
+  server: sg6.mmmmmmmmmm.cfd
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2062a5ca-a34e-47bf-9810-db91185f07fc
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 011
+  network: ws
+  port: 2086
+  server: 104.19.46.33
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip13.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 加拿大 055
+  network: ws
+  port: 2052
+  server: 104.19.21.71
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      Host: cdn1.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 加拿大 085
+  network: ws
+  port: 80
+  server: 104.17.148.22
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3e5cda0a-6122-4f54-9e3c-3f49e7a526f9
+  ws-opts:
+    headers:
+      Host: nlch.blueberrynetwork.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 087
+  network: ws
+  port: 2052
+  server: 104.19.123.11
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      Host: cdn1.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 加拿大 091
+  network: ws
+  port: 2052
+  server: 104.26.7.132
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      Host: cdn1.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 美国 004
+  network: ws
+  port: 20292
+  server: 89.208.247.121
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 57f5c2bd-bb79-4fd8-eea1-a84d1ddf3a21
+  ws-opts:
+    headers:
+      Host: 89.208.247.121
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 843
+  name: 加拿大 098
+  network: ws
+  port: 443
+  server: 104.21.21.21
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 73dfe5b1-9ced-4be7-949b-e731d54ba801
+  ws-opts:
+    headers:
+      Host: laxfree.starsea.vip
+    path: /?ed=2048
+- alterId: 64
+  cipher: auto
+  delay: 1009
+  name: 美国 019
+  network: ws
+  port: 30001
+  server: 107.167.20.185
+  servername: www.15314695.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.15314695.xyz
+    path: /path/191019072927
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国->🇨🇦_CA_加拿大
@@ -1640,19 +1753,14 @@ proxy-groups:
   - 加拿大 010
   - 加拿大 023
   - 加拿大 032
-  - 加拿大 085
   - 加拿大 086
   - 加拿大 008
-  - 加拿大 011
-  - 加拿大 015
   - 加拿大 020
   - 加拿大 024
   - 加拿大 040
-  - 加拿大 049
   - 加拿大 034
   - 美国 003
   - 加拿大 038
-  - 加拿大 055
   - 加拿大 057
   - 加拿大 065
   - 加拿大 002
@@ -1686,16 +1794,29 @@ proxy-groups:
   - 加拿大 033
   - 加拿大 044
   - 加拿大 048
-  - 丹麦 001
-  - 伊朗 001
   - 加拿大 056
-  - 加拿大 059
   - 加拿大 061
   - 加拿大 076
   - 加拿大 078
   - 加拿大 079
   - 加拿大 080
   - 加拿大 081
+  - 加拿大 015
+  - 加拿大 049
+  - 加拿大 059
+  - 加拿大 082
+  - 加拿大 083
+  - 加拿大 084
+  - 加拿大 090
+  - 新加坡 008
+  - 加拿大 011
+  - 加拿大 055
+  - 加拿大 085
+  - 加拿大 087
+  - 加拿大 091
+  - 美国 004
+  - 加拿大 098
+  - 美国 019
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大
   - 🇺🇸_US_美国
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
@@ -1753,19 +1874,14 @@ proxy-groups:
   - 加拿大 010
   - 加拿大 023
   - 加拿大 032
-  - 加拿大 085
   - 加拿大 086
   - 加拿大 008
-  - 加拿大 011
-  - 加拿大 015
   - 加拿大 020
   - 加拿大 024
   - 加拿大 040
-  - 加拿大 049
   - 加拿大 034
   - 美国 003
   - 加拿大 038
-  - 加拿大 055
   - 加拿大 057
   - 加拿大 065
   - 加拿大 002
@@ -1799,16 +1915,29 @@ proxy-groups:
   - 加拿大 033
   - 加拿大 044
   - 加拿大 048
-  - 丹麦 001
-  - 伊朗 001
   - 加拿大 056
-  - 加拿大 059
   - 加拿大 061
   - 加拿大 076
   - 加拿大 078
   - 加拿大 079
   - 加拿大 080
   - 加拿大 081
+  - 加拿大 015
+  - 加拿大 049
+  - 加拿大 059
+  - 加拿大 082
+  - 加拿大 083
+  - 加拿大 084
+  - 加拿大 090
+  - 新加坡 008
+  - 加拿大 011
+  - 加拿大 055
+  - 加拿大 085
+  - 加拿大 087
+  - 加拿大 091
+  - 美国 004
+  - 加拿大 098
+  - 美国 019
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大
   - 🇺🇸_US_美国
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
