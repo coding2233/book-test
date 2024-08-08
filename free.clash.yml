@@ -31,19 +31,6 @@ proxies:
   uuid: 7056cc99-9df7-4c89-b2da-9bea4d5b1db6
 - alterId: 0
   cipher: auto
-  name: 加拿大 019
-  network: ws
-  port: 2086
-  server: 104.19.45.15
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip13.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
   name: 加拿大 026
   network: ws
   port: 2086
@@ -1227,21 +1214,6 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 加拿大 113
-  network: ws
-  port: 2095
-  server: 104.19.45.238
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: onea.flha.ru
-    path: /
-- alterId: 0
-  cipher: auto
   delay: 351
   name: 美国 002
   network: tcp
@@ -1361,20 +1333,6 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 加拿大 009
-  network: ws
-  port: 443
-  server: 162.159.129.129
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53
-  ws-opts:
-    headers:
-      Host: mc0.pages.dev
-    path: /
-- alterId: 0
-  cipher: auto
   name: 美国 011
   network: ws
   port: 2095
@@ -1413,38 +1371,6 @@ proxies:
     headers:
       Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
     path: /vmess
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 日本 003
-  network: ws
-  port: 30000
-  server: 137.220.130.58
-  servername: www.68703921.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.68703921.xyz
-    path: /path/011410073331
-- alterId: 0
-  cipher: auto
-  delay: 1105
-  name: 德国 001
-  network: ws
-  port: 80
-  server: de04.thomasina.buzz
-  servername: de04.thomasina.buzz
-  skip-cert-verify: true
-  type: vmess
-  uuid: fddfab81-22bb-4d33-8e95-933c8c81b2ad
-  ws-opts:
-    headers:
-      Host: de04.thomasina.buzz
-    path: /
 - alterId: 0
   cipher: auto
   delay: 736
@@ -1479,6 +1405,344 @@ proxies:
     headers:
       Host: ip1.1789034.xyz
     path: /
+- alterId: 0
+  cipher: auto
+  name: 韩国 004
+  network: ws
+  port: 30056
+  server: usd6.uuuuu.fn-node.shop
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 87a3ec4e-9000-4ab1-b2a4-aa28f25db530
+  ws-opts:
+    headers:
+      Host: us06.fnnoda.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 016
+  network: ws
+  port: 80
+  server: 172.67.138.69
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 8639e52b-a0ce-5d68-b465-b594881feb78
+  ws-opts:
+    headers:
+      Host: De1.vmess.site.
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 018
+  network: ws
+  port: 80
+  server: parsvds.ir
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 8639e52b-a0ce-5d68-b465-b594881feb78
+  ws-opts:
+    headers:
+      Host: De1.vmess.site.
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 020
+  network: ws
+  port: 2052
+  server: 172.67.74.112
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      Host: cdn1.freegradely.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 022
+  network: ws
+  port: 2052
+  server: 104.19.58.185
+  servername: cdn3.freegradely.xyz
+  tls: false
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      Host: cdn3.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 韩国 006
+  network: ws
+  port: 30071
+  server: jpd7.jjjjj.fn-node.shop
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 87a3ec4e-9000-4ab1-b2a4-aa28f25db530
+  ws-opts:
+    headers:
+      Host: jpa7.fnnoda.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 韩国 007
+  network: ws
+  port: 30066
+  server: jpd1.jjjjj.fn-node.site
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 87a3ec4e-9000-4ab1-b2a4-aa28f25db530
+  ws-opts:
+    headers:
+      Host: jpa1.fnnode.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 韩国 008
+  network: ws
+  port: 30062
+  server: hkd5.hhhhh.fn-node.shop
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 87a3ec4e-9000-4ab1-b2a4-aa28f25db530
+  ws-opts:
+    headers:
+      Host: hka5.fnnoda.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 韩国 009
+  network: ws
+  port: 30080
+  server: sg01.zzzzz.fn-node.site
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 87a3ec4e-9000-4ab1-b2a4-aa28f25db530
+  ws-opts:
+    headers:
+      Host: sg01.fnnode.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 韩国 010
+  network: ws
+  port: 30066
+  server: sgd1.zzzzz.fn-node.site
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 87a3ec4e-9000-4ab1-b2a4-aa28f25db530
+  ws-opts:
+    headers:
+      Host: sga1.fnnode.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 韩国 011
+  network: ws
+  port: 30066
+  server: hkd1.hhhhh.fn-node.site
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 87a3ec4e-9000-4ab1-b2a4-aa28f25db530
+  ws-opts:
+    headers:
+      Host: hka1.fnnode.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 韩国 012
+  network: ws
+  port: 30070
+  server: hkdnf.hhhhh.fn-node.site
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 87a3ec4e-9000-4ab1-b2a4-aa28f25db530
+  ws-opts:
+    headers:
+      Host: hknf.fnnode.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 韩国 013
+  network: ws
+  port: 30002
+  server: hkd2.hhhhh.fn-node.site
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 87a3ec4e-9000-4ab1-b2a4-aa28f25db530
+  ws-opts:
+    headers:
+      Host: hka2.fnnode.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 韩国 014
+  network: ws
+  port: 30011
+  server: hkd3.hhhhh.fn-node.site
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 87a3ec4e-9000-4ab1-b2a4-aa28f25db530
+  ws-opts:
+    headers:
+      Host: hka3.fnnode.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 韩国 015
+  network: ws
+  port: 30061
+  server: hkd8.hhhhh.fn-node.shop
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 87a3ec4e-9000-4ab1-b2a4-aa28f25db530
+  ws-opts:
+    headers:
+      Host: hka8.fnnoda.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 049
+  network: ws
+  port: 2052
+  server: 104.18.57.111
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      Host: cdn1.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 加拿大 051
+  network: ws
+  port: 2052
+  server: 104.19.47.65
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      Host: cdn1.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 美国 025
+  network: ws
+  port: 2086
+  server: 172.64.167.8
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: /
+  name: 加拿大 067
+  network: grpc
+  port: 2053
+  server: 104.17.148.22
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 00fb7867-95ad-4eaf-99f1-22255beb6251
+- alterId: 0
+  cipher: auto
+  name: 加拿大 081
+  network: ws
+  port: 2052
+  server: 104.20.25.146
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      Host: cdn1.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 新加坡 001
+  network: ws
+  port: 443
+  server: hkcft01.xqc.best
+  servername: d84zxlca209ol.cloudfront.net
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 998e3b8d-11d7-4c21-9eb7-b4c2eabe6b35
+  ws-opts:
+    headers:
+      Host: d84zxlca209ol.cloudfront.net
+    path: /stream
+- alterId: 0
+  cipher: auto
+  name: 新加坡 003
+  network: ws
+  port: 443
+  server: jpcft01.xqc.best
+  servername: dd7xps5fj6dfo.cloudfront.net
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 998e3b8d-11d7-4c21-9eb7-b4c2eabe6b35
+  ws-opts:
+    headers:
+      Host: dd7xps5fj6dfo.cloudfront.net
+    path: /stream
+- alterId: 0
+  cipher: auto
+  name: 美国 023
+  network: ws
+  port: 443
+  server: sgcft01.xqc.best
+  servername: d1nal26v8jyfe2.cloudfront.net
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 998e3b8d-11d7-4c21-9eb7-b4c2eabe6b35
+  ws-opts:
+    headers:
+      Host: d1nal26v8jyfe2.cloudfront.net
+    path: /stream
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国->🇮🇹_IT_意大利
@@ -1567,7 +1831,6 @@ proxy-groups:
   - ♻️ 自动选择
   - 🎯 全球直连
   - 🚒 vps6.laiting.xyz
-  - 加拿大 019
   - 加拿大 026
   - 加拿大 037
   - 加拿大 039
@@ -1650,7 +1913,6 @@ proxy-groups:
   - 加拿大 064
   - 加拿大 093
   - 加拿大 098
-  - 加拿大 113
   - 美国 002
   - 美国 007
   - 美国 018
@@ -1660,15 +1922,35 @@ proxy-groups:
   - 美国 009
   - 加拿大 013
   - 美国 013
-  - 加拿大 009
   - 美国 011
   - 荷兰 002
   - 爱尔兰 001
-  - 日本 003
-  - 德国 001
   - 美国 020
   - 美国 021
   - 美国 015
+  - 韩国 004
+  - 加拿大 016
+  - 加拿大 018
+  - 加拿大 020
+  - 加拿大 022
+  - 韩国 006
+  - 韩国 007
+  - 韩国 008
+  - 韩国 009
+  - 韩国 010
+  - 韩国 011
+  - 韩国 012
+  - 韩国 013
+  - 韩国 014
+  - 韩国 015
+  - 加拿大 049
+  - 加拿大 051
+  - 美国 025
+  - 加拿大 067
+  - 加拿大 081
+  - 新加坡 001
+  - 新加坡 003
+  - 美国 023
   - 🇺🇸_US_美国->🇮🇹_IT_意大利
   - 🇺🇸_US_美国_6
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大
@@ -1679,7 +1961,6 @@ proxy-groups:
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 加拿大 019
   - 加拿大 026
   - 加拿大 037
   - 加拿大 039
@@ -1762,7 +2043,6 @@ proxy-groups:
   - 加拿大 064
   - 加拿大 093
   - 加拿大 098
-  - 加拿大 113
   - 美国 002
   - 美国 007
   - 美国 018
@@ -1772,15 +2052,35 @@ proxy-groups:
   - 美国 009
   - 加拿大 013
   - 美国 013
-  - 加拿大 009
   - 美国 011
   - 荷兰 002
   - 爱尔兰 001
-  - 日本 003
-  - 德国 001
   - 美国 020
   - 美国 021
   - 美国 015
+  - 韩国 004
+  - 加拿大 016
+  - 加拿大 018
+  - 加拿大 020
+  - 加拿大 022
+  - 韩国 006
+  - 韩国 007
+  - 韩国 008
+  - 韩国 009
+  - 韩国 010
+  - 韩国 011
+  - 韩国 012
+  - 韩国 013
+  - 韩国 014
+  - 韩国 015
+  - 加拿大 049
+  - 加拿大 051
+  - 美国 025
+  - 加拿大 067
+  - 加拿大 081
+  - 新加坡 001
+  - 新加坡 003
+  - 美国 023
   - 🇺🇸_US_美国->🇮🇹_IT_意大利
   - 🇺🇸_US_美国_6
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大
