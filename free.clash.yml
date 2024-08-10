@@ -566,20 +566,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大 006
-  network: ws
-  port: 2086
-  server: 104.19.47.45
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip14.freegradely.xyz
-    path: /
-- alterId: 0
-  cipher: auto
   name: 加拿大 030
   network: ws
   port: 2082
@@ -1288,20 +1274,6 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 美国 011
-  network: ws
-  port: 2095
-  server: 172.64.150.8
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: a5dc7082-3433-48ad-9216-ddc9768e5160
-  ws-opts:
-    headers:
-      Host: ybr.redbullplus.xyz
-    path: /
-- alterId: 0
-  cipher: auto
   name: 荷兰 002
   network: ws
   port: 80
@@ -1346,20 +1318,6 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: 8114cffb-928f-4ce1-a376-d48546573fcb
-- alterId: 0
-  cipher: auto
-  name: 美国 015
-  network: ws
-  port: 2086
-  server: malaysia.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip1.1789034.xyz
-    path: /
 - alterId: 0
   cipher: auto
   name: 韩国 004
@@ -1742,6 +1700,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 加拿大 006
+  network: ws
+  port: 80
+  server: 104.16.67.38
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
+  ws-opts:
+    headers:
+      Host: us3e-mmnnfr9dop0.v2freevpn.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: 🇺🇸_US_美国->🇨🇦_CA_加拿大
   network: ws
   port: 2086
@@ -1849,7 +1821,6 @@ proxy-groups:
   - 加拿大 046
   - 美国 024
   - 加拿大 005
-  - 加拿大 006
   - 加拿大 030
   - 加拿大 041
   - 加拿大 053
@@ -1900,12 +1871,10 @@ proxy-groups:
   - 加拿大 007
   - 加拿大 013
   - 美国 013
-  - 美国 011
   - 荷兰 002
   - 爱尔兰 001
   - 美国 020
   - 美国 021
-  - 美国 015
   - 韩国 004
   - 加拿大 016
   - 加拿大 018
@@ -1932,6 +1901,7 @@ proxy-groups:
   - 韩国 003
   - 加拿大 009
   - 瑞典 003
+  - 加拿大 006
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大
   - 🇺🇸_US_美国_15
   - 🇺🇸_US_美国_18
@@ -1978,7 +1948,6 @@ proxy-groups:
   - 加拿大 046
   - 美国 024
   - 加拿大 005
-  - 加拿大 006
   - 加拿大 030
   - 加拿大 041
   - 加拿大 053
@@ -2029,12 +1998,10 @@ proxy-groups:
   - 加拿大 007
   - 加拿大 013
   - 美国 013
-  - 美国 011
   - 荷兰 002
   - 爱尔兰 001
   - 美国 020
   - 美国 021
-  - 美国 015
   - 韩国 004
   - 加拿大 016
   - 加拿大 018
@@ -2061,6 +2028,7 @@ proxy-groups:
   - 韩国 003
   - 加拿大 009
   - 瑞典 003
+  - 加拿大 006
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大
   - 🇺🇸_US_美国_15
   - 🇺🇸_US_美国_18
