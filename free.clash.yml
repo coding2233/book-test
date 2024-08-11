@@ -980,21 +980,6 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  delay: 972
-  name: 加拿大 130
-  network: ws
-  port: 2086
-  server: 104.19.45.17
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip13.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
   delay: 937
   name: 加拿大 133
   network: ws
@@ -1541,21 +1526,6 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 加拿大 051
-  network: ws
-  port: 2052
-  server: 104.19.47.65
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      Host: cdn1.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
   name: 美国 025
   network: ws
   port: 2086
@@ -1837,7 +1807,6 @@ proxy-groups:
   - 加拿大 108
   - 加拿大 109
   - 加拿大 111
-  - 加拿大 130
   - 加拿大 133
   - 加拿大 134
   - 加拿大 061
@@ -1877,7 +1846,6 @@ proxy-groups:
   - 韩国 014
   - 韩国 015
   - 加拿大 049
-  - 加拿大 051
   - 美国 025
   - 加拿大 067
   - 加拿大 081
@@ -1963,7 +1931,6 @@ proxy-groups:
   - 加拿大 108
   - 加拿大 109
   - 加拿大 111
-  - 加拿大 130
   - 加拿大 133
   - 加拿大 134
   - 加拿大 061
@@ -2003,7 +1970,6 @@ proxy-groups:
   - 韩国 014
   - 韩国 015
   - 加拿大 049
-  - 加拿大 051
   - 美国 025
   - 加拿大 067
   - 加拿大 081
