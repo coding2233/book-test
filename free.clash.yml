@@ -758,20 +758,6 @@ proxies:
   uuid: 8114cffb-928f-4ce1-a376-d48546573fcb
 - alterId: 0
   cipher: auto
-  name: 加拿大 020
-  network: ws
-  port: 2052
-  server: 172.67.74.112
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      Host: cdn1.freegradely.xyz
-    path: /
-- alterId: 0
-  cipher: auto
   name: 加拿大 049
   network: ws
   port: 2052
@@ -944,32 +930,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 菲律宾 001
-  network: ws
-  port: 80
-  server: 3h-philippines1.09vpn.com
-  tls: false
-  type: vmess
-  uuid: e7d6a050-e52a-4d85-ac26-95f85e44e8f4
-  ws-opts:
-    headers:
-      Host: 3h-philippines1.09vpn.com
-    path: /vmess/
-- alterId: 0
-  cipher: auto
-  name: 加拿大 018
-  network: ws
-  port: 2086
-  server: 104.19.47.77
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip14.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
   name: 加拿大 019
   network: ws
   port: 2086
@@ -980,6 +940,19 @@ proxies:
   ws-opts:
     headers:
       Host: ip1.1789034.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 加拿大 012
+  network: ws
+  port: 2086
+  server: 104.19.47.77
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip14.freegradely.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1382,7 +1355,6 @@ proxy-groups:
   - 美国 013
   - 美国 020
   - 美国 021
-  - 加拿大 020
   - 加拿大 049
   - 美国 025
   - 加拿大 081
@@ -1395,9 +1367,8 @@ proxy-groups:
   - 加拿大 013
   - 加拿大 016
   - 加拿大 017
-  - 菲律宾 001
-  - 加拿大 018
   - 加拿大 019
+  - 加拿大 012
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大
   - 🇺🇸_US_美国
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
@@ -1478,7 +1449,6 @@ proxy-groups:
   - 美国 013
   - 美国 020
   - 美国 021
-  - 加拿大 020
   - 加拿大 049
   - 美国 025
   - 加拿大 081
@@ -1491,9 +1461,8 @@ proxy-groups:
   - 加拿大 013
   - 加拿大 016
   - 加拿大 017
-  - 菲律宾 001
-  - 加拿大 018
   - 加拿大 019
+  - 加拿大 012
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大
   - 🇺🇸_US_美国
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
