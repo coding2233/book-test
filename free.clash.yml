@@ -555,19 +555,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大 020
-  network: ws
-  port: 2086
-  server: japan.com
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip1.1789034.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
   name: 加拿大 022
   network: ws
   port: 2086
@@ -685,7 +672,7 @@ proxies:
     path: /f4
 - alterId: 0
   cipher: auto
-  name: 美国 023
+  name: 加拿大 002
   network: ws
   port: 2086
   server: malaysia.com
@@ -787,7 +774,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 加拿大 002
+  name: 加拿大 004
   network: ws
   port: 2086
   server: 104.19.38.12
@@ -1046,20 +1033,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大 032
-  network: ws
-  port: 2086
-  server: 104.19.45.13
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip13.freegradely.xyz
-    path: /
-- alterId: 0
-  cipher: auto
   name: 加拿大 034
   network: ws
   port: 2086
@@ -1133,7 +1106,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大 004
+  name: 加拿大 016
   network: ws
   port: 2052
   server: cf.hy2.one
@@ -1147,7 +1120,7 @@ proxies:
     path: /0
 - alterId: 0
   cipher: auto
-  name: 加拿大 005
+  name: 加拿大 020
   network: ws
   port: 2082
   server: cf.hy2.one
@@ -1161,7 +1134,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大 016
+  name: 加拿大 057
   network: ws
   port: 80
   server: cf.hy2.one
@@ -1175,7 +1148,7 @@ proxies:
     path: /af323d
 - alterId: 0
   cipher: auto
-  name: 加拿大 057
+  name: 加拿大 059
   network: ws
   port: 2086
   server: 104.16.67.38
@@ -1190,7 +1163,7 @@ proxies:
 - alterId: 0
   cipher: auto
   delay: 1729
-  name: 加拿大 059
+  name: 加拿大 061
   network: ws
   port: 2082
   server: 104.16.68.38
@@ -1202,6 +1175,270 @@ proxies:
     headers:
       Host: 38hhuiet-glitter-ee01.lijeyet360.workers.dev
     path: /hms02.fxiaomi.sbs/link
+- alterId: 0
+  cipher: auto
+  name: 美国 023
+  network: ws
+  port: 2086
+  server: 172.64.167.10
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 038
+  network: ws
+  port: 2086
+  server: 172.64.167.22
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 099
+  network: ws
+  port: 2086
+  server: 104.19.45.17
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip13.freegradely.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 100
+  network: ws
+  port: 2086
+  server: icook.tw
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip1.1789034.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 加拿大 032
+  network: ws
+  port: 2086
+  server: japan.com
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip1.1789034.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  delay: 1355
+  name: 美国 042
+  network: ws
+  port: 2086
+  server: 172.64.167.44
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  delay: 1585
+  name: 英国 001
+  network: ws
+  port: 2086
+  server: 172.64.233.27
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  delay: 1481
+  name: 美国 043
+  network: ws
+  port: 2086
+  server: 172.64.233.37
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  delay: 1421
+  name: 美国 044
+  network: ws
+  port: 2086
+  server: 172.64.166.16
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  delay: 1222
+  name: 美国 045
+  network: ws
+  port: 2086
+  server: 172.64.166.20
+  servername: ip2.1457230.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  delay: 1868
+  name: 美国 046
+  network: ws
+  port: 2086
+  server: 172.64.166.33
+  servername: ip2.1457230.xyz
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  delay: 1077
+  name: 加拿大 098
+  network: ws
+  port: 2086
+  server: 172.67.2.238
+  servername: ip1.1789034.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip1.1789034.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  delay: 1294
+  name: 美国 047
+  network: ws
+  port: 2086
+  server: 172.64.166.8
+  servername: ip2.1457230.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  delay: 1502
+  name: 加拿大 101
+  network: ws
+  port: 2086
+  server: 104.19.47.36
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip14.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  delay: 1367
+  name: 加拿大 102
+  network: ws
+  port: 2086
+  server: 104.22.36.243
+  servername: ip1.1789034.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip1.1789034.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  delay: 1945
+  name: 加拿大 103
+  network: ws
+  port: 2086
+  server: 104.19.47.22
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip14.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  delay: 2461
+  name: 加拿大 104
+  network: ws
+  port: 2086
+  server: 104.18.14.19
+  servername: ip1.1789034.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip1.1789034.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  delay: 1375
+  name: 加拿大 108
+  network: ws
+  port: 2086
+  server: www.visa.com
+  servername: ip1.1789034.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip1.1789034.xyz
+    path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国->🇨🇦_CA_加拿大
@@ -1286,7 +1523,6 @@ proxy-groups:
   - 加拿大 007
   - 加拿大 013
   - 加拿大 014
-  - 加拿大 020
   - 加拿大 022
   - 美国 004
   - 美国 007
@@ -1295,14 +1531,14 @@ proxy-groups:
   - 美国 019
   - 加拿大 033
   - 加拿大 044
-  - 美国 023
+  - 加拿大 002
   - 加拿大 035
   - 美国 026
   - 美国 027
   - 加拿大 045
   - 加拿大 055
   - 加拿大 062
-  - 加拿大 002
+  - 加拿大 004
   - 美国 009
   - 美国 010
   - 美国 011
@@ -1320,17 +1556,34 @@ proxy-groups:
   - 加拿大 028
   - 加拿大 029
   - 加拿大 031
-  - 加拿大 032
   - 加拿大 034
   - 加拿大 050
   - 瑞典 001
   - 加拿大 052
   - 加拿大 056
-  - 加拿大 004
-  - 加拿大 005
   - 加拿大 016
+  - 加拿大 020
   - 加拿大 057
   - 加拿大 059
+  - 加拿大 061
+  - 美国 023
+  - 美国 038
+  - 加拿大 099
+  - 加拿大 100
+  - 加拿大 032
+  - 美国 042
+  - 英国 001
+  - 美国 043
+  - 美国 044
+  - 美国 045
+  - 美国 046
+  - 加拿大 098
+  - 美国 047
+  - 加拿大 101
+  - 加拿大 102
+  - 加拿大 103
+  - 加拿大 104
+  - 加拿大 108
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
@@ -1376,7 +1629,6 @@ proxy-groups:
   - 加拿大 007
   - 加拿大 013
   - 加拿大 014
-  - 加拿大 020
   - 加拿大 022
   - 美国 004
   - 美国 007
@@ -1385,14 +1637,14 @@ proxy-groups:
   - 美国 019
   - 加拿大 033
   - 加拿大 044
-  - 美国 023
+  - 加拿大 002
   - 加拿大 035
   - 美国 026
   - 美国 027
   - 加拿大 045
   - 加拿大 055
   - 加拿大 062
-  - 加拿大 002
+  - 加拿大 004
   - 美国 009
   - 美国 010
   - 美国 011
@@ -1410,17 +1662,34 @@ proxy-groups:
   - 加拿大 028
   - 加拿大 029
   - 加拿大 031
-  - 加拿大 032
   - 加拿大 034
   - 加拿大 050
   - 瑞典 001
   - 加拿大 052
   - 加拿大 056
-  - 加拿大 004
-  - 加拿大 005
   - 加拿大 016
+  - 加拿大 020
   - 加拿大 057
   - 加拿大 059
+  - 加拿大 061
+  - 美国 023
+  - 美国 038
+  - 加拿大 099
+  - 加拿大 100
+  - 加拿大 032
+  - 美国 042
+  - 英国 001
+  - 美国 043
+  - 美国 044
+  - 美国 045
+  - 美国 046
+  - 加拿大 098
+  - 美国 047
+  - 加拿大 101
+  - 加拿大 102
+  - 加拿大 103
+  - 加拿大 104
+  - 加拿大 108
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
