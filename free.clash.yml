@@ -98,20 +98,6 @@ proxies:
     path: /Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray?ed=2048
 - alterId: 0
   cipher: auto
-  name: 加拿大 129
-  network: ws
-  port: 2052
-  server: 104.19.42.49
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      Host: cdn1.freegradely.xyz
-    path: /
-- alterId: 0
-  cipher: auto
   delay: 999
   name: 加拿大 058
   network: ws
@@ -1573,20 +1559,6 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 加拿大 192
-  network: ws
-  port: 2052
-  server: jx.jixingnetwork.sbs
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2c9d70f4-c988-44b9-b15b-104951423163
-  ws-opts:
-    headers:
-      Host: rb03.jixingnetwork.sbs
-    path: /
-- alterId: 0
-  cipher: auto
   name: 加拿大 047
   network: ws
   port: 2086
@@ -2074,6 +2046,34 @@ proxies:
     path: /mooapw
 - alterId: 0
   cipher: auto
+  name: 加拿大 082
+  network: ws
+  port: 80
+  server: visa.cn
+  tls: false
+  type: vmess
+  udp: true
+  uuid: bb80415c-9408-49b9-ab2b-41d991e5646c
+  ws-opts:
+    headers:
+      Host: us-sanfrancisco-01.t3csyun.buzz
+    path: /us1
+- alterId: 0
+  cipher: auto
+  name: 德国 003
+  network: ws
+  port: 33026
+  server: 89.169.55.152
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 6d586155-4b43-4b02-894c-d621aa338924
+  ws-opts:
+    headers:
+      Host: socks5tobefree.ydns.eu
+    path: /
+- alterId: 0
+  cipher: auto
   name: 🇺🇸_US_美国->🇨🇦_CA_加拿大
   network: ws
   port: 2086
@@ -2315,7 +2315,6 @@ proxy-groups:
   - 加拿大 138
   - 加拿大 140
   - 加拿大 071
-  - 加拿大 129
   - 加拿大 058
   - 加拿大 040
   - 加拿大 001
@@ -2418,7 +2417,6 @@ proxy-groups:
   - 加拿大 033
   - 加拿大 187
   - 加拿大 190
-  - 加拿大 192
   - 加拿大 047
   - 加拿大 174
   - 加拿大 002
@@ -2453,6 +2451,8 @@ proxy-groups:
   - 加拿大 056
   - 加拿大 061
   - 日本 001
+  - 加拿大 082
+  - 德国 003
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
@@ -2479,7 +2479,6 @@ proxy-groups:
   - 加拿大 138
   - 加拿大 140
   - 加拿大 071
-  - 加拿大 129
   - 加拿大 058
   - 加拿大 040
   - 加拿大 001
@@ -2582,7 +2581,6 @@ proxy-groups:
   - 加拿大 033
   - 加拿大 187
   - 加拿大 190
-  - 加拿大 192
   - 加拿大 047
   - 加拿大 174
   - 加拿大 002
@@ -2617,6 +2615,8 @@ proxy-groups:
   - 加拿大 056
   - 加拿大 061
   - 日本 001
+  - 加拿大 082
+  - 德国 003
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
