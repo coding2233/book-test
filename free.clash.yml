@@ -31,19 +31,6 @@ proxies:
   uuid: 7056cc99-9df7-4c89-b2da-9bea4d5b1db6
 - alterId: 0
   cipher: auto
-  name: 加拿大 138
-  network: ws
-  port: 2052
-  server: 104.19.21.63
-  tls: false
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      Host: cdn1.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
   name: 加拿大 140
   network: ws
   port: 2052
@@ -1398,6 +1385,95 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
+  name: 加拿大 068
+  network: ws
+  port: 80
+  server: 162.159.128.248
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 211d8a34-9c48-4435-b4bf-343ae1cbda0e
+  ws-opts:
+    headers:
+      Host: rn1.hostmjj.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 070
+  network: ws
+  port: 2082
+  server: 104.16.60.8
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+  ws-opts:
+    headers:
+      Host: 82uple-bird-b087.pemed58443.workers.dev
+    path: /ivideos.sbs/linkws
+- alterId: 0
+  cipher: auto
+  name: 加拿大 072
+  network: ws
+  port: 8080
+  server: 104.18.202.250
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
+  ws-opts:
+    headers:
+      Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
+    path: /jahfkjha.cfd/linkws
+- alterId: 0
+  cipher: auto
+  name: 加拿大 074
+  network: ws
+  port: 2095
+  server: 104.19.45.13
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 075
+  network: ws
+  port: 443
+  server: npmjs.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 6b880b07-e952-4c0b-b4a3-6c9ac4cf9d3f
+  ws-opts:
+    headers:
+      Host: hdfy1c2.freeairlaines.com
+    path: /QvtvPdDXXIlSdZMqnuxG
+- alterId: 0
+  cipher: auto
+  name: 加拿大 077
+  network: ws
+  port: 2095
+  server: 104.19.45.14
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
   name: 🇺🇸_US_美国->🇨🇦_CA_加拿大
   network: ws
   port: 2086
@@ -1738,7 +1814,6 @@ proxy-groups:
   - ♻️ 自动选择
   - 🎯 全球直连
   - 🚒 vps6.laiting.xyz
-  - 加拿大 138
   - 加拿大 140
   - 加拿大 071
   - 加拿大 058
@@ -1832,6 +1907,12 @@ proxy-groups:
   - 加拿大 066
   - 美国 019
   - 加拿大 067
+  - 加拿大 068
+  - 加拿大 070
+  - 加拿大 072
+  - 加拿大 074
+  - 加拿大 075
+  - 加拿大 077
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国
@@ -1860,7 +1941,6 @@ proxy-groups:
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 加拿大 138
   - 加拿大 140
   - 加拿大 071
   - 加拿大 058
@@ -1954,6 +2034,12 @@ proxy-groups:
   - 加拿大 066
   - 美国 019
   - 加拿大 067
+  - 加拿大 068
+  - 加拿大 070
+  - 加拿大 072
+  - 加拿大 074
+  - 加拿大 075
+  - 加拿大 077
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国
