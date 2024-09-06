@@ -400,20 +400,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大 146
-  network: ws
-  port: 2082
-  server: cf.hy2.one
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cfd2b90e-3330-48d1-bf00-92e2cd88f4c8
-  ws-opts:
-    headers:
-      Host: sg01.hy-2.top
-    path: /
-- alterId: 0
-  cipher: auto
   name: 加拿大 164
   network: ws
   port: 2086
@@ -479,20 +465,6 @@ proxies:
     headers:
       Host: rough-wildflower-0b5e.zemel-yesenia1720.workers.dev
     path: /glweidf.sbs/linkws
-- alterId: 0
-  cipher: auto
-  name: 加拿大 176
-  network: ws
-  port: 80
-  server: cf.hy2.one
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a1455551-e8a6-4bfa-8474-05cb76a5109e
-  ws-opts:
-    headers:
-      Host: tw02.hy2.one
-    path: /af323d
 - alterId: 0
   cipher: auto
   name: 加拿大 009
@@ -691,21 +663,6 @@ proxies:
     headers:
       Host: sg1.1vpn.sbs
     path: /kuurtreeh
-- alterId: 0
-  cipher: auto
-  name: 加拿大 239
-  network: ws
-  port: 443
-  server: 104.16.60.8
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
-  ws-opts:
-    headers:
-      Host: us2e-20240116.v2freevpn.com
-    path: /us2ekjds3nay
 - alterId: 0
   cipher: auto
   name: 加拿大 251
@@ -1292,6 +1249,201 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 加拿大 040
+  network: ws
+  port: 2095
+  server: 104.19.45.84
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 041
+  network: ws
+  port: 80
+  server: www.speedtest.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  ws-opts:
+    headers:
+      Host: telegram----cassiusvpn----2.ranob36907.workers.dev
+    path: /az05.beyondy.cfd:443/link
+- alterId: 0
+  cipher: auto
+  name: 加拿大 042
+  network: ws
+  port: 2095
+  server: 104.19.45.178
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 043
+  network: ws
+  port: 2095
+  server: 104.19.45.48
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 003
+  network: ws
+  port: 2095
+  server: AZARBAYJAB1.Ca.8.PAGES.DEV
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: sany0116.donovan-a79.workers.dev
+    path: /max.mankadmu.com/linkvws
+- alterId: 0
+  cipher: auto
+  name: 加拿大 044
+  network: ws
+  port: 2095
+  server: 104.19.45.36
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 045
+  network: ws
+  port: 8880
+  server: 104.26.4.57
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 06d65689-a12a-467c-9ff8-0363fe90c0b4
+  ws-opts:
+    headers:
+      Host: sssub.v2.001.ssrsub.com
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: 加拿大 046
+  network: ws
+  port: 8080
+  server: 104.19.44.151
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3fdf9d48-578a-42dc-9fdd-0dfcefa3d0c5
+  ws-opts:
+    headers:
+      Host: amd2.720208.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 加拿大 048
+  network: ws
+  port: 2095
+  server: 104.19.45.150
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 051
+  network: ws
+  port: 2095
+  server: 104.19.45.194
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 004
+  network: ws
+  port: 2095
+  server: 172.66.44.170
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: sany0116.donovan-a79.workers.dev
+    path: /max.mankadmu.com/linkvws
+- alterId: 0
+  cipher: auto
+  name: 加拿大 053
+  network: ws
+  port: 2095
+  server: 104.19.45.146
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 922
+  name: 加拿大 068
+  network: ws
+  port: 2086
+  server: 104.19.47.88
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip14.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
   name: 🇺🇸_US_美国->🇨🇦_CA_加拿大
   network: ws
   port: 2086
@@ -1504,13 +1656,11 @@ proxy-groups:
   - 加拿大 136
   - 加拿大 012
   - 加拿大 057
-  - 加拿大 146
   - 加拿大 164
   - 加拿大 008
   - 加拿大 059
   - 加拿大 086
   - 加拿大 149
-  - 加拿大 176
   - 加拿大 009
   - 瑞典 001
   - 加拿大 016
@@ -1525,7 +1675,6 @@ proxy-groups:
   - 加拿大 205
   - 加拿大 186
   - 加拿大 219
-  - 加拿大 239
   - 加拿大 251
   - 加拿大 056
   - 加拿大 061
@@ -1565,6 +1714,19 @@ proxy-groups:
   - 加拿大 036
   - 加拿大 037
   - 加拿大 038
+  - 加拿大 040
+  - 加拿大 041
+  - 加拿大 042
+  - 加拿大 043
+  - 美国 003
+  - 加拿大 044
+  - 加拿大 045
+  - 加拿大 046
+  - 加拿大 048
+  - 加拿大 051
+  - 美国 004
+  - 加拿大 053
+  - 加拿大 068
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大
   - 🇺🇸_US_美国->🇫🇷_FR_法国
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
@@ -1608,13 +1770,11 @@ proxy-groups:
   - 加拿大 136
   - 加拿大 012
   - 加拿大 057
-  - 加拿大 146
   - 加拿大 164
   - 加拿大 008
   - 加拿大 059
   - 加拿大 086
   - 加拿大 149
-  - 加拿大 176
   - 加拿大 009
   - 瑞典 001
   - 加拿大 016
@@ -1629,7 +1789,6 @@ proxy-groups:
   - 加拿大 205
   - 加拿大 186
   - 加拿大 219
-  - 加拿大 239
   - 加拿大 251
   - 加拿大 056
   - 加拿大 061
@@ -1669,6 +1828,19 @@ proxy-groups:
   - 加拿大 036
   - 加拿大 037
   - 加拿大 038
+  - 加拿大 040
+  - 加拿大 041
+  - 加拿大 042
+  - 加拿大 043
+  - 美国 003
+  - 加拿大 044
+  - 加拿大 045
+  - 加拿大 046
+  - 加拿大 048
+  - 加拿大 051
+  - 美国 004
+  - 加拿大 053
+  - 加拿大 068
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大
   - 🇺🇸_US_美国->🇫🇷_FR_法国
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
