@@ -593,21 +593,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大 198
-  network: ws
-  port: 8080
-  server: 104.16.67.38
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    headers:
-      Host: square-snowflake-486a.beshir-beisel.workers.dev
-    path: /linde06.indiavideo.sbs/linkws
-- alterId: 0
-  cipher: auto
   name: 加拿大 204
   network: ws
   port: 2082
@@ -723,20 +708,6 @@ proxies:
     headers:
       Host: ip5-4.freegradely.xyz
     path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 加拿大 267
-  network: ws
-  port: 2052
-  server: jx.jixingnetwork.sbs
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1cf6e611-8881-4efc-a6c5-83f108d8cdd6
-  ws-opts:
-    headers:
-      Host: rb03.jixingnetwork.sbs
-    path: /
 - alterId: 0
   cipher: auto
   delay: 1527
@@ -1485,6 +1456,50 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
+  name: 加拿大 092
+  network: ws
+  port: 80
+  server: 104.16.164.228
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e6d76927-edd1-442b-92a4-fa031f522c42
+  ws-opts:
+    headers:
+      Host: sssub.v2.001.ssrsub.com
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: 加拿大 102
+  network: ws
+  port: 2052
+  server: jx.jixingnetwork.sbs
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9da6e337-b67f-4255-b4eb-b110b1d06c3f
+  ws-opts:
+    headers:
+      Host: rb03.jixingnetwork.sbs
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 103
+  network: ws
+  port: 8080
+  server: 104.16.67.38
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  ws-opts:
+    headers:
+      Host: square-snowflake-486a.beshir-beisel.workers.dev
+    path: /
+- alterId: 0
+  cipher: auto
   name: 🇺🇸_US_美国->🇨🇦_CA_加拿大
   network: ws
   port: 2086
@@ -1817,7 +1832,6 @@ proxy-groups:
   - 加拿大 190
   - 加拿大 047
   - 加拿大 085
-  - 加拿大 198
   - 加拿大 204
   - 加拿大 205
   - 加拿大 186
@@ -1826,7 +1840,6 @@ proxy-groups:
   - 加拿大 056
   - 加拿大 061
   - 加拿大 261
-  - 加拿大 267
   - 加拿大 272
   - 瑞典 007
   - 加拿大 279
@@ -1877,6 +1890,9 @@ proxy-groups:
   - 美国 019
   - 加拿大 089
   - 加拿大 090
+  - 加拿大 092
+  - 加拿大 102
+  - 加拿大 103
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
@@ -1942,7 +1958,6 @@ proxy-groups:
   - 加拿大 190
   - 加拿大 047
   - 加拿大 085
-  - 加拿大 198
   - 加拿大 204
   - 加拿大 205
   - 加拿大 186
@@ -1951,7 +1966,6 @@ proxy-groups:
   - 加拿大 056
   - 加拿大 061
   - 加拿大 261
-  - 加拿大 267
   - 加拿大 272
   - 瑞典 007
   - 加拿大 279
@@ -2002,6 +2016,9 @@ proxy-groups:
   - 美国 019
   - 加拿大 089
   - 加拿大 090
+  - 加拿大 092
+  - 加拿大 102
+  - 加拿大 103
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
