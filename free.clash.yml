@@ -608,34 +608,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大 205
-  network: ws
-  port: 2086
-  server: 104.16.67.38
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
-  ws-opts:
-    headers:
-      Host: worker-damp-duadwans.jevesoj131.workers.dev
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 186
-  network: ws
-  port: 80
-  server: jp2.1vpn.sbs
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f9c51a61-3196-4cf7-a8a0-5e5af3366314
-  ws-opts:
-    headers:
-      Host: jp2.1vpn.sbs
-    path: /rgherjwaqw
-- alterId: 0
-  cipher: auto
   name: 加拿大 219
   network: ws
   port: 80
@@ -708,21 +680,6 @@ proxies:
     headers:
       Host: ip5-4.freegradely.xyz
     path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  delay: 1527
-  name: 加拿大 272
-  network: ws
-  port: 80
-  server: 104.17.148.22
-  servername: telegram----cassiusvpn----10.lexel47149.workers.dev
-  skip-cert-verify: true
-  type: vmess
-  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
-  ws-opts:
-    headers:
-      Host: telegram----cassiusvpn----10.lexel47149.workers.dev
-    path: /az05.beyondy.cfd:443/link
 - alterId: 0
   cipher: auto
   name: 瑞典 007
@@ -1528,6 +1485,48 @@ proxies:
     path: /stream
 - alterId: 0
   cipher: auto
+  name: 加拿大 122
+  network: ws
+  port: 80
+  server: russia.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: e6d76927-edd1-442b-92a4-fa031f522c42
+  ws-opts:
+    headers:
+      Host: sssub.v2.001.ssrsub.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 131
+  network: ws
+  port: 80
+  server: jp2.1vpn.sbs
+  tls: false
+  type: vmess
+  udp: true
+  uuid: fc320d75-ddf4-4cca-9611-a959a1e7da04
+  ws-opts:
+    headers:
+      Host: jp2.1vpn.sbs
+    path: /kiuluuiuqqs
+- alterId: 0
+  cipher: auto
+  name: 加拿大 143
+  network: ws
+  port: 2086
+  server: 104.16.67.38
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
+  ws-opts:
+    headers:
+      Host: worker-damp-duadwans.jevesoj131.workers.dev
+    path: /
+- alterId: 0
+  cipher: auto
   name: 🇺🇸_US_美国->🇨🇦_CA_加拿大
   network: ws
   port: 2086
@@ -1845,14 +1844,11 @@ proxy-groups:
   - 加拿大 047
   - 加拿大 085
   - 加拿大 204
-  - 加拿大 205
-  - 加拿大 186
   - 加拿大 219
   - 加拿大 251
   - 加拿大 056
   - 加拿大 061
   - 加拿大 261
-  - 加拿大 272
   - 瑞典 007
   - 加拿大 279
   - 加拿大 280
@@ -1907,6 +1903,9 @@ proxy-groups:
   - 加拿大 103
   - 加拿大 105
   - 美国 020
+  - 加拿大 122
+  - 加拿大 131
+  - 加拿大 143
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
@@ -1972,14 +1971,11 @@ proxy-groups:
   - 加拿大 047
   - 加拿大 085
   - 加拿大 204
-  - 加拿大 205
-  - 加拿大 186
   - 加拿大 219
   - 加拿大 251
   - 加拿大 056
   - 加拿大 061
   - 加拿大 261
-  - 加拿大 272
   - 瑞典 007
   - 加拿大 279
   - 加拿大 280
@@ -2034,6 +2030,9 @@ proxy-groups:
   - 加拿大 103
   - 加拿大 105
   - 美国 020
+  - 加拿大 122
+  - 加拿大 131
+  - 加拿大 143
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
