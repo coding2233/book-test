@@ -142,20 +142,6 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 加拿大 013
-  network: ws
-  port: 2082
-  server: 104.16.61.8
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
-  ws-opts:
-    headers:
-      Host: worker-lingering-fog-c021.gesofog870.workers.dev
-    path: /
-- alterId: 0
-  cipher: auto
   name: 加拿大 014
   network: ws
   port: 8080
@@ -452,21 +438,6 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  delay: 1737
-  name: 瑞典 001
-  network: ws
-  port: 80
-  server: 185.146.173.59
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
-  ws-opts:
-    headers:
-      Host: freevpn878.hamidimorteza680.workers.dev
-    path: /glweidf.cfd/linkws
-- alterId: 0
-  cipher: auto
   name: 加拿大 016
   network: ws
   port: 2095
@@ -607,21 +578,6 @@ proxies:
     headers:
       Host: ip1.1789034.xyz
     path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 056
-  network: ws
-  port: 8080
-  server: 104.16.68.38
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    headers:
-      Host: square-snowflake-486a.beshir-beisel.workers.dev
-    path: /linde06.indiavideo.sbs/linkws
 - alterId: 0
   cipher: auto
   name: 加拿大 061
@@ -1809,6 +1765,90 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 加拿大 056
+  network: ws
+  port: 443
+  server: ParsVds.ir
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 62aa5f80-0328-4004-a375-7f5a59df4022
+  ws-opts:
+    headers:
+      Host: hms19.best-tizi.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 156
+  network: ws
+  port: 443
+  server: 162.159.8.120
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 62aa5f80-0328-4004-a375-7f5a59df4022
+  ws-opts:
+    headers:
+      Host: hms19.best-tizi.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 160
+  network: ws
+  port: 443
+  server: 172.67.219.194
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: b321fd5d-e6ec-4293-a644-164e3885f52e
+  ws-opts:
+    headers:
+      Host: adenc36v.xtooltech.cfd
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 161
+  network: ws
+  port: 443
+  server: 104.21.28.62
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
+  ws-opts:
+    headers:
+      Host: glweidf.cfd
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 162
+  network: ws
+  port: 443
+  server: parsvds.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: telegram----cassiusvpn----11.timive8509.workers.dev
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 013
+  network: ws
+  port: 443
+  server: 172.67.156.210
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
+  ws-opts:
+    headers:
+      Host: glweidf.sbs
+    path: /
+- alterId: 0
+  cipher: auto
   name: 🇺🇸_US_美国->🇨🇦_CA_加拿大
   network: ws
   port: 2086
@@ -2003,7 +2043,6 @@ proxy-groups:
   - 加拿大 076
   - 美国 021
   - 加拿大 003
-  - 加拿大 013
   - 加拿大 014
   - 美国 010
   - 加拿大 015
@@ -2025,7 +2064,6 @@ proxy-groups:
   - 加拿大 086
   - 加拿大 149
   - 加拿大 009
-  - 瑞典 001
   - 加拿大 016
   - 加拿大 032
   - 加拿大 033
@@ -2036,7 +2074,6 @@ proxy-groups:
   - 加拿大 204
   - 加拿大 219
   - 加拿大 251
-  - 加拿大 056
   - 加拿大 061
   - 加拿大 279
   - 加拿大 280
@@ -2118,6 +2155,12 @@ proxy-groups:
   - 英国 007
   - 加拿大 159
   - 加拿大 155
+  - 加拿大 056
+  - 加拿大 156
+  - 加拿大 160
+  - 加拿大 161
+  - 加拿大 162
+  - 加拿大 013
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
@@ -2143,7 +2186,6 @@ proxy-groups:
   - 加拿大 076
   - 美国 021
   - 加拿大 003
-  - 加拿大 013
   - 加拿大 014
   - 美国 010
   - 加拿大 015
@@ -2165,7 +2207,6 @@ proxy-groups:
   - 加拿大 086
   - 加拿大 149
   - 加拿大 009
-  - 瑞典 001
   - 加拿大 016
   - 加拿大 032
   - 加拿大 033
@@ -2176,7 +2217,6 @@ proxy-groups:
   - 加拿大 204
   - 加拿大 219
   - 加拿大 251
-  - 加拿大 056
   - 加拿大 061
   - 加拿大 279
   - 加拿大 280
@@ -2258,6 +2298,12 @@ proxy-groups:
   - 英国 007
   - 加拿大 159
   - 加拿大 155
+  - 加拿大 056
+  - 加拿大 156
+  - 加拿大 160
+  - 加拿大 161
+  - 加拿大 162
+  - 加拿大 013
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
