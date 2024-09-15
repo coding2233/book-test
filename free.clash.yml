@@ -870,6 +870,46 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 加拿大 009
+  network: ws
+  port: 2086
+  server: japan.com
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip1.1789034.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 加拿大 014
+  network: ws
+  port: 2086
+  server: fbi.gov
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip1.1789034.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 瑞典 001
+  network: ws
+  port: 80
+  server: 185.146.173.59
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
+  ws-opts:
+    headers:
+      Host: freevpn878.hamidimorteza680.workers.dev
+    path: /
+- alterId: 0
+  cipher: auto
   name: 🇺🇸_US_美国
   network: ws
   port: 2086
@@ -1283,6 +1323,9 @@ proxy-groups:
   - 韩国 003
   - 加拿大 019
   - 加拿大 008
+  - 加拿大 009
+  - 加拿大 014
+  - 瑞典 001
   - 🇺🇸_US_美国
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
@@ -1371,6 +1414,9 @@ proxy-groups:
   - 韩国 003
   - 加拿大 019
   - 加拿大 008
+  - 加拿大 009
+  - 加拿大 014
+  - 瑞典 001
   - 🇺🇸_US_美国
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
