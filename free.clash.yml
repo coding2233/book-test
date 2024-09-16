@@ -924,6 +924,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 加拿大 020
+  network: ws
+  port: 80
+  server: 172.67.64.120
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d646fd8c-3405-40c4-8df8-fb85d6bf8b24
+  ws-opts:
+    headers:
+      Host: 58892877706648357761980405045364.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
+    path: /
+- alterId: 0
+  cipher: auto
   name: 🇺🇸_US_美国->🇨🇦_CA_加拿大
   network: ws
   port: 2086
@@ -1335,6 +1349,7 @@ proxy-groups:
   - 加拿大 014
   - 瑞典 001
   - 德国 004
+  - 加拿大 020
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
@@ -1427,6 +1442,7 @@ proxy-groups:
   - 加拿大 014
   - 瑞典 001
   - 德国 004
+  - 加拿大 020
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
