@@ -925,6 +925,33 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 加拿大 003
+  network: ws
+  port: 2086
+  server: russia.com
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip1.1789034.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 加拿大 022
+  network: ws
+  port: 443
+  server: lanlan.lancdn.vip
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 40bb08db-d656-4b26-a8c0-3abc2731be6c
+  ws-opts:
+    headers:
+      Host: lanlan.lancdn.vip
+    path: /
+- alterId: 0
+  cipher: auto
   name: 🇺🇸_US_美国->🇨🇦_CA_加拿大
   network: ws
   port: 2086
@@ -1286,6 +1313,8 @@ proxy-groups:
   - 瑞典 001
   - 德国 004
   - 加拿大 020
+  - 加拿大 003
+  - 加拿大 022
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
@@ -1374,6 +1403,8 @@ proxy-groups:
   - 瑞典 001
   - 德国 004
   - 加拿大 020
+  - 加拿大 003
+  - 加拿大 022
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
