@@ -104,21 +104,6 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 加拿大 076
-  network: ws
-  port: 2095
-  server: 172.67.170.103
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
-  ws-opts:
-    headers:
-      Host: yaghoob55freenodes.repaco69437403.workers.dev
-    path: /glweidf.sbs/linkws
-- alterId: 0
-  cipher: auto
   delay: 576
   name: 美国 021
   network: tcp
@@ -226,21 +211,6 @@ proxies:
     headers:
       Host: ip13.freegradely.xyz
     path: /
-- alterId: 0
-  cipher: auto
-  delay: 1375
-  name: 加拿大 108
-  network: ws
-  port: 2086
-  server: www.visa.com
-  servername: ip1.1789034.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip1.1789034.xyz
-    path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: 加拿大 136
@@ -952,20 +922,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大 023
-  network: ws
-  port: 443
-  server: yguo.lancdn.vip
-  tls: true
-  type: vmess
-  udp: true
-  uuid: e51af556-8a48-4fa8-9559-9b5c51216a4b
-  ws-opts:
-    headers:
-      Host: yguo.lancdn.vip
-    path: /
-- alterId: 0
-  cipher: auto
   name: 加拿大 024
   network: ws
   port: 443
@@ -1005,19 +961,6 @@ proxies:
     headers:
       Host: ip14.freegradely.xyz
     path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 加拿大 031
-  network: ws
-  port: 2052
-  server: 104.16.4.239
-  tls: false
-  type: vmess
-  uuid: a7fa0544-86ec-4cf6-b216-fc0ee4422b8b
-  ws-opts:
-    headers:
-      Host: us3AJ8biuQx.fzbqfrse.xyz
-    path: /video/QXjZG5u4F2
 - alterId: 0
   cipher: auto
   name: 加拿大 035
@@ -1202,19 +1145,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大 049
-  network: ws
-  port: 2086
-  server: 104.18.14.19
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip1.1789034.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
   name: 美国 004
   network: ws
   port: 2086
@@ -1277,6 +1207,51 @@ proxies:
   ws-opts:
     headers:
       Host: s1c.v2.v001sss.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 023
+  network: ws
+  port: 2086
+  server: 104.26.12.140
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip1.1789034.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 加拿大 068
+  network: ws
+  port: 2095
+  server: www.speedtest.net
+  servername: 22d.irvn.debian.🤣6.6.1b🫡71.8.fxp.debian.org.speedtshest.net.列列男事的事列上赛男.boland-sho-tokhm-sag.cyou.
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4ce2e2e-98a9-4cfd-b89e-8d322837edcb
+  ws-opts:
+    headers:
+      Host: www.speedtest.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 069
+  network: ws
+  port: 2052
+  server: hkjpkrsg.diao.icu
+  servername: kr.niaoba.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a3181954-3c97-45a3-be23-b37f08460cb6
+  ws-opts:
+    headers:
+      Host: hkjpkrsg.diao.icu
     path: /
 - alterId: 0
   cipher: auto
@@ -1604,7 +1579,6 @@ proxy-groups:
   - 加拿大 058
   - 加拿大 091
   - 加拿大 133
-  - 加拿大 076
   - 美国 021
   - 美国 010
   - 加拿大 015
@@ -1613,7 +1587,6 @@ proxy-groups:
   - 加拿大 028
   - 加拿大 050
   - 加拿大 099
-  - 加拿大 108
   - 加拿大 136
   - 加拿大 012
   - 加拿大 057
@@ -1664,11 +1637,9 @@ proxy-groups:
   - 加拿大 020
   - 加拿大 003
   - 加拿大 022
-  - 加拿大 023
   - 加拿大 024
   - 加拿大 027
   - 加拿大 030
-  - 加拿大 031
   - 加拿大 035
   - 美国 002
   - 加拿大 037
@@ -1683,12 +1654,14 @@ proxy-groups:
   - 美国 003
   - 加拿大 047
   - 加拿大 048
-  - 加拿大 049
   - 美国 004
   - 加拿大 051
   - 加拿大 053
   - 美国 005
   - 加拿大 055
+  - 加拿大 023
+  - 加拿大 068
+  - 加拿大 069
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大
   - 🇺🇸_US_美国
   - 🇺🇸_US_美国->🇬🇧_GB_英国
@@ -1721,7 +1694,6 @@ proxy-groups:
   - 加拿大 058
   - 加拿大 091
   - 加拿大 133
-  - 加拿大 076
   - 美国 021
   - 美国 010
   - 加拿大 015
@@ -1730,7 +1702,6 @@ proxy-groups:
   - 加拿大 028
   - 加拿大 050
   - 加拿大 099
-  - 加拿大 108
   - 加拿大 136
   - 加拿大 012
   - 加拿大 057
@@ -1781,11 +1752,9 @@ proxy-groups:
   - 加拿大 020
   - 加拿大 003
   - 加拿大 022
-  - 加拿大 023
   - 加拿大 024
   - 加拿大 027
   - 加拿大 030
-  - 加拿大 031
   - 加拿大 035
   - 美国 002
   - 加拿大 037
@@ -1800,12 +1769,14 @@ proxy-groups:
   - 美国 003
   - 加拿大 047
   - 加拿大 048
-  - 加拿大 049
   - 美国 004
   - 加拿大 051
   - 加拿大 053
   - 美国 005
   - 加拿大 055
+  - 加拿大 023
+  - 加拿大 068
+  - 加拿大 069
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大
   - 🇺🇸_US_美国
   - 🇺🇸_US_美国->🇬🇧_GB_英国
