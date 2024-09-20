@@ -44,21 +44,6 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  delay: 1045
-  name: 加拿大 071
-  network: ws
-  port: 2095
-  server: 104.17.148.22
-  servername: www.speedtest.net.kkkkklllkokowkfwofkfkfekojg.ir.mralpha-vpn.COm
-  skip-cert-verify: true
-  type: vmess
-  uuid: 3bc2168a-93f0-42f8-9a66-d8215bf01ab0
-  ws-opts:
-    headers:
-      Host: www.speedtest.net.kkkkklllkokowkfwofkfkfekojg.ir.mralpha-vpn.COm
-    path: /Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray?ed=2048
-- alterId: 0
-  cipher: auto
   delay: 999
   name: 加拿大 058
   network: ws
@@ -226,21 +211,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大 164
-  network: ws
-  port: 2086
-  server: 23.227.38.8
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip5-10.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
   name: 加拿大 149
   network: ws
   port: 2086
@@ -297,19 +267,6 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 加拿大 190
-  network: ws
-  port: 2086
-  server: 104.16.148.244
-  tls: false
-  type: vmess
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-  ws-opts:
-    headers:
-      Host: ip006.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
   name: 加拿大 085
   network: ws
   port: 8880
@@ -351,21 +308,6 @@ proxies:
     headers:
       Host: sg1.1vpn.sbs
     path: /kuurtreeh
-- alterId: 0
-  cipher: auto
-  name: 加拿大 279
-  network: ws
-  port: 2086
-  server: 104.19.42.49
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip11.freegradely.xyz
-    path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: 加拿大 282
@@ -718,38 +660,6 @@ proxies:
     headers:
       Host: www.speedtest.net
     path: /
-- alterId: 0
-  cipher: auto
-  name: 俄罗斯 004
-  network: ws
-  port: 54321
-  server: eedp257bubu2wefy1.lovebaipiao.net
-  servername: www.apple.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a445bbbb-2737-4a3b-b9ea-225f5acd0963
-  ws-opts:
-    headers:
-      Host: eedp257bubu2wefy1.lovebaipiao.net
-    path: /iphone
-- alterId: 0
-  cipher: auto
-  name: 加拿大 006
-  network: ws
-  port: 8880
-  server: russia.com
-  servername: sssub.v2.001.ssrsub.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 06d65689-a12a-467c-9ff8-0363fe90c0b4
-  ws-opts:
-    headers:
-      Host: russia.com
-    path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国
@@ -1119,7 +1029,6 @@ proxy-groups:
   - 🎯 全球直连
   - 🚒 vps6.laiting.xyz
   - 加拿大 140
-  - 加拿大 071
   - 加拿大 058
   - 加拿大 091
   - 加拿大 133
@@ -1132,16 +1041,13 @@ proxy-groups:
   - 加拿大 099
   - 加拿大 136
   - 加拿大 012
-  - 加拿大 164
   - 加拿大 149
   - 加拿大 016
   - 加拿大 032
   - 加拿大 033
-  - 加拿大 190
   - 加拿大 085
   - 加拿大 204
   - 加拿大 219
-  - 加拿大 279
   - 加拿大 282
   - 加拿大 034
   - 加拿大 064
@@ -1167,8 +1073,6 @@ proxy-groups:
   - 加拿大 039
   - 加拿大 043
   - 加拿大 068
-  - 俄罗斯 004
-  - 加拿大 006
   - 🇺🇸_US_美国
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
@@ -1200,7 +1104,6 @@ proxy-groups:
   name: ♻️ 自动选择
   proxies:
   - 加拿大 140
-  - 加拿大 071
   - 加拿大 058
   - 加拿大 091
   - 加拿大 133
@@ -1213,16 +1116,13 @@ proxy-groups:
   - 加拿大 099
   - 加拿大 136
   - 加拿大 012
-  - 加拿大 164
   - 加拿大 149
   - 加拿大 016
   - 加拿大 032
   - 加拿大 033
-  - 加拿大 190
   - 加拿大 085
   - 加拿大 204
   - 加拿大 219
-  - 加拿大 279
   - 加拿大 282
   - 加拿大 034
   - 加拿大 064
@@ -1248,8 +1148,6 @@ proxy-groups:
   - 加拿大 039
   - 加拿大 043
   - 加拿大 068
-  - 俄罗斯 004
-  - 加拿大 006
   - 🇺🇸_US_美国
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
