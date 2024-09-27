@@ -265,20 +265,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大 219
-  network: ws
-  port: 80
-  server: sg1.1vpn.sbs
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbcbdfd9-c33f-4690-8e69-0ff9908c9bb7
-  ws-opts:
-    headers:
-      Host: sg1.1vpn.sbs
-    path: /kuurtreeh
-- alterId: 0
-  cipher: auto
   name: 加拿大 282
   network: ws
   port: 8880
@@ -1050,7 +1036,6 @@ proxy-groups:
   - 加拿大 032
   - 加拿大 085
   - 加拿大 204
-  - 加拿大 219
   - 加拿大 282
   - 加拿大 034
   - 加拿大 064
@@ -1126,7 +1111,6 @@ proxy-groups:
   - 加拿大 032
   - 加拿大 085
   - 加拿大 204
-  - 加拿大 219
   - 加拿大 282
   - 加拿大 034
   - 加拿大 064
