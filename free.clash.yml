@@ -424,20 +424,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大 001
-  network: ws
-  port: 2082
-  server: cf.hy2.one
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0cb97333-4ac6-41c1-936e-67747f10af33
-  ws-opts:
-    headers:
-      Host: sg01.hy-2.top
-    path: /
-- alterId: 0
-  cipher: auto
   name: 加拿大 002
   network: ws
   port: 2082
@@ -873,7 +859,6 @@ proxy-groups:
   - 加拿大 143
   - 加拿大 146
   - 加拿大 151
-  - 加拿大 001
   - 加拿大 002
   - 加拿大 004
   - 加拿大 017
@@ -936,7 +921,6 @@ proxy-groups:
   - 加拿大 143
   - 加拿大 146
   - 加拿大 151
-  - 加拿大 001
   - 加拿大 002
   - 加拿大 004
   - 加拿大 017
