@@ -240,21 +240,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大 204
-  network: ws
-  port: 2082
-  server: 104.16.68.38
-  servername: 38hhuiet-glitter-ee01.lijeyet360.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
-  ws-opts:
-    headers:
-      Host: 38hhuiet-glitter-ee01.lijeyet360.workers.dev
-    path: /
-- alterId: 0
-  cipher: auto
   name: 加拿大 282
   network: ws
   port: 8880
@@ -1034,7 +1019,6 @@ proxy-groups:
   - 加拿大 016
   - 加拿大 032
   - 加拿大 085
-  - 加拿大 204
   - 加拿大 282
   - 加拿大 034
   - 加拿大 064
@@ -1109,7 +1093,6 @@ proxy-groups:
   - 加拿大 016
   - 加拿大 032
   - 加拿大 085
-  - 加拿大 204
   - 加拿大 282
   - 加拿大 034
   - 加拿大 064
