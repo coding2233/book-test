@@ -399,20 +399,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大 002
-  network: ws
-  port: 2082
-  server: 104.16.61.8
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: y-old-mode-9c0diab.wiriy73548.workers.dev
-    path: /
-- alterId: 0
-  cipher: auto
   name: 加拿大 004
   network: ws
   port: 8080
@@ -503,22 +489,6 @@ proxies:
   ws-opts:
     headers:
       Host: onea.flha.ru
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 068
-  network: ws
-  port: 2095
-  server: www.speedtest.net
-  servername: 22d.irvn.debian.🤣6.6.1b🫡71.8.fxp.debian.org.speedtshest.net.列列男事的事列上赛男.boland-sho-tokhm-sag.cyou.
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e4ce2e2e-98a9-4cfd-b89e-8d322837edcb
-  ws-opts:
-    headers:
-      Host: www.speedtest.net
     path: /
 - alterId: 0
   cipher: auto
@@ -752,6 +722,73 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
+  mux:
+    concurrency: 8
+    enable: true
+  name: 加拿大 002
+  network: ws
+  port: 8080
+  server: bycf1.netcar.live
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e2c91ac8-1805-43d8-aede-80af4957aa6f
+  ws-opts:
+    headers:
+      Host: hk1.netcar.live
+    path: /proxy
+- alterId: 0
+  cipher: auto
+  mux:
+    concurrency: 8
+    enable: true
+  name: 加拿大 038
+  network: ws
+  port: 8080
+  server: bycf2.netcar.live
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7c3f777e-42cb-448b-bc7f-7928ed6ec304
+  ws-opts:
+    headers:
+      Host: hk1.netcar.live
+    path: /proxy
+- alterId: 0
+  cipher: auto
+  mux:
+    concurrency: 8
+    enable: true
+  name: 加拿大 070
+  network: ws
+  port: 8080
+  server: bycf4.netcar.live
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 8ecbd879-6ef0-431a-a3c4-3ad0b9f9e159
+  ws-opts:
+    headers:
+      Host: singapore2.netcar.live
+    path: /proxy
+- alterId: 0
+  cipher: auto
+  name: 加拿大 084
+  network: ws
+  port: 80
+  server: 104.26.15.148
+  skip-cert-verify: true
+  type: vmess
+  uuid: f1fb28e5-e5b6-450c-972c-13235c94285c
+  ws-opts:
+    headers:
+      Host: 50907082685942059876387799824779.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
+    path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
+- alterId: 0
+  cipher: auto
   fingerprint: ''
   name: 🇺🇸_US_美国
   network: ws
@@ -822,7 +859,6 @@ proxy-groups:
   - 加拿大 143
   - 加拿大 146
   - 加拿大 151
-  - 加拿大 002
   - 加拿大 004
   - 加拿大 017
   - 加拿大 008
@@ -830,7 +866,6 @@ proxy-groups:
   - 加拿大 003
   - 加拿大 039
   - 加拿大 043
-  - 加拿大 068
   - 德国 004
   - 加拿大 037
   - 美国 015
@@ -848,6 +883,10 @@ proxy-groups:
   - 美国 026
   - 加拿大 009
   - 美国 004
+  - 加拿大 002
+  - 加拿大 038
+  - 加拿大 070
+  - 加拿大 084
   - 🇺🇸_US_美国
   - 🇺🇸_US_美国_9
   - 🇺🇸_US_美国->🇹🇷_TR_土耳其
@@ -881,7 +920,6 @@ proxy-groups:
   - 加拿大 143
   - 加拿大 146
   - 加拿大 151
-  - 加拿大 002
   - 加拿大 004
   - 加拿大 017
   - 加拿大 008
@@ -889,7 +927,6 @@ proxy-groups:
   - 加拿大 003
   - 加拿大 039
   - 加拿大 043
-  - 加拿大 068
   - 德国 004
   - 加拿大 037
   - 美国 015
@@ -907,6 +944,10 @@ proxy-groups:
   - 美国 026
   - 加拿大 009
   - 美国 004
+  - 加拿大 002
+  - 加拿大 038
+  - 加拿大 070
+  - 加拿大 084
   - 🇺🇸_US_美国
   - 🇺🇸_US_美国_9
   - 🇺🇸_US_美国->🇹🇷_TR_土耳其
