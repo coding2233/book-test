@@ -787,46 +787,6 @@ proxies:
     headers:
       Host: 50907082685942059876387799824779.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
-- alterId: 0
-  cipher: auto
-  fingerprint: ''
-  name: 🇺🇸_US_美国
-  network: ws
-  port: 2086
-  server: 172.67.196.170
-  sni: ''
-  type: vmess
-  uuid: 5e7429a4-b006-4a16-b1a3-1af2fbcddbc0
-  ws-opts:
-    headers:
-      host: speedtestnetcomexpresstvsoft98irernanewsggffnetemailcloudflare.expresstv.ggff.net
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_9
-  network: ws
-  port: 80
-  server: 162.159.129.138
-  type: vmess
-  uuid: 5820093a-bb7d-4e15-8575-1a529f2d8282
-  ws-opts:
-    headers:
-      host: rn2.hostmjj.com
-    path: /
-- alterId: 0
-  cipher: auto
-  fingerprint: ''
-  name: 🇺🇸_US_美国->🇹🇷_TR_土耳其
-  network: ws
-  port: 2086
-  server: speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.expresstv.ggff.net
-  sni: ''
-  type: vmess
-  uuid: 5e7429a4-b006-4a16-b1a3-1af2fbcddbc0
-  ws-opts:
-    headers:
-      host: speedtestnetcomexpresstvsoft98irernanewsggffnetemailcloudflare.expresstv.ggff.net
-    path: /?ed=2048
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
@@ -887,9 +847,6 @@ proxy-groups:
   - 加拿大 038
   - 加拿大 070
   - 加拿大 084
-  - 🇺🇸_US_美国
-  - 🇺🇸_US_美国_9
-  - 🇺🇸_US_美国->🇹🇷_TR_土耳其
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -948,9 +905,6 @@ proxy-groups:
   - 加拿大 038
   - 加拿大 070
   - 加拿大 084
-  - 🇺🇸_US_美国
-  - 🇺🇸_US_美国_9
-  - 🇺🇸_US_美国->🇹🇷_TR_土耳其
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
