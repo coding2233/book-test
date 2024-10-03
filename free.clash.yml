@@ -270,21 +270,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大 064
-  network: ws
-  port: 2095
-  server: 104.19.45.9
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: onea.flha.ru
-    path: /
-- alterId: 0
-  cipher: auto
   name: 加拿大 074
   network: ws
   port: 2095
@@ -326,20 +311,6 @@ proxies:
   ws-opts:
     headers:
       Host: onea.flha.ru
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 102
-  network: ws
-  port: 2052
-  server: jx.jixingnetwork.sbs
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 9da6e337-b67f-4255-b4eb-b110b1d06c3f
-  ws-opts:
-    headers:
-      Host: rb03.jixingnetwork.sbs
     path: /
 - alterId: 0
   cipher: auto
@@ -618,7 +589,7 @@ proxies:
   uuid: ebace182-ad9a-4044-92fd-ad48adf52779
 - alterId: 0
   cipher: auto
-  name: 加拿大 001
+  name: 加拿大 006
   network: ws
   port: 80
   server: cf.877771.xyz
@@ -711,7 +682,7 @@ proxies:
   mux:
     concurrency: 8
     enable: true
-  name: 加拿大 002
+  name: 加拿大 008
   network: ws
   port: 8080
   server: bycf1.netcar.live
@@ -775,7 +746,7 @@ proxies:
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
-  name: 加拿大 006
+  name: 加拿大 041
   network: ws
   port: 2086
   server: ip.sb
@@ -790,7 +761,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 加拿大 008
+  name: 加拿大 044
   network: ws
   port: 2095
   server: www.speedtest.net
@@ -827,11 +798,9 @@ proxy-groups:
   - 加拿大 085
   - 加拿大 282
   - 加拿大 034
-  - 加拿大 064
   - 加拿大 074
   - 加拿大 005
   - 加拿大 036
-  - 加拿大 102
   - 加拿大 103
   - 加拿大 143
   - 加拿大 146
@@ -853,18 +822,18 @@ proxy-groups:
   - 加拿大 072
   - 加拿大 073
   - 越南 001
-  - 加拿大 001
+  - 加拿大 006
   - 美国 021
   - 美国 024
   - 美国 026
   - 加拿大 009
   - 美国 004
-  - 加拿大 002
+  - 加拿大 008
   - 加拿大 038
   - 加拿大 070
   - 加拿大 084
-  - 加拿大 006
-  - 加拿大 008
+  - 加拿大 041
+  - 加拿大 044
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -886,11 +855,9 @@ proxy-groups:
   - 加拿大 085
   - 加拿大 282
   - 加拿大 034
-  - 加拿大 064
   - 加拿大 074
   - 加拿大 005
   - 加拿大 036
-  - 加拿大 102
   - 加拿大 103
   - 加拿大 143
   - 加拿大 146
@@ -912,18 +879,18 @@ proxy-groups:
   - 加拿大 072
   - 加拿大 073
   - 越南 001
-  - 加拿大 001
+  - 加拿大 006
   - 美国 021
   - 美国 024
   - 美国 026
   - 加拿大 009
   - 美国 004
-  - 加拿大 002
+  - 加拿大 008
   - 加拿大 038
   - 加拿大 070
   - 加拿大 084
-  - 加拿大 006
-  - 加拿大 008
+  - 加拿大 041
+  - 加拿大 044
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
