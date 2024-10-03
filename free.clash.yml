@@ -426,20 +426,6 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 加拿大 008
-  network: ws
-  port: 8080
-  server: 104.16.61.8
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
-  ws-opts:
-    headers:
-      Host: vmess.taxar71054.workers.dev
-    path: /
-- alterId: 0
-  cipher: auto
   name: 加拿大 014
   network: ws
   port: 2086
@@ -787,6 +773,37 @@ proxies:
     headers:
       Host: 50907082685942059876387799824779.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
+- alterId: 0
+  cipher: auto
+  name: 加拿大 006
+  network: ws
+  port: 2086
+  server: ip.sb
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip1.1789034.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 加拿大 008
+  network: ws
+  port: 2095
+  server: www.speedtest.net
+  servername: 22d.irvn.debian.🤣6.6.1b🫡71.8.fxp.debian.org.speedtshest.net.列列男事的事列上赛男.boland-sho-tokhm-sag.cyou.
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4ce2e2e-98a9-4cfd-b89e-8d322837edcb
+  ws-opts:
+    headers:
+      Host: www.speedtest.net
+    path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
@@ -821,7 +838,6 @@ proxy-groups:
   - 加拿大 151
   - 加拿大 004
   - 加拿大 017
-  - 加拿大 008
   - 加拿大 014
   - 加拿大 003
   - 加拿大 039
@@ -847,6 +863,8 @@ proxy-groups:
   - 加拿大 038
   - 加拿大 070
   - 加拿大 084
+  - 加拿大 006
+  - 加拿大 008
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -879,7 +897,6 @@ proxy-groups:
   - 加拿大 151
   - 加拿大 004
   - 加拿大 017
-  - 加拿大 008
   - 加拿大 014
   - 加拿大 003
   - 加拿大 039
@@ -905,6 +922,8 @@ proxy-groups:
   - 加拿大 038
   - 加拿大 070
   - 加拿大 084
+  - 加拿大 006
+  - 加拿大 008
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
