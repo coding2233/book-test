@@ -144,20 +144,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大 099
-  network: ws
-  port: 2086
-  server: 104.19.45.17
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip13.freegradely.xyz
-    path: /
-- alterId: 0
-  cipher: auto
   name: 加拿大 136
   network: ws
   port: 2086
@@ -1017,7 +1003,6 @@ proxy-groups:
   - 加拿大 026
   - 加拿大 028
   - 加拿大 050
-  - 加拿大 099
   - 加拿大 136
   - 加拿大 012
   - 加拿大 149
@@ -1093,7 +1078,6 @@ proxy-groups:
   - 加拿大 026
   - 加拿大 028
   - 加拿大 050
-  - 加拿大 099
   - 加拿大 136
   - 加拿大 012
   - 加拿大 149
