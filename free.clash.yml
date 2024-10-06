@@ -761,18 +761,6 @@ proxies:
     headers:
       Host: www.speedtest.net
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大
-  network: ws
-  port: 2095
-  server: 104.21.238.101
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      host: ip3.6016725.xyz
-    path: github.com/Alvin9999
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
@@ -831,7 +819,6 @@ proxy-groups:
   - 加拿大 084
   - 加拿大 041
   - 加拿大 044
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -888,7 +875,6 @@ proxy-groups:
   - 加拿大 084
   - 加拿大 041
   - 加拿大 044
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
