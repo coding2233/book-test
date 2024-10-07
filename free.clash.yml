@@ -1801,6 +1801,7 @@ dns:
   ipv6: true
   enable: true
   default-nameserver:
+  - 192.168.99.188:5533
   - 223.5.5.5
   - 8.8.8.8
   - 114.114.114.114
@@ -1808,6 +1809,7 @@ dns:
   fake-ip-range: 198.18.0.1/16
   use-hosts: true
   nameserver:
+  - 192.168.99.188:5533
   - 223.5.5.5
   - 8.8.8.8
   - https://dns.google/dns-query
