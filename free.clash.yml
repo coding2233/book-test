@@ -750,18 +750,6 @@ proxies:
     headers:
       Host: ip14.freegradely.xyz
     path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇹🇷_TR_土耳其
-  network: ws
-  port: 2082
-  server: 104.19.38.11
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      host: ip6.6929198.xyz
-    path: github.com/Alvin9999
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
@@ -819,7 +807,6 @@ proxy-groups:
   - 加拿大 044
   - 美国 014
   - 美国 016
-  - 🇺🇸_US_美国->🇹🇷_TR_土耳其
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -875,7 +862,6 @@ proxy-groups:
   - 加拿大 044
   - 美国 014
   - 美国 016
-  - 🇺🇸_US_美国->🇹🇷_TR_土耳其
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
