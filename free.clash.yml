@@ -750,6 +750,561 @@ proxies:
     headers:
       Host: ip14.freegradely.xyz
     path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点
+  network: ws
+  port: 2082
+  server: 172.64.167.29
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点 3
+  network: ws
+  port: 2082
+  server: 104.19.45.47
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点 5
+  network: ws
+  port: 2082
+  server: 104.19.38.10
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip6.6929198.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点 6
+  network: ws
+  port: 2095
+  server: 172.64.167.5
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
+  ws-opts:
+    headers:
+      Host: ip2.8084726.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 Fastly全球Anycast节点
+  network: ws
+  port: 443
+  server: gov.uk
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+  ws-opts:
+    headers:
+      Host: zheshiscp.com
+    path: /77848824
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点 7
+  network: ws
+  port: 2082
+  server: 104.17.106.151
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点 8
+  network: ws
+  port: 2082
+  server: 162.159.140.45
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: github.com/Alvin9999
+- alterId: 32
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇬🇷 希腊 v2rayfree.eu.org
+  network: ws
+  port: 443
+  server: vc.fly.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee
+  ws-opts:
+    headers:
+      Host: vc.fly.dev
+    path: /vc
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare公司CDN节点(shopify)
+  network: ws
+  port: 2082
+  server: 23.227.38.3
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点 10
+  network: ws
+  port: 2095
+  server: 104.19.42.49
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
+  ws-opts:
+    headers:
+      Host: ip2.8084726.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点 12
+  network: ws
+  port: 2082
+  server: skk.moe
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇨🇳 广东省肇庆市 中移铁通
+  port: 44806
+  server: ambxxic01hk.dorabbb.top
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 21c7fe70-62f4-492a-8ff5-882edee63b15
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点 13
+  network: ws
+  port: 2082
+  server: 104.26.5.103
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点 14
+  network: ws
+  port: 2095
+  server: 104.21.238.101
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip3.6016725.xyz
+    path: github.com/Alvin9999
+- alterId: 1
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 北美地区 v2rayfree.eu.org
+  network: ws
+  port: 443
+  server: 23.158.56.81
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 23.158.56.81
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点 15
+  network: ws
+  port: 2095
+  server: 172.64.166.20
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇮🇳 印度 v2rayfree.eu.org
+  network: ws
+  port: 443
+  server: 202.78.162.5
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
+  ws-opts:
+    headers:
+      Host: irsoft.sytes.net
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点 16
+  network: ws
+  port: 2095
+  server: singapore.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
+  ws-opts:
+    headers:
+      Host: ip2.8084726.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点 17
+  network: ws
+  port: 2095
+  server: www.visa.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
+  ws-opts:
+    headers:
+      Host: ip2.8084726.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点 18
+  network: ws
+  port: 2095
+  server: 104.19.45.242
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点 19
+  network: ws
+  port: 8080
+  server: www.darkroom.lol
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.darkroom.lol
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点 20
+  network: ws
+  port: 2095
+  server: 162.159.140.77
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
+  ws-opts:
+    headers:
+      Host: ip2.8084726.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点 21
+  network: ws
+  port: 2095
+  server: apivgbndf_cdn.hfhfb.homes
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 54895917-9761-487f-b949-1476bf8193ea
+  ws-opts:
+    headers:
+      Host: sgcdn2.fask511.cfd
+    path: /?ed=512
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点 22
+  network: ws
+  port: 2082
+  server: 104.20.17.186
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: github.com/Alvin9999
+- alterId: 1
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点 23
+  network: ws
+  port: 443
+  server: anaviriti.info
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: anaviriti.info
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点 24
+  network: ws
+  port: 2095
+  server: 104.20.25.146
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点 25
+  network: ws
+  port: 2095
+  server: 172.64.167.10
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点 26
+  network: ws
+  port: 2095
+  server: 104.26.7.132
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
+  ws-opts:
+    headers:
+      Host: ip2.8084726.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点 27
+  network: ws
+  port: 8880
+  server: 104.21.82.183
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  ws-opts:
+    headers:
+      Host: server26.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点 28
+  network: ws
+  port: 2095
+  server: 104.19.21.230
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点 29
+  network: ws
+  port: 2095
+  server: www.speedtest.net
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 777cde00-0656-4629-b565-3a74dea4b1a2
+  ws-opts:
+    headers:
+      Host: panel.SEYYEDmtmodidandansax.bloG.
+    path: /aVa-pC.coM.ZoomiT.iR?ed=1024
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点 30
+  network: ws
+  port: 2082
+  server: 172.67.130.140
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      Host: s1c.v2.v001sss.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点 31
+  network: ws
+  port: 2095
+  server: 104.19.32.216
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
+  ws-opts:
+    headers:
+      Host: ip2.8084726.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点 33
+  network: ws
+  port: 2095
+  server: 104.19.55.49
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
+  ws-opts:
+    headers:
+      Host: ip2.8084726.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: / خسته شدم از زندگی تو ایران@iranPwner
+  name: 🇳🇱 -NL²-Mojia-Tel-@iranPwner
+  network: grpc
+  port: 8888
+  server: 0:0:0:0:0:ffff:68f8:cdd7
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: Mojia-telegram-iranPwner
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
@@ -807,6 +1362,41 @@ proxy-groups:
   - 加拿大 044
   - 美国 014
   - 美国 016
+  - 🇺🇸 美国 CloudFlare节点
+  - 🇺🇸 美国 CloudFlare节点 3
+  - 🇺🇸 美国 CloudFlare节点 5
+  - 🇺🇸 美国 CloudFlare节点 6
+  - 🇺🇸 美国 Fastly全球Anycast节点
+  - 🇺🇸 美国 CloudFlare节点 7
+  - 🇺🇸 美国 CloudFlare节点 8
+  - 🇬🇷 希腊 v2rayfree.eu.org
+  - 🇺🇸 美国 CloudFlare公司CDN节点(shopify)
+  - 🇺🇸 美国 CloudFlare节点 10
+  - 🇺🇸 美国 CloudFlare节点 12
+  - 🇨🇳 广东省肇庆市 中移铁通
+  - 🇺🇸 美国 CloudFlare节点 13
+  - 🇺🇸 美国 CloudFlare节点 14
+  - 🇺🇸 北美地区 v2rayfree.eu.org
+  - 🇺🇸 美国 CloudFlare节点 15
+  - 🇮🇳 印度 v2rayfree.eu.org
+  - 🇺🇸 美国 CloudFlare节点 16
+  - 🇺🇸 美国 CloudFlare节点 17
+  - 🇺🇸 美国 CloudFlare节点 18
+  - 🇺🇸 美国 CloudFlare节点 19
+  - 🇺🇸 美国 CloudFlare节点 20
+  - 🇺🇸 美国 CloudFlare节点 21
+  - 🇺🇸 美国 CloudFlare节点 22
+  - 🇺🇸 美国 CloudFlare节点 23
+  - 🇺🇸 美国 CloudFlare节点 24
+  - 🇺🇸 美国 CloudFlare节点 25
+  - 🇺🇸 美国 CloudFlare节点 26
+  - 🇺🇸 美国 CloudFlare节点 27
+  - 🇺🇸 美国 CloudFlare节点 28
+  - 🇺🇸 美国 CloudFlare节点 29
+  - 🇺🇸 美国 CloudFlare节点 30
+  - 🇺🇸 美国 CloudFlare节点 31
+  - 🇺🇸 美国 CloudFlare节点 33
+  - 🇳🇱 -NL²-Mojia-Tel-@iranPwner
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -862,6 +1452,41 @@ proxy-groups:
   - 加拿大 044
   - 美国 014
   - 美国 016
+  - 🇺🇸 美国 CloudFlare节点
+  - 🇺🇸 美国 CloudFlare节点 3
+  - 🇺🇸 美国 CloudFlare节点 5
+  - 🇺🇸 美国 CloudFlare节点 6
+  - 🇺🇸 美国 Fastly全球Anycast节点
+  - 🇺🇸 美国 CloudFlare节点 7
+  - 🇺🇸 美国 CloudFlare节点 8
+  - 🇬🇷 希腊 v2rayfree.eu.org
+  - 🇺🇸 美国 CloudFlare公司CDN节点(shopify)
+  - 🇺🇸 美国 CloudFlare节点 10
+  - 🇺🇸 美国 CloudFlare节点 12
+  - 🇨🇳 广东省肇庆市 中移铁通
+  - 🇺🇸 美国 CloudFlare节点 13
+  - 🇺🇸 美国 CloudFlare节点 14
+  - 🇺🇸 北美地区 v2rayfree.eu.org
+  - 🇺🇸 美国 CloudFlare节点 15
+  - 🇮🇳 印度 v2rayfree.eu.org
+  - 🇺🇸 美国 CloudFlare节点 16
+  - 🇺🇸 美国 CloudFlare节点 17
+  - 🇺🇸 美国 CloudFlare节点 18
+  - 🇺🇸 美国 CloudFlare节点 19
+  - 🇺🇸 美国 CloudFlare节点 20
+  - 🇺🇸 美国 CloudFlare节点 21
+  - 🇺🇸 美国 CloudFlare节点 22
+  - 🇺🇸 美国 CloudFlare节点 23
+  - 🇺🇸 美国 CloudFlare节点 24
+  - 🇺🇸 美国 CloudFlare节点 25
+  - 🇺🇸 美国 CloudFlare节点 26
+  - 🇺🇸 美国 CloudFlare节点 27
+  - 🇺🇸 美国 CloudFlare节点 28
+  - 🇺🇸 美国 CloudFlare节点 29
+  - 🇺🇸 美国 CloudFlare节点 30
+  - 🇺🇸 美国 CloudFlare节点 31
+  - 🇺🇸 美国 CloudFlare节点 33
+  - 🇳🇱 -NL²-Mojia-Tel-@iranPwner
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
