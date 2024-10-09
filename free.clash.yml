@@ -359,24 +359,35 @@ proxies:
   client-fingerprint: chrome
   name: 🇺🇸 美国 CloudFlare节点
   network: ws
-  port: 2082
-  server: 172.64.167.29
+  port: 8880
+  server: 172.67.196.170
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  uuid: 8008f0ce-397b-48d2-9145-9d95eb5c6c7d
   ws-opts:
     headers:
-      Host: ip3.6929198.xyz
-    path: github.com/Alvin9999
+      Host: speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.expresstv.ggff.net
+    path: /?ed=2048
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇨🇳 广东省广州市 移动
+  port: 42055
+  server: 120.232.153.37
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点 6
+  name: 🇺🇸 美国 CloudFlare节点 2
   network: ws
   port: 2095
-  server: 172.64.167.5
+  server: 104.19.45.13
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -389,53 +400,10 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇺🇸 美国 Fastly全球Anycast节点
-  network: ws
-  port: 443
-  server: gov.uk
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
-  ws-opts:
-    headers:
-      Host: zheshiscp.com
-    path: /77848824
-- alterId: 32
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇬🇷 希腊 v2rayfree.eu.org
-  network: ws
-  port: 443
-  server: vc.fly.dev
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee
-  ws-opts:
-    headers:
-      Host: vc.fly.dev
-    path: /vc
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇨🇳 广东省肇庆市 中移铁通
-  port: 44806
-  server: ambxxic01hk.dorabbb.top
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 21c7fe70-62f4-492a-8ff5-882edee63b15
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点 14
+  name: 🇺🇸 美国 CloudFlare节点 3
   network: ws
   port: 2095
-  server: 104.21.238.101
+  server: 162.159.140.33
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -443,76 +411,60 @@ proxies:
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: ip3.6016725.xyz
+      Host: ip2.6016725.xyz
     path: github.com/Alvin9999
-- alterId: 1
+- alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇺🇸 北美地区 v2rayfree.eu.org
+  name: 🇺🇸 美国 CloudFlare节点 4
   network: ws
-  port: 443
-  server: 23.158.56.81
+  port: 2096
+  server: 172.67.196.170
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: d77c0cdc-b28e-427d-c58c-062f254759bd
   ws-opts:
     headers:
-      Host: 23.158.56.81
-    path: linkvws
+      Host: speedtestnetcomexpresstvsoft98irernanewsggffnetemailcloudflare.expresstv.ggff.net
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇮🇳 印度 v2rayfree.eu.org
+  name: 🇺🇸 美国 CloudFlare节点 8
   network: ws
-  port: 443
-  server: 202.78.162.5
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
-  ws-opts:
-    headers:
-      Host: irsoft.sytes.net
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点 19
-  network: ws
-  port: 8080
-  server: www.darkroom.lol
+  port: 2082
+  server: 104.18.57.111
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: www.darkroom.lol
-    path: /
+      Host: ip3.6929198.xyz
+    path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点 21
+  name: 🇺🇸 美国 CloudFlare节点 12
   network: ws
-  port: 2095
-  server: apivgbndf_cdn.hfhfb.homes
+  port: 80
+  server: 172.67.64.120
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 54895917-9761-487f-b949-1476bf8193ea
+  uuid: 7a8c8e19-b110-4224-89c5-f32f8c9b07eb
   ws-opts:
     headers:
-      Host: sgcdn2.fask511.cfd
-    path: /?ed=512
+      Host: 68690907783461163508239105253758.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
+    path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点 27
+  name: 🇺🇸 美国 CloudFlare节点 13
   network: ws
   port: 8880
   server: 104.21.82.183
@@ -528,35 +480,150 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点 29
+  name: 🇮🇳 印度 v2rayfree.eu.org
   network: ws
-  port: 2095
-  server: www.speedtest.net
+  port: 443
+  server: 202.78.162.5
   skip-cert-verify: false
   tfo: false
-  tls: false
+  tls: true
   type: vmess
-  uuid: 777cde00-0656-4629-b565-3a74dea4b1a2
+  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
   ws-opts:
     headers:
-      Host: panel.SEYYEDmtmodidandansax.bloG.
-    path: /aVa-pC.coM.ZoomiT.iR?ed=1024
+      Host: pendar.onthewifi.com
+    path: /
+- alterId: 1
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇵🇦 巴拿马 v2rayfree.eu.org
+  network: ws
+  port: 443
+  server: 186.190.215.149
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 186.190.215.149
+    path: linkvws
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点 30
+  name: 🇺🇸 美国 CloudFlare节点 14
   network: ws
-  port: 2082
-  server: 172.67.130.140
+  port: 443
+  server: 104.17.176.171
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 6b880b07-e952-4c0b-b4a3-6c9ac4cf9d3f
+  ws-opts:
+    headers:
+      Host: hdfy1c2.freeairlaines.com
+    path: /QvtvPdDXXIlSdZMqnuxG
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇮🇳 印度 v2rayfree.eu.org 2
+  network: ws
+  port: 443
+  server: 202.78.162.5
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
+  ws-opts:
+    headers:
+      Host: sahand.serveminecraft.net
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点 20
+  network: ws
+  port: 443
+  server: 172.67.71.160
+  servername: obdii.cfd
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: obdii.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点 22
+  network: ws
+  port: 443
+  server: 104.21.61.246
+  servername: kmz3.sassanidempire.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: f9ccede9-ca9c-4719-b105-e494742499e3
+  ws-opts:
+    headers:
+      Host: kmz3.sassanidempire.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点 26
+  network: ws
+  port: 80
+  server: 3L6E2.c6tu5uwk9.buzz
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  uuid: 219eb7ea-8f9a-4af8-857b-4b4b564224ef
   ws-opts:
     headers:
-      Host: s1c.v2.v001sss.xyz
+      Host: sg02.knt6y4bjx.buzz
     path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 麻省理工学院
+  network: ws
+  port: 443
+  server: jpcft01.xqc.best
+  servername: d263c0bqn07wlj.cloudfront.net
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 7fd99431-1b8a-4ca2-82de-3493e1566f01
+  ws-opts:
+    headers:
+      Host: d263c0bqn07wlj.cloudfront.net
+    path: /stream
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点 29
+  network: ws
+  port: 2095
+  server: sdhdffjblkgfh_cdn.hfhfb.homes
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 54895917-9761-487f-b949-1476bf8193ea
+  ws-opts:
+    headers:
+      Host: itcdn2.fask511.cfd
+    path: /?ed=512
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -619,17 +686,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇨🇳 广东省广州市 移动 2
-  port: 35601
-  server: 120.232.153.40
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -649,22 +705,6 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇺🇸 美国 麻省理工学院
-  network: ws
-  port: 443
-  server: jpcft01.xqc.best
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 7cc87747-bb3b-4be8-9006-d3428ec7615a
-  ws-opts:
-    headers:
-      Host: dxpmrsgr3291i.cloudfront.net
-    path: /stream
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
   name: 🇸🇪 瑞典 v2rayfree.eu.org
   network: ws
   port: 443
@@ -681,22 +721,6 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点 16
-  network: ws
-  port: 8880
-  server: 104.21.65.254
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 8008f0ce-397b-48d2-9145-9d95eb5c6c7d
-  ws-opts:
-    headers:
-      Host: speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.expresstv.ggff.net
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
   name: 🇧🇷 巴西圣保罗 CloudFlare节点
   network: ws
   port: 443
@@ -709,6 +733,22 @@ proxies:
   ws-opts:
     headers:
       Host: afrhms16v.bestxray.buzz
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇮🇳 印度
+  network: ws
+  port: 443
+  server: 202.78.162.5
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
+  ws-opts:
+    headers:
+      Host: irsoft.sytes.net
     path: /
 - alterId: 0
   cipher: auto
@@ -855,28 +895,30 @@ proxy-groups:
   - 加拿大 084
   - 加拿大 044
   - 🇺🇸 美国 CloudFlare节点
-  - 🇺🇸 美国 CloudFlare节点 6
-  - 🇺🇸 美国 Fastly全球Anycast节点
-  - 🇬🇷 希腊 v2rayfree.eu.org
-  - 🇨🇳 广东省肇庆市 中移铁通
-  - 🇺🇸 美国 CloudFlare节点 14
-  - 🇺🇸 北美地区 v2rayfree.eu.org
+  - 🇨🇳 广东省广州市 移动
+  - 🇺🇸 美国 CloudFlare节点 2
+  - 🇺🇸 美国 CloudFlare节点 3
+  - 🇺🇸 美国 CloudFlare节点 4
+  - 🇺🇸 美国 CloudFlare节点 8
+  - 🇺🇸 美国 CloudFlare节点 12
+  - 🇺🇸 美国 CloudFlare节点 13
   - 🇮🇳 印度 v2rayfree.eu.org
-  - 🇺🇸 美国 CloudFlare节点 19
-  - 🇺🇸 美国 CloudFlare节点 21
-  - 🇺🇸 美国 CloudFlare节点 27
+  - 🇵🇦 巴拿马 v2rayfree.eu.org
+  - 🇺🇸 美国 CloudFlare节点 14
+  - 🇮🇳 印度 v2rayfree.eu.org 2
+  - 🇺🇸 美国 CloudFlare节点 20
+  - 🇺🇸 美国 CloudFlare节点 22
+  - 🇺🇸 美国 CloudFlare节点 26
+  - 🇺🇸 美国 麻省理工学院
   - 🇺🇸 美国 CloudFlare节点 29
-  - 🇺🇸 美国 CloudFlare节点 30
   - 🇰🇷 韩国
   - 🇸🇬 新加坡
   - 🇸🇬 新加坡2
   - 🇩🇪 德国
-  - 🇨🇳 广东省广州市 移动 2
   - 🇺🇸 美国 CloudFlare节点 9
-  - 🇺🇸 美国 麻省理工学院
   - 🇸🇪 瑞典 v2rayfree.eu.org
-  - 🇺🇸 美国 CloudFlare节点 16
   - 🇧🇷 巴西圣保罗 CloudFlare节点
+  - 🇮🇳 印度
   - 🇬🇧 英国 Technicolor SA
   - 🇸🇬 俄罗斯 新西伯利亚JustHost
   - 🇫🇷 法国 法国计算机科学大学
@@ -913,28 +955,30 @@ proxy-groups:
   - 加拿大 084
   - 加拿大 044
   - 🇺🇸 美国 CloudFlare节点
-  - 🇺🇸 美国 CloudFlare节点 6
-  - 🇺🇸 美国 Fastly全球Anycast节点
-  - 🇬🇷 希腊 v2rayfree.eu.org
-  - 🇨🇳 广东省肇庆市 中移铁通
-  - 🇺🇸 美国 CloudFlare节点 14
-  - 🇺🇸 北美地区 v2rayfree.eu.org
+  - 🇨🇳 广东省广州市 移动
+  - 🇺🇸 美国 CloudFlare节点 2
+  - 🇺🇸 美国 CloudFlare节点 3
+  - 🇺🇸 美国 CloudFlare节点 4
+  - 🇺🇸 美国 CloudFlare节点 8
+  - 🇺🇸 美国 CloudFlare节点 12
+  - 🇺🇸 美国 CloudFlare节点 13
   - 🇮🇳 印度 v2rayfree.eu.org
-  - 🇺🇸 美国 CloudFlare节点 19
-  - 🇺🇸 美国 CloudFlare节点 21
-  - 🇺🇸 美国 CloudFlare节点 27
+  - 🇵🇦 巴拿马 v2rayfree.eu.org
+  - 🇺🇸 美国 CloudFlare节点 14
+  - 🇮🇳 印度 v2rayfree.eu.org 2
+  - 🇺🇸 美国 CloudFlare节点 20
+  - 🇺🇸 美国 CloudFlare节点 22
+  - 🇺🇸 美国 CloudFlare节点 26
+  - 🇺🇸 美国 麻省理工学院
   - 🇺🇸 美国 CloudFlare节点 29
-  - 🇺🇸 美国 CloudFlare节点 30
   - 🇰🇷 韩国
   - 🇸🇬 新加坡
   - 🇸🇬 新加坡2
   - 🇩🇪 德国
-  - 🇨🇳 广东省广州市 移动 2
   - 🇺🇸 美国 CloudFlare节点 9
-  - 🇺🇸 美国 麻省理工学院
   - 🇸🇪 瑞典 v2rayfree.eu.org
-  - 🇺🇸 美国 CloudFlare节点 16
   - 🇧🇷 巴西圣保罗 CloudFlare节点
+  - 🇮🇳 印度
   - 🇬🇧 英国 Technicolor SA
   - 🇸🇬 俄罗斯 新西伯利亚JustHost
   - 🇫🇷 法国 法国计算机科学大学
