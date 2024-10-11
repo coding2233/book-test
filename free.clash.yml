@@ -338,13 +338,24 @@ proxies:
     headers:
       Host: rac.679888.xyz
     path: /lfljvws
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇨🇳 广东省广州市 移动
+  port: 43526
+  server: 120.232.153.40
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
   name: 🇺🇸 美国 CloudFlare节点
   network: ws
   port: 2082
-  server: 162.159.140.93
+  server: 162.159.140.91
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -357,10 +368,10 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点 2
+  name: 🇺🇸 美国 CloudFlare节点 4
   network: ws
   port: 2095
-  server: 104.19.45.50
+  server: 162.159.140.19
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -373,55 +384,27 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇺🇸 美国 Fastly全球Anycast节点
+  name: 🇯🇵 日本
   network: ws
-  port: 443
-  server: gov.uk
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
-  ws-opts:
-    headers:
-      Host: zheshiscp.com
-    path: /77848824
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇰🇷 韩国
-  port: 51262
-  server: 45.141.136.221
+  port: 80
+  server: kz3bw.c6tu5uwk9.buzz
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: a6495bea-1970-431d-80cb-3c3911bb2c39
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇸🇬 新加坡
-  network: ws
-  port: 443
-  server: 192.53.114.166
-  servername: 192.53.114.166
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: fa3c2911-613a-480e-9b2d-aa3762c3a311
+  uuid: 219eb7ea-8f9a-4af8-857b-4b4b564224ef
   ws-opts:
     headers:
-      Host: 192.53.114.166
-    path: /QusAEjFA
+      Host: jp01.1761d77fead15f193490a0f11b83f3a4.buzz
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇸🇬 新加坡3
+  name: 🇯🇵 日本3
   network: ws
   port: 443
-  server: 192.53.114.167
-  servername: 192.53.114.167
+  server: 172.234.94.163
+  servername: 172.234.94.163
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -429,19 +412,8 @@ proxies:
   uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
   ws-opts:
     headers:
-      Host: 192.53.114.167
-    path: /BqVwBioP
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国2
-  port: 43526
-  server: 120.232.153.40
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
+      Host: 172.234.94.163
+    path: /fkPaQhPT
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -590,9 +562,9 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 🇨🇳 广东省广州市 移动
-  port: 42055
-  server: 120.232.153.37
+  name: 🇨🇳 广东省广州市 移动 2
+  port: 45020
+  server: 183.236.51.23
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -666,13 +638,11 @@ proxy-groups:
   - 加拿大 084
   - 加拿大 044
   - 美国 028
+  - 🇨🇳 广东省广州市 移动
   - 🇺🇸 美国 CloudFlare节点
-  - 🇺🇸 美国 CloudFlare节点 2
-  - 🇺🇸 美国 Fastly全球Anycast节点
-  - 🇰🇷 韩国
-  - 🇸🇬 新加坡
-  - 🇸🇬 新加坡3
-  - 🇺🇸 美国2
+  - 🇺🇸 美国 CloudFlare节点 4
+  - 🇯🇵 日本
+  - 🇯🇵 日本3
   - 🇮🇳 印度
   - 🇺🇸 美国 CloudFlare节点 3
   - 🇷🇺 俄罗斯
@@ -682,7 +652,7 @@ proxy-groups:
   - 🇺🇸 美国 CloudFlare节点 9
   - 🇺🇸 美国 CloudFlare节点 10
   - 🇸🇪 瑞典
-  - 🇨🇳 广东省广州市 移动
+  - 🇨🇳 广东省广州市 移动 2
   - 🇺🇸 美国 CloudFlare节点 19
   - 美国(yudou66.com 玉豆免费节点) 3
   - 美国(yudou66.com 玉豆免费节点) 42
@@ -712,13 +682,11 @@ proxy-groups:
   - 加拿大 084
   - 加拿大 044
   - 美国 028
+  - 🇨🇳 广东省广州市 移动
   - 🇺🇸 美国 CloudFlare节点
-  - 🇺🇸 美国 CloudFlare节点 2
-  - 🇺🇸 美国 Fastly全球Anycast节点
-  - 🇰🇷 韩国
-  - 🇸🇬 新加坡
-  - 🇸🇬 新加坡3
-  - 🇺🇸 美国2
+  - 🇺🇸 美国 CloudFlare节点 4
+  - 🇯🇵 日本
+  - 🇯🇵 日本3
   - 🇮🇳 印度
   - 🇺🇸 美国 CloudFlare节点 3
   - 🇷🇺 俄罗斯
@@ -728,7 +696,7 @@ proxy-groups:
   - 🇺🇸 美国 CloudFlare节点 9
   - 🇺🇸 美国 CloudFlare节点 10
   - 🇸🇪 瑞典
-  - 🇨🇳 广东省广州市 移动
+  - 🇨🇳 广东省广州市 移动 2
   - 🇺🇸 美国 CloudFlare节点 19
   - 美国(yudou66.com 玉豆免费节点) 3
   - 美国(yudou66.com 玉豆免费节点) 42
