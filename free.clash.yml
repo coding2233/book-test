@@ -341,158 +341,18 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇺🇸 美国 Fastly全球Anycast节点
-  network: ws
-  port: 443
-  server: gov.uk
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
-  ws-opts:
-    headers:
-      Host: zheshiscp.com
-    path: /77848824
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点 2
-  network: ws
-  port: 2082
-  server: 162.159.140.91
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇮🇳 印度 v2rayfree.eu.org
-  network: ws
-  port: 443
-  server: 202.78.162.5
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
-  ws-opts:
-    headers:
-      Host: sahand.serveminecraft.net
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点 3
-  network: ws
-  port: 8080
-  server: www.darkroom.lol
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.darkroom.lol
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点 5
-  network: ws
-  port: 80
-  server: 172.66.168.173
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 83452b53-dabc-4d13-b2e6-b904ffee8f5b
-  ws-opts:
-    headers:
-      Host: 50907082685942059876387799824779.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
-    path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点 6
-  network: ws
-  port: 8880
-  server: 104.21.82.183
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
-  ws-opts:
-    headers:
-      Host: server26.beheshtbaneh.com
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇯🇵 日本
-  network: ws
-  port: 80
-  server: kz3bw.c6tu5uwk9.buzz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 219eb7ea-8f9a-4af8-857b-4b4b564224ef
-  ws-opts:
-    headers:
-      Host: jp01.1761d77fead15f193490a0f11b83f3a4.buzz
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇯🇵 日本3
-  network: ws
-  port: 443
-  server: 172.234.94.163
-  servername: 172.234.94.163
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
-  ws-opts:
-    headers:
-      Host: 172.234.94.163
-    path: /fkPaQhPT
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国2
-  port: 43526
-  server: 120.232.153.40
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
   name: 🇺🇸 美国 CloudFlare节点
   network: ws
   port: 2095
-  server: www.visa.com
+  server: 104.19.45.50
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: ip2.8084726.xyz
+      Host: ip2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -516,6 +376,93 @@ proxies:
   tls: true
   type: vmess
   uuid: a32313ad-5e39-4f9a-9cad-512041790050
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇩🇰 丹麦 v2rayfree.eu.org
+  network: ws
+  port: 80
+  server: go.alipay.ovh
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: a94171be-b387-4f02-a5ef-a1b4b7a26c04
+  ws-opts:
+    headers:
+      Host: open.alipay.ovh
+    path: /aries?ed=2048
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点 5
+  network: ws
+  port: 8080
+  server: www.darkroom.lol
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.darkroom.lol
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇯🇵 日本3
+  port: 36328
+  server: 45.159.51.138
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 15c2d96f-e859-4375-9780-0e1975a050a7
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇰🇷 韩国
+  network: ws
+  port: 80
+  server: strw4.c6tu5uwk9.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 219eb7ea-8f9a-4af8-857b-4b4b564224ef
+  ws-opts:
+    headers:
+      Host: kr03.1761d77fead15f193490a0f11b83f3a4.buzz
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇸🇬 新加坡3
+  network: ws
+  port: 443
+  server: 192.53.172.191
+  servername: 192.53.172.191
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
+  ws-opts:
+    headers:
+      Host: 192.53.172.191
+    path: /wrPUMAzPF
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国2
+  port: 43526
+  server: 120.232.153.40
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -547,6 +494,22 @@ proxies:
   ws-opts:
     headers:
       Host: server31.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇮🇳 印度 cczzuu.top 2
+  network: ws
+  port: 443
+  server: 202.78.162.5
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
+  ws-opts:
+    headers:
+      Host: sahand.serveminecraft.net
     path: /
 - alterId: 0
   cipher: auto
@@ -606,20 +569,18 @@ proxy-groups:
   - 加拿大 084
   - 加拿大 044
   - 美国 028
-  - 🇺🇸 美国 Fastly全球Anycast节点
-  - 🇺🇸 美国 CloudFlare节点 2
-  - 🇮🇳 印度 v2rayfree.eu.org
-  - 🇺🇸 美国 CloudFlare节点 3
-  - 🇺🇸 美国 CloudFlare节点 5
-  - 🇺🇸 美国 CloudFlare节点 6
-  - 🇯🇵 日本
-  - 🇯🇵 日本3
-  - 🇺🇸 美国2
   - 🇺🇸 美国 CloudFlare节点
   - 🇳🇱 荷兰 北荷兰省阿姆斯特丹DigitalOcean数据中心
   - 🇨🇳 广东省 移动
+  - 🇩🇰 丹麦 v2rayfree.eu.org
+  - 🇺🇸 美国 CloudFlare节点 5
+  - 🇯🇵 日本3
+  - 🇰🇷 韩国
+  - 🇸🇬 新加坡3
+  - 🇺🇸 美国2
   - 🇮🇳 印度 cczzuu.top
   - 🇺🇸 美国 CloudFlare节点 4
+  - 🇮🇳 印度 cczzuu.top 2
   - 🇮🇳 印度
   - 美国(yudou66.com 玉豆免费节点) 42
   type: select
@@ -648,20 +609,18 @@ proxy-groups:
   - 加拿大 084
   - 加拿大 044
   - 美国 028
-  - 🇺🇸 美国 Fastly全球Anycast节点
-  - 🇺🇸 美国 CloudFlare节点 2
-  - 🇮🇳 印度 v2rayfree.eu.org
-  - 🇺🇸 美国 CloudFlare节点 3
-  - 🇺🇸 美国 CloudFlare节点 5
-  - 🇺🇸 美国 CloudFlare节点 6
-  - 🇯🇵 日本
-  - 🇯🇵 日本3
-  - 🇺🇸 美国2
   - 🇺🇸 美国 CloudFlare节点
   - 🇳🇱 荷兰 北荷兰省阿姆斯特丹DigitalOcean数据中心
   - 🇨🇳 广东省 移动
+  - 🇩🇰 丹麦 v2rayfree.eu.org
+  - 🇺🇸 美国 CloudFlare节点 5
+  - 🇯🇵 日本3
+  - 🇰🇷 韩国
+  - 🇸🇬 新加坡3
+  - 🇺🇸 美国2
   - 🇮🇳 印度 cczzuu.top
   - 🇺🇸 美国 CloudFlare节点 4
+  - 🇮🇳 印度 cczzuu.top 2
   - 🇮🇳 印度
   - 美国(yudou66.com 玉豆免费节点) 42
   type: url-test
