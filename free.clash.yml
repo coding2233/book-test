@@ -99,20 +99,6 @@ proxies:
     path: /glweidf.sbs/linkws
 - alterId: 0
   cipher: auto
-  name: 加拿大 016
-  network: ws
-  port: 2095
-  server: 104.16.61.8
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
-  ws-opts:
-    headers:
-      Host: ep-sunset-9b11.kekic13319.workers.dev
-    path: /
-- alterId: 0
-  cipher: auto
   name: 加拿大 103
   network: ws
   port: 8080
@@ -338,17 +324,149 @@ proxies:
     headers:
       Host: rac.679888.xyz
     path: /lfljvws
-- alterId: 64
+- alterId: 0
+  cipher: auto
+  name: 加拿大 002
+  network: ws
+  port: 2095
+  server: ydtxwbcvb_cdn.hfhfb.homes
+  servername: decdn.fask511.cfd
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b840da51-baa8-4b98-814f-8b0659a9d6e5
+  ws-opts:
+    headers:
+      Host: ydtxwbcvb_cdn.hfhfb.homes
+    path: /?ed=1024
+- alterId: 0
+  cipher: auto
+  name: 瑞典 003
+  network: ws
+  port: 80
+  server: Back.MsV2ray.online
+  servername: d396-flower-d396.megare7260.workers.dev
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: Back.MsV2ray.online
+    path: /obdii.cfd/linkws
+- alterId: 0
+  cipher: auto
+  name: 美国 019
+  network: ws
+  port: 80
+  server: lzg9j.cuc8mwl3.buzz
+  servername: hk04.industriouseileen.buzz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2e40fe91-ce8c-4864-b128-7b9a260ecaa7
+  ws-opts:
+    headers:
+      Host: lzg9j.cuc8mwl3.buzz
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 俄罗斯 004
+  network: ws
+  port: 24300
+  server: rumsk.ifastcdncache.com
+  servername: bilibili.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 20bfc872-7972-44c1-a729-f594fd80f7f3
+  ws-opts:
+    headers:
+      Host: rumsk.ifastcdncache.com
+    path: /bilibililive
+- alterId: 0
+  cipher: auto
+  name: 新加坡 001
+  network: ws
+  port: 8443
+  server: acting.zhangyuanyi19920627.top
+  servername: acting.zhangyuanyi19920627.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 74514f38-13d9-4825-c1bc-cdb9275f2d99
+  ws-opts:
+    headers:
+      Host: acting.zhangyuanyi19920627.top
+    path: /acting
+- alterId: 0
+  cipher: auto
+  name: 美国 032
+  network: ws
+  port: 80
+  server: blog.sushiroll.co.id
+  servername: vmess-sg1.sshkit.org
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  ws-opts:
+    headers:
+      Host: blog.sushiroll.co.id
+    path: /sshkit/1828396894/66cf268530688/
+- alterId: 0
+  cipher: auto
+  name: 新加坡 002
+  network: ws
+  port: 443
+  server: profit-server.aken.my.id
+  servername: profit-server.aken.my.id
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: d9a31ea0-d3b6-4a7b-be2e-01bbdba6c6e2
+  ws-opts:
+    headers:
+      Host: profit-server.aken.my.id
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 美国 023
+  network: ws
+  port: 2086
+  server: cvs-deo.shopeemobile.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a1655f51-1e20-4a92-8a11-b7ca30a7a353
+  ws-opts:
+    headers:
+      Host: vpnsupportfast.vpnsuortfast.workers.dev
+    path: /afrhms07.xfixedfloat.cfd/linkws
+- alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇨🇳 广东省广州市 移动
-  port: 43526
-  server: 120.232.153.40
+  name: 🇺🇸 美国 CloudFlare节点
+  network: ws
+  port: 2082
+  server: 104.19.45.17
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -365,66 +483,6 @@ proxies:
     headers:
       Host: ip2.6016725.xyz
     path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇮🇳 印度 v2rayfree.eu.org
-  network: ws
-  port: 443
-  server: 202.78.162.5
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
-  ws-opts:
-    headers:
-      Host: pendar.onthewifi.com
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇯🇵 日本3
-  port: 36328
-  server: 45.159.51.138
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 15c2d96f-e859-4375-9780-0e1975a050a7
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇰🇷 韩国
-  network: ws
-  port: 80
-  server: strw4.c6tu5uwk9.buzz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 219eb7ea-8f9a-4af8-857b-4b4b564224ef
-  ws-opts:
-    headers:
-      Host: kr03.1761d77fead15f193490a0f11b83f3a4.buzz
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇸🇬 新加坡3
-  network: ws
-  port: 443
-  server: 192.53.172.191
-  servername: 192.53.172.191
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
-  ws-opts:
-    headers:
-      Host: 192.53.172.191
-    path: /wrPUMAzPF
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -452,6 +510,94 @@ proxies:
     headers:
       Host: 50907082685942059876387799824779.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 Fastly全球Anycast节点
+  network: ws
+  port: 443
+  server: gov.uk
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+  ws-opts:
+    headers:
+      Host: zheshiscp.com
+    path: /77848824
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇮🇳 印度 v2rayfree.eu.org
+  network: ws
+  port: 443
+  server: 202.78.162.5
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
+  ws-opts:
+    headers:
+      Host: irsoft.sytes.net
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇯🇵 日本
+  network: ws
+  port: 443
+  server: jpcft01.xqc.best
+  servername: d2vx9phh42gj2v.cloudfront.net
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 86bf5667-081c-46a6-8030-6b50787723d6
+  ws-opts:
+    headers:
+      Host: d2vx9phh42gj2v.cloudfront.net
+    path: /stream
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇯🇵 日本2
+  port: 51127
+  server: 45.159.50.219
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: ab67e1dc-14ba-4638-9817-7cb68895a4be
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国
+  network: ws
+  port: 443
+  server: 66.175.217.126
+  servername: 66.175.217.126
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
+  ws-opts:
+    headers:
+      Host: 66.175.217.126
+    path: /bFhFAWRF
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国2
+  port: 43526
+  server: 120.232.153.40
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
 - alterId: 0
   cipher: auto
   name: 美国(yudou66.com 玉豆免费节点) 3
@@ -487,7 +633,6 @@ proxy-groups:
   - 加拿大 018
   - 加拿大 012
   - 加拿大 149
-  - 加拿大 016
   - 加拿大 103
   - 加拿大 151
   - 德国 004
@@ -504,14 +649,24 @@ proxy-groups:
   - 加拿大 084
   - 加拿大 044
   - 美国 028
-  - 🇨🇳 广东省广州市 移动
+  - 加拿大 002
+  - 瑞典 003
+  - 美国 019
+  - 俄罗斯 004
+  - 新加坡 001
+  - 美国 032
+  - 新加坡 002
+  - 美国 023
+  - 🇺🇸 美国 CloudFlare节点
   - 🇺🇸 美国 CloudFlare节点 2
-  - 🇮🇳 印度 v2rayfree.eu.org
-  - 🇯🇵 日本3
-  - 🇰🇷 韩国
-  - 🇸🇬 新加坡3
   - 🇳🇱 荷兰 北荷兰省阿姆斯特丹DigitalOcean数据中心
   - 🇺🇸 美国 CloudFlare节点 3
+  - 🇺🇸 美国 Fastly全球Anycast节点
+  - 🇮🇳 印度 v2rayfree.eu.org
+  - 🇯🇵 日本
+  - 🇯🇵 日本2
+  - 🇺🇸 美国
+  - 🇺🇸 美国2
   - 美国(yudou66.com 玉豆免费节点) 3
   - 美国(yudou66.com 玉豆免费节点) 42
   type: select
@@ -523,7 +678,6 @@ proxy-groups:
   - 加拿大 018
   - 加拿大 012
   - 加拿大 149
-  - 加拿大 016
   - 加拿大 103
   - 加拿大 151
   - 德国 004
@@ -540,14 +694,24 @@ proxy-groups:
   - 加拿大 084
   - 加拿大 044
   - 美国 028
-  - 🇨🇳 广东省广州市 移动
+  - 加拿大 002
+  - 瑞典 003
+  - 美国 019
+  - 俄罗斯 004
+  - 新加坡 001
+  - 美国 032
+  - 新加坡 002
+  - 美国 023
+  - 🇺🇸 美国 CloudFlare节点
   - 🇺🇸 美国 CloudFlare节点 2
-  - 🇮🇳 印度 v2rayfree.eu.org
-  - 🇯🇵 日本3
-  - 🇰🇷 韩国
-  - 🇸🇬 新加坡3
   - 🇳🇱 荷兰 北荷兰省阿姆斯特丹DigitalOcean数据中心
   - 🇺🇸 美国 CloudFlare节点 3
+  - 🇺🇸 美国 Fastly全球Anycast节点
+  - 🇮🇳 印度 v2rayfree.eu.org
+  - 🇯🇵 日本
+  - 🇯🇵 日本2
+  - 🇺🇸 美国
+  - 🇺🇸 美国2
   - 美国(yudou66.com 玉豆免费节点) 3
   - 美国(yudou66.com 玉豆免费节点) 42
   type: url-test
