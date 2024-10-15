@@ -468,19 +468,318 @@ proxies:
     path: /vmess-ntls
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点
+  name: 加拿大 003
   network: ws
-  port: 2095
-  server: 104.26.5.90
-  skip-cert-verify: false
-  tfo: false
+  port: 443
+  server: 172.64.33.206
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 6501b611-f242-3d90-91d6-030b193ca11c
+  ws-opts:
+    headers:
+      Host: 100-100-17-497.db-link01.top
+    path: /dabai.in
+- alterId: 0
+  cipher: auto
+  name: 美国 036
+  network: ws
+  port: 8080
+  server: hk2.ddwdadk.xyz
+  servername: cdn.ddwdadk.xyz
+  skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
+  uuid: a0fd3429-e62a-499f-a6ba-b026be770222
+  ws-opts:
+    headers:
+      Host: hk2.ddwdadk.xyz
+    path: /xx
+- alterId: 0
+  cipher: auto
+  name: 加拿大 007
+  network: ws
+  port: 2095
+  server: 104.26.5.67
+  servername: ip2.8084726.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
   uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
   ws-opts:
     headers:
       Host: ip2.8084726.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 美国 037
+  network: ws
+  port: 8080
+  server: de-new01.daluquan.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 98fd18b6-0831-4f77-8819-747284800611
+  ws-opts:
+    headers:
+      Host: de-new01.daluquan.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 011
+  network: ws
+  port: 443
+  server: www.enefit.lt
+  servername: yelan.eula.cloudns.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  ws-opts:
+    headers:
+      Host: www.enefit.lt
+    path: /linkws/afrhms16v.bestxray.buzz
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /@HosseinStore_Za/@NEKO_Za
+  name: 德国 008
+  network: http
+  port: 34497
+  server: 195.254.165.63
+  servername: ttl.unique69.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 860a1295-0d81-403c-a179-97f396437809
+- alterId: 0
+  cipher: auto
+  name: 加拿大 023
+  network: ws
+  port: 2087
+  server: https.duduskying.tk
+  servername: db.duduskying.cf
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 3a955951-9f6d-4e3a-9349-c392d5a050a9
+  ws-opts:
+    headers:
+      Host: https.duduskying.tk
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 039
+  network: ws
+  port: 80
+  server: www.gco.gov.qa
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: be9cf152-7cf1-46f9-88ed-a55b343c927b
+  ws-opts:
+    headers:
+      Host: luodi.5468936.xyz
+    path: /linuxdo
+- alterId: 0
+  cipher: auto
+  name: 美国 040
+  network: ws
+  port: 443
+  server: lc.org
+  servername: yelan.thelastronin.cloudns.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: fa5b55cd-cafc-4de0-a4c8-722e02a9f58e
+  ws-opts:
+    headers:
+      Host: lc.org
+    path: /linkws/hms03.dongfeng.cfd
+- alterId: 0
+  cipher: auto
+  name: 塞浦路斯 001
+  network: ws
+  port: 80
+  server: csgo.com
+  servername: uk1.i9bpjgfhw.jiesk4pdqcqjo16j.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 8b45d379-702f-41b3-a6b2-9c87a01dcd5c
+  ws-opts:
+    headers:
+      Host: csgo.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 044
+  network: ws
+  port: 80
+  server: cdn1.bpcdn.cc
+  servername: uk1.i9bpjgfhw.jiesk4pdqcqjo16j.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5b9a6438-84d3-419e-bc32-43acc74b1c3c
+  ws-opts:
+    headers:
+      Host: cdn1.bpcdn.cc
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 新加坡 003
+  network: ws
+  port: 443
+  server: hkcft01.xqc.best
+  servername: d1zonq30ul7iu8.cloudfront.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: b7bd90fa-8430-4a71-bdf2-fd9adfce167c
+  ws-opts:
+    headers:
+      Host: hkcft01.xqc.best
+    path: /stream
+- alterId: 0
+  cipher: auto
+  name: 美国 045
+  network: ws
+  port: 443
+  server: live.theworldwidewolf.com
+  servername: Dbdjhiw72ebsu272hs519j.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: c1f488ca-76e5-44fe-8d3d-ec98566ee590
+  ws-opts:
+    headers:
+      Host: live.theworldwidewolf.com
+    path: ws/?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 日本 002
+  network: ws
+  port: 443
+  server: tls.98.node-for-bigairport.win
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: ef5fca10-41bc-4623-87a3-1170a7b51827
+  ws-opts:
+    headers:
+      Host: tls.98.node-for-bigairport.win
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 029
+  network: ws
+  port: 443
+  server: 3.clarity168.com
+  servername: 3.clarity168.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 48f837fa-12d0-498d-b5f6-94f9979736a4
+  ws-opts:
+    headers:
+      Host: 3.clarity168.com
+    path: /tk
+- alterId: 0
+  cipher: auto
+  name: 加拿大 032
+  network: ws
+  port: 443
+  server: space.byu.id
+  servername: id.mytun.cloud
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 1d1c1d94-6987-4658-a4dc-8821a30fe7e0
+  ws-opts:
+    headers:
+      Host: space.byu.id
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 加拿大 047
+  network: ws
+  port: 2086
+  server: ghfxsdfxbcvb_cdn.hfhfb.homes
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 200d3219-285b-4eeb-9bec-941268c71d21
+  ws-opts:
+    headers:
+      Host: twcdn2.fask511.cfd
+    path: /?ed=512
+- alterId: 0
+  cipher: auto
+  name: 加拿大 062
+  network: ws
+  port: 80
+  server: ipdb.030101.xyz
+  servername: osg1.841130.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 086fd76f-88f8-42a5-e7ae-d8053593aace
+  ws-opts:
+    headers:
+      Host: ipdb.030101.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 064
+  network: ws
+  port: 443
+  server: cdnip.6565.eu.org
+  servername: proxy-rn-dc2.6565.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 98271b65-72f4-438c-9c9e-7f0d225d99ea
+  ws-opts:
+    headers:
+      Host: cdnip.6565.eu.org
+    path: /4f8228
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点
+  network: ws
+  port: 2082
+  server: 162.159.140.91
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -501,89 +800,78 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇳🇱 荷兰 北荷兰省阿姆斯特丹DigitalOcean数据中心
-  port: 1010
-  server: 188.166.96.150
+  name: 🇺🇸 美国 CloudFlare节点 3
+  network: ws
+  port: 8880
+  server: server31.beheshtbaneh.com
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 09e3fef1-3136-41a9-9531-6ea36482dea1
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  ws-opts:
+    headers:
+      Host: server31.beheshtbaneh.com
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇺🇸 美国 Fastly全球Anycast节点
+  name: 🇺🇸 美国 CloudFlare节点 4
   network: ws
-  port: 443
-  server: gov.uk
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
-  ws-opts:
-    headers:
-      Host: zheshiscp.com
-    path: /77848824
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇨🇳 广东省广州市 移动
-  port: 35601
-  server: 120.232.153.40
+  port: 8880
+  server: 104.21.82.183
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇸🇬 新加坡
-  network: ws
-  port: 443
-  server: 192.53.172.172
-  servername: 192.53.172.172
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
   ws-opts:
     headers:
-      Host: 192.53.172.172
-    path: /nrMnVTFq
+      Host: server26.beheshtbaneh.com
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇸🇬 新加坡2
+  name: 🇺🇸 美国 CloudFlare节点 6
   network: ws
   port: 80
-  server: 47.84.66.79
+  server: 172.66.168.173
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 9caa711c-2490-4041-812d-edbcb994fd18
+  uuid: 83452b53-dabc-4d13-b2e6-b904ffee8f5b
   ws-opts:
-    path: /9caa711c
+    headers:
+      Host: 50907082685942059876387799824779.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
+    path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇺🇸 美国2 2
+  name: 🇮🇳 印度 v2rayfree.eu.org
   network: ws
   port: 443
-  server: ddd.zcr07.cloudns.biz
-  servername: ddd.zcr07.cloudns.biz
+  server: 202.78.162.5
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vmess
-  uuid: 62aa5f80-0328-4004-a375-7f5a59df4022
+  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
   ws-opts:
     headers:
-      Host: ddd.zcr07.cloudns.biz
-    path: /hms19.best-tizi.top:443/linkws
+      Host: irsoft.sytes.net
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇯🇵 日本2
+  port: 50031
+  server: 50031.baidu-cdn.top
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 4df8aa8f-1fd6-414d-8d2b-66b6a01ba2a8
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -606,38 +894,33 @@ proxies:
   tls: false
   type: vmess
   uuid: 83876222-64a4-4912-aa18-b7d9d34959de
-- alterId: 0
+- alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点 4
-  network: ws
-  port: 2082
-  server: 162.159.140.91
+  name: 🇨🇳 广东省广州市 移动
+  port: 35601
+  server: 120.232.153.40
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip3.6929198.xyz
-    path: github.com/Alvin9999
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇮🇳 印度 v2rayfree.eu.org
+  name: 🇺🇸 美国 Fastly全球Anycast节点
   network: ws
   port: 443
-  server: 202.78.162.5
+  server: gov.uk
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vmess
-  uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
+  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
   ws-opts:
     headers:
-      Host: sahand.serveminecraft.net
-    path: /
+      Host: zheshiscp.com
+    path: /77848824
 - alterId: 0
   cipher: auto
   name: 美国(yudou66.com 玉豆免费节点) 3
@@ -698,18 +981,36 @@ proxy-groups:
   - 新加坡 002
   - 美国 023
   - 美国 035
+  - 加拿大 003
+  - 美国 036
+  - 加拿大 007
+  - 美国 037
+  - 加拿大 011
+  - 德国 008
+  - 加拿大 023
+  - 美国 039
+  - 美国 040
+  - 塞浦路斯 001
+  - 美国 044
+  - 新加坡 003
+  - 美国 045
+  - 日本 002
+  - 加拿大 029
+  - 加拿大 032
+  - 加拿大 047
+  - 加拿大 062
+  - 加拿大 064
   - 🇺🇸 美国 CloudFlare节点
   - 🇺🇸 美国 CloudFlare节点 2
-  - 🇳🇱 荷兰 北荷兰省阿姆斯特丹DigitalOcean数据中心
-  - 🇺🇸 美国 Fastly全球Anycast节点
-  - 🇨🇳 广东省广州市 移动
-  - 🇸🇬 新加坡
-  - 🇸🇬 新加坡2
-  - 🇺🇸 美国2 2
+  - 🇺🇸 美国 CloudFlare节点 3
+  - 🇺🇸 美国 CloudFlare节点 4
+  - 🇺🇸 美国 CloudFlare节点 6
+  - 🇮🇳 印度 v2rayfree.eu.org
+  - 🇯🇵 日本2
   - 🇩🇪 德国
   - 🇮🇹 意大利
-  - 🇺🇸 美国 CloudFlare节点 4
-  - 🇮🇳 印度 v2rayfree.eu.org
+  - 🇨🇳 广东省广州市 移动
+  - 🇺🇸 美国 Fastly全球Anycast节点
   - 美国(yudou66.com 玉豆免费节点) 3
   - 美国(yudou66.com 玉豆免费节点) 42
   type: select
@@ -746,18 +1047,36 @@ proxy-groups:
   - 新加坡 002
   - 美国 023
   - 美国 035
+  - 加拿大 003
+  - 美国 036
+  - 加拿大 007
+  - 美国 037
+  - 加拿大 011
+  - 德国 008
+  - 加拿大 023
+  - 美国 039
+  - 美国 040
+  - 塞浦路斯 001
+  - 美国 044
+  - 新加坡 003
+  - 美国 045
+  - 日本 002
+  - 加拿大 029
+  - 加拿大 032
+  - 加拿大 047
+  - 加拿大 062
+  - 加拿大 064
   - 🇺🇸 美国 CloudFlare节点
   - 🇺🇸 美国 CloudFlare节点 2
-  - 🇳🇱 荷兰 北荷兰省阿姆斯特丹DigitalOcean数据中心
-  - 🇺🇸 美国 Fastly全球Anycast节点
-  - 🇨🇳 广东省广州市 移动
-  - 🇸🇬 新加坡
-  - 🇸🇬 新加坡2
-  - 🇺🇸 美国2 2
+  - 🇺🇸 美国 CloudFlare节点 3
+  - 🇺🇸 美国 CloudFlare节点 4
+  - 🇺🇸 美国 CloudFlare节点 6
+  - 🇮🇳 印度 v2rayfree.eu.org
+  - 🇯🇵 日本2
   - 🇩🇪 德国
   - 🇮🇹 意大利
-  - 🇺🇸 美国 CloudFlare节点 4
-  - 🇮🇳 印度 v2rayfree.eu.org
+  - 🇨🇳 广东省广州市 移动
+  - 🇺🇸 美国 Fastly全球Anycast节点
   - 美国(yudou66.com 玉豆免费节点) 3
   - 美国(yudou66.com 玉豆免费节点) 42
   type: url-test
