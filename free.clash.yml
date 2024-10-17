@@ -788,24 +788,13 @@ proxies:
     headers:
       Host: redplanetchina.com
     path: /linkws/adenc36v.xtooltech.cfd
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇨🇳 广东省广州市 移动
-  port: 43526
-  server: 120.232.153.71
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
   name: 🇺🇸 美国 CloudFlare节点
   network: ws
   port: 2082
-  server: 172.64.167.25
+  server: singapore.com
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -829,51 +818,121 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇮🇳 印度 v2rayfree.eu.org
+  name: 🇺🇸 美国 CloudFlare节点 2
   network: ws
-  port: 443
-  server: 202.78.162.5
+  port: 8080
+  server: www.darkroom.lol
   skip-cert-verify: false
   tfo: false
-  tls: true
+  tls: false
   type: vmess
-  uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
     headers:
-      Host: sahand.serveminecraft.net
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇮🇳 印度 v2rayfree.eu.org 2
-  network: ws
-  port: 443
-  server: 202.78.162.5
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
-  ws-opts:
-    headers:
-      Host: pendar.onthewifi.com
+      Host: www.darkroom.lol
     path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
   name: 🇺🇸 美国 CloudFlare节点 3
   network: ws
-  port: 80
-  server: 172.66.168.173
+  port: 2095
+  server: 172.64.166.20
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 83452b53-dabc-4d13-b2e6-b904ffee8f5b
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: 50907082685942059876387799824779.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
+      Host: ip2.6016725.xyz
+    path: github.com/Alvin9999
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇨🇳 广东省广州市 移动
+  port: 58831
+  server: 120.232.153.27
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点 6
+  network: ws
+  port: 80
+  server: 104.21.80.180
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 219eb7ea-8f9a-4af8-857b-4b4b564224ef
+  ws-opts:
+    headers:
+      Host: jp02.knt6y4bjx.buzz
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点 15
+  network: ws
+  port: 443
+  server: 104.17.213.57
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e
+  ws-opts:
+    headers:
+      Host: xmivideo.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 v2rayfree.eu.org
+  port: 22324
+  server: 23.162.200.182
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点 18
+  network: ws
+  port: 80
+  server: 172.67.64.120
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 7a8c8e19-b110-4224-89c5-f32f8c9b07eb
+  ws-opts:
+    headers:
+      Host: 68690907783461163508239105253758.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇫🇷 法国 法国计算机科学大学
+  network: ws
+  port: 443
+  server: irvideo.cfd
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  ws-opts:
+    headers:
+      Host: irvideo.cfd
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -912,6 +971,17 @@ proxies:
     headers:
       Host: us5aVnNnWmn.wawhnyjm.xyz
     path: /video/MmoigmCm
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇩🇪 德国
+  port: 43526
+  server: 120.232.153.71
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -923,6 +993,38 @@ proxies:
   tls: false
   type: vmess
   uuid: 83876222-64a4-4912-aa18-b7d9d34959de
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇮🇳 印度
+  network: ws
+  port: 443
+  server: 202.78.162.5
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+  ws-opts:
+    headers:
+      Host: pendar.onthewifi.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇮🇳 印度  2
+  network: ws
+  port: 443
+  server: 202.78.162.5
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
+  ws-opts:
+    headers:
+      Host: sahand.serveminecraft.net
+    path: /
 - alterId: 0
   cipher: auto
   fingerprint: ''
@@ -1036,16 +1138,23 @@ proxy-groups:
   - 加拿大 064
   - 加拿大 068
   - 加拿大 070
-  - 🇨🇳 广东省广州市 移动
   - 🇺🇸 美国 CloudFlare节点
   - 🇨🇳 广东省 移动
-  - 🇮🇳 印度 v2rayfree.eu.org
-  - 🇮🇳 印度 v2rayfree.eu.org 2
+  - 🇺🇸 美国 CloudFlare节点 2
   - 🇺🇸 美国 CloudFlare节点 3
+  - 🇨🇳 广东省广州市 移动
+  - 🇺🇸 美国 CloudFlare节点 6
+  - 🇺🇸 美国 CloudFlare节点 15
+  - 🇺🇸 美国 v2rayfree.eu.org
+  - 🇺🇸 美国 CloudFlare节点 18
+  - 🇫🇷 法国 法国计算机科学大学
   - 🇯🇵 日本3
   - 🇯🇵 日本5
   - 🇺🇸 美国
+  - 🇩🇪 德国
   - 🇮🇹 意大利
+  - 🇮🇳 印度
+  - 🇮🇳 印度  2
   - 🇮🇷_IR_伊朗->🇫🇷_FR_法国_2
   - 🇺🇸_US_美国_31
   - 🇺🇸_US_美国_36
@@ -1104,16 +1213,23 @@ proxy-groups:
   - 加拿大 064
   - 加拿大 068
   - 加拿大 070
-  - 🇨🇳 广东省广州市 移动
   - 🇺🇸 美国 CloudFlare节点
   - 🇨🇳 广东省 移动
-  - 🇮🇳 印度 v2rayfree.eu.org
-  - 🇮🇳 印度 v2rayfree.eu.org 2
+  - 🇺🇸 美国 CloudFlare节点 2
   - 🇺🇸 美国 CloudFlare节点 3
+  - 🇨🇳 广东省广州市 移动
+  - 🇺🇸 美国 CloudFlare节点 6
+  - 🇺🇸 美国 CloudFlare节点 15
+  - 🇺🇸 美国 v2rayfree.eu.org
+  - 🇺🇸 美国 CloudFlare节点 18
+  - 🇫🇷 法国 法国计算机科学大学
   - 🇯🇵 日本3
   - 🇯🇵 日本5
   - 🇺🇸 美国
+  - 🇩🇪 德国
   - 🇮🇹 意大利
+  - 🇮🇳 印度
+  - 🇮🇳 印度  2
   - 🇮🇷_IR_伊朗->🇫🇷_FR_法国_2
   - 🇺🇸_US_美国_31
   - 🇺🇸_US_美国_36
