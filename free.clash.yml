@@ -191,15 +191,6 @@ proxies:
   uuid: 691d7622-44cd-4a99-9f0a-34e3b6b9b115
 - alterId: 0
   cipher: auto
-  name: 伊朗 002
-  network: tcp
-  port: 80
-  server: prom2.fast-film.ir
-  skip-cert-verify: true
-  type: vmess
-  uuid: 99950228-b709-4eea-b186-d2712e3af45a
-- alterId: 0
-  cipher: auto
   name: 加拿大 072
   network: ws
   port: 8880
@@ -797,6 +788,44 @@ proxies:
     headers:
       Host: redplanetchina.com
     path: /linkws/adenc36v.xtooltech.cfd
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇨🇳 广东省广州市 移动
+  port: 43526
+  server: 120.232.153.71
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点
+  network: ws
+  port: 2082
+  server: 172.64.167.25
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇨🇳 广东省 移动
+  port: 12960
+  server: z3.fragranceninja.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: a32313ad-5e39-4f9a-9cad-512041790050
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -832,41 +861,57 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇨🇳 广东省 移动
-  port: 12960
-  server: z3.fragranceninja.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇨🇳 广东省广州市 移动
-  port: 43526
-  server: 120.232.153.40
+  name: 🇺🇸 美国 CloudFlare节点 3
+  network: ws
+  port: 80
+  server: 172.66.168.173
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
+  uuid: 83452b53-dabc-4d13-b2e6-b904ffee8f5b
+  ws-opts:
+    headers:
+      Host: 50907082685942059876387799824779.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
+    path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇩🇰 丹麦 v2rayfree.eu.org
-  network: ws
-  port: 80
-  server: go.alipay.ovh
+  name: 🇯🇵 日本3
+  port: 50032
+  server: 50032.baidu-cdn.top
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: a94171be-b387-4f02-a5ef-a1b4b7a26c04
+  uuid: 0900abc9-29a4-4f70-98de-336b5d4b79d6
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇯🇵 日本5
+  port: 35976
+  server: 5.104.82.173
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: dccaf5fa-5482-49cb-8519-5434af52ccbc
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国
+  network: ws
+  port: 2086
+  server: cfcdn1.sanfencdn9.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
   ws-opts:
     headers:
-      Host: open.alipay.ovh
-    path: /aries?ed=2048
+      Host: us5aVnNnWmn.wawhnyjm.xyz
+    path: /video/MmoigmCm
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -880,36 +925,47 @@ proxies:
   uuid: 83876222-64a4-4912-aa18-b7d9d34959de
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点
+  fingerprint: ''
+  name: 🇮🇷_IR_伊朗->🇫🇷_FR_法国_2
   network: ws
-  port: 2095
-  server: 162.159.140.19
-  skip-cert-verify: false
-  tfo: false
-  tls: false
+  port: 2083
+  server: 193.151.144.26
+  sni: ''
   type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  udp: true
+  uuid: 7b33bc8f-7014-4814-afb1-1c4d7f25314c
   ws-opts:
     headers:
-      Host: ip2.6016725.xyz
-    path: github.com/Alvin9999
+      host: tv.filmnet.ir
+    path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点 2
+  fingerprint: ''
+  name: 🇺🇸_US_美国_31
   network: ws
-  port: 2082
-  server: 162.159.140.93
-  skip-cert-verify: false
-  tfo: false
-  tls: false
+  port: 2052
+  server: speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.expresstv.ggff.net
+  sni: ''
   type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  udp: true
+  uuid: 4b1168e7-82b0-43a7-8dbc-b22b61547ef4
   ws-opts:
     headers:
-      Host: ip3.6929198.xyz
-    path: github.com/Alvin9999
+      host: speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.expresstv.ggff.net
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_36
+  network: ws
+  port: 80
+  server: 162.159.136.98
+  type: vmess
+  udp: true
+  uuid: 5820093a-bb7d-4e15-8575-1a529f2d8282
+  ws-opts:
+    headers:
+      host: rn2.hostmjj.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 美国(yudou66.com 玉豆免费节点) 42
@@ -942,7 +998,6 @@ proxy-groups:
   - 美国 015
   - 加拿大 042
   - 加拿大 048
-  - 伊朗 002
   - 加拿大 072
   - 加拿大 073
   - 越南 001
@@ -981,14 +1036,19 @@ proxy-groups:
   - 加拿大 064
   - 加拿大 068
   - 加拿大 070
+  - 🇨🇳 广东省广州市 移动
+  - 🇺🇸 美国 CloudFlare节点
+  - 🇨🇳 广东省 移动
   - 🇮🇳 印度 v2rayfree.eu.org
   - 🇮🇳 印度 v2rayfree.eu.org 2
-  - 🇨🇳 广东省 移动
-  - 🇨🇳 广东省广州市 移动
-  - 🇩🇰 丹麦 v2rayfree.eu.org
+  - 🇺🇸 美国 CloudFlare节点 3
+  - 🇯🇵 日本3
+  - 🇯🇵 日本5
+  - 🇺🇸 美国
   - 🇮🇹 意大利
-  - 🇺🇸 美国 CloudFlare节点
-  - 🇺🇸 美国 CloudFlare节点 2
+  - 🇮🇷_IR_伊朗->🇫🇷_FR_法国_2
+  - 🇺🇸_US_美国_31
+  - 🇺🇸_US_美国_36
   - 美国(yudou66.com 玉豆免费节点) 42
   type: select
 - interval: 300
@@ -1006,7 +1066,6 @@ proxy-groups:
   - 美国 015
   - 加拿大 042
   - 加拿大 048
-  - 伊朗 002
   - 加拿大 072
   - 加拿大 073
   - 越南 001
@@ -1045,14 +1104,19 @@ proxy-groups:
   - 加拿大 064
   - 加拿大 068
   - 加拿大 070
+  - 🇨🇳 广东省广州市 移动
+  - 🇺🇸 美国 CloudFlare节点
+  - 🇨🇳 广东省 移动
   - 🇮🇳 印度 v2rayfree.eu.org
   - 🇮🇳 印度 v2rayfree.eu.org 2
-  - 🇨🇳 广东省 移动
-  - 🇨🇳 广东省广州市 移动
-  - 🇩🇰 丹麦 v2rayfree.eu.org
+  - 🇺🇸 美国 CloudFlare节点 3
+  - 🇯🇵 日本3
+  - 🇯🇵 日本5
+  - 🇺🇸 美国
   - 🇮🇹 意大利
-  - 🇺🇸 美国 CloudFlare节点
-  - 🇺🇸 美国 CloudFlare节点 2
+  - 🇮🇷_IR_伊朗->🇫🇷_FR_法国_2
+  - 🇺🇸_US_美国_31
+  - 🇺🇸_US_美国_36
   - 美国(yudou66.com 玉豆免费节点) 42
   type: url-test
   url: http://www.google.com/generate_204
