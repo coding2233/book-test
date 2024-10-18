@@ -806,120 +806,332 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点
+  name: 加拿大 055
   network: ws
   port: 2095
-  server: 172.64.175.88
-  skip-cert-verify: false
-  tfo: false
+  server: qxcstxwbcvb_cdn.hfhfb.homes
   tls: false
   type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  udp: true
+  uuid: 54895917-9761-487f-b949-1476bf8193ea
   ws-opts:
     headers:
-      Host: ip2.6016725.xyz
+      Host: frcdn4.fask511.cfd
+    path: /?ed=512
+- alterId: 0
+  cipher: auto
+  name: 加拿大 087
+  network: ws
+  port: 80
+  server: yx.sulink.one
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2c61659c-1367-44a8-bd94-649dacc854b7
+  ws-opts:
+    headers:
+      Host: sg05.sulink.one
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 法国 006
+  network: ws
+  port: 443
+  server: irvideo.cfd
+  tls: true
+  type: vmess
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  ws-opts:
+    headers:
+      Host: irvideo.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 美国 004
+  network: ws
+  port: 12345
+  server: 23.170.40.116
+  tls: false
+  type: vmess
+  uuid: 0c7fe100-fcce-4c6d-8208-a53f73e93e17
+  ws-opts:
+    headers:
+      Host: www.bing.com
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点 2
+  name: 加拿大 090
   network: ws
-  port: 8080
-  server: www.darkroom.lol
-  skip-cert-verify: false
-  tfo: false
+  port: 80
+  server: jx.jixingnetwork.sbs
   tls: false
   type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  udp: true
+  uuid: 5a0c2058-a1dd-4043-93c2-02465ae3cfd0
   ws-opts:
     headers:
-      Host: www.darkroom.lol
+      Host: mg01.jixingwangluo.top
     path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点 3
-  network: ws
-  port: 2082
-  server: fbi.gov
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip15.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇮🇳 印度 v2rayfree.eu.org
+  name: 加拿大 099
   network: ws
   port: 443
-  server: 202.78.162.5
+  server: hms19.best-tizi.top
   skip-cert-verify: false
-  tfo: false
   tls: true
   type: vmess
-  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+  uuid: 62aa5f80-0328-4004-a375-7f5a59df4022
   ws-opts:
     headers:
-      Host: pendar.onthewifi.com
+      Host: hms19.best-tizi.top
     path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国 华盛顿Cogent通信公司
+  name: 加拿大 105
   network: ws
   port: 443
-  server: 38.99.82.203
+  server: 172.67.223.119
   skip-cert-verify: false
-  tfo: false
+  tls: true
+  type: vmess
+  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
+  ws-opts:
+    headers:
+      Host: hms02.fxiaomi.sbs
+    path: /
+- alterId: 1
+  cipher: auto
+  name: 加拿大 108
+  network: ws
+  port: 443
+  server: e.darat.homes
+  skip-cert-verify: false
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: 38.99.82.203
-    path: /linkvws
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇨🇳 广东省广州市 移动
-  port: 33288
-  server: 183.236.48.161
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+      Host: e.darat.homes
+    path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点 16
+  name: 加拿大 109
   network: ws
   port: 80
   server: 172.67.64.120
   skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 7a8c8e19-b110-4224-89c5-f32f8c9b07eb
   ws-opts:
     headers:
       Host: 68690907783461163508239105253758.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
-    path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
+    path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国 Fastly全球Anycast节点
+  name: 加拿大 110
+  network: ws
+  port: 443
+  server: 172.67.136.233
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  ws-opts:
+    headers:
+      Host: az05.beyondy.cfd
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 053
+  network: ws
+  port: 2095
+  server: 172.64.166.28
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 055
+  network: ws
+  port: 2082
+  server: 172.64.198.249
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 153
+  network: ws
+  port: 2052
+  server: 104.16.38.71
+  tls: false
+  type: vmess
+  uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
+  ws-opts:
+    headers:
+      Host: us6_0.wish.ml
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 156
+  network: ws
+  port: 2082
+  server: 104.21.8.157
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      Host: s1c.v2.v001sss.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 072
+  network: ws
+  port: 80
+  server: 172.67.116.48
+  tls: false
+  type: vmess
+  uuid: 22a13aa2-4854-44cb-e090-ec71ab84b1ff
+  ws-opts:
+    headers:
+      Host: wap.hostmjj.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 阿联酋 001
+  network: ws
+  port: 8880
+  server: 94.140.0.110
+  tls: false
+  type: vmess
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  ws-opts:
+    headers:
+      Host: food.zhaal.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 157
+  network: ws
+  port: 8080
+  server: 23.227.38.23
+  tls: false
+  type: vmess
+  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
+  ws-opts:
+    headers:
+      Host: uh-lawyers-instruments-kernel.trycloudflare.com
+    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
+- alterId: 0
+  cipher: auto
+  name: 加拿大 158
+  network: ws
+  port: 8080
+  server: 162.159.5.6
+  tls: false
+  type: vmess
+  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
+  ws-opts:
+    headers:
+      Host: pcs-referenced-camera-concerns.trycloudflare.com
+    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
+- alterId: 0
+  cipher: auto
+  name: 加拿大 159
+  network: ws
+  port: 8080
+  server: 162.159.134.23
+  tls: false
+  type: vmess
+  uuid: 9b196b50-37f2-4f4b-b175-06273adc6207
+  ws-opts:
+    headers:
+      Host: championship-bidding-oxygen-brochure.trycloudflare.com
+    path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm
+- alterId: 0
+  cipher: auto
+  name: 加拿大 162
+  network: ws
+  port: 8880
+  server: russia.com
+  tls: false
+  type: vmess
+  uuid: 6658a3a6-225a-4d33-a5d2-82cfde565b4e
+  ws-opts:
+    headers:
+      Host: ssrsub.v03.ssrsub.com
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: 加拿大 163
+  network: ws
+  port: 8080
+  server: fbi.gov
+  tls: false
+  type: vmess
+  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+  ws-opts:
+    headers:
+      Host: bibliographic-sword-sequence-advertisers.trycloudflare.com
+    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+- alterId: 0
+  cipher: auto
+  name: 加拿大 164
+  network: ws
+  port: 443
+  server: hms082.gwdef.sbs
+  tls: true
+  type: vmess
+  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
+  ws-opts:
+    headers:
+      Host: gwdef.sbs
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 加拿大 165
+  network: ws
+  port: 80
+  server: 104.21.234.52
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 卢森堡 001
+  network: ws
+  port: 443
+  server: 202.78.162.5
+  tls: true
+  type: vmess
+  uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
+  ws-opts:
+    headers:
+      Host: sahand.serveminecraft.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 074
   network: ws
   port: 443
   server: speedtest.net
-  skip-cert-verify: false
-  tfo: false
   tls: true
   type: vmess
   uuid: 57727d7d-8873-4000-b3f4-33a93fcfdd51
@@ -929,13 +1141,10 @@ proxies:
     path: /m28jcoZZUhkqg6pk11
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国 Fastly全球Anycast节点 2
+  name: 美国 076
   network: ws
   port: 443
   server: gov.uk
-  skip-cert-verify: false
-  tfo: false
   tls: true
   type: vmess
   uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
@@ -945,8 +1154,90 @@ proxies:
     path: /77848824
 - alterId: 0
   cipher: auto
+  name: 加拿大 171
+  network: ws
+  port: 8080
+  server: www.darkroom.lol
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.darkroom.lol
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 塞浦路斯 003
+  network: ws
+  port: 80
+  server: 195.85.59.95
+  tls: false
+  type: vmess
+  uuid: a94171be-b387-4f02-a5ef-a1b4b7a26c04
+  ws-opts:
+    headers:
+      Host: open.alipay.ovh
+    path: /aries?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 加拿大 179
+  network: ws
+  port: 8880
+  server: server31.beheshtbaneh.com
+  tls: false
+  type: vmess
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  ws-opts:
+    headers:
+      Host: server31.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 180
+  network: ws
+  port: 8880
+  server: 104.21.82.183
+  tls: false
+  type: vmess
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  ws-opts:
+    headers:
+      Host: server26.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 082
+  network: ws
+  port: 80
+  server: 104.18.15.147
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c34d94d9-97d4-4496-9b7f-727dd678e1e0
+  ws-opts:
+    headers:
+      Host: ca3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 1757
+  name: 加拿大 195
+  network: ws
+  port: 443
+  server: 104.17.213.57
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e
+  ws-opts:
+    headers:
+      Host: xmivideo.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点 20
+  name: 🇺🇸 美国 CloudFlare节点 3
   network: ws
   port: 80
   server: 3.gogolemon.top
@@ -959,44 +1250,17 @@ proxies:
     headers:
       Host: shs.kejixiaoqi666.store
     path: /
-- alterId: 0
+- alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 🇯🇵 日本3
-  port: 50032
-  server: 50032.baidu-cdn.top
+  name: 🇨🇳 广东省广州市 移动
+  port: 58831
+  server: 120.232.153.27
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 0900abc9-29a4-4f70-98de-336b5d4b79d6
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇯🇵 日本5
-  port: 35976
-  server: 5.104.82.173
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: dccaf5fa-5482-49cb-8519-5434af52ccbc
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国
-  network: ws
-  port: 2086
-  server: cfcdn1.sanfencdn9.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
-  ws-opts:
-    headers:
-      Host: us5aVnNnWmn.wawhnyjm.xyz
-    path: /video/MmoigmCm
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -1008,33 +1272,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇮🇹 意大利
-  port: 2098
-  server: f41.maryam1500.top
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 83876222-64a4-4912-aa18-b7d9d34959de
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点 7
-  network: ws
-  port: 8880
-  server: server31.beheshtbaneh.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
-  ws-opts:
-    headers:
-      Host: server31.beheshtbaneh.com
-    path: /
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -1049,66 +1286,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇫🇷 法国 法国计算机科学大学
-  network: ws
-  port: 443
-  server: irvideo.cfd
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
-  ws-opts:
-    headers:
-      Host: irvideo.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  fingerprint: ''
-  name: 🇮🇷_IR_伊朗->🇫🇷_FR_法国_2
-  network: ws
-  port: 2083
-  server: 193.151.144.26
-  sni: ''
-  type: vmess
-  udp: true
-  uuid: 7b33bc8f-7014-4814-afb1-1c4d7f25314c
-  ws-opts:
-    headers:
-      host: tv.filmnet.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  fingerprint: ''
-  name: 🇺🇸_US_美国_31
-  network: ws
-  port: 2052
-  server: speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.expresstv.ggff.net
-  sni: ''
-  type: vmess
-  udp: true
-  uuid: 4b1168e7-82b0-43a7-8dbc-b22b61547ef4
-  ws-opts:
-    headers:
-      host: speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.expresstv.ggff.net
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_36
-  network: ws
-  port: 80
-  server: 162.159.136.98
-  type: vmess
-  udp: true
-  uuid: 5820093a-bb7d-4e15-8575-1a529f2d8282
-  ws-opts:
-    headers:
-      host: rn2.hostmjj.com
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇮🇳 印度  2
+  name: 🇮🇳 印度
   network: ws
   port: 443
   server: 202.78.162.5
@@ -1116,10 +1294,10 @@ proxies:
   tfo: false
   tls: true
   type: vmess
-  uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
+  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
   ws-opts:
     headers:
-      Host: sahand.serveminecraft.net
+      Host: pendar.onthewifi.com
     path: /
 - alterId: 0
   cipher: auto
@@ -1202,28 +1380,43 @@ proxy-groups:
   - 加拿大 068
   - 加拿大 070
   - 塞浦路斯 002
-  - 🇺🇸 美国 CloudFlare节点
-  - 🇺🇸 美国 CloudFlare节点 2
+  - 加拿大 055
+  - 加拿大 087
+  - 法国 006
+  - 美国 004
+  - 加拿大 090
+  - 加拿大 099
+  - 加拿大 105
+  - 加拿大 108
+  - 加拿大 109
+  - 加拿大 110
+  - 美国 053
+  - 美国 055
+  - 加拿大 153
+  - 加拿大 156
+  - 美国 072
+  - 阿联酋 001
+  - 加拿大 157
+  - 加拿大 158
+  - 加拿大 159
+  - 加拿大 162
+  - 加拿大 163
+  - 加拿大 164
+  - 加拿大 165
+  - 卢森堡 001
+  - 美国 074
+  - 美国 076
+  - 加拿大 171
+  - 塞浦路斯 003
+  - 加拿大 179
+  - 加拿大 180
+  - 美国 082
+  - 加拿大 195
   - 🇺🇸 美国 CloudFlare节点 3
-  - 🇮🇳 印度 v2rayfree.eu.org
-  - 🇺🇸 美国 华盛顿Cogent通信公司
   - 🇨🇳 广东省广州市 移动
-  - 🇺🇸 美国 CloudFlare节点 16
-  - 🇺🇸 美国 Fastly全球Anycast节点
-  - 🇺🇸 美国 Fastly全球Anycast节点 2
-  - 🇺🇸 美国 CloudFlare节点 20
-  - 🇯🇵 日本3
-  - 🇯🇵 日本5
-  - 🇺🇸 美国
   - 🇩🇪 德国
-  - 🇮🇹 意大利
-  - 🇺🇸 美国 CloudFlare节点 7
   - 🇨🇳 广东省中山市 移动
-  - 🇫🇷 法国 法国计算机科学大学
-  - 🇮🇷_IR_伊朗->🇫🇷_FR_法国_2
-  - 🇺🇸_US_美国_31
-  - 🇺🇸_US_美国_36
-  - 🇮🇳 印度  2
+  - 🇮🇳 印度
   - 美国(yudou66.com 玉豆免费节点) 3
   - 美国(yudou66.com 玉豆免费节点) 42
   type: select
@@ -1281,28 +1474,43 @@ proxy-groups:
   - 加拿大 068
   - 加拿大 070
   - 塞浦路斯 002
-  - 🇺🇸 美国 CloudFlare节点
-  - 🇺🇸 美国 CloudFlare节点 2
+  - 加拿大 055
+  - 加拿大 087
+  - 法国 006
+  - 美国 004
+  - 加拿大 090
+  - 加拿大 099
+  - 加拿大 105
+  - 加拿大 108
+  - 加拿大 109
+  - 加拿大 110
+  - 美国 053
+  - 美国 055
+  - 加拿大 153
+  - 加拿大 156
+  - 美国 072
+  - 阿联酋 001
+  - 加拿大 157
+  - 加拿大 158
+  - 加拿大 159
+  - 加拿大 162
+  - 加拿大 163
+  - 加拿大 164
+  - 加拿大 165
+  - 卢森堡 001
+  - 美国 074
+  - 美国 076
+  - 加拿大 171
+  - 塞浦路斯 003
+  - 加拿大 179
+  - 加拿大 180
+  - 美国 082
+  - 加拿大 195
   - 🇺🇸 美国 CloudFlare节点 3
-  - 🇮🇳 印度 v2rayfree.eu.org
-  - 🇺🇸 美国 华盛顿Cogent通信公司
   - 🇨🇳 广东省广州市 移动
-  - 🇺🇸 美国 CloudFlare节点 16
-  - 🇺🇸 美国 Fastly全球Anycast节点
-  - 🇺🇸 美国 Fastly全球Anycast节点 2
-  - 🇺🇸 美国 CloudFlare节点 20
-  - 🇯🇵 日本3
-  - 🇯🇵 日本5
-  - 🇺🇸 美国
   - 🇩🇪 德国
-  - 🇮🇹 意大利
-  - 🇺🇸 美国 CloudFlare节点 7
   - 🇨🇳 广东省中山市 移动
-  - 🇫🇷 法国 法国计算机科学大学
-  - 🇮🇷_IR_伊朗->🇫🇷_FR_法国_2
-  - 🇺🇸_US_美国_31
-  - 🇺🇸_US_美国_36
-  - 🇮🇳 印度  2
+  - 🇮🇳 印度
   - 美国(yudou66.com 玉豆免费节点) 3
   - 美国(yudou66.com 玉豆免费节点) 42
   type: url-test
