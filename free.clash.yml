@@ -1236,26 +1236,22 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点 3
+  name: 🇺🇸_US_美国->🇫🇷_FR_法国
   network: ws
   port: 80
-  server: 3.gogolemon.top
-  skip-cert-verify: false
-  tfo: false
-  tls: false
+  server: 151.101.2.228
   type: vmess
-  uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312
+  uuid: 7f3e901c-76eb-4480-8803-947e4674ecaa
   ws-opts:
     headers:
-      Host: shs.kejixiaoqi666.store
-    path: /
+      host: bRItISh.ovH.55.ISVvpn.UK.
+    path: /RACEVPN?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
   name: 🇨🇳 广东省广州市 移动
-  port: 58831
-  server: 120.232.153.27
+  port: 45020
+  server: 183.236.51.23
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -1412,7 +1408,7 @@ proxy-groups:
   - 加拿大 180
   - 美国 082
   - 加拿大 195
-  - 🇺🇸 美国 CloudFlare节点 3
+  - 🇺🇸_US_美国->🇫🇷_FR_法国
   - 🇨🇳 广东省广州市 移动
   - 🇩🇪 德国
   - 🇨🇳 广东省中山市 移动
@@ -1506,7 +1502,7 @@ proxy-groups:
   - 加拿大 180
   - 美国 082
   - 加拿大 195
-  - 🇺🇸 美国 CloudFlare节点 3
+  - 🇺🇸_US_美国->🇫🇷_FR_法国
   - 🇨🇳 广东省广州市 移动
   - 🇩🇪 德国
   - 🇨🇳 广东省中山市 移动
