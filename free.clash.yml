@@ -790,31 +790,36 @@ proxies:
     path: /linkws/adenc36v.xtooltech.cfd
 - alterId: 0
   cipher: auto
+  name: 塞浦路斯 002
+  network: ws
+  port: 443
+  server: www.csgo.com
+  servername: usfree.supernike.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: ab7ddc02-4f1a-4e57-b266-7e24a13ada07
+  ws-opts:
+    headers:
+      Host: www.csgo.com
+    path: /
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: 🇺🇸 美国 CloudFlare节点
   network: ws
-  port: 2082
-  server: singapore.com
+  port: 2095
+  server: 172.64.175.88
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: ip3.6929198.xyz
+      Host: ip2.6016725.xyz
     path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇨🇳 广东省 移动
-  port: 12960
-  server: z3.fragranceninja.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -836,23 +841,55 @@ proxies:
   client-fingerprint: chrome
   name: 🇺🇸 美国 CloudFlare节点 3
   network: ws
-  port: 2095
-  server: 172.64.166.20
+  port: 2082
+  server: fbi.gov
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip2.6016725.xyz
-    path: github.com/Alvin9999
+      Host: ip15.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇮🇳 印度 v2rayfree.eu.org
+  network: ws
+  port: 443
+  server: 202.78.162.5
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+  ws-opts:
+    headers:
+      Host: pendar.onthewifi.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 华盛顿Cogent通信公司
+  network: ws
+  port: 443
+  server: 38.99.82.203
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 38.99.82.203
+    path: /linkvws
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
   name: 🇨🇳 广东省广州市 移动
-  port: 58831
-  server: 120.232.153.27
+  port: 33288
+  server: 183.236.48.161
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -861,50 +898,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点 6
-  network: ws
-  port: 80
-  server: 104.21.80.180
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 219eb7ea-8f9a-4af8-857b-4b4b564224ef
-  ws-opts:
-    headers:
-      Host: jp02.knt6y4bjx.buzz
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点 15
-  network: ws
-  port: 443
-  server: 104.17.213.57
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e
-  ws-opts:
-    headers:
-      Host: xmivideo.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国 v2rayfree.eu.org
-  port: 22324
-  server: 23.162.200.182
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点 18
+  name: 🇺🇸 美国 CloudFlare节点 16
   network: ws
   port: 80
   server: 172.67.64.120
@@ -920,18 +914,50 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇫🇷 法国 法国计算机科学大学
+  name: 🇺🇸 美国 Fastly全球Anycast节点
   network: ws
   port: 443
-  server: irvideo.cfd
+  server: speedtest.net
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vmess
-  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  uuid: 57727d7d-8873-4000-b3f4-33a93fcfdd51
   ws-opts:
     headers:
-      Host: irvideo.cfd
+      Host: mehrjavan.ir
+    path: /m28jcoZZUhkqg6pk11
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 Fastly全球Anycast节点 2
+  network: ws
+  port: 443
+  server: gov.uk
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+  ws-opts:
+    headers:
+      Host: zheshiscp.com
+    path: /77848824
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点 20
+  network: ws
+  port: 80
+  server: 3.gogolemon.top
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312
+  ws-opts:
+    headers:
+      Host: shs.kejixiaoqi666.store
     path: /
 - alterId: 0
   cipher: auto
@@ -996,35 +1022,46 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇮🇳 印度
+  name: 🇺🇸 美国 CloudFlare节点 7
   network: ws
-  port: 443
-  server: 202.78.162.5
+  port: 8880
+  server: server31.beheshtbaneh.com
   skip-cert-verify: false
   tfo: false
-  tls: true
+  tls: false
   type: vmess
-  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
   ws-opts:
     headers:
-      Host: pendar.onthewifi.com
+      Host: server31.beheshtbaneh.com
     path: /
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇨🇳 广东省中山市 移动
+  port: 46665
+  server: 120.237.79.157
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 3ac820af-becb-45d7-9e7a-e33d02961bb3
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇮🇳 印度  2
+  name: 🇫🇷 法国 法国计算机科学大学
   network: ws
   port: 443
-  server: 202.78.162.5
+  server: irvideo.cfd
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vmess
-  uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
   ws-opts:
     headers:
-      Host: sahand.serveminecraft.net
-    path: /
+      Host: irvideo.cfd
+    path: /linkws
 - alterId: 0
   cipher: auto
   fingerprint: ''
@@ -1068,6 +1105,32 @@ proxies:
     headers:
       host: rn2.hostmjj.com
     path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇮🇳 印度  2
+  network: ws
+  port: 443
+  server: 202.78.162.5
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
+  ws-opts:
+    headers:
+      Host: sahand.serveminecraft.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 3
+  port: 12908
+  server: z8.fragranceninja.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: a32313ad-5e39-4f9a-9cad-512041790050
 - alterId: 0
   cipher: auto
   name: 美国(yudou66.com 玉豆免费节点) 42
@@ -1138,26 +1201,30 @@ proxy-groups:
   - 加拿大 064
   - 加拿大 068
   - 加拿大 070
+  - 塞浦路斯 002
   - 🇺🇸 美国 CloudFlare节点
-  - 🇨🇳 广东省 移动
   - 🇺🇸 美国 CloudFlare节点 2
   - 🇺🇸 美国 CloudFlare节点 3
+  - 🇮🇳 印度 v2rayfree.eu.org
+  - 🇺🇸 美国 华盛顿Cogent通信公司
   - 🇨🇳 广东省广州市 移动
-  - 🇺🇸 美国 CloudFlare节点 6
-  - 🇺🇸 美国 CloudFlare节点 15
-  - 🇺🇸 美国 v2rayfree.eu.org
-  - 🇺🇸 美国 CloudFlare节点 18
-  - 🇫🇷 法国 法国计算机科学大学
+  - 🇺🇸 美国 CloudFlare节点 16
+  - 🇺🇸 美国 Fastly全球Anycast节点
+  - 🇺🇸 美国 Fastly全球Anycast节点 2
+  - 🇺🇸 美国 CloudFlare节点 20
   - 🇯🇵 日本3
   - 🇯🇵 日本5
   - 🇺🇸 美国
   - 🇩🇪 德国
   - 🇮🇹 意大利
-  - 🇮🇳 印度
-  - 🇮🇳 印度  2
+  - 🇺🇸 美国 CloudFlare节点 7
+  - 🇨🇳 广东省中山市 移动
+  - 🇫🇷 法国 法国计算机科学大学
   - 🇮🇷_IR_伊朗->🇫🇷_FR_法国_2
   - 🇺🇸_US_美国_31
   - 🇺🇸_US_美国_36
+  - 🇮🇳 印度  2
+  - 美国(yudou66.com 玉豆免费节点) 3
   - 美国(yudou66.com 玉豆免费节点) 42
   type: select
 - interval: 300
@@ -1213,26 +1280,30 @@ proxy-groups:
   - 加拿大 064
   - 加拿大 068
   - 加拿大 070
+  - 塞浦路斯 002
   - 🇺🇸 美国 CloudFlare节点
-  - 🇨🇳 广东省 移动
   - 🇺🇸 美国 CloudFlare节点 2
   - 🇺🇸 美国 CloudFlare节点 3
+  - 🇮🇳 印度 v2rayfree.eu.org
+  - 🇺🇸 美国 华盛顿Cogent通信公司
   - 🇨🇳 广东省广州市 移动
-  - 🇺🇸 美国 CloudFlare节点 6
-  - 🇺🇸 美国 CloudFlare节点 15
-  - 🇺🇸 美国 v2rayfree.eu.org
-  - 🇺🇸 美国 CloudFlare节点 18
-  - 🇫🇷 法国 法国计算机科学大学
+  - 🇺🇸 美国 CloudFlare节点 16
+  - 🇺🇸 美国 Fastly全球Anycast节点
+  - 🇺🇸 美国 Fastly全球Anycast节点 2
+  - 🇺🇸 美国 CloudFlare节点 20
   - 🇯🇵 日本3
   - 🇯🇵 日本5
   - 🇺🇸 美国
   - 🇩🇪 德国
   - 🇮🇹 意大利
-  - 🇮🇳 印度
-  - 🇮🇳 印度  2
+  - 🇺🇸 美国 CloudFlare节点 7
+  - 🇨🇳 广东省中山市 移动
+  - 🇫🇷 法国 法国计算机科学大学
   - 🇮🇷_IR_伊朗->🇫🇷_FR_法国_2
   - 🇺🇸_US_美国_31
   - 🇺🇸_US_美国_36
+  - 🇮🇳 印度  2
+  - 美国(yudou66.com 玉豆免费节点) 3
   - 美国(yudou66.com 玉豆免费节点) 42
   type: url-test
   url: http://www.google.com/generate_204
