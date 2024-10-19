@@ -632,11 +632,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 新加坡 003
+  name: 新加坡 004
   network: ws
   port: 443
-  server: hkcft01.xqc.best
-  servername: d1zonq30ul7iu8.cloudfront.net
+  server: jpcft01.xqc.best
+  servername: d2vx9phh42gj2v.cloudfront.net
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -644,7 +644,7 @@ proxies:
   uuid: b7bd90fa-8430-4a71-bdf2-fd9adfce167c
   ws-opts:
     headers:
-      Host: hkcft01.xqc.best
+      Host: jpcft01.xqc.best
     path: /stream
 - alterId: 0
   cipher: auto
@@ -1236,22 +1236,121 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇫🇷_FR_法国
+  name: 美国 052
+  network: ws
+  port: 8880
+  server: us-new01.daluquan.top
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 69d491d4-abc7-48b7-a83f-d181a9742ed2
+  ws-opts:
+    headers:
+      Host: us-new01.daluquan.top
+    path: /itdog?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 加拿大 203
+  network: ws
+  port: 2082
+  server: 104.16.68.38
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+  ws-opts:
+    headers:
+      Host: late-wave-1d0a.lesijo3430.workers.dev
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 伊朗 001
+  network: tcp
+  port: 26763
+  server: 31.184.166.84
+  tls: false
+  type: vmess
+  uuid: 89dcf0a3-c76a-40b6-b826-518485d82e2d
+- alterId: 0
+  cipher: auto
+  name: 美国 139
   network: ws
   port: 80
   server: 151.101.2.228
+  tls: false
   type: vmess
   uuid: 7f3e901c-76eb-4480-8803-947e4674ecaa
   ws-opts:
     headers:
-      host: bRItISh.ovH.55.ISVvpn.UK.
-    path: /RACEVPN?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn
+      Host: bRItISh.ovH.55.ISVvpn.UK.
+    path: /RACEVPN?telegram-
+- alterId: 0
+  cipher: auto
+  name: 美国 140
+  network: ws
+  port: 443
+  server: bwdraper.faculty.ucdavis.edu
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 587eeb1a-9d5e-4407-886f-9e9492e42273
+  ws-opts:
+    headers:
+      Host: icomedbackbitches.com
+    path: /express_v2ray?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 加拿大 239
+  network: ws
+  port: 80
+  server: 172.67.221.19
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5302e8a3-9514-41b9-bf15-f2a2575653fb
+  ws-opts:
+    headers:
+      Host: 58892877706648357761980405045364.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
+    path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
+- alterId: 0
+  cipher: auto
+  name: 加拿大 244
+  network: ws
+  port: 443
+  server: 172.67.204.19
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
+  ws-opts:
+    headers:
+      Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
+    path: /azumase.ren
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇮🇳 印度 v2rayfree.eu.org
+  network: ws
+  port: 443
+  server: 202.78.162.5
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
+  ws-opts:
+    headers:
+      Host: irsoft.sytes.net
+    path: /
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
   name: 🇨🇳 广东省广州市 移动
-  port: 45020
-  server: 183.236.51.23
+  port: 35601
+  server: 120.232.153.40
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -1365,7 +1464,7 @@ proxy-groups:
   - 美国 040
   - 塞浦路斯 001
   - 美国 044
-  - 新加坡 003
+  - 新加坡 004
   - 美国 045
   - 日本 002
   - 加拿大 029
@@ -1408,7 +1507,14 @@ proxy-groups:
   - 加拿大 180
   - 美国 082
   - 加拿大 195
-  - 🇺🇸_US_美国->🇫🇷_FR_法国
+  - 美国 052
+  - 加拿大 203
+  - 伊朗 001
+  - 美国 139
+  - 美国 140
+  - 加拿大 239
+  - 加拿大 244
+  - 🇮🇳 印度 v2rayfree.eu.org
   - 🇨🇳 广东省广州市 移动
   - 🇩🇪 德国
   - 🇨🇳 广东省中山市 移动
@@ -1459,7 +1565,7 @@ proxy-groups:
   - 美国 040
   - 塞浦路斯 001
   - 美国 044
-  - 新加坡 003
+  - 新加坡 004
   - 美国 045
   - 日本 002
   - 加拿大 029
@@ -1502,7 +1608,14 @@ proxy-groups:
   - 加拿大 180
   - 美国 082
   - 加拿大 195
-  - 🇺🇸_US_美国->🇫🇷_FR_法国
+  - 美国 052
+  - 加拿大 203
+  - 伊朗 001
+  - 美国 139
+  - 美国 140
+  - 加拿大 239
+  - 加拿大 244
+  - 🇮🇳 印度 v2rayfree.eu.org
   - 🇨🇳 广东省广州市 移动
   - 🇩🇪 德国
   - 🇨🇳 广东省中山市 移动
