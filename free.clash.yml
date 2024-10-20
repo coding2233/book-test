@@ -1480,6 +1480,74 @@ proxies:
     headers:
       Host: fr2.vmess.site.
     path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 267
+  network: ws
+  port: 30000
+  server: xr002.louwangzhiyu.xyz
+  servername: xr001.louwangzhiyu.xyz
+  tls: true
+  type: vmess
+  udp: true
+  uuid: ea64d5e1-5b4e-41e4-96db-e8c932373a2d
+  ws-opts:
+    headers:
+      Host: www.louwangzhiyu.xyz
+    path: /xyz
+- alterId: 0
+  cipher: auto
+  name: 美国 298
+  network: ws
+  port: 443
+  server: speedtest.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 57727d7d-8873-4000-b3f4-33a93fcfdd51
+  ws-opts:
+    headers:
+      Host: mehrjavan.ir
+    path: /m28jcoZZUhkqg6pk11
+- alterId: 0
+  cipher: auto
+  name: 美国 316
+  network: ws
+  port: 8443
+  server: usbk.cfip.top
+  servername: usbk.cfip.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 36f71b02-04bf-4ab6-8f17-850a002b448d
+  ws-opts:
+    headers:
+      Host: usbk.cfip.top
+    path: /cctv13/hd.m3u8
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇩🇪 德国
+  port: 43526
+  server: 120.232.153.71
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇨🇳 广东省广州市 移动
+  port: 58831
+  server: 120.232.153.27
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -1494,23 +1562,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇮🇳 印度 v2rayfree.eu.org
-  network: ws
-  port: 443
-  server: 202.78.162.5
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
-  ws-opts:
-    headers:
-      Host: irsoft.sytes.net
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇮🇳 印度 v2rayfree.eu.org 2
+  name: 🇮🇳 印度
   network: ws
   port: 443
   server: 202.78.162.5
@@ -1523,28 +1575,6 @@ proxies:
     headers:
       Host: pendar.onthewifi.com
     path: /
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇨🇳 广东省广州市 移动
-  port: 43526
-  server: 120.232.153.71
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇨🇳 广东省广州市 移动 2
-  port: 33288
-  server: 183.236.48.166
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 美国(yudou66.com 玉豆免费节点) 3
@@ -1676,11 +1706,13 @@ proxy-groups:
   - 法国 008
   - 加拿大 009
   - 瑞典 004
-  - 🇨🇳 广东省中山市 移动
-  - 🇮🇳 印度 v2rayfree.eu.org
-  - 🇮🇳 印度 v2rayfree.eu.org 2
+  - 美国 267
+  - 美国 298
+  - 美国 316
+  - 🇩🇪 德国
   - 🇨🇳 广东省广州市 移动
-  - 🇨🇳 广东省广州市 移动 2
+  - 🇨🇳 广东省中山市 移动
+  - 🇮🇳 印度
   - 美国(yudou66.com 玉豆免费节点) 3
   - 美国(yudou66.com 玉豆免费节点) 42
   type: select
@@ -1788,11 +1820,13 @@ proxy-groups:
   - 法国 008
   - 加拿大 009
   - 瑞典 004
-  - 🇨🇳 广东省中山市 移动
-  - 🇮🇳 印度 v2rayfree.eu.org
-  - 🇮🇳 印度 v2rayfree.eu.org 2
+  - 美国 267
+  - 美国 298
+  - 美国 316
+  - 🇩🇪 德国
   - 🇨🇳 广东省广州市 移动
-  - 🇨🇳 广东省广州市 移动 2
+  - 🇨🇳 广东省中山市 移动
+  - 🇮🇳 印度
   - 美国(yudou66.com 玉豆免费节点) 3
   - 美国(yudou66.com 玉豆免费节点) 42
   type: url-test
