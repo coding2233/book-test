@@ -1359,21 +1359,6 @@ proxies:
     path: /racevpn
 - alterId: 0
   cipher: auto
-  name: 日本 003
-  network: ws
-  port: 443
-  server: jp1.119.buzz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 34e951fa-89f6-434f-88ae-c2a2c3f84b8a
-  ws-opts:
-    headers:
-      Host: jp1.119.buzz
-    path: /JFjmIXA
-- alterId: 0
-  cipher: auto
   name: 加拿大 256
   network: ws
   port: 2086
@@ -1452,49 +1437,60 @@ proxies:
     headers:
       Host: widescreen-instruction-breakdown-postage.trycloudflare.com
     path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇨🇳 广东省 移动
-  port: 39041
-  server: 183.238.202.173
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点 18
+  name: 法国 008
   network: ws
-  port: 2052
-  server: jx.jixingnetwork.sbs
-  skip-cert-verify: false
-  tfo: false
-  tls: false
+  port: 30000
+  server: xr001.louwangzhiyu.xyz
+  servername: xr001.louwangzhiyu.xyz
+  tls: true
   type: vmess
-  uuid: 6bdcb5de-dc42-4908-b090-46c1b2243641
+  udp: true
+  uuid: 6e1ea1c1-c140-4f15-b98e-457390972704
   ws-opts:
     headers:
-      Host: fg002.jixingwangluo.top
+      Host: www.louwangzhiyu.xyz
+    path: /xyz
+- alterId: 0
+  cipher: auto
+  name: 加拿大 009
+  network: ws
+  port: 443
+  server: p1.v2raybrasil.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 51991d4c-bcbd-4424-a4f0-6ad9b6cc4d83
+  ws-opts:
+    headers:
+      Host: nsusa.v2ray.com.br
     path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点 31
+  name: 瑞典 004
   network: ws
-  port: 2053
-  server: 104.21.94.20
+  port: 80
+  server: 185.146.173.52
   skip-cert-verify: false
-  tfo: false
-  tls: true
+  tls: false
   type: vmess
-  uuid: 23de7970-038f-403f-f979-28124f3be02a
+  uuid: e2b683fe-5b91-5f62-906a-e720ba96cf97
   ws-opts:
     headers:
-      Host: 1229VM6.nnaotexiongditkgroup.top
-    path: /1229VM6
+      Host: fr2.vmess.site.
+    path: /
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇨🇳 广东省中山市 移动
+  port: 46665
+  server: 120.237.79.157
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 3ac820af-becb-45d7-9e7a-e33d02961bb3
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -1511,32 +1507,10 @@ proxies:
     headers:
       Host: irsoft.sytes.net
     path: /
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇩🇪 德国
-  port: 43526
-  server: 120.232.153.71
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇨🇳 广东省中山市 移动
-  port: 46665
-  server: 120.237.79.157
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 3ac820af-becb-45d7-9e7a-e33d02961bb3
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇮🇳 印度
+  name: 🇮🇳 印度 v2rayfree.eu.org 2
   network: ws
   port: 443
   server: 202.78.162.5
@@ -1549,6 +1523,28 @@ proxies:
     headers:
       Host: pendar.onthewifi.com
     path: /
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇨🇳 广东省广州市 移动
+  port: 43526
+  server: 120.232.153.71
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇨🇳 广东省广州市 移动 2
+  port: 33288
+  server: 183.236.48.166
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 美国(yudou66.com 玉豆免费节点) 3
@@ -1671,20 +1667,20 @@ proxy-groups:
   - 加拿大 250
   - 加拿大 252
   - 美国 074
-  - 日本 003
   - 加拿大 256
   - 美国 254
   - 加拿大 261
   - 加拿大 262
   - 加拿大 265
   - 加拿大 266
-  - 🇨🇳 广东省 移动
-  - 🇺🇸 美国 CloudFlare节点 18
-  - 🇺🇸 美国 CloudFlare节点 31
-  - 🇮🇳 印度 v2rayfree.eu.org
-  - 🇩🇪 德国
+  - 法国 008
+  - 加拿大 009
+  - 瑞典 004
   - 🇨🇳 广东省中山市 移动
-  - 🇮🇳 印度
+  - 🇮🇳 印度 v2rayfree.eu.org
+  - 🇮🇳 印度 v2rayfree.eu.org 2
+  - 🇨🇳 广东省广州市 移动
+  - 🇨🇳 广东省广州市 移动 2
   - 美国(yudou66.com 玉豆免费节点) 3
   - 美国(yudou66.com 玉豆免费节点) 42
   type: select
@@ -1783,20 +1779,20 @@ proxy-groups:
   - 加拿大 250
   - 加拿大 252
   - 美国 074
-  - 日本 003
   - 加拿大 256
   - 美国 254
   - 加拿大 261
   - 加拿大 262
   - 加拿大 265
   - 加拿大 266
-  - 🇨🇳 广东省 移动
-  - 🇺🇸 美国 CloudFlare节点 18
-  - 🇺🇸 美国 CloudFlare节点 31
-  - 🇮🇳 印度 v2rayfree.eu.org
-  - 🇩🇪 德国
+  - 法国 008
+  - 加拿大 009
+  - 瑞典 004
   - 🇨🇳 广东省中山市 移动
-  - 🇮🇳 印度
+  - 🇮🇳 印度 v2rayfree.eu.org
+  - 🇮🇳 印度 v2rayfree.eu.org 2
+  - 🇨🇳 广东省广州市 移动
+  - 🇨🇳 广东省广州市 移动 2
   - 美国(yudou66.com 玉豆免费节点) 3
   - 美国(yudou66.com 玉豆免费节点) 42
   type: url-test
