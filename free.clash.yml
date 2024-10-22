@@ -113,20 +113,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大 151
-  network: ws
-  port: 80
-  server: 104.17.148.22
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 6149b865-0d3c-4472-bf9c-3c61bfafa61a
-  ws-opts:
-    headers:
-      Host: 99806388192980142300309475767578.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
-    path: /
-- alterId: 0
-  cipher: auto
   name: 德国 004
   network: ws
   port: 443
@@ -834,7 +820,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 美国 004
+  name: 美国 022
   network: ws
   port: 12345
   server: 23.170.40.116
@@ -1195,7 +1181,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 美国 052
+  name: 美国 074
   network: ws
   port: 8880
   server: us-new01.daluquan.top
@@ -1318,7 +1304,7 @@ proxies:
     path: /jahfkjha.cfd/linkws
 - alterId: 0
   cipher: auto
-  name: 美国 074
+  name: 美国 130
   network: ws
   port: 443
   server: plex.com
@@ -1569,7 +1555,7 @@ proxies:
   uuid: 83876222-64a4-4912-aa18-b7d9d34959de
 - alterId: 0
   cipher: auto
-  name: 美国 350
+  name: 美国 352
   network: ws
   port: 30000
   server: xr006.louwangzhiyu.xyz
@@ -1599,7 +1585,7 @@ proxies:
     path: /xyz
 - alterId: 0
   cipher: auto
-  name: 美国 351
+  name: 美国 353
   network: ws
   port: 30000
   server: xr007.louwangzhiyu.xyz
@@ -1614,7 +1600,7 @@ proxies:
     path: /xyz
 - alterId: 0
   cipher: auto
-  name: 美国 352
+  name: 美国 354
   network: ws
   port: 443
   server: cf.fovi.tk
@@ -1627,69 +1613,29 @@ proxies:
     path: /eisasqa
 - alterId: 0
   cipher: auto
-  name: 美国 355
+  name: 韩国 015
+  network: tcp
+  port: 24463
+  server: 45.94.68.210
+  tls: false
+  type: vmess
+  uuid: be4d5bca-0551-4a51-a965-25eaba7ac811
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇮🇳 印度 v2rayfree.eu.org
   network: ws
-  port: 30000
-  server: 82.117.87.127
-  servername: xr001.louwangzhiyu.xyz
-  skip-cert-verify: true
+  port: 443
+  server: 202.78.162.5
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vmess
-  udp: true
-  uuid: 806505d1-847f-4b15-a5ae-4f2318676d3f
+  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
   ws-opts:
     headers:
-      Host: www.louwangzhiyu.xyz
-    path: /xyz
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇨🇳 广东省广州市 移动
-  port: 33288
-  server: 183.236.48.166
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点 7
-  network: ws
-  port: 80
-  server: usnew.lbxjc.site
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
-  ws-opts:
-    headers:
-      Host: chunchuan.kejixiaoqi666.store
+      Host: irsoft.sytes.net
     path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇮🇷 伊朗 v2rayfree.eu.org
-  port: 26763
-  server: 31.184.166.84
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 1dd901d1-8a30-4b9d-9813-36bc83d49107
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇯🇵 日本
-  port: 9032
-  server: select-jp.0000000000.download
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: ac59a7cd-11af-3e35-a098-b785688ec627
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -1725,19 +1671,46 @@ proxies:
   uuid: 525bf680-dda1-451f-8758-d5ce847e5dc9
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 🇮🇳 印度
+  fingerprint: ''
+  name: 🇮🇷_IR_伊朗->🇫🇷_FR_法国_2
   network: ws
-  port: 443
-  server: 202.78.162.5
-  skip-cert-verify: false
-  tfo: false
-  tls: true
+  port: 2083
+  server: 193.151.144.26
+  sni: ''
   type: vmess
-  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
+  udp: true
+  uuid: 7b33bc8f-7014-4814-afb1-1c4d7f25314c
   ws-opts:
     headers:
-      Host: irsoft.sytes.net
+      host: tv.filmnet.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  fingerprint: ''
+  name: 🇺🇸_US_美国_31
+  network: ws
+  port: 2052
+  server: speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.expresstv.ggff.net
+  sni: ''
+  type: vmess
+  udp: true
+  uuid: 4b1168e7-82b0-43a7-8dbc-b22b61547ef4
+  ws-opts:
+    headers:
+      host: speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.expresstv.ggff.net
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_36
+  network: ws
+  port: 80
+  server: 162.159.136.98
+  type: vmess
+  udp: true
+  uuid: 5820093a-bb7d-4e15-8575-1a529f2d8282
+  ws-opts:
+    headers:
+      host: rn2.hostmjj.com
     path: /
 - alterId: 0
   cipher: auto
@@ -1791,7 +1764,6 @@ proxy-groups:
   - 加拿大 012
   - 加拿大 149
   - 加拿大 103
-  - 加拿大 151
   - 德国 004
   - 加拿大 037
   - 美国 015
@@ -1838,7 +1810,7 @@ proxy-groups:
   - 塞浦路斯 002
   - 加拿大 055
   - 加拿大 087
-  - 美国 004
+  - 美国 022
   - 加拿大 090
   - 加拿大 099
   - 加拿大 105
@@ -1865,7 +1837,7 @@ proxy-groups:
   - 加拿大 179
   - 加拿大 180
   - 美国 082
-  - 美国 052
+  - 美国 074
   - 加拿大 203
   - 伊朗 001
   - 美国 139
@@ -1874,7 +1846,7 @@ proxy-groups:
   - 加拿大 244
   - 加拿大 250
   - 加拿大 252
-  - 美国 074
+  - 美国 130
   - 加拿大 256
   - 美国 254
   - 加拿大 261
@@ -1892,19 +1864,18 @@ proxy-groups:
   - 加拿大 300
   - 韩国 004
   - 意大利 001
-  - 美国 350
-  - 瑞士 002
-  - 美国 351
   - 美国 352
-  - 美国 355
-  - 🇨🇳 广东省广州市 移动
-  - 🇺🇸 美国 CloudFlare节点 7
-  - 🇮🇷 伊朗 v2rayfree.eu.org
-  - 🇯🇵 日本
+  - 瑞士 002
+  - 美国 353
+  - 美国 354
+  - 韩国 015
+  - 🇮🇳 印度 v2rayfree.eu.org
   - 🇩🇪 德国
   - 🇦🇺 澳大利亚 v2rayfree.eu.org
   - 🇨🇳 广东省肇庆市 中移铁通
-  - 🇮🇳 印度
+  - 🇮🇷_IR_伊朗->🇫🇷_FR_法国_2
+  - 🇺🇸_US_美国_31
+  - 🇺🇸_US_美国_36
   - 🇮🇳 印度  2
   - 美国(yudou66.com 玉豆免费节点) 3
   - 美国(yudou66.com 玉豆免费节点) 42
@@ -1918,7 +1889,6 @@ proxy-groups:
   - 加拿大 012
   - 加拿大 149
   - 加拿大 103
-  - 加拿大 151
   - 德国 004
   - 加拿大 037
   - 美国 015
@@ -1965,7 +1935,7 @@ proxy-groups:
   - 塞浦路斯 002
   - 加拿大 055
   - 加拿大 087
-  - 美国 004
+  - 美国 022
   - 加拿大 090
   - 加拿大 099
   - 加拿大 105
@@ -1992,7 +1962,7 @@ proxy-groups:
   - 加拿大 179
   - 加拿大 180
   - 美国 082
-  - 美国 052
+  - 美国 074
   - 加拿大 203
   - 伊朗 001
   - 美国 139
@@ -2001,7 +1971,7 @@ proxy-groups:
   - 加拿大 244
   - 加拿大 250
   - 加拿大 252
-  - 美国 074
+  - 美国 130
   - 加拿大 256
   - 美国 254
   - 加拿大 261
@@ -2019,19 +1989,18 @@ proxy-groups:
   - 加拿大 300
   - 韩国 004
   - 意大利 001
-  - 美国 350
-  - 瑞士 002
-  - 美国 351
   - 美国 352
-  - 美国 355
-  - 🇨🇳 广东省广州市 移动
-  - 🇺🇸 美国 CloudFlare节点 7
-  - 🇮🇷 伊朗 v2rayfree.eu.org
-  - 🇯🇵 日本
+  - 瑞士 002
+  - 美国 353
+  - 美国 354
+  - 韩国 015
+  - 🇮🇳 印度 v2rayfree.eu.org
   - 🇩🇪 德国
   - 🇦🇺 澳大利亚 v2rayfree.eu.org
   - 🇨🇳 广东省肇庆市 中移铁通
-  - 🇮🇳 印度
+  - 🇮🇷_IR_伊朗->🇫🇷_FR_法国_2
+  - 🇺🇸_US_美国_31
+  - 🇺🇸_US_美国_36
   - 🇮🇳 印度  2
   - 美国(yudou66.com 玉豆免费节点) 3
   - 美国(yudou66.com 玉豆免费节点) 42
