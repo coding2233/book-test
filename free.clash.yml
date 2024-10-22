@@ -834,19 +834,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 法国 006
-  network: ws
-  port: 443
-  server: irvideo.cfd
-  tls: true
-  type: vmess
-  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
-  ws-opts:
-    headers:
-      Host: irvideo.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
   name: 美国 004
   network: ws
   port: 12345
@@ -1206,21 +1193,6 @@ proxies:
     headers:
       Host: ca3.889611.com
     path: /
-- alterId: 0
-  cipher: auto
-  delay: 1757
-  name: 加拿大 195
-  network: ws
-  port: 443
-  server: 104.17.213.57
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e
-  ws-opts:
-    headers:
-      Host: xmivideo.cfd
-    path: /linkws
 - alterId: 0
   cipher: auto
   name: 美国 052
@@ -1597,15 +1569,78 @@ proxies:
   uuid: 83876222-64a4-4912-aa18-b7d9d34959de
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 🇦🇺 澳大利亚 v2rayfree.eu.org
-  port: 2902
-  server: 143.92.42.65
-  skip-cert-verify: false
-  tfo: false
-  tls: false
+  name: 美国 350
+  network: ws
+  port: 30000
+  server: xr006.louwangzhiyu.xyz
+  servername: xr001.louwangzhiyu.xyz
+  tls: true
   type: vmess
-  uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
+  udp: true
+  uuid: 70963f51-4996-4cd6-9ca5-b0e75f5cff2b
+  ws-opts:
+    headers:
+      Host: www.louwangzhiyu.xyz
+    path: /xyz
+- alterId: 0
+  cipher: auto
+  name: 瑞士 002
+  network: ws
+  port: 30000
+  server: xr005.louwangzhiyu.xyz
+  servername: xr001.louwangzhiyu.xyz
+  tls: true
+  type: vmess
+  udp: true
+  uuid: d5072473-d84a-4524-bc25-c396d58cd39d
+  ws-opts:
+    headers:
+      Host: www.louwangzhiyu.xyz
+    path: /xyz
+- alterId: 0
+  cipher: auto
+  name: 美国 351
+  network: ws
+  port: 30000
+  server: xr007.louwangzhiyu.xyz
+  servername: xr001.louwangzhiyu.xyz
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 32a5d60a-2c03-40a7-9281-4bd1baa1d814
+  ws-opts:
+    headers:
+      Host: www.louwangzhiyu.xyz
+    path: /xyz
+- alterId: 0
+  cipher: auto
+  name: 美国 352
+  network: ws
+  port: 443
+  server: cf.fovi.tk
+  tls: true
+  type: vmess
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  ws-opts:
+    headers:
+      Host: foxlux.fovi.tk
+    path: /eisasqa
+- alterId: 0
+  cipher: auto
+  name: 美国 355
+  network: ws
+  port: 30000
+  server: 82.117.87.127
+  servername: xr001.louwangzhiyu.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 806505d1-847f-4b15-a5ae-4f2318676d3f
+  ws-opts:
+    headers:
+      Host: www.louwangzhiyu.xyz
+    path: /xyz
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -1620,19 +1655,30 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇮🇳 印度 v2rayfree.eu.org 2
+  name: 🇺🇸 美国 CloudFlare节点 7
   network: ws
-  port: 443
-  server: 202.78.162.5
+  port: 80
+  server: usnew.lbxjc.site
   skip-cert-verify: false
   tfo: false
-  tls: true
+  tls: false
   type: vmess
-  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
   ws-opts:
     headers:
-      Host: pendar.onthewifi.com
+      Host: chunchuan.kejixiaoqi666.store
     path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇮🇷 伊朗 v2rayfree.eu.org
+  port: 26763
+  server: 31.184.166.84
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 1dd901d1-8a30-4b9d-9813-36bc83d49107
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -1658,6 +1704,28 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
+  name: 🇦🇺 澳大利亚 v2rayfree.eu.org
+  port: 2902
+  server: 143.92.42.65
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇨🇳 广东省肇庆市 中移铁通
+  port: 44801
+  server: ambxxic01hk.dorabbb.top
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 525bf680-dda1-451f-8758-d5ce847e5dc9
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
   name: 🇮🇳 印度
   network: ws
   port: 443
@@ -1671,28 +1739,22 @@ proxies:
     headers:
       Host: irsoft.sytes.net
     path: /
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇨🇳 广东省中山市 移动
-  port: 46665
-  server: 120.237.79.157
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 3ac820af-becb-45d7-9e7a-e33d02961bb3
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇨🇳 湖南省长沙市 移动
-  port: 50021
-  server: 50021.baidu-cdn.top
+  name: 🇮🇳 印度  2
+  network: ws
+  port: 443
+  server: 202.78.162.5
   skip-cert-verify: false
   tfo: false
-  tls: false
+  tls: true
   type: vmess
-  uuid: 9f5e9155-2356-40be-8549-ee2f3e45fe36
+  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+  ws-opts:
+    headers:
+      Host: pendar.onthewifi.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 美国(yudou66.com 玉豆免费节点) 3
@@ -1776,7 +1838,6 @@ proxy-groups:
   - 塞浦路斯 002
   - 加拿大 055
   - 加拿大 087
-  - 法国 006
   - 美国 004
   - 加拿大 090
   - 加拿大 099
@@ -1804,7 +1865,6 @@ proxy-groups:
   - 加拿大 179
   - 加拿大 180
   - 美国 082
-  - 加拿大 195
   - 美国 052
   - 加拿大 203
   - 伊朗 001
@@ -1832,14 +1892,20 @@ proxy-groups:
   - 加拿大 300
   - 韩国 004
   - 意大利 001
-  - 🇦🇺 澳大利亚 v2rayfree.eu.org
+  - 美国 350
+  - 瑞士 002
+  - 美国 351
+  - 美国 352
+  - 美国 355
   - 🇨🇳 广东省广州市 移动
-  - 🇮🇳 印度 v2rayfree.eu.org 2
+  - 🇺🇸 美国 CloudFlare节点 7
+  - 🇮🇷 伊朗 v2rayfree.eu.org
   - 🇯🇵 日本
   - 🇩🇪 德国
+  - 🇦🇺 澳大利亚 v2rayfree.eu.org
+  - 🇨🇳 广东省肇庆市 中移铁通
   - 🇮🇳 印度
-  - 🇨🇳 广东省中山市 移动
-  - 🇨🇳 湖南省长沙市 移动
+  - 🇮🇳 印度  2
   - 美国(yudou66.com 玉豆免费节点) 3
   - 美国(yudou66.com 玉豆免费节点) 42
   type: select
@@ -1899,7 +1965,6 @@ proxy-groups:
   - 塞浦路斯 002
   - 加拿大 055
   - 加拿大 087
-  - 法国 006
   - 美国 004
   - 加拿大 090
   - 加拿大 099
@@ -1927,7 +1992,6 @@ proxy-groups:
   - 加拿大 179
   - 加拿大 180
   - 美国 082
-  - 加拿大 195
   - 美国 052
   - 加拿大 203
   - 伊朗 001
@@ -1955,14 +2019,20 @@ proxy-groups:
   - 加拿大 300
   - 韩国 004
   - 意大利 001
-  - 🇦🇺 澳大利亚 v2rayfree.eu.org
+  - 美国 350
+  - 瑞士 002
+  - 美国 351
+  - 美国 352
+  - 美国 355
   - 🇨🇳 广东省广州市 移动
-  - 🇮🇳 印度 v2rayfree.eu.org 2
+  - 🇺🇸 美国 CloudFlare节点 7
+  - 🇮🇷 伊朗 v2rayfree.eu.org
   - 🇯🇵 日本
   - 🇩🇪 德国
+  - 🇦🇺 澳大利亚 v2rayfree.eu.org
+  - 🇨🇳 广东省肇庆市 中移铁通
   - 🇮🇳 印度
-  - 🇨🇳 广东省中山市 移动
-  - 🇨🇳 湖南省长沙市 移动
+  - 🇮🇳 印度  2
   - 美国(yudou66.com 玉豆免费节点) 3
   - 美国(yudou66.com 玉豆免费节点) 42
   type: url-test
