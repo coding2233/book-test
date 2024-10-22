@@ -1631,10 +1631,10 @@ proxies:
   tfo: false
   tls: true
   type: vmess
-  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
+  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
   ws-opts:
     headers:
-      Host: irsoft.sytes.net
+      Host: pendar.onthewifi.com
     path: /
 - alterId: 64
   cipher: auto
@@ -1715,7 +1715,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇮🇳 印度  2
+  name: 🇮🇳 印度
   network: ws
   port: 443
   server: 202.78.162.5
@@ -1723,10 +1723,10 @@ proxies:
   tfo: false
   tls: true
   type: vmess
-  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
   ws-opts:
     headers:
-      Host: pendar.onthewifi.com
+      Host: irsoft.sytes.net
     path: /
 - alterId: 0
   cipher: auto
@@ -1876,7 +1876,7 @@ proxy-groups:
   - 🇮🇷_IR_伊朗->🇫🇷_FR_法国_2
   - 🇺🇸_US_美国_31
   - 🇺🇸_US_美国_36
-  - 🇮🇳 印度  2
+  - 🇮🇳 印度
   - 美国(yudou66.com 玉豆免费节点) 3
   - 美国(yudou66.com 玉豆免费节点) 42
   type: select
@@ -2001,7 +2001,7 @@ proxy-groups:
   - 🇮🇷_IR_伊朗->🇫🇷_FR_法国_2
   - 🇺🇸_US_美国_31
   - 🇺🇸_US_美国_36
-  - 🇮🇳 印度  2
+  - 🇮🇳 印度
   - 美国(yudou66.com 玉豆免费节点) 3
   - 美国(yudou66.com 玉豆免费节点) 42
   type: url-test
