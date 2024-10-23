@@ -271,22 +271,6 @@ proxies:
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
-  name: 加拿大 044
-  network: ws
-  port: 2095
-  server: www.speedtest.net
-  servername: 22d.irvn.debian.🤣6.6.1b🫡71.8.fxp.debian.org.speedtshest.net.列列男事的事列上赛男.boland-sho-tokhm-sag.cyou.
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e4ce2e2e-98a9-4cfd-b89e-8d322837edcb
-  ws-opts:
-    headers:
-      Host: www.speedtest.net
-    path: /
-- alterId: 0
-  cipher: auto
   name: 美国 028
   network: ws
   port: 443
@@ -602,11 +586,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 美国 044
+  name: 俄罗斯 007
   network: ws
   port: 80
-  server: cdn1.bpcdn.cc
-  servername: uk1.i9bpjgfhw.jiesk4pdqcqjo16j.xyz
+  server: eedp257bubu2wefy1.lovebaipiao.net
+  servername: www.apple.com
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -614,55 +598,8 @@ proxies:
   uuid: 5b9a6438-84d3-419e-bc32-43acc74b1c3c
   ws-opts:
     headers:
-      Host: cdn1.bpcdn.cc
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 新加坡 004
-  network: ws
-  port: 443
-  server: jpcft01.xqc.best
-  servername: d2vx9phh42gj2v.cloudfront.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: b7bd90fa-8430-4a71-bdf2-fd9adfce167c
-  ws-opts:
-    headers:
-      Host: jpcft01.xqc.best
-    path: /stream
-- alterId: 0
-  cipher: auto
-  name: 美国 045
-  network: ws
-  port: 443
-  server: live.theworldwidewolf.com
-  servername: Dbdjhiw72ebsu272hs519j.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: c1f488ca-76e5-44fe-8d3d-ec98566ee590
-  ws-opts:
-    headers:
-      Host: live.theworldwidewolf.com
-    path: ws/?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 日本 002
-  network: ws
-  port: 443
-  server: tls.98.node-for-bigairport.win
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: ef5fca10-41bc-4623-87a3-1170a7b51827
-  ws-opts:
-    headers:
-      Host: tls.98.node-for-bigairport.win
-    path: /
+      Host: eedp257bubu2wefy1.lovebaipiao.net
+    path: /iphone
 - alterId: 0
   cipher: auto
   name: 加拿大 029
@@ -818,19 +755,6 @@ proxies:
     headers:
       Host: sg05.sulink.one
     path: /
-- alterId: 0
-  cipher: auto
-  name: 美国 022
-  network: ws
-  port: 12345
-  server: 23.170.40.116
-  tls: false
-  type: vmess
-  uuid: 0c7fe100-fcce-4c6d-8208-a53f73e93e17
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: 加拿大 090
@@ -1231,21 +1155,6 @@ proxies:
     path: /RACEVPN?telegram-
 - alterId: 0
   cipher: auto
-  name: 美国 140
-  network: ws
-  port: 443
-  server: bwdraper.faculty.ucdavis.edu
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 587eeb1a-9d5e-4407-886f-9e9492e42273
-  ws-opts:
-    headers:
-      Host: icomedbackbitches.com
-    path: /express_v2ray?ed=2560
-- alterId: 0
-  cipher: auto
   name: 加拿大 239
   network: ws
   port: 80
@@ -1291,335 +1200,26 @@ proxies:
     path: /itdog?ed=2560
 - alterId: 0
   cipher: auto
-  name: 加拿大 252
-  network: ws
-  port: 8080
-  server: 104.18.202.250
-  tls: false
-  type: vmess
-  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
-  ws-opts:
-    headers:
-      Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
-    path: /jahfkjha.cfd/linkws
-- alterId: 0
-  cipher: auto
-  name: 美国 130
-  network: ws
-  port: 443
-  server: plex.com
-  tls: true
-  type: vmess
-  uuid: a888b89a-08ac-40e6-8ad7-cfce9569f967
-  ws-opts:
-    headers:
-      Host: gerMAnyISvP.iR
-    path: /racevpn
-- alterId: 0
-  cipher: auto
-  name: 加拿大 256
-  network: ws
-  port: 2086
-  server: 172.67.165.53
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312
-  ws-opts:
-    headers:
-      Host: shs.xiaoqi666.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 美国 254
-  network: ws
-  port: 443
-  server: cold-dawn-9246.fly.dev
-  tls: true
-  type: vmess
-  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
-  ws-opts:
-    headers:
-      Host: cold-dawn-9246.fly.dev
-    path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
-- alterId: 0
-  cipher: auto
-  name: 加拿大 261
-  network: ws
-  port: 8080
-  server: 162.159.137.249
-  tls: false
-  type: vmess
-  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
-  ws-opts:
-    headers:
-      Host: nest-emily-healing-h.trycloudflare.com
-    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
-- alterId: 0
-  cipher: auto
-  name: 加拿大 262
-  network: ws
-  port: 8080
-  server: 23.227.39.24
-  tls: false
-  type: vmess
-  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
-  ws-opts:
-    headers:
-      Host: per-essex-patterns-bowling.trycloudflare.com
-    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
-- alterId: 0
-  cipher: auto
-  name: 加拿大 265
-  network: ws
-  port: 2086
-  server: cfcdn1.sanfencdn9.com
-  tls: false
-  type: vmess
-  uuid: 3f09c198-da80-44ce-a72b-40bc600b2321
-  ws-opts:
-    headers:
-      Host: us77SmSk86j.fzbqfrse.xyz
-    path: /video/Z7qdcrAGRw
-- alterId: 0
-  cipher: auto
-  name: 加拿大 266
-  network: ws
-  port: 8080
-  server: 162.159.130.208
-  tls: false
-  type: vmess
-  uuid: 55021a7c-bd6c-418e-be95-ceac8ba27b45
-  ws-opts:
-    headers:
-      Host: widescreen-instruction-breakdown-postage.trycloudflare.com
-    path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
-- alterId: 0
-  cipher: auto
-  name: 法国 008
-  network: ws
-  port: 30000
-  server: xr001.louwangzhiyu.xyz
-  servername: xr001.louwangzhiyu.xyz
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 6e1ea1c1-c140-4f15-b98e-457390972704
-  ws-opts:
-    headers:
-      Host: www.louwangzhiyu.xyz
-    path: /xyz
-- alterId: 0
-  cipher: auto
-  name: 加拿大 009
-  network: ws
-  port: 443
-  server: p1.v2raybrasil.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 51991d4c-bcbd-4424-a4f0-6ad9b6cc4d83
-  ws-opts:
-    headers:
-      Host: nsusa.v2ray.com.br
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 瑞典 004
-  network: ws
-  port: 80
-  server: 185.146.173.52
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: e2b683fe-5b91-5f62-906a-e720ba96cf97
-  ws-opts:
-    headers:
-      Host: fr2.vmess.site.
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 美国 267
-  network: ws
-  port: 30000
-  server: xr002.louwangzhiyu.xyz
-  servername: xr001.louwangzhiyu.xyz
-  tls: true
-  type: vmess
-  udp: true
-  uuid: ea64d5e1-5b4e-41e4-96db-e8c932373a2d
-  ws-opts:
-    headers:
-      Host: www.louwangzhiyu.xyz
-    path: /xyz
-- alterId: 0
-  cipher: auto
-  name: 美国 298
-  network: ws
-  port: 443
-  server: speedtest.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 57727d7d-8873-4000-b3f4-33a93fcfdd51
-  ws-opts:
-    headers:
-      Host: mehrjavan.ir
-    path: /m28jcoZZUhkqg6pk11
-- alterId: 0
-  cipher: auto
-  name: 美国 316
-  network: ws
-  port: 8443
-  server: usbk.cfip.top
-  servername: usbk.cfip.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 36f71b02-04bf-4ab6-8f17-850a002b448d
-  ws-opts:
-    headers:
-      Host: usbk.cfip.top
-    path: /cctv13/hd.m3u8
-- alterId: 0
-  cipher: auto
-  name: 英国 014
-  network: ws
-  port: 30000
-  server: xr004.louwangzhiyu.xyz
-  servername: xr001.louwangzhiyu.xyz
-  tls: true
-  type: vmess
-  udp: true
-  uuid: a00c654c-3362-4c2d-b5a7-89d4215eda69
-  ws-opts:
-    headers:
-      Host: www.louwangzhiyu.xyz
-    path: /xyz
-- alterId: 0
-  cipher: auto
-  name: 加拿大 298
-  network: ws
-  port: 443
-  server: cdn.cngfw.online
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: cab438c4-9c5a-43fd-a623-ce81cb93085c
-  ws-opts:
-    headers:
-      Host: eu3.kunkunbuku.me
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 300
-  network: ws
-  port: 2053
-  server: 1229VM6.nnaotexiongditkgroup.top
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 23de7970-038f-403f-f979-28124f3be02a
-  ws-opts:
-    headers:
-      Host: 1229VM6.nnaotexiongditkgroup.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 韩国 004
-  network: tcp
-  port: 43819
-  server: 45.94.68.186
-  tls: false
-  type: vmess
-  uuid: 3403fbbf-dc52-4fb6-84b3-97c6dcde6388
-- alterId: 0
-  cipher: auto
-  delay: 1348
-  http-opts:
-    headers:
-      Host:
-      - f41.maryam1500.top
-    method: GET
-    path:
-    - /
-  name: 意大利 001
-  network: http
-  port: 2098
-  server: f41.maryam1500.top
-  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-  type: vmess
-  uuid: 83876222-64a4-4912-aa18-b7d9d34959de
-- alterId: 0
-  cipher: auto
-  name: 美国 352
-  network: ws
-  port: 30000
-  server: xr006.louwangzhiyu.xyz
-  servername: xr001.louwangzhiyu.xyz
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 70963f51-4996-4cd6-9ca5-b0e75f5cff2b
-  ws-opts:
-    headers:
-      Host: www.louwangzhiyu.xyz
-    path: /xyz
-- alterId: 0
-  cipher: auto
-  name: 瑞士 002
-  network: ws
-  port: 30000
-  server: xr005.louwangzhiyu.xyz
-  servername: xr001.louwangzhiyu.xyz
-  tls: true
-  type: vmess
-  udp: true
-  uuid: d5072473-d84a-4524-bc25-c396d58cd39d
-  ws-opts:
-    headers:
-      Host: www.louwangzhiyu.xyz
-    path: /xyz
-- alterId: 0
-  cipher: auto
-  name: 美国 353
-  network: ws
-  port: 30000
-  server: xr007.louwangzhiyu.xyz
-  servername: xr001.louwangzhiyu.xyz
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 32a5d60a-2c03-40a7-9281-4bd1baa1d814
-  ws-opts:
-    headers:
-      Host: www.louwangzhiyu.xyz
-    path: /xyz
-- alterId: 0
-  cipher: auto
-  name: 美国 354
-  network: ws
-  port: 443
-  server: cf.fovi.tk
-  tls: true
-  type: vmess
-  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
-  ws-opts:
-    headers:
-      Host: foxlux.fovi.tk
-    path: /eisasqa
-- alterId: 0
-  cipher: auto
-  name: 韩国 015
-  network: tcp
+  client-fingerprint: chrome
+  name: 🇰🇷 韩国2
   port: 24463
   server: 45.94.68.210
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   uuid: be4d5bca-0551-4a51-a965-25eaba7ac811
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇩🇪 德国
+  port: 43526
+  server: 120.232.153.71
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -1636,39 +1236,6 @@ proxies:
     headers:
       Host: pendar.onthewifi.com
     path: /
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇩🇪 德国
-  port: 43526
-  server: 120.232.153.71
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇦🇺 澳大利亚 v2rayfree.eu.org
-  port: 2902
-  server: 143.92.42.65
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇨🇳 广东省肇庆市 中移铁通
-  port: 44801
-  server: ambxxic01hk.dorabbb.top
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 525bf680-dda1-451f-8758-d5ce847e5dc9
 - alterId: 0
   cipher: auto
   fingerprint: ''
@@ -1711,22 +1278,6 @@ proxies:
   ws-opts:
     headers:
       host: rn2.hostmjj.com
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇮🇳 印度
-  network: ws
-  port: 443
-  server: 202.78.162.5
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
-  ws-opts:
-    headers:
-      Host: irsoft.sytes.net
     path: /
 - alterId: 0
   cipher: auto
@@ -1775,7 +1326,6 @@ proxy-groups:
   - 加拿大 008
   - 加拿大 038
   - 加拿大 084
-  - 加拿大 044
   - 美国 028
   - 加拿大 002
   - 瑞典 003
@@ -1796,10 +1346,7 @@ proxy-groups:
   - 美国 039
   - 美国 040
   - 塞浦路斯 001
-  - 美国 044
-  - 新加坡 004
-  - 美国 045
-  - 日本 002
+  - 俄罗斯 007
   - 加拿大 029
   - 加拿大 032
   - 加拿大 047
@@ -1810,7 +1357,6 @@ proxy-groups:
   - 塞浦路斯 002
   - 加拿大 055
   - 加拿大 087
-  - 美国 022
   - 加拿大 090
   - 加拿大 099
   - 加拿大 105
@@ -1841,42 +1387,15 @@ proxy-groups:
   - 加拿大 203
   - 伊朗 001
   - 美国 139
-  - 美国 140
   - 加拿大 239
   - 加拿大 244
   - 加拿大 250
-  - 加拿大 252
-  - 美国 130
-  - 加拿大 256
-  - 美国 254
-  - 加拿大 261
-  - 加拿大 262
-  - 加拿大 265
-  - 加拿大 266
-  - 法国 008
-  - 加拿大 009
-  - 瑞典 004
-  - 美国 267
-  - 美国 298
-  - 美国 316
-  - 英国 014
-  - 加拿大 298
-  - 加拿大 300
-  - 韩国 004
-  - 意大利 001
-  - 美国 352
-  - 瑞士 002
-  - 美国 353
-  - 美国 354
-  - 韩国 015
-  - 🇮🇳 印度 v2rayfree.eu.org
+  - 🇰🇷 韩国2
   - 🇩🇪 德国
-  - 🇦🇺 澳大利亚 v2rayfree.eu.org
-  - 🇨🇳 广东省肇庆市 中移铁通
+  - 🇮🇳 印度 v2rayfree.eu.org
   - 🇮🇷_IR_伊朗->🇫🇷_FR_法国_2
   - 🇺🇸_US_美国_31
   - 🇺🇸_US_美国_36
-  - 🇮🇳 印度
   - 美国(yudou66.com 玉豆免费节点) 3
   - 美国(yudou66.com 玉豆免费节点) 42
   type: select
@@ -1900,7 +1419,6 @@ proxy-groups:
   - 加拿大 008
   - 加拿大 038
   - 加拿大 084
-  - 加拿大 044
   - 美国 028
   - 加拿大 002
   - 瑞典 003
@@ -1921,10 +1439,7 @@ proxy-groups:
   - 美国 039
   - 美国 040
   - 塞浦路斯 001
-  - 美国 044
-  - 新加坡 004
-  - 美国 045
-  - 日本 002
+  - 俄罗斯 007
   - 加拿大 029
   - 加拿大 032
   - 加拿大 047
@@ -1935,7 +1450,6 @@ proxy-groups:
   - 塞浦路斯 002
   - 加拿大 055
   - 加拿大 087
-  - 美国 022
   - 加拿大 090
   - 加拿大 099
   - 加拿大 105
@@ -1966,42 +1480,15 @@ proxy-groups:
   - 加拿大 203
   - 伊朗 001
   - 美国 139
-  - 美国 140
   - 加拿大 239
   - 加拿大 244
   - 加拿大 250
-  - 加拿大 252
-  - 美国 130
-  - 加拿大 256
-  - 美国 254
-  - 加拿大 261
-  - 加拿大 262
-  - 加拿大 265
-  - 加拿大 266
-  - 法国 008
-  - 加拿大 009
-  - 瑞典 004
-  - 美国 267
-  - 美国 298
-  - 美国 316
-  - 英国 014
-  - 加拿大 298
-  - 加拿大 300
-  - 韩国 004
-  - 意大利 001
-  - 美国 352
-  - 瑞士 002
-  - 美国 353
-  - 美国 354
-  - 韩国 015
-  - 🇮🇳 印度 v2rayfree.eu.org
+  - 🇰🇷 韩国2
   - 🇩🇪 德国
-  - 🇦🇺 澳大利亚 v2rayfree.eu.org
-  - 🇨🇳 广东省肇庆市 中移铁通
+  - 🇮🇳 印度 v2rayfree.eu.org
   - 🇮🇷_IR_伊朗->🇫🇷_FR_法国_2
   - 🇺🇸_US_美国_31
   - 🇺🇸_US_美国_36
-  - 🇮🇳 印度
   - 美国(yudou66.com 玉豆免费节点) 3
   - 美国(yudou66.com 玉豆免费节点) 42
   type: url-test
