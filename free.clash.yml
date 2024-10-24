@@ -446,7 +446,50 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点
+  name: 🇺🇸 美国 CloudFlare节点 3
+  network: ws
+  port: 80
+  server: 104.16.61.8
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: d396-flower-d396.megare7260.workers.dev
+    path: /obdii.cfd/linkws
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇨🇳 广东省广州市 移动
+  port: 33288
+  server: 183.236.48.161
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇮🇳 印度 v2rayfree.eu.org
+  network: ws
+  port: 443
+  server: 202.78.162.5
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
+  ws-opts:
+    headers:
+      Host: irsoft.sytes.net
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点 17
   network: ws
   port: 8080
   server: www.darkroom.lol
@@ -459,21 +502,48 @@ proxies:
     headers:
       Host: www.darkroom.lol
     path: /
-- alterId: 0
+- alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点 2
-  network: ws
-  port: 8880
-  server: 104.21.82.183
+  name: 🇨🇳 广东省中山市 移动
+  port: 46665
+  server: 120.237.79.157
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  uuid: 3ac820af-becb-45d7-9e7a-e33d02961bb3
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点 30
+  network: ws
+  port: 2082
+  server: s1c.v2.v001sss.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
   ws-opts:
     headers:
-      Host: server26.beheshtbaneh.com
+      Host: s1c.v2.v001sss.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点 35
+  network: ws
+  port: 80
+  server: usnew.lbxjc.site
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  ws-opts:
+    headers:
+      Host: chunchuan.kejixiaoqi666.store
     path: /
 - alterId: 0
   cipher: auto
@@ -500,22 +570,6 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇮🇳 印度 v2rayfree.eu.org
-  network: ws
-  port: 443
-  server: 202.78.162.5
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
-  ws-opts:
-    headers:
-      Host: pendar.onthewifi.com
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
   name: 🇺🇸 美国 v2rayfree.eu.org
   port: 44513
   server: 162.19.25.207
@@ -524,22 +578,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 4552bdb6-e008-43ac-926d-c6c6c5a6fc76
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点 13
-  network: ws
-  port: 80
-  server: hsj.lbxjc.online
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
-  ws-opts:
-    headers:
-      Host: chunchuan.kejixiaoqi666.store
-    path: /
 - alterId: 0
   cipher: auto
   name: 美国(yudou66.com 玉豆免费节点) 3
@@ -613,13 +651,16 @@ proxy-groups:
   - 美国 086
   - 瑞士 002
   - 美国 119
-  - 🇺🇸 美国 CloudFlare节点
-  - 🇺🇸 美国 CloudFlare节点 2
+  - 🇺🇸 美国 CloudFlare节点 3
+  - 🇨🇳 广东省广州市 移动
+  - 🇮🇳 印度 v2rayfree.eu.org
+  - 🇺🇸 美国 CloudFlare节点 17
+  - 🇨🇳 广东省中山市 移动
+  - 🇺🇸 美国 CloudFlare节点 30
+  - 🇺🇸 美国 CloudFlare节点 35
   - 🇰🇷 韩国
   - 🇩🇪 德国
-  - 🇮🇳 印度 v2rayfree.eu.org
   - 🇺🇸 美国 v2rayfree.eu.org
-  - 🇺🇸 美国 CloudFlare节点 13
   - 美国(yudou66.com 玉豆免费节点) 3
   - 美国(yudou66.com 玉豆免费节点) 5
   - 美国(yudou66.com 玉豆免费节点) 42
@@ -656,13 +697,16 @@ proxy-groups:
   - 美国 086
   - 瑞士 002
   - 美国 119
-  - 🇺🇸 美国 CloudFlare节点
-  - 🇺🇸 美国 CloudFlare节点 2
+  - 🇺🇸 美国 CloudFlare节点 3
+  - 🇨🇳 广东省广州市 移动
+  - 🇮🇳 印度 v2rayfree.eu.org
+  - 🇺🇸 美国 CloudFlare节点 17
+  - 🇨🇳 广东省中山市 移动
+  - 🇺🇸 美国 CloudFlare节点 30
+  - 🇺🇸 美国 CloudFlare节点 35
   - 🇰🇷 韩国
   - 🇩🇪 德国
-  - 🇮🇳 印度 v2rayfree.eu.org
   - 🇺🇸 美国 v2rayfree.eu.org
-  - 🇺🇸 美国 CloudFlare节点 13
   - 美国(yudou66.com 玉豆免费节点) 3
   - 美国(yudou66.com 玉豆免费节点) 5
   - 美国(yudou66.com 玉豆免费节点) 42
