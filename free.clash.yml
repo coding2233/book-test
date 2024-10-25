@@ -562,10 +562,26 @@ proxies:
   tfo: false
   tls: true
   type: vmess
-  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
+  uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
   ws-opts:
     headers:
-      Host: irsoft.sytes.net
+      Host: sahand.serveminecraft.net
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点
+  network: ws
+  port: 8880
+  server: server31.beheshtbaneh.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  ws-opts:
+    headers:
+      Host: server31.beheshtbaneh.com
     path: /
 - alterId: 0
   cipher: auto
@@ -647,22 +663,6 @@ proxies:
   ws-opts:
     headers:
       Host: 22.lwdh.us
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点 23
-  network: ws
-  port: 8880
-  server: server31.beheshtbaneh.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
-  ws-opts:
-    headers:
-      Host: server31.beheshtbaneh.com
     path: /
 - alterId: 0
   cipher: auto
@@ -778,13 +778,13 @@ proxy-groups:
   - 日本 003
   - 加拿大 016
   - 🇮🇳 印度 v2rayfree.eu.org
+  - 🇺🇸 美国 CloudFlare节点
   - 🇯🇵 日本2
   - 🇰🇷 韩国
   - 🇩🇪 德国
   - 🇺🇸 美国 Fastly全球Anycast节点
   - 🇧🇷 巴西圣保罗 CloudFlare节点
   - 🇷🇺 俄罗斯 v2rayfree.eu.org
-  - 🇺🇸 美国 CloudFlare节点 23
   - 🇮🇳 印度
   - 🇺🇸 美国
   - 🇺🇸 美国 CloudFlare节点 13
@@ -831,13 +831,13 @@ proxy-groups:
   - 日本 003
   - 加拿大 016
   - 🇮🇳 印度 v2rayfree.eu.org
+  - 🇺🇸 美国 CloudFlare节点
   - 🇯🇵 日本2
   - 🇰🇷 韩国
   - 🇩🇪 德国
   - 🇺🇸 美国 Fastly全球Anycast节点
   - 🇧🇷 巴西圣保罗 CloudFlare节点
   - 🇷🇺 俄罗斯 v2rayfree.eu.org
-  - 🇺🇸 美国 CloudFlare节点 23
   - 🇮🇳 印度
   - 🇺🇸 美国
   - 🇺🇸 美国 CloudFlare节点 13
