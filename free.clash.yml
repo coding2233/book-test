@@ -347,19 +347,6 @@ proxies:
   uuid: 8d535673-6112-4eb0-a9f5-bed343d93035
 - alterId: 0
   cipher: auto
-  name: 美国 086
-  network: ws
-  port: 443
-  server: speedtest.net
-  tls: true
-  type: vmess
-  uuid: 57727d7d-8873-4000-b3f4-33a93fcfdd51
-  ws-opts:
-    headers:
-      Host: mehrjavan.ir
-    path: /m28jcoZZUhkqg6pk11
-- alterId: 0
-  cipher: auto
   name: 美国 119
   network: ws
   port: 2086
@@ -577,40 +564,70 @@ proxies:
   uuid: 83876222-64a4-4912-aa18-b7d9d34959de
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点
+  name: 美国 033
   network: ws
   port: 8080
-  server: www.darkroom.lol
-  skip-cert-verify: false
-  tfo: false
-  tls: false
+  server: n010.kovmk.website
+  servername: n010.kovmk.website
+  tls: true
   type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  udp: true
+  uuid: 2a512ec5-60f4-472b-9e67-6fa86aed6499
   ws-opts:
     headers:
-      Host: www.darkroom.lol
+      Host: daohang.kovmk.website
+    path: /xyz
+- alterId: 0
+  cipher: auto
+  name: 加拿大 053
+  network: ws
+  port: 443
+  server: 104.21.55.234
+  servername: gwdef.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
+  ws-opts:
+    headers:
+      Host: gwdef.sbs
     path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇺🇸 美国 Fastly全球Anycast节点
+  name: 🇮🇳 印度 v2rayfree.eu.org
   network: ws
   port: 443
-  server: gov.uk
+  server: 202.78.162.5
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vmess
-  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
   ws-opts:
     headers:
-      Host: zheshiscp.com
-    path: /77848824
+      Host: pendar.onthewifi.com
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇯🇵 日本2
+  name: 🇮🇳 印度 v2rayfree.eu.org 2
+  network: ws
+  port: 443
+  server: 202.78.162.5
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
+  ws-opts:
+    headers:
+      Host: sahand.serveminecraft.net
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇯🇵 日本3
   port: 43720
   server: 61.120.9.18
   skip-cert-verify: false
@@ -618,6 +635,17 @@ proxies:
   tls: false
   type: vmess
   uuid: f248d0e9-19f7-ea7f-6659-17a610dfe8d6
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国3
+  port: 9023
+  server: select-us.0000000000.download
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: ac59a7cd-11af-3e35-a098-b785688ec627
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -629,6 +657,22 @@ proxies:
   tls: false
   type: vmess
   uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点
+  network: ws
+  port: 8880
+  server: 104.21.82.183
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  ws-opts:
+    headers:
+      Host: server26.beheshtbaneh.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 美国(yudou66.com 玉豆免费节点) 3
@@ -695,7 +739,6 @@ proxy-groups:
   - 美国 228
   - 美国 082
   - 伊朗 001
-  - 美国 086
   - 美国 119
   - 美国 022
   - 美国 055
@@ -711,10 +754,14 @@ proxy-groups:
   - 美国 063
   - 韩国 001
   - 意大利 001
-  - 🇺🇸 美国 CloudFlare节点
-  - 🇺🇸 美国 Fastly全球Anycast节点
-  - 🇯🇵 日本2
+  - 美国 033
+  - 加拿大 053
+  - 🇮🇳 印度 v2rayfree.eu.org
+  - 🇮🇳 印度 v2rayfree.eu.org 2
+  - 🇯🇵 日本3
+  - 🇺🇸 美国3
   - 🇩🇪 德国
+  - 🇺🇸 美国 CloudFlare节点
   - 美国(yudou66.com 玉豆免费节点) 3
   - 美国(yudou66.com 玉豆免费节点) 5
   - 美国(yudou66.com 玉豆免费节点) 42
@@ -744,7 +791,6 @@ proxy-groups:
   - 美国 228
   - 美国 082
   - 伊朗 001
-  - 美国 086
   - 美国 119
   - 美国 022
   - 美国 055
@@ -760,10 +806,14 @@ proxy-groups:
   - 美国 063
   - 韩国 001
   - 意大利 001
-  - 🇺🇸 美国 CloudFlare节点
-  - 🇺🇸 美国 Fastly全球Anycast节点
-  - 🇯🇵 日本2
+  - 美国 033
+  - 加拿大 053
+  - 🇮🇳 印度 v2rayfree.eu.org
+  - 🇮🇳 印度 v2rayfree.eu.org 2
+  - 🇯🇵 日本3
+  - 🇺🇸 美国3
   - 🇩🇪 德国
+  - 🇺🇸 美国 CloudFlare节点
   - 美国(yudou66.com 玉豆免费节点) 3
   - 美国(yudou66.com 玉豆免费节点) 5
   - 美国(yudou66.com 玉豆免费节点) 42
