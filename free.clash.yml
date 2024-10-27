@@ -600,84 +600,46 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇨🇳 湖南省长沙市 移动
-  port: 25006
-  server: b.baodesign.top
+  name: 🇺🇸 美国 Fastly全球Anycast节点
+  network: ws
+  port: 443
+  server: gov.uk
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+  ws-opts:
+    headers:
+      Host: zheshiscp.com
+    path: /77848824
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点
+  network: ws
+  port: 8880
+  server: server31.beheshtbaneh.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  ws-opts:
+    headers:
+      Host: server31.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇯🇵 日本
+  port: 25004
+  server: d.baodesign.top
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
   uuid: ba2e86ee-65fc-4b4e-97c7-165b5b64023b
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇨🇳 江苏省 移动数据上网公共出口
-  port: 15086
-  server: 15086.kuaiyin02.top
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇨🇳 广东省广州市 电信
-  network: ws
-  port: 12910
-  server: z8.fragranceninja.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
-  ws-opts:
-    headers:
-      Host: z8.fragranceninja.com
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点 18
-  network: ws
-  port: 8880
-  server: 104.21.82.183
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
-  ws-opts:
-    headers:
-      Host: server26.beheshtbaneh.com
-    path: /
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇨🇳 广东省中山市 移动
-  port: 46665
-  server: 120.237.79.157
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 3ac820af-becb-45d7-9e7a-e33d02961bb3
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇮🇳 印度 v2rayfree.eu.org
-  network: ws
-  port: 443
-  server: 202.78.162.5
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
-  ws-opts:
-    headers:
-      Host: pendar.onthewifi.com
-    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -700,6 +662,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 3
+  port: 12908
+  server: z8.fragranceninja.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: a32313ad-5e39-4f9a-9cad-512041790050
 - alterId: 0
   cipher: auto
   name: 美国(yudou66.com 玉豆免费节点) 5
@@ -774,14 +746,12 @@ proxy-groups:
   - 日本 008
   - 美国 171
   - 加拿大 073
-  - 🇨🇳 湖南省长沙市 移动
-  - 🇨🇳 江苏省 移动数据上网公共出口
-  - 🇨🇳 广东省广州市 电信
-  - 🇺🇸 美国 CloudFlare节点 18
-  - 🇨🇳 广东省中山市 移动
-  - 🇮🇳 印度 v2rayfree.eu.org
+  - 🇺🇸 美国 Fastly全球Anycast节点
+  - 🇺🇸 美国 CloudFlare节点
+  - 🇯🇵 日本
   - 🇯🇵 日本3
   - 🇩🇪 德国
+  - 美国(yudou66.com 玉豆免费节点) 3
   - 美国(yudou66.com 玉豆免费节点) 5
   - 美国(yudou66.com 玉豆免费节点) 42
   type: select
@@ -828,14 +798,12 @@ proxy-groups:
   - 日本 008
   - 美国 171
   - 加拿大 073
-  - 🇨🇳 湖南省长沙市 移动
-  - 🇨🇳 江苏省 移动数据上网公共出口
-  - 🇨🇳 广东省广州市 电信
-  - 🇺🇸 美国 CloudFlare节点 18
-  - 🇨🇳 广东省中山市 移动
-  - 🇮🇳 印度 v2rayfree.eu.org
+  - 🇺🇸 美国 Fastly全球Anycast节点
+  - 🇺🇸 美国 CloudFlare节点
+  - 🇯🇵 日本
   - 🇯🇵 日本3
   - 🇩🇪 德国
+  - 美国(yudou66.com 玉豆免费节点) 3
   - 美国(yudou66.com 玉豆免费节点) 5
   - 美国(yudou66.com 玉豆免费节点) 42
   type: url-test
