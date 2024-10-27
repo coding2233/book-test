@@ -562,17 +562,95 @@ proxies:
     headers:
       Host: gwdef.sbs
     path: /
-- alterId: 64
+- alterId: 0
+  cipher: auto
+  name: 日本 008
+  network: tcp
+  port: 14072
+  server: 45.159.50.65
+  tls: false
+  type: vmess
+  uuid: 1a72c7ca-ff6c-4dd8-8efe-388d2bfdf92f
+- alterId: 0
+  cipher: auto
+  name: 美国 171
+  network: ws
+  port: 443
+  server: speedtest.net
+  tls: true
+  type: vmess
+  uuid: 57727d7d-8873-4000-b3f4-33a93fcfdd51
+  ws-opts:
+    headers:
+      Host: mehrjavan.ir
+    path: /m28jcoZZUhkqg6pk11
+- alterId: 0
+  cipher: auto
+  name: 加拿大 073
+  network: ws
+  port: 80
+  server: www.speedtest.net
+  tls: false
+  type: vmess
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  ws-opts:
+    headers:
+      Host: telegram----cassiusvpn----2.ranob36907.workers.dev
+    path: /az05.beyondy.cfd:443/link
+- alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇨🇳 广东省广州市 移动 3
-  port: 43526
-  server: 120.232.153.71
+  name: 🇨🇳 湖南省长沙市 移动
+  port: 25006
+  server: b.baodesign.top
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
+  uuid: ba2e86ee-65fc-4b4e-97c7-165b5b64023b
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇨🇳 江苏省 移动数据上网公共出口
+  port: 15086
+  server: 15086.kuaiyin02.top
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇨🇳 广东省广州市 电信
+  network: ws
+  port: 12910
+  server: z8.fragranceninja.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: a32313ad-5e39-4f9a-9cad-512041790050
+  ws-opts:
+    headers:
+      Host: z8.fragranceninja.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点 18
+  network: ws
+  port: 8880
+  server: 104.21.82.183
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  ws-opts:
+    headers:
+      Host: server26.beheshtbaneh.com
+    path: /
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -587,6 +665,22 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
+  name: 🇮🇳 印度 v2rayfree.eu.org
+  network: ws
+  port: 443
+  server: 202.78.162.5
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+  ws-opts:
+    headers:
+      Host: pendar.onthewifi.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
   name: 🇯🇵 日本3
   port: 43720
   server: 61.120.9.18
@@ -595,27 +689,17 @@ proxies:
   tls: false
   type: vmess
   uuid: f248d0e9-19f7-ea7f-6659-17a610dfe8d6
-- alterId: 0
+- alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 🇺🇸 美国3
-  port: 9023
-  server: select-us.0000000000.download
+  name: 🇩🇪 德国
+  port: 43526
+  server: 120.232.153.71
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: ac59a7cd-11af-3e35-a098-b785688ec627
-- alterId: 0
-  cipher: auto
-  name: 美国(yudou66.com 玉豆免费节点) 3
-  port: 12908
-  server: z8.fragranceninja.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
+  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
 - alterId: 0
   cipher: auto
   name: 美国(yudou66.com 玉豆免费节点) 5
@@ -687,11 +771,17 @@ proxy-groups:
   - 意大利 001
   - 美国 033
   - 加拿大 053
-  - 🇨🇳 广东省广州市 移动 3
+  - 日本 008
+  - 美国 171
+  - 加拿大 073
+  - 🇨🇳 湖南省长沙市 移动
+  - 🇨🇳 江苏省 移动数据上网公共出口
+  - 🇨🇳 广东省广州市 电信
+  - 🇺🇸 美国 CloudFlare节点 18
   - 🇨🇳 广东省中山市 移动
+  - 🇮🇳 印度 v2rayfree.eu.org
   - 🇯🇵 日本3
-  - 🇺🇸 美国3
-  - 美国(yudou66.com 玉豆免费节点) 3
+  - 🇩🇪 德国
   - 美国(yudou66.com 玉豆免费节点) 5
   - 美国(yudou66.com 玉豆免费节点) 42
   type: select
@@ -735,11 +825,17 @@ proxy-groups:
   - 意大利 001
   - 美国 033
   - 加拿大 053
-  - 🇨🇳 广东省广州市 移动 3
+  - 日本 008
+  - 美国 171
+  - 加拿大 073
+  - 🇨🇳 湖南省长沙市 移动
+  - 🇨🇳 江苏省 移动数据上网公共出口
+  - 🇨🇳 广东省广州市 电信
+  - 🇺🇸 美国 CloudFlare节点 18
   - 🇨🇳 广东省中山市 移动
+  - 🇮🇳 印度 v2rayfree.eu.org
   - 🇯🇵 日本3
-  - 🇺🇸 美国3
-  - 美国(yudou66.com 玉豆免费节点) 3
+  - 🇩🇪 德国
   - 美国(yudou66.com 玉豆免费节点) 5
   - 美国(yudou66.com 玉豆免费节点) 42
   type: url-test
