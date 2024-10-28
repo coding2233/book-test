@@ -664,6 +664,22 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点
+  network: ws
+  port: 8880
+  server: 104.21.82.183
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  ws-opts:
+    headers:
+      Host: server26.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
   name: 🇮🇳 印度 v2rayfree.eu.org
   network: ws
   port: 443
@@ -672,15 +688,15 @@ proxies:
   tfo: false
   tls: true
   type: vmess
-  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+  uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
   ws-opts:
     headers:
-      Host: pendar.onthewifi.com
+      Host: sahand.serveminecraft.net
     path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点
+  name: 🇺🇸 美国 CloudFlare节点 2
   network: ws
   port: 8880
   server: server31.beheshtbaneh.com
@@ -692,6 +708,22 @@ proxies:
   ws-opts:
     headers:
       Host: server31.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点 3
+  network: ws
+  port: 8080
+  server: www.darkroom.lol
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.darkroom.lol
     path: /
 - alterId: 0
   cipher: auto
@@ -730,22 +762,6 @@ proxies:
   ws-opts:
     headers:
       Host: z2.fragranceninja.com
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点 2
-  network: ws
-  port: 8880
-  server: 104.21.82.183
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
-  ws-opts:
-    headers:
-      Host: server26.beheshtbaneh.com
     path: /
 - alterId: 0
   cipher: auto
@@ -887,12 +903,13 @@ proxy-groups:
   - 加拿大 098
   - 加拿大 111
   - 美国 071
-  - 🇮🇳 印度 v2rayfree.eu.org
   - 🇺🇸 美国 CloudFlare节点
+  - 🇮🇳 印度 v2rayfree.eu.org
+  - 🇺🇸 美国 CloudFlare节点 2
+  - 🇺🇸 美国 CloudFlare节点 3
   - 🇯🇵 日本
   - 🇩🇪 德国
   - 🇨🇳 广东省 移动
-  - 🇺🇸 美国 CloudFlare节点 2
   - 🇧🇷 巴西圣保罗 CloudFlare节点
   - 🇺🇸 美国 Fastly全球Anycast节点
   - 🇮🇷_IR_伊朗->🇫🇷_FR_法国_2
@@ -947,12 +964,13 @@ proxy-groups:
   - 加拿大 098
   - 加拿大 111
   - 美国 071
-  - 🇮🇳 印度 v2rayfree.eu.org
   - 🇺🇸 美国 CloudFlare节点
+  - 🇮🇳 印度 v2rayfree.eu.org
+  - 🇺🇸 美国 CloudFlare节点 2
+  - 🇺🇸 美国 CloudFlare节点 3
   - 🇯🇵 日本
   - 🇩🇪 德国
   - 🇨🇳 广东省 移动
-  - 🇺🇸 美国 CloudFlare节点 2
   - 🇧🇷 巴西圣保罗 CloudFlare节点
   - 🇺🇸 美国 Fastly全球Anycast节点
   - 🇮🇷_IR_伊朗->🇫🇷_FR_法国_2
