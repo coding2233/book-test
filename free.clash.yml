@@ -620,20 +620,47 @@ proxies:
     path: /xyz
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点
+  name: 加拿大 098
   network: ws
-  port: 8880
-  server: server31.beheshtbaneh.com
+  port: 443
+  server: irhms03.dongfeng.cfd
+  servername: hms03.dongfeng.cfd
   skip-cert-verify: false
-  tfo: false
-  tls: false
+  tls: true
   type: vmess
-  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  uuid: fa5b55cd-cafc-4de0-a4c8-722e02a9f58e
   ws-opts:
     headers:
-      Host: server31.beheshtbaneh.com
+      Host: hms03.dongfeng.cfd
     path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 111
+  network: ws
+  port: 80
+  server: 162.159.136.98
+  type: vmess
+  udp: true
+  uuid: 5820093a-bb7d-4e15-8575-1a529f2d8282
+  ws-opts:
+    headers:
+      Host: rn2.hostmjj.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 071
+  network: ws
+  port: 80
+  server: 104.22.58.63
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 8f3e7a5c-9795-40b7-bb59-49892bde5d9c
+  ws-opts:
+    headers:
+      Host: 73012792103530616183052842717949.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
+    path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -653,6 +680,22 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点
+  network: ws
+  port: 8880
+  server: server31.beheshtbaneh.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  ws-opts:
+    headers:
+      Host: server31.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
   name: 🇯🇵 日本
   port: 25004
   server: d.baodesign.top
@@ -661,17 +704,6 @@ proxies:
   tls: false
   type: vmess
   uuid: ba2e86ee-65fc-4b4e-97c7-165b5b64023b
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇯🇵 日本3
-  port: 43720
-  server: 61.120.9.18
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: f248d0e9-19f7-ea7f-6659-17a610dfe8d6
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -749,6 +781,36 @@ proxies:
     path: /77848824
 - alterId: 0
   cipher: auto
+  fingerprint: ''
+  name: 🇮🇷_IR_伊朗->🇫🇷_FR_法国_2
+  network: ws
+  port: 2083
+  server: 193.151.144.26
+  sni: ''
+  type: vmess
+  udp: true
+  uuid: 7b33bc8f-7014-4814-afb1-1c4d7f25314c
+  ws-opts:
+    headers:
+      host: tv.filmnet.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  fingerprint: ''
+  name: 🇺🇸_US_美国_31
+  network: ws
+  port: 2052
+  server: speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.expresstv.ggff.net
+  sni: ''
+  type: vmess
+  udp: true
+  uuid: 4b1168e7-82b0-43a7-8dbc-b22b61547ef4
+  ws-opts:
+    headers:
+      host: speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.expresstv.ggff.net
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
   name: 美国(yudou66.com 玉豆免费节点) 5
   network: ws
   port: 2086
@@ -822,15 +884,19 @@ proxy-groups:
   - 加拿大 073
   - 新加坡 001
   - 美国 191
-  - 🇺🇸 美国 CloudFlare节点
+  - 加拿大 098
+  - 加拿大 111
+  - 美国 071
   - 🇮🇳 印度 v2rayfree.eu.org
+  - 🇺🇸 美国 CloudFlare节点
   - 🇯🇵 日本
-  - 🇯🇵 日本3
   - 🇩🇪 德国
   - 🇨🇳 广东省 移动
   - 🇺🇸 美国 CloudFlare节点 2
   - 🇧🇷 巴西圣保罗 CloudFlare节点
   - 🇺🇸 美国 Fastly全球Anycast节点
+  - 🇮🇷_IR_伊朗->🇫🇷_FR_法国_2
+  - 🇺🇸_US_美国_31
   - 美国(yudou66.com 玉豆免费节点) 5
   - 美国(yudou66.com 玉豆免费节点) 42
   type: select
@@ -878,15 +944,19 @@ proxy-groups:
   - 加拿大 073
   - 新加坡 001
   - 美国 191
-  - 🇺🇸 美国 CloudFlare节点
+  - 加拿大 098
+  - 加拿大 111
+  - 美国 071
   - 🇮🇳 印度 v2rayfree.eu.org
+  - 🇺🇸 美国 CloudFlare节点
   - 🇯🇵 日本
-  - 🇯🇵 日本3
   - 🇩🇪 德国
   - 🇨🇳 广东省 移动
   - 🇺🇸 美国 CloudFlare节点 2
   - 🇧🇷 巴西圣保罗 CloudFlare节点
   - 🇺🇸 美国 Fastly全球Anycast节点
+  - 🇮🇷_IR_伊朗->🇫🇷_FR_法国_2
+  - 🇺🇸_US_美国_31
   - 美国(yudou66.com 玉豆免费节点) 5
   - 美国(yudou66.com 玉豆免费节点) 42
   type: url-test
