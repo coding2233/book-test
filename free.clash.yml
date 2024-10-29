@@ -664,23 +664,71 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇮🇳 印度 v2rayfree.eu.org
+  name: 🇫🇷 法国 国际航空电讯集团公司(SITA)
   network: ws
-  port: 443
-  server: 202.78.162.5
+  port: 80
+  server: ov-germany1.09vpn.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 8617d9e2-0a57-4168-81cd-661f190e9533
+  ws-opts:
+    headers:
+      Host: ov-germany1.09vpn.com
+    path: /vmess/
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇨🇳 广东省 移动
+  network: ws
+  port: 12925
+  server: z2.fragranceninja.com
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vmess
-  uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
+  uuid: a32313ad-5e39-4f9a-9cad-512041790050
   ws-opts:
     headers:
-      Host: sahand.serveminecraft.net
+      Host: z2.fragranceninja.com
     path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇺🇸 美国 Fastly全球Anycast节点
+  name: 🇺🇸 美国 CloudFlare节点 3
+  network: ws
+  port: 8880
+  server: server31.beheshtbaneh.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  ws-opts:
+    headers:
+      Host: server31.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点 9
+  network: ws
+  port: 8880
+  server: 104.21.82.183
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  ws-opts:
+    headers:
+      Host: server26.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 Fastly全球Anycast节点 2
   network: ws
   port: 443
   server: gov.uk
@@ -729,50 +777,18 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点 6
+  name: 🇮🇳 印度 v2rayfree.eu.org
   network: ws
-  port: 8880
-  server: server31.beheshtbaneh.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
-  ws-opts:
-    headers:
-      Host: server31.beheshtbaneh.com
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇨🇳 广东省 移动
-  network: ws
-  port: 12925
-  server: z2.fragranceninja.com
+  port: 443
+  server: 202.78.162.5
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vmess
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
+  uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
   ws-opts:
     headers:
-      Host: z2.fragranceninja.com
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点 8
-  network: ws
-  port: 8880
-  server: 104.21.82.183
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
-  ws-opts:
-    headers:
-      Host: server26.beheshtbaneh.com
+      Host: sahand.serveminecraft.net
     path: /
 - alterId: 0
   cipher: auto
@@ -868,14 +884,15 @@ proxy-groups:
   - 加拿大 098
   - 加拿大 111
   - 美国 071
-  - 🇮🇳 印度 v2rayfree.eu.org
-  - 🇺🇸 美国 Fastly全球Anycast节点
+  - 🇫🇷 法国 国际航空电讯集团公司(SITA)
+  - 🇨🇳 广东省 移动
+  - 🇺🇸 美国 CloudFlare节点 3
+  - 🇺🇸 美国 CloudFlare节点 9
+  - 🇺🇸 美国 Fastly全球Anycast节点 2
   - 🇯🇵 日本
   - 🇰🇷 韩国
   - 🇩🇪 德国
-  - 🇺🇸 美国 CloudFlare节点 6
-  - 🇨🇳 广东省 移动
-  - 🇺🇸 美国 CloudFlare节点 8
+  - 🇮🇳 印度 v2rayfree.eu.org
   - 🇧🇷 巴西圣保罗 CloudFlare节点
   - 美国(yudou66.com 玉豆免费节点) 5
   - 美国(yudou66.com 玉豆免费节点) 42
@@ -927,14 +944,15 @@ proxy-groups:
   - 加拿大 098
   - 加拿大 111
   - 美国 071
-  - 🇮🇳 印度 v2rayfree.eu.org
-  - 🇺🇸 美国 Fastly全球Anycast节点
+  - 🇫🇷 法国 国际航空电讯集团公司(SITA)
+  - 🇨🇳 广东省 移动
+  - 🇺🇸 美国 CloudFlare节点 3
+  - 🇺🇸 美国 CloudFlare节点 9
+  - 🇺🇸 美国 Fastly全球Anycast节点 2
   - 🇯🇵 日本
   - 🇰🇷 韩国
   - 🇩🇪 德国
-  - 🇺🇸 美国 CloudFlare节点 6
-  - 🇨🇳 广东省 移动
-  - 🇺🇸 美国 CloudFlare节点 8
+  - 🇮🇳 印度 v2rayfree.eu.org
   - 🇧🇷 巴西圣保罗 CloudFlare节点
   - 美国(yudou66.com 玉豆免费节点) 5
   - 美国(yudou66.com 玉豆免费节点) 42
