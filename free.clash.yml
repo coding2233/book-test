@@ -661,10 +661,80 @@ proxies:
     headers:
       Host: 73012792103530616183052842717949.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇨🇳 广东省广州市 移动
+  port: 43526
+  server: 120.232.153.71
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点
+  name: 🇨🇳 广东省广州市 电信
+  network: ws
+  port: 12910
+  server: z8.fragranceninja.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: a32313ad-5e39-4f9a-9cad-512041790050
+  ws-opts:
+    headers:
+      Host: z8.fragranceninja.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇨🇳 湖南省长沙市 移动
+  port: 25007
+  server: c.baodesign.top
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: ba2e86ee-65fc-4b4e-97c7-165b5b64023b
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点 11
+  network: ws
+  port: 8880
+  server: server31.beheshtbaneh.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  ws-opts:
+    headers:
+      Host: server31.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点 14
+  network: ws
+  port: 8080
+  server: www.darkroom.lol
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.darkroom.lol
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点 16
   network: ws
   port: 8880
   server: 104.21.82.183
@@ -695,74 +765,34 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点 2
+  fingerprint: ''
+  name: 🇮🇷_IR_伊朗->🇫🇷_FR_法国_2
   network: ws
-  port: 8880
-  server: server31.beheshtbaneh.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
+  port: 2083
+  server: 193.151.144.26
+  sni: ''
   type: vmess
-  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  udp: true
+  uuid: 7b33bc8f-7014-4814-afb1-1c4d7f25314c
   ws-opts:
     headers:
-      Host: server31.beheshtbaneh.com
+      host: tv.filmnet.ir
     path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点 3
+  fingerprint: ''
+  name: 🇺🇸_US_美国_31
   network: ws
-  port: 8080
-  server: www.darkroom.lol
-  skip-cert-verify: false
-  tfo: false
-  tls: false
+  port: 2052
+  server: speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.expresstv.ggff.net
+  sni: ''
   type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  udp: true
+  uuid: 4b1168e7-82b0-43a7-8dbc-b22b61547ef4
   ws-opts:
     headers:
-      Host: www.darkroom.lol
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇯🇵 日本
-  port: 25004
-  server: d.baodesign.top
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: ba2e86ee-65fc-4b4e-97c7-165b5b64023b
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇩🇪 德国
-  port: 43526
-  server: 120.232.153.71
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇨🇳 广东省 移动
-  network: ws
-  port: 12938
-  server: z2.fragranceninja.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
-  ws-opts:
-    headers:
-      Host: z2.fragranceninja.com
-    path: /
+      host: speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.expresstv.ggff.net
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -795,36 +825,6 @@ proxies:
     headers:
       Host: zheshiscp.com
     path: /77848824
-- alterId: 0
-  cipher: auto
-  fingerprint: ''
-  name: 🇮🇷_IR_伊朗->🇫🇷_FR_法国_2
-  network: ws
-  port: 2083
-  server: 193.151.144.26
-  sni: ''
-  type: vmess
-  udp: true
-  uuid: 7b33bc8f-7014-4814-afb1-1c4d7f25314c
-  ws-opts:
-    headers:
-      host: tv.filmnet.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  fingerprint: ''
-  name: 🇺🇸_US_美国_31
-  network: ws
-  port: 2052
-  server: speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.expresstv.ggff.net
-  sni: ''
-  type: vmess
-  udp: true
-  uuid: 4b1168e7-82b0-43a7-8dbc-b22b61547ef4
-  ws-opts:
-    headers:
-      host: speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.expresstv.ggff.net
-    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: 美国(yudou66.com 玉豆免费节点) 5
@@ -903,17 +903,17 @@ proxy-groups:
   - 加拿大 098
   - 加拿大 111
   - 美国 071
-  - 🇺🇸 美国 CloudFlare节点
+  - 🇨🇳 广东省广州市 移动
+  - 🇨🇳 广东省广州市 电信
+  - 🇨🇳 湖南省长沙市 移动
+  - 🇺🇸 美国 CloudFlare节点 11
+  - 🇺🇸 美国 CloudFlare节点 14
+  - 🇺🇸 美国 CloudFlare节点 16
   - 🇮🇳 印度 v2rayfree.eu.org
-  - 🇺🇸 美国 CloudFlare节点 2
-  - 🇺🇸 美国 CloudFlare节点 3
-  - 🇯🇵 日本
-  - 🇩🇪 德国
-  - 🇨🇳 广东省 移动
-  - 🇧🇷 巴西圣保罗 CloudFlare节点
-  - 🇺🇸 美国 Fastly全球Anycast节点
   - 🇮🇷_IR_伊朗->🇫🇷_FR_法国_2
   - 🇺🇸_US_美国_31
+  - 🇧🇷 巴西圣保罗 CloudFlare节点
+  - 🇺🇸 美国 Fastly全球Anycast节点
   - 美国(yudou66.com 玉豆免费节点) 5
   - 美国(yudou66.com 玉豆免费节点) 42
   type: select
@@ -964,17 +964,17 @@ proxy-groups:
   - 加拿大 098
   - 加拿大 111
   - 美国 071
-  - 🇺🇸 美国 CloudFlare节点
+  - 🇨🇳 广东省广州市 移动
+  - 🇨🇳 广东省广州市 电信
+  - 🇨🇳 湖南省长沙市 移动
+  - 🇺🇸 美国 CloudFlare节点 11
+  - 🇺🇸 美国 CloudFlare节点 14
+  - 🇺🇸 美国 CloudFlare节点 16
   - 🇮🇳 印度 v2rayfree.eu.org
-  - 🇺🇸 美国 CloudFlare节点 2
-  - 🇺🇸 美国 CloudFlare节点 3
-  - 🇯🇵 日本
-  - 🇩🇪 德国
-  - 🇨🇳 广东省 移动
-  - 🇧🇷 巴西圣保罗 CloudFlare节点
-  - 🇺🇸 美国 Fastly全球Anycast节点
   - 🇮🇷_IR_伊朗->🇫🇷_FR_法国_2
   - 🇺🇸_US_美国_31
+  - 🇧🇷 巴西圣保罗 CloudFlare节点
+  - 🇺🇸 美国 Fastly全球Anycast节点
   - 美国(yudou66.com 玉豆免费节点) 5
   - 美国(yudou66.com 玉豆免费节点) 42
   type: url-test
