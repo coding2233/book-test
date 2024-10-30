@@ -131,22 +131,6 @@ proxies:
   uuid: 860a1295-0d81-403c-a179-97f396437809
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 007
-  network: ws
-  port: 80
-  server: eedp257bubu2wefy1.lovebaipiao.net
-  servername: www.apple.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5b9a6438-84d3-419e-bc32-43acc74b1c3c
-  ws-opts:
-    headers:
-      Host: eedp257bubu2wefy1.lovebaipiao.net
-    path: /iphone
-- alterId: 0
-  cipher: auto
   name: 加拿大 091
   network: ws
   port: 2052
@@ -502,15 +486,6 @@ proxies:
     path: /xyz
 - alterId: 0
   cipher: auto
-  name: 韩国 001
-  network: tcp
-  port: 20937
-  server: 45.94.68.200
-  tls: false
-  type: vmess
-  uuid: c0e6d2ab-9fc2-4a0f-8011-844e5b45ec0c
-- alterId: 0
-  cipher: auto
   delay: 2404
   http-opts:
     method: GET
@@ -663,35 +638,101 @@ proxies:
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 🇫🇷 法国 国际航空电讯集团公司(SITA)
+  name: 加拿大 124
   network: ws
   port: 80
-  server: ov-germany1.09vpn.com
-  skip-cert-verify: false
-  tfo: false
+  server: yx.sulink.one
   tls: false
   type: vmess
-  uuid: 8617d9e2-0a57-4168-81cd-661f190e9533
+  udp: true
+  uuid: 4c3b21e4-9e62-467c-aef7-8dcb629323cd
   ws-opts:
     headers:
-      Host: ov-germany1.09vpn.com
-    path: /vmess/
+      Host: sg05.sulink.one
+    path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 🇨🇳 广东省 移动
+  name: 加拿大 126
   network: ws
-  port: 12925
-  server: z2.fragranceninja.com
-  skip-cert-verify: false
-  tfo: false
+  port: 2083
+  server: xjpv.zoding.top
   tls: true
   type: vmess
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
+  udp: true
+  uuid: 54b5990c-c73e-4dcb-ac96-203366ff1cce
   ws-opts:
     headers:
-      Host: z2.fragranceninja.com
+      Host: xjpv.zoding.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 134
+  network: ws
+  port: 80
+  server: jx.jixingnetwork.sbs
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b3db39dc-f2e7-4978-b1a0-bb0e31328f85
+  ws-opts:
+    headers:
+      Host: mg01.jixingwangluo.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 139
+  network: ws
+  port: 443
+  server: 104.21.24.170
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: b321fd5d-e6ec-4293-a644-164e3885f52e
+  ws-opts:
+    headers:
+      Host: adenc36v.xtooltech.cfd
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 150
+  network: ws
+  port: 443
+  server: 172.67.71.160
+  servername: obdii.cfd
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: obdii.cfd
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 法国 002
+  network: ws
+  port: 443
+  server: irvideo.cfd
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  ws-opts:
+    headers:
+      Host: irvideo.cfd
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 166
+  network: ws
+  port: 2052
+  server: 104.16.38.71
+  tls: false
+  type: vmess
+  uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
+  ws-opts:
+    headers:
+      Host: us6_0.wish.ml
     path: /
 - alterId: 0
   cipher: auto
@@ -712,7 +753,39 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点 9
+  name: 🇮🇳 印度 v2rayfree.eu.org
+  network: ws
+  port: 443
+  server: 202.78.162.5
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
+  ws-opts:
+    headers:
+      Host: sahand.serveminecraft.net
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点 18
+  network: ws
+  port: 8080
+  server: www.darkroom.lol
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.darkroom.lol
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点 19
   network: ws
   port: 8880
   server: 104.21.82.183
@@ -728,19 +801,14 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇺🇸 美国 Fastly全球Anycast节点 2
-  network: ws
-  port: 443
-  server: gov.uk
+  name: 🇨🇳 广东省 移动
+  port: 12970
+  server: z3.fragranceninja.com
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vmess
-  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
-  ws-opts:
-    headers:
-      Host: zheshiscp.com
-    path: /77848824
+  uuid: a32313ad-5e39-4f9a-9cad-512041790050
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -774,38 +842,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇮🇳 印度 v2rayfree.eu.org
-  network: ws
-  port: 443
-  server: 202.78.162.5
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
-  ws-opts:
-    headers:
-      Host: sahand.serveminecraft.net
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇧🇷 巴西圣保罗 CloudFlare节点
-  network: ws
-  port: 443
-  server: 188.114.96.2
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: obdii.cfd
-    path: /linkws
 - alterId: 0
   cipher: auto
   name: 美国(yudou66.com 玉豆免费节点) 5
@@ -847,7 +883,6 @@ proxy-groups:
   - 加拿大 039
   - 加拿大 007
   - 德国 008
-  - 俄罗斯 007
   - 加拿大 091
   - 美国 053
   - 加拿大 125
@@ -872,7 +907,6 @@ proxy-groups:
   - 加拿大 016
   - 瑞士 001
   - 美国 063
-  - 韩国 001
   - 意大利 001
   - 美国 033
   - 加拿大 053
@@ -884,16 +918,21 @@ proxy-groups:
   - 加拿大 098
   - 加拿大 111
   - 美国 071
-  - 🇫🇷 法国 国际航空电讯集团公司(SITA)
-  - 🇨🇳 广东省 移动
+  - 加拿大 124
+  - 加拿大 126
+  - 加拿大 134
+  - 加拿大 139
+  - 加拿大 150
+  - 法国 002
+  - 加拿大 166
   - 🇺🇸 美国 CloudFlare节点 3
-  - 🇺🇸 美国 CloudFlare节点 9
-  - 🇺🇸 美国 Fastly全球Anycast节点 2
+  - 🇮🇳 印度 v2rayfree.eu.org
+  - 🇺🇸 美国 CloudFlare节点 18
+  - 🇺🇸 美国 CloudFlare节点 19
+  - 🇨🇳 广东省 移动
   - 🇯🇵 日本
   - 🇰🇷 韩国
   - 🇩🇪 德国
-  - 🇮🇳 印度 v2rayfree.eu.org
-  - 🇧🇷 巴西圣保罗 CloudFlare节点
   - 美国(yudou66.com 玉豆免费节点) 5
   - 美国(yudou66.com 玉豆免费节点) 42
   type: select
@@ -907,7 +946,6 @@ proxy-groups:
   - 加拿大 039
   - 加拿大 007
   - 德国 008
-  - 俄罗斯 007
   - 加拿大 091
   - 美国 053
   - 加拿大 125
@@ -932,7 +970,6 @@ proxy-groups:
   - 加拿大 016
   - 瑞士 001
   - 美国 063
-  - 韩国 001
   - 意大利 001
   - 美国 033
   - 加拿大 053
@@ -944,16 +981,21 @@ proxy-groups:
   - 加拿大 098
   - 加拿大 111
   - 美国 071
-  - 🇫🇷 法国 国际航空电讯集团公司(SITA)
-  - 🇨🇳 广东省 移动
+  - 加拿大 124
+  - 加拿大 126
+  - 加拿大 134
+  - 加拿大 139
+  - 加拿大 150
+  - 法国 002
+  - 加拿大 166
   - 🇺🇸 美国 CloudFlare节点 3
-  - 🇺🇸 美国 CloudFlare节点 9
-  - 🇺🇸 美国 Fastly全球Anycast节点 2
+  - 🇮🇳 印度 v2rayfree.eu.org
+  - 🇺🇸 美国 CloudFlare节点 18
+  - 🇺🇸 美国 CloudFlare节点 19
+  - 🇨🇳 广东省 移动
   - 🇯🇵 日本
   - 🇰🇷 韩国
   - 🇩🇪 德国
-  - 🇮🇳 印度 v2rayfree.eu.org
-  - 🇧🇷 巴西圣保罗 CloudFlare节点
   - 美国(yudou66.com 玉豆免费节点) 5
   - 美国(yudou66.com 玉豆免费节点) 42
   type: url-test
