@@ -117,34 +117,6 @@ proxies:
   uuid: 860a1295-0d81-403c-a179-97f396437809
 - alterId: 0
   cipher: auto
-  name: 加拿大 091
-  network: ws
-  port: 2052
-  server: jx.jixingnetwork.sbs
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5a0c2058-a1dd-4043-93c2-02465ae3cfd0
-  ws-opts:
-    headers:
-      Host: rb03.jixingnetwork.sbs
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 美国 053
-  network: ws
-  port: 2095
-  server: 172.64.166.28
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
-    path: /
-- alterId: 0
-  cipher: auto
   name: 加拿大 125
   network: ws
   port: 2082
@@ -156,6 +128,20 @@ proxies:
   ws-opts:
     headers:
       Host: ip3.6929198.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 130
+  network: ws
+  port: 2095
+  server: 104.19.47.65
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
     path: /
 - alterId: 0
   cipher: auto
@@ -874,6 +860,78 @@ proxies:
     path: /eisasqa
 - alterId: 0
   cipher: auto
+  name: 美国 064
+  network: ws
+  port: 8880
+  server: us-new01.daluquan.top
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 237c632a-8ac0-4040-ab02-adbc3b9e6610
+  ws-opts:
+    headers:
+      Host: us-new01.daluquan.top
+    path: /itdog?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 加拿大 100
+  network: ws
+  port: 2052
+  server: jx.jixingnetwork.sbs
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 479fe772-27d8-4bf7-a8a1-5d347c683bf2
+  ws-opts:
+    headers:
+      Host: rb03.jixingnetwork.sbs
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 荷兰 008
+  network: tcp
+  port: 8081
+  server: 89.23.103.249
+  tls: false
+  type: vmess
+  uuid: e712c422-d801-47bb-8d4f-bec91d1b3945
+- alterId: 0
+  cipher: auto
+  name: 美国 185
+  network: ws
+  port: 2086
+  server: www.digitalocean.com
+  tls: false
+  type: vmess
+  uuid: 24452e13-6494-463e-ba4e-6d48f7b90c91
+  ws-opts:
+    headers:
+      Host: dosg.pmcloud.top
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇨🇳 广东省 移动
+  port: 12970
+  server: z3.fragranceninja.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: a32313ad-5e39-4f9a-9cad-512041790050
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇨🇳 广东省中山市 移动
+  port: 46665
+  server: 120.237.79.157
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 3ac820af-becb-45d7-9e7a-e33d02961bb3
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: 🇯🇵 日本
   port: 25004
@@ -896,14 +954,34 @@ proxies:
   uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
 - alterId: 0
   cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)
-  port: 12901
-  server: z3.fragranceninja.com
-  skip-cert-verify: true
-  tls: true
+  fingerprint: ''
+  name: 🇮🇷_IR_伊朗->🇫🇷_FR_法国_2
+  network: ws
+  port: 2083
+  server: 193.151.144.26
+  sni: ''
   type: vmess
   udp: true
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
+  uuid: 7b33bc8f-7014-4814-afb1-1c4d7f25314c
+  ws-opts:
+    headers:
+      host: tv.filmnet.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  fingerprint: ''
+  name: 🇺🇸_US_美国_31
+  network: ws
+  port: 2052
+  server: speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.expresstv.ggff.net
+  sni: ''
+  type: vmess
+  udp: true
+  uuid: 4b1168e7-82b0-43a7-8dbc-b22b61547ef4
+  ws-opts:
+    headers:
+      host: speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.expresstv.ggff.net
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: US美国(mibei77.com 米贝节点分享) 18
@@ -918,16 +996,6 @@ proxies:
   ws-headers:
     Host: chunchuan.kejixiaoqi666.store
   ws-path: /
-- alterId: 64
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 35
-  port: 46665
-  server: 120.237.79.157
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3ac820af-becb-45d7-9e7a-e33d02961bb3
 - alterId: 0
   cipher: auto
   name: 美国(yudou66.com 玉豆免费节点) 5
@@ -968,9 +1036,8 @@ proxy-groups:
   - 加拿大 039
   - 加拿大 007
   - 德国 008
-  - 加拿大 091
-  - 美国 053
   - 加拿大 125
+  - 加拿大 130
   - 塞浦路斯 004
   - 加拿大 194
   - 加拿大 203
@@ -1021,11 +1088,17 @@ proxy-groups:
   - 俄罗斯 011
   - 加拿大 003
   - 美国 284
+  - 美国 064
+  - 加拿大 100
+  - 荷兰 008
+  - 美国 185
+  - 🇨🇳 广东省 移动
+  - 🇨🇳 广东省中山市 移动
   - 🇯🇵 日本
   - 🇩🇪 德国
-  - US美国(mibei77.com 米贝节点分享)
+  - 🇮🇷_IR_伊朗->🇫🇷_FR_法国_2
+  - 🇺🇸_US_美国_31
   - US美国(mibei77.com 米贝节点分享) 18
-  - US美国(mibei77.com 米贝节点分享) 35
   - 美国(yudou66.com 玉豆免费节点) 5
   - 美国(yudou66.com 玉豆免费节点) 42
   type: select
@@ -1038,9 +1111,8 @@ proxy-groups:
   - 加拿大 039
   - 加拿大 007
   - 德国 008
-  - 加拿大 091
-  - 美国 053
   - 加拿大 125
+  - 加拿大 130
   - 塞浦路斯 004
   - 加拿大 194
   - 加拿大 203
@@ -1091,11 +1163,17 @@ proxy-groups:
   - 俄罗斯 011
   - 加拿大 003
   - 美国 284
+  - 美国 064
+  - 加拿大 100
+  - 荷兰 008
+  - 美国 185
+  - 🇨🇳 广东省 移动
+  - 🇨🇳 广东省中山市 移动
   - 🇯🇵 日本
   - 🇩🇪 德国
-  - US美国(mibei77.com 米贝节点分享)
+  - 🇮🇷_IR_伊朗->🇫🇷_FR_法国_2
+  - 🇺🇸_US_美国_31
   - US美国(mibei77.com 米贝节点分享) 18
-  - US美国(mibei77.com 米贝节点分享) 35
   - 美国(yudou66.com 玉豆免费节点) 5
   - 美国(yudou66.com 玉豆免费节点) 42
   type: url-test
