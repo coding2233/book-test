@@ -501,15 +501,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 日本 008
-  network: tcp
-  port: 14072
-  server: 45.159.50.65
-  tls: false
-  type: vmess
-  uuid: 1a72c7ca-ff6c-4dd8-8efe-388d2bfdf92f
-- alterId: 0
-  cipher: auto
   name: 美国 171
   network: ws
   port: 443
@@ -884,22 +875,6 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇮🇳 印度 v2rayfree.eu.org
-  network: ws
-  port: 443
-  server: 202.78.162.5
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
-  ws-opts:
-    headers:
-      Host: irsoft.sytes.net
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
   name: 🇯🇵 日本
   port: 25004
   server: d.baodesign.top
@@ -921,20 +896,38 @@ proxies:
   uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 🇨🇳 广东省广州市 电信
-  network: ws
-  port: 12910
-  server: z8.fragranceninja.com
-  skip-cert-verify: false
-  tfo: false
+  name: US美国(mibei77.com 米贝节点分享)
+  port: 12901
+  server: z3.fragranceninja.com
+  skip-cert-verify: true
   tls: true
   type: vmess
+  udp: true
   uuid: a32313ad-5e39-4f9a-9cad-512041790050
-  ws-opts:
-    headers:
-      Host: z8.fragranceninja.com
-    path: /
+- alterId: 0
+  cipher: auto
+  name: US美国(mibei77.com 米贝节点分享) 18
+  network: ws
+  port: 80
+  server: hsj.lbxjc.online
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  ws-headers:
+    Host: chunchuan.kejixiaoqi666.store
+  ws-path: /
+- alterId: 64
+  cipher: auto
+  name: US美国(mibei77.com 米贝节点分享) 35
+  port: 46665
+  server: 120.237.79.157
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3ac820af-becb-45d7-9e7a-e33d02961bb3
 - alterId: 0
   cipher: auto
   name: 美国(yudou66.com 玉豆免费节点) 5
@@ -1001,7 +994,6 @@ proxy-groups:
   - 意大利 001
   - 美国 033
   - 加拿大 053
-  - 日本 008
   - 美国 171
   - 加拿大 073
   - 新加坡 001
@@ -1029,10 +1021,11 @@ proxy-groups:
   - 俄罗斯 011
   - 加拿大 003
   - 美国 284
-  - 🇮🇳 印度 v2rayfree.eu.org
   - 🇯🇵 日本
   - 🇩🇪 德国
-  - 🇨🇳 广东省广州市 电信
+  - US美国(mibei77.com 米贝节点分享)
+  - US美国(mibei77.com 米贝节点分享) 18
+  - US美国(mibei77.com 米贝节点分享) 35
   - 美国(yudou66.com 玉豆免费节点) 5
   - 美国(yudou66.com 玉豆免费节点) 42
   type: select
@@ -1071,7 +1064,6 @@ proxy-groups:
   - 意大利 001
   - 美国 033
   - 加拿大 053
-  - 日本 008
   - 美国 171
   - 加拿大 073
   - 新加坡 001
@@ -1099,10 +1091,11 @@ proxy-groups:
   - 俄罗斯 011
   - 加拿大 003
   - 美国 284
-  - 🇮🇳 印度 v2rayfree.eu.org
   - 🇯🇵 日本
   - 🇩🇪 德国
-  - 🇨🇳 广东省广州市 电信
+  - US美国(mibei77.com 米贝节点分享)
+  - US美国(mibei77.com 米贝节点分享) 18
+  - US美国(mibei77.com 米贝节点分享) 35
   - 美国(yudou66.com 玉豆免费节点) 5
   - 美国(yudou66.com 玉豆免费节点) 42
   type: url-test
