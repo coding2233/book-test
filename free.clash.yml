@@ -487,19 +487,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 美国 171
-  network: ws
-  port: 443
-  server: speedtest.net
-  tls: true
-  type: vmess
-  uuid: 57727d7d-8873-4000-b3f4-33a93fcfdd51
-  ws-opts:
-    headers:
-      Host: mehrjavan.ir
-    path: /m28jcoZZUhkqg6pk11
-- alterId: 0
-  cipher: auto
   name: 加拿大 073
   network: ws
   port: 80
@@ -792,38 +779,44 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 日本 001
-  network: tcp
-  port: 43720
-  server: 61.120.9.18
-  tls: false
-  type: vmess
-  uuid: f248d0e9-19f7-ea7f-6659-17a610dfe8d6
-- alterId: 0
-  cipher: auto
-  name: 俄罗斯 007
+  client-fingerprint: chrome
+  name: 🇷🇺 俄罗斯 v2rayfree.eu.org
   network: ws
   port: 8080
-  server: n002.kovmk.website
-  servername: n002.kovmk.website
+  server: m003.mmzhk.website
+  servername: m003.mmzhk.website
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vmess
-  udp: true
   uuid: 6dde3b3f-0a00-448a-a406-26d0960d1655
   ws-opts:
     headers:
-      Host: daohang.kovmk.website
+      Host: daohang.mmzhk.website
     path: /xyz
+- alterId: 1
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇯🇵 日本 东京都Amazon数据中心
+  port: 11773
+  server: qm3kb-g01.jp02-9a99-vm0.entry.fr0307a.art
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 02bf7660-c38f-30b4-b740-2f9b4d717704
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 011
+  client-fingerprint: chrome
+  name: 🇷🇺 俄罗斯 莫斯科JustHost
   network: ws
   port: 8080
   server: n001.kovmk.website
   servername: n001.kovmk.website
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vmess
-  udp: true
   uuid: 92f1932f-ee19-464f-900c-93df90df830d
   ws-opts:
     headers:
@@ -831,105 +824,47 @@ proxies:
     path: /xyz
 - alterId: 0
   cipher: auto
-  name: 加拿大 003
-  network: ws
-  port: 80
-  server: jp2.1vpn.sbs
+  client-fingerprint: chrome
+  name: 🇯🇵 日本 v2rayfree.eu.org
+  port: 43720
+  server: 61.120.9.18
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  udp: true
-  uuid: df4a2a93-6717-4f90-9856-36d7a44639cc
-  ws-opts:
-    headers:
-      Host: jp2.1vpn.sbs
-    path: /kiulujunuqs
+  uuid: f248d0e9-19f7-ea7f-6659-17a610dfe8d6
 - alterId: 0
   cipher: auto
-  name: 美国 284
+  client-fingerprint: chrome
+  name: 🇮🇳 印度 v2rayfree.eu.org
   network: ws
   port: 443
-  server: cf.fovi.tk
-  skip-cert-verify: true
+  server: 202.78.162.5
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vmess
-  udp: true
-  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
   ws-opts:
     headers:
-      Host: foxlux.fovi.tk
-    path: /eisasqa
+      Host: pendar.onthewifi.com
+    path: /
 - alterId: 0
   cipher: auto
-  name: 美国 064
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点 17
   network: ws
   port: 8880
-  server: us-new01.daluquan.top
+  server: us-new03.daluquan.top
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  udp: true
   uuid: 237c632a-8ac0-4040-ab02-adbc3b9e6610
   ws-opts:
     headers:
-      Host: us-new01.daluquan.top
-    path: /itdog?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 加拿大 100
-  network: ws
-  port: 2052
-  server: jx.jixingnetwork.sbs
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 479fe772-27d8-4bf7-a8a1-5d347c683bf2
-  ws-opts:
-    headers:
-      Host: rb03.jixingnetwork.sbs
+      Host: us-new03.daluquan.top
     path: /
-- alterId: 0
-  cipher: auto
-  name: 荷兰 008
-  network: tcp
-  port: 8081
-  server: 89.23.103.249
-  tls: false
-  type: vmess
-  uuid: e712c422-d801-47bb-8d4f-bec91d1b3945
-- alterId: 0
-  cipher: auto
-  name: 美国 185
-  network: ws
-  port: 2086
-  server: www.digitalocean.com
-  tls: false
-  type: vmess
-  uuid: 24452e13-6494-463e-ba4e-6d48f7b90c91
-  ws-opts:
-    headers:
-      Host: dosg.pmcloud.top
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇨🇳 甘肃省兰州市 移动
-  port: 50004
-  server: 04.kccic2pa.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 3c1de58d-0dac-4000-9cc3-4330e1e73578
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇩🇪 德国 v2rayfree.eu.org
-  port: 12213
-  server: 37.114.33.109
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: cdc95a8e-3acb-436f-8fc3-336ebd544003
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -984,38 +919,14 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)
-  port: 12901
-  server: z3.fragranceninja.com
+  name: 美国(yudou66.com 玉豆免费节点) 3
+  port: 12908
+  server: z8.fragranceninja.com
   skip-cert-verify: true
   tls: true
   type: vmess
   udp: true
   uuid: a32313ad-5e39-4f9a-9cad-512041790050
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 18
-  network: ws
-  port: 80
-  server: hsj.lbxjc.online
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
-  ws-headers:
-    Host: chunchuan.kejixiaoqi666.store
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 35
-  port: 46665
-  server: 120.237.79.157
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3ac820af-becb-45d7-9e7a-e33d02961bb3
 - alterId: 0
   cipher: auto
   name: 美国(yudou66.com 玉豆免费节点) 5
@@ -1081,7 +992,6 @@ proxy-groups:
   - 意大利 001
   - 美国 033
   - 加拿大 053
-  - 美国 171
   - 加拿大 073
   - 新加坡 001
   - 美国 191
@@ -1103,24 +1013,17 @@ proxy-groups:
   - 加拿大 170
   - 美国 032
   - 美国 197
-  - 日本 001
-  - 俄罗斯 007
-  - 俄罗斯 011
-  - 加拿大 003
-  - 美国 284
-  - 美国 064
-  - 加拿大 100
-  - 荷兰 008
-  - 美国 185
-  - 🇨🇳 甘肃省兰州市 移动
-  - 🇩🇪 德国 v2rayfree.eu.org
+  - 🇷🇺 俄罗斯 v2rayfree.eu.org
+  - 🇯🇵 日本 东京都Amazon数据中心
+  - 🇷🇺 俄罗斯 莫斯科JustHost
+  - 🇯🇵 日本 v2rayfree.eu.org
+  - 🇮🇳 印度 v2rayfree.eu.org
+  - 🇺🇸 美国 CloudFlare节点 17
   - 🇯🇵 日本
   - 🇩🇪 德国
   - 🇮🇷_IR_伊朗->🇫🇷_FR_法国_2
   - 🇺🇸_US_美国_31
-  - US美国(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享) 18
-  - US美国(mibei77.com 米贝节点分享) 35
+  - 美国(yudou66.com 玉豆免费节点) 3
   - 美国(yudou66.com 玉豆免费节点) 5
   - 美国(yudou66.com 玉豆免费节点) 42
   type: select
@@ -1158,7 +1061,6 @@ proxy-groups:
   - 意大利 001
   - 美国 033
   - 加拿大 053
-  - 美国 171
   - 加拿大 073
   - 新加坡 001
   - 美国 191
@@ -1180,24 +1082,17 @@ proxy-groups:
   - 加拿大 170
   - 美国 032
   - 美国 197
-  - 日本 001
-  - 俄罗斯 007
-  - 俄罗斯 011
-  - 加拿大 003
-  - 美国 284
-  - 美国 064
-  - 加拿大 100
-  - 荷兰 008
-  - 美国 185
-  - 🇨🇳 甘肃省兰州市 移动
-  - 🇩🇪 德国 v2rayfree.eu.org
+  - 🇷🇺 俄罗斯 v2rayfree.eu.org
+  - 🇯🇵 日本 东京都Amazon数据中心
+  - 🇷🇺 俄罗斯 莫斯科JustHost
+  - 🇯🇵 日本 v2rayfree.eu.org
+  - 🇮🇳 印度 v2rayfree.eu.org
+  - 🇺🇸 美国 CloudFlare节点 17
   - 🇯🇵 日本
   - 🇩🇪 德国
   - 🇮🇷_IR_伊朗->🇫🇷_FR_法国_2
   - 🇺🇸_US_美国_31
-  - US美国(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享) 18
-  - US美国(mibei77.com 米贝节点分享) 35
+  - 美国(yudou66.com 玉豆免费节点) 3
   - 美国(yudou66.com 玉豆免费节点) 5
   - 美国(yudou66.com 玉豆免费节点) 42
   type: url-test
