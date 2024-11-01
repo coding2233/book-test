@@ -1075,6 +1075,38 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
+  name: 🇮🇳 印度 v2rayfree.eu.org
+  network: ws
+  port: 443
+  server: 202.78.162.5
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
+  ws-opts:
+    headers:
+      Host: irsoft.sytes.net
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇮🇳 印度 v2rayfree.eu.org 2
+  network: ws
+  port: 443
+  server: 202.78.162.5
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+  ws-opts:
+    headers:
+      Host: pendar.onthewifi.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
   name: 🇯🇵 日本
   port: 25004
   server: d.baodesign.top
@@ -1094,22 +1126,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇮🇳 印度 v2rayfree.eu.org
-  network: ws
-  port: 443
-  server: 202.78.162.5
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
-  ws-opts:
-    headers:
-      Host: irsoft.sytes.net
-    path: /
 - alterId: 0
   cipher: auto
   name: 美国(yudou66.com 玉豆免费节点) 3
@@ -1228,9 +1244,10 @@ proxy-groups:
   - 加拿大 208
   - 美国 143
   - 美国 288
+  - 🇮🇳 印度 v2rayfree.eu.org
+  - 🇮🇳 印度 v2rayfree.eu.org 2
   - 🇯🇵 日本
   - 🇩🇪 德国
-  - 🇮🇳 印度 v2rayfree.eu.org
   - 美国(yudou66.com 玉豆免费节点) 3
   - 美国(yudou66.com 玉豆免费节点) 5
   - 美国(yudou66.com 玉豆免费节点) 42
@@ -1312,9 +1329,10 @@ proxy-groups:
   - 加拿大 208
   - 美国 143
   - 美国 288
+  - 🇮🇳 印度 v2rayfree.eu.org
+  - 🇮🇳 印度 v2rayfree.eu.org 2
   - 🇯🇵 日本
   - 🇩🇪 德国
-  - 🇮🇳 印度 v2rayfree.eu.org
   - 美国(yudou66.com 玉豆免费节点) 3
   - 美国(yudou66.com 玉豆免费节点) 5
   - 美国(yudou66.com 玉豆免费节点) 42
