@@ -44,20 +44,6 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 加拿大 085
-  network: ws
-  port: 8880
-  server: 104.16.67.38
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
-  ws-opts:
-    headers:
-      Host: worker-divine-hat-02d6.savofir317.workers.dev
-    path: /
-- alterId: 0
-  cipher: auto
   name: 加拿大 103
   network: ws
   port: 8080
@@ -205,21 +191,6 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 英国 010
-  network: ws
-  port: 30000
-  server: xr004.louwangzhiyu.xyz
-  servername: xr001.louwangzhiyu.xyz
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 57a44676-af22-42ca-988b-22fc21153a27
-  ws-opts:
-    headers:
-      Host: www.louwangzhiyu.xyz
-    path: /xyz
-- alterId: 0
-  cipher: auto
   name: 美国 223
   network: ws
   port: 80
@@ -276,6 +247,20 @@ proxies:
   ws-opts:
     headers:
       Host: shs.xiaoqi666.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 006
+  network: ws
+  port: 443
+  server: 173.245.59.8
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
+  ws-opts:
+    headers:
+      Host: 77h2quiet-dream-5c34.foratay741.workers.dev
     path: /
 - alterId: 0
   cipher: auto
@@ -1074,36 +1059,116 @@ proxies:
     path: /cctv13/hd.m3u8
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 🇮🇳 印度 v2rayfree.eu.org
+  name: 英国 010
   network: ws
-  port: 443
-  server: 202.78.162.5
-  skip-cert-verify: false
-  tfo: false
+  port: 30000
+  server: xr004.louwangzhiyu.xyz
+  servername: xr001.louwangzhiyu.xyz
   tls: true
   type: vmess
-  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
+  udp: true
+  uuid: 8fd434db-8438-47eb-b6c1-1012fe4983cf
   ws-opts:
     headers:
-      Host: irsoft.sytes.net
+      Host: www.louwangzhiyu.xyz
+    path: /xyz
+- alterId: 0
+  cipher: auto
+  name: 美国 283
+  network: ws
+  port: 443
+  server: 104.18.112.107
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 09d5805c-7a22-47c1-b1c3-f090df0a98ed
+  ws-opts:
+    headers:
+      Host: rac.679888.xyz
     path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 🇮🇳 印度 v2rayfree.eu.org 2
+  name: 日本 007
+  network: tcp
+  port: 15433
+  server: 45.159.51.138
+  tls: false
+  type: vmess
+  uuid: 4947b7ee-a191-4b23-aa2a-7c22d20d5308
+- alterId: 0
+  cipher: auto
+  name: 韩国 001
+  network: tcp
+  port: 26465
+  server: 45.94.68.186
+  tls: false
+  type: vmess
+  uuid: ca233c52-9c01-412b-961f-cb71a07d298d
+- alterId: 0
+  cipher: auto
+  name: 美国 299
   network: ws
+  port: 8443
+  server: 104.21.238.200
+  servername: http1.9290254.xyz
+  tls: true
+  type: vmess
+  uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43
+  ws-opts:
+    headers:
+      Host: http1.9290254.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 加拿大 181
+  network: ws
+  port: 80
+  server: 104.17.18.26
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 5180444a-4756-43b4-960b-49eb9052e4e8
+  ws-opts:
+    headers:
+      Host: a.109420.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 304
+  network: ws
+  port: 80
+  server: 104.21.75.246
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: sbl2.shabijichang.com
+    path: /
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇩🇪 13|🇩🇪 德国|@ripaojiedian
+  port: 43526
+  server: 120.232.153.71
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: '16|d*********g.com_2 #3'
   port: 443
-  server: 202.78.162.5
+  server: 42.236.73.72
+  servername: www.zitian.cn
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vmess
-  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
-  ws-opts:
-    headers:
-      Host: pendar.onthewifi.com
-    path: /
+  uuid: 044f0177-0675-4dcf-89d4-804b6788e518
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -1117,15 +1182,24 @@ proxies:
   uuid: ba2e86ee-65fc-4b4e-97c7-165b5b64023b
 - alterId: 64
   cipher: auto
-  client-fingerprint: chrome
-  name: 🇩🇪 德国
-  port: 43526
-  server: 120.232.153.71
-  skip-cert-verify: false
-  tfo: false
+  name: US美国(mibei77.com 米贝节点分享) 3
+  port: 46665
+  server: 120.237.79.157
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
+  udp: true
+  uuid: 3ac820af-becb-45d7-9e7a-e33d02961bb3
+- alterId: 0
+  cipher: auto
+  name: US美国(mibei77.com 米贝节点分享) 17
+  port: 15086
+  server: 15086.kuaiyin02.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
 - alterId: 0
   cipher: auto
   name: 美国(yudou66.com 玉豆免费节点) 3
@@ -1171,7 +1245,6 @@ proxy-groups:
   - 🎯 全球直连
   - 🚒 vps6.laiting.xyz
   - 加拿大 140
-  - 加拿大 085
   - 加拿大 103
   - 加拿大 039
   - 加拿大 007
@@ -1182,11 +1255,11 @@ proxy-groups:
   - 加拿大 194
   - 加拿大 203
   - 德国 010
-  - 英国 010
   - 美国 223
   - 美国 228
   - 美国 082
   - 美国 119
+  - 加拿大 006
   - 美国 022
   - 美国 055
   - 加拿大 015
@@ -1244,10 +1317,18 @@ proxy-groups:
   - 加拿大 208
   - 美国 143
   - 美国 288
-  - 🇮🇳 印度 v2rayfree.eu.org
-  - 🇮🇳 印度 v2rayfree.eu.org 2
+  - 英国 010
+  - 美国 283
+  - 日本 007
+  - 韩国 001
+  - 美国 299
+  - 加拿大 181
+  - 美国 304
+  - 🇩🇪 13|🇩🇪 德国|@ripaojiedian
+  - '16|d*********g.com_2 #3'
   - 🇯🇵 日本
-  - 🇩🇪 德国
+  - US美国(mibei77.com 米贝节点分享) 3
+  - US美国(mibei77.com 米贝节点分享) 17
   - 美国(yudou66.com 玉豆免费节点) 3
   - 美国(yudou66.com 玉豆免费节点) 5
   - 美国(yudou66.com 玉豆免费节点) 42
@@ -1256,7 +1337,6 @@ proxy-groups:
   name: ♻️ 自动选择
   proxies:
   - 加拿大 140
-  - 加拿大 085
   - 加拿大 103
   - 加拿大 039
   - 加拿大 007
@@ -1267,11 +1347,11 @@ proxy-groups:
   - 加拿大 194
   - 加拿大 203
   - 德国 010
-  - 英国 010
   - 美国 223
   - 美国 228
   - 美国 082
   - 美国 119
+  - 加拿大 006
   - 美国 022
   - 美国 055
   - 加拿大 015
@@ -1329,10 +1409,18 @@ proxy-groups:
   - 加拿大 208
   - 美国 143
   - 美国 288
-  - 🇮🇳 印度 v2rayfree.eu.org
-  - 🇮🇳 印度 v2rayfree.eu.org 2
+  - 英国 010
+  - 美国 283
+  - 日本 007
+  - 韩国 001
+  - 美国 299
+  - 加拿大 181
+  - 美国 304
+  - 🇩🇪 13|🇩🇪 德国|@ripaojiedian
+  - '16|d*********g.com_2 #3'
   - 🇯🇵 日本
-  - 🇩🇪 德国
+  - US美国(mibei77.com 米贝节点分享) 3
+  - US美国(mibei77.com 米贝节点分享) 17
   - 美国(yudou66.com 玉豆免费节点) 3
   - 美国(yudou66.com 玉豆免费节点) 5
   - 美国(yudou66.com 玉豆免费节点) 42
