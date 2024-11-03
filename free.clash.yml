@@ -1095,8 +1095,65 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 伊朗 001
+  network: tcp
+  port: 443
+  server: 185.231.181.46
+  tls: false
+  type: vmess
+  uuid: 95a69849-23c4-4669-91ed-cec32ad1341c
+- alterId: 0
+  cipher: auto
+  name: 日本 015
+  network: tcp
+  port: 51313
+  server: 45.159.50.136
+  tls: false
+  type: vmess
+  uuid: fe7035e0-85da-4c64-9051-f5a3b380354a
+- alterId: 0
+  cipher: auto
+  name: 韩国 001
+  network: tcp
+  port: 22330
+  server: 45.141.136.221
+  tls: false
+  type: vmess
+  uuid: 2f64c9d5-e349-4579-9d01-b8eab4340230
+- alterId: 0
+  cipher: auto
+  name: 加拿大 232
+  network: ws
+  port: 443
+  server: HgRdFaeatlVtypjxcTexxmvdfuMnJPbxUSInEhNCc.roxifa.ir
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 8d6031f8-c1e2-4328-a49c-876ed661ef41
+  ws-opts:
+    headers:
+      Host: HgRdFaeatlVtypjxcTexxmvdfuMnJPbxUSInEhNCc.roxifa.ir
+    path: '@RaFaV2Bot'
+- alterId: 0
+  cipher: auto
+  name: 美国 309
+  network: ws
+  port: 443
+  server: speedtest.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 57727d7d-8873-4000-b3f4-33a93fcfdd51
+  ws-opts:
+    headers:
+      Host: mehrjavan.ir
+    path: /m28jcoZZUhkqg6pk11
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 0|--41
+  name: 0|--45
   network: ws
   port: 8080
   server: m003.mmzhk.website
@@ -1109,39 +1166,6 @@ proxies:
     headers:
       Host: daohang.mmzhk.website
     path: /xyz
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|--47
-  port: 443
-  server: 185.231.181.46
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 95a69849-23c4-4669-91ed-cec32ad1341c
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇯🇵 13|🇯🇵 日本2|@ripaojiedian
-  port: 51313
-  server: 45.159.50.136
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: fe7035e0-85da-4c64-9051-f5a3b380354a
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇰🇷 13|🇰🇷 韩国2|@ripaojiedian
-  port: 22330
-  server: 45.141.136.221
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 2f64c9d5-e349-4579-9d01-b8eab4340230
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -1179,7 +1203,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇰🇷 14|韩国2|@ripaojiedian
+  name: 🇰🇷 13|🇰🇷 韩国2|@ripaojiedian
   port: 26465
   server: 45.94.68.186
   skip-cert-verify: false
@@ -1187,6 +1211,36 @@ proxies:
   tls: false
   type: vmess
   uuid: ca233c52-9c01-412b-961f-cb71a07d298d
+- alterId: 0
+  cipher: auto
+  fingerprint: ''
+  name: 🇮🇷_IR_伊朗->🇫🇷_FR_法国_2
+  network: ws
+  port: 2083
+  server: 193.151.144.26
+  sni: ''
+  type: vmess
+  udp: true
+  uuid: 7b33bc8f-7014-4814-afb1-1c4d7f25314c
+  ws-opts:
+    headers:
+      host: tv.filmnet.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  fingerprint: ''
+  name: 🇺🇸_US_美国_31
+  network: ws
+  port: 2052
+  server: speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.expresstv.ggff.net
+  sni: ''
+  type: vmess
+  udp: true
+  uuid: 4b1168e7-82b0-43a7-8dbc-b22b61547ef4
+  ws-opts:
+    headers:
+      host: speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.expresstv.ggff.net
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: 美国(yudou66.com 玉豆免费节点) 3
@@ -1307,14 +1361,18 @@ proxy-groups:
   - 美国 299
   - 加拿大 181
   - 美国 304
-  - 0|--41
-  - 0|--47
-  - 🇯🇵 13|🇯🇵 日本2|@ripaojiedian
-  - 🇰🇷 13|🇰🇷 韩国2|@ripaojiedian
+  - 伊朗 001
+  - 日本 015
+  - 韩国 001
+  - 加拿大 232
+  - 美国 309
+  - 0|--45
   - 🇩🇪 13|🇩🇪 德国|@ripaojiedian
   - '16|d*********g.com_2 #3'
   - 🇯🇵 日本
-  - 🇰🇷 14|韩国2|@ripaojiedian
+  - 🇰🇷 13|🇰🇷 韩国2|@ripaojiedian
+  - 🇮🇷_IR_伊朗->🇫🇷_FR_法国_2
+  - 🇺🇸_US_美国_31
   - 美国(yudou66.com 玉豆免费节点) 3
   - 美国(yudou66.com 玉豆免费节点) 5
   - 美国(yudou66.com 玉豆免费节点) 42
@@ -1398,14 +1456,18 @@ proxy-groups:
   - 美国 299
   - 加拿大 181
   - 美国 304
-  - 0|--41
-  - 0|--47
-  - 🇯🇵 13|🇯🇵 日本2|@ripaojiedian
-  - 🇰🇷 13|🇰🇷 韩国2|@ripaojiedian
+  - 伊朗 001
+  - 日本 015
+  - 韩国 001
+  - 加拿大 232
+  - 美国 309
+  - 0|--45
   - 🇩🇪 13|🇩🇪 德国|@ripaojiedian
   - '16|d*********g.com_2 #3'
   - 🇯🇵 日本
-  - 🇰🇷 14|韩国2|@ripaojiedian
+  - 🇰🇷 13|🇰🇷 韩国2|@ripaojiedian
+  - 🇮🇷_IR_伊朗->🇫🇷_FR_法国_2
+  - 🇺🇸_US_美国_31
   - 美国(yudou66.com 玉豆免费节点) 3
   - 美国(yudou66.com 玉豆免费节点) 5
   - 美国(yudou66.com 玉豆免费节点) 42
