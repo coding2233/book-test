@@ -1150,22 +1150,6 @@ proxies:
     headers:
       Host: mehrjavan.ir
     path: /m28jcoZZUhkqg6pk11
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|--45
-  network: ws
-  port: 8080
-  server: m003.mmzhk.website
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: c3d1b53d-8cbe-4455-a009-bfa08e55f11d
-  ws-opts:
-    headers:
-      Host: daohang.mmzhk.website
-    path: /xyz
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -1366,7 +1350,6 @@ proxy-groups:
   - 韩国 001
   - 加拿大 232
   - 美国 309
-  - 0|--45
   - 🇩🇪 13|🇩🇪 德国|@ripaojiedian
   - '16|d*********g.com_2 #3'
   - 🇯🇵 日本
@@ -1461,7 +1444,6 @@ proxy-groups:
   - 韩国 001
   - 加拿大 232
   - 美国 309
-  - 0|--45
   - 🇩🇪 13|🇩🇪 德国|@ripaojiedian
   - '16|d*********g.com_2 #3'
   - 🇯🇵 日本
