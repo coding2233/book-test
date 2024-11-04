@@ -173,22 +173,6 @@ proxies:
     headers:
       Host: late-wave-1d0a.lesijo3430.workers.dev
     path: /
-- alterId: 1
-  cipher: auto
-  delay: 1224
-  name: 德国 010
-  network: ws
-  port: 443
-  server: 23.157.88.6
-  servername: 23.157.88.6
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: 23.157.88.6
-    path: linkvws
 - alterId: 0
   cipher: auto
   name: 美国 223
@@ -220,6 +204,21 @@ proxies:
     headers:
       Host: 1e9e9.olielielie.store
     path: /vmess
+- alterId: 1
+  cipher: auto
+  name: 美国 044
+  network: ws
+  port: 443
+  server: ritchier.info
+  servername: ritchier.info
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ritchier.info
+    path: /
 - alterId: 0
   cipher: auto
   name: 美国 082
@@ -719,21 +718,6 @@ proxies:
     path: /xyz
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 011
-  network: ws
-  port: 8080
-  server: n001.kovmk.website
-  servername: n001.kovmk.website
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 92f1932f-ee19-464f-900c-93df90df830d
-  ws-opts:
-    headers:
-      Host: daohang.kovmk.website
-    path: /xyz
-- alterId: 0
-  cipher: auto
   name: 美国 105
   network: ws
   port: 8880
@@ -1104,15 +1088,6 @@ proxies:
   uuid: 95a69849-23c4-4669-91ed-cec32ad1341c
 - alterId: 0
   cipher: auto
-  name: 日本 015
-  network: tcp
-  port: 51313
-  server: 45.159.50.136
-  tls: false
-  type: vmess
-  uuid: fe7035e0-85da-4c64-9051-f5a3b380354a
-- alterId: 0
-  cipher: auto
   name: 韩国 001
   network: tcp
   port: 22330
@@ -1137,19 +1112,26 @@ proxies:
     path: '@RaFaV2Bot'
 - alterId: 0
   cipher: auto
-  name: 美国 309
-  network: ws
-  port: 443
-  server: speedtest.net
-  skip-cert-verify: true
-  tls: true
+  client-fingerprint: chrome
+  name: 🇯🇵 13|🇯🇵 日本|@ripaojiedian
+  port: 23468
+  server: 47.74.8.202
+  skip-cert-verify: false
+  tfo: false
+  tls: false
   type: vmess
-  udp: true
-  uuid: 57727d7d-8873-4000-b3f4-33a93fcfdd51
-  ws-opts:
-    headers:
-      Host: mehrjavan.ir
-    path: /m28jcoZZUhkqg6pk11
+  uuid: 9f563bc7-0481-41d2-f8fd-a4736ded9bc0
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇰🇷 13|🇰🇷 韩国2|@ripaojiedian
+  port: 41510
+  server: 45.94.68.210
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 18e11bb1-2ecc-4700-902e-9a172b762bbd
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -1187,14 +1169,47 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇰🇷 13|🇰🇷 韩国2|@ripaojiedian
-  port: 26465
-  server: 45.94.68.186
+  name: 0|--32
+  network: ws
+  port: 8080
+  server: m003.mmzhk.website
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: c3d1b53d-8cbe-4455-a009-bfa08e55f11d
+  ws-opts:
+    headers:
+      Host: daohang.mmzhk.website
+    path: /xyz
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 0|--34
+  network: ws
+  port: 443
+  server: speedtest.net
+  servername: mehrjavan.ir
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 57727d7d-8873-4000-b3f4-33a93fcfdd51
+  ws-opts:
+    headers:
+      Host: mehrjavan.ir
+    path: /m28jcoZZUhkqg6pk11
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇯🇵 13|🇯🇵 日本2|@ripaojiedian
+  port: 51313
+  server: 45.159.50.136
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: ca233c52-9c01-412b-961f-cb71a07d298d
+  uuid: fe7035e0-85da-4c64-9051-f5a3b380354a
 - alterId: 0
   cipher: auto
   fingerprint: ''
@@ -1279,9 +1294,9 @@ proxy-groups:
   - 塞浦路斯 004
   - 加拿大 194
   - 加拿大 203
-  - 德国 010
   - 美国 223
   - 美国 228
+  - 美国 044
   - 美国 082
   - 美国 119
   - 加拿大 006
@@ -1317,7 +1332,6 @@ proxy-groups:
   - 加拿大 170
   - 美国 032
   - 俄罗斯 007
-  - 俄罗斯 011
   - 美国 105
   - 加拿大 024
   - 加拿大 048
@@ -1346,14 +1360,16 @@ proxy-groups:
   - 加拿大 181
   - 美国 304
   - 伊朗 001
-  - 日本 015
   - 韩国 001
   - 加拿大 232
-  - 美国 309
+  - 🇯🇵 13|🇯🇵 日本|@ripaojiedian
+  - 🇰🇷 13|🇰🇷 韩国2|@ripaojiedian
   - 🇩🇪 13|🇩🇪 德国|@ripaojiedian
   - '16|d*********g.com_2 #3'
   - 🇯🇵 日本
-  - 🇰🇷 13|🇰🇷 韩国2|@ripaojiedian
+  - 0|--32
+  - 0|--34
+  - 🇯🇵 13|🇯🇵 日本2|@ripaojiedian
   - 🇮🇷_IR_伊朗->🇫🇷_FR_法国_2
   - 🇺🇸_US_美国_31
   - 美国(yudou66.com 玉豆免费节点) 3
@@ -1373,9 +1389,9 @@ proxy-groups:
   - 塞浦路斯 004
   - 加拿大 194
   - 加拿大 203
-  - 德国 010
   - 美国 223
   - 美国 228
+  - 美国 044
   - 美国 082
   - 美国 119
   - 加拿大 006
@@ -1411,7 +1427,6 @@ proxy-groups:
   - 加拿大 170
   - 美国 032
   - 俄罗斯 007
-  - 俄罗斯 011
   - 美国 105
   - 加拿大 024
   - 加拿大 048
@@ -1440,14 +1455,16 @@ proxy-groups:
   - 加拿大 181
   - 美国 304
   - 伊朗 001
-  - 日本 015
   - 韩国 001
   - 加拿大 232
-  - 美国 309
+  - 🇯🇵 13|🇯🇵 日本|@ripaojiedian
+  - 🇰🇷 13|🇰🇷 韩国2|@ripaojiedian
   - 🇩🇪 13|🇩🇪 德国|@ripaojiedian
   - '16|d*********g.com_2 #3'
   - 🇯🇵 日本
-  - 🇰🇷 13|🇰🇷 韩国2|@ripaojiedian
+  - 0|--32
+  - 0|--34
+  - 🇯🇵 13|🇯🇵 日本2|@ripaojiedian
   - 🇮🇷_IR_伊朗->🇫🇷_FR_法国_2
   - 🇺🇸_US_美国_31
   - 美国(yudou66.com 玉豆免费节点) 3
