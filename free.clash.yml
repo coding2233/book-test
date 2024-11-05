@@ -496,7 +496,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 0|--44
+  name: 0|--40
   network: ws
   port: 8080
   server: m003.mmzhk.website
@@ -669,7 +669,7 @@ proxy-groups:
   - 美国 039
   - 加拿大 042
   - 加拿大 044
-  - 0|--44
+  - 0|--40
   - '3,4,5|d*********g.com_0 #2'
   - 🇸🇬 13|🇸🇬 新加坡2|@ripaojiedian
   - '16|d*********g.com_2 #3'
@@ -716,7 +716,7 @@ proxy-groups:
   - 美国 039
   - 加拿大 042
   - 加拿大 044
-  - 0|--44
+  - 0|--40
   - '3,4,5|d*********g.com_0 #2'
   - 🇸🇬 13|🇸🇬 新加坡2|@ripaojiedian
   - '16|d*********g.com_2 #3'
