@@ -577,7 +577,7 @@ proxies:
     path: '@RaFaV2Bot'
 - alterId: 0
   cipher: auto
-  name: 加拿大 060
+  name: 美国 005
   network: ws
   port: 443
   server: parsvds.ir
@@ -653,6 +653,31 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 韩国 010
+  network: tcp
+  port: 13258
+  server: 45.141.136.151
+  tls: false
+  type: vmess
+  uuid: 6e5ecb6d-e763-4d16-b9c2-e7cc682a26da
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 0|--32
+  network: ws
+  port: 8080
+  server: m003.mmzhk.website
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: c3d1b53d-8cbe-4455-a009-bfa08e55f11d
+  ws-opts:
+    headers:
+      Host: daohang.mmzhk.website
+    path: /xyz
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: '3,4,5|d*********g.com_0 #2'
   network: ws
@@ -690,17 +715,6 @@ proxies:
   tls: false
   type: vmess
   uuid: e6d7ed00-84fa-4c07-b106-28c757b0e6d9
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇰🇷 13|🇰🇷 韩国3|@ripaojiedian
-  port: 13258
-  server: 45.141.136.151
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 6e5ecb6d-e763-4d16-b9c2-e7cc682a26da
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -828,15 +842,16 @@ proxy-groups:
   - 英国 004
   - 韩国 006
   - 美国 137
-  - 加拿大 060
+  - 美国 005
   - 加拿大 075
   - 德国 025
   - 德国 027
   - 加拿大 076
+  - 韩国 010
+  - 0|--32
   - '3,4,5|d*********g.com_0 #2'
   - 🇯🇵 13|🇯🇵 日本3|@ripaojiedian
   - 🇯🇵 13|🇯🇵 日本4|@ripaojiedian
-  - 🇰🇷 13|🇰🇷 韩国3|@ripaojiedian
   - 🇸🇬 13|🇸🇬 新加坡2|@ripaojiedian
   - '16|d*********g.com_2 #3'
   - 🇯🇵 日本
@@ -886,15 +901,16 @@ proxy-groups:
   - 英国 004
   - 韩国 006
   - 美国 137
-  - 加拿大 060
+  - 美国 005
   - 加拿大 075
   - 德国 025
   - 德国 027
   - 加拿大 076
+  - 韩国 010
+  - 0|--32
   - '3,4,5|d*********g.com_0 #2'
   - 🇯🇵 13|🇯🇵 日本3|@ripaojiedian
   - 🇯🇵 13|🇯🇵 日本4|@ripaojiedian
-  - 🇰🇷 13|🇰🇷 韩国3|@ripaojiedian
   - 🇸🇬 13|🇸🇬 新加坡2|@ripaojiedian
   - '16|d*********g.com_2 #3'
   - 🇯🇵 日本
