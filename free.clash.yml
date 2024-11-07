@@ -663,7 +663,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 0|--32
+  name: 0|--33
   network: ws
   port: 8080
   server: m003.mmzhk.website
@@ -848,7 +848,7 @@ proxy-groups:
   - 德国 027
   - 加拿大 076
   - 韩国 010
-  - 0|--32
+  - 0|--33
   - '3,4,5|d*********g.com_0 #2'
   - 🇯🇵 13|🇯🇵 日本3|@ripaojiedian
   - 🇯🇵 13|🇯🇵 日本4|@ripaojiedian
@@ -907,7 +907,7 @@ proxy-groups:
   - 德国 027
   - 加拿大 076
   - 韩国 010
-  - 0|--32
+  - 0|--33
   - '3,4,5|d*********g.com_0 #2'
   - 🇯🇵 13|🇯🇵 日本3|@ripaojiedian
   - 🇯🇵 13|🇯🇵 日本4|@ripaojiedian
