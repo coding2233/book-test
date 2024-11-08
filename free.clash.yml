@@ -274,66 +274,6 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: 美国 035
-  network: ws
-  port: 443
-  server: dyf.mmzhk.website
-  servername: dyf.mmzhk.website
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 0ca32546-0f60-4db6-9550-f662b27beef3
-  ws-opts:
-    headers:
-      Host: dyf.mmzhk.website
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 240
-  network: ws
-  port: 443
-  server: ceh.kovmk.website
-  servername: ceh.kovmk.website
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f3ff59d5-8957-45d0-9781-0c07512e931c
-  ws-opts:
-    headers:
-      Host: ceh.kovmk.website
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 美国 129
-  network: ws
-  port: 443
-  server: gc.kovmk.website
-  servername: gc.kovmk.website
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 4d463e12-30d0-4c43-826c-ada171bd81db
-  ws-opts:
-    headers:
-      Host: gc.kovmk.website
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 美国 170
-  network: ws
-  port: 443
-  server: sgcft01.xqc.best
-  servername: d16henb377mok4.cloudfront.net
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 6beba43f-f43f-4259-85ba-15d5b7a74c0c
-  ws-opts:
-    headers:
-      Host: d16henb377mok4.cloudfront.net
-    path: /stream
-- alterId: 0
-  cipher: auto
   name: 加拿大 012
   network: ws
   port: 80
@@ -662,6 +602,20 @@ proxies:
   uuid: 6e5ecb6d-e763-4d16-b9c2-e7cc682a26da
 - alterId: 0
   cipher: auto
+  name: 美国 038
+  network: ws
+  port: 80
+  server: cdn.cloudflare.su
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 78761739-4d26-4a49-b6f9-8107f6e183d2
+  ws-opts:
+    headers:
+      Host: fin.free.rtx.al
+    path: /
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: 0|--33
   network: ws
@@ -693,28 +647,6 @@ proxies:
     headers:
       Host: http1.9290254.xyz
     path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇯🇵 13|🇯🇵 日本3|@ripaojiedian
-  port: 20219
-  server: 107.148.1.76
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: c9f5b2aa-d50c-48e0-fd7d-d4cdc325d905
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇯🇵 13|🇯🇵 日本4|@ripaojiedian
-  port: 17763
-  server: 45.159.50.245
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e6d7ed00-84fa-4c07-b106-28c757b0e6d9
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -760,6 +692,38 @@ proxies:
   tls: false
   type: vmess
   uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇯🇵 13|🇯🇵 日本3|@ripaojiedian
+  port: 20219
+  server: 107.148.1.76
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: c9f5b2aa-d50c-48e0-fd7d-d4cdc325d905
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇯🇵 13|🇯🇵 日本4|@ripaojiedian
+  port: 17763
+  server: 45.159.50.245
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e6d7ed00-84fa-4c07-b106-28c757b0e6d9
+- alterId: 0
+  cipher: auto
+  name: US美国(mibei77.com 米贝节点分享) 3
+  port: 15086
+  server: 15086.kuaiyin02.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
 - alterId: 0
   cipher: auto
   name: 美国(yudou66.com 玉豆免费节点) 3
@@ -821,10 +785,6 @@ proxy-groups:
   - 加拿大 048
   - 加拿大 130
   - 加拿大 238
-  - 美国 035
-  - 加拿大 240
-  - 美国 129
-  - 美国 170
   - 加拿大 012
   - 美国 031
   - 俄罗斯 005
@@ -848,14 +808,16 @@ proxy-groups:
   - 德国 027
   - 加拿大 076
   - 韩国 010
+  - 美国 038
   - 0|--33
   - '3,4,5|d*********g.com_0 #2'
-  - 🇯🇵 13|🇯🇵 日本3|@ripaojiedian
-  - 🇯🇵 13|🇯🇵 日本4|@ripaojiedian
   - 🇸🇬 13|🇸🇬 新加坡2|@ripaojiedian
   - '16|d*********g.com_2 #3'
   - 🇯🇵 日本
   - 🇩🇪 德国
+  - 🇯🇵 13|🇯🇵 日本3|@ripaojiedian
+  - 🇯🇵 13|🇯🇵 日本4|@ripaojiedian
+  - US美国(mibei77.com 米贝节点分享) 3
   - 美国(yudou66.com 玉豆免费节点) 3
   - 美国(yudou66.com 玉豆免费节点) 5
   - 美国(yudou66.com 玉豆免费节点) 42
@@ -880,10 +842,6 @@ proxy-groups:
   - 加拿大 048
   - 加拿大 130
   - 加拿大 238
-  - 美国 035
-  - 加拿大 240
-  - 美国 129
-  - 美国 170
   - 加拿大 012
   - 美国 031
   - 俄罗斯 005
@@ -907,14 +865,16 @@ proxy-groups:
   - 德国 027
   - 加拿大 076
   - 韩国 010
+  - 美国 038
   - 0|--33
   - '3,4,5|d*********g.com_0 #2'
-  - 🇯🇵 13|🇯🇵 日本3|@ripaojiedian
-  - 🇯🇵 13|🇯🇵 日本4|@ripaojiedian
   - 🇸🇬 13|🇸🇬 新加坡2|@ripaojiedian
   - '16|d*********g.com_2 #3'
   - 🇯🇵 日本
   - 🇩🇪 德国
+  - 🇯🇵 13|🇯🇵 日本3|@ripaojiedian
+  - 🇯🇵 13|🇯🇵 日本4|@ripaojiedian
+  - US美国(mibei77.com 米贝节点分享) 3
   - 美国(yudou66.com 玉豆免费节点) 3
   - 美国(yudou66.com 玉豆免费节点) 5
   - 美国(yudou66.com 玉豆免费节点) 42
