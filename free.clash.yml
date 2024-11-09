@@ -366,30 +366,302 @@ proxies:
     path: /afrhms07.xfixedfloat.cfd/linkws
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 0|--25
+  name: 美国 038
   network: ws
-  port: 8080
-  server: m003.mmzhk.website
-  skip-cert-verify: false
-  tfo: false
+  port: 443
+  server: qghwh.kovmk.website
+  servername: qghwh.kovmk.website
   tls: true
   type: vmess
-  uuid: c3d1b53d-8cbe-4455-a009-bfa08e55f11d
+  uuid: aaa3f836-db3f-46ec-aeaf-41be73b3652e
   ws-opts:
     headers:
-      Host: daohang.mmzhk.website
-    path: /xyz
+      Host: qghwh.kovmk.website
+    path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 0|--32
+  name: 加拿大 044
+  network: ws
+  port: 443
+  server: dmybj.kovmk.website
+  servername: dmybj.kovmk.website
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 09c2a9db-b133-417e-910a-066ec3f35930
+  ws-opts:
+    headers:
+      Host: dmybj.kovmk.website
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 045
+  network: ws
+  port: 80
+  server: 162.159.136.98
+  type: vmess
+  udp: true
+  uuid: 5820093a-bb7d-4e15-8575-1a529f2d8282
+  ws-opts:
+    headers:
+      Host: rn2.hostmjj.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 044
+  network: ws
+  port: 443
+  server: dyf.mmzhk.website
+  servername: dyf.mmzhk.website
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0ca32546-0f60-4db6-9550-f662b27beef3
+  ws-opts:
+    headers:
+      Host: dyf.mmzhk.website
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 046
+  network: ws
+  port: 443
+  server: ceh.kovmk.website
+  servername: ceh.kovmk.website
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f3ff59d5-8957-45d0-9781-0c07512e931c
+  ws-opts:
+    headers:
+      Host: ceh.kovmk.website
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 046
+  network: ws
+  port: 443
+  server: gc.kovmk.website
+  servername: gc.kovmk.website
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 4d463e12-30d0-4c43-826c-ada171bd81db
+  ws-opts:
+    headers:
+      Host: gc.kovmk.website
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 047
+  network: ws
+  port: 80
+  server: jp2.1vpn.sbs
+  tls: false
+  type: vmess
+  udp: true
+  uuid: df4a2a93-6717-4f90-9856-36d7a44639cc
+  ws-opts:
+    headers:
+      Host: jp2.1vpn.sbs
+    path: /kiulujunuqs
+- alterId: 0
+  cipher: auto
+  name: 加拿大 049
+  network: ws
+  port: 443
+  server: xhqcs.mmzhk.website
+  servername: xhqcs.mmzhk.website
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 1d92b5e2-3293-4f68-aee5-7c2fb0c69ae4
+  ws-opts:
+    headers:
+      Host: xhqcs.mmzhk.website
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 047
+  network: ws
+  port: 443
+  server: nanwn.kovmk.website
+  servername: nanwn.kovmk.website
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 4738a016-a70a-4c28-8811-f32c0d650849
+  ws-opts:
+    headers:
+      Host: nanwn.kovmk.website
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 050
+  network: ws
+  port: 443
+  server: sccqp.kovmk.website
+  servername: sccqp.kovmk.website
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 7a98c9a6-9de8-48b3-96e1-7afc585554c9
+  ws-opts:
+    headers:
+      Host: sccqp.kovmk.website
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 050
+  network: ws
+  port: 443
+  server: sgcft01.xqc.best
+  servername: d16henb377mok4.cloudfront.net
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f84b5887-a632-4446-a178-5d357fef1263
+  ws-opts:
+    headers:
+      Host: d16henb377mok4.cloudfront.net
+    path: /stream
+- alterId: 0
+  cipher: auto
+  name: 加拿大 052
+  network: ws
+  port: 443
+  server: 172.67.174.42
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
+  ws-opts:
+    headers:
+      Host: gwdef.sbs
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 055
+  network: ws
+  port: 443
+  server: 172.67.220.10
+  servername: linja05.hwcar.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53
+  ws-opts:
+    headers:
+      Host: linja05.hwcar.sbs
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 056
+  network: ws
+  port: 443
+  server: irhms03.dongfeng.cfd
+  servername: hms03.dongfeng.cfd
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: fa5b55cd-cafc-4de0-a4c8-722e02a9f58e
+  ws-opts:
+    headers:
+      Host: hms03.dongfeng.cfd
+    path: /
+- alterId: 1
+  cipher: auto
+  name: 美国 053
+  network: ws
+  port: 443
+  server: d.masjide.org
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: d.masjide.org
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 062
+  network: ws
+  port: 2086
+  server: 172.67.165.53
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312
+  ws-opts:
+    headers:
+      Host: shs.xiaoqi666.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 058
+  network: ws
+  port: 443
+  server: parsvds.ir
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 62aa5f80-0328-4004-a375-7f5a59df4022
+  ws-opts:
+    headers:
+      Host: hms19.best-tizi.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 067
+  network: ws
+  port: 443
+  server: beyonddbc.sbs
+  servername: beyonddbc.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 8d90c129-4156-4d6c-9115-24df25f26a02
+  ws-opts:
+    headers:
+      Host: beyonddbc.sbs
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 法国 002
+  network: ws
+  port: 443
+  server: 193.160.130.245
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+  ws-opts:
+    headers:
+      Host: beyonddsz.cfd
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 065
+  network: ws
+  port: 8880
+  server: 104.21.1.28
+  servername: us-ccs.yuji2022.eu.org
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 4b5e4565-322f-4223-a891-78a84f189726
+  ws-opts:
+    headers:
+      Host: us-ccs.yuji2022.eu.org
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 067
   network: ws
   port: 443
   server: speedtest.net
   servername: mehrjavan.ir
-  skip-cert-verify: false
-  tfo: false
   tls: true
   type: vmess
   uuid: 57727d7d-8873-4000-b3f4-33a93fcfdd51
@@ -399,21 +671,115 @@ proxies:
     path: /m28jcoZZUhkqg6pk11
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 0|--35
-  network: ws
-  port: 443
-  server: 57.129.28.69
-  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-  skip-cert-verify: false
-  tfo: false
-  tls: true
+  name: 韩国 001
+  network: tcp
+  port: 47369
+  server: 45.94.68.135
+  tls: false
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 99fd4269-a32b-4b6b-99e3-81dee59271b1
+- alterId: 0
+  cipher: auto
+  name: 日本 001
+  network: tcp
+  port: 15836
+  server: 45.159.50.76
+  tls: false
+  type: vmess
+  uuid: e1218e34-80a3-4a65-8524-88ca51e79191
+- alterId: 0
+  cipher: auto
+  name: 加拿大 081
+  network: ws
+  port: 80
+  server: 172.67.64.120
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b4495b97-bc8a-4b3b-a1e8-aae1d503e8ca
   ws-opts:
     headers:
-      Host: baradiha.com
-    path: /linkvws
+      Host: 58892877706648357761980405045364.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
+    path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
+- alterId: 0
+  cipher: auto
+  name: 美国 073
+  network: ws
+  port: 2087
+  server: www.parsvds.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: b1f32268-74d7-4f41-a95a-56b57fb99d1a
+  ws-opts:
+    headers:
+      Host: OfFeR.MirAclestORy.tOP.
+    path: /
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - fast.com
+    method: GET
+    path:
+    - /
+  name: 伊朗 001
+  network: http
+  port: 20881
+  server: 37.152.191.117
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ff9e72db-5225-43de-8f77-14a9f8fa7029
+- alterId: 0
+  cipher: auto
+  name: 德国 001
+  network: ws
+  port: 33026
+  server: 89.169.55.152
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 06053cbe-a299-4934-bca6-0707e1416dc7
+  ws-opts:
+    headers:
+      Host: socks5tobefree.ydns.eu
+    path: /dangerzone
+- alterId: 0
+  cipher: auto
+  name: 加拿大 110
+  network: ws
+  port: 2053
+  server: 172.67.218.101
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 23de7970-038f-403f-f979-28124f3be02a
+  ws-opts:
+    headers:
+      Host: 1229VM6.nnaotexiongditkgroup.top
+    path: /1229VM6
+- alterId: 0
+  cipher: auto
+  name: 加拿大 112
+  network: ws
+  port: 80
+  server: 172.67.221.19
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 20017157-c258-4aba-8f66-efb5d0b92f6c
+  ws-opts:
+    headers:
+      Host: 58892877706648357761980405045364.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
+    path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -431,17 +797,6 @@ proxies:
     headers:
       Host: http1.9290254.xyz
     path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇰🇷 13|🇰🇷 韩国2|@ripaojiedian
-  port: 47369
-  server: 45.94.68.135
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 99fd4269-a32b-4b6b-99e3-81dee59271b1
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -487,6 +842,22 @@ proxies:
   tls: false
   type: vmess
   uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 0|--32
+  network: ws
+  port: 8080
+  server: m003.mmzhk.website
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: c3d1b53d-8cbe-4455-a009-bfa08e55f11d
+  ws-opts:
+    headers:
+      Host: daohang.mmzhk.website
+    path: /xyz
 - alterId: 0
   cipher: auto
   name: US美国(mibei77.com 米贝节点分享) 2
@@ -564,15 +935,41 @@ proxy-groups:
   - 加拿大 038
   - 美国 039
   - 加拿大 042
-  - 0|--25
-  - 0|--32
-  - 0|--35
+  - 美国 038
+  - 加拿大 044
+  - 加拿大 045
+  - 美国 044
+  - 加拿大 046
+  - 美国 046
+  - 加拿大 047
+  - 加拿大 049
+  - 美国 047
+  - 加拿大 050
+  - 美国 050
+  - 加拿大 052
+  - 加拿大 055
+  - 加拿大 056
+  - 美国 053
+  - 加拿大 062
+  - 美国 058
+  - 加拿大 067
+  - 法国 002
+  - 美国 065
+  - 美国 067
+  - 韩国 001
+  - 日本 001
+  - 加拿大 081
+  - 美国 073
+  - 伊朗 001
+  - 德国 001
+  - 加拿大 110
+  - 加拿大 112
   - '3,4,5|d*********g.com_0 #2'
-  - 🇰🇷 13|🇰🇷 韩国2|@ripaojiedian
   - 🇸🇬 13|🇸🇬 新加坡2|@ripaojiedian
   - '16|d*********g.com_2 #3'
   - 🇯🇵 日本
   - 🇩🇪 德国
+  - 0|--32
   - US美国(mibei77.com 米贝节点分享) 2
   - 美国(yudou66.com 玉豆免费节点) 3
   - 美国(yudou66.com 玉豆免费节点) 5
@@ -604,15 +1001,41 @@ proxy-groups:
   - 加拿大 038
   - 美国 039
   - 加拿大 042
-  - 0|--25
-  - 0|--32
-  - 0|--35
+  - 美国 038
+  - 加拿大 044
+  - 加拿大 045
+  - 美国 044
+  - 加拿大 046
+  - 美国 046
+  - 加拿大 047
+  - 加拿大 049
+  - 美国 047
+  - 加拿大 050
+  - 美国 050
+  - 加拿大 052
+  - 加拿大 055
+  - 加拿大 056
+  - 美国 053
+  - 加拿大 062
+  - 美国 058
+  - 加拿大 067
+  - 法国 002
+  - 美国 065
+  - 美国 067
+  - 韩国 001
+  - 日本 001
+  - 加拿大 081
+  - 美国 073
+  - 伊朗 001
+  - 德国 001
+  - 加拿大 110
+  - 加拿大 112
   - '3,4,5|d*********g.com_0 #2'
-  - 🇰🇷 13|🇰🇷 韩国2|@ripaojiedian
   - 🇸🇬 13|🇸🇬 新加坡2|@ripaojiedian
   - '16|d*********g.com_2 #3'
   - 🇯🇵 日本
   - 🇩🇪 德国
+  - 0|--32
   - US美国(mibei77.com 米贝节点分享) 2
   - 美国(yudou66.com 玉豆免费节点) 3
   - 美国(yudou66.com 玉豆免费节点) 5
