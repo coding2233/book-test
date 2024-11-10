@@ -118,21 +118,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 塞浦路斯 004
-  network: ws
-  port: 80
-  server: go.alipay.ovh
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a94171be-b387-4f02-a5ef-a1b4b7a26c04
-  ws-opts:
-    headers:
-      Host: open.alipay.ovh
-    path: /aries?ed=2048
-- alterId: 0
-  cipher: auto
   name: 加拿大 194
   network: ws
   port: 8080
@@ -160,38 +145,6 @@ proxies:
     headers:
       Host: late-wave-1d0a.lesijo3430.workers.dev
     path: /
-- alterId: 0
-  cipher: auto
-  delay: 2163
-  name: 美国 226
-  network: ws
-  port: 443
-  server: 151.101.194.133
-  servername: gerMAnyISvP.iR
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a888b89a-08ac-40e6-8ad7-cfce9569f967
-  ws-opts:
-    headers:
-      Host: gerMAnyISvP.iR
-    path: /racevpn
-- alterId: 0
-  cipher: auto
-  delay: 2559
-  name: 美国 228
-  network: ws
-  port: 443
-  server: 104.21.29.88
-  servername: 1e9e9.olielielie.store
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: bfb2c6c5-1b3e-4b2a-b971-9db091735363
-  ws-opts:
-    headers:
-      Host: 1e9e9.olielielie.store
-    path: /vmess
 - alterId: 0
   cipher: auto
   name: 加拿大 021
@@ -246,166 +199,6 @@ proxies:
     headers:
       Host: ssrsub.v03.ssrsub.com
     path: /api/v3/download.getFile
-- alterId: 0
-  cipher: auto
-  name: 加拿大 012
-  network: ws
-  port: 80
-  server: 172.67.73.174
-  servername: 73012792103530616183052842717949.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
-  skip-cert-verify: true
-  type: vmess
-  uuid: eae38909-f11d-48ac-9706-ac9444962de6
-  ws-opts:
-    headers:
-      Host: 73012792103530616183052842717949.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
-    path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
-- alterId: 0
-  cipher: auto
-  name: 美国 031
-  network: ws
-  port: 80
-  server: 104.18.20.153
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: b598ec8e-ef47-4e71-8d2e-a99fffcd144c
-  ws-opts:
-    headers:
-      Host: 68690907783461163508239105253758.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 俄罗斯 005
-  network: ws
-  port: 443
-  server: 185.221.160.163
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
-  ws-opts:
-    headers:
-      Host: worker-mute-bar-1719.nifotok993.workers.dev
-    path: /glweidf.cfd/linkws
-- alterId: 0
-  cipher: auto
-  name: 加拿大 036
-  network: ws
-  port: 2095
-  server: 104.16.68.38
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
-  ws-opts:
-    headers:
-      Host: worker-lingering-fog-c021.gesofog870.workers.dev
-    path: /glweidf.sbs/linkws
-- alterId: 0
-  cipher: auto
-  name: 美国 034
-  network: ws
-  port: 443
-  server: jpvbshohcgc.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: fa1897db-1925-4c86-a495-939a959af900
-  ws-opts:
-    headers:
-      Host: jpvbshohcgc.com
-    path: /rbqqvws
-- alterId: 0
-  cipher: auto
-  name: 加拿大 038
-  network: ws
-  port: 80
-  server: 104.16.61.8
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: d396-flower-d396.megare7260.workers.dev
-    path: /obdii.cfd/linkws
-- alterId: 0
-  cipher: auto
-  name: 美国 039
-  network: ws
-  port: 443
-  server: 104.25.112.185
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 09d5805c-7a22-47c1-b1c3-f090df0a98ed
-  ws-opts:
-    headers:
-      Host: rac.679888.xyz
-    path: /lfljvws
-- alterId: 0
-  cipher: auto
-  name: 加拿大 042
-  network: ws
-  port: 2082
-  server: 104.16.60.8
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a1655f51-1e20-4a92-8a11-b7ca30a7a353
-  ws-opts:
-    headers:
-      Host: 7hss-butterfly-d4c3.fijetem432.workers.dev
-    path: /afrhms07.xfixedfloat.cfd/linkws
-- alterId: 0
-  cipher: auto
-  name: 美国 038
-  network: ws
-  port: 443
-  server: qghwh.kovmk.website
-  servername: qghwh.kovmk.website
-  tls: true
-  type: vmess
-  uuid: aaa3f836-db3f-46ec-aeaf-41be73b3652e
-  ws-opts:
-    headers:
-      Host: qghwh.kovmk.website
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 044
-  network: ws
-  port: 443
-  server: dmybj.kovmk.website
-  servername: dmybj.kovmk.website
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 09c2a9db-b133-417e-910a-066ec3f35930
-  ws-opts:
-    headers:
-      Host: dmybj.kovmk.website
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 045
-  network: ws
-  port: 80
-  server: 162.159.136.98
-  type: vmess
-  udp: true
-  uuid: 5820093a-bb7d-4e15-8575-1a529f2d8282
-  ws-opts:
-    headers:
-      Host: rn2.hostmjj.com
-    path: /
 - alterId: 0
   cipher: auto
   name: 美国 044
@@ -467,182 +260,6 @@ proxies:
     path: /kiulujunuqs
 - alterId: 0
   cipher: auto
-  name: 加拿大 049
-  network: ws
-  port: 443
-  server: xhqcs.mmzhk.website
-  servername: xhqcs.mmzhk.website
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 1d92b5e2-3293-4f68-aee5-7c2fb0c69ae4
-  ws-opts:
-    headers:
-      Host: xhqcs.mmzhk.website
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 美国 047
-  network: ws
-  port: 443
-  server: nanwn.kovmk.website
-  servername: nanwn.kovmk.website
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 4738a016-a70a-4c28-8811-f32c0d650849
-  ws-opts:
-    headers:
-      Host: nanwn.kovmk.website
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 050
-  network: ws
-  port: 443
-  server: sccqp.kovmk.website
-  servername: sccqp.kovmk.website
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 7a98c9a6-9de8-48b3-96e1-7afc585554c9
-  ws-opts:
-    headers:
-      Host: sccqp.kovmk.website
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 美国 050
-  network: ws
-  port: 443
-  server: sgcft01.xqc.best
-  servername: d16henb377mok4.cloudfront.net
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f84b5887-a632-4446-a178-5d357fef1263
-  ws-opts:
-    headers:
-      Host: d16henb377mok4.cloudfront.net
-    path: /stream
-- alterId: 0
-  cipher: auto
-  name: 加拿大 052
-  network: ws
-  port: 443
-  server: 172.67.174.42
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
-  ws-opts:
-    headers:
-      Host: gwdef.sbs
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 055
-  network: ws
-  port: 443
-  server: 172.67.220.10
-  servername: linja05.hwcar.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53
-  ws-opts:
-    headers:
-      Host: linja05.hwcar.sbs
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 056
-  network: ws
-  port: 443
-  server: irhms03.dongfeng.cfd
-  servername: hms03.dongfeng.cfd
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: fa5b55cd-cafc-4de0-a4c8-722e02a9f58e
-  ws-opts:
-    headers:
-      Host: hms03.dongfeng.cfd
-    path: /
-- alterId: 1
-  cipher: auto
-  name: 美国 053
-  network: ws
-  port: 443
-  server: d.masjide.org
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: d.masjide.org
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 062
-  network: ws
-  port: 2086
-  server: 172.67.165.53
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312
-  ws-opts:
-    headers:
-      Host: shs.xiaoqi666.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 美国 058
-  network: ws
-  port: 443
-  server: parsvds.ir
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 62aa5f80-0328-4004-a375-7f5a59df4022
-  ws-opts:
-    headers:
-      Host: hms19.best-tizi.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 067
-  network: ws
-  port: 443
-  server: beyonddbc.sbs
-  servername: beyonddbc.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 8d90c129-4156-4d6c-9115-24df25f26a02
-  ws-opts:
-    headers:
-      Host: beyonddbc.sbs
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 美国 065
-  network: ws
-  port: 8880
-  server: 104.21.1.28
-  servername: us-ccs.yuji2022.eu.org
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 4b5e4565-322f-4223-a891-78a84f189726
-  ws-opts:
-    headers:
-      Host: us-ccs.yuji2022.eu.org
-    path: /
-- alterId: 0
-  cipher: auto
   name: 美国 067
   network: ws
   port: 443
@@ -655,108 +272,6 @@ proxies:
     headers:
       Host: mehrjavan.ir
     path: /m28jcoZZUhkqg6pk11
-- alterId: 0
-  cipher: auto
-  name: 日本 001
-  network: tcp
-  port: 15836
-  server: 45.159.50.76
-  tls: false
-  type: vmess
-  uuid: e1218e34-80a3-4a65-8524-88ca51e79191
-- alterId: 0
-  cipher: auto
-  name: 加拿大 081
-  network: ws
-  port: 80
-  server: 172.67.64.120
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b4495b97-bc8a-4b3b-a1e8-aae1d503e8ca
-  ws-opts:
-    headers:
-      Host: 58892877706648357761980405045364.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
-    path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
-- alterId: 0
-  cipher: auto
-  name: 美国 073
-  network: ws
-  port: 2087
-  server: www.parsvds.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: b1f32268-74d7-4f41-a95a-56b57fb99d1a
-  ws-opts:
-    headers:
-      Host: OfFeR.MirAclestORy.tOP.
-    path: /
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - fast.com
-    method: GET
-    path:
-    - /
-  name: 伊朗 001
-  network: http
-  port: 20881
-  server: 37.152.191.117
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: ff9e72db-5225-43de-8f77-14a9f8fa7029
-- alterId: 0
-  cipher: auto
-  name: 德国 001
-  network: ws
-  port: 33026
-  server: 89.169.55.152
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 06053cbe-a299-4934-bca6-0707e1416dc7
-  ws-opts:
-    headers:
-      Host: socks5tobefree.ydns.eu
-    path: /dangerzone
-- alterId: 0
-  cipher: auto
-  name: 加拿大 110
-  network: ws
-  port: 2053
-  server: 172.67.218.101
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 23de7970-038f-403f-f979-28124f3be02a
-  ws-opts:
-    headers:
-      Host: 1229VM6.nnaotexiongditkgroup.top
-    path: /1229VM6
-- alterId: 0
-  cipher: auto
-  name: 加拿大 112
-  network: ws
-  port: 80
-  server: 172.67.221.19
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 20017157-c258-4aba-8f66-efb5d0b92f6c
-  ws-opts:
-    headers:
-      Host: 58892877706648357761980405045364.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
-    path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
   name: 加拿大 119
@@ -774,144 +289,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 美国 128
-  network: ws
-  port: 443
-  server: cuqai.kovmk.website
-  servername: cuqai.kovmk.website
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 58ddde77-9856-4c57-be0e-147b8557448e
-  ws-opts:
-    headers:
-      Host: cuqai.kovmk.website
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 120
-  network: ws
-  port: 2052
-  server: cf.hy2.one
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0845cd88-e9ef-4f3a-8f8e-f1c70cfb258c
-  ws-opts:
-    headers:
-      Host: sg0002.hy-2.top
-    path: /0
-- alterId: 0
-  cipher: auto
-  name: 瑞典 002
-  network: ws
-  port: 443
-  server: 185.146.173.158
-  servername: jahfkjha.cfd
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
-  ws-opts:
-    headers:
-      Host: jahfkjha.cfd
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 美国 133
-  network: ws
-  port: 443
-  server: 104.19.32.0
-  servername: xmivideo.cfd
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e
-  ws-opts:
-    headers:
-      Host: xmivideo.cfd
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 美国 148
-  network: ws
-  port: 443
-  server: p2.v2raybrasil.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: db0c0df4-be29-40ec-9637-da40f6a66778
-  ws-opts:
-    headers:
-      Host: tls.redbullplus.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 151
-  network: ws
-  port: 8080
-  server: 162.159.1.33
-  tls: false
-  type: vmess
-  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
-  ws-opts:
-    headers:
-      Host: pcs-referenced-camera-concerns.trycloudflare.com
-    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
-- alterId: 0
-  cipher: auto
-  name: 加拿大 152
-  network: ws
-  port: 8080
-  server: 162.159.137.249
-  tls: false
-  type: vmess
-  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
-  ws-opts:
-    headers:
-      Host: nest-emily-healing-h.trycloudflare.com
-    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
-- alterId: 0
-  cipher: auto
-  name: 加拿大 154
-  network: ws
-  port: 8080
-  server: 23.227.39.24
-  tls: false
-  type: vmess
-  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
-  ws-opts:
-    headers:
-      Host: per-essex-patterns-bowling.trycloudflare.com
-    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
-- alterId: 0
-  cipher: auto
-  name: 阿联酋 001
-  network: ws
-  port: 8880
-  server: 94.140.0.110
-  tls: false
-  type: vmess
-  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
-  ws-opts:
-    headers:
-      Host: food.zhaal.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 157
-  network: ws
-  port: 8080
-  server: fbi.gov
-  tls: false
-  type: vmess
-  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
-  ws-opts:
-    headers:
-      Host: bibliographic-sword-sequence-advertisers.trycloudflare.com
-    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
-- alterId: 0
-  cipher: auto
   name: 加拿大 158
   network: ws
   port: 2086
@@ -925,236 +302,253 @@ proxies:
     path: /video/Z7qdcrAGRw
 - alterId: 0
   cipher: auto
-  name: 加拿大 159
-  network: ws
-  port: 8080
-  server: 162.159.134.23
-  tls: false
-  type: vmess
-  uuid: 9b196b50-37f2-4f4b-b175-06273adc6207
-  ws-opts:
-    headers:
-      Host: championship-bidding-oxygen-brochure.trycloudflare.com
-    path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm
-- alterId: 0
-  cipher: auto
-  name: 加拿大 160
-  network: ws
-  port: 8080
-  server: 23.227.38.23
-  tls: false
-  type: vmess
-  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
-  ws-opts:
-    headers:
-      Host: uh-lawyers-instruments-kernel.trycloudflare.com
-    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|--72
-  network: ws
-  port: 8080
-  server: m003.mmzhk.website
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: c3d1b53d-8cbe-4455-a009-bfa08e55f11d
-  ws-opts:
-    headers:
-      Host: daohang.mmzhk.website
-    path: /xyz
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: '3,4,5|d*********g.com_0 #2'
-  network: ws
-  port: 8443
-  server: 104.21.238.200
-  servername: http1.9290254.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43
-  ws-opts:
-    headers:
-      Host: http1.9290254.xyz
-    path: github.com/Alvin9999
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇸🇬 13|🇸🇬 新加坡2|@ripaojiedian
-  port: 40002
-  server: 183.236.48.163
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: '16|d*********g.com_2 #3'
-  port: 443
-  server: 42.236.73.72
-  servername: www.zitian.cn
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 044f0177-0675-4dcf-89d4-804b6788e518
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇯🇵 日本
-  port: 25004
-  server: d.baodesign.top
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: ba2e86ee-65fc-4b4e-97c7-165b5b64023b
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇩🇪 德国
-  port: 43526
-  server: 120.232.153.71
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)
-  port: 15086
-  server: 15086.kuaiyin02.top
+  name: 日本 001
+  network: tcp
+  port: 16798
+  server: 150.66.24.104
   skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
-  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
-- alterId: 0
-  cipher: auto
-  name: 美国(yudou66.com 玉豆免费节点) 3
-  port: 12908
-  server: z8.fragranceninja.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
-- alterId: 0
-  cipher: auto
-  name: 美国(yudou66.com 玉豆免费节点) 5
-  network: ws
-  port: 2086
-  server: icook.tw
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  uuid: bc6c7c93-9245-47be-bfd7-c34a39d0f155
   ws-headers:
-    Host: ip1.1789034.xyz
-  ws-path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 美国(yudou66.com 玉豆免费节点) 42
-  network: ws
-  port: 2086
-  server: 23.227.38.6
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+    Host: 150.66.24.104
+- name: 剩余流量：99.96 GB
+  password: a154aaab-d71b-494f-bd4d-0e4f139148f0
+  port: 9900
+  server: cghk.xxality.cn
+  sni: cghk.hysality.com
+  type: trojan
   udp: true
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-  ws-headers:
-    Host: ip005.3196772.xyz
-  ws-path: github.com/Alvin9999
+- name: 套餐到期：2024-12-10
+  password: a154aaab-d71b-494f-bd4d-0e4f139148f0
+  port: 9900
+  server: cghk.xxality.cn
+  sni: cghk.hysality.com
+  type: trojan
+  udp: true
+- name: '官網: www.cyberguard.best'
+  password: a154aaab-d71b-494f-bd4d-0e4f139148f0
+  port: 9900
+  server: cghk.xxality.cn
+  sni: cghk.hysality.com
+  type: trojan
+  udp: true
+- name: 🇭🇰香港 Mix | IEPL 1X | CM
+  password: a154aaab-d71b-494f-bd4d-0e4f139148f0
+  port: 9900
+  server: cghk.xxality.cn
+  sni: cghk.hysality.com
+  type: trojan
+  udp: true
+- name: 🇯🇵日本 01 | IEPL 1X | CM
+  password: a154aaab-d71b-494f-bd4d-0e4f139148f0
+  port: 35000
+  server: cghk.xxality.cn
+  sni: cgjp.hysality.com
+  type: trojan
+  udp: true
+- name: 🇯🇵日本 02 | IEPL 1.7X | SZCT
+  password: a154aaab-d71b-494f-bd4d-0e4f139148f0
+  port: 34154
+  server: ct.xxality.cn
+  sni: cgjp.hysality.com
+  type: trojan
+  udp: true
+- name: 🇯🇵日本 03 | ISP + UDP 3.1X | SZCT
+  password: a154aaab-d71b-494f-bd4d-0e4f139148f0
+  port: 43812
+  server: ct.xxality.cn
+  sni: cgjp3.hysality.com
+  type: trojan
+  udp: true
+- name: 🇯🇵日本 04 | ISP + UDP 3.1X | CM
+  password: a154aaab-d71b-494f-bd4d-0e4f139148f0
+  port: 35000
+  server: cghk.xxality.cn
+  sni: cgjp3.hysality.com
+  type: trojan
+  udp: true
+- name: 🇸🇬新加坡 01 | IPLC + UDP 3.1X | CT
+  password: a154aaab-d71b-494f-bd4d-0e4f139148f0
+  port: 50729
+  server: cg.jp.xxality.cn
+  sni: cgsg.hysality.com
+  type: trojan
+  udp: true
+- name: 🇸🇬新加坡 02 | IPLC + UDP 3.1X | SZCT
+  password: a154aaab-d71b-494f-bd4d-0e4f139148f0
+  port: 50729
+  server: ct.xxality.cn
+  sni: cgsg.hysality.com
+  type: trojan
+  udp: true
+- name: 🇺🇸美国 01 | IEPL 1X | CM
+  password: a154aaab-d71b-494f-bd4d-0e4f139148f0
+  port: 35000
+  server: cghk.xxality.cn
+  sni: cgus.hysality.com
+  type: trojan
+  udp: true
+- name: 🇺🇸美国 02 | IEPL 1X | CM
+  password: a154aaab-d71b-494f-bd4d-0e4f139148f0
+  port: 35000
+  server: cghk.xxality.cn
+  sni: cgus.hysality.com
+  type: trojan
+  udp: true
+- name: 🇺🇸美国 03 | IEPL 1.7X | SZCT
+  password: a154aaab-d71b-494f-bd4d-0e4f139148f0
+  port: 55222
+  server: ct.xxality.cn
+  sni: cgus.hysality.com
+  type: trojan
+  udp: true
+- name: 🇦🇺澳大利亚 01 | IEPL 1X | CM
+  password: a154aaab-d71b-494f-bd4d-0e4f139148f0
+  port: 35000
+  server: cghk.xxality.cn
+  sni: cgau.hysality.com
+  type: trojan
+  udp: true
+- name: 🇦🇺澳大利亚 02 | IEPL 1.7X | SZCT
+  password: a154aaab-d71b-494f-bd4d-0e4f139148f0
+  port: 42451
+  server: ct.xxality.cn
+  sni: cgau.hysality.com
+  type: trojan
+  udp: true
+- name: 🇩🇪德国 01 | IEPL 1X | CM
+  password: a154aaab-d71b-494f-bd4d-0e4f139148f0
+  port: 35000
+  server: cghk.xxality.cn
+  sni: cgde.hysality.com
+  type: trojan
+  udp: true
+- name: 🇩🇪德国 02 | IEPL 1.7X | SZCT
+  password: a154aaab-d71b-494f-bd4d-0e4f139148f0
+  port: 55806
+  server: ct.xxality.cn
+  sni: cgde.hysality.com
+  type: trojan
+  udp: true
+- name: 🇰🇷韩国 01 | IEPL 1X | CM
+  password: a154aaab-d71b-494f-bd4d-0e4f139148f0
+  port: 35000
+  server: cghk.xxality.cn
+  sni: cgkr.hysality.com
+  type: trojan
+  udp: true
+- name: 🇰🇷韩国 02 | IEPL 1X | CM
+  password: a154aaab-d71b-494f-bd4d-0e4f139148f0
+  port: 35000
+  server: cghk.xxality.cn
+  sni: cgkr.hysality.com
+  type: trojan
+  udp: true
+- name: 🇰🇷韩国 03 | IEPL 1.7X | SZCT
+  password: a154aaab-d71b-494f-bd4d-0e4f139148f0
+  port: 64688
+  server: ct.xxality.cn
+  sni: cgkr.hysality.com
+  type: trojan
+  udp: true
+- name: 🇫🇷法国 01 | IEPL 1X | CM
+  password: a154aaab-d71b-494f-bd4d-0e4f139148f0
+  port: 35000
+  server: cghk.xxality.cn
+  sni: cgfr.hysality.com
+  type: trojan
+  udp: true
+- name: 🇫🇷法国 02 | IEPL 1.7X | SZCT
+  password: a154aaab-d71b-494f-bd4d-0e4f139148f0
+  port: 25852
+  server: ct.xxality.cn
+  sni: cgfr.hysality.com
+  type: trojan
+  udp: true
+- name: 🇦🇪迪拜 01 | IEPL 1X | CM
+  password: a154aaab-d71b-494f-bd4d-0e4f139148f0
+  port: 35000
+  server: cghk.xxality.cn
+  sni: cgae.hysality.com
+  type: trojan
+  udp: true
+- name: 🇦🇪迪拜 02 | IEPL 1.7X | SZCT
+  password: a154aaab-d71b-494f-bd4d-0e4f139148f0
+  port: 57280
+  server: ct.xxality.cn
+  sni: cgae.hysality.com
+  type: trojan
+  udp: true
+- name: 🇦🇪迪拜 03 | IPLC + UDP 3.1X | CT
+  password: a154aaab-d71b-494f-bd4d-0e4f139148f0
+  port: 58900
+  server: cg.jp.xxality.cn
+  sni: cgjp2.hysality.com
+  type: trojan
+  udp: true
+- name: 🇬🇧英国 01 | IEPL 1X | CM
+  password: a154aaab-d71b-494f-bd4d-0e4f139148f0
+  port: 35000
+  server: cghk.xxality.cn
+  sni: cggb.hysality.com
+  type: trojan
+  udp: true
+- name: 🇬🇧英国 02 | IEPL 1.7X | SZCT
+  password: a154aaab-d71b-494f-bd4d-0e4f139148f0
+  port: 34787
+  server: ct.xxality.cn
+  sni: cggb.hysality.com
+  type: trojan
+  udp: true
+- name: 🇮🇳印度 01 | IEPL 1X | CM
+  password: a154aaab-d71b-494f-bd4d-0e4f139148f0
+  port: 35000
+  server: cghk.xxality.cn
+  sni: cgin.hysality.com
+  type: trojan
+  udp: true
+- name: 🇮🇳印度 02 | IEPL 1X | CM
+  password: a154aaab-d71b-494f-bd4d-0e4f139148f0
+  port: 35000
+  server: cghk.xxality.cn
+  sni: cgin.hysality.com
+  type: trojan
+  udp: true
+- name: 🇮🇳印度 03 | IEPL 1X | CM
+  password: a154aaab-d71b-494f-bd4d-0e4f139148f0
+  port: 35000
+  server: cghk.xxality.cn
+  sni: cgin.hysality.com
+  type: trojan
+  udp: true
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
   - 🚒 vps6.laiting.xyz
+  - CyberGuard
   - 加拿大 103
   - 加拿大 039
   - 加拿大 007
   - 德国 008
   - 加拿大 129
   - 加拿大 132
-  - 塞浦路斯 004
   - 加拿大 194
   - 加拿大 203
-  - 美国 226
-  - 美国 228
   - 加拿大 021
   - 加拿大 072
   - 加拿大 048
   - 加拿大 238
-  - 加拿大 012
-  - 美国 031
-  - 俄罗斯 005
-  - 加拿大 036
-  - 美国 034
-  - 加拿大 038
-  - 美国 039
-  - 加拿大 042
-  - 美国 038
-  - 加拿大 044
-  - 加拿大 045
   - 美国 044
   - 加拿大 046
   - 美国 046
   - 加拿大 047
-  - 加拿大 049
-  - 美国 047
-  - 加拿大 050
-  - 美国 050
-  - 加拿大 052
-  - 加拿大 055
-  - 加拿大 056
-  - 美国 053
-  - 加拿大 062
-  - 美国 058
-  - 加拿大 067
-  - 美国 065
   - 美国 067
-  - 日本 001
-  - 加拿大 081
-  - 美国 073
-  - 伊朗 001
-  - 德国 001
-  - 加拿大 110
-  - 加拿大 112
   - 加拿大 119
-  - 美国 128
-  - 加拿大 120
-  - 瑞典 002
-  - 美国 133
-  - 美国 148
-  - 加拿大 151
-  - 加拿大 152
-  - 加拿大 154
-  - 阿联酋 001
-  - 加拿大 157
   - 加拿大 158
-  - 加拿大 159
-  - 加拿大 160
-  - 0|--72
-  - '3,4,5|d*********g.com_0 #2'
-  - 🇸🇬 13|🇸🇬 新加坡2|@ripaojiedian
-  - '16|d*********g.com_2 #3'
-  - 🇯🇵 日本
-  - 🇩🇪 德国
-  - US美国(mibei77.com 米贝节点分享)
-  - 美国(yudou66.com 玉豆免费节点) 3
-  - 美国(yudou66.com 玉豆免费节点) 5
-  - 美国(yudou66.com 玉豆免费节点) 42
+  - 日本 001
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -1165,74 +559,20 @@ proxy-groups:
   - 德国 008
   - 加拿大 129
   - 加拿大 132
-  - 塞浦路斯 004
   - 加拿大 194
   - 加拿大 203
-  - 美国 226
-  - 美国 228
   - 加拿大 021
   - 加拿大 072
   - 加拿大 048
   - 加拿大 238
-  - 加拿大 012
-  - 美国 031
-  - 俄罗斯 005
-  - 加拿大 036
-  - 美国 034
-  - 加拿大 038
-  - 美国 039
-  - 加拿大 042
-  - 美国 038
-  - 加拿大 044
-  - 加拿大 045
   - 美国 044
   - 加拿大 046
   - 美国 046
   - 加拿大 047
-  - 加拿大 049
-  - 美国 047
-  - 加拿大 050
-  - 美国 050
-  - 加拿大 052
-  - 加拿大 055
-  - 加拿大 056
-  - 美国 053
-  - 加拿大 062
-  - 美国 058
-  - 加拿大 067
-  - 美国 065
   - 美国 067
-  - 日本 001
-  - 加拿大 081
-  - 美国 073
-  - 伊朗 001
-  - 德国 001
-  - 加拿大 110
-  - 加拿大 112
   - 加拿大 119
-  - 美国 128
-  - 加拿大 120
-  - 瑞典 002
-  - 美国 133
-  - 美国 148
-  - 加拿大 151
-  - 加拿大 152
-  - 加拿大 154
-  - 阿联酋 001
-  - 加拿大 157
   - 加拿大 158
-  - 加拿大 159
-  - 加拿大 160
-  - 0|--72
-  - '3,4,5|d*********g.com_0 #2'
-  - 🇸🇬 13|🇸🇬 新加坡2|@ripaojiedian
-  - '16|d*********g.com_2 #3'
-  - 🇯🇵 日本
-  - 🇩🇪 德国
-  - US美国(mibei77.com 米贝节点分享)
-  - 美国(yudou66.com 玉豆免费节点) 3
-  - 美国(yudou66.com 玉豆免费节点) 5
-  - 美国(yudou66.com 玉豆免费节点) 42
+  - 日本 001
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
@@ -1278,6 +618,111 @@ proxy-groups:
   - 🎯 全球直连
   - 🚒 vps6.laiting.xyz
   type: select
+- name: CyberGuard
+  proxies:
+  - 自动选择
+  - 故障转移
+  - 剩余流量：99.96 GB
+  - 套餐到期：2024-12-10
+  - '官網: www.cyberguard.best'
+  - 🇭🇰香港 Mix | IEPL 1X | CM
+  - 🇯🇵日本 01 | IEPL 1X | CM
+  - 🇯🇵日本 02 | IEPL 1.7X | SZCT
+  - 🇯🇵日本 03 | ISP + UDP 3.1X | SZCT
+  - 🇯🇵日本 04 | ISP + UDP 3.1X | CM
+  - 🇸🇬新加坡 01 | IPLC + UDP 3.1X | CT
+  - 🇸🇬新加坡 02 | IPLC + UDP 3.1X | SZCT
+  - 🇺🇸美国 01 | IEPL 1X | CM
+  - 🇺🇸美国 02 | IEPL 1X | CM
+  - 🇺🇸美国 03 | IEPL 1.7X | SZCT
+  - 🇦🇺澳大利亚 01 | IEPL 1X | CM
+  - 🇦🇺澳大利亚 02 | IEPL 1.7X | SZCT
+  - 🇩🇪德国 01 | IEPL 1X | CM
+  - 🇩🇪德国 02 | IEPL 1.7X | SZCT
+  - 🇰🇷韩国 01 | IEPL 1X | CM
+  - 🇰🇷韩国 02 | IEPL 1X | CM
+  - 🇰🇷韩国 03 | IEPL 1.7X | SZCT
+  - 🇫🇷法国 01 | IEPL 1X | CM
+  - 🇫🇷法国 02 | IEPL 1.7X | SZCT
+  - 🇦🇪迪拜 01 | IEPL 1X | CM
+  - 🇦🇪迪拜 02 | IEPL 1.7X | SZCT
+  - 🇦🇪迪拜 03 | IPLC + UDP 3.1X | CT
+  - 🇬🇧英国 01 | IEPL 1X | CM
+  - 🇬🇧英国 02 | IEPL 1.7X | SZCT
+  - 🇮🇳印度 01 | IEPL 1X | CM
+  - 🇮🇳印度 02 | IEPL 1X | CM
+  - 🇮🇳印度 03 | IEPL 1X | CM
+  type: select
+- interval: 86400
+  name: 自动选择
+  proxies:
+  - 剩余流量：99.96 GB
+  - 套餐到期：2024-12-10
+  - '官網: www.cyberguard.best'
+  - 🇭🇰香港 Mix | IEPL 1X | CM
+  - 🇯🇵日本 01 | IEPL 1X | CM
+  - 🇯🇵日本 02 | IEPL 1.7X | SZCT
+  - 🇯🇵日本 03 | ISP + UDP 3.1X | SZCT
+  - 🇯🇵日本 04 | ISP + UDP 3.1X | CM
+  - 🇸🇬新加坡 01 | IPLC + UDP 3.1X | CT
+  - 🇸🇬新加坡 02 | IPLC + UDP 3.1X | SZCT
+  - 🇺🇸美国 01 | IEPL 1X | CM
+  - 🇺🇸美国 02 | IEPL 1X | CM
+  - 🇺🇸美国 03 | IEPL 1.7X | SZCT
+  - 🇦🇺澳大利亚 01 | IEPL 1X | CM
+  - 🇦🇺澳大利亚 02 | IEPL 1.7X | SZCT
+  - 🇩🇪德国 01 | IEPL 1X | CM
+  - 🇩🇪德国 02 | IEPL 1.7X | SZCT
+  - 🇰🇷韩国 01 | IEPL 1X | CM
+  - 🇰🇷韩国 02 | IEPL 1X | CM
+  - 🇰🇷韩国 03 | IEPL 1.7X | SZCT
+  - 🇫🇷法国 01 | IEPL 1X | CM
+  - 🇫🇷法国 02 | IEPL 1.7X | SZCT
+  - 🇦🇪迪拜 01 | IEPL 1X | CM
+  - 🇦🇪迪拜 02 | IEPL 1.7X | SZCT
+  - 🇦🇪迪拜 03 | IPLC + UDP 3.1X | CT
+  - 🇬🇧英国 01 | IEPL 1X | CM
+  - 🇬🇧英国 02 | IEPL 1.7X | SZCT
+  - 🇮🇳印度 01 | IEPL 1X | CM
+  - 🇮🇳印度 02 | IEPL 1X | CM
+  - 🇮🇳印度 03 | IEPL 1X | CM
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+- interval: 7200
+  name: 故障转移
+  proxies:
+  - 剩余流量：99.96 GB
+  - 套餐到期：2024-12-10
+  - '官網: www.cyberguard.best'
+  - 🇭🇰香港 Mix | IEPL 1X | CM
+  - 🇯🇵日本 01 | IEPL 1X | CM
+  - 🇯🇵日本 02 | IEPL 1.7X | SZCT
+  - 🇯🇵日本 03 | ISP + UDP 3.1X | SZCT
+  - 🇯🇵日本 04 | ISP + UDP 3.1X | CM
+  - 🇸🇬新加坡 01 | IPLC + UDP 3.1X | CT
+  - 🇸🇬新加坡 02 | IPLC + UDP 3.1X | SZCT
+  - 🇺🇸美国 01 | IEPL 1X | CM
+  - 🇺🇸美国 02 | IEPL 1X | CM
+  - 🇺🇸美国 03 | IEPL 1.7X | SZCT
+  - 🇦🇺澳大利亚 01 | IEPL 1X | CM
+  - 🇦🇺澳大利亚 02 | IEPL 1.7X | SZCT
+  - 🇩🇪德国 01 | IEPL 1X | CM
+  - 🇩🇪德国 02 | IEPL 1.7X | SZCT
+  - 🇰🇷韩国 01 | IEPL 1X | CM
+  - 🇰🇷韩国 02 | IEPL 1X | CM
+  - 🇰🇷韩国 03 | IEPL 1.7X | SZCT
+  - 🇫🇷法国 01 | IEPL 1X | CM
+  - 🇫🇷法国 02 | IEPL 1.7X | SZCT
+  - 🇦🇪迪拜 01 | IEPL 1X | CM
+  - 🇦🇪迪拜 02 | IEPL 1.7X | SZCT
+  - 🇦🇪迪拜 03 | IPLC + UDP 3.1X | CT
+  - 🇬🇧英国 01 | IEPL 1X | CM
+  - 🇬🇧英国 02 | IEPL 1.7X | SZCT
+  - 🇮🇳印度 01 | IEPL 1X | CM
+  - 🇮🇳印度 02 | IEPL 1X | CM
+  - 🇮🇳印度 03 | IEPL 1X | CM
+  type: fallback
+  url: http://www.gstatic.com/generate_204
 rules:
 - DOMAIN-SUFFIX,local,🎯 全球直连
 - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
