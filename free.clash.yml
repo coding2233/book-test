@@ -571,7 +571,79 @@ proxies:
     path: /af323d
 - alterId: 0
   cipher: auto
-  name: 加拿大 173
+  name: 俄罗斯 002
+  network: ws
+  port: 40413
+  server: 45.67.32.147
+  servername: free.hardtofind.42web.io
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: fab5abd3-fae4-4a2a-85ee-051e61f56efd
+  ws-opts:
+    headers:
+      Host: free.hardtofind.42web.io
+    path: /makeacall
+- alterId: 0
+  cipher: auto
+  name: 美国 134
+  network: ws
+  port: 80
+  server: 104.17.237.149
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c169bbd5-db15-40db-ba8f-490ebbb76492
+  ws-opts:
+    headers:
+      Host: 73012792103530616183052842717949.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
+    path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
+- alterId: 0
+  cipher: auto
+  name: 加拿大 193
+  network: ws
+  port: 443
+  server: rkvhm.whmvmkwuey.store
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 50e01035-0be7-406b-a36f-6fb5738d2e3c
+  ws-opts:
+    headers:
+      Host: rkvhm.whmvmkwuey.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 122
+  network: ws
+  port: 443
+  server: psywu.whmvmkwuey.store
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 3fd01763-e5d2-4768-b42c-0f885c9dc710
+  ws-opts:
+    headers:
+      Host: psywu.whmvmkwuey.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 法国 003
+  network: ws
+  port: 443
+  server: 45.145.167.103
+  tls: true
+  type: vmess
+  uuid: 425c5e6e-30a0-4984-8a13-ee6f72053162
+  ws-opts:
+    headers:
+      Host: indiavideo.sbs
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 加拿大 195
   network: ws
   port: 2087
   server: www.speedtest.net
@@ -845,7 +917,12 @@ proxy-groups:
   - 荷兰 008
   - 美国 106
   - 加拿大 098
-  - 加拿大 173
+  - 俄罗斯 002
+  - 美国 134
+  - 加拿大 193
+  - 美国 122
+  - 法国 003
+  - 加拿大 195
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -888,7 +965,12 @@ proxy-groups:
   - 荷兰 008
   - 美国 106
   - 加拿大 098
-  - 加拿大 173
+  - 俄罗斯 002
+  - 美国 134
+  - 加拿大 193
+  - 美国 122
+  - 法国 003
+  - 加拿大 195
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
