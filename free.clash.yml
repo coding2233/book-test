@@ -542,21 +542,6 @@ proxies:
     path: /linkws#
 - alterId: 0
   cipher: auto
-  name: 加拿大 021
-  network: ws
-  port: 443
-  server: bgqpq.whmvmkwuey.store
-  servername: bgqpq.whmvmkwuey.store
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 3ae27605-fbb7-4440-8c2e-9ad89faae64e
-  ws-opts:
-    headers:
-      Host: bgqpq.whmvmkwuey.store
-    path: /
-- alterId: 0
-  cipher: auto
   name: 美国 106
   network: ws
   port: 80
@@ -570,6 +555,34 @@ proxies:
     headers:
       Host: hdfy6c1.freelines.net
     path: /lRkGCkYS9X5GDNJYMWXN7kCm3lL
+- alterId: 0
+  cipher: auto
+  name: 加拿大 098
+  network: ws
+  port: 80
+  server: cf.hy2.one
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 299ea574-3ca4-4264-9116-1d67d1eb90b1
+  ws-opts:
+    headers:
+      Host: tw02.hy2.one
+    path: /af323d
+- alterId: 0
+  cipher: auto
+  name: 加拿大 173
+  network: ws
+  port: 2087
+  server: www.speedtest.net
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 1d01e6ae-0d97-4a9f-af23-8d754085a94f
+  ws-opts:
+    headers:
+      Host: OfFeR.MirAclestORy.tOP.
+    path: /
 - name: 剩余流量：86.35 GB
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 9900
@@ -830,8 +843,9 @@ proxy-groups:
   - 加拿大 032
   - 韩国 001
   - 荷兰 008
-  - 加拿大 021
   - 美国 106
+  - 加拿大 098
+  - 加拿大 173
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -872,8 +886,9 @@ proxy-groups:
   - 加拿大 032
   - 韩国 001
   - 荷兰 008
-  - 加拿大 021
   - 美国 106
+  - 加拿大 098
+  - 加拿大 173
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
