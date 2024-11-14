@@ -58,22 +58,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大 007
-  network: ws
-  port: 2095
-  server: 104.26.5.67
-  servername: ip2.8084726.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
-  ws-opts:
-    headers:
-      Host: ip2.8084726.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
   http-opts:
     method: GET
     path:
@@ -628,59 +612,112 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大 075
+  name: 美国 002
   network: ws
   port: 443
-  server: bozzb.whmvmkwuey.store
+  server: wtgez.whmvmkwuey.store
   tls: true
   type: vmess
   udp: true
-  uuid: f3238891-38f6-425c-be39-57b121b0bca5
+  uuid: 77b29175-dba3-4166-9ac5-de4d3df23f14
   ws-opts:
     headers:
-      Host: bozzb.whmvmkwuey.store
+      Host: wtgez.whmvmkwuey.store
     path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 108
+  network: ws
+  port: 443
+  server: tryhc.whmvmkwuey.store
+  tls: true
+  type: vmess
+  udp: true
+  uuid: c0d64b3f-5d00-4fe7-90ba-3a8a1d48db4d
+  ws-opts:
+    headers:
+      Host: tryhc.whmvmkwuey.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 韩国 014
+  network: tcp
+  port: 35448
+  server: 45.94.68.144
+  tls: false
+  type: vmess
+  uuid: 37a9e3d4-08b2-4a54-92ad-e9dce926657d
+- alterId: 0
+  cipher: auto
+  name: 美国 187
+  network: ws
+  port: 443
+  server: 104.21.48.160
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  ws-opts:
+    headers:
+      Host: irvideo.cfd
+    path: /linkws
 - alterId: 0
   cipher: auto
   name: 加拿大 092
   network: ws
+  port: 8080
+  server: 104.18.202.250
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
+  ws-opts:
+    headers:
+      Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
+    path: /jahfkjha.cfd/linkws
+- alterId: 0
+  cipher: auto
+  name: 美国 191
+  network: ws
   port: 443
-  server: arqou.whmvmkwuey.store
+  server: kwzcj.whmvmkwuey.store
   tls: true
   type: vmess
   udp: true
-  uuid: 6dbee7d0-7b98-45ee-acd6-f909620373b1
+  uuid: f22eb5b6-7813-472b-9362-710403d15d51
   ws-opts:
     headers:
-      Host: arqou.whmvmkwuey.store
+      Host: kwzcj.whmvmkwuey.store
     path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大 119
+  name: 美国 192
   network: ws
   port: 443
-  server: pkeln.whmvmkwuey.store
+  server: hypdv.whmvmkwuey.store
   tls: true
   type: vmess
   udp: true
-  uuid: 96f038c1-108d-4748-8ed0-bb383b50fb16
+  uuid: f28752a8-2968-4ccf-837e-a8a52ad46c06
   ws-opts:
     headers:
-      Host: pkeln.whmvmkwuey.store
+      Host: hypdv.whmvmkwuey.store
     path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大 209
+  name: 美国 193
   network: ws
   port: 443
-  server: xztnb.whmvmkwuey.store
+  server: uwfpa.whmvmkwuey.store
   tls: true
   type: vmess
   udp: true
-  uuid: 8585e728-4577-4e5a-9f38-496d629e6b7f
+  uuid: b146845b-3f96-46da-9c97-d783871f92a7
   ws-opts:
     headers:
-      Host: xztnb.whmvmkwuey.store
+      Host: uwfpa.whmvmkwuey.store
     path: /
 - name: 剩余流量：86.35 GB
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
@@ -908,7 +945,6 @@ proxy-groups:
   - CyberGuard
   - 加拿大 103
   - 加拿大 039
-  - 加拿大 007
   - 德国 008
   - 加拿大 129
   - 加拿大 132
@@ -948,17 +984,20 @@ proxy-groups:
   - 法国 003
   - 加拿大 195
   - 美国 096
-  - 加拿大 075
+  - 美国 002
+  - 美国 108
+  - 韩国 014
+  - 美国 187
   - 加拿大 092
-  - 加拿大 119
-  - 加拿大 209
+  - 美国 191
+  - 美国 192
+  - 美国 193
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
   - 加拿大 103
   - 加拿大 039
-  - 加拿大 007
   - 德国 008
   - 加拿大 129
   - 加拿大 132
@@ -998,10 +1037,14 @@ proxy-groups:
   - 法国 003
   - 加拿大 195
   - 美国 096
-  - 加拿大 075
+  - 美国 002
+  - 美国 108
+  - 韩国 014
+  - 美国 187
   - 加拿大 092
-  - 加拿大 119
-  - 加拿大 209
+  - 美国 191
+  - 美国 192
+  - 美国 193
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
