@@ -175,21 +175,6 @@ proxies:
     path: /kiulujunuqs
 - alterId: 0
   cipher: auto
-  name: 加拿大 119
-  network: ws
-  port: 443
-  server: gmhjh.mmzhk.website
-  servername: gmhjh.mmzhk.website
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 90e12549-a439-460a-8646-f68462da8f8d
-  ws-opts:
-    headers:
-      Host: gmhjh.mmzhk.website
-    path: /
-- alterId: 0
-  cipher: auto
   name: 加拿大 158
   network: ws
   port: 2086
@@ -602,34 +587,6 @@ proxies:
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
-  name: 加拿大 193
-  network: ws
-  port: 443
-  server: rkvhm.whmvmkwuey.store
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 50e01035-0be7-406b-a36f-6fb5738d2e3c
-  ws-opts:
-    headers:
-      Host: rkvhm.whmvmkwuey.store
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 美国 122
-  network: ws
-  port: 443
-  server: psywu.whmvmkwuey.store
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 3fd01763-e5d2-4768-b42c-0f885c9dc710
-  ws-opts:
-    headers:
-      Host: psywu.whmvmkwuey.store
-    path: /
-- alterId: 0
-  cipher: auto
   name: 法国 003
   network: ws
   port: 443
@@ -654,6 +611,76 @@ proxies:
   ws-opts:
     headers:
       Host: OfFeR.MirAclestORy.tOP.
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 096
+  network: ws
+  port: 80
+  server: it2.127414.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 50f63ae5-b755-4b09-83cd-8b2b0b1a3793
+  ws-opts:
+    headers:
+      Host: it2.127414.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 075
+  network: ws
+  port: 443
+  server: bozzb.whmvmkwuey.store
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f3238891-38f6-425c-be39-57b121b0bca5
+  ws-opts:
+    headers:
+      Host: bozzb.whmvmkwuey.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 092
+  network: ws
+  port: 443
+  server: arqou.whmvmkwuey.store
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 6dbee7d0-7b98-45ee-acd6-f909620373b1
+  ws-opts:
+    headers:
+      Host: arqou.whmvmkwuey.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 119
+  network: ws
+  port: 443
+  server: pkeln.whmvmkwuey.store
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 96f038c1-108d-4748-8ed0-bb383b50fb16
+  ws-opts:
+    headers:
+      Host: pkeln.whmvmkwuey.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 209
+  network: ws
+  port: 443
+  server: xztnb.whmvmkwuey.store
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 8585e728-4577-4e5a-9f38-496d629e6b7f
+  ws-opts:
+    headers:
+      Host: xztnb.whmvmkwuey.store
     path: /
 - name: 剩余流量：86.35 GB
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
@@ -889,7 +916,6 @@ proxy-groups:
   - 加拿大 203
   - 加拿大 048
   - 加拿大 047
-  - 加拿大 119
   - 加拿大 158
   - 日本 001
   - 加拿大 020
@@ -919,10 +945,13 @@ proxy-groups:
   - 加拿大 098
   - 俄罗斯 002
   - 美国 134
-  - 加拿大 193
-  - 美国 122
   - 法国 003
   - 加拿大 195
+  - 美国 096
+  - 加拿大 075
+  - 加拿大 092
+  - 加拿大 119
+  - 加拿大 209
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -937,7 +966,6 @@ proxy-groups:
   - 加拿大 203
   - 加拿大 048
   - 加拿大 047
-  - 加拿大 119
   - 加拿大 158
   - 日本 001
   - 加拿大 020
@@ -967,10 +995,13 @@ proxy-groups:
   - 加拿大 098
   - 俄罗斯 002
   - 美国 134
-  - 加拿大 193
-  - 美国 122
   - 法国 003
   - 加拿大 195
+  - 美国 096
+  - 加拿大 075
+  - 加拿大 092
+  - 加拿大 119
+  - 加拿大 209
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
