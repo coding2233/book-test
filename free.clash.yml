@@ -172,48 +172,6 @@ proxies:
     path: /video/Z7qdcrAGRw
 - alterId: 0
   cipher: auto
-  name: 日本 001
-  network: tcp
-  port: 16798
-  server: 150.66.24.104
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: bc6c7c93-9245-47be-bfd7-c34a39d0f155
-  ws-headers:
-    Host: 150.66.24.104
-- alterId: 0
-  cipher: auto
-  name: 加拿大 020
-  network: ws
-  port: 443
-  server: fnujs.whmvmkwuey.store
-  servername: fnujs.whmvmkwuey.store
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 4d463e12-30d0-4c43-826c-ada171bd81db
-  ws-opts:
-    headers:
-      Host: fnujs.whmvmkwuey.store
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 033
-  network: ws
-  port: 443
-  server: ptcdm.whmvmkwuey.store
-  servername: ptcdm.whmvmkwuey.store
-  tls: true
-  type: vmess
-  udp: true
-  uuid: fccd6de1-8eee-4286-9f0b-bfd82859104e
-  ws-opts:
-    headers:
-      Host: ptcdm.whmvmkwuey.store
-    path: /
-- alterId: 0
-  cipher: auto
   name: 加拿大 055
   network: ws
   port: 80
@@ -679,47 +637,79 @@ proxies:
     path: /jahfkjha.cfd/linkws
 - alterId: 0
   cipher: auto
-  name: 美国 191
+  name: 加拿大 007
   network: ws
-  port: 443
-  server: kwzcj.whmvmkwuey.store
-  tls: true
+  port: 8080
+  server: 172.67.213.19
+  servername: de-new01.daluquan.top
+  skip-cert-verify: true
   type: vmess
-  udp: true
-  uuid: f22eb5b6-7813-472b-9362-710403d15d51
+  uuid: 0614a202-deb0-406a-be12-ed386e41dd3b
   ws-opts:
     headers:
-      Host: kwzcj.whmvmkwuey.store
+      Host: de-new01.daluquan.top
     path: /
 - alterId: 0
   cipher: auto
-  name: 美国 192
+  name: 加拿大 219
   network: ws
   port: 443
-  server: hypdv.whmvmkwuey.store
+  server: xnzdu.whmvmkwuey.store
   tls: true
   type: vmess
   udp: true
-  uuid: f28752a8-2968-4ccf-837e-a8a52ad46c06
+  uuid: 94863194-8809-45ea-984e-c3764af1822a
   ws-opts:
     headers:
-      Host: hypdv.whmvmkwuey.store
+      Host: xnzdu.whmvmkwuey.store
     path: /
 - alterId: 0
   cipher: auto
-  name: 美国 193
+  name: 美国 019
   network: ws
   port: 443
-  server: uwfpa.whmvmkwuey.store
+  server: grnyx.whmvmkwuey.store
   tls: true
   type: vmess
   udp: true
-  uuid: b146845b-3f96-46da-9c97-d783871f92a7
+  uuid: 41acbf4f-fd5e-4c69-b4f5-366c755b9207
   ws-opts:
     headers:
-      Host: uwfpa.whmvmkwuey.store
+      Host: grnyx.whmvmkwuey.store
     path: /
-- name: 剩余流量：86.02 GB
+- alterId: 0
+  cipher: auto
+  name: 美国 046
+  network: ws
+  port: 443
+  server: tkssr.whmvmkwuey.store
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 6d771930-b3af-4839-9326-933dd564b17c
+  ws-opts:
+    headers:
+      Host: tkssr.whmvmkwuey.store
+    path: /
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - telewebion.com
+    method: GET
+    path:
+    - /
+  name: 伊朗 008
+  network: http
+  port: 26763
+  server: 31.184.167.105
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0fb83853-ddf7-4800-b19a-6bc972536a86
+- name: 剩余流量：85.94 GB
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 9900
   server: cghk.xxality.cn
@@ -953,9 +943,6 @@ proxy-groups:
   - 加拿大 048
   - 加拿大 047
   - 加拿大 158
-  - 日本 001
-  - 加拿大 020
-  - 加拿大 033
   - 加拿大 055
   - 美国 014
   - 美国 049
@@ -989,9 +976,11 @@ proxy-groups:
   - 韩国 014
   - 美国 187
   - 加拿大 092
-  - 美国 191
-  - 美国 192
-  - 美国 193
+  - 加拿大 007
+  - 加拿大 219
+  - 美国 019
+  - 美国 046
+  - 伊朗 008
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -1006,9 +995,6 @@ proxy-groups:
   - 加拿大 048
   - 加拿大 047
   - 加拿大 158
-  - 日本 001
-  - 加拿大 020
-  - 加拿大 033
   - 加拿大 055
   - 美国 014
   - 美国 049
@@ -1042,9 +1028,11 @@ proxy-groups:
   - 韩国 014
   - 美国 187
   - 加拿大 092
-  - 美国 191
-  - 美国 192
-  - 美国 193
+  - 加拿大 007
+  - 加拿大 219
+  - 美国 019
+  - 美国 046
+  - 伊朗 008
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
@@ -1094,7 +1082,7 @@ proxy-groups:
   proxies:
   - 自动选择
   - 故障转移
-  - 剩余流量：86.02 GB
+  - 剩余流量：85.94 GB
   - 距离下次重置剩余：25 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
@@ -1129,7 +1117,7 @@ proxy-groups:
 - interval: 86400
   name: 自动选择
   proxies:
-  - 剩余流量：86.02 GB
+  - 剩余流量：85.94 GB
   - 距离下次重置剩余：25 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
@@ -1165,7 +1153,7 @@ proxy-groups:
 - interval: 7200
   name: 故障转移
   proxies:
-  - 剩余流量：86.02 GB
+  - 剩余流量：85.94 GB
   - 距离下次重置剩余：25 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
