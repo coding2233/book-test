@@ -989,6 +989,216 @@ proxies:
   sni: cgin.hysality.com
   type: trojan
   udp: true
+- name: 加入我的频道t.me/CMLiussss解锁更多优选节点
+  network: ws
+  port: 443
+  server: Join.my.Telegram.channel.CMLiussss.to.unlock.more.premium.nodes.cf.090227.xyz
+  servername: cm.vless.laiting.icu
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: f1348f9d-a77b-43b7-a8c5-48acbb663405
+  ws-opts:
+    headers:
+      Host: cm.vless.laiting.icu
+    path: /?ed=2560
+- name: CFnat
+  network: ws
+  port: 1234
+  server: 127.0.0.1
+  servername: cm.vless.laiting.icu
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: f1348f9d-a77b-43b7-a8c5-48acbb663405
+  ws-opts:
+    headers:
+      Host: cm.vless.laiting.icu
+    path: /?ed=2560
+- name: 🇨🇳 visa.cn
+  network: ws
+  port: 443
+  server: visa.cn
+  servername: cm.vless.laiting.icu
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: f1348f9d-a77b-43b7-a8c5-48acbb663405
+  ws-opts:
+    headers:
+      Host: cm.vless.laiting.icu
+    path: /?ed=2560
+- name: 🇸🇬 singapore.com
+  network: ws
+  port: 8443
+  server: singapore.com
+  servername: cm.vless.laiting.icu
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: f1348f9d-a77b-43b7-a8c5-48acbb663405
+  ws-opts:
+    headers:
+      Host: cm.vless.laiting.icu
+    path: /?ed=2560
+- name: 🇯🇵 japan.com
+  network: ws
+  port: 2053
+  server: japan.com
+  servername: cm.vless.laiting.icu
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: f1348f9d-a77b-43b7-a8c5-48acbb663405
+  ws-opts:
+    headers:
+      Host: cm.vless.laiting.icu
+    path: /?ed=2560
+- name: brazil.com
+  network: ws
+  port: 2083
+  server: brazil.com
+  servername: cm.vless.laiting.icu
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: f1348f9d-a77b-43b7-a8c5-48acbb663405
+  ws-opts:
+    headers:
+      Host: cm.vless.laiting.icu
+    path: /?ed=2560
+- name: 🇷🇺 russia.com
+  network: ws
+  port: 2087
+  server: russia.com
+  servername: cm.vless.laiting.icu
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: f1348f9d-a77b-43b7-a8c5-48acbb663405
+  ws-opts:
+    headers:
+      Host: cm.vless.laiting.icu
+    path: /?ed=2560
+- name: www.gov.ua
+  network: ws
+  port: 2096
+  server: www.gov.ua
+  servername: cm.vless.laiting.icu
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: f1348f9d-a77b-43b7-a8c5-48acbb663405
+  ws-opts:
+    headers:
+      Host: cm.vless.laiting.icu
+    path: /?ed=2560
+- name: www.gco.gov.qa
+  network: ws
+  port: 8443
+  server: www.gco.gov.qa
+  servername: cm.vless.laiting.icu
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: f1348f9d-a77b-43b7-a8c5-48acbb663405
+  ws-opts:
+    headers:
+      Host: cm.vless.laiting.icu
+    path: /?ed=2560
+- name: www.gov.se
+  network: ws
+  port: 443
+  server: www.gov.se
+  servername: cm.vless.laiting.icu
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: f1348f9d-a77b-43b7-a8c5-48acbb663405
+  ws-opts:
+    headers:
+      Host: cm.vless.laiting.icu
+    path: /?ed=2560
+- name: 🇮🇸 time.is
+  network: ws
+  port: 443
+  server: time.is
+  servername: cm.vless.laiting.icu
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: f1348f9d-a77b-43b7-a8c5-48acbb663405
+  ws-opts:
+    headers:
+      Host: cm.vless.laiting.icu
+    path: /?ed=2560
+- name: www.wto.org
+  network: ws
+  port: 8443
+  server: www.wto.org
+  servername: cm.vless.laiting.icu
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: f1348f9d-a77b-43b7-a8c5-48acbb663405
+  ws-opts:
+    headers:
+      Host: cm.vless.laiting.icu
+    path: /?ed=2560
+- name: fbi.gov
+  network: ws
+  port: 2087
+  server: fbi.gov
+  servername: cm.vless.laiting.icu
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: f1348f9d-a77b-43b7-a8c5-48acbb663405
+  ws-opts:
+    headers:
+      Host: cm.vless.laiting.icu
+    path: /?ed=2560
+- name: 🇭🇰 icook.hk
+  network: ws
+  port: 443
+  server: icook.hk
+  servername: cm.vless.laiting.icu
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: f1348f9d-a77b-43b7-a8c5-48acbb663405
+  ws-opts:
+    headers:
+      Host: cm.vless.laiting.icu
+    path: /?ed=2560
+- name: IPv6
+  network: ws
+  port: 443
+  server: '2606:4700::'
+  servername: cm.vless.laiting.icu
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: f1348f9d-a77b-43b7-a8c5-48acbb663405
+  ws-opts:
+    headers:
+      Host: cm.vless.laiting.icu
+    path: /?ed=2560
 proxy-groups:
 - name: 🔒🔒🔰 节点选择
   proxies:
@@ -1261,6 +1471,124 @@ proxy-groups:
   - 🇮🇳印度 03 | IEPL 1X | CM
   type: fallback
   url: http://www.gstatic.com/generate_204
+- name: 🚀 节点选择
+  proxies:
+  - ♻️ 自动选择
+  - 🔯 故障转移
+  - 🔮 负载均衡
+  - DIRECT
+  - 加入我的频道t.me/CMLiussss解锁更多优选节点
+  - CFnat
+  - 🇨🇳 visa.cn
+  - 🇸🇬 singapore.com
+  - 🇯🇵 japan.com
+  - brazil.com
+  - 🇷🇺 russia.com
+  - www.gov.ua
+  - www.gco.gov.qa
+  - www.gov.se
+  - 🇮🇸 time.is
+  - www.wto.org
+  - fbi.gov
+  - 🇭🇰 icook.hk
+  - IPv6
+  type: select
+- interval: 300
+  name: ♻️ 自动选择
+  proxies:
+  - 加入我的频道t.me/CMLiussss解锁更多优选节点
+  - CFnat
+  - 🇨🇳 visa.cn
+  - 🇸🇬 singapore.com
+  - 🇯🇵 japan.com
+  - brazil.com
+  - 🇷🇺 russia.com
+  - www.gov.ua
+  - www.gco.gov.qa
+  - www.gov.se
+  - 🇮🇸 time.is
+  - www.wto.org
+  - fbi.gov
+  - 🇭🇰 icook.hk
+  - IPv6
+  tolerance: 50
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+- interval: 180
+  name: 🔯 故障转移
+  proxies:
+  - 加入我的频道t.me/CMLiussss解锁更多优选节点
+  - CFnat
+  - 🇨🇳 visa.cn
+  - 🇸🇬 singapore.com
+  - 🇯🇵 japan.com
+  - brazil.com
+  - 🇷🇺 russia.com
+  - www.gov.ua
+  - www.gco.gov.qa
+  - www.gov.se
+  - 🇮🇸 time.is
+  - www.wto.org
+  - fbi.gov
+  - 🇭🇰 icook.hk
+  - IPv6
+  type: fallback
+  url: http://www.gstatic.com/generate_204
+- interval: 180
+  name: 🔮 负载均衡
+  proxies:
+  - 加入我的频道t.me/CMLiussss解锁更多优选节点
+  - CFnat
+  - 🇨🇳 visa.cn
+  - 🇸🇬 singapore.com
+  - 🇯🇵 japan.com
+  - brazil.com
+  - 🇷🇺 russia.com
+  - www.gov.ua
+  - www.gco.gov.qa
+  - www.gov.se
+  - 🇮🇸 time.is
+  - www.wto.org
+  - fbi.gov
+  - 🇭🇰 icook.hk
+  - IPv6
+  strategy: consistent-hashing
+  type: load-balance
+  url: http://www.gstatic.com/generate_204
+- name: 🎯 全球直连
+  proxies:
+  - DIRECT
+  - 🚀 节点选择
+  - ♻️ 自动选择
+  type: select
+- name: 🛑 全球拦截
+  proxies:
+  - REJECT
+  - DIRECT
+  type: select
+- name: 🐟 漏网之鱼
+  proxies:
+  - 🚀 节点选择
+  - 🎯 全球直连
+  - ♻️ 自动选择
+  - 🔯 故障转移
+  - 🔮 负载均衡
+  - 加入我的频道t.me/CMLiussss解锁更多优选节点
+  - CFnat
+  - 🇨🇳 visa.cn
+  - 🇸🇬 singapore.com
+  - 🇯🇵 japan.com
+  - brazil.com
+  - 🇷🇺 russia.com
+  - www.gov.ua
+  - www.gco.gov.qa
+  - www.gov.se
+  - 🇮🇸 time.is
+  - www.wto.org
+  - fbi.gov
+  - 🇭🇰 icook.hk
+  - IPv6
+  type: select
 rules:
 - DOMAIN-SUFFIX,local,🔒🔒🎯 全球直连
 - IP-CIDR,192.168.0.0/16,🔒🔒🎯 全球直连,no-resolve
