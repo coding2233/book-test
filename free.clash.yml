@@ -989,7 +989,8 @@ proxies:
   sni: cgin.hysality.com
   type: trojan
   udp: true
-- name: 加入我的频道t.me/CMLiussss解锁更多优选节点
+- client-fingerprint: random
+  name: 加入我的频道t.me/CMLiussss解锁更多优选节点
   network: ws
   port: 443
   server: Join.my.Telegram.channel.CMLiussss.to.unlock.more.premium.nodes.cf.090227.xyz
@@ -1003,7 +1004,8 @@ proxies:
     headers:
       Host: cm.vless.laiting.icu
     path: /?ed=2560
-- name: CFnat
+- client-fingerprint: random
+  name: CFnat
   network: ws
   port: 1234
   server: 127.0.0.1
@@ -1017,7 +1019,8 @@ proxies:
     headers:
       Host: cm.vless.laiting.icu
     path: /?ed=2560
-- name: 🇨🇳 visa.cn
+- client-fingerprint: random
+  name: 🇨🇳 visa.cn
   network: ws
   port: 443
   server: visa.cn
@@ -1031,7 +1034,8 @@ proxies:
     headers:
       Host: cm.vless.laiting.icu
     path: /?ed=2560
-- name: 🇸🇬 singapore.com
+- client-fingerprint: random
+  name: 🇸🇬 singapore.com
   network: ws
   port: 8443
   server: singapore.com
@@ -1045,7 +1049,8 @@ proxies:
     headers:
       Host: cm.vless.laiting.icu
     path: /?ed=2560
-- name: 🇯🇵 japan.com
+- client-fingerprint: random
+  name: 🇯🇵 japan.com
   network: ws
   port: 2053
   server: japan.com
@@ -1059,7 +1064,8 @@ proxies:
     headers:
       Host: cm.vless.laiting.icu
     path: /?ed=2560
-- name: brazil.com
+- client-fingerprint: random
+  name: brazil.com
   network: ws
   port: 2083
   server: brazil.com
@@ -1073,7 +1079,8 @@ proxies:
     headers:
       Host: cm.vless.laiting.icu
     path: /?ed=2560
-- name: 🇷🇺 russia.com
+- client-fingerprint: random
+  name: 🇷🇺 russia.com
   network: ws
   port: 2087
   server: russia.com
@@ -1087,7 +1094,8 @@ proxies:
     headers:
       Host: cm.vless.laiting.icu
     path: /?ed=2560
-- name: www.gov.ua
+- client-fingerprint: random
+  name: www.gov.ua
   network: ws
   port: 2096
   server: www.gov.ua
@@ -1101,7 +1109,8 @@ proxies:
     headers:
       Host: cm.vless.laiting.icu
     path: /?ed=2560
-- name: www.gco.gov.qa
+- client-fingerprint: random
+  name: www.gco.gov.qa
   network: ws
   port: 8443
   server: www.gco.gov.qa
@@ -1115,7 +1124,8 @@ proxies:
     headers:
       Host: cm.vless.laiting.icu
     path: /?ed=2560
-- name: www.gov.se
+- client-fingerprint: random
+  name: www.gov.se
   network: ws
   port: 443
   server: www.gov.se
@@ -1129,7 +1139,8 @@ proxies:
     headers:
       Host: cm.vless.laiting.icu
     path: /?ed=2560
-- name: 🇮🇸 time.is
+- client-fingerprint: random
+  name: 🇮🇸 time.is
   network: ws
   port: 443
   server: time.is
@@ -1143,7 +1154,8 @@ proxies:
     headers:
       Host: cm.vless.laiting.icu
     path: /?ed=2560
-- name: www.wto.org
+- client-fingerprint: random
+  name: www.wto.org
   network: ws
   port: 8443
   server: www.wto.org
@@ -1157,7 +1169,8 @@ proxies:
     headers:
       Host: cm.vless.laiting.icu
     path: /?ed=2560
-- name: fbi.gov
+- client-fingerprint: random
+  name: fbi.gov
   network: ws
   port: 2087
   server: fbi.gov
@@ -1171,7 +1184,8 @@ proxies:
     headers:
       Host: cm.vless.laiting.icu
     path: /?ed=2560
-- name: 🇭🇰 icook.hk
+- client-fingerprint: random
+  name: 🇭🇰 icook.hk
   network: ws
   port: 443
   server: icook.hk
@@ -1185,7 +1199,8 @@ proxies:
     headers:
       Host: cm.vless.laiting.icu
     path: /?ed=2560
-- name: IPv6
+- client-fingerprint: random
+  name: IPv6
   network: ws
   port: 443
   server: '2606:4700::'
@@ -1206,6 +1221,7 @@ proxy-groups:
   - 🔒🔒🎯 全球直连
   - 🚒 vps6.laiting.xyz
   - CyberGuard
+  - 🚀 节点选择
   - 加拿大 103
   - 加拿大 039
   - 德国 008
