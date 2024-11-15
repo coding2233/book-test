@@ -651,48 +651,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大 219
-  network: ws
-  port: 443
-  server: xnzdu.whmvmkwuey.store
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 94863194-8809-45ea-984e-c3764af1822a
-  ws-opts:
-    headers:
-      Host: xnzdu.whmvmkwuey.store
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 美国 019
-  network: ws
-  port: 443
-  server: grnyx.whmvmkwuey.store
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 41acbf4f-fd5e-4c69-b4f5-366c755b9207
-  ws-opts:
-    headers:
-      Host: grnyx.whmvmkwuey.store
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 美国 046
-  network: ws
-  port: 443
-  server: tkssr.whmvmkwuey.store
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 6d771930-b3af-4839-9326-933dd564b17c
-  ws-opts:
-    headers:
-      Host: tkssr.whmvmkwuey.store
-    path: /
-- alterId: 0
-  cipher: auto
   http-opts:
     headers:
       Host:
@@ -709,7 +667,122 @@ proxies:
   type: vmess
   udp: true
   uuid: 0fb83853-ddf7-4800-b19a-6bc972536a86
-- name: 剩余流量：85.94 GB
+- alterId: 0
+  cipher: auto
+  name: 加拿大 013
+  network: ws
+  port: 443
+  server: fnujs.whmvmkwuey.store
+  servername: fnujs.whmvmkwuey.store
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 4d463e12-30d0-4c43-826c-ada171bd81db
+  ws-opts:
+    headers:
+      Host: fnujs.whmvmkwuey.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 040
+  network: ws
+  port: 443
+  server: ptcdm.whmvmkwuey.store
+  servername: ptcdm.whmvmkwuey.store
+  tls: true
+  type: vmess
+  udp: true
+  uuid: fccd6de1-8eee-4286-9f0b-bfd82859104e
+  ws-opts:
+    headers:
+      Host: ptcdm.whmvmkwuey.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 191
+  network: ws
+  port: 443
+  server: nqzkb.whmvmkwuey.store
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 7136d5d7-a845-4f5c-a8b2-e23c7c120d66
+  ws-opts:
+    headers:
+      Host: nqzkb.whmvmkwuey.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 225
+  network: ws
+  port: 443
+  server: xsveq.whmvmkwuey.store
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 1260a716-5dc5-4d4f-96ee-663ea312be66
+  ws-opts:
+    headers:
+      Host: xsveq.whmvmkwuey.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 日本 001
+  network: tcp
+  port: 30178
+  server: 45.159.51.88
+  tls: false
+  type: vmess
+  uuid: a0dfa194-ce47-409f-b551-ff520181bfab
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - f41.maryam1500.top
+    method: GET
+    path:
+    - /
+  name: 意大利 001
+  network: http
+  port: 2098
+  server: 147.45.51.16
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 83876222-64a4-4912-aa18-b7d9d34959de
+- alterId: 0
+  cipher: auto
+  delay: 2990
+  name: 美国 205
+  network: ws
+  port: 443
+  server: iyufgvpkjbhandzejotsnxmrgmprul.roxifa.ir
+  servername: cXsMDezhqTdlBfOnrpLACEgGRQkuiw.roxifa.ir
+  tls: true
+  type: vmess
+  uuid: e739af9d-a9f4-476f-9d98-e1b30f276e13
+  ws-opts:
+    headers:
+      Host: iyufgvpkjbhandzejotsnxmrgmprul.roxifa.ir
+    path: '@RaFaV2Bot'
+- alterId: 0
+  cipher: auto
+  name: 美国 217
+  network: ws
+  port: 80
+  server: 104.21.28.70
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1e3d765b-ae6f-489b-8daa-6370fec7a5dc
+  ws-opts:
+    headers:
+      Host: 50907082685942059876387799824779.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
+    path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
+- name: 剩余流量：85.92 GB
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 9900
   server: cghk.xxality.cn
@@ -977,10 +1050,15 @@ proxy-groups:
   - 美国 187
   - 加拿大 092
   - 加拿大 007
-  - 加拿大 219
-  - 美国 019
-  - 美国 046
   - 伊朗 008
+  - 加拿大 013
+  - 加拿大 040
+  - 美国 191
+  - 加拿大 225
+  - 日本 001
+  - 意大利 001
+  - 美国 205
+  - 美国 217
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -1029,10 +1107,15 @@ proxy-groups:
   - 美国 187
   - 加拿大 092
   - 加拿大 007
-  - 加拿大 219
-  - 美国 019
-  - 美国 046
   - 伊朗 008
+  - 加拿大 013
+  - 加拿大 040
+  - 美国 191
+  - 加拿大 225
+  - 日本 001
+  - 意大利 001
+  - 美国 205
+  - 美国 217
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
@@ -1082,7 +1165,7 @@ proxy-groups:
   proxies:
   - 自动选择
   - 故障转移
-  - 剩余流量：85.94 GB
+  - 剩余流量：85.92 GB
   - 距离下次重置剩余：25 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
@@ -1117,7 +1200,7 @@ proxy-groups:
 - interval: 86400
   name: 自动选择
   proxies:
-  - 剩余流量：85.94 GB
+  - 剩余流量：85.92 GB
   - 距离下次重置剩余：25 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
@@ -1153,7 +1236,7 @@ proxy-groups:
 - interval: 7200
   name: 故障转移
   proxies:
-  - 剩余流量：85.94 GB
+  - 剩余流量：85.92 GB
   - 距离下次重置剩余：25 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
