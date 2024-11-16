@@ -48,22 +48,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /@HosseinStore_Za/@NEKO_Za
-  name: 德国 008
-  network: http
-  port: 34497
-  server: 195.254.165.63
-  servername: ttl.unique69.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 860a1295-0d81-403c-a179-97f396437809
-- alterId: 0
-  cipher: auto
   name: 加拿大 129
   network: ws
   port: 2082
@@ -176,21 +160,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 美国 014
-  network: ws
-  port: 443
-  server: fkyyg.mmzhk.website
-  servername: fkyyg.mmzhk.website
-  tls: true
-  type: vmess
-  udp: true
-  uuid: df86d394-e937-4777-819d-f71389595696
-  ws-opts:
-    headers:
-      Host: fkyyg.mmzhk.website
-    path: /
-- alterId: 0
-  cipher: auto
   name: 美国 049
   network: ws
   port: 8880
@@ -262,17 +231,18 @@ proxies:
     path: /
 - alterId: 1
   cipher: auto
-  name: 加拿大 056
+  name: 加拿大 057
   network: ws
   port: 443
-  server: e.darat.homes
+  server: lammaland.org
+  servername: lammaland.org
   skip-cert-verify: false
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: e.darat.homes
+      Host: lammaland.org
     path: /
 - alterId: 0
   cipher: auto
@@ -391,21 +361,6 @@ proxies:
     path: /uyjeo7km
 - alterId: 0
   cipher: auto
-  delay: 1640
-  name: 德国 002
-  network: ws
-  port: 443
-  server: discord.vpnsell.beauty
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 57529232-b316-4b4e-abf1-9b6063ba0316
-  ws-opts:
-    headers:
-      Host: discord.vpnsell.beauty
-    path: /29516/iliya
-- alterId: 0
-  cipher: auto
   delay: 1658
   name: 加拿大 117
   network: ws
@@ -433,15 +388,6 @@ proxies:
     headers:
       Host: az05.beyondy.cfd
     path: /
-- alterId: 0
-  cipher: auto
-  name: 韩国 001
-  network: tcp
-  port: 50111
-  server: 45.94.68.252
-  tls: false
-  type: vmess
-  uuid: 2b0c2a29-a5f6-4382-b187-a5a424b50e4b
 - alterId: 0
   cipher: auto
   name: 荷兰 008
@@ -544,235 +490,7 @@ proxies:
     headers:
       Host: OfFeR.MirAclestORy.tOP.
     path: /
-- alterId: 0
-  cipher: auto
-  name: 美国 096
-  network: ws
-  port: 80
-  server: it2.127414.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 50f63ae5-b755-4b09-83cd-8b2b0b1a3793
-  ws-opts:
-    headers:
-      Host: it2.127414.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 美国 002
-  network: ws
-  port: 443
-  server: wtgez.whmvmkwuey.store
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 77b29175-dba3-4166-9ac5-de4d3df23f14
-  ws-opts:
-    headers:
-      Host: wtgez.whmvmkwuey.store
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 美国 108
-  network: ws
-  port: 443
-  server: tryhc.whmvmkwuey.store
-  tls: true
-  type: vmess
-  udp: true
-  uuid: c0d64b3f-5d00-4fe7-90ba-3a8a1d48db4d
-  ws-opts:
-    headers:
-      Host: tryhc.whmvmkwuey.store
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 韩国 014
-  network: tcp
-  port: 35448
-  server: 45.94.68.144
-  tls: false
-  type: vmess
-  uuid: 37a9e3d4-08b2-4a54-92ad-e9dce926657d
-- alterId: 0
-  cipher: auto
-  name: 美国 187
-  network: ws
-  port: 443
-  server: 104.21.48.160
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
-  ws-opts:
-    headers:
-      Host: irvideo.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 加拿大 092
-  network: ws
-  port: 8080
-  server: 104.18.202.250
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
-  ws-opts:
-    headers:
-      Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
-    path: /jahfkjha.cfd/linkws
-- alterId: 0
-  cipher: auto
-  name: 加拿大 007
-  network: ws
-  port: 8080
-  server: 172.67.213.19
-  servername: de-new01.daluquan.top
-  skip-cert-verify: true
-  type: vmess
-  uuid: 0614a202-deb0-406a-be12-ed386e41dd3b
-  ws-opts:
-    headers:
-      Host: de-new01.daluquan.top
-    path: /
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - telewebion.com
-    method: GET
-    path:
-    - /
-  name: 伊朗 008
-  network: http
-  port: 26763
-  server: 31.184.167.105
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0fb83853-ddf7-4800-b19a-6bc972536a86
-- alterId: 0
-  cipher: auto
-  name: 加拿大 013
-  network: ws
-  port: 443
-  server: fnujs.whmvmkwuey.store
-  servername: fnujs.whmvmkwuey.store
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 4d463e12-30d0-4c43-826c-ada171bd81db
-  ws-opts:
-    headers:
-      Host: fnujs.whmvmkwuey.store
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 040
-  network: ws
-  port: 443
-  server: ptcdm.whmvmkwuey.store
-  servername: ptcdm.whmvmkwuey.store
-  tls: true
-  type: vmess
-  udp: true
-  uuid: fccd6de1-8eee-4286-9f0b-bfd82859104e
-  ws-opts:
-    headers:
-      Host: ptcdm.whmvmkwuey.store
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 美国 191
-  network: ws
-  port: 443
-  server: nqzkb.whmvmkwuey.store
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 7136d5d7-a845-4f5c-a8b2-e23c7c120d66
-  ws-opts:
-    headers:
-      Host: nqzkb.whmvmkwuey.store
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 225
-  network: ws
-  port: 443
-  server: xsveq.whmvmkwuey.store
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 1260a716-5dc5-4d4f-96ee-663ea312be66
-  ws-opts:
-    headers:
-      Host: xsveq.whmvmkwuey.store
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 日本 001
-  network: tcp
-  port: 30178
-  server: 45.159.51.88
-  tls: false
-  type: vmess
-  uuid: a0dfa194-ce47-409f-b551-ff520181bfab
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - f41.maryam1500.top
-    method: GET
-    path:
-    - /
-  name: 意大利 001
-  network: http
-  port: 2098
-  server: 147.45.51.16
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 83876222-64a4-4912-aa18-b7d9d34959de
-- alterId: 0
-  cipher: auto
-  delay: 2990
-  name: 美国 205
-  network: ws
-  port: 443
-  server: iyufgvpkjbhandzejotsnxmrgmprul.roxifa.ir
-  servername: cXsMDezhqTdlBfOnrpLACEgGRQkuiw.roxifa.ir
-  tls: true
-  type: vmess
-  uuid: e739af9d-a9f4-476f-9d98-e1b30f276e13
-  ws-opts:
-    headers:
-      Host: iyufgvpkjbhandzejotsnxmrgmprul.roxifa.ir
-    path: '@RaFaV2Bot'
-- alterId: 0
-  cipher: auto
-  name: 美国 217
-  network: ws
-  port: 80
-  server: 104.21.28.70
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1e3d765b-ae6f-489b-8daa-6370fec7a5dc
-  ws-opts:
-    headers:
-      Host: 50907082685942059876387799824779.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
-    path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
-- name: 剩余流量：85.3 GB
+- name: 剩余流量：85.26 GB
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 9900
   server: cghk.xxality.cn
@@ -998,7 +716,6 @@ proxy-groups:
   - CyberGuard
   - 加拿大 103
   - 加拿大 039
-  - 德国 008
   - 加拿大 129
   - 加拿大 132
   - 加拿大 194
@@ -1007,13 +724,12 @@ proxy-groups:
   - 加拿大 047
   - 加拿大 158
   - 加拿大 055
-  - 美国 014
   - 美国 049
   - 新加坡 002
   - 美国 063
   - 加拿大 051
   - 美国 065
-  - 加拿大 056
+  - 加拿大 057
   - 美国 068
   - 美国 069
   - 加拿大 065
@@ -1022,10 +738,8 @@ proxy-groups:
   - 美国 071
   - 日本 003
   - 美国 078
-  - 德国 002
   - 加拿大 117
   - 加拿大 032
-  - 韩国 001
   - 荷兰 008
   - 美国 106
   - 加拿大 098
@@ -1033,29 +747,12 @@ proxy-groups:
   - 美国 134
   - 法国 003
   - 加拿大 195
-  - 美国 096
-  - 美国 002
-  - 美国 108
-  - 韩国 014
-  - 美国 187
-  - 加拿大 092
-  - 加拿大 007
-  - 伊朗 008
-  - 加拿大 013
-  - 加拿大 040
-  - 美国 191
-  - 加拿大 225
-  - 日本 001
-  - 意大利 001
-  - 美国 205
-  - 美国 217
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
   - 加拿大 103
   - 加拿大 039
-  - 德国 008
   - 加拿大 129
   - 加拿大 132
   - 加拿大 194
@@ -1064,13 +761,12 @@ proxy-groups:
   - 加拿大 047
   - 加拿大 158
   - 加拿大 055
-  - 美国 014
   - 美国 049
   - 新加坡 002
   - 美国 063
   - 加拿大 051
   - 美国 065
-  - 加拿大 056
+  - 加拿大 057
   - 美国 068
   - 美国 069
   - 加拿大 065
@@ -1079,10 +775,8 @@ proxy-groups:
   - 美国 071
   - 日本 003
   - 美国 078
-  - 德国 002
   - 加拿大 117
   - 加拿大 032
-  - 韩国 001
   - 荷兰 008
   - 美国 106
   - 加拿大 098
@@ -1090,22 +784,6 @@ proxy-groups:
   - 美国 134
   - 法国 003
   - 加拿大 195
-  - 美国 096
-  - 美国 002
-  - 美国 108
-  - 韩国 014
-  - 美国 187
-  - 加拿大 092
-  - 加拿大 007
-  - 伊朗 008
-  - 加拿大 013
-  - 加拿大 040
-  - 美国 191
-  - 加拿大 225
-  - 日本 001
-  - 意大利 001
-  - 美国 205
-  - 美国 217
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
@@ -1157,7 +835,7 @@ proxy-groups:
   proxies:
   - 自动选择
   - 故障转移
-  - 剩余流量：85.3 GB
+  - 剩余流量：85.26 GB
   - 距离下次重置剩余：24 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
@@ -1192,7 +870,7 @@ proxy-groups:
 - interval: 86400
   name: 自动选择
   proxies:
-  - 剩余流量：85.3 GB
+  - 剩余流量：85.26 GB
   - 距离下次重置剩余：24 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
@@ -1228,7 +906,7 @@ proxy-groups:
 - interval: 7200
   name: 故障转移
   proxies:
-  - 剩余流量：85.3 GB
+  - 剩余流量：85.26 GB
   - 距离下次重置剩余：24 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
