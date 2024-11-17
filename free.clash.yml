@@ -777,7 +777,7 @@ proxies:
   sni: ''
   type: vmess
   uuid: 83876222-64a4-4912-aa18-b7d9d34959de
-- name: 剩余流量：80.97 GB
+- name: 剩余流量：80.96 GB
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 9900
   server: cghk.xxality.cn
@@ -1127,9 +1127,6 @@ proxy-groups:
 - name: 🚒 vps6.laiting.xyz
   proxies:
   - vps6.laiting.xyz-vmss-ws-tls
-  - vps6.laiting.xyz-vmss-tcp
-  - edgetunnel
-  - hello.vless.laiting.icu
   type: select
 - name: 🐟 漏网之鱼
   proxies:
@@ -1164,7 +1161,7 @@ proxy-groups:
   proxies:
   - 自动选择
   - 故障转移
-  - 剩余流量：80.97 GB
+  - 剩余流量：80.96 GB
   - 距离下次重置剩余：23 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
@@ -1199,7 +1196,7 @@ proxy-groups:
 - interval: 86400
   name: 自动选择
   proxies:
-  - 剩余流量：80.97 GB
+  - 剩余流量：80.96 GB
   - 距离下次重置剩余：23 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
@@ -1235,7 +1232,7 @@ proxy-groups:
 - interval: 7200
   name: 故障转移
   proxies:
-  - 剩余流量：80.97 GB
+  - 剩余流量：80.96 GB
   - 距离下次重置剩余：23 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
