@@ -76,21 +76,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大 194
-  network: ws
-  port: 8080
-  server: 104.16.61.8
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
-  ws-opts:
-    headers:
-      Host: 6c47-butterfly-6c47.yexoji3749.workers.dev
-    path: /afrhms16v.bestxray.buzz/linkws
-- alterId: 0
-  cipher: auto
   name: 加拿大 203
   network: ws
   port: 2082
@@ -257,6 +242,20 @@ proxies:
   ws-opts:
     headers:
       Host: glweidf.cfd
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 062
+  network: ws
+  port: 443
+  server: 188.114.97.8
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  ws-opts:
+    headers:
+      Host: afrhms16v.bestxray.buzz
     path: /
 - alterId: 0
   cipher: auto
@@ -447,20 +446,6 @@ proxies:
     headers:
       Host: 73012792103530616183052842717949.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
-- alterId: 0
-  cipher: auto
-  name: 加拿大 195
-  network: ws
-  port: 2087
-  server: www.speedtest.net
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 1d01e6ae-0d97-4a9f-af23-8d754085a94f
-  ws-opts:
-    headers:
-      Host: OfFeR.MirAclestORy.tOP.
-    path: /
 - alterId: 0
   cipher: auto
   name: 加拿大 007
@@ -704,6 +689,83 @@ proxies:
     headers:
       Host: hms03.dongfeng.cfd
     path: /
+- alterId: 64
+  cipher: auto
+  name: 美国 180
+  network: ws
+  port: 38004
+  server: 199.180.101.23
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.72522209.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 182
+  network: ws
+  port: 443
+  server: zLMiXBYNAwsZqkpmsdrbgtPRhTQuIcv.roxifa.ir
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 59e36d9e-d41d-42fb-b581-c06729b5cd1c
+  ws-opts:
+    headers:
+      Host: zLMiXBYNAwsZqkpmsdrbgtPRhTQuIcv.roxifa.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 173
+  network: ws
+  port: 80
+  server: 172.67.64.120
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: b4495b97-bc8a-4b3b-a1e8-aae1d503e8ca
+  ws-opts:
+    headers:
+      Host: 58892877706648357761980405045364.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 韩国 017
+  network: tcp
+  port: 36223
+  server: 45.94.68.206
+  tls: false
+  type: vmess
+  uuid: 1c327622-a059-4131-b9da-a457e9792a01
+- alterId: 0
+  cipher: auto
+  name: 加拿大 189
+  network: ws
+  port: 443
+  server: 172.67.204.84
+  tls: true
+  type: vmess
+  uuid: 96c4b760-0fcc-4050-8ad7-9bfee0e2bd20
+  ws-opts:
+    headers:
+      Host: download.game-one.ir
+    path: /6mHwql1HSSV5FOZe0UV1BYvuQ
+- alterId: 0
+  cipher: auto
+  name: 英国 015
+  network: ws
+  port: 443
+  server: 16.724064.xyz
+  tls: true
+  type: vmess
+  uuid: b7cf4466-956a-4639-b861-0cf78cbb6f8f
+  ws-opts:
+    headers:
+      Host: 16.724064.xyz
+    path: /zlppvws
 - alterId: 0
   cipher: auto
   http-opts: {}
@@ -715,7 +777,7 @@ proxies:
   sni: ''
   type: vmess
   uuid: 83876222-64a4-4912-aa18-b7d9d34959de
-- name: 剩余流量：80.98 GB
+- name: 剩余流量：80.97 GB
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 9900
   server: cghk.xxality.cn
@@ -943,7 +1005,6 @@ proxy-groups:
   - 加拿大 039
   - 加拿大 129
   - 加拿大 132
-  - 加拿大 194
   - 加拿大 203
   - 加拿大 048
   - 加拿大 047
@@ -956,6 +1017,7 @@ proxy-groups:
   - 美国 065
   - 加拿大 057
   - 美国 068
+  - 加拿大 062
   - 美国 069
   - 加拿大 065
   - 加拿大 067
@@ -969,7 +1031,6 @@ proxy-groups:
   - 美国 106
   - 加拿大 098
   - 美国 134
-  - 加拿大 195
   - 加拿大 007
   - 加拿大 035
   - 加拿大 040
@@ -987,6 +1048,12 @@ proxy-groups:
   - 加拿大 104
   - 美国 082
   - 加拿大 156
+  - 美国 180
+  - 美国 182
+  - 加拿大 173
+  - 韩国 017
+  - 加拿大 189
+  - 英国 015
   - 🇷🇺_RU_俄罗斯
   type: select
 - interval: 300
@@ -996,7 +1063,6 @@ proxy-groups:
   - 加拿大 039
   - 加拿大 129
   - 加拿大 132
-  - 加拿大 194
   - 加拿大 203
   - 加拿大 048
   - 加拿大 047
@@ -1009,6 +1075,7 @@ proxy-groups:
   - 美国 065
   - 加拿大 057
   - 美国 068
+  - 加拿大 062
   - 美国 069
   - 加拿大 065
   - 加拿大 067
@@ -1022,7 +1089,6 @@ proxy-groups:
   - 美国 106
   - 加拿大 098
   - 美国 134
-  - 加拿大 195
   - 加拿大 007
   - 加拿大 035
   - 加拿大 040
@@ -1040,6 +1106,12 @@ proxy-groups:
   - 加拿大 104
   - 美国 082
   - 加拿大 156
+  - 美国 180
+  - 美国 182
+  - 加拿大 173
+  - 韩国 017
+  - 加拿大 189
+  - 英国 015
   - 🇷🇺_RU_俄罗斯
   type: url-test
   url: http://www.google.com/generate_204
@@ -1092,7 +1164,7 @@ proxy-groups:
   proxies:
   - 自动选择
   - 故障转移
-  - 剩余流量：80.98 GB
+  - 剩余流量：80.97 GB
   - 距离下次重置剩余：23 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
@@ -1127,7 +1199,7 @@ proxy-groups:
 - interval: 86400
   name: 自动选择
   proxies:
-  - 剩余流量：80.98 GB
+  - 剩余流量：80.97 GB
   - 距离下次重置剩余：23 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
@@ -1163,7 +1235,7 @@ proxy-groups:
 - interval: 7200
   name: 故障转移
   proxies:
-  - 剩余流量：80.98 GB
+  - 剩余流量：80.97 GB
   - 距离下次重置剩余：23 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
