@@ -21,10 +21,10 @@ proxies:
     path: /rayawesomepath
 - alterId: 0
   cipher: auto
-  name: 加拿大 103
+  name: 加拿大 004
   network: ws
   port: 8080
-  server: 104.16.67.38
+  server: 104.16.68.38
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -434,22 +434,6 @@ proxies:
     path: /af323d
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 002
-  network: ws
-  port: 40413
-  server: 45.67.32.147
-  servername: free.hardtofind.42web.io
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: fab5abd3-fae4-4a2a-85ee-051e61f56efd
-  ws-opts:
-    headers:
-      Host: free.hardtofind.42web.io
-    path: /makeacall
-- alterId: 0
-  cipher: auto
   name: 美国 134
   network: ws
   port: 80
@@ -463,19 +447,6 @@ proxies:
     headers:
       Host: 73012792103530616183052842717949.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
-- alterId: 0
-  cipher: auto
-  name: 法国 003
-  network: ws
-  port: 443
-  server: 45.145.167.103
-  tls: true
-  type: vmess
-  uuid: 425c5e6e-30a0-4984-8a13-ee6f72053162
-  ws-opts:
-    headers:
-      Host: indiavideo.sbs
-    path: /linkws
 - alterId: 0
   cipher: auto
   name: 加拿大 195
@@ -693,20 +664,58 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 新加坡 005
+  name: 加拿大 104
+  network: ws
+  port: 80
+  server: 162.159.136.98
+  type: vmess
+  udp: true
+  uuid: 5820093a-bb7d-4e15-8575-1a529f2d8282
+  ws-opts:
+    headers:
+      Host: rn2.hostmjj.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 082
   network: ws
   port: 443
-  server: id.mytun.cloud
-  skip-cert-verify: true
+  server: lyzuc.whmvmkwuey.store
   tls: true
   type: vmess
   udp: true
-  uuid: 1d1c1d94-6987-4658-a4dc-8821a30fe7e0
+  uuid: 55e80d33-863d-4f02-8874-25794cdc99a4
   ws-opts:
     headers:
-      Host: id.mytun.cloud
-    path: /vmess
-- name: 剩余流量：81.02 GB
+      Host: lyzuc.whmvmkwuey.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 156
+  network: ws
+  port: 443
+  server: irhms03.dongfeng.cfd
+  servername: hms03.dongfeng.cfd
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: fa5b55cd-cafc-4de0-a4c8-722e02a9f58e
+  ws-opts:
+    headers:
+      Host: hms03.dongfeng.cfd
+    path: /
+- alterId: 0
+  cipher: auto
+  http-opts: {}
+  name: 🇷🇺_RU_俄罗斯
+  network: http
+  port: 2098
+  server: 147.45.51.16
+  skip-cert-verify: true
+  sni: ''
+  type: vmess
+  uuid: 83876222-64a4-4912-aa18-b7d9d34959de
+- name: 剩余流量：80.98 GB
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 9900
   server: cghk.xxality.cn
@@ -930,7 +939,7 @@ proxy-groups:
   - 🎯 全球直连
   - 🚒 vps6.laiting.xyz
   - CyberGuard
-  - 加拿大 103
+  - 加拿大 004
   - 加拿大 039
   - 加拿大 129
   - 加拿大 132
@@ -959,9 +968,7 @@ proxy-groups:
   - 荷兰 008
   - 美国 106
   - 加拿大 098
-  - 俄罗斯 002
   - 美国 134
-  - 法国 003
   - 加拿大 195
   - 加拿大 007
   - 加拿大 035
@@ -977,12 +984,15 @@ proxy-groups:
   - 塞浦路斯 001
   - 爱尔兰 001
   - 美国 168
-  - 新加坡 005
+  - 加拿大 104
+  - 美国 082
+  - 加拿大 156
+  - 🇷🇺_RU_俄罗斯
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 加拿大 103
+  - 加拿大 004
   - 加拿大 039
   - 加拿大 129
   - 加拿大 132
@@ -1011,9 +1021,7 @@ proxy-groups:
   - 荷兰 008
   - 美国 106
   - 加拿大 098
-  - 俄罗斯 002
   - 美国 134
-  - 法国 003
   - 加拿大 195
   - 加拿大 007
   - 加拿大 035
@@ -1029,7 +1037,10 @@ proxy-groups:
   - 塞浦路斯 001
   - 爱尔兰 001
   - 美国 168
-  - 新加坡 005
+  - 加拿大 104
+  - 美国 082
+  - 加拿大 156
+  - 🇷🇺_RU_俄罗斯
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
@@ -1081,7 +1092,7 @@ proxy-groups:
   proxies:
   - 自动选择
   - 故障转移
-  - 剩余流量：81.02 GB
+  - 剩余流量：80.98 GB
   - 距离下次重置剩余：23 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
@@ -1116,7 +1127,7 @@ proxy-groups:
 - interval: 86400
   name: 自动选择
   proxies:
-  - 剩余流量：81.02 GB
+  - 剩余流量：80.98 GB
   - 距离下次重置剩余：23 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
@@ -1152,7 +1163,7 @@ proxy-groups:
 - interval: 7200
   name: 故障转移
   proxies:
-  - 剩余流量：81.02 GB
+  - 剩余流量：80.98 GB
   - 距离下次重置剩余：23 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
