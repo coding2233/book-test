@@ -782,6 +782,149 @@ proxies:
     path: /0
 - alterId: 0
   cipher: auto
+  name: 加拿大 021
+  network: ws
+  port: 443
+  server: 172.67.220.83
+  servername: linja05.hwcar.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53
+  ws-opts:
+    headers:
+      Host: linja05.hwcar.sbs
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 144
+  network: ws
+  port: 2086
+  server: cdn3.bpcdn.cc
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: fbe5943b-58ad-4862-8af3-30e8b4f10dd0
+  ws-opts:
+    headers:
+      Host: ukh74wfshj2jg2jcsq.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 200
+  network: ws
+  port: 443
+  server: 104.21.77.29
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 8d90c129-4156-4d6c-9115-24df25f26a02
+  ws-opts:
+    headers:
+      Host: beyonddbc.sbs
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 174
+  network: ws
+  port: 8880
+  server: 198.41.209.70
+  servername: 100-68-141-29.s2.db-link02.top
+  skip-cert-verify: true
+  type: vmess
+  uuid: ac9c5899-29ee-3139-a2ae-b5803a68524f
+  ws-opts:
+    headers:
+      Host: 100-68-141-29.s2.db-link02.top
+    path: /dabai.in104.19.242.195
+- alterId: 0
+  cipher: auto
+  name: 美国 205
+  network: ws
+  port: 2083
+  server: xjpv.mnys668.xyz
+  tls: true
+  type: vmess
+  udp: true
+  uuid: c7eb85b7-37b8-4e23-8e84-89d5065360b5
+  ws-opts:
+    headers:
+      Host: xjpv.mnys668.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 243
+  network: ws
+  port: 2083
+  server: yg.mnys668.xyz
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 4c9e92ad-1bce-46e1-8d34-8360f3766d78
+  ws-opts:
+    headers:
+      Host: yg.mnys668.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 208
+  network: ws
+  port: 2083
+  server: fg.mnys668.xyz
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 47b1df4b-2ea4-4cd7-8cc7-b73dcdcf4066
+  ws-opts:
+    headers:
+      Host: fg.mnys668.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 210
+  network: ws
+  port: 80
+  server: 104.17.213.241
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  ws-opts:
+    headers:
+      Host: chunchuan.kejixiaoqi666.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 250
+  network: ws
+  port: 2053
+  server: 172.67.218.101
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 23de7970-038f-403f-f979-28124f3be02a
+  ws-opts:
+    headers:
+      Host: 1229VM6.nnaotexiongditkgroup.top
+    path: /1229VM6
+- alterId: 0
+  cipher: auto
+  name: 美国 214
+  network: ws
+  port: 2052
+  server: 104.19.48.236
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7d417084-d308-4b35-96c8-99dfb2547ec2
+  ws-opts:
+    headers:
+      Host: sg5.wish.ml
+    path: /
+- alterId: 0
+  cipher: auto
   http-opts: {}
   name: 🇷🇺_RU_俄罗斯
   network: http
@@ -791,7 +934,7 @@ proxies:
   sni: ''
   type: vmess
   uuid: 83876222-64a4-4912-aa18-b7d9d34959de
-- name: 剩余流量：80.49 GB
+- name: 剩余流量：80.48 GB
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 9900
   server: cghk.xxality.cn
@@ -1069,6 +1212,16 @@ proxy-groups:
   - 加拿大 189
   - 英国 015
   - 加拿大 230
+  - 加拿大 021
+  - 美国 144
+  - 美国 200
+  - 加拿大 174
+  - 美国 205
+  - 加拿大 243
+  - 美国 208
+  - 美国 210
+  - 加拿大 250
+  - 美国 214
   - 🇷🇺_RU_俄罗斯
   type: select
 - interval: 300
@@ -1128,6 +1281,16 @@ proxy-groups:
   - 加拿大 189
   - 英国 015
   - 加拿大 230
+  - 加拿大 021
+  - 美国 144
+  - 美国 200
+  - 加拿大 174
+  - 美国 205
+  - 加拿大 243
+  - 美国 208
+  - 美国 210
+  - 加拿大 250
+  - 美国 214
   - 🇷🇺_RU_俄罗斯
   type: url-test
   url: http://www.google.com/generate_204
@@ -1177,7 +1340,7 @@ proxy-groups:
   proxies:
   - 自动选择
   - 故障转移
-  - 剩余流量：80.49 GB
+  - 剩余流量：80.48 GB
   - 距离下次重置剩余：22 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
@@ -1212,7 +1375,7 @@ proxy-groups:
 - interval: 86400
   name: 自动选择
   proxies:
-  - 剩余流量：80.49 GB
+  - 剩余流量：80.48 GB
   - 距离下次重置剩余：22 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
@@ -1248,7 +1411,7 @@ proxy-groups:
 - interval: 7200
   name: 故障转移
   proxies:
-  - 剩余流量：80.49 GB
+  - 剩余流量：80.48 GB
   - 距离下次重置剩余：22 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
