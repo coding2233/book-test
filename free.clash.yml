@@ -923,6 +923,149 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 加拿大 152
+  network: ws
+  port: 2052
+  server: 104.16.38.71
+  tls: false
+  type: vmess
+  uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
+  ws-opts:
+    headers:
+      Host: us6_0.wish.ml
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 229
+  network: ws
+  port: 2082
+  server: 104.21.8.157
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      Host: s1c.v2.v001sss.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 220
+  network: ws
+  port: 8443
+  server: 104.21.238.200
+  servername: http1.9290254.xyz
+  tls: true
+  type: vmess
+  uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43
+  ws-opts:
+    headers:
+      Host: http1.9290254.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 韩国 002
+  network: tcp
+  port: 34103
+  server: 45.94.68.179
+  tls: false
+  type: vmess
+  uuid: f083427f-9d8b-4863-b4a5-fc15255547d2
+- alterId: 0
+  cipher: auto
+  name: 卢森堡 001
+  network: ws
+  port: 443
+  server: 202.78.162.5
+  tls: true
+  type: vmess
+  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
+  ws-opts:
+    headers:
+      Host: irsoft.sytes.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 231
+  network: ws
+  port: 8080
+  server: www.darkroom.lol
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.darkroom.lol
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 249
+  network: ws
+  port: 8880
+  server: server31.beheshtbaneh.com
+  tls: false
+  type: vmess
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  ws-opts:
+    headers:
+      Host: server31.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 261
+  network: ws
+  port: 8880
+  server: 104.21.82.183
+  tls: false
+  type: vmess
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  ws-opts:
+    headers:
+      Host: server26.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 224
+  network: ws
+  port: 443
+  server: gov.uk
+  tls: true
+  type: vmess
+  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+  ws-opts:
+    headers:
+      Host: zheshiscp.com
+    path: /77848824
+- alterId: 0
+  cipher: auto
+  name: 美国 225
+  network: ws
+  port: 80
+  server: 104.18.20.153
+  servername: 58892877706648357761980405045364.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
+  skip-cert-verify: true
+  type: vmess
+  uuid: 7e0eec71-4bf0-4841-a083-4201226d0616
+  ws-opts:
+    headers:
+      Host: 58892877706648357761980405045364.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
+    path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
+- alterId: 0
+  cipher: auto
+  name: 加拿大 264
+  network: ws
+  port: 443
+  server: EMtCQKsWjNBhoFAzVxwYiZGkPegdyIc.roxifa.ir
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 76730d3a-f32c-46b8-ae60-f222cb820e7e
+  ws-opts:
+    headers:
+      Host: EMtCQKsWjNBhoFAzVxwYiZGkPegdyIc.roxifa.ir
+    path: '@RaFaV2Bot'
+- alterId: 0
+  cipher: auto
   fingerprint: ''
   name: 🇮🇷_IR_伊朗->🇫🇷_FR_法国
   network: tcp
@@ -931,7 +1074,7 @@ proxies:
   sni: ''
   type: vmess
   uuid: fddf88ed-8c70-42ad-c12e-5f40841e6f00
-- name: 剩余流量：78.92 GB
+- name: 剩余流量：78.53 GB
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 9900
   server: cghk.xxality.cn
@@ -1219,6 +1362,17 @@ proxy-groups:
   - 加拿大 035
   - 加拿大 040
   - 加拿大 055
+  - 加拿大 152
+  - 加拿大 229
+  - 美国 220
+  - 韩国 002
+  - 卢森堡 001
+  - 加拿大 231
+  - 加拿大 249
+  - 加拿大 261
+  - 美国 224
+  - 美国 225
+  - 加拿大 264
   - 🇮🇷_IR_伊朗->🇫🇷_FR_法国
   type: select
 - interval: 300
@@ -1288,6 +1442,17 @@ proxy-groups:
   - 加拿大 035
   - 加拿大 040
   - 加拿大 055
+  - 加拿大 152
+  - 加拿大 229
+  - 美国 220
+  - 韩国 002
+  - 卢森堡 001
+  - 加拿大 231
+  - 加拿大 249
+  - 加拿大 261
+  - 美国 224
+  - 美国 225
+  - 加拿大 264
   - 🇮🇷_IR_伊朗->🇫🇷_FR_法国
   type: url-test
   url: http://www.google.com/generate_204
@@ -1337,7 +1502,7 @@ proxy-groups:
   proxies:
   - 自动选择
   - 故障转移
-  - 剩余流量：78.92 GB
+  - 剩余流量：78.53 GB
   - 距离下次重置剩余：21 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
@@ -1372,7 +1537,7 @@ proxy-groups:
 - interval: 86400
   name: 自动选择
   proxies:
-  - 剩余流量：78.92 GB
+  - 剩余流量：78.53 GB
   - 距离下次重置剩余：21 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
@@ -1408,7 +1573,7 @@ proxy-groups:
 - interval: 7200
   name: 故障转移
   proxies:
-  - 剩余流量：78.92 GB
+  - 剩余流量：78.53 GB
   - 距离下次重置剩余：21 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
