@@ -131,20 +131,6 @@ proxies:
     path: /video/Z7qdcrAGRw
 - alterId: 0
   cipher: auto
-  name: 加拿大 055
-  network: ws
-  port: 80
-  server: 104.18.84.104
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 211d8a34-9c48-4435-b4bf-343ae1cbda0e
-  ws-opts:
-    headers:
-      Host: rn1.hostmjj.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: 美国 049
   network: ws
   port: 8880
@@ -460,36 +446,6 @@ proxies:
     headers:
       Host: us-ccs.yuji2022.eu.org
     path: /XSjeg73o6ZdsheahCb5JG
-- alterId: 0
-  cipher: auto
-  name: 加拿大 035
-  network: ws
-  port: 443
-  server: fnujs.whmvmkwuey.store
-  servername: fnujs.whmvmkwuey.store
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 4d463e12-30d0-4c43-826c-ada171bd81db
-  ws-opts:
-    headers:
-      Host: fnujs.whmvmkwuey.store
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 040
-  network: ws
-  port: 443
-  server: ptcdm.whmvmkwuey.store
-  servername: ptcdm.whmvmkwuey.store
-  tls: true
-  type: vmess
-  udp: true
-  uuid: fccd6de1-8eee-4286-9f0b-bfd82859104e
-  ws-opts:
-    headers:
-      Host: ptcdm.whmvmkwuey.store
-    path: /
 - alterId: 0
   cipher: auto
   name: 美国 046
@@ -923,7 +879,59 @@ proxies:
     headers:
       Host: sg5.wish.ml
     path: /
-- name: 剩余流量：79.51 GB
+- alterId: 0
+  cipher: auto
+  name: 加拿大 035
+  network: ws
+  port: 80
+  server: yx.sulink.one
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c0804de5-335c-4131-a0d5-d8f36946cb42
+  ws-opts:
+    headers:
+      Host: us5.sulink.one
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 040
+  network: ws
+  port: 80
+  server: jx.jixingnetwork.sbs
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 94c851f2-1fdb-4d16-8e34-f0ff5cc903d7
+  ws-opts:
+    headers:
+      Host: mg01.jixingwangluo.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 055
+  network: ws
+  port: 443
+  server: denc36.xtooltech.cfd
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: b321fd5d-e6ec-4293-a644-164e3885f52e
+  ws-opts:
+    headers:
+      Host: adenc36v.xtooltech.cfd
+    path: /
+- alterId: 0
+  cipher: auto
+  fingerprint: ''
+  name: 🇮🇷_IR_伊朗->🇫🇷_FR_法国
+  network: tcp
+  port: 9090
+  server: 2.182.174.21
+  sni: ''
+  type: vmess
+  uuid: fddf88ed-8c70-42ad-c12e-5f40841e6f00
+- name: 剩余流量：78.92 GB
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 9900
   server: cghk.xxality.cn
@@ -1155,7 +1163,6 @@ proxy-groups:
   - 加拿大 048
   - 加拿大 047
   - 加拿大 158
-  - 加拿大 055
   - 美国 049
   - 新加坡 002
   - 美国 063
@@ -1178,8 +1185,6 @@ proxy-groups:
   - 加拿大 098
   - 美国 134
   - 加拿大 007
-  - 加拿大 035
-  - 加拿大 040
   - 美国 046
   - 美国 067
   - 加拿大 063
@@ -1211,6 +1216,10 @@ proxy-groups:
   - 美国 210
   - 加拿大 250
   - 美国 214
+  - 加拿大 035
+  - 加拿大 040
+  - 加拿大 055
+  - 🇮🇷_IR_伊朗->🇫🇷_FR_法国
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -1223,7 +1232,6 @@ proxy-groups:
   - 加拿大 048
   - 加拿大 047
   - 加拿大 158
-  - 加拿大 055
   - 美国 049
   - 新加坡 002
   - 美国 063
@@ -1246,8 +1254,6 @@ proxy-groups:
   - 加拿大 098
   - 美国 134
   - 加拿大 007
-  - 加拿大 035
-  - 加拿大 040
   - 美国 046
   - 美国 067
   - 加拿大 063
@@ -1279,6 +1285,10 @@ proxy-groups:
   - 美国 210
   - 加拿大 250
   - 美国 214
+  - 加拿大 035
+  - 加拿大 040
+  - 加拿大 055
+  - 🇮🇷_IR_伊朗->🇫🇷_FR_法国
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
@@ -1327,7 +1337,7 @@ proxy-groups:
   proxies:
   - 自动选择
   - 故障转移
-  - 剩余流量：79.51 GB
+  - 剩余流量：78.92 GB
   - 距离下次重置剩余：21 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
@@ -1362,7 +1372,7 @@ proxy-groups:
 - interval: 86400
   name: 自动选择
   proxies:
-  - 剩余流量：79.51 GB
+  - 剩余流量：78.92 GB
   - 距离下次重置剩余：21 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
@@ -1398,7 +1408,7 @@ proxy-groups:
 - interval: 7200
   name: 故障转移
   proxies:
-  - 剩余流量：79.51 GB
+  - 剩余流量：78.92 GB
   - 距离下次重置剩余：21 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
