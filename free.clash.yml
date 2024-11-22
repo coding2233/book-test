@@ -697,14 +697,14 @@ proxies:
   sni: ''
   type: vmess
   uuid: fddf88ed-8c70-42ad-c12e-5f40841e6f00
-- name: 剩余流量：77.31 GB
+- name: 剩余流量：77.23 GB
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 9900
   server: cghk.xxality.cn
   sni: cghk.hysality.com
   type: trojan
   udp: true
-- name: 距离下次重置剩余：18 天
+- name: 距离下次重置剩余：17 天
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 9900
   server: cghk.xxality.cn
@@ -1071,8 +1071,8 @@ proxy-groups:
   proxies:
   - 自动选择
   - 故障转移
-  - 剩余流量：77.31 GB
-  - 距离下次重置剩余：18 天
+  - 剩余流量：77.23 GB
+  - 距离下次重置剩余：17 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
   - 🇭🇰香港 Mix | IEPL 1X | CM
@@ -1106,8 +1106,8 @@ proxy-groups:
 - interval: 86400
   name: 自动选择
   proxies:
-  - 剩余流量：77.31 GB
-  - 距离下次重置剩余：18 天
+  - 剩余流量：77.23 GB
+  - 距离下次重置剩余：17 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
   - 🇭🇰香港 Mix | IEPL 1X | CM
@@ -1142,8 +1142,8 @@ proxy-groups:
 - interval: 7200
   name: 故障转移
   proxies:
-  - 剩余流量：77.31 GB
-  - 距离下次重置剩余：18 天
+  - 剩余流量：77.23 GB
+  - 距离下次重置剩余：17 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
   - 🇭🇰香港 Mix | IEPL 1X | CM
