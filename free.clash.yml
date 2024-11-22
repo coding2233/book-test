@@ -635,7 +635,16 @@ proxies:
     headers:
       Host: 73012792103530616183052842717949.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
-- name: 剩余流量：77.49 GB
+- alterId: 0
+  cipher: auto
+  name: 🇮🇷_IR_伊朗
+  network: tcp
+  port: 9090
+  server: 2.182.174.21
+  sni: ''
+  type: vmess
+  uuid: fddf88ed-8c70-42ad-c12e-5f40841e6f00
+- name: 剩余流量：77.45 GB
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 9900
   server: cghk.xxality.cn
@@ -903,6 +912,7 @@ proxy-groups:
   - 加拿大 068
   - 加拿大 105
   - 加拿大 109
+  - 🇮🇷_IR_伊朗
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -951,6 +961,7 @@ proxy-groups:
   - 加拿大 068
   - 加拿大 105
   - 加拿大 109
+  - 🇮🇷_IR_伊朗
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
@@ -999,7 +1010,7 @@ proxy-groups:
   proxies:
   - 自动选择
   - 故障转移
-  - 剩余流量：77.49 GB
+  - 剩余流量：77.45 GB
   - 距离下次重置剩余：18 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
@@ -1034,7 +1045,7 @@ proxy-groups:
 - interval: 86400
   name: 自动选择
   proxies:
-  - 剩余流量：77.49 GB
+  - 剩余流量：77.45 GB
   - 距离下次重置剩余：18 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
@@ -1070,7 +1081,7 @@ proxy-groups:
 - interval: 7200
   name: 故障转移
   proxies:
-  - 剩余流量：77.49 GB
+  - 剩余流量：77.45 GB
   - 距离下次重置剩余：18 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
