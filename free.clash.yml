@@ -577,21 +577,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 美国 113
-  network: ws
-  port: 2095
-  server: 104.16.155.10
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1aea9bb2-de26-313c-b35c-8295e620c95b
-  ws-opts:
-    headers:
-      Host: 100-111-231-156.s2.db-link02.top
-    path: /dabai.in172.67.37.120
-- alterId: 0
-  cipher: auto
   name: 加拿大 068
   network: ws
   port: 80
@@ -637,6 +622,74 @@ proxies:
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
+  name: 日本 006
+  network: tcp
+  port: 11304
+  server: 45.159.50.143
+  tls: false
+  type: vmess
+  uuid: d1625892-8e9f-41fa-8ad8-6cc464fd52a6
+- alterId: 0
+  cipher: auto
+  name: 加拿大 137
+  network: ws
+  port: 2087
+  server: 172.67.24.121
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 7a61d2d0-ad6a-469d-ad59-4929b3a4f756
+  ws-opts:
+    headers:
+      Host: OfFeR.MirAclestORy.tOP.
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 143
+  network: ws
+  port: 2082
+  server: s2.db-link02.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1c713b69-0abe-3a1e-bf70-b0579ea2f772
+  ws-opts:
+    headers:
+      Host: 100-207-132-205.s2.db-link02.top
+    path: /dabai.in172.64.25.37
+- alterId: 0
+  cipher: auto
+  name: 加拿大 150
+  network: ws
+  port: 2052
+  server: 104.18.25.92
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  ws-opts:
+    headers:
+      Host: mysan2.jaquay22.workers.dev
+    path: /afrhms16v.bestxray.buzz/linkws
+- alterId: 0
+  cipher: auto
+  name: 加拿大 033
+  network: ws
+  port: 8080
+  server: 172.66.168.173
+  servername: 63057454815634280367285269895900.v2line.net
+  skip-cert-verify: true
+  type: vmess
+  uuid: 0d45efe7-99f1-4cc3-9e0e-66018c2097db
+  ws-opts:
+    headers:
+      Host: 63057454815634280367285269895900.v2line.net
+    path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
+- alterId: 0
+  cipher: auto
   name: 🇮🇷_IR_伊朗
   network: tcp
   port: 9090
@@ -644,7 +697,7 @@ proxies:
   sni: ''
   type: vmess
   uuid: fddf88ed-8c70-42ad-c12e-5f40841e6f00
-- name: 剩余流量：77.45 GB
+- name: 剩余流量：77.31 GB
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 9900
   server: cghk.xxality.cn
@@ -908,10 +961,14 @@ proxy-groups:
   - 美国 096
   - 加拿大 067
   - 美国 108
-  - 美国 113
   - 加拿大 068
   - 加拿大 105
   - 加拿大 109
+  - 日本 006
+  - 加拿大 137
+  - 美国 143
+  - 加拿大 150
+  - 加拿大 033
   - 🇮🇷_IR_伊朗
   type: select
 - interval: 300
@@ -957,10 +1014,14 @@ proxy-groups:
   - 美国 096
   - 加拿大 067
   - 美国 108
-  - 美国 113
   - 加拿大 068
   - 加拿大 105
   - 加拿大 109
+  - 日本 006
+  - 加拿大 137
+  - 美国 143
+  - 加拿大 150
+  - 加拿大 033
   - 🇮🇷_IR_伊朗
   type: url-test
   url: http://www.google.com/generate_204
@@ -1010,7 +1071,7 @@ proxy-groups:
   proxies:
   - 自动选择
   - 故障转移
-  - 剩余流量：77.45 GB
+  - 剩余流量：77.31 GB
   - 距离下次重置剩余：18 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
@@ -1045,7 +1106,7 @@ proxy-groups:
 - interval: 86400
   name: 自动选择
   proxies:
-  - 剩余流量：77.45 GB
+  - 剩余流量：77.31 GB
   - 距离下次重置剩余：18 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
@@ -1081,7 +1142,7 @@ proxy-groups:
 - interval: 7200
   name: 故障转移
   proxies:
-  - 剩余流量：77.45 GB
+  - 剩余流量：77.31 GB
   - 距离下次重置剩余：18 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
