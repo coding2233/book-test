@@ -118,19 +118,6 @@ proxies:
     path: /kiulujunuqs
 - alterId: 0
   cipher: auto
-  name: 加拿大 158
-  network: ws
-  port: 2086
-  server: cfcdn1.sanfencdn9.com
-  tls: false
-  type: vmess
-  uuid: 3f09c198-da80-44ce-a72b-40bc600b2321
-  ws-opts:
-    headers:
-      Host: us77SmSk86j.fzbqfrse.xyz
-    path: /video/Z7qdcrAGRw
-- alterId: 0
-  cipher: auto
   name: 美国 071
   network: ws
   port: 443
@@ -676,13 +663,74 @@ proxies:
     path: /afrhms16v.bestxray.buzz/linkws
 - alterId: 0
   cipher: auto
-  name: 🇷🇺_RU_俄罗斯_2
+  name: 加拿大 126
+  network: ws
+  port: 443
+  server: www.gov.ua
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 5c111ac8-f765-4743-a4c4-3cca3c0a66f0
+  ws-opts:
+    headers:
+      Host: a-c26t.mokeapp.net
+    path: /K68YJG75
+- alterId: 0
+  cipher: auto
+  name: 美国 158
+  network: ws
+  port: 443
+  server: www.gco.gov.qa
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 3f557184-40b7-4d51-b5e5-84a9b5e919ec
+  ws-opts:
+    headers:
+      Host: a-c25t.mokeapp.net
+    path: /K68YJG75
+- alterId: 0
+  cipher: auto
+  name: 美国 160
+  network: tcp
+  port: 38692
+  server: 38.147.165.185
+  tls: false
+  type: vmess
+  uuid: decde5b9-cc9c-4622-9ee6-723378429f4e
+- alterId: 0
+  cipher: auto
+  name: 荷兰 016
   network: tcp
   port: 8081
   server: 194.87.31.160
   type: vmess
   uuid: a7e00c2f-411a-438f-9119-0f022a85a5e3
-- name: 剩余流量：77 GB
+- alterId: 0
+  cipher: auto
+  name: 芬兰 002
+  network: tcp
+  port: 443
+  server: hra.app-browser.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 43eae510-e1bc-4036-e919-86a628f983ef
+  ws-headers:
+    Host: hra.app-browser.org
+- alterId: 0
+  cipher: auto
+  name: 伊朗 007
+  network: tcp
+  port: 9090
+  server: 2.182.174.21
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: fddf88ed-8c70-42ad-c12e-5f40841e6f00
+  ws-headers:
+    Host: 2.182.174.21
+- name: 剩余流量：76.97 GB
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 9900
   server: cghk.xxality.cn
@@ -913,7 +961,6 @@ proxy-groups:
   - 加拿大 203
   - 加拿大 048
   - 加拿大 047
-  - 加拿大 158
   - 美国 071
   - 加拿大 096
   - 瑞典 001
@@ -953,7 +1000,12 @@ proxy-groups:
   - 加拿大 137
   - 美国 143
   - 加拿大 150
-  - 🇷🇺_RU_俄罗斯_2
+  - 加拿大 126
+  - 美国 158
+  - 美国 160
+  - 荷兰 016
+  - 芬兰 002
+  - 伊朗 007
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -965,7 +1017,6 @@ proxy-groups:
   - 加拿大 203
   - 加拿大 048
   - 加拿大 047
-  - 加拿大 158
   - 美国 071
   - 加拿大 096
   - 瑞典 001
@@ -1005,7 +1056,12 @@ proxy-groups:
   - 加拿大 137
   - 美国 143
   - 加拿大 150
-  - 🇷🇺_RU_俄罗斯_2
+  - 加拿大 126
+  - 美国 158
+  - 美国 160
+  - 荷兰 016
+  - 芬兰 002
+  - 伊朗 007
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
@@ -1054,7 +1110,7 @@ proxy-groups:
   proxies:
   - 自动选择
   - 故障转移
-  - 剩余流量：77 GB
+  - 剩余流量：76.97 GB
   - 距离下次重置剩余：17 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
@@ -1089,7 +1145,7 @@ proxy-groups:
 - interval: 86400
   name: 自动选择
   proxies:
-  - 剩余流量：77 GB
+  - 剩余流量：76.97 GB
   - 距离下次重置剩余：17 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
@@ -1125,7 +1181,7 @@ proxy-groups:
 - interval: 7200
   name: 故障转移
   proxies:
-  - 剩余流量：77 GB
+  - 剩余流量：76.97 GB
   - 距离下次重置剩余：17 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
