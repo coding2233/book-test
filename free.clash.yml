@@ -416,7 +416,21 @@ proxies:
     headers:
       Host: http1.9290254.xyz
     path: github.com/Alvin9999
-- name: 剩余流量：74.16 GB
+- alterId: 0
+  cipher: auto
+  name: 美国 032
+  network: ws
+  port: 45678
+  server: us.biu001.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 10dfe2ec-dbd1-4c15-99d5-51cb4a820401
+  ws-opts:
+    headers:
+      Host: us.biu001.xyz
+    path: /
+- name: 剩余流量：74.15 GB
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 9900
   server: cghk.xxality.cn
@@ -668,6 +682,7 @@ proxy-groups:
   - 美国 009
   - 加拿大 027
   - 美国 019
+  - 美国 032
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -700,6 +715,7 @@ proxy-groups:
   - 美国 009
   - 加拿大 027
   - 美国 019
+  - 美国 032
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
@@ -748,7 +764,7 @@ proxy-groups:
   proxies:
   - 自动选择
   - 故障转移
-  - 剩余流量：74.16 GB
+  - 剩余流量：74.15 GB
   - 距离下次重置剩余：13 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
@@ -783,7 +799,7 @@ proxy-groups:
 - interval: 86400
   name: 自动选择
   proxies:
-  - 剩余流量：74.16 GB
+  - 剩余流量：74.15 GB
   - 距离下次重置剩余：13 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
@@ -819,7 +835,7 @@ proxy-groups:
 - interval: 7200
   name: 故障转移
   proxies:
-  - 剩余流量：74.16 GB
+  - 剩余流量：74.15 GB
   - 距离下次重置剩余：13 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
