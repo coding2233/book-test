@@ -92,20 +92,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 美国 004
-  network: ws
-  port: 80
-  server: jp2.1vpn.sbs
-  tls: false
-  type: vmess
-  udp: true
-  uuid: df4a2a93-6717-4f90-9856-36d7a44639cc
-  ws-opts:
-    headers:
-      Host: jp2.1vpn.sbs
-    path: /kiulujunuqs
-- alterId: 0
-  cipher: auto
   name: 美国 071
   network: ws
   port: 443
@@ -280,20 +266,6 @@ proxies:
     path: /dabai.in172.64.25.37
 - alterId: 0
   cipher: auto
-  name: 美国 166
-  network: ws
-  port: 443
-  server: www.gco.gov.qa
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 3f557184-40b7-4d51-b5e5-84a9b5e919ec
-  ws-opts:
-    headers:
-      Host: a-c25t.mokeapp.net
-    path: /K68YJG75
-- alterId: 0
-  cipher: auto
   name: 加拿大 026
   network: ws
   port: 8080
@@ -349,90 +321,7 @@ proxies:
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
-  name: 加拿大 002
-  network: ws
-  port: 80
-  server: yx.sulink.one
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3f74aea1-5f0c-4bc4-a834-e9adf3d3c6c4
-  ws-opts:
-    headers:
-      Host: us5.sulink.one
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 005
-  network: ws
-  port: 80
-  server: jx.jixingnetwork.sbs
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 79a1d48b-df32-46de-b566-3a038194068a
-  ws-opts:
-    headers:
-      Host: mg01.jixingwangluo.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 美国 009
-  network: ws
-  port: 2052
-  server: 104.18.24.92
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
-  ws-opts:
-    headers:
-      Host: mysan2.jaquay22.workers.dev
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 027
-  network: ws
-  port: 2052
-  server: 104.16.38.71
-  tls: false
-  type: vmess
-  uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
-  ws-opts:
-    headers:
-      Host: us6_0.wish.ml
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 美国 019
-  network: ws
-  port: 8443
-  server: 104.21.238.200
-  servername: http1.9290254.xyz
-  tls: true
-  type: vmess
-  uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43
-  ws-opts:
-    headers:
-      Host: http1.9290254.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 美国 032
-  network: ws
-  port: 45678
-  server: us.biu001.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 10dfe2ec-dbd1-4c15-99d5-51cb4a820401
-  ws-opts:
-    headers:
-      Host: us.biu001.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 美国 034
+  name: 美国 038
   network: ws
   port: 443
   server: lix523052.ggfF.Net
@@ -447,37 +336,7 @@ proxies:
     path: /linja05.hwcar.sbs:443/linkws
 - alterId: 0
   cipher: auto
-  name: 加拿大 019
-  network: ws
-  port: 443
-  server: lix523052.gGFf.Net
-  servername: lix523052.ggFF.nEt
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
-  ws-opts:
-    headers:
-      Host: lix523052.ggFF.nEt
-    path: /jahfkjha.cfd:443/linkws
-- alterId: 0
-  cipher: auto
-  name: 美国 038
-  network: ws
-  port: 443
-  server: lix523052.GGfF.NEt
-  servername: lix523052.ggfF.nET
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 62aa5f80-0328-4004-a375-7f5a59df4022
-  ws-opts:
-    headers:
-      Host: lix523052.ggfF.nET
-    path: /hms19.best-tizi.top:443/linkws
-- alterId: 0
-  cipher: auto
-  name: 美国 039
+  name: 美国 040
   network: ws
   port: 8880
   server: 104.18.114.235
@@ -490,47 +349,46 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 加拿大 024
+  name: 加拿大 033
   network: ws
   port: 8880
-  server: fr-new01.daluquan.top
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4b9a43f2-b26d-4b56-afe5-2b6678add939
-  ws-opts:
-    headers:
-      Host: fr-new01.daluquan.top
-    path: /itdog?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 美国 090
-  network: ws
-  port: 8880
-  server: us-new01.daluquan.top
+  server: us-new03.daluquan.top
   tls: false
   type: vmess
   udp: true
   uuid: af34f93b-1846-4ddc-bdb8-b37819cd1b0e
   ws-opts:
     headers:
-      Host: us-new01.daluquan.top
+      Host: us-new03.daluquan.top
     path: /itdog?ed=2560
 - alterId: 0
   cipher: auto
-  name: 美国 094
+  name: 美国 100
   network: ws
-  port: 443
-  server: 104.21.83.247
-  skip-cert-verify: false
-  tls: true
+  port: 2086
+  server: 104.26.0.163
+  servername: p1.613055.xyz
   type: vmess
-  uuid: 290680b7-8f09-4a38-8b50-0f3149c05799
+  uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde
   ws-opts:
     headers:
-      Host: download.game-one.ir
+      Host: p1.613055.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 美国 031
+  network: ws
+  port: 80
+  server: ae2.127414.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6e1efe0c-9f5a-42fa-8491-155ec86034cc
+  ws-opts:
+    headers:
+      Host: ae2.127414.xyz
     path: /
-- name: 剩余流量：74.1 GB
+- name: 剩余流量：74.09 GB
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 9900
   server: cghk.xxality.cn
@@ -759,7 +617,6 @@ proxy-groups:
   - 加拿大 192
   - 加拿大 203
   - 加拿大 048
-  - 美国 004
   - 美国 071
   - 加拿大 116
   - 美国 106
@@ -772,24 +629,15 @@ proxy-groups:
   - 加拿大 040
   - 美国 131
   - 美国 147
-  - 美国 166
   - 加拿大 026
   - 加拿大 183
   - 美国 033
   - 美国 047
-  - 加拿大 002
-  - 加拿大 005
-  - 美国 009
-  - 加拿大 027
-  - 美国 019
-  - 美国 032
-  - 美国 034
-  - 加拿大 019
   - 美国 038
-  - 美国 039
-  - 加拿大 024
-  - 美国 090
-  - 美国 094
+  - 美国 040
+  - 加拿大 033
+  - 美国 100
+  - 美国 031
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -799,7 +647,6 @@ proxy-groups:
   - 加拿大 192
   - 加拿大 203
   - 加拿大 048
-  - 美国 004
   - 美国 071
   - 加拿大 116
   - 美国 106
@@ -812,24 +659,15 @@ proxy-groups:
   - 加拿大 040
   - 美国 131
   - 美国 147
-  - 美国 166
   - 加拿大 026
   - 加拿大 183
   - 美国 033
   - 美国 047
-  - 加拿大 002
-  - 加拿大 005
-  - 美国 009
-  - 加拿大 027
-  - 美国 019
-  - 美国 032
-  - 美国 034
-  - 加拿大 019
   - 美国 038
-  - 美国 039
-  - 加拿大 024
-  - 美国 090
-  - 美国 094
+  - 美国 040
+  - 加拿大 033
+  - 美国 100
+  - 美国 031
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
@@ -878,7 +716,7 @@ proxy-groups:
   proxies:
   - 自动选择
   - 故障转移
-  - 剩余流量：74.1 GB
+  - 剩余流量：74.09 GB
   - 距离下次重置剩余：12 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
@@ -913,7 +751,7 @@ proxy-groups:
 - interval: 86400
   name: 自动选择
   proxies:
-  - 剩余流量：74.1 GB
+  - 剩余流量：74.09 GB
   - 距离下次重置剩余：12 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
@@ -949,7 +787,7 @@ proxy-groups:
 - interval: 7200
   name: 故障转移
   proxies:
-  - 剩余流量：74.1 GB
+  - 剩余流量：74.09 GB
   - 距离下次重置剩余：12 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
