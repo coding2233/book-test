@@ -388,7 +388,49 @@ proxies:
     headers:
       Host: ae2.127414.xyz
     path: /
-- name: 剩余流量：73.89 GB
+- alterId: 0
+  cipher: auto
+  name: 加拿大 013
+  network: ws
+  port: 80
+  server: br1.127414.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: bbbb97bd-f55f-4197-b977-bb71da4d32a8
+  ws-opts:
+    headers:
+      Host: br1.127414.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 015
+  network: ws
+  port: 8080
+  server: 104.18.202.250
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
+  ws-opts:
+    headers:
+      Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 022
+  network: ws
+  port: 2082
+  server: 104.16.60.8
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  ws-opts:
+    headers:
+      Host: worker-noisy-paper-fa00.hetoj18200.workers.dev
+    path: /
+- name: 剩余流量：73.76 GB
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 9900
   server: cghk.xxality.cn
@@ -638,6 +680,9 @@ proxy-groups:
   - 加拿大 033
   - 美国 100
   - 美国 031
+  - 加拿大 013
+  - 加拿大 015
+  - 加拿大 022
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -668,6 +713,9 @@ proxy-groups:
   - 加拿大 033
   - 美国 100
   - 美国 031
+  - 加拿大 013
+  - 加拿大 015
+  - 加拿大 022
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
@@ -716,7 +764,7 @@ proxy-groups:
   proxies:
   - 自动选择
   - 故障转移
-  - 剩余流量：73.89 GB
+  - 剩余流量：73.76 GB
   - 距离下次重置剩余：11 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
@@ -751,7 +799,7 @@ proxy-groups:
 - interval: 86400
   name: 自动选择
   proxies:
-  - 剩余流量：73.89 GB
+  - 剩余流量：73.76 GB
   - 距离下次重置剩余：11 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
@@ -787,7 +835,7 @@ proxy-groups:
 - interval: 7200
   name: 故障转移
   proxies:
-  - 剩余流量：73.89 GB
+  - 剩余流量：73.76 GB
   - 距离下次重置剩余：11 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
