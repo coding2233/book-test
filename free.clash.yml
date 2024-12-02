@@ -259,6 +259,16 @@ proxies:
     headers:
       Host: p1.613055.xyz
     path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  fingerprint: ''
+  name: 🇦🇺_AU_澳大利亚->🇺🇸_US_美国
+  network: tcp
+  port: 21741
+  server: 82.115.16.179
+  sni: ''
+  type: vmess
+  uuid: 8a84e500-fc09-418c-a0f6-865320566b81
 - name: 剩余流量：73.56 GB
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 9900
@@ -514,6 +524,7 @@ proxy-groups:
   - 美国 040
   - 加拿大 033
   - 美国 100
+  - 🇦🇺_AU_澳大利亚->🇺🇸_US_美国
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -535,6 +546,7 @@ proxy-groups:
   - 美国 040
   - 加拿大 033
   - 美国 100
+  - 🇦🇺_AU_澳大利亚->🇺🇸_US_美国
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
