@@ -206,21 +206,6 @@ proxies:
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
-  name: 美国 038
-  network: ws
-  port: 443
-  server: lix523052.ggfF.Net
-  servername: lix523052.GgfF.NeT
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53
-  ws-opts:
-    headers:
-      Host: lix523052.GgfF.NeT
-    path: /linja05.hwcar.sbs:443/linkws
-- alterId: 0
-  cipher: auto
   name: 美国 040
   network: ws
   port: 8880
@@ -232,20 +217,6 @@ proxies:
     headers:
       Host: m1.106778.xyz
     path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 加拿大 033
-  network: ws
-  port: 8880
-  server: us-new03.daluquan.top
-  tls: false
-  type: vmess
-  udp: true
-  uuid: af34f93b-1846-4ddc-bdb8-b37819cd1b0e
-  ws-opts:
-    headers:
-      Host: us-new03.daluquan.top
-    path: /itdog?ed=2560
 - alterId: 0
   cipher: auto
   name: 美国 100
@@ -269,7 +240,7 @@ proxies:
   sni: ''
   type: vmess
   uuid: 8a84e500-fc09-418c-a0f6-865320566b81
-- name: 剩余流量：73.56 GB
+- name: 剩余流量：73.53 GB
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 9900
   server: cghk.xxality.cn
@@ -520,9 +491,7 @@ proxy-groups:
   - 加拿大 040
   - 美国 131
   - 美国 033
-  - 美国 038
   - 美国 040
-  - 加拿大 033
   - 美国 100
   - 🇦🇺_AU_澳大利亚->🇺🇸_US_美国
   type: select
@@ -542,9 +511,7 @@ proxy-groups:
   - 加拿大 040
   - 美国 131
   - 美国 033
-  - 美国 038
   - 美国 040
-  - 加拿大 033
   - 美国 100
   - 🇦🇺_AU_澳大利亚->🇺🇸_US_美国
   type: url-test
@@ -595,7 +562,7 @@ proxy-groups:
   proxies:
   - 自动选择
   - 故障转移
-  - 剩余流量：73.56 GB
+  - 剩余流量：73.53 GB
   - 距离下次重置剩余：8 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
@@ -632,7 +599,7 @@ proxy-groups:
 - interval: 86400
   name: 自动选择
   proxies:
-  - 剩余流量：73.56 GB
+  - 剩余流量：73.53 GB
   - 距离下次重置剩余：8 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
@@ -670,7 +637,7 @@ proxy-groups:
 - interval: 7200
   name: 故障转移
   proxies:
-  - 剩余流量：73.56 GB
+  - 剩余流量：73.53 GB
   - 距离下次重置剩余：8 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
