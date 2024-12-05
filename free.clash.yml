@@ -326,6 +326,64 @@ proxies:
     headers:
       Host: 39238319310964543920519489701900.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
+- alterId: 0
+  cipher: auto
+  name: 美国 089
+  network: ws
+  port: 80
+  server: jp2.1vpn.sbs
+  tls: false
+  type: vmess
+  udp: true
+  uuid: df4a2a93-6717-4f90-9856-36d7a44639cc
+  ws-opts:
+    headers:
+      Host: jp2.1vpn.sbs
+    path: /kiulujunuqs
+- alterId: 0
+  cipher: auto
+  name: 美国 010
+  network: ws
+  port: 443
+  server: sgcft01.xqc.best
+  servername: d16henb377mok4.cloudfront.net
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 04da9c6c-509e-4d9b-ac97-a5d595db9f9b
+  ws-opts:
+    headers:
+      Host: d16henb377mok4.cloudfront.net
+    path: /stream
+- alterId: 0
+  cipher: auto
+  name: 加拿大 011
+  network: ws
+  port: 2052
+  server: jx.jixingnetwork.sbs
+  tls: false
+  type: vmess
+  udp: true
+  uuid: fb92324e-6a01-48b9-9adb-1ea67af6e09c
+  ws-opts:
+    headers:
+      Host: rb03.jixingnetwork.sbs
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 091
+  network: ws
+  port: 443
+  server: 104.21.83.115
+  servername: hms02.fxiaomi.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
+  ws-opts:
+    headers:
+      Host: hms02.fxiaomi.sbs
+    path: /
 - name: 剩余流量：72.81 GB
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 9900
@@ -579,6 +637,10 @@ proxy-groups:
   - 加拿大 006
   - 美国 054
   - 加拿大 013
+  - 美国 089
+  - 美国 010
+  - 加拿大 011
+  - 美国 091
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -605,6 +667,10 @@ proxy-groups:
   - 加拿大 006
   - 美国 054
   - 加拿大 013
+  - 美国 089
+  - 美国 010
+  - 加拿大 011
+  - 美国 091
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
