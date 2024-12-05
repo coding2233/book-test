@@ -384,73 +384,80 @@ proxies:
     headers:
       Host: hms02.fxiaomi.sbs
     path: /
-- name: 剩余流量：72.81 GB
+- name: 剩余流量：68.2 GB
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
-  port: 9900
-  server: cghk.xxality.cn
+  port: 33000
+  server: 36.150.27.56
   sni: cghk.hysality.com
   type: trojan
   udp: true
-- name: 距离下次重置剩余：5 天
+- name: 距离下次重置剩余：4 天
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
-  port: 9900
-  server: cghk.xxality.cn
+  port: 33000
+  server: 36.150.27.56
   sni: cghk.hysality.com
   type: trojan
   udp: true
 - name: 套餐到期：2024-12-10
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
-  port: 9900
-  server: cghk.xxality.cn
+  port: 33000
+  server: 36.150.27.56
   sni: cghk.hysality.com
   type: trojan
   udp: true
 - name: '官網: www.cyberguard.best'
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
-  port: 9900
-  server: cghk.xxality.cn
+  port: 33000
+  server: 36.150.27.56
   sni: cghk.hysality.com
   type: trojan
   udp: true
-- name: 🇭🇰香港 01 | IEPL 1X | CM
+- name: 🇭🇰香港 01 | IEPL + HKT 1X | CM
+  password: a154aaab-d71b-494f-bd4d-0e4f139148f0
+  port: 33000
+  server: 36.150.27.56
+  sni: cghk.hysality.com
+  type: trojan
+  udp: true
+- name: 🇭🇰香港 02 | IEPL + HKT 1X | CM
+  password: a154aaab-d71b-494f-bd4d-0e4f139148f0
+  port: 33000
+  server: 36.150.27.56
+  sni: cghk.hysality.com
+  type: trojan
+  udp: true
+- name: 🇭🇰香港 03 | IEPL 3X | CM
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 9900
   server: cghk.xxality.cn
   sni: cghk.hysality.com
   type: trojan
   udp: true
-- name: 🇭🇰香港 02 | IEPL + HKT 1.7X | GZCM
+- name: 🇭🇰香港 04 | IEPL 3X | CM
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
-  port: 35000
+  port: 9900
   server: cghk.xxality.cn
   sni: cghk.hysality.com
   type: trojan
   udp: true
-- name: 🇭🇰香港 03 | IEPL + HKT 1.7X | CM
-  password: a154aaab-d71b-494f-bd4d-0e4f139148f0
-  port: 50833
-  server: cmcc.xxality.cn
-  sni: cghk.hysality.com
-  type: trojan
-  udp: true
-- name: 🇯🇵日本 01 | IEPL 1X | CM
+- name: 🇯🇵日本 01 | IEPL 3X | CM
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 35000
   server: cghk.xxality.cn
   sni: cgjp.hysality.com
   type: trojan
   udp: true
-- name: 🇯🇵日本 02 | IEPL 1.7X | SZCT
+- name: 🇯🇵日本 02 | IEPL 1X | CM
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
-  port: 34154
-  server: ct.xxality.cn
+  port: 33000
+  server: 36.150.27.56
   sni: cgjp.hysality.com
   type: trojan
   udp: true
-- name: 🇯🇵日本 03 | ISP + UDP 3.1X | SZCT
+- name: 🇯🇵日本 03 | ISP + UDP 1X | CM
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
-  port: 43812
-  server: cmcc.xxality.cn
+  port: 33000
+  server: 36.150.27.56
   sni: cgjp3.hysality.com
   type: trojan
   udp: true
@@ -468,140 +475,133 @@ proxies:
   sni: cgsg.hysality.com
   type: trojan
   udp: true
-- name: 🇺🇸美国 01 | IEPL 1X | CM
+- name: 🇺🇸美国 01 | IEPL 1.7X | CM
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 35000
   server: cghk.xxality.cn
   sni: cgus.hysality.com
   type: trojan
   udp: true
-- name: 🇺🇸美国 02 | IEPL 1X | CM
+- name: 🇺🇸美国 02 | IEPL 1.7X | CM
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 35000
   server: cghk.xxality.cn
   sni: cgus.hysality.com
   type: trojan
   udp: true
-- name: 🇺🇸美国 03 | IEPL 1.7X | SZCT
+- name: 🇺🇸美国 03 | IEPL 0.8X | CM
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
-  port: 55222
-  server: ct.xxality.cn
+  port: 33000
+  server: 36.150.27.56
   sni: cgus.hysality.com
   type: trojan
   udp: true
-- name: 🇦🇺澳大利亚 01 | IEPL 1X | CM
+- name: 🇦🇺澳大利亚 01 | IEPL 1.7X | CM
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 35000
   server: cghk.xxality.cn
   sni: cgau.hysality.com
   type: trojan
   udp: true
-- name: 🇦🇺澳大利亚 02 | IEPL 1.7X | SZCT
+- name: 🇦🇺澳大利亚 02 | IEPL 0.8X | CM
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
-  port: 42451
-  server: ct.xxality.cn
+  port: 33000
+  server: 36.150.27.56
   sni: cgau.hysality.com
   type: trojan
   udp: true
-- name: 🇩🇪德国 01 | IEPL 1X | CM
+- name: 🇩🇪德国 01 | IEPL 1.7X | CM
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 35000
   server: cghk.xxality.cn
   sni: cgde.hysality.com
   type: trojan
   udp: true
-- name: 🇩🇪德国 02 | IEPL 1.7X | SZCT
+- name: 🇩🇪德国 02 | IEPL 0.8X | CM
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
-  port: 55806
-  server: ct.xxality.cn
+  port: 33000
+  server: 36.150.27.56
   sni: cgde.hysality.com
   type: trojan
   udp: true
-- name: 🇰🇷韩国 01 | IEPL 1X | CM
+- name: 🇰🇷韩国 01 | IEPL 1.7X | CM
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 35000
   server: cghk.xxality.cn
   sni: cgkr.hysality.com
   type: trojan
   udp: true
-- name: 🇰🇷韩国 02 | IEPL 1X | CM
+- name: 🇰🇷韩国 02 | IEPL 1.7X | CM
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 35000
   server: cghk.xxality.cn
   sni: cgkr.hysality.com
   type: trojan
   udp: true
-- name: 🇰🇷韩国 03 | IEPL 1.7X | SZCT
+- name: 🇰🇷韩国 03 | IEPL 0.8X | CM
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
-  port: 64688
-  server: ct.xxality.cn
+  port: 33000
+  server: 36.150.27.56
   sni: cgkr.hysality.com
   type: trojan
   udp: true
-- name: 🇫🇷法国 01 | IEPL 1X | CM
+- name: 🇫🇷法国 01 | IEPL 1.7X | CM
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 35000
   server: cghk.xxality.cn
   sni: cgfr.hysality.com
   type: trojan
   udp: true
-- name: 🇫🇷法国 02 | IEPL 1.7X | SZCT
+- name: 🇫🇷法国 02 | IEPL 0.8X | CM
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
-  port: 25852
-  server: ct.xxality.cn
+  port: 33000
+  server: 36.150.27.56
   sni: cgfr.hysality.com
   type: trojan
   udp: true
-- name: 🇦🇪迪拜 01 | IEPL 1X | CM
+- name: 🇦🇪迪拜 01 | IEPL 1.7X | CM
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 35000
   server: cghk.xxality.cn
   sni: cgae.hysality.com
   type: trojan
   udp: true
-- name: 🇦🇪迪拜 02 | IEPL 1.7X | SZCT
+- name: 🇦🇪迪拜 02 | IEPL 0.8X | CM
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
-  port: 57280
-  server: ct.xxality.cn
+  port: 33000
+  server: 36.150.27.56
   sni: cgae.hysality.com
   type: trojan
   udp: true
-- name: 🇦🇪迪拜 03 | IPLC + UDP 3.1X | CT
-  password: a154aaab-d71b-494f-bd4d-0e4f139148f0
-  port: 58900
-  server: cg.jp.xxality.cn
-  sni: cgjp2.hysality.com
-  type: trojan
-  udp: true
-- name: 🇬🇧英国 01 | IEPL 1X | CM
+- name: 🇬🇧英国 01 | IEPL 1.7X | CM
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 35000
   server: cghk.xxality.cn
   sni: cggb.hysality.com
   type: trojan
   udp: true
-- name: 🇬🇧英国 02 | IEPL 1.7X | SZCT
+- name: 🇬🇧英国 02 | IEPL 0.8X | CM
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
-  port: 34787
-  server: ct.xxality.cn
+  port: 33000
+  server: 36.150.27.56
   sni: cggb.hysality.com
   type: trojan
   udp: true
-- name: 🇮🇳印度 01 | IEPL 1X | CM
+- name: 🇮🇳印度 01 | IEPL 1.7X | CM
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 35000
   server: cghk.xxality.cn
   sni: cgin.hysality.com
   type: trojan
   udp: true
-- name: 🇮🇳印度 02 | IEPL 1X | CM
+- name: 🇮🇳印度 02 | IEPL 1.7X | CM
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 35000
   server: cghk.xxality.cn
   sni: cgin.hysality.com
   type: trojan
   udp: true
-- name: 🇮🇳印度 03 | IEPL 1X | CM
+- name: 🇮🇳印度 03 | IEPL 1.7X | CM
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 35000
   server: cghk.xxality.cn
@@ -719,111 +719,111 @@ proxy-groups:
   proxies:
   - 自动选择
   - 故障转移
-  - 剩余流量：72.81 GB
-  - 距离下次重置剩余：5 天
+  - 剩余流量：68.2 GB
+  - 距离下次重置剩余：4 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
-  - 🇭🇰香港 01 | IEPL 1X | CM
-  - 🇭🇰香港 02 | IEPL + HKT 1.7X | GZCM
-  - 🇭🇰香港 03 | IEPL + HKT 1.7X | CM
-  - 🇯🇵日本 01 | IEPL 1X | CM
-  - 🇯🇵日本 02 | IEPL 1.7X | SZCT
-  - 🇯🇵日本 03 | ISP + UDP 3.1X | SZCT
+  - 🇭🇰香港 01 | IEPL + HKT 1X | CM
+  - 🇭🇰香港 02 | IEPL + HKT 1X | CM
+  - 🇭🇰香港 03 | IEPL 3X | CM
+  - 🇭🇰香港 04 | IEPL 3X | CM
+  - 🇯🇵日本 01 | IEPL 3X | CM
+  - 🇯🇵日本 02 | IEPL 1X | CM
+  - 🇯🇵日本 03 | ISP + UDP 1X | CM
   - 🇯🇵日本 04 | ISP + UDP 3.1X | CM
   - 🇸🇬新加坡 01 | IPLC + UDP 3.1X | CT
-  - 🇺🇸美国 01 | IEPL 1X | CM
-  - 🇺🇸美国 02 | IEPL 1X | CM
-  - 🇺🇸美国 03 | IEPL 1.7X | SZCT
-  - 🇦🇺澳大利亚 01 | IEPL 1X | CM
-  - 🇦🇺澳大利亚 02 | IEPL 1.7X | SZCT
-  - 🇩🇪德国 01 | IEPL 1X | CM
-  - 🇩🇪德国 02 | IEPL 1.7X | SZCT
-  - 🇰🇷韩国 01 | IEPL 1X | CM
-  - 🇰🇷韩国 02 | IEPL 1X | CM
-  - 🇰🇷韩国 03 | IEPL 1.7X | SZCT
-  - 🇫🇷法国 01 | IEPL 1X | CM
-  - 🇫🇷法国 02 | IEPL 1.7X | SZCT
-  - 🇦🇪迪拜 01 | IEPL 1X | CM
-  - 🇦🇪迪拜 02 | IEPL 1.7X | SZCT
-  - 🇦🇪迪拜 03 | IPLC + UDP 3.1X | CT
-  - 🇬🇧英国 01 | IEPL 1X | CM
-  - 🇬🇧英国 02 | IEPL 1.7X | SZCT
-  - 🇮🇳印度 01 | IEPL 1X | CM
-  - 🇮🇳印度 02 | IEPL 1X | CM
-  - 🇮🇳印度 03 | IEPL 1X | CM
+  - 🇺🇸美国 01 | IEPL 1.7X | CM
+  - 🇺🇸美国 02 | IEPL 1.7X | CM
+  - 🇺🇸美国 03 | IEPL 0.8X | CM
+  - 🇦🇺澳大利亚 01 | IEPL 1.7X | CM
+  - 🇦🇺澳大利亚 02 | IEPL 0.8X | CM
+  - 🇩🇪德国 01 | IEPL 1.7X | CM
+  - 🇩🇪德国 02 | IEPL 0.8X | CM
+  - 🇰🇷韩国 01 | IEPL 1.7X | CM
+  - 🇰🇷韩国 02 | IEPL 1.7X | CM
+  - 🇰🇷韩国 03 | IEPL 0.8X | CM
+  - 🇫🇷法国 01 | IEPL 1.7X | CM
+  - 🇫🇷法国 02 | IEPL 0.8X | CM
+  - 🇦🇪迪拜 01 | IEPL 1.7X | CM
+  - 🇦🇪迪拜 02 | IEPL 0.8X | CM
+  - 🇬🇧英国 01 | IEPL 1.7X | CM
+  - 🇬🇧英国 02 | IEPL 0.8X | CM
+  - 🇮🇳印度 01 | IEPL 1.7X | CM
+  - 🇮🇳印度 02 | IEPL 1.7X | CM
+  - 🇮🇳印度 03 | IEPL 1.7X | CM
   type: select
 - interval: 86400
   name: 自动选择
   proxies:
-  - 剩余流量：72.81 GB
-  - 距离下次重置剩余：5 天
+  - 剩余流量：68.2 GB
+  - 距离下次重置剩余：4 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
-  - 🇭🇰香港 01 | IEPL 1X | CM
-  - 🇭🇰香港 02 | IEPL + HKT 1.7X | GZCM
-  - 🇭🇰香港 03 | IEPL + HKT 1.7X | CM
-  - 🇯🇵日本 01 | IEPL 1X | CM
-  - 🇯🇵日本 02 | IEPL 1.7X | SZCT
-  - 🇯🇵日本 03 | ISP + UDP 3.1X | SZCT
+  - 🇭🇰香港 01 | IEPL + HKT 1X | CM
+  - 🇭🇰香港 02 | IEPL + HKT 1X | CM
+  - 🇭🇰香港 03 | IEPL 3X | CM
+  - 🇭🇰香港 04 | IEPL 3X | CM
+  - 🇯🇵日本 01 | IEPL 3X | CM
+  - 🇯🇵日本 02 | IEPL 1X | CM
+  - 🇯🇵日本 03 | ISP + UDP 1X | CM
   - 🇯🇵日本 04 | ISP + UDP 3.1X | CM
   - 🇸🇬新加坡 01 | IPLC + UDP 3.1X | CT
-  - 🇺🇸美国 01 | IEPL 1X | CM
-  - 🇺🇸美国 02 | IEPL 1X | CM
-  - 🇺🇸美国 03 | IEPL 1.7X | SZCT
-  - 🇦🇺澳大利亚 01 | IEPL 1X | CM
-  - 🇦🇺澳大利亚 02 | IEPL 1.7X | SZCT
-  - 🇩🇪德国 01 | IEPL 1X | CM
-  - 🇩🇪德国 02 | IEPL 1.7X | SZCT
-  - 🇰🇷韩国 01 | IEPL 1X | CM
-  - 🇰🇷韩国 02 | IEPL 1X | CM
-  - 🇰🇷韩国 03 | IEPL 1.7X | SZCT
-  - 🇫🇷法国 01 | IEPL 1X | CM
-  - 🇫🇷法国 02 | IEPL 1.7X | SZCT
-  - 🇦🇪迪拜 01 | IEPL 1X | CM
-  - 🇦🇪迪拜 02 | IEPL 1.7X | SZCT
-  - 🇦🇪迪拜 03 | IPLC + UDP 3.1X | CT
-  - 🇬🇧英国 01 | IEPL 1X | CM
-  - 🇬🇧英国 02 | IEPL 1.7X | SZCT
-  - 🇮🇳印度 01 | IEPL 1X | CM
-  - 🇮🇳印度 02 | IEPL 1X | CM
-  - 🇮🇳印度 03 | IEPL 1X | CM
+  - 🇺🇸美国 01 | IEPL 1.7X | CM
+  - 🇺🇸美国 02 | IEPL 1.7X | CM
+  - 🇺🇸美国 03 | IEPL 0.8X | CM
+  - 🇦🇺澳大利亚 01 | IEPL 1.7X | CM
+  - 🇦🇺澳大利亚 02 | IEPL 0.8X | CM
+  - 🇩🇪德国 01 | IEPL 1.7X | CM
+  - 🇩🇪德国 02 | IEPL 0.8X | CM
+  - 🇰🇷韩国 01 | IEPL 1.7X | CM
+  - 🇰🇷韩国 02 | IEPL 1.7X | CM
+  - 🇰🇷韩国 03 | IEPL 0.8X | CM
+  - 🇫🇷法国 01 | IEPL 1.7X | CM
+  - 🇫🇷法国 02 | IEPL 0.8X | CM
+  - 🇦🇪迪拜 01 | IEPL 1.7X | CM
+  - 🇦🇪迪拜 02 | IEPL 0.8X | CM
+  - 🇬🇧英国 01 | IEPL 1.7X | CM
+  - 🇬🇧英国 02 | IEPL 0.8X | CM
+  - 🇮🇳印度 01 | IEPL 1.7X | CM
+  - 🇮🇳印度 02 | IEPL 1.7X | CM
+  - 🇮🇳印度 03 | IEPL 1.7X | CM
   type: url-test
   url: http://www.gstatic.com/generate_204
 - interval: 7200
   name: 故障转移
   proxies:
-  - 剩余流量：72.81 GB
-  - 距离下次重置剩余：5 天
+  - 剩余流量：68.2 GB
+  - 距离下次重置剩余：4 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
-  - 🇭🇰香港 01 | IEPL 1X | CM
-  - 🇭🇰香港 02 | IEPL + HKT 1.7X | GZCM
-  - 🇭🇰香港 03 | IEPL + HKT 1.7X | CM
-  - 🇯🇵日本 01 | IEPL 1X | CM
-  - 🇯🇵日本 02 | IEPL 1.7X | SZCT
-  - 🇯🇵日本 03 | ISP + UDP 3.1X | SZCT
+  - 🇭🇰香港 01 | IEPL + HKT 1X | CM
+  - 🇭🇰香港 02 | IEPL + HKT 1X | CM
+  - 🇭🇰香港 03 | IEPL 3X | CM
+  - 🇭🇰香港 04 | IEPL 3X | CM
+  - 🇯🇵日本 01 | IEPL 3X | CM
+  - 🇯🇵日本 02 | IEPL 1X | CM
+  - 🇯🇵日本 03 | ISP + UDP 1X | CM
   - 🇯🇵日本 04 | ISP + UDP 3.1X | CM
   - 🇸🇬新加坡 01 | IPLC + UDP 3.1X | CT
-  - 🇺🇸美国 01 | IEPL 1X | CM
-  - 🇺🇸美国 02 | IEPL 1X | CM
-  - 🇺🇸美国 03 | IEPL 1.7X | SZCT
-  - 🇦🇺澳大利亚 01 | IEPL 1X | CM
-  - 🇦🇺澳大利亚 02 | IEPL 1.7X | SZCT
-  - 🇩🇪德国 01 | IEPL 1X | CM
-  - 🇩🇪德国 02 | IEPL 1.7X | SZCT
-  - 🇰🇷韩国 01 | IEPL 1X | CM
-  - 🇰🇷韩国 02 | IEPL 1X | CM
-  - 🇰🇷韩国 03 | IEPL 1.7X | SZCT
-  - 🇫🇷法国 01 | IEPL 1X | CM
-  - 🇫🇷法国 02 | IEPL 1.7X | SZCT
-  - 🇦🇪迪拜 01 | IEPL 1X | CM
-  - 🇦🇪迪拜 02 | IEPL 1.7X | SZCT
-  - 🇦🇪迪拜 03 | IPLC + UDP 3.1X | CT
-  - 🇬🇧英国 01 | IEPL 1X | CM
-  - 🇬🇧英国 02 | IEPL 1.7X | SZCT
-  - 🇮🇳印度 01 | IEPL 1X | CM
-  - 🇮🇳印度 02 | IEPL 1X | CM
-  - 🇮🇳印度 03 | IEPL 1X | CM
+  - 🇺🇸美国 01 | IEPL 1.7X | CM
+  - 🇺🇸美国 02 | IEPL 1.7X | CM
+  - 🇺🇸美国 03 | IEPL 0.8X | CM
+  - 🇦🇺澳大利亚 01 | IEPL 1.7X | CM
+  - 🇦🇺澳大利亚 02 | IEPL 0.8X | CM
+  - 🇩🇪德国 01 | IEPL 1.7X | CM
+  - 🇩🇪德国 02 | IEPL 0.8X | CM
+  - 🇰🇷韩国 01 | IEPL 1.7X | CM
+  - 🇰🇷韩国 02 | IEPL 1.7X | CM
+  - 🇰🇷韩国 03 | IEPL 0.8X | CM
+  - 🇫🇷法国 01 | IEPL 1.7X | CM
+  - 🇫🇷法国 02 | IEPL 0.8X | CM
+  - 🇦🇪迪拜 01 | IEPL 1.7X | CM
+  - 🇦🇪迪拜 02 | IEPL 0.8X | CM
+  - 🇬🇧英国 01 | IEPL 1.7X | CM
+  - 🇬🇧英国 02 | IEPL 0.8X | CM
+  - 🇮🇳印度 01 | IEPL 1.7X | CM
+  - 🇮🇳印度 02 | IEPL 1.7X | CM
+  - 🇮🇳印度 03 | IEPL 1.7X | CM
   type: fallback
   url: http://www.gstatic.com/generate_204
 rules:
