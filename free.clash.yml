@@ -412,45 +412,45 @@ proxies:
     headers:
       host: kim.gov.kp
     path: /aries?ed=2048
-- name: 剩余流量：68.19 GB
+- name: 剩余流量：68.17 GB
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 33000
-  server: 36.150.27.56
+  server: gzyd.cg.xxality.cn
   sni: cghk.hysality.com
   type: trojan
   udp: true
 - name: 距离下次重置剩余：4 天
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 33000
-  server: 36.150.27.56
+  server: gzyd.cg.xxality.cn
   sni: cghk.hysality.com
   type: trojan
   udp: true
 - name: 套餐到期：2024-12-10
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 33000
-  server: 36.150.27.56
+  server: gzyd.cg.xxality.cn
   sni: cghk.hysality.com
   type: trojan
   udp: true
 - name: '官網: www.cyberguard.best'
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 33000
-  server: 36.150.27.56
+  server: gzyd.cg.xxality.cn
   sni: cghk.hysality.com
   type: trojan
   udp: true
 - name: 🇭🇰香港 01 | IEPL + HKT 1X | CM
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 33000
-  server: 36.150.27.56
+  server: gzyd.cg.xxality.cn
   sni: cghk.hysality.com
   type: trojan
   udp: true
 - name: 🇭🇰香港 02 | IEPL + HKT 1X | CM
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 33000
-  server: 36.150.27.56
+  server: gzyd.cg.xxality.cn
   sni: cghk.hysality.com
   type: trojan
   udp: true
@@ -478,14 +478,14 @@ proxies:
 - name: 🇯🇵日本 02 | IEPL 1X | CM
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 33000
-  server: 36.150.27.56
+  server: gzyd.cg.xxality.cn
   sni: cgjp.hysality.com
   type: trojan
   udp: true
 - name: 🇯🇵日本 03 | ISP + UDP 1X | CM
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 33000
-  server: 36.150.27.56
+  server: gzyd.cg.xxality.cn
   sni: cgjp3.hysality.com
   type: trojan
   udp: true
@@ -520,7 +520,7 @@ proxies:
 - name: 🇺🇸美国 03 | IEPL 0.8X | CM
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 33000
-  server: 36.150.27.56
+  server: gzyd.cg.xxality.cn
   sni: cgus.hysality.com
   type: trojan
   udp: true
@@ -534,7 +534,7 @@ proxies:
 - name: 🇦🇺澳大利亚 02 | IEPL 0.8X | CM
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 33000
-  server: 36.150.27.56
+  server: gzyd.cg.xxality.cn
   sni: cgau.hysality.com
   type: trojan
   udp: true
@@ -548,7 +548,7 @@ proxies:
 - name: 🇩🇪德国 02 | IEPL 0.8X | CM
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 33000
-  server: 36.150.27.56
+  server: gzyd.cg.xxality.cn
   sni: cgde.hysality.com
   type: trojan
   udp: true
@@ -569,7 +569,7 @@ proxies:
 - name: 🇰🇷韩国 03 | IEPL 0.8X | CM
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 33000
-  server: 36.150.27.56
+  server: gzyd.cg.xxality.cn
   sni: cgkr.hysality.com
   type: trojan
   udp: true
@@ -583,7 +583,7 @@ proxies:
 - name: 🇫🇷法国 02 | IEPL 0.8X | CM
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 33000
-  server: 36.150.27.56
+  server: gzyd.cg.xxality.cn
   sni: cgfr.hysality.com
   type: trojan
   udp: true
@@ -597,7 +597,7 @@ proxies:
 - name: 🇦🇪迪拜 02 | IEPL 0.8X | CM
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 33000
-  server: 36.150.27.56
+  server: gzyd.cg.xxality.cn
   sni: cgae.hysality.com
   type: trojan
   udp: true
@@ -611,7 +611,7 @@ proxies:
 - name: 🇬🇧英国 02 | IEPL 0.8X | CM
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 33000
-  server: 36.150.27.56
+  server: gzyd.cg.xxality.cn
   sni: cggb.hysality.com
   type: trojan
   udp: true
@@ -751,7 +751,7 @@ proxy-groups:
   proxies:
   - 自动选择
   - 故障转移
-  - 剩余流量：68.19 GB
+  - 剩余流量：68.17 GB
   - 距离下次重置剩余：4 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
@@ -787,7 +787,7 @@ proxy-groups:
 - interval: 86400
   name: 自动选择
   proxies:
-  - 剩余流量：68.19 GB
+  - 剩余流量：68.17 GB
   - 距离下次重置剩余：4 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
@@ -824,7 +824,7 @@ proxy-groups:
 - interval: 7200
   name: 故障转移
   proxies:
-  - 剩余流量：68.19 GB
+  - 剩余流量：68.17 GB
   - 距离下次重置剩余：4 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
