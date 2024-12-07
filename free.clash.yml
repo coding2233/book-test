@@ -150,48 +150,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大 007
-  network: ws
-  port: 80
-  server: 198.41.209.70
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
-  ws-opts:
-    headers:
-      Host: chunchuan.kejixiaoqi666.store
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 040
-  network: ws
-  port: 2095
-  server: russia.com
-  tls: false
-  type: vmess
-  uuid: 6658a3a6-225a-4d33-a5d2-82cfde565b4e
-  ws-opts:
-    headers:
-      Host: ssrsub.v03.ssrsub.com
-    path: /api/v3/download.getFile
-- alterId: 0
-  cipher: auto
-  name: 美国 131
-  network: ws
-  port: 2086
-  server: s2.db-link02.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: ac9c5899-29ee-3139-a2ae-b5803a68524f
-  ws-opts:
-    headers:
-      Host: 100-36-256-124.s2.db-link02.top
-    path: /dabai.in104.16.98.32
-- alterId: 0
-  cipher: auto
   name: 美国 033
   network: ws
   port: 8080
@@ -400,14 +358,69 @@ proxies:
     headers:
       Host: it2.127414.xyz
     path: /
-- name: 剩余流量：67.71 GB
+- alterId: 0
+  cipher: auto
+  name: 美国 142
+  network: ws
+  port: 2052
+  server: lol.ps
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  ws-opts:
+    headers:
+      Host: mysan2.jaquay22.workers.dev
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 147
+  network: ws
+  port: 80
+  server: 5e0yC.c6tu5uwk9.buzz
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 53598401-31e1-4ce3-bb2e-6c00a8fc3e01
+  ws-opts:
+    headers:
+      Host: kr01.f3ec-6712-b77e71ff36bc.cfd
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 149
+  network: ws
+  port: 80
+  server: 104.16.155.10
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  ws-opts:
+    headers:
+      Host: chunchuan.kejixiaoqi666.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 079
+  network: ws
+  port: 2052
+  server: 104.16.38.71
+  tls: false
+  type: vmess
+  uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
+  ws-opts:
+    headers:
+      Host: us6_0.wish.ml
+    path: /
+- name: 剩余流量：66.64 GB
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 33000
   server: gzyd.cg.xxality.cn
   sni: cghk.hysality.com
   type: trojan
   udp: true
-- name: 距离下次重置剩余：3 天
+- name: 距离下次重置剩余：2 天
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 33000
   server: gzyd.cg.xxality.cn
@@ -640,9 +653,6 @@ proxy-groups:
   - 加拿大 098
   - 加拿大 201
   - 加拿大 217
-  - 加拿大 007
-  - 加拿大 040
-  - 美国 131
   - 美国 033
   - 美国 040
   - 美国 100
@@ -658,6 +668,10 @@ proxy-groups:
   - 加拿大 011
   - 美国 091
   - 美国 094
+  - 美国 142
+  - 美国 147
+  - 美国 149
+  - 加拿大 079
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -671,9 +685,6 @@ proxy-groups:
   - 加拿大 098
   - 加拿大 201
   - 加拿大 217
-  - 加拿大 007
-  - 加拿大 040
-  - 美国 131
   - 美国 033
   - 美国 040
   - 美国 100
@@ -689,6 +700,10 @@ proxy-groups:
   - 加拿大 011
   - 美国 091
   - 美国 094
+  - 美国 142
+  - 美国 147
+  - 美国 149
+  - 加拿大 079
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
@@ -737,8 +752,8 @@ proxy-groups:
   proxies:
   - 自动选择
   - 故障转移
-  - 剩余流量：67.71 GB
-  - 距离下次重置剩余：3 天
+  - 剩余流量：66.64 GB
+  - 距离下次重置剩余：2 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
   - 🇭🇰香港 01 | IEPL + HKT 1X | CM
@@ -773,8 +788,8 @@ proxy-groups:
 - interval: 86400
   name: 自动选择
   proxies:
-  - 剩余流量：67.71 GB
-  - 距离下次重置剩余：3 天
+  - 剩余流量：66.64 GB
+  - 距离下次重置剩余：2 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
   - 🇭🇰香港 01 | IEPL + HKT 1X | CM
@@ -810,8 +825,8 @@ proxy-groups:
 - interval: 7200
   name: 故障转移
   proxies:
-  - 剩余流量：67.71 GB
-  - 距离下次重置剩余：3 天
+  - 剩余流量：66.64 GB
+  - 距离下次重置剩余：2 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
   - 🇭🇰香港 01 | IEPL + HKT 1X | CM
