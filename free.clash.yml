@@ -400,19 +400,7 @@ proxies:
     headers:
       Host: it2.127414.xyz
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇫🇷_FR_法国
-  network: ws
-  port: 80
-  server: 151.101.2.133
-  type: vmess
-  uuid: a983c698-cae4-4254-d047-51898ccd8ee7
-  ws-opts:
-    headers:
-      host: kim.gov.kp
-    path: /aries?ed=2048
-- name: 剩余流量：68.11 GB
+- name: 剩余流量：68.1 GB
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 33000
   server: gzyd.cg.xxality.cn
@@ -670,7 +658,6 @@ proxy-groups:
   - 加拿大 011
   - 美国 091
   - 美国 094
-  - 🇺🇸_US_美国->🇫🇷_FR_法国
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -702,7 +689,6 @@ proxy-groups:
   - 加拿大 011
   - 美国 091
   - 美国 094
-  - 🇺🇸_US_美国->🇫🇷_FR_法国
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
@@ -751,7 +737,7 @@ proxy-groups:
   proxies:
   - 自动选择
   - 故障转移
-  - 剩余流量：68.11 GB
+  - 剩余流量：68.1 GB
   - 距离下次重置剩余：3 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
@@ -787,7 +773,7 @@ proxy-groups:
 - interval: 86400
   name: 自动选择
   proxies:
-  - 剩余流量：68.11 GB
+  - 剩余流量：68.1 GB
   - 距离下次重置剩余：3 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
@@ -824,7 +810,7 @@ proxy-groups:
 - interval: 7200
   name: 故障转移
   proxies:
-  - 剩余流量：68.11 GB
+  - 剩余流量：68.1 GB
   - 距离下次重置剩余：3 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
