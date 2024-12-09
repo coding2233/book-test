@@ -567,14 +567,7 @@ proxies:
     headers:
       Host: quiet-moon-132a.xetag42714.workers.dev
     path: /
-- name: 剩余流量：66.58 GB
-  password: a154aaab-d71b-494f-bd4d-0e4f139148f0
-  port: 33000
-  server: gzyd.cg.xxality.cn
-  sni: cghk.hysality.com
-  type: trojan
-  udp: true
-- name: 距离下次重置剩余：1 天
+- name: 剩余流量：66.56 GB
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 33000
   server: gzyd.cg.xxality.cn
@@ -928,8 +921,7 @@ proxy-groups:
   proxies:
   - 自动选择
   - 故障转移
-  - 剩余流量：66.58 GB
-  - 距离下次重置剩余：1 天
+  - 剩余流量：66.56 GB
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
   - 🇭🇰香港 01 | IEPL + HKT 1X | CM
@@ -964,8 +956,7 @@ proxy-groups:
 - interval: 86400
   name: 自动选择
   proxies:
-  - 剩余流量：66.58 GB
-  - 距离下次重置剩余：1 天
+  - 剩余流量：66.56 GB
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
   - 🇭🇰香港 01 | IEPL + HKT 1X | CM
@@ -1001,8 +992,7 @@ proxy-groups:
 - interval: 7200
   name: 故障转移
   proxies:
-  - 剩余流量：66.58 GB
-  - 距离下次重置剩余：1 天
+  - 剩余流量：66.56 GB
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
   - 🇭🇰香港 01 | IEPL + HKT 1X | CM
