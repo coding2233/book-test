@@ -302,21 +302,6 @@ proxies:
     path: /kiulujunuqs
 - alterId: 0
   cipher: auto
-  name: 美国 010
-  network: ws
-  port: 443
-  server: sgcft01.xqc.best
-  servername: d16henb377mok4.cloudfront.net
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 04da9c6c-509e-4d9b-ac97-a5d595db9f9b
-  ws-opts:
-    headers:
-      Host: d16henb377mok4.cloudfront.net
-    path: /stream
-- alterId: 0
-  cipher: auto
   name: 加拿大 011
   network: ws
   port: 2052
@@ -521,7 +506,38 @@ proxies:
     headers:
       Host: kim.gov.kp
     path: /aries?ed=2048
-- name: 剩余流量：66.59 GB
+- alterId: 64
+  cipher: auto
+  name: 美国 010
+  network: ws
+  port: 38001
+  server: 38.33.0.248
+  servername: www.30448644.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.30448644.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 美国 182
+  network: ws
+  port: 80
+  server: 170.114.45.51
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 8471e1f6-cfa0-4561-a83e-311253b01130
+  ws-opts:
+    headers:
+      Host: us1.849yht89w.jiesk4pdqcqjo16j.xyz
+    path: /
+- name: 剩余流量：66.58 GB
   password: a154aaab-d71b-494f-bd4d-0e4f139148f0
   port: 33000
   server: gzyd.cg.xxality.cn
@@ -772,7 +788,6 @@ proxy-groups:
   - 美国 054
   - 加拿大 013
   - 美国 089
-  - 美国 010
   - 加拿大 011
   - 美国 091
   - 美国 094
@@ -788,6 +803,8 @@ proxy-groups:
   - 加拿大 090
   - 美国 157
   - 美国 158
+  - 美国 010
+  - 美国 182
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -812,7 +829,6 @@ proxy-groups:
   - 美国 054
   - 加拿大 013
   - 美国 089
-  - 美国 010
   - 加拿大 011
   - 美国 091
   - 美国 094
@@ -828,6 +844,8 @@ proxy-groups:
   - 加拿大 090
   - 美国 157
   - 美国 158
+  - 美国 010
+  - 美国 182
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
@@ -876,7 +894,7 @@ proxy-groups:
   proxies:
   - 自动选择
   - 故障转移
-  - 剩余流量：66.59 GB
+  - 剩余流量：66.58 GB
   - 距离下次重置剩余：1 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
@@ -912,7 +930,7 @@ proxy-groups:
 - interval: 86400
   name: 自动选择
   proxies:
-  - 剩余流量：66.59 GB
+  - 剩余流量：66.58 GB
   - 距离下次重置剩余：1 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
@@ -949,7 +967,7 @@ proxy-groups:
 - interval: 7200
   name: 故障转移
   proxies:
-  - 剩余流量：66.59 GB
+  - 剩余流量：66.58 GB
   - 距离下次重置剩余：1 天
   - 套餐到期：2024-12-10
   - '官網: www.cyberguard.best'
